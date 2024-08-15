@@ -70,12 +70,21 @@ The uala setting here is UALA-S+Backoff, to use Oracle, set the `oracle` variabl
 
 ## Citation
 ```
-@misc{han2024uncertaintyaware,
-      title={Towards Uncertainty-Aware Language Agent}, 
-      author={Jiuzhou Han and Wray Buntine and Ehsan Shareghi},
-      year={2024},
-      eprint={2401.14016},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{han-etal-2024-towards,
+    title = "Towards Uncertainty-Aware Language Agent",
+    author = "Han, Jiuzhou  and
+      Buntine, Wray  and
+      Shareghi, Ehsan",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.398",
+    pages = "6662--6685",
+    abstract = "While Language Agents have achieved promising success by placing Large Language Models at the core of a more versatile design that dynamically interacts with the external world, the existing approaches neglect the notion of uncertainty during these interactions. We present the Uncertainty-Aware Language Agent (UALA), a framework that orchestrates the interaction between the agent and the external world using uncertainty quantification. Compared with other well-known counterparts like ReAct, our extensive experiments across 3 representative tasks (HotpotQA, StrategyQA, MMLU) and various LLM sizes demonstrate that UALA brings a significant improvement of performance, while having a substantially lower reliance on the external world (i.e., reduced number of tool calls and tokens). Our analyses provide various insights including the great potential of UALA compared with agent fine-tuning, and underscore the unreliability of verbalised confidence of LLMs as a proxy for uncertainty.",
 }
 ```

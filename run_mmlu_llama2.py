@@ -4,26 +4,27 @@ import time
 import torch
 import json
 from tqdm import tqdm
-from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer, BitsAndBytesConfig
+from transformers import GenerationConfig, AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from utils.prompter import Prompter
-from peft import PeftModel
 import wikienv, wrappers
 from tqdm import tqdm
 from search import search
 from uncertainty_utils import *
 
-base_model = "meta-llama/Llama-2-70b-hf"
+base_model = "mistralai/Mistral-7B-Instruct-v0.2"
 load_in_4bit = False # set False to use 8-bit
 mode = "uala" # choose from [standard, cot, react, uala]
 oracle = True # whether to use oracle in uala
-save_file_name = "outputs/llama2-mmlu-dev-uala-oracle.jsonl" # saved file name
+save_file_name = "outputs/mistral-mmlu-dev-uala-oracle.jsonl" # saved file name
 
 # load pre-calculated uncertainty threshold based on calibration set
 uncertainty_threshold = 0.43
 
 
-tokenizer = LlamaTokenizer.from_pretrained(base_model)
-prompter = Prompter("llama2")
+tokenizer = AutoTokenizer.from_pretrained(base_model)
+if tokenizer.pad_token is None and tokenizer.eos_token is not None:
+    tokenizer.pad_token = tokenizer.eos_token
+prompter = Prompter("mistral")
 if load_in_4bit:
     bnb_config = BitsAndBytesConfig(
             load_in_4bit=True,
@@ -31,22 +32,25 @@ if load_in_4bit:
             bnb_4bit_compute_dtype=torch.float16,
             bnb_4bit_use_double_quant=True,
     )
-    model = LlamaForCausalLM.from_pretrained(
+    model = AutoModelForCausalLM.from_pretrained(
             base_model,
             quantization_config=bnb_config,
             device_map="auto",
         )
 else:
-    model = LlamaForCausalLM.from_pretrained(
+    bnb_config = BitsAndBytesConfig(load_in_8bit=True)
+    model = AutoModelForCausalLM.from_pretrained(
             base_model,
-            load_in_8bit=True,
-            torch_dtype=torch.float16,
+            quantization_config=bnb_config,
+            dtype=torch.float16,
             device_map="auto",
         )
 
+if getattr(tokenizer, "pad_token_id", None) is not None:
+    model.config.pad_token_id = tokenizer.pad_token_id
 model.eval()
 
-def llama2_prompt(
+def mistral_prompt(
     instruction,
     input=None,
     temperature=0,
@@ -72,6 +76,7 @@ def llama2_prompt(
     with torch.no_grad():
         generation_output = model.generate(
             input_ids=input_ids,
+            attention_mask=inputs.get("attention_mask").to("cuda") if inputs.get("attention_mask") is not None else None,
             generation_config=generation_config,
             return_dict_in_generate=True,
             output_scores=True,
@@ -126,7 +131,7 @@ def standard(idx=None, instruction=instruction_standard, prompt=mmlu_standard_ex
     if to_print:
         print(idx, question)
     prompt += question + "\n"
-    answer, probs = llama2_prompt(instruction, prompt + "Answer:", return_probs=True)
+    answer, probs = mistral_prompt(instruction, prompt + "Answer:", return_probs=True)
     answer = answer.split("\n")[0].strip()
     if to_print:
         print("Answer:", answer)
@@ -146,7 +151,7 @@ def cot(idx=None, instruction=instruction_cot, prompt=mmlu_cot_examples, to_prin
     if to_print:
         print(idx, question)
     prompt += question + "\n"
-    answer, probs = llama2_prompt(instruction, prompt + "Thought:", return_probs=True)
+    answer, probs = mistral_prompt(instruction, prompt + "Thought:", return_probs=True)
     answer = answer.split("\nQuestion:")[0].strip()
     if to_print:
         print("Thought:", answer)
@@ -172,7 +177,7 @@ def react(idx=None, instruction=instruction_react_google, prompt=mmlu_react_exam
     react_probs = []
     for i in range(1, 8):
         n_calls += 1
-        thought_action, thought_action_probs  = llama2_prompt(instruction, prompt + f"Thought:", return_probs=True)
+        thought_action, thought_action_probs  = mistral_prompt(instruction, prompt + f"Thought:", return_probs=True)
         react_probs.append(thought_action_probs)
         try:
             thought = thought_action.strip().split(f"\nAction: ")[0]
@@ -182,7 +187,7 @@ def react(idx=None, instruction=instruction_react_google, prompt=mmlu_react_exam
             n_badcalls += 1
             n_calls += 1
             thought = thought_action.strip().split('\n')[0]
-            action, action_probs = llama2_prompt(instruction, prompt + f"Thought: {thought}\nAction:", return_probs=True)
+            action, action_probs = mistral_prompt(instruction, prompt + f"Thought: {thought}\nAction:", return_probs=True)
             react_probs.append(action_probs)
             action = action.split("\n")[0].strip()
 
@@ -283,6 +288,7 @@ with open(save_file_name,"a") as output_file:
 
             # calculate uncertainty
             uncertainty = cal_uncertainty_single_token(answer_probs)
+            print(f"[Uncertainty] Standard: {uncertainty:.4f} (threshold {uncertainty_threshold})")
 
             # make tool use
             if uncertainty > uncertainty_threshold:
@@ -328,6 +334,7 @@ with open(save_file_name,"a") as output_file:
                         answer_probs = [0.0]
 
                     react_uncertainty = cal_uncertainty_single_token(answer_probs)
+                    print(f"[Uncertainty] ReAct: {react_uncertainty:.4f} (threshold {uncertainty_threshold})")
                     if react_uncertainty > uncertainty_threshold:
                         info["steps"] += 1
                         if oracle:

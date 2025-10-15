@@ -448,17 +448,47 @@ with open(save_file_name,"a") as output_file:
             _write_trace(i, trace)
 
         elif mode == "react":
-            info, _ = react(i, to_print=True, trace=trace)
+            info, react_probs = react(i, to_print=True, trace=trace)
             evals.append(info['em'])
             print(sum(evals), len(evals), sum(evals) / len(evals), (time.time() - old_time) / len(evals))
             print('-----------')
+            # compute uncertainty of the ReAct final answer
+            answer_probs = []
+            for list in react_probs:
+                for key in list:
+                    finish = False
+                    if "Fin" in key:
+                        answer_probs = []
+                        idx = list.index(key)
+                        for i in range(idx+2,len(list)):
+                            for key, value in list[i].items():
+                                if key == '[':
+                                    continue
+                                if key == ']':
+                                    finish = True
+                                    break
+                                answer_probs.append(value)
+                            if finish:
+                                break
+            if not answer_probs:
+                answer_probs = [0.0]
+            react_uncertainty = cal_uncertainty(answer_probs, 5)
+            info["react_uncertainty"] = round(react_uncertainty, 2)
+            print(f"ReAct answer uncertainty: {round(react_uncertainty, 2)} (threshold: {uncertainty_threshold})")
+            _log_event(trace, {
+                "type": "measure_uncertainty",
+                "phase": "react_answer",
+                "uncertainty": round(react_uncertainty, 2),
+                "threshold": uncertainty_threshold,
+                "answer_probs_len": len(answer_probs)
+            })
             info["traj"] = info["traj"].split(hotpotqa_react_examples)[1].strip()
             num_tool_calls += info["n_calls"]
             if info["em"]:
                 num_correct += 1
             output_file.write(json.dumps(info, ensure_ascii=False) + '\n')
             trace["traj"] = info["traj"]
-            trace["summary"] = {"final_answer": info.get("answer"), "em": info.get("em"), "f1": info.get("f1"), "mode": "react", "n_calls": info.get("n_calls"), "n_badcalls": info.get("n_badcalls")}
+            trace["summary"] = {"final_answer": info.get("answer"), "em": info.get("em"), "f1": info.get("f1"), "mode": "react", "n_calls": info.get("n_calls"), "n_badcalls": info.get("n_badcalls"), "react_uncertainty": info.get("react_uncertainty")}
             _write_trace(i, trace)
 
         elif mode == "uala":
@@ -500,6 +530,7 @@ with open(save_file_name,"a") as output_file:
                 "threshold": uncertainty_threshold,
                 "answer_probs_len": len(answer_probs)
             })
+            cot_final_output["cot_uncertainty"] = round(uncertainty, 2)
 
             # make tool use
             if uncertainty > uncertainty_threshold:
@@ -549,6 +580,8 @@ with open(save_file_name,"a") as output_file:
                         answer_probs = [0.0]
 
                     react_uncertainty = cal_uncertainty(answer_probs, 5)
+                    info["react_uncertainty"] = round(react_uncertainty, 2)
+                    info["cot_uncertainty"] = round(uncertainty, 2)
                     _log_event(trace, {
                         "type": "measure_uncertainty",
                         "phase": "react_answer",
@@ -556,6 +589,7 @@ with open(save_file_name,"a") as output_file:
                         "threshold": uncertainty_threshold,
                         "answer_probs_len": len(answer_probs)
                     })
+                    print(f"ReAct answer uncertainty: {round(react_uncertainty, 2)} (threshold: {uncertainty_threshold})")
                     if react_uncertainty > uncertainty_threshold:
                         info["steps"] += 1
                         if oracle:
@@ -587,13 +621,14 @@ with open(save_file_name,"a") as output_file:
                     info["reward"] = cot_final_output["reward"]
                     info["em"] = cot_final_output["em"]
                     info["f1"] = cot_final_output["f1"]
+                    info["cot_uncertainty"] = round(uncertainty, 2)
                     _log_event(trace, {"type": "use_backoff_answer", "answer": predicted_answer})
 
                 if info["em"]:
                     num_correct += 1
                 output_file.write(json.dumps(info, ensure_ascii=False) + '\n')
                 trace["traj"] = info["traj"]
-                trace["summary"] = {"final_answer": info.get("answer"), "em": info.get("em"), "f1": info.get("f1"), "mode": "uala", "n_calls": info.get("n_calls"), "n_badcalls": info.get("n_badcalls")}
+                trace["summary"] = {"final_answer": info.get("answer"), "em": info.get("em"), "f1": info.get("f1"), "mode": "uala", "n_calls": info.get("n_calls"), "n_badcalls": info.get("n_badcalls"), "cot_uncertainty": info.get("cot_uncertainty"), "react_uncertainty": info.get("react_uncertainty")}
                 _write_trace(i, trace)
             else:
                 print(f'-----------Answer’s uncertainty is {round(uncertainty,2)}, which falls within the acceptable threshold of {uncertainty_threshold}, answer is kept.-----------')
@@ -602,5 +637,5 @@ with open(save_file_name,"a") as output_file:
                     num_correct += 1
                 output_file.write(json.dumps(cot_final_output, ensure_ascii=False) + '\n')
                 trace["traj"] = cot_final_output["traj"]
-                trace["summary"] = {"final_answer": cot_final_output.get("answer"), "em": cot_final_output.get("em"), "f1": cot_final_output.get("f1"), "mode": "uala_cot_only"}
+                trace["summary"] = {"final_answer": cot_final_output.get("answer"), "em": cot_final_output.get("em"), "f1": cot_final_output.get("f1"), "mode": "uala_cot_only", "cot_uncertainty": cot_final_output.get("cot_uncertainty")}
                 _write_trace(i, trace)

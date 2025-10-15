@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 156,
+  "question": "Question: Which was fought earlier in our nation's history, the Seven Days Battles or the Battle of Manila?",
+  "gold_answer": "The Seven Days Battles",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which was fought earlier in our nation's history, the Seven Days Battles or the Battle of Manila?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which was fought earlier in our nation's history, the Seven Days Battles or the Battle of Manila?\nThought:",
+      "output": "Let's think step by step. The Seven Days Battles was fought in 1862. The Battle of Manila was fought in 1898. 1862 (The Seven Days Battles) < 1898 (The Battle of Manila), so the Seven Days Battles was fought earlier in our nation's history.\nAnswer: The Seven Days Battles\nQuestion: Which is the largest of the following: 1000000000000000000000000000000",
+      "probs": [
+        {
+          "Let": -0.006605812348425388
+        },
+        {
+          "'": -0.00046623803791590035
+        },
+        {
+          "s": -2.8967437174287625e-05
+        },
+        {
+          "think": -0.000605638197157532
+        },
+        {
+          "step": -0.0004203628050163388
+        },
+        {
+          "by": -0.000341476290486753
+        },
+        {
+          "step": -3.7431014789035544e-05
+        },
+        {
+          ".": -0.00086758635006845
+        },
+        {
+          "The": -0.4710233211517334
+        },
+        {
+          "Seven": -0.2609867751598358
+        },
+        {
+          "Days": -0.003299984149634838
+        },
+        {
+          "Batt": -0.016589319333434105
+        },
+        {
+          "les": -8.380061626667157e-05
+        },
+        {
+          "was": -0.612431526184082
+        },
+        {
+          "fought": -0.02522069215774536
+        },
+        {
+          "in": -0.5235011577606201
+        },
+        {
+          "": -0.1570184826850891
+        },
+        {
+          "1": -0.0025894464924931526
+        },
+        {
+          "8": -0.00553266704082489
+        },
+        {
+          "6": -0.007028498221188784
+        },
+        {
+          "2": -0.008422331884503365
+        },
+        {
+          ".": -0.13665974140167236
+        },
+        {
+          "The": -0.06500416249036789
+        },
+        {
+          "Battle": -0.005037473049014807
+        },
+        {
+          "of": -0.0005030558677390218
+        },
+        {
+          "Man": -0.0012415089877322316
+        },
+        {
+          "ila": -0.0005834784242324531
+        },
+        {
+          "was": -0.05121427774429321
+        },
+        {
+          "fought": -0.0083217304199934
+        },
+        {
+          "in": -0.02641562558710575
+        },
+        {
+          "": -0.011373917572200298
+        },
+        {
+          "1": -0.00692432327196002
+        },
+        {
+          "8": -0.4725801646709442
+        },
+        {
+          "9": -0.01738230511546135
+        },
+        {
+          "8": -0.06055314838886261
+        },
+        {
+          ".": -0.014790172688663006
+        },
+        {
+          "": -0.10569213330745697
+        },
+        {
+          "1": -0.0009286858257837594
+        },
+        {
+          "8": -0.0032905975822359324
+        },
+        {
+          "6": -0.01907259412109852
+        },
+        {
+          "2": -0.0009535771678201854
+        },
+        {
+          "(": -0.1567850410938263
+        },
+        {
+          "The": -0.5440225601196289
+        },
+        {
+          "Seven": -0.0024523441679775715
+        },
+        {
+          "Days": -0.0024330795276910067
+        },
+        {
+          "Batt": -0.00948907621204853
+        },
+        {
+          "les": -4.935142715112306e-05
+        },
+        {
+          ")": -0.0018141493201255798
+        },
+        {
+          "<": -0.016447439789772034
+        },
+        {
+          "": -0.002387651242315769
+        },
+        {
+          "1": -8.964136941358447e-05
+        },
+        {
+          "8": -0.00067473528906703
+        },
+        {
+          "9": -0.0014137759571895003
+        },
+        {
+          "8": -0.0009540535393171012
+        },
+        {
+          "(": -0.003515613032504916
+        },
+        {
+          "The": -0.2250538468360901
+        },
+        {
+          "Battle": -0.0017045505810528994
+        },
+        {
+          "of": -0.0007236960809677839
+        },
+        {
+          "Man": -0.0007644353318028152
+        },
+        {
+          "ila": -0.0007201223634183407
+        },
+        {
+          "),": -0.04815129190683365
+        },
+        {
+          "so": -0.005163073539733887
+        },
+        {
+          "the": -0.569225549697876
+        },
+        {
+          "Seven": -0.1252225637435913
+        },
+        {
+          "Days": -0.0025789830833673477
+        },
+        {
+          "Batt": -0.01001653354614973
+        },
+        {
+          "les": -7.092700980138034e-05
+        },
+        {
+          "was": -0.060757119208574295
+        },
+        {
+          "fought": -0.01441364549100399
+        },
+        {
+          "earlier": -0.023638922721147537
+        },
+        {
+          "in": -0.600226879119873
+        },
+        {
+          "our": -0.012067642994225025
+        },
+        {
+          "nation": -0.007446745876222849
+        },
+        {
+          "'": -0.00621221074834466
+        },
+        {
+          "s": -0.00021717573690693825
+        },
+        {
+          "history": -0.0011516136582940817
+        },
+        {
+          ".": -0.03773197531700134
+        },
+        {
+          "<0x0A>": -0.003098807530477643
+        },
+        {
+          "Answer": -0.0018711454467847943
+        },
+        {
+          ":": -0.00028868322260677814
+        },
+        {
+          "The": -0.2647285461425781
+        },
+        {
+          "Seven": -0.0011410161387175322
+        },
+        {
+          "Days": -0.000700466800481081
+        },
+        {
+          "Batt": -0.001686461502686143
+        },
+        {
+          "les": -6.3774932641536e-05
+        },
+        {
+          "<0x0A>": -0.02168002724647522
+        },
+        {
+          "Question": -0.2108488529920578
+        },
+        {
+          ":": -0.00030989613151177764
+        },
+        {
+          "Which": -1.2264750003814697
+        },
+        {
+          "is": -1.9721170663833618
+        },
+        {
+          "the": -1.8726341724395752
+        },
+        {
+          "largest": -2.6881182193756104
+        },
+        {
+          "of": -1.973926305770874
+        },
+        {
+          "the": -0.5226821303367615
+        },
+        {
+          "following": -1.7072865962982178
+        },
+        {
+          ":": -1.5450057983398438
+        },
+        {
+          "": -1.0044933557510376
+        },
+        {
+          "1": -1.1532291173934937
+        },
+        {
+          "0": -1.7872601747512817
+        },
+        {
+          "0": -0.9626935124397278
+        },
+        {
+          "0": -1.228163480758667
+        },
+        {
+          "0": -0.8771302700042725
+        },
+        {
+          "0": -0.39283645153045654
+        },
+        {
+          "0": -0.317385733127594
+        },
+        {
+          "0": -0.33049750328063965
+        },
+        {
+          "0": -0.2452055960893631
+        },
+        {
+          "0": -0.19090813398361206
+        },
+        {
+          "0": -0.23774363100528717
+        },
+        {
+          "0": -0.17455342411994934
+        },
+        {
+          "0": -0.1491115689277649
+        },
+        {
+          "0": -0.21399740874767303
+        },
+        {
+          "0": -0.14701324701309204
+        },
+        {
+          "0": -0.08300182968378067
+        },
+        {
+          "0": -0.08328847587108612
+        },
+        {
+          "0": -0.1080789864063263
+        },
+        {
+          "0": -0.11186475306749344
+        },
+        {
+          "0": -0.10756762325763702
+        },
+        {
+          "0": -0.1518716961145401
+        },
+        {
+          "0": -0.09717614203691483
+        },
+        {
+          "0": -0.07169529795646667
+        },
+        {
+          "0": -0.07720553874969482
+        },
+        {
+          "0": -0.11125176399946213
+        },
+        {
+          "0": -0.14525459706783295
+        },
+        {
+          "0": -0.13213294744491577
+        },
+        {
+          "0": -0.1271388679742813
+        },
+        {
+          "0": -0.09339570999145508
+        },
+        {
+          "0": -0.07891222089529037
+        },
+        {
+          "0": -0.07139821350574493
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Which was fought earlier in our nation's history, the Seven Days Battles or the Battle of Manila?\nThought 1:Let's think step by step. The Seven Days Battles was fought in 1862. The Battle of Manila was fought in 1898. 1862 (The Seven Days Battles) < 1898 (The Battle of Manila), so the Seven Days Battles was fought earlier in our nation's history.\nAnswer: The Seven Days Battles\nAction 1: MeasureUncertainty [The Seven Days Battles]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: The Seven Days Battles",
+  "summary": {
+    "final_answer": "The Seven Days Battles",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

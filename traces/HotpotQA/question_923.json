@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 923,
+  "question": "Question: Are Pothos and Tibouchina Aubl both flowering genus of plants?",
+  "gold_answer": "yes",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Pothos and Tibouchina Aubl both flowering genus of plants?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Pothos and Tibouchina Aubl both flowering genus of plants?\nThought:",
+      "output": "Let's think step by step. Pothos is a genus of flowering plants. Tibouchina Aubl is a genus of flowering plants. So Pothos and Tibouchina Aubl are both flowering genus of plants.\nAnswer: Yes\nQuestion: Which of the following is a type of plant: Pothos or Tibouchina Aubl?\nThought: Let's think step by step. Pothos is a genus of flowering plants. Tibouchina Aubl is a genus of flowering plants. So both Pothos and Tibouchina Aub",
+      "probs": [
+        {
+          "Let": -0.012465422973036766
+        },
+        {
+          "'": -0.0006588910473510623
+        },
+        {
+          "s": -3.182837463100441e-05
+        },
+        {
+          "think": -0.0010451575508341193
+        },
+        {
+          "step": -0.00070296844933182
+        },
+        {
+          "by": -0.000259365770034492
+        },
+        {
+          "step": -4.1483970562694594e-05
+        },
+        {
+          ".": -0.000649956171400845
+        },
+        {
+          "P": -0.13908915221691132
+        },
+        {
+          "oth": -0.00031120702624320984
+        },
+        {
+          "os": -0.0006478118011727929
+        },
+        {
+          "is": -0.17085663974285126
+        },
+        {
+          "a": -0.18474486470222473
+        },
+        {
+          "genus": -0.7008945345878601
+        },
+        {
+          "of": -0.040190041065216064
+        },
+        {
+          "flow": -0.4906529188156128
+        },
+        {
+          "ering": -0.0010987442219629884
+        },
+        {
+          "plants": -0.07338027656078339
+        },
+        {
+          ".": -0.535610556602478
+        },
+        {
+          "Tib": -0.04549223929643631
+        },
+        {
+          "ouch": -9.345571743324399e-05
+        },
+        {
+          "ina": -0.0004700509598478675
+        },
+        {
+          "A": -0.04303382709622383
+        },
+        {
+          "ub": -7.116541382856667e-05
+        },
+        {
+          "l": -0.0006572232232429087
+        },
+        {
+          "is": -0.05510164797306061
+        },
+        {
+          "a": -0.11440344154834747
+        },
+        {
+          "genus": -0.1853233426809311
+        },
+        {
+          "of": -0.011669469997286797
+        },
+        {
+          "flow": -0.06074747070670128
+        },
+        {
+          "ering": -0.0009127265075221658
+        },
+        {
+          "plants": -0.02146022953093052
+        },
+        {
+          ".": -0.053135547786951065
+        },
+        {
+          "So": -0.1257382184267044
+        },
+        {
+          "P": -0.3478206694126129
+        },
+        {
+          "oth": -0.00021395778458099812
+        },
+        {
+          "os": -0.0008205384365282953
+        },
+        {
+          "and": -0.009757325053215027
+        },
+        {
+          "Tib": -0.0018529404187574983
+        },
+        {
+          "ouch": -0.00047994061606004834
+        },
+        {
+          "ina": -0.0008089845650829375
+        },
+        {
+          "A": -0.007516436744481325
+        },
+        {
+          "ub": -0.001053731539286673
+        },
+        {
+          "l": -0.0006700892699882388
+        },
+        {
+          "are": -0.14517788589000702
+        },
+        {
+          "both": -0.04662611708045006
+        },
+        {
+          "flow": -0.02955993264913559
+        },
+        {
+          "ering": -0.0026104918215423822
+        },
+        {
+          "genus": -0.03292325884103775
+        },
+        {
+          "of": -0.004394279792904854
+        },
+        {
+          "plants": -0.00329772662371397
+        },
+        {
+          ".": -0.008635676465928555
+        },
+        {
+          "<0x0A>": -0.003369727171957493
+        },
+        {
+          "Answer": -0.0018229547422379255
+        },
+        {
+          ":": -0.0004306104383431375
+        },
+        {
+          "Yes": -0.030912907794117928
+        },
+        {
+          "<0x0A>": -0.013952338136732578
+        },
+        {
+          "Question": -0.20503199100494385
+        },
+        {
+          ":": -0.0003766304289456457
+        },
+        {
+          "Which": -1.7654588222503662
+        },
+        {
+          "of": -1.8667840957641602
+        },
+        {
+          "the": -0.9179931879043579
+        },
+        {
+          "following": -0.15464486181735992
+        },
+        {
+          "is": -1.043372392654419
+        },
+        {
+          "a": -1.4619799852371216
+        },
+        {
+          "type": -3.740257740020752
+        },
+        {
+          "of": -0.015174894593656063
+        },
+        {
+          "plant": -4.531959533691406
+        },
+        {
+          ":": -1.318094253540039
+        },
+        {
+          "P": -2.4998347759246826
+        },
+        {
+          "oth": -0.27246299386024475
+        },
+        {
+          "os": -0.0016486160457134247
+        },
+        {
+          "or": -0.6085900068283081
+        },
+        {
+          "Tib": -0.7348471879959106
+        },
+        {
+          "ouch": -0.0002699726028367877
+        },
+        {
+          "ina": -0.0010252702049911022
+        },
+        {
+          "A": -0.029299257323145866
+        },
+        {
+          "ub": -0.00031728477915748954
+        },
+        {
+          "l": -0.00035529976594261825
+        },
+        {
+          "?": -0.03215820714831352
+        },
+        {
+          "<0x0A>": -0.00389246572740376
+        },
+        {
+          "Th": -0.0037854695692658424
+        },
+        {
+          "ought": -2.169585604860913e-05
+        },
+        {
+          ":": -0.0002885640424210578
+        },
+        {
+          "Let": -0.011198642663657665
+        },
+        {
+          "'": -0.00046921687317080796
+        },
+        {
+          "s": -7.819823804311454e-05
+        },
+        {
+          "think": -0.0005402297829277813
+        },
+        {
+          "step": -0.00024351492174901068
+        },
+        {
+          "by": -0.00022742546570952982
+        },
+        {
+          "step": -5.23315102327615e-05
+        },
+        {
+          ".": -0.0004441943601705134
+        },
+        {
+          "P": -0.14360767602920532
+        },
+        {
+          "oth": -0.00018845213344320655
+        },
+        {
+          "os": -0.00033504117163829505
+        },
+        {
+          "is": -0.08206509053707123
+        },
+        {
+          "a": -0.04124095290899277
+        },
+        {
+          "genus": -0.3075845241546631
+        },
+        {
+          "of": -0.0059697893448174
+        },
+        {
+          "flow": -0.02578999102115631
+        },
+        {
+          "ering": -0.00037269797758199275
+        },
+        {
+          "plants": -0.014881081879138947
+        },
+        {
+          ".": -0.09422719478607178
+        },
+        {
+          "Tib": -0.038325633853673935
+        },
+        {
+          "ouch": -6.437094270950183e-05
+        },
+        {
+          "ina": -0.0003911683743353933
+        },
+        {
+          "A": -0.004840085748583078
+        },
+        {
+          "ub": -0.00013851160474587232
+        },
+        {
+          "l": -0.000285584683297202
+        },
+        {
+          "is": -0.003066482488065958
+        },
+        {
+          "a": -0.009161931462585926
+        },
+        {
+          "genus": -0.010442499071359634
+        },
+        {
+          "of": -0.0009076051646843553
+        },
+        {
+          "flow": -0.003269447945058346
+        },
+        {
+          "ering": -0.00015352977789007127
+        },
+        {
+          "plants": -0.0010205067228525877
+        },
+        {
+          ".": -0.019831359386444092
+        },
+        {
+          "So": -0.25160345435142517
+        },
+        {
+          "both": -0.6203978061676025
+        },
+        {
+          "P": -0.5770331025123596
+        },
+        {
+          "oth": -0.00033945043105632067
+        },
+        {
+          "os": -0.00021205084340181202
+        },
+        {
+          "and": -0.005205410998314619
+        },
+        {
+          "Tib": -0.001782139646820724
+        },
+        {
+          "ouch": -0.0006521005416288972
+        },
+        {
+          "ina": -0.0019891730044037104
+        },
+        {
+          "A": -0.0036266762763261795
+        },
+        {
+          "ub": -0.00012838016846217215
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are Pothos and Tibouchina Aubl both flowering genus of plants?\nThought 1:Let's think step by step. Pothos is a genus of flowering plants. Tibouchina Aubl is a genus of flowering plants. So Pothos and Tibouchina Aubl are both flowering genus of plants.\nAnswer: Yes\nAction 1: MeasureUncertainty [Yes]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Yes",
+  "summary": {
+    "final_answer": "Yes",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

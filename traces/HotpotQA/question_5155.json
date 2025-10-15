@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5155,
+  "question": "Question: Who directed a 2006 film where Ron Perkins character plays the manager of a hotel?",
+  "gold_answer": "Christopher Nolan",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who directed a 2006 film where Ron Perkins character plays the manager of a hotel?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who directed a 2006 film where Ron Perkins character plays the manager of a hotel?\nThought:",
+      "output": "Let's think step by step. Ron Perkins character plays the manager of a hotel in a 2006 film called The Last Kiss. So the director of the film is Tony Goldwyn.\nAnswer: Tony Goldwyn\nQuestion: What is the name of the 2006 film where Ron Perkins character plays the manager of a hotel?\nThought: Let's think step by step. Ron Perkins character plays the manager of a hotel in a 2006 film called The Last Kiss. So the name of the film is The Last Kiss.\nAnswer",
+      "probs": [
+        {
+          "Let": -0.017035700380802155
+        },
+        {
+          "'": -0.0005869334563612938
+        },
+        {
+          "s": -7.819823804311454e-05
+        },
+        {
+          "think": -0.001364015624858439
+        },
+        {
+          "step": -0.0005945583689026535
+        },
+        {
+          "by": -0.0002112165529979393
+        },
+        {
+          "step": -4.1483970562694594e-05
+        },
+        {
+          ".": -0.0009731086320243776
+        },
+        {
+          "Ron": -1.2456812858581543
+        },
+        {
+          "Per": -0.03031378984451294
+        },
+        {
+          "kins": -0.008376938290894032
+        },
+        {
+          "character": -1.1186243295669556
+        },
+        {
+          "plays": -0.5696434378623962
+        },
+        {
+          "the": -0.07199074327945709
+        },
+        {
+          "manager": -0.018921006470918655
+        },
+        {
+          "of": -0.005925943609327078
+        },
+        {
+          "a": -0.025686010718345642
+        },
+        {
+          "hotel": -0.004617741797119379
+        },
+        {
+          "in": -0.03460086137056351
+        },
+        {
+          "a": -1.4173301458358765
+        },
+        {
+          "": -0.06812640279531479
+        },
+        {
+          "2": -0.05179206654429436
+        },
+        {
+          "0": -7.83174327807501e-05
+        },
+        {
+          "0": -0.01745189167559147
+        },
+        {
+          "6": -0.07486765086650848
+        },
+        {
+          "film": -0.04053787514567375
+        },
+        {
+          "called": -1.7458771467208862
+        },
+        {
+          "The": -1.6552627086639404
+        },
+        {
+          "Last": -2.846897602081299
+        },
+        {
+          "K": -1.2949274778366089
+        },
+        {
+          "iss": -0.0004659997357521206
+        },
+        {
+          ".": -0.1571538895368576
+        },
+        {
+          "So": -1.068259835243225
+        },
+        {
+          "the": -0.34646692872047424
+        },
+        {
+          "director": -0.28405067324638367
+        },
+        {
+          "of": -0.33973264694213867
+        },
+        {
+          "the": -0.9257042407989502
+        },
+        {
+          "film": -0.4286130666732788
+        },
+        {
+          "is": -0.3529496490955353
+        },
+        {
+          "Tony": -0.0812891498208046
+        },
+        {
+          "Gold": -0.0009167758980765939
+        },
+        {
+          "w": -0.002522027352824807
+        },
+        {
+          "yn": -0.0002374367177253589
+        },
+        {
+          ".": -0.03547220677137375
+        },
+        {
+          "<0x0A>": -0.00436223391443491
+        },
+        {
+          "Answer": -0.0018722163513302803
+        },
+        {
+          ":": -0.0006538875168189406
+        },
+        {
+          "Tony": -0.0065753767266869545
+        },
+        {
+          "Gold": -0.00047839165199548006
+        },
+        {
+          "w": -0.001178642618469894
+        },
+        {
+          "yn": -0.00020275443966966122
+        },
+        {
+          "<0x0A>": -0.019284965470433235
+        },
+        {
+          "Question": -0.2158181220293045
+        },
+        {
+          ":": -0.00028236693469807506
+        },
+        {
+          "What": -1.5055168867111206
+        },
+        {
+          "is": -1.231268048286438
+        },
+        {
+          "the": -0.4212762117385864
+        },
+        {
+          "name": -2.4368808269500732
+        },
+        {
+          "of": -0.04678038880228996
+        },
+        {
+          "the": -0.5193392634391785
+        },
+        {
+          "": -2.9789485931396484
+        },
+        {
+          "2": -0.7511318325996399
+        },
+        {
+          "0": -0.04479875788092613
+        },
+        {
+          "0": -0.36873069405555725
+        },
+        {
+          "6": -1.758102536201477
+        },
+        {
+          "film": -0.7082177996635437
+        },
+        {
+          "where": -0.6422903537750244
+        },
+        {
+          "Ron": -1.0565791130065918
+        },
+        {
+          "Per": -0.03488410264253616
+        },
+        {
+          "kins": -0.0008275659638457
+        },
+        {
+          "character": -0.1612807959318161
+        },
+        {
+          "plays": -0.029260821640491486
+        },
+        {
+          "the": -0.01825086586177349
+        },
+        {
+          "manager": -0.01201947033405304
+        },
+        {
+          "of": -0.00052426423644647
+        },
+        {
+          "a": -0.005066887941211462
+        },
+        {
+          "hotel": -0.0011254174169152975
+        },
+        {
+          "?": -0.017381835728883743
+        },
+        {
+          "<0x0A>": -0.004012035671621561
+        },
+        {
+          "Th": -0.005860171280801296
+        },
+        {
+          "ought": -4.5298504119273275e-05
+        },
+        {
+          ":": -8.34430247778073e-05
+        },
+        {
+          "Let": -0.0050110225565731525
+        },
+        {
+          "'": -0.0002983363519888371
+        },
+        {
+          "s": -1.3232143828645349e-05
+        },
+        {
+          "think": -0.0003854485403280705
+        },
+        {
+          "step": -0.00011359999916749075
+        },
+        {
+          "by": -0.00010382589971413836
+        },
+        {
+          "step": -1.9192511899746023e-05
+        },
+        {
+          ".": -0.00024816294899210334
+        },
+        {
+          "Ron": -0.5221054553985596
+        },
+        {
+          "Per": -0.0009110590908676386
+        },
+        {
+          "kins": -0.0011464934796094894
+        },
+        {
+          "character": -0.02948145940899849
+        },
+        {
+          "plays": -0.006031407508999109
+        },
+        {
+          "the": -0.0027381805703043938
+        },
+        {
+          "manager": -0.001359730027616024
+        },
+        {
+          "of": -0.0007337023853324354
+        },
+        {
+          "a": -0.0027795510832220316
+        },
+        {
+          "hotel": -0.00031990656862035394
+        },
+        {
+          "in": -0.00703051034361124
+        },
+        {
+          "a": -0.10601266473531723
+        },
+        {
+          "": -0.01644567959010601
+        },
+        {
+          "2": -0.00046075694262981415
+        },
+        {
+          "0": -3.290122185717337e-05
+        },
+        {
+          "0": -0.0002683041093405336
+        },
+        {
+          "6": -0.0012212683213874698
+        },
+        {
+          "film": -0.0016815820708870888
+        },
+        {
+          "called": -0.03666989877820015
+        },
+        {
+          "The": -0.008194043301045895
+        },
+        {
+          "Last": -0.0005933669744990766
+        },
+        {
+          "K": -0.00014554394874721766
+        },
+        {
+          "iss": -1.2993727978027891e-05
+        },
+        {
+          ".": -0.04741929471492767
+        },
+        {
+          "So": -0.2613798975944519
+        },
+        {
+          "the": -0.04968934878706932
+        },
+        {
+          "name": -0.36047497391700745
+        },
+        {
+          "of": -0.009820245206356049
+        },
+        {
+          "the": -0.028386596590280533
+        },
+        {
+          "film": -0.3392845094203949
+        },
+        {
+          "is": -0.05779055133461952
+        },
+        {
+          "The": -0.013974321074783802
+        },
+        {
+          "Last": -0.00042429505265317857
+        },
+        {
+          "K": -0.0001618731184862554
+        },
+        {
+          "iss": -0.0002090712368953973
+        },
+        {
+          ".": -0.01236275490373373
+        },
+        {
+          "<0x0A>": -0.0019114810274913907
+        },
+        {
+          "Answer": -0.0021175360307097435
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Who directed a 2006 film where Ron Perkins character plays the manager of a hotel?\nThought 1:Let's think step by step. Ron Perkins character plays the manager of a hotel in a 2006 film called The Last Kiss. So the director of the film is Tony Goldwyn.\nAnswer: Tony Goldwyn\nAction 1: MeasureUncertainty [Tony Goldwyn]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Tony Goldwyn",
+  "summary": {
+    "final_answer": "Tony Goldwyn",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 362,
+  "question": "Question: The 37th Disney animated feature film Tarzan features You'll be in my heart by which artist?",
+  "gold_answer": "Phil Collins",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 37th Disney animated feature film Tarzan features You'll be in my heart by which artist?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 37th Disney animated feature film Tarzan features You'll be in my heart by which artist?\nThought:",
+      "output": "Let's think step by step. You'll be in my heart is a song by Phil Collins. So the answer is Phil Collins.\nAnswer: Phil Collins\nQuestion: Which of these is a character in the 1999 film The Matrix?\nThought: Let's think step by step. The Matrix is a 1999 film. The characters in The Matrix are Neo, Morpheus, Trinity, Cypher, Agent Smith, Tank, Mouse, Switch, Apoc, Dozer, and Mr. Rhineheart. So the answer is Neo, Morphe",
+      "probs": [
+        {
+          "Let": -0.01079481653869152
+        },
+        {
+          "'": -0.0007495454628951848
+        },
+        {
+          "s": -4.589452510117553e-05
+        },
+        {
+          "think": -0.0011210116790607572
+        },
+        {
+          "step": -0.0009035557159222662
+        },
+        {
+          "by": -0.0002743821241892874
+        },
+        {
+          "step": -3.611976353568025e-05
+        },
+        {
+          ".": -0.0005555993411689997
+        },
+        {
+          "You": -1.2334545850753784
+        },
+        {
+          "'": -0.005555665586143732
+        },
+        {
+          "ll": -0.0014006814453750849
+        },
+        {
+          "be": -0.03718861564993858
+        },
+        {
+          "in": -0.0007393010891973972
+        },
+        {
+          "my": -0.002345313085243106
+        },
+        {
+          "heart": -0.00528118759393692
+        },
+        {
+          "is": -0.4242686629295349
+        },
+        {
+          "a": -0.9771555066108704
+        },
+        {
+          "song": -0.1962568759918213
+        },
+        {
+          "by": -0.40298518538475037
+        },
+        {
+          "Phil": -0.10584613680839539
+        },
+        {
+          "Collins": -0.0009087961516343057
+        },
+        {
+          ".": -0.4368540048599243
+        },
+        {
+          "So": -0.8833217620849609
+        },
+        {
+          "the": -0.2602351903915405
+        },
+        {
+          "answer": -0.6556444764137268
+        },
+        {
+          "is": -0.03212495893239975
+        },
+        {
+          "Phil": -0.024586400017142296
+        },
+        {
+          "Collins": -0.0012296028435230255
+        },
+        {
+          ".": -0.030559169128537178
+        },
+        {
+          "<0x0A>": -0.0027290266007184982
+        },
+        {
+          "Answer": -0.001750366878695786
+        },
+        {
+          ":": -0.000440262199845165
+        },
+        {
+          "Phil": -0.0038182465359568596
+        },
+        {
+          "Collins": -0.0006198153714649379
+        },
+        {
+          "<0x0A>": -0.01721792295575142
+        },
+        {
+          "Question": -0.19831497967243195
+        },
+        {
+          ":": -0.00025519452174194157
+        },
+        {
+          "Which": -1.5131113529205322
+        },
+        {
+          "of": -1.680452823638916
+        },
+        {
+          "these": -0.8108733892440796
+        },
+        {
+          "is": -1.2932190895080566
+        },
+        {
+          "a": -1.0052103996276855
+        },
+        {
+          "character": -3.492833375930786
+        },
+        {
+          "in": -0.806224524974823
+        },
+        {
+          "the": -0.9443349838256836
+        },
+        {
+          "": -1.8629884719848633
+        },
+        {
+          "1": -0.6206080317497253
+        },
+        {
+          "9": -0.03842727467417717
+        },
+        {
+          "9": -1.0007190704345703
+        },
+        {
+          "9": -1.136021614074707
+        },
+        {
+          "film": -0.7543001174926758
+        },
+        {
+          "The": -1.5255581140518188
+        },
+        {
+          "Matrix": -1.4748601913452148
+        },
+        {
+          "?": -0.19965414702892303
+        },
+        {
+          "<0x0A>": -0.4037732183933258
+        },
+        {
+          "Th": -0.0425604023039341
+        },
+        {
+          "ought": -0.00011550712952157483
+        },
+        {
+          ":": -0.0005520250415429473
+        },
+        {
+          "Let": -0.02450183592736721
+        },
+        {
+          "'": -0.0004487222759053111
+        },
+        {
+          "s": -2.8967437174287625e-05
+        },
+        {
+          "think": -0.002043066080659628
+        },
+        {
+          "step": -0.0015628041001036763
+        },
+        {
+          "by": -0.0002857038634829223
+        },
+        {
+          "step": -4.339123915997334e-05
+        },
+        {
+          ".": -0.0011177966371178627
+        },
+        {
+          "The": -1.4373797178268433
+        },
+        {
+          "Matrix": -0.6376286745071411
+        },
+        {
+          "is": -0.7874146103858948
+        },
+        {
+          "a": -0.19337230920791626
+        },
+        {
+          "": -0.4832330644130707
+        },
+        {
+          "1": -0.0013236580416560173
+        },
+        {
+          "9": -0.0001931004080688581
+        },
+        {
+          "9": -0.0006181474891491234
+        },
+        {
+          "9": -0.0010178867960348725
+        },
+        {
+          "film": -0.8950072526931763
+        },
+        {
+          ".": -0.49600690603256226
+        },
+        {
+          "The": -1.8678011894226074
+        },
+        {
+          "characters": -1.6618311405181885
+        },
+        {
+          "in": -0.588762104511261
+        },
+        {
+          "The": -0.7161199450492859
+        },
+        {
+          "Matrix": -0.0020649556536227465
+        },
+        {
+          "are": -0.09740252047777176
+        },
+        {
+          "Ne": -0.6158814430236816
+        },
+        {
+          "o": -0.00022766382608097047
+        },
+        {
+          ",": -0.06329067796468735
+        },
+        {
+          "Mor": -0.6163991689682007
+        },
+        {
+          "phe": -0.0009015309624373913
+        },
+        {
+          "us": -0.0006902219611220062
+        },
+        {
+          ",": -0.0066686938516795635
+        },
+        {
+          "Tr": -0.13484662771224976
+        },
+        {
+          "inity": -0.0007842087652534246
+        },
+        {
+          ",": -0.0236396212130785
+        },
+        {
+          "Cy": -0.8268817663192749
+        },
+        {
+          "pher": -0.0004142856632824987
+        },
+        {
+          ",": -0.024758994579315186
+        },
+        {
+          "Agent": -0.9331868886947632
+        },
+        {
+          "Smith": -0.014504236169159412
+        },
+        {
+          ",": -0.04420904442667961
+        },
+        {
+          "T": -1.218350887298584
+        },
+        {
+          "ank": -7.033100700937212e-05
+        },
+        {
+          ",": -0.026427004486322403
+        },
+        {
+          "Mouse": -0.8112225532531738
+        },
+        {
+          ",": -0.020654942840337753
+        },
+        {
+          "Switch": -0.7736067771911621
+        },
+        {
+          ",": -0.022801946848630905
+        },
+        {
+          "Ap": -0.25896549224853516
+        },
+        {
+          "oc": -0.002371596172451973
+        },
+        {
+          ",": -0.01259491965174675
+        },
+        {
+          "Do": -0.7683656215667725
+        },
+        {
+          "zer": -3.373566141817719e-05
+        },
+        {
+          ",": -0.03044712543487549
+        },
+        {
+          "and": -1.1206560134887695
+        },
+        {
+          "Mr": -1.9716752767562866
+        },
+        {
+          ".": -0.02519686333835125
+        },
+        {
+          "Rh": -1.0556690692901611
+        },
+        {
+          "ine": -0.0007724162423983216
+        },
+        {
+          "heart": -0.005803165026009083
+        },
+        {
+          ".": -0.03611435368657112
+        },
+        {
+          "So": -1.0638558864593506
+        },
+        {
+          "the": -0.40577462315559387
+        },
+        {
+          "answer": -0.9168726205825806
+        },
+        {
+          "is": -0.10763281583786011
+        },
+        {
+          "Ne": -1.0248157978057861
+        },
+        {
+          "o": -0.0002643712505232543
+        },
+        {
+          ",": -0.2691282629966736
+        },
+        {
+          "Mor": -0.02817452698945999
+        },
+        {
+          "phe": -0.0009369035833515227
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: The 37th Disney animated feature film Tarzan features You'll be in my heart by which artist?\nThought 1:Let's think step by step. You'll be in my heart is a song by Phil Collins. So the answer is Phil Collins.\nAnswer: Phil Collins\nAction 1: MeasureUncertainty [Phil Collins]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Phil Collins",
+  "summary": {
+    "final_answer": "Phil Collins",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

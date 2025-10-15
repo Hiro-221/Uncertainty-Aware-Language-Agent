@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2611,
+  "question": "Question: The Austrian border barriers at facilities like South Tyrol was designed to designed to manage what?",
+  "gold_answer": "people arrived in the European Union",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The Austrian border barriers at facilities like South Tyrol was designed to designed to manage what?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The Austrian border barriers at facilities like South Tyrol was designed to designed to manage what?\nThought:",
+      "output": "Let's think step by step. The Austrian border barriers at facilities like South Tyrol was designed to manage illegal immigration.\nAnswer: illegal immigration\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a 1960 film. Ocean's Eleven is a 2001 film. So the 1999 film that is a remake of the 196",
+      "probs": [
+        {
+          "Let": -0.014353716745972633
+        },
+        {
+          "'": -0.0006311332108452916
+        },
+        {
+          "s": -4.7801782784517854e-05
+        },
+        {
+          "think": -0.0013073477894067764
+        },
+        {
+          "step": -0.000974656839389354
+        },
+        {
+          "by": -0.000321336614433676
+        },
+        {
+          "step": -2.7656173188006505e-05
+        },
+        {
+          ".": -0.0007695574313402176
+        },
+        {
+          "The": -0.6606984734535217
+        },
+        {
+          "Aust": -0.09168346226215363
+        },
+        {
+          "rian": -0.005636512767523527
+        },
+        {
+          "border": -0.0202738419175148
+        },
+        {
+          "bar": -0.018701771274209023
+        },
+        {
+          "riers": -0.012320837005972862
+        },
+        {
+          "at": -0.23539011180400848
+        },
+        {
+          "facilities": -0.05798991024494171
+        },
+        {
+          "like": -0.010897527448832989
+        },
+        {
+          "South": -0.01414581947028637
+        },
+        {
+          "Ty": -0.0014867454301565886
+        },
+        {
+          "rol": -3.766942609217949e-05
+        },
+        {
+          "was": -0.352061927318573
+        },
+        {
+          "designed": -0.015743955969810486
+        },
+        {
+          "to": -0.0077634514309465885
+        },
+        {
+          "manage": -0.5049501657485962
+        },
+        {
+          "illegal": -1.308933138847351
+        },
+        {
+          "imm": -0.4245118200778961
+        },
+        {
+          "igration": -0.13153602182865143
+        },
+        {
+          ".": -0.4293064475059509
+        },
+        {
+          "<0x0A>": -0.10623522102832794
+        },
+        {
+          "Answer": -0.0033770932350307703
+        },
+        {
+          ":": -0.000436925794929266
+        },
+        {
+          "illegal": -0.09808047115802765
+        },
+        {
+          "imm": -0.0021947361528873444
+        },
+        {
+          "igration": -0.0025101364590227604
+        },
+        {
+          "<0x0A>": -0.0221395343542099
+        },
+        {
+          "Question": -0.1916230171918869
+        },
+        {
+          ":": -0.00030763185350224376
+        },
+        {
+          "What": -1.401799201965332
+        },
+        {
+          "is": -1.258566975593567
+        },
+        {
+          "the": -0.4830082654953003
+        },
+        {
+          "name": -2.6804604530334473
+        },
+        {
+          "of": -0.0672469511628151
+        },
+        {
+          "the": -0.46079468727111816
+        },
+        {
+          "": -3.4796674251556396
+        },
+        {
+          "1": -0.7013413310050964
+        },
+        {
+          "9": -0.2121877372264862
+        },
+        {
+          "9": -1.3606289625167847
+        },
+        {
+          "9": -2.104353904724121
+        },
+        {
+          "film": -1.6598172187805176
+        },
+        {
+          "that": -1.7928800582885742
+        },
+        {
+          "is": -1.9179418087005615
+        },
+        {
+          "a": -1.43757963180542
+        },
+        {
+          "re": -1.3196336030960083
+        },
+        {
+          "make": -0.03599901869893074
+        },
+        {
+          "of": -0.022528082132339478
+        },
+        {
+          "the": -0.8106942176818848
+        },
+        {
+          "": -0.291457861661911
+        },
+        {
+          "1": -0.01397055946290493
+        },
+        {
+          "9": -0.0023382960353046656
+        },
+        {
+          "6": -1.3582903146743774
+        },
+        {
+          "0": -1.9505456686019897
+        },
+        {
+          "film": -0.40834352374076843
+        },
+        {
+          "Ocean": -1.556820034980774
+        },
+        {
+          "'": -0.011079221963882446
+        },
+        {
+          "s": -0.00025138078490272164
+        },
+        {
+          "": -0.45336177945137024
+        },
+        {
+          "1": -0.00035172473872080445
+        },
+        {
+          "1": -0.0007136897183954716
+        },
+        {
+          "?": -0.26311028003692627
+        },
+        {
+          "<0x0A>": -0.005342729389667511
+        },
+        {
+          "Th": -0.004280334338545799
+        },
+        {
+          "ought": -3.576214658096433e-05
+        },
+        {
+          ":": -0.0001445904199499637
+        },
+        {
+          "Let": -0.010539584793150425
+        },
+        {
+          "'": -0.0003808011533692479
+        },
+        {
+          "s": -1.9550132492440753e-05
+        },
+        {
+          "think": -0.0004472924047149718
+        },
+        {
+          "step": -0.00033087024348787963
+        },
+        {
+          "by": -0.00014768941036891192
+        },
+        {
+          "step": -0.00014923889830242842
+        },
+        {
+          ".": -0.00033861625706776977
+        },
+        {
+          "Ocean": -0.8258582353591919
+        },
+        {
+          "'": -0.008555899374186993
+        },
+        {
+          "s": -0.0003293210465926677
+        },
+        {
+          "Ele": -0.4116747975349426
+        },
+        {
+          "ven": -4.351044481154531e-05
+        },
+        {
+          "is": -0.3959462344646454
+        },
+        {
+          "a": -0.39014437794685364
+        },
+        {
+          "": -0.660923421382904
+        },
+        {
+          "1": -0.262668251991272
+        },
+        {
+          "9": -0.0001370812824461609
+        },
+        {
+          "6": -0.359091579914093
+        },
+        {
+          "0": -0.0007870675181038678
+        },
+        {
+          "film": -0.20794503390789032
+        },
+        {
+          ".": -0.3307911157608032
+        },
+        {
+          "Ocean": -0.16610895097255707
+        },
+        {
+          "'": -0.0046735103242099285
+        },
+        {
+          "s": -0.0001463782973587513
+        },
+        {
+          "Ele": -0.08520115911960602
+        },
+        {
+          "ven": -1.883488948806189e-05
+        },
+        {
+          "is": -0.197965607047081
+        },
+        {
+          "a": -0.1477421075105667
+        },
+        {
+          "": -0.2398427426815033
+        },
+        {
+          "2": -0.6549184918403625
+        },
+        {
+          "0": -2.4676019165781327e-05
+        },
+        {
+          "0": -0.0019063648069277406
+        },
+        {
+          "1": -0.0048772175796329975
+        },
+        {
+          "film": -0.2795325219631195
+        },
+        {
+          ".": -0.3513568341732025
+        },
+        {
+          "So": -1.072608470916748
+        },
+        {
+          "the": -0.6169798970222473
+        },
+        {
+          "": -0.3693617284297943
+        },
+        {
+          "1": -0.05094774812459946
+        },
+        {
+          "9": -6.603976362384856e-05
+        },
+        {
+          "9": -0.008467013947665691
+        },
+        {
+          "9": -0.0009913297835737467
+        },
+        {
+          "film": -0.053973957896232605
+        },
+        {
+          "that": -0.24766932427883148
+        },
+        {
+          "is": -0.004249946679919958
+        },
+        {
+          "a": -0.007273503113538027
+        },
+        {
+          "re": -0.0011018402874469757
+        },
+        {
+          "make": -0.0003819928097072989
+        },
+        {
+          "of": -0.0028985412791371346
+        },
+        {
+          "the": -0.03952232375741005
+        },
+        {
+          "": -0.005657019559293985
+        },
+        {
+          "1": -0.0006473353132605553
+        },
+        {
+          "9": -4.482168878894299e-05
+        },
+        {
+          "6": -0.002255040919408202
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: The Austrian border barriers at facilities like South Tyrol was designed to designed to manage what?\nThought 1:Let's think step by step. The Austrian border barriers at facilities like South Tyrol was designed to manage illegal immigration.\nAnswer: illegal immigration\nAction 1: MeasureUncertainty [illegal immigration]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: illegal immigration",
+  "summary": {
+    "final_answer": "illegal immigration",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

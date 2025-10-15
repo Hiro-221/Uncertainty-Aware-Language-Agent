@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4220,
+  "question": "Question: Blues to the Bush is an album by The Who that can still be found on what e-commerce platform that was founded in 1995?",
+  "gold_answer": "eBay Inc.",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Blues to the Bush is an album by The Who that can still be found on what e-commerce platform that was founded in 1995?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Blues to the Bush is an album by The Who that can still be found on what e-commerce platform that was founded in 1995?\nThought:",
+      "output": "Let's think step by step. Blues to the Bush is an album by The Who that can still be found on Amazon.com.\nAnswer: Amazon.com\nQuestion: What is the name of the 1999 film that was directed by John Woo and starred Nicolas Cage?\nThought: Let's think step by step. The 1999 film that was directed by John Woo and starred Nicolas Cage is Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo",
+      "probs": [
+        {
+          "Let": -0.008245711214840412
+        },
+        {
+          "'": -0.0005471401382237673
+        },
+        {
+          "s": -3.766942609217949e-05
+        },
+        {
+          "think": -0.0012531769461929798
+        },
+        {
+          "step": -0.0007549058645963669
+        },
+        {
+          "by": -0.0003129946126136929
+        },
+        {
+          "step": -4.625213477993384e-05
+        },
+        {
+          ".": -0.0006254147156141698
+        },
+        {
+          "Blues": -0.5588723421096802
+        },
+        {
+          "to": -0.003825134364888072
+        },
+        {
+          "the": -0.0007743220776319504
+        },
+        {
+          "Bush": -0.0016793209360912442
+        },
+        {
+          "is": -0.30191662907600403
+        },
+        {
+          "an": -0.09184061735868454
+        },
+        {
+          "album": -0.0030636300798505545
+        },
+        {
+          "by": -0.031161490827798843
+        },
+        {
+          "The": -0.028489021584391594
+        },
+        {
+          "Who": -0.001311514643020928
+        },
+        {
+          "that": -0.6068137288093567
+        },
+        {
+          "can": -0.052147991955280304
+        },
+        {
+          "still": -0.07834769040346146
+        },
+        {
+          "be": -0.0008856903295964003
+        },
+        {
+          "found": -0.0035560012329369783
+        },
+        {
+          "on": -0.026037877425551414
+        },
+        {
+          "Amazon": -0.7835137248039246
+        },
+        {
+          ".": -0.2537471652030945
+        },
+        {
+          "com": -0.8898681402206421
+        },
+        {
+          ".": -0.4768683910369873
+        },
+        {
+          "<0x0A>": -0.4971422553062439
+        },
+        {
+          "Answer": -0.004866066388785839
+        },
+        {
+          ":": -0.0004368066438473761
+        },
+        {
+          "Amazon": -0.030418217182159424
+        },
+        {
+          ".": -0.04452640563249588
+        },
+        {
+          "com": -0.0005006728461012244
+        },
+        {
+          "<0x0A>": -0.020617691799998283
+        },
+        {
+          "Question": -0.22735810279846191
+        },
+        {
+          ":": -0.00037174468161538243
+        },
+        {
+          "What": -1.4660310745239258
+        },
+        {
+          "is": -1.2333033084869385
+        },
+        {
+          "the": -0.4084126353263855
+        },
+        {
+          "name": -2.3987932205200195
+        },
+        {
+          "of": -0.05461031571030617
+        },
+        {
+          "the": -0.3551492393016815
+        },
+        {
+          "": -3.26759672164917
+        },
+        {
+          "1": -0.6689146757125854
+        },
+        {
+          "9": -0.19554714858531952
+        },
+        {
+          "9": -1.3290936946868896
+        },
+        {
+          "9": -2.1155669689178467
+        },
+        {
+          "film": -1.6685576438903809
+        },
+        {
+          "that": -1.5190339088439941
+        },
+        {
+          "was": -2.0054216384887695
+        },
+        {
+          "directed": -1.175078272819519
+        },
+        {
+          "by": -0.029763491824269295
+        },
+        {
+          "John": -3.5196640491485596
+        },
+        {
+          "W": -2.3284859657287598
+        },
+        {
+          "oo": -0.25392946600914
+        },
+        {
+          "and": -0.818642258644104
+        },
+        {
+          "star": -1.087567925453186
+        },
+        {
+          "red": -0.003738558851182461
+        },
+        {
+          "Nicolas": -0.9352807998657227
+        },
+        {
+          "C": -0.0008742563077248633
+        },
+        {
+          "age": -1.0967194612021558e-05
+        },
+        {
+          "?": -0.8021582961082458
+        },
+        {
+          "<0x0A>": -0.008286617696285248
+        },
+        {
+          "Th": -0.006935214623808861
+        },
+        {
+          "ought": -4.31528314948082e-05
+        },
+        {
+          ":": -0.00018785618885885924
+        },
+        {
+          "Let": -0.009795691817998886
+        },
+        {
+          "'": -0.00047743841423653066
+        },
+        {
+          "s": -3.1470757676288486e-05
+        },
+        {
+          "think": -0.0010455148294568062
+        },
+        {
+          "step": -0.0005278385942801833
+        },
+        {
+          "by": -0.00022504181833937764
+        },
+        {
+          "step": -8.83301836438477e-05
+        },
+        {
+          ".": -0.0005860995152033865
+        },
+        {
+          "The": -1.0583412647247314
+        },
+        {
+          "": -0.531766414642334
+        },
+        {
+          "1": -0.005429047625511885
+        },
+        {
+          "9": -0.00018749863374978304
+        },
+        {
+          "9": -0.002204132964834571
+        },
+        {
+          "9": -0.008837987668812275
+        },
+        {
+          "film": -0.02307107485830784
+        },
+        {
+          "that": -0.37604281306266785
+        },
+        {
+          "was": -0.020920563489198685
+        },
+        {
+          "directed": -0.0027739638462662697
+        },
+        {
+          "by": -0.0015393561916425824
+        },
+        {
+          "John": -0.002395500196143985
+        },
+        {
+          "W": -0.0005570290377363563
+        },
+        {
+          "oo": -0.00032455421751365066
+        },
+        {
+          "and": -0.13077275454998016
+        },
+        {
+          "star": -0.009919633157551289
+        },
+        {
+          "red": -0.00021944021864328533
+        },
+        {
+          "Nicolas": -0.007183674722909927
+        },
+        {
+          "C": -0.0011263700434938073
+        },
+        {
+          "age": -0.00010740180005086586
+        },
+        {
+          "is": -0.08668232709169388
+        },
+        {
+          "Face": -0.16009023785591125
+        },
+        {
+          "/": -0.01605604961514473
+        },
+        {
+          "Off": -0.003412734717130661
+        },
+        {
+          ".": -0.060386624187231064
+        },
+        {
+          "<0x0A>": -0.015081076882779598
+        },
+        {
+          "Answer": -0.0013524680398404598
+        },
+        {
+          ":": -0.0002814135223161429
+        },
+        {
+          "Face": -0.0021098037250339985
+        },
+        {
+          "/": -0.003150739474222064
+        },
+        {
+          "Off": -0.004018447361886501
+        },
+        {
+          "<0x0A>": -0.015403473749756813
+        },
+        {
+          "Question": -0.1891004592180252
+        },
+        {
+          ":": -0.00025090406415984035
+        },
+        {
+          "What": -1.3037078380584717
+        },
+        {
+          "is": -0.9397913217544556
+        },
+        {
+          "the": -0.21050073206424713
+        },
+        {
+          "name": -0.9444476366043091
+        },
+        {
+          "of": -0.017385467886924744
+        },
+        {
+          "the": -0.16206826269626617
+        },
+        {
+          "": -1.208096981048584
+        },
+        {
+          "1": -0.4964219927787781
+        },
+        {
+          "9": -0.03825725242495537
+        },
+        {
+          "9": -0.5386919379234314
+        },
+        {
+          "9": -0.5294233560562134
+        },
+        {
+          "film": -0.05677559971809387
+        },
+        {
+          "that": -0.02479039505124092
+        },
+        {
+          "was": -0.05035723000764847
+        },
+        {
+          "directed": -0.019912345334887505
+        },
+        {
+          "by": -0.0011329191038385034
+        },
+        {
+          "John": -0.4969825744628906
+        },
+        {
+          "W": -0.02317928895354271
+        },
+        {
+          "oo": -0.00023576818057335913
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Blues to the Bush is an album by The Who that can still be found on what e-commerce platform that was founded in 1995?\nThought 1:Let's think step by step. Blues to the Bush is an album by The Who that can still be found on Amazon.com.\nAnswer: Amazon.com\nAction 1: MeasureUncertainty [Amazon.com]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Amazon.com",
+  "summary": {
+    "final_answer": "Amazon.com",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

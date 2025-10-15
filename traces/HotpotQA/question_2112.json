@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2112,
+  "question": "Question: Which band has had more members, The Operation M.D. or Del Amitri?",
+  "gold_answer": "Del Amitri",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which band has had more members, The Operation M.D. or Del Amitri?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which band has had more members, The Operation M.D. or Del Amitri?\nThought:",
+      "output": "Let's think step by step. The Operation M.D. has 2 members. Del Amitri has 5 members. 2 (The Operation M.D.) < 5 (Del Amitri), so Del Amitri has had more members.\nAnswer: Del Amitri\nQuestion: Which of the following is not a member of the band The Operation M.D.?\nThought: Let's think step by step. The Operation M.D. has 2 members: Cone McCaslin and Todd Morse. Cone McCaslin is a member of The",
+      "probs": [
+        {
+          "Let": -0.010055716149508953
+        },
+        {
+          "'": -0.0006356602534651756
+        },
+        {
+          "s": -3.135155202471651e-05
+        },
+        {
+          "think": -0.001426989445462823
+        },
+        {
+          "step": -0.0004898302140645683
+        },
+        {
+          "by": -0.0002644904307089746
+        },
+        {
+          "step": -1.3112935448589269e-05
+        },
+        {
+          ".": -0.0005891970940865576
+        },
+        {
+          "The": -0.43740546703338623
+        },
+        {
+          "Operation": -0.06697975099086761
+        },
+        {
+          "M": -0.0038938906509429216
+        },
+        {
+          ".": -0.00022218143567442894
+        },
+        {
+          "D": -0.001128037110902369
+        },
+        {
+          ".": -0.021263491362333298
+        },
+        {
+          "has": -0.3974771797657013
+        },
+        {
+          "": -0.8719131946563721
+        },
+        {
+          "2": -0.4814925789833069
+        },
+        {
+          "members": -0.08424718677997589
+        },
+        {
+          ".": -0.21728017926216125
+        },
+        {
+          "Del": -0.032012976706027985
+        },
+        {
+          "Am": -0.0005062728887423873
+        },
+        {
+          "it": -0.0014103237772360444
+        },
+        {
+          "ri": -0.00031859567388892174
+        },
+        {
+          "has": -0.043122775852680206
+        },
+        {
+          "": -0.12094412744045258
+        },
+        {
+          "5": -0.8127591609954834
+        },
+        {
+          "members": -0.05905555188655853
+        },
+        {
+          ".": -0.035076454281806946
+        },
+        {
+          "": -0.2229989618062973
+        },
+        {
+          "2": -0.26458024978637695
+        },
+        {
+          "(": -0.28854861855506897
+        },
+        {
+          "The": -0.03384700417518616
+        },
+        {
+          "Operation": -0.0019546705298125744
+        },
+        {
+          "M": -0.0028911717236042023
+        },
+        {
+          ".": -0.00010573305189609528
+        },
+        {
+          "D": -0.0003295593778602779
+        },
+        {
+          ".)": -0.010081089101731777
+        },
+        {
+          "<": -0.017293263226747513
+        },
+        {
+          "": -0.00135318236425519
+        },
+        {
+          "5": -0.0015026956098154187
+        },
+        {
+          "(": -0.0030636300798505545
+        },
+        {
+          "Del": -0.00158410903532058
+        },
+        {
+          "Am": -0.00045980370487086475
+        },
+        {
+          "it": -0.0005831210291944444
+        },
+        {
+          "ri": -0.00037079135654494166
+        },
+        {
+          "),": -0.05433712527155876
+        },
+        {
+          "so": -0.0061314101330935955
+        },
+        {
+          "Del": -0.11864298582077026
+        },
+        {
+          "Am": -0.00041261743172071874
+        },
+        {
+          "it": -0.0010390841634944081
+        },
+        {
+          "ri": -0.0001754606782924384
+        },
+        {
+          "has": -0.02820836752653122
+        },
+        {
+          "had": -0.2889561355113983
+        },
+        {
+          "more": -0.0030194190330803394
+        },
+        {
+          "members": -0.0030074152164161205
+        },
+        {
+          ".": -0.06842412799596786
+        },
+        {
+          "<0x0A>": -0.002866922877728939
+        },
+        {
+          "Answer": -0.0019851280376315117
+        },
+        {
+          ":": -0.00025614796322770417
+        },
+        {
+          "Del": -0.006697587203234434
+        },
+        {
+          "Am": -0.0001705739414319396
+        },
+        {
+          "it": -6.246371776796877e-05
+        },
+        {
+          "ri": -0.00012659224739763886
+        },
+        {
+          "<0x0A>": -0.01896241493523121
+        },
+        {
+          "Question": -0.16498437523841858
+        },
+        {
+          ":": -0.0002321927313460037
+        },
+        {
+          "Which": -1.2197175025939941
+        },
+        {
+          "of": -2.1106698513031006
+        },
+        {
+          "the": -0.9279779195785522
+        },
+        {
+          "following": -0.15951007604599
+        },
+        {
+          "is": -1.2398498058319092
+        },
+        {
+          "not": -1.5335466861724854
+        },
+        {
+          "a": -0.6286699771881104
+        },
+        {
+          "member": -2.870793104171753
+        },
+        {
+          "of": -0.01951085403561592
+        },
+        {
+          "the": -0.7738720178604126
+        },
+        {
+          "band": -2.410665988922119
+        },
+        {
+          "The": -1.8950610160827637
+        },
+        {
+          "Operation": -1.8183538913726807
+        },
+        {
+          "M": -0.0010989824077114463
+        },
+        {
+          ".": -0.00012933371181134135
+        },
+        {
+          "D": -0.00018869050836656243
+        },
+        {
+          ".": -0.14894159138202667
+        },
+        {
+          "?": -0.0655626505613327
+        },
+        {
+          "<0x0A>": -0.507897138595581
+        },
+        {
+          "Th": -0.0317281112074852
+        },
+        {
+          "ought": -5.757642793469131e-05
+        },
+        {
+          ":": -0.0004060635983478278
+        },
+        {
+          "Let": -0.015607588924467564
+        },
+        {
+          "'": -0.0004969792207702994
+        },
+        {
+          "s": -5.924526340095326e-05
+        },
+        {
+          "think": -0.0011611393420025706
+        },
+        {
+          "step": -0.0005220004240982234
+        },
+        {
+          "by": -0.00045813556062057614
+        },
+        {
+          "step": -4.649054244509898e-05
+        },
+        {
+          ".": -0.0008840228547342122
+        },
+        {
+          "The": -1.097379207611084
+        },
+        {
+          "Operation": -0.31843724846839905
+        },
+        {
+          "M": -0.0011541141429916024
+        },
+        {
+          ".": -4.577531944960356e-05
+        },
+        {
+          "D": -9.727005090098828e-05
+        },
+        {
+          ".": -0.03819150850176811
+        },
+        {
+          "has": -0.9515749216079712
+        },
+        {
+          "": -0.2750813364982605
+        },
+        {
+          "2": -0.0245219599455595
+        },
+        {
+          "members": -0.010082387365400791
+        },
+        {
+          ":": -0.9728893637657166
+        },
+        {
+          "C": -0.7197322845458984
+        },
+        {
+          "one": -0.00012981049076188356
+        },
+        {
+          "McC": -0.5379453897476196
+        },
+        {
+          "as": -0.00026770823751576245
+        },
+        {
+          "lin": -0.00020525732543319464
+        },
+        {
+          "and": -0.09297770261764526
+        },
+        {
+          "Tod": -0.15859028697013855
+        },
+        {
+          "d": -0.00029094755882397294
+        },
+        {
+          "Mor": -0.0026135831139981747
+        },
+        {
+          "se": -3.3854863431770355e-05
+        },
+        {
+          ".": -0.023695968091487885
+        },
+        {
+          "C": -2.223867893218994
+        },
+        {
+          "one": -0.03589310497045517
+        },
+        {
+          "McC": -0.059021614491939545
+        },
+        {
+          "as": -0.00044907975825481117
+        },
+        {
+          "lin": -0.0004153581103309989
+        },
+        {
+          "is": -0.885206401348114
+        },
+        {
+          "a": -0.45864835381507874
+        },
+        {
+          "member": -0.649942934513092
+        },
+        {
+          "of": -0.1878817230463028
+        },
+        {
+          "The": -0.9868078231811523
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which band has had more members, The Operation M.D. or Del Amitri?\nThought 1:Let's think step by step. The Operation M.D. has 2 members. Del Amitri has 5 members. 2 (The Operation M.D.) < 5 (Del Amitri), so Del Amitri has had more members.\nAnswer: Del Amitri\nAction 1: MeasureUncertainty [Del Amitri]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Del Amitri",
+  "summary": {
+    "final_answer": "Del Amitri",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

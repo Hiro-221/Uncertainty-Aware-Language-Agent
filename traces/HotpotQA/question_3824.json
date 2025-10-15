@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3824,
+  "question": "Question: Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President?",
+  "gold_answer": "Bill Clinton",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President?\nThought:",
+      "output": "Let's think step by step. David Chanoff has collaborated with U.S. Navy admiral Stansfield Turner. Stansfield Turner served as the ambassador to the United Kingdom under President Jimmy Carter. So the President is Jimmy Carter.\nAnswer: Jimmy Carter\nQuestion: Which of the following is not a member of the band The Dirty Heads?\nThought: Let's think step by step. The Dirty Heads is a band. Members of the band are Jared Watson, Dustin Bushnell, Jon Olazabal, Matt Ochoa, and David",
+      "probs": [
+        {
+          "Let": -0.008487108163535595
+        },
+        {
+          "'": -0.0001525762490928173
+        },
+        {
+          "s": -0.001019911258481443
+        },
+        {
+          "think": -0.0007537146448157728
+        },
+        {
+          "step": -0.0005322470096871257
+        },
+        {
+          "by": -0.00028379703871905804
+        },
+        {
+          "step": -4.279521817807108e-05
+        },
+        {
+          ".": -0.0006986799417063594
+        },
+        {
+          "David": -0.7175843119621277
+        },
+        {
+          "Ch": -0.011054109781980515
+        },
+        {
+          "ano": -0.0023958568926900625
+        },
+        {
+          "ff": -1.9788545614574105e-05
+        },
+        {
+          "has": -0.7153701782226562
+        },
+        {
+          "collabor": -0.12336264550685883
+        },
+        {
+          "ated": -0.0016550427535548806
+        },
+        {
+          "with": -0.00906081311404705
+        },
+        {
+          "U": -1.7758361101150513
+        },
+        {
+          ".": -0.00037424711626954377
+        },
+        {
+          "S": -0.002151676220819354
+        },
+        {
+          ".": -0.002096956130117178
+        },
+        {
+          "Navy": -0.013705318793654442
+        },
+        {
+          "adm": -0.10754535347223282
+        },
+        {
+          "iral": -0.012493089772760868
+        },
+        {
+          "St": -1.6272629499435425
+        },
+        {
+          "ans": -0.0009417866240255535
+        },
+        {
+          "field": -0.0005566716426983476
+        },
+        {
+          "Turner": -0.009766769595444202
+        },
+        {
+          ".": -0.7195542454719543
+        },
+        {
+          "St": -0.31768086552619934
+        },
+        {
+          "ans": -0.0012710357550531626
+        },
+        {
+          "field": -0.0008648469229228795
+        },
+        {
+          "Turner": -0.006536176428198814
+        },
+        {
+          "served": -0.28453969955444336
+        },
+        {
+          "as": -0.11336732655763626
+        },
+        {
+          "the": -0.10829509794712067
+        },
+        {
+          "amb": -0.14477571845054626
+        },
+        {
+          "assador": -0.0007348936051130295
+        },
+        {
+          "to": -0.019564863294363022
+        },
+        {
+          "the": -0.016337204724550247
+        },
+        {
+          "United": -0.007072058971971273
+        },
+        {
+          "Kingdom": -0.0016388569492846727
+        },
+        {
+          "under": -0.04450645297765732
+        },
+        {
+          "President": -0.515548050403595
+        },
+        {
+          "Jimmy": -0.6269178986549377
+        },
+        {
+          "Carter": -0.001729184528812766
+        },
+        {
+          ".": -0.20640623569488525
+        },
+        {
+          "So": -0.26199260354042053
+        },
+        {
+          "the": -0.586358904838562
+        },
+        {
+          "President": -0.39812609553337097
+        },
+        {
+          "is": -0.35961171984672546
+        },
+        {
+          "Jimmy": -0.007068981416523457
+        },
+        {
+          "Carter": -0.0004220310365781188
+        },
+        {
+          ".": -0.011201118119060993
+        },
+        {
+          "<0x0A>": -0.002423565834760666
+        },
+        {
+          "Answer": -0.0017838055500760674
+        },
+        {
+          ":": -0.0005071069463156164
+        },
+        {
+          "Jimmy": -0.010992445982992649
+        },
+        {
+          "Carter": -0.0003761537664104253
+        },
+        {
+          "<0x0A>": -0.020327342674136162
+        },
+        {
+          "Question": -0.22141017019748688
+        },
+        {
+          ":": -0.0003057250869460404
+        },
+        {
+          "Which": -1.433042049407959
+        },
+        {
+          "of": -1.8230946063995361
+        },
+        {
+          "the": -0.7948495149612427
+        },
+        {
+          "following": -0.1189706102013588
+        },
+        {
+          "is": -1.2340099811553955
+        },
+        {
+          "not": -1.4029102325439453
+        },
+        {
+          "a": -0.666157603263855
+        },
+        {
+          "member": -3.180835723876953
+        },
+        {
+          "of": -0.032313570380210876
+        },
+        {
+          "the": -0.472486674785614
+        },
+        {
+          "band": -3.603909730911255
+        },
+        {
+          "The": -2.2423603534698486
+        },
+        {
+          "D": -4.014674663543701
+        },
+        {
+          "irty": -2.72221040725708
+        },
+        {
+          "He": -1.9831998348236084
+        },
+        {
+          "ads": -0.008085614070296288
+        },
+        {
+          "?": -0.49238818883895874
+        },
+        {
+          "<0x0A>": -0.23125286400318146
+        },
+        {
+          "Th": -0.032466720789670944
+        },
+        {
+          "ought": -4.851700214203447e-05
+        },
+        {
+          ":": -0.0003090619284193963
+        },
+        {
+          "Let": -0.018940657377243042
+        },
+        {
+          "'": -0.00046850196667946875
+        },
+        {
+          "s": -2.5152843591058627e-05
+        },
+        {
+          "think": -0.0011073178611695766
+        },
+        {
+          "step": -0.0006598440813831985
+        },
+        {
+          "by": -0.00031609306461177766
+        },
+        {
+          "step": -3.969590397900902e-05
+        },
+        {
+          ".": -0.000931663322262466
+        },
+        {
+          "The": -1.051644206047058
+        },
+        {
+          "D": -0.2995087504386902
+        },
+        {
+          "irty": -0.00045122456504032016
+        },
+        {
+          "He": -0.002686465159058571
+        },
+        {
+          "ads": -5.98412734689191e-05
+        },
+        {
+          "is": -1.3091737031936646
+        },
+        {
+          "a": -0.3901786804199219
+        },
+        {
+          "band": -0.833459734916687
+        },
+        {
+          ".": -1.4434325695037842
+        },
+        {
+          "M": -1.3721188306808472
+        },
+        {
+          "embers": -0.0010200303513556719
+        },
+        {
+          "of": -0.13339780271053314
+        },
+        {
+          "the": -0.7382081747055054
+        },
+        {
+          "band": -0.08752278983592987
+        },
+        {
+          "are": -0.3153260052204132
+        },
+        {
+          "J": -0.6570843458175659
+        },
+        {
+          "ared": -0.001563875237479806
+        },
+        {
+          "Watson": -0.09352187067270279
+        },
+        {
+          ",": -0.08681392669677734
+        },
+        {
+          "D": -0.17689649760723114
+        },
+        {
+          "ust": -0.01162445917725563
+        },
+        {
+          "in": -0.00045885046711191535
+        },
+        {
+          "Bush": -0.34901997447013855
+        },
+        {
+          "nell": -0.0294478926807642
+        },
+        {
+          ",": -0.01664184406399727
+        },
+        {
+          "Jon": -0.098593570291996
+        },
+        {
+          "O": -0.0020576987881213427
+        },
+        {
+          "laz": -0.005387312266975641
+        },
+        {
+          "ab": -0.012877636589109898
+        },
+        {
+          "al": -0.0005603650351986289
+        },
+        {
+          ",": -0.019658494740724564
+        },
+        {
+          "Matt": -0.3516629934310913
+        },
+        {
+          "O": -0.0016137446509674191
+        },
+        {
+          "cho": -0.0006149308173917234
+        },
+        {
+          "a": -0.00030632095877081156
+        },
+        {
+          ",": -0.05796010047197342
+        },
+        {
+          "and": -0.6632684469223022
+        },
+        {
+          "David": -0.3538127541542053
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Author David Chanoff has collaborated with a U.S. Navy admiral who served as the ambassador to the United Kingdom under which President?\nThought 1:Let's think step by step. David Chanoff has collaborated with U.S. Navy admiral Stansfield Turner. Stansfield Turner served as the ambassador to the United Kingdom under President Jimmy Carter. So the President is Jimmy Carter.\nAnswer: Jimmy Carter\nAction 1: MeasureUncertainty [Jimmy Carter]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Jimmy Carter",
+  "summary": {
+    "final_answer": "Jimmy Carter",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

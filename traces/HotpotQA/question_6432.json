@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6432,
+  "question": "Question: What award was an actor born in 1955 that acted in the movie Ransom nominated for?",
+  "gold_answer": "Academy Award",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What award was an actor born in 1955 that acted in the movie Ransom nominated for?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What award was an actor born in 1955 that acted in the movie Ransom nominated for?\nThought:",
+      "output": "Let's think step by step. Mel Gibson was born in 1955 and acted in the movie Ransom. Mel Gibson was nominated for Academy Award for Best Director for the movie Braveheart.\nAnswer: Academy Award for Best Director\nQuestion: What is the name of the 1999 film that was directed by Michael Mann and starred Al Pacino?\nThought: Let's think step by step. The Insider was directed by Michael Mann and starred Al Pacino.\nAnswer: The Insider\nQuestion: What is the name of the 199",
+      "probs": [
+        {
+          "Let": -0.027867699041962624
+        },
+        {
+          "'": -0.0008487674640491605
+        },
+        {
+          "s": -3.8980677345534787e-05
+        },
+        {
+          "think": -0.004070925060659647
+        },
+        {
+          "step": -0.0010387268848717213
+        },
+        {
+          "by": -0.00029583368450403214
+        },
+        {
+          "step": -0.0011329191038385034
+        },
+        {
+          ".": -0.0012510338565334678
+        },
+        {
+          "Mel": -1.534153699874878
+        },
+        {
+          "Gib": -0.05660878121852875
+        },
+        {
+          "son": -0.0002466136065777391
+        },
+        {
+          "was": -0.7299585342407227
+        },
+        {
+          "born": -0.7539799213409424
+        },
+        {
+          "in": -0.016161859035491943
+        },
+        {
+          "": -0.007507444359362125
+        },
+        {
+          "1": -0.00018416139937471598
+        },
+        {
+          "9": -8.248942322097719e-05
+        },
+        {
+          "5": -0.000972036796156317
+        },
+        {
+          "5": -0.40674808621406555
+        },
+        {
+          "and": -0.9329335689544678
+        },
+        {
+          "acted": -0.269300639629364
+        },
+        {
+          "in": -0.006911418866366148
+        },
+        {
+          "the": -0.2799477279186249
+        },
+        {
+          "movie": -0.02463245950639248
+        },
+        {
+          "R": -0.0074628377333283424
+        },
+        {
+          "ans": -0.000507464399561286
+        },
+        {
+          "om": -0.0004407388041727245
+        },
+        {
+          ".": -0.15837714076042175
+        },
+        {
+          "Mel": -0.5984494090080261
+        },
+        {
+          "Gib": -0.007677452638745308
+        },
+        {
+          "son": -0.00036483307485468686
+        },
+        {
+          "was": -0.1369064599275589
+        },
+        {
+          "nominated": -0.022497545927762985
+        },
+        {
+          "for": -0.01897621713578701
+        },
+        {
+          "Academy": -1.2203372716903687
+        },
+        {
+          "Award": -0.10721953958272934
+        },
+        {
+          "for": -0.10031269490718842
+        },
+        {
+          "Best": -0.040533408522605896
+        },
+        {
+          "Director": -0.5484369993209839
+        },
+        {
+          "for": -0.8390267491340637
+        },
+        {
+          "the": -0.5740994811058044
+        },
+        {
+          "movie": -0.17291399836540222
+        },
+        {
+          "Bra": -0.22682833671569824
+        },
+        {
+          "ve": -0.00013481661153491586
+        },
+        {
+          "heart": -0.005472796503454447
+        },
+        {
+          ".": -0.3072226643562317
+        },
+        {
+          "<0x0A>": -0.554245114326477
+        },
+        {
+          "Answer": -0.0032460400834679604
+        },
+        {
+          ":": -0.000602421467192471
+        },
+        {
+          "Academy": -0.022593699395656586
+        },
+        {
+          "Award": -0.0034157049376517534
+        },
+        {
+          "for": -0.027491308748722076
+        },
+        {
+          "Best": -0.0040968069806694984
+        },
+        {
+          "Director": -0.004108204040676355
+        },
+        {
+          "<0x0A>": -0.15124258399009705
+        },
+        {
+          "Question": -0.23772774636745453
+        },
+        {
+          ":": -0.0003955773718189448
+        },
+        {
+          "What": -1.2288010120391846
+        },
+        {
+          "is": -1.418055772781372
+        },
+        {
+          "the": -0.4749731123447418
+        },
+        {
+          "name": -2.3038740158081055
+        },
+        {
+          "of": -0.03563246503472328
+        },
+        {
+          "the": -0.4374455511569977
+        },
+        {
+          "": -3.3087069988250732
+        },
+        {
+          "1": -0.5853459239006042
+        },
+        {
+          "9": -0.16010171175003052
+        },
+        {
+          "9": -1.2763736248016357
+        },
+        {
+          "9": -2.1137466430664062
+        },
+        {
+          "film": -1.7508509159088135
+        },
+        {
+          "that": -1.579602599143982
+        },
+        {
+          "was": -2.0290112495422363
+        },
+        {
+          "directed": -1.2848749160766602
+        },
+        {
+          "by": -0.03157138451933861
+        },
+        {
+          "Michael": -3.4902260303497314
+        },
+        {
+          "Mann": -2.1992125511169434
+        },
+        {
+          "and": -0.7560232877731323
+        },
+        {
+          "star": -1.0270817279815674
+        },
+        {
+          "red": -0.0024756519123911858
+        },
+        {
+          "Al": -1.2408612966537476
+        },
+        {
+          "Pac": -0.0009496469865553081
+        },
+        {
+          "ino": -0.00014625910262111574
+        },
+        {
+          "?": -0.7227766513824463
+        },
+        {
+          "<0x0A>": -0.009791677817702293
+        },
+        {
+          "Th": -0.00615190714597702
+        },
+        {
+          "ought": -7.92710343375802e-05
+        },
+        {
+          ":": -0.00013720047718379647
+        },
+        {
+          "Let": -0.008821208961308002
+        },
+        {
+          "'": -0.00031609306461177766
+        },
+        {
+          "s": -2.3245540432981215e-05
+        },
+        {
+          "think": -0.000300958170555532
+        },
+        {
+          "step": -0.00023123928986024112
+        },
+        {
+          "by": -9.858122211880982e-05
+        },
+        {
+          "step": -2.4676019165781327e-05
+        },
+        {
+          ".": -0.0004303721070755273
+        },
+        {
+          "The": -0.7264019250869751
+        },
+        {
+          "Ins": -0.1858464628458023
+        },
+        {
+          "ider": -2.8729025871143676e-05
+        },
+        {
+          "was": -0.892135739326477
+        },
+        {
+          "directed": -0.2496321052312851
+        },
+        {
+          "by": -0.0031434905249625444
+        },
+        {
+          "Michael": -0.0031655936036258936
+        },
+        {
+          "Mann": -0.0011132716899737716
+        },
+        {
+          "and": -0.059860941022634506
+        },
+        {
+          "star": -0.024660257622599602
+        },
+        {
+          "red": -0.0001938155182870105
+        },
+        {
+          "Al": -0.009378070943057537
+        },
+        {
+          "Pac": -0.0003854485403280705
+        },
+        {
+          "ino": -0.00033778208307921886
+        },
+        {
+          ".": -0.2571870684623718
+        },
+        {
+          "<0x0A>": -0.1304258555173874
+        },
+        {
+          "Answer": -0.0014217516873031855
+        },
+        {
+          ":": -0.00026556302327662706
+        },
+        {
+          "The": -0.0069017112255096436
+        },
+        {
+          "Ins": -0.002063765889033675
+        },
+        {
+          "ider": -9.894321920000948e-06
+        },
+        {
+          "<0x0A>": -0.021513666957616806
+        },
+        {
+          "Question": -0.24374794960021973
+        },
+        {
+          ":": -0.000271521887043491
+        },
+        {
+          "What": -1.0794657468795776
+        },
+        {
+          "is": -1.1603024005889893
+        },
+        {
+          "the": -0.2645506262779236
+        },
+        {
+          "name": -0.9980670213699341
+        },
+        {
+          "of": -0.015393495559692383
+        },
+        {
+          "the": -0.19850873947143555
+        },
+        {
+          "": -1.1350526809692383
+        },
+        {
+          "1": -0.3782119154930115
+        },
+        {
+          "9": -0.014670826494693756
+        },
+        {
+          "9": -0.37135055661201477
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: What award was an actor born in 1955 that acted in the movie Ransom nominated for?\nThought 1:Let's think step by step. Mel Gibson was born in 1955 and acted in the movie Ransom. Mel Gibson was nominated for Academy Award for Best Director for the movie Braveheart.\nAnswer: Academy Award for Best Director\nAction 1: MeasureUncertainty [Academy Award for Best Director]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Academy Award for Best Director",
+  "summary": {
+    "final_answer": "Academy Award for Best Director",
+    "em": false,
+    "f1": 0.5714285714285715,
+    "mode": "uala_cot_only"
+  }
+}

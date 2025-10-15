@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6386,
+  "question": "Question: What is the name of this Austrian association football club from Vienna for which Raphael Holzhauser was a player?",
+  "gold_answer": "Austria Wien",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is the name of this Austrian association football club from Vienna for which Raphael Holzhauser was a player?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is the name of this Austrian association football club from Vienna for which Raphael Holzhauser was a player?\nThought:",
+      "output": "Let's think step by step. Raphael Holzhauser was a player for Austria Wien.\nAnswer: Austria Wien\nQuestion: What is the name of this Austrian association football club from Vienna for which Raphael Holzhauser was a player?\nThought: Let's think step by step. Raphael Holzhauser was a player for Austria Wien.\nAnswer: Austria Wien\nQuestion: What is the name of this Austrian association football club from Vienna for which Raphael Holzhauser was a player?\nThought: Let's think step by step. Raphael Holz",
+      "probs": [
+        {
+          "Let": -0.022516893222928047
+        },
+        {
+          "'": -0.0007920703501440585
+        },
+        {
+          "s": -3.886147169396281e-05
+        },
+        {
+          "think": -0.002406084444373846
+        },
+        {
+          "step": -0.0008044582791626453
+        },
+        {
+          "by": -0.0003864018653985113
+        },
+        {
+          "step": -0.00025018901214934886
+        },
+        {
+          ".": -0.0009148702956736088
+        },
+        {
+          "Rap": -0.2331554889678955
+        },
+        {
+          "ha": -0.002202943665906787
+        },
+        {
+          "el": -0.0005571481888182461
+        },
+        {
+          "Holz": -0.007412904407829046
+        },
+        {
+          "haus": -0.0007329876534640789
+        },
+        {
+          "er": -0.00023588736075907946
+        },
+        {
+          "was": -0.8975605964660645
+        },
+        {
+          "a": -0.09759997576475143
+        },
+        {
+          "player": -0.0600070096552372
+        },
+        {
+          "for": -0.4335288405418396
+        },
+        {
+          "Austria": -1.1055803298950195
+        },
+        {
+          "Wien": -0.2127159684896469
+        },
+        {
+          ".": -0.4104854166507721
+        },
+        {
+          "<0x0A>": -0.6732048392295837
+        },
+        {
+          "Answer": -0.0033918251283466816
+        },
+        {
+          ":": -0.0004239375703036785
+        },
+        {
+          "Austria": -0.08972997218370438
+        },
+        {
+          "Wien": -0.010206883773207664
+        },
+        {
+          "<0x0A>": -0.022647427394986153
+        },
+        {
+          "Question": -0.21216584742069244
+        },
+        {
+          ":": -0.0003364712174516171
+        },
+        {
+          "What": -1.2862554788589478
+        },
+        {
+          "is": -0.949173629283905
+        },
+        {
+          "the": -0.2685137093067169
+        },
+        {
+          "name": -1.145583152770996
+        },
+        {
+          "of": -0.018691709265112877
+        },
+        {
+          "this": -0.48987504839897156
+        },
+        {
+          "Aust": -2.4381039142608643
+        },
+        {
+          "rian": -0.0011293468996882439
+        },
+        {
+          "association": -0.05886910483241081
+        },
+        {
+          "football": -0.0010417040903121233
+        },
+        {
+          "club": -0.01815956085920334
+        },
+        {
+          "from": -0.15464864671230316
+        },
+        {
+          "Vienna": -0.26317158341407776
+        },
+        {
+          "for": -0.08939109742641449
+        },
+        {
+          "which": -0.006548137869685888
+        },
+        {
+          "Rap": -1.447925329208374
+        },
+        {
+          "ha": -0.0008789013954810798
+        },
+        {
+          "el": -0.0008906926377676427
+        },
+        {
+          "Holz": -0.01153561007231474
+        },
+        {
+          "haus": -0.00044824567157775164
+        },
+        {
+          "er": -5.030505417380482e-05
+        },
+        {
+          "was": -0.07298406213521957
+        },
+        {
+          "a": -0.03682548552751541
+        },
+        {
+          "player": -0.06153591722249985
+        },
+        {
+          "?": -0.01813298650085926
+        },
+        {
+          "<0x0A>": -0.006885610055178404
+        },
+        {
+          "Th": -0.018354805186390877
+        },
+        {
+          "ought": -7.915183232398704e-05
+        },
+        {
+          ":": -0.0004166688595432788
+        },
+        {
+          "Let": -0.01610414683818817
+        },
+        {
+          "'": -0.0005048430757597089
+        },
+        {
+          "s": -2.5152843591058627e-05
+        },
+        {
+          "think": -0.001149232150055468
+        },
+        {
+          "step": -0.00048494499060325325
+        },
+        {
+          "by": -0.00013362467871047556
+        },
+        {
+          "step": -1.0251946150674485e-05
+        },
+        {
+          ".": -0.00038354191929101944
+        },
+        {
+          "Rap": -0.024181196466088295
+        },
+        {
+          "ha": -0.0002493547508493066
+        },
+        {
+          "el": -6.544376083184034e-05
+        },
+        {
+          "Holz": -0.002006423892453313
+        },
+        {
+          "haus": -0.0008448368753306568
+        },
+        {
+          "er": -8.368142152903602e-05
+        },
+        {
+          "was": -0.047497622668743134
+        },
+        {
+          "a": -0.01247378159314394
+        },
+        {
+          "player": -0.003404062008485198
+        },
+        {
+          "for": -0.005690683610737324
+        },
+        {
+          "Austria": -0.053869590163230896
+        },
+        {
+          "Wien": -0.013205686584115028
+        },
+        {
+          ".": -0.027119070291519165
+        },
+        {
+          "<0x0A>": -0.02283725142478943
+        },
+        {
+          "Answer": -0.004118889104574919
+        },
+        {
+          ":": -0.0003551805857568979
+        },
+        {
+          "Austria": -0.04984427988529205
+        },
+        {
+          "Wien": -0.004616080317646265
+        },
+        {
+          "<0x0A>": -0.012920238077640533
+        },
+        {
+          "Question": -0.19699594378471375
+        },
+        {
+          ":": -0.00030429501202888787
+        },
+        {
+          "What": -0.8730264902114868
+        },
+        {
+          "is": -0.39662548899650574
+        },
+        {
+          "the": -0.09686867892742157
+        },
+        {
+          "name": -0.23654592037200928
+        },
+        {
+          "of": -0.0035027835983783007
+        },
+        {
+          "this": -0.06231680139899254
+        },
+        {
+          "Aust": -0.22551661729812622
+        },
+        {
+          "rian": -0.0006479309522546828
+        },
+        {
+          "association": -0.0033199451863765717
+        },
+        {
+          "football": -0.0002169373765354976
+        },
+        {
+          "club": -0.0005523824947886169
+        },
+        {
+          "from": -0.006118969526141882
+        },
+        {
+          "Vienna": -0.012136070989072323
+        },
+        {
+          "for": -0.004188574850559235
+        },
+        {
+          "which": -0.0005903884884901345
+        },
+        {
+          "Rap": -0.05488918721675873
+        },
+        {
+          "ha": -9.703165414975956e-05
+        },
+        {
+          "el": -6.258291978156194e-05
+        },
+        {
+          "Holz": -0.000666277133859694
+        },
+        {
+          "haus": -0.00011157367407577112
+        },
+        {
+          "er": -1.847726889536716e-05
+        },
+        {
+          "was": -0.0023289003875106573
+        },
+        {
+          "a": -0.0009709649602882564
+        },
+        {
+          "player": -0.0004862556525040418
+        },
+        {
+          "?": -0.001143040368333459
+        },
+        {
+          "<0x0A>": -0.001189596951007843
+        },
+        {
+          "Th": -0.0028469529934227467
+        },
+        {
+          "ought": -2.396077979938127e-05
+        },
+        {
+          ":": -5.769562994828448e-05
+        },
+        {
+          "Let": -0.0024877809919416904
+        },
+        {
+          "'": -0.00010299152199877426
+        },
+        {
+          "s": -2.884823152271565e-05
+        },
+        {
+          "think": -0.00016139635408762842
+        },
+        {
+          "step": -4.7444173105759546e-05
+        },
+        {
+          "by": -3.504691630951129e-05
+        },
+        {
+          "step": -1.0728830375228426e-06
+        },
+        {
+          ".": -6.580135959666222e-05
+        },
+        {
+          "Rap": -0.001918857917189598
+        },
+        {
+          "ha": -1.3589766240329482e-05
+        },
+        {
+          "el": -1.7165990357170813e-05
+        },
+        {
+          "Holz": -0.0001436368766007945
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: What is the name of this Austrian association football club from Vienna for which Raphael Holzhauser was a player?\nThought 1:Let's think step by step. Raphael Holzhauser was a player for Austria Wien.\nAnswer: Austria Wien\nAction 1: MeasureUncertainty [Austria Wien]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Austria Wien",
+  "summary": {
+    "final_answer": "Austria Wien",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

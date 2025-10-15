@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6916,
+  "question": "Question: The term snake eyes is used in a particular casino game that uses what game pieces?",
+  "gold_answer": "a pair of dice",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The term snake eyes is used in a particular casino game that uses what game pieces?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The term snake eyes is used in a particular casino game that uses what game pieces?\nThought:",
+      "output": "Let's think step by step. Snake eyes is used in a particular casino game that uses dice.\nAnswer: dice\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a 1960 film. Ocean's Eleven is a 2001 film. So the 1999 film that is a remake of the 1960 film Ocean's 1",
+      "probs": [
+        {
+          "Let": -0.009315360337495804
+        },
+        {
+          "'": -0.0005718026659451425
+        },
+        {
+          "s": -3.242440288886428e-05
+        },
+        {
+          "think": -0.000977157847955823
+        },
+        {
+          "step": -0.0012240068754181266
+        },
+        {
+          "by": -0.00035279724397696555
+        },
+        {
+          "step": -3.099393507000059e-05
+        },
+        {
+          ".": -0.00067223358200863
+        },
+        {
+          "S": -0.8527461886405945
+        },
+        {
+          "nake": -0.0006522196927107871
+        },
+        {
+          "eyes": -0.05231340602040291
+        },
+        {
+          "is": -0.1794649362564087
+        },
+        {
+          "used": -0.6048377752304077
+        },
+        {
+          "in": -0.03524022921919823
+        },
+        {
+          "a": -1.2527780532836914
+        },
+        {
+          "particular": -0.5215425491333008
+        },
+        {
+          "cas": -0.051253125071525574
+        },
+        {
+          "ino": -0.0024362902622669935
+        },
+        {
+          "game": -0.009949848987162113
+        },
+        {
+          "that": -1.027902603149414
+        },
+        {
+          "uses": -0.04000886529684067
+        },
+        {
+          "dice": -0.2953410744667053
+        },
+        {
+          ".": -0.5227134227752686
+        },
+        {
+          "<0x0A>": -0.32743245363235474
+        },
+        {
+          "Answer": -0.0036562515888363123
+        },
+        {
+          ":": -0.0003231241717003286
+        },
+        {
+          "dice": -0.1556493192911148
+        },
+        {
+          "<0x0A>": -0.01986454799771309
+        },
+        {
+          "Question": -0.20369768142700195
+        },
+        {
+          ":": -0.0003034608089365065
+        },
+        {
+          "What": -1.4400951862335205
+        },
+        {
+          "is": -1.2222378253936768
+        },
+        {
+          "the": -0.427994966506958
+        },
+        {
+          "name": -2.424309730529785
+        },
+        {
+          "of": -0.06391923874616623
+        },
+        {
+          "the": -0.3849535584449768
+        },
+        {
+          "": -3.5439300537109375
+        },
+        {
+          "1": -0.6567416191101074
+        },
+        {
+          "9": -0.1782543659210205
+        },
+        {
+          "9": -1.324541687965393
+        },
+        {
+          "9": -2.079988956451416
+        },
+        {
+          "film": -1.5296905040740967
+        },
+        {
+          "that": -1.6130295991897583
+        },
+        {
+          "is": -1.9360297918319702
+        },
+        {
+          "a": -1.4417673349380493
+        },
+        {
+          "re": -1.1221776008605957
+        },
+        {
+          "make": -0.026372667402029037
+        },
+        {
+          "of": -0.018562179058790207
+        },
+        {
+          "the": -0.7592707872390747
+        },
+        {
+          "": -0.2620069086551666
+        },
+        {
+          "1": -0.012996019795536995
+        },
+        {
+          "9": -0.0024075114633888006
+        },
+        {
+          "6": -1.2653276920318604
+        },
+        {
+          "0": -1.7768982648849487
+        },
+        {
+          "film": -0.37762895226478577
+        },
+        {
+          "Ocean": -1.1811484098434448
+        },
+        {
+          "'": -0.009349136613309383
+        },
+        {
+          "s": -0.00016389934171456844
+        },
+        {
+          "": -0.36547818779945374
+        },
+        {
+          "1": -0.00027807659353129566
+        },
+        {
+          "1": -0.0004407388041727245
+        },
+        {
+          "?": -0.23434953391551971
+        },
+        {
+          "<0x0A>": -0.004213503561913967
+        },
+        {
+          "Th": -0.005153941456228495
+        },
+        {
+          "ought": -3.6477376852417365e-05
+        },
+        {
+          ":": -0.00021217002358753234
+        },
+        {
+          "Let": -0.013472705148160458
+        },
+        {
+          "'": -0.0005520250415429473
+        },
+        {
+          "s": -5.364274329622276e-05
+        },
+        {
+          "think": -0.0008107712492346764
+        },
+        {
+          "step": -0.0006443570018745959
+        },
+        {
+          "by": -0.00022957073815632612
+        },
+        {
+          "step": -2.5152843591058627e-05
+        },
+        {
+          ".": -0.0004880429187323898
+        },
+        {
+          "Ocean": -0.7450245022773743
+        },
+        {
+          "'": -0.00864465907216072
+        },
+        {
+          "s": -0.0002898749662563205
+        },
+        {
+          "Ele": -0.41474297642707825
+        },
+        {
+          "ven": -4.434487345861271e-05
+        },
+        {
+          "is": -0.3555203378200531
+        },
+        {
+          "a": -0.42499974370002747
+        },
+        {
+          "": -0.703524112701416
+        },
+        {
+          "1": -0.21929696202278137
+        },
+        {
+          "9": -0.00013469743134919554
+        },
+        {
+          "6": -0.31445279717445374
+        },
+        {
+          "0": -0.0007856381707824767
+        },
+        {
+          "film": -0.20764008164405823
+        },
+        {
+          ".": -0.3712209463119507
+        },
+        {
+          "Ocean": -0.20738773047924042
+        },
+        {
+          "'": -0.0044417534954845905
+        },
+        {
+          "s": -0.0003591130953282118
+        },
+        {
+          "Ele": -0.07653525471687317
+        },
+        {
+          "ven": -2.7656173188006505e-05
+        },
+        {
+          "is": -0.20000635087490082
+        },
+        {
+          "a": -0.20936401188373566
+        },
+        {
+          "": -0.3290901780128479
+        },
+        {
+          "2": -0.5360591411590576
+        },
+        {
+          "0": -4.255681051290594e-05
+        },
+        {
+          "0": -0.0018117694417014718
+        },
+        {
+          "1": -0.004675408825278282
+        },
+        {
+          "film": -0.28178247809410095
+        },
+        {
+          ".": -0.4167782962322235
+        },
+        {
+          "So": -1.1932486295700073
+        },
+        {
+          "the": -0.7117947936058044
+        },
+        {
+          "": -0.45399248600006104
+        },
+        {
+          "1": -0.06494563072919846
+        },
+        {
+          "9": -0.00010609064338495955
+        },
+        {
+          "9": -0.010010986588895321
+        },
+        {
+          "9": -0.0010477773612365127
+        },
+        {
+          "film": -0.06111132726073265
+        },
+        {
+          "that": -0.23403412103652954
+        },
+        {
+          "is": -0.005126782692968845
+        },
+        {
+          "a": -0.009233983233571053
+        },
+        {
+          "re": -0.0011308948742225766
+        },
+        {
+          "make": -0.00031835734262131155
+        },
+        {
+          "of": -0.0034961311612278223
+        },
+        {
+          "the": -0.06565810739994049
+        },
+        {
+          "": -0.0071984692476689816
+        },
+        {
+          "1": -0.0005843124235980213
+        },
+        {
+          "9": -4.2437604861333966e-05
+        },
+        {
+          "6": -0.002567092888057232
+        },
+        {
+          "0": -0.0002791491860989481
+        },
+        {
+          "film": -0.011111524887382984
+        },
+        {
+          "Ocean": -0.041743580251932144
+        },
+        {
+          "'": -0.0011457790387794375
+        },
+        {
+          "s": -0.00017307691450696439
+        },
+        {
+          "": -0.19089050590991974
+        },
+        {
+          "1": -2.7656173188006505e-05
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: The term snake eyes is used in a particular casino game that uses what game pieces?\nThought 1:Let's think step by step. Snake eyes is used in a particular casino game that uses dice.\nAnswer: dice\nAction 1: MeasureUncertainty [dice]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: dice",
+  "summary": {
+    "final_answer": "dice",
+    "em": false,
+    "f1": 0.5,
+    "mode": "uala_cot_only"
+  }
+}

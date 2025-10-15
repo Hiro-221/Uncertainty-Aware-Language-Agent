@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6,
+  "question": "Question: Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+  "gold_answer": "Eenasul Fateh",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?\nThought:",
+      "output": "Let's think step by step. Aladin was known by his stage name Aladin. Aladin helped organizations improve their performance as a consultant. So the answer is Aladin.\nAnswer: Aladin\nQuestion: What is the name of the 1999 film that was directed by John Woo and starred Nicolas Cage?\nThought: Let's think step by step. Face/Off was directed by John Woo and starred Nicolas Cage. So the answer is Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999",
+      "probs": [
+        {
+          "Let": -0.01814691722393036
+        },
+        {
+          "'": -0.0007364421617239714
+        },
+        {
+          "s": -9.011816291604191e-05
+        },
+        {
+          "think": -0.0014749611727893353
+        },
+        {
+          "step": -0.0006268443539738655
+        },
+        {
+          "by": -0.00012694983161054552
+        },
+        {
+          "step": -5.721882189391181e-05
+        },
+        {
+          ".": -0.0007880204357206821
+        },
+        {
+          "Al": -0.7950515151023865
+        },
+        {
+          "adin": -0.049666889011859894
+        },
+        {
+          "was": -1.1493420600891113
+        },
+        {
+          "known": -0.790278971195221
+        },
+        {
+          "by": -0.19380195438861847
+        },
+        {
+          "his": -0.1669459044933319
+        },
+        {
+          "stage": -0.017696581780910492
+        },
+        {
+          "name": -0.004378494340926409
+        },
+        {
+          "Al": -0.34081053733825684
+        },
+        {
+          "adin": -0.014680929481983185
+        },
+        {
+          ".": -0.6379029154777527
+        },
+        {
+          "Al": -1.4486165046691895
+        },
+        {
+          "adin": -0.03945734724402428
+        },
+        {
+          "helped": -0.8830590844154358
+        },
+        {
+          "organizations": -0.04276316240429878
+        },
+        {
+          "improve": -0.016695071011781693
+        },
+        {
+          "their": -0.005087999626994133
+        },
+        {
+          "performance": -0.003391349921002984
+        },
+        {
+          "as": -0.018839238211512566
+        },
+        {
+          "a": -0.006881111301481724
+        },
+        {
+          "consult": -0.005518914666026831
+        },
+        {
+          "ant": -0.00032872517476789653
+        },
+        {
+          ".": -0.26114949584007263
+        },
+        {
+          "So": -0.335086464881897
+        },
+        {
+          "the": -0.37028616666793823
+        },
+        {
+          "answer": -0.21543444693088531
+        },
+        {
+          "is": -0.12197559326887131
+        },
+        {
+          "Al": -0.02006121166050434
+        },
+        {
+          "adin": -0.0009589364635758102
+        },
+        {
+          ".": -0.02753908932209015
+        },
+        {
+          "<0x0A>": -0.004078404977917671
+        },
+        {
+          "Answer": -0.00224956963211298
+        },
+        {
+          ":": -0.0004969792207702994
+        },
+        {
+          "Al": -0.0035039715003222227
+        },
+        {
+          "adin": -0.0006076634745113552
+        },
+        {
+          "<0x0A>": -0.021759580820798874
+        },
+        {
+          "Question": -0.20261412858963013
+        },
+        {
+          ":": -0.0003067976504098624
+        },
+        {
+          "What": -1.4497640132904053
+        },
+        {
+          "is": -1.2273036241531372
+        },
+        {
+          "the": -0.4491458535194397
+        },
+        {
+          "name": -2.448482036590576
+        },
+        {
+          "of": -0.05952661857008934
+        },
+        {
+          "the": -0.43418681621551514
+        },
+        {
+          "": -3.3964154720306396
+        },
+        {
+          "1": -0.6574207544326782
+        },
+        {
+          "9": -0.17886871099472046
+        },
+        {
+          "9": -1.4270691871643066
+        },
+        {
+          "9": -2.1010618209838867
+        },
+        {
+          "film": -1.5302588939666748
+        },
+        {
+          "that": -1.7078144550323486
+        },
+        {
+          "was": -1.8643970489501953
+        },
+        {
+          "directed": -1.3118585348129272
+        },
+        {
+          "by": -0.039726730436086655
+        },
+        {
+          "John": -3.6166279315948486
+        },
+        {
+          "W": -2.422156572341919
+        },
+        {
+          "oo": -0.30117204785346985
+        },
+        {
+          "and": -0.8648331165313721
+        },
+        {
+          "star": -1.1952807903289795
+        },
+        {
+          "red": -0.004384309984743595
+        },
+        {
+          "Nicolas": -0.9216380715370178
+        },
+        {
+          "C": -0.0011037455406039953
+        },
+        {
+          "age": -2.1815061700181104e-05
+        },
+        {
+          "?": -0.7656762599945068
+        },
+        {
+          "<0x0A>": -0.008074380457401276
+        },
+        {
+          "Th": -0.004668171051889658
+        },
+        {
+          "ought": -2.5510462364763953e-05
+        },
+        {
+          ":": -0.0001770101225702092
+        },
+        {
+          "Let": -0.009351144544780254
+        },
+        {
+          "'": -0.0002649671514518559
+        },
+        {
+          "s": -6.437280717364047e-06
+        },
+        {
+          "think": -0.0004972175229340792
+        },
+        {
+          "step": -0.0004876854654867202
+        },
+        {
+          "by": -0.00011157367407577112
+        },
+        {
+          "step": -9.178694017464295e-05
+        },
+        {
+          ".": -0.00033968876232393086
+        },
+        {
+          "Face": -1.3673014640808105
+        },
+        {
+          "/": -0.01780385710299015
+        },
+        {
+          "Off": -0.003452176693826914
+        },
+        {
+          "was": -0.8678191304206848
+        },
+        {
+          "directed": -0.32207900285720825
+        },
+        {
+          "by": -0.003808271139860153
+        },
+        {
+          "John": -0.0031480062752962112
+        },
+        {
+          "W": -0.0005199749139137566
+        },
+        {
+          "oo": -5.602820692729438e-06
+        },
+        {
+          "and": -0.11069101095199585
+        },
+        {
+          "star": -0.018026098608970642
+        },
+        {
+          "red": -0.0007650309125892818
+        },
+        {
+          "Nicolas": -0.02956676110625267
+        },
+        {
+          "C": -0.0006064721383154392
+        },
+        {
+          "age": -6.09140915912576e-05
+        },
+        {
+          ".": -0.34547168016433716
+        },
+        {
+          "So": -0.1728222370147705
+        },
+        {
+          "the": -0.05576874688267708
+        },
+        {
+          "answer": -0.6704458594322205
+        },
+        {
+          "is": -0.04709886759519577
+        },
+        {
+          "Face": -0.00808076560497284
+        },
+        {
+          "/": -0.0009757286752574146
+        },
+        {
+          "Off": -0.0023853916209191084
+        },
+        {
+          ".": -0.034948915243148804
+        },
+        {
+          "<0x0A>": -0.0020461592357605696
+        },
+        {
+          "Answer": -0.0019061268540099263
+        },
+        {
+          ":": -0.00033396866638213396
+        },
+        {
+          "Face": -0.002292625606060028
+        },
+        {
+          "/": -0.0020787552930414677
+        },
+        {
+          "Off": -0.0008036244544200599
+        },
+        {
+          "<0x0A>": -0.014686333015561104
+        },
+        {
+          "Question": -0.16594749689102173
+        },
+        {
+          ":": -0.00022885564249008894
+        },
+        {
+          "What": -1.233074426651001
+        },
+        {
+          "is": -0.9744888544082642
+        },
+        {
+          "the": -0.24603009223937988
+        },
+        {
+          "name": -0.8852224349975586
+        },
+        {
+          "of": -0.016897164285182953
+        },
+        {
+          "the": -0.17967213690280914
+        },
+        {
+          "": -1.357558012008667
+        },
+        {
+          "1": -0.5148615837097168
+        },
+        {
+          "9": -0.0341435931622982
+        },
+        {
+          "9": -0.612130343914032
+        },
+        {
+          "9": -0.6220352649688721
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?\nThought 1:Let's think step by step. Aladin was known by his stage name Aladin. Aladin helped organizations improve their performance as a consultant. So the answer is Aladin.\nAnswer: Aladin\nAction 1: MeasureUncertainty [Aladin]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Aladin",
+  "summary": {
+    "final_answer": "Aladin",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

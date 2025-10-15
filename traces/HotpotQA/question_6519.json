@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6519,
+  "question": "Question: What author wrote a three book series of memoirs that are studied in school systems around the world?",
+  "gold_answer": "Homer Hickam, Jr.",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What author wrote a three book series of memoirs that are studied in school systems around the world?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What author wrote a three book series of memoirs that are studied in school systems around the world?\nThought:",
+      "output": "Let's think step by step. Anne Frank wrote a three book series of memoirs that are studied in school systems around the world.\nAnswer: Anne Frank\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999 film Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo",
+      "probs": [
+        {
+          "Let": -0.018579497933387756
+        },
+        {
+          "'": -0.0005340342177078128
+        },
+        {
+          "s": -8.487341256113723e-05
+        },
+        {
+          "think": -0.0011707840021699667
+        },
+        {
+          "step": -0.0006548406090587378
+        },
+        {
+          "by": -0.000179036331246607
+        },
+        {
+          "step": -3.182837463100441e-05
+        },
+        {
+          ".": -0.0007687236065976322
+        },
+        {
+          "Anne": -1.580859661102295
+        },
+        {
+          "Frank": -0.023172765970230103
+        },
+        {
+          "wrote": -0.5889166593551636
+        },
+        {
+          "a": -0.44386839866638184
+        },
+        {
+          "three": -0.3535817563533783
+        },
+        {
+          "book": -0.030131740495562553
+        },
+        {
+          "series": -0.004643609281629324
+        },
+        {
+          "of": -0.04025542736053467
+        },
+        {
+          "mem": -0.008875916711986065
+        },
+        {
+          "oir": -0.0004502712981775403
+        },
+        {
+          "s": -0.005260316655039787
+        },
+        {
+          "that": -0.6554824709892273
+        },
+        {
+          "are": -0.03814985603094101
+        },
+        {
+          "studied": -0.006705047097057104
+        },
+        {
+          "in": -0.0034012107644230127
+        },
+        {
+          "school": -0.012425157241523266
+        },
+        {
+          "systems": -0.002707746112719178
+        },
+        {
+          "around": -0.00830127764493227
+        },
+        {
+          "the": -0.0005889588501304388
+        },
+        {
+          "world": -0.0005105622112751007
+        },
+        {
+          ".": -0.2634044885635376
+        },
+        {
+          "<0x0A>": -0.26270997524261475
+        },
+        {
+          "Answer": -0.002808675868436694
+        },
+        {
+          ":": -0.000219321038457565
+        },
+        {
+          "Anne": -0.004829290322959423
+        },
+        {
+          "Frank": -0.00121412449516356
+        },
+        {
+          "<0x0A>": -0.018712535500526428
+        },
+        {
+          "Question": -0.1972910612821579
+        },
+        {
+          ":": -0.0002653246629051864
+        },
+        {
+          "What": -1.2896802425384521
+        },
+        {
+          "is": -1.4489130973815918
+        },
+        {
+          "the": -0.438050776720047
+        },
+        {
+          "name": -2.300245523452759
+        },
+        {
+          "of": -0.04522577300667763
+        },
+        {
+          "the": -0.3930447995662689
+        },
+        {
+          "": -3.4117343425750732
+        },
+        {
+          "1": -0.6828793287277222
+        },
+        {
+          "9": -0.1850726306438446
+        },
+        {
+          "9": -1.26681649684906
+        },
+        {
+          "9": -2.0880165100097656
+        },
+        {
+          "film": -1.6040844917297363
+        },
+        {
+          "that": -1.7207636833190918
+        },
+        {
+          "was": -1.8845798969268799
+        },
+        {
+          "directed": -1.3211475610733032
+        },
+        {
+          "by": -0.028660250827670097
+        },
+        {
+          "John": -3.551325798034668
+        },
+        {
+          "W": -2.2988619804382324
+        },
+        {
+          "oo": -0.22506879270076752
+        },
+        {
+          "?": -0.8707261085510254
+        },
+        {
+          "<0x0A>": -0.00941314548254013
+        },
+        {
+          "Th": -0.003745565889403224
+        },
+        {
+          "ought": -2.038458114839159e-05
+        },
+        {
+          ":": -0.00016175392374861985
+        },
+        {
+          "Let": -0.010062678717076778
+        },
+        {
+          "'": -0.00032181330607272685
+        },
+        {
+          "s": -1.3232143828645349e-05
+        },
+        {
+          "think": -0.0006871246150694788
+        },
+        {
+          "step": -0.00031764229061082006
+        },
+        {
+          "by": -0.00014399446081370115
+        },
+        {
+          "step": -1.4543427823809907e-05
+        },
+        {
+          ".": -0.00031132620642893016
+        },
+        {
+          "John": -1.5376275777816772
+        },
+        {
+          "W": -0.004837119951844215
+        },
+        {
+          "oo": -0.0006484074983745813
+        },
+        {
+          "directed": -0.30464234948158264
+        },
+        {
+          "the": -1.4553179740905762
+        },
+        {
+          "": -0.25035542249679565
+        },
+        {
+          "1": -0.01801474206149578
+        },
+        {
+          "9": -0.0001397035230183974
+        },
+        {
+          "9": -0.010308710858225822
+        },
+        {
+          "9": -0.0656384527683258
+        },
+        {
+          "film": -0.052137356251478195
+        },
+        {
+          "Face": -1.0234158039093018
+        },
+        {
+          "/": -0.03604536131024361
+        },
+        {
+          "Off": -0.003846034873276949
+        },
+        {
+          ".": -0.1314966082572937
+        },
+        {
+          "<0x0A>": -0.0460757315158844
+        },
+        {
+          "Answer": -0.0012709167785942554
+        },
+        {
+          ":": -0.00035339308669790626
+        },
+        {
+          "Face": -0.004767716862261295
+        },
+        {
+          "/": -0.005879133008420467
+        },
+        {
+          "Off": -0.0034585916437208652
+        },
+        {
+          "<0x0A>": -0.031178822740912437
+        },
+        {
+          "Question": -0.17925719916820526
+        },
+        {
+          ":": -0.0002455409849062562
+        },
+        {
+          "What": -1.0876691341400146
+        },
+        {
+          "is": -1.1511515378952026
+        },
+        {
+          "the": -0.2804326117038727
+        },
+        {
+          "name": -0.958092212677002
+        },
+        {
+          "of": -0.015432937070727348
+        },
+        {
+          "the": -0.18438982963562012
+        },
+        {
+          "": -1.2389622926712036
+        },
+        {
+          "1": -0.4063364565372467
+        },
+        {
+          "9": -0.03345867991447449
+        },
+        {
+          "9": -0.5036490559577942
+        },
+        {
+          "9": -0.48048263788223267
+        },
+        {
+          "film": -0.07359526306390762
+        },
+        {
+          "that": -0.04093364626169205
+        },
+        {
+          "was": -0.08685950189828873
+        },
+        {
+          "directed": -0.049535978585481644
+        },
+        {
+          "by": -0.0013459203764796257
+        },
+        {
+          "John": -0.6939274668693542
+        },
+        {
+          "W": -0.021341560408473015
+        },
+        {
+          "oo": -0.000501030299346894
+        },
+        {
+          "?": -0.04455126076936722
+        },
+        {
+          "<0x0A>": -0.006957944482564926
+        },
+        {
+          "Th": -0.030582986772060394
+        },
+        {
+          "ought": -8.344646857949556e-07
+        },
+        {
+          ":": -0.00016735584358684719
+        },
+        {
+          "Let": -0.009701603092253208
+        },
+        {
+          "'": -0.00027807659353129566
+        },
+        {
+          "s": -1.6331539882230572e-05
+        },
+        {
+          "think": -0.0008133916999213398
+        },
+        {
+          "step": -0.0004818470624741167
+        },
+        {
+          "by": -9.178694017464295e-05
+        },
+        {
+          "step": -6.556489552167477e-06
+        },
+        {
+          ".": -0.00042465253500267863
+        },
+        {
+          "John": -0.07681602984666824
+        },
+        {
+          "W": -0.0010070496937260032
+        },
+        {
+          "oo": -6.365573790390044e-05
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: What author wrote a three book series of memoirs that are studied in school systems around the world?\nThought 1:Let's think step by step. Anne Frank wrote a three book series of memoirs that are studied in school systems around the world.\nAnswer: Anne Frank\nAction 1: MeasureUncertainty [Anne Frank]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Anne Frank",
+  "summary": {
+    "final_answer": "Anne Frank",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

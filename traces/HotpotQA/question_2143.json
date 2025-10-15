@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2143,
+  "question": "Question: Which women's magazine was published first, Mirabella or Home Monthly?",
+  "gold_answer": "Home Monthly",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which women's magazine was published first, Mirabella or Home Monthly?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which women's magazine was published first, Mirabella or Home Monthly?\nThought:",
+      "output": "Let's think step by step. Mirabella was published in 1989. Home Monthly was published in 1950. 1950 (Home Monthly) < 1989 (Mirabella), so Home Monthly was published first.\nAnswer: Home Monthly\nQuestion: Which of the following is not a member of the band The Cranberries?\nThought: Let's think step by step. The Cranberries members are Dolores O'Riordan, Noel Hogan, Mike Hogan, and Fergal",
+      "probs": [
+        {
+          "Let": -0.008496800437569618
+        },
+        {
+          "'": -0.0005519058904610574
+        },
+        {
+          "s": -2.634490556374658e-05
+        },
+        {
+          "think": -0.0005555993411689997
+        },
+        {
+          "step": -0.0003234816831536591
+        },
+        {
+          "by": -0.00032491172896698117
+        },
+        {
+          "step": -1.5139465176616795e-05
+        },
+        {
+          ".": -0.0008686583023518324
+        },
+        {
+          "Mira": -0.13455970585346222
+        },
+        {
+          "b": -0.0010987442219629884
+        },
+        {
+          "ella": -0.0017102628480643034
+        },
+        {
+          "was": -0.051415178924798965
+        },
+        {
+          "published": -0.15713442862033844
+        },
+        {
+          "in": -0.29678818583488464
+        },
+        {
+          "": -0.07263758778572083
+        },
+        {
+          "1": -0.00573240639641881
+        },
+        {
+          "9": -0.0038773848209530115
+        },
+        {
+          "8": -0.07569179683923721
+        },
+        {
+          "9": -0.051008809357881546
+        },
+        {
+          ".": -0.06837447732686996
+        },
+        {
+          "Home": -0.018384533002972603
+        },
+        {
+          "Month": -0.0026360545307397842
+        },
+        {
+          "ly": -0.00015698630886618048
+        },
+        {
+          "was": -0.025699952617287636
+        },
+        {
+          "published": -0.029771823436021805
+        },
+        {
+          "in": -0.057007137686014175
+        },
+        {
+          "": -0.029945841059088707
+        },
+        {
+          "1": -0.02988324873149395
+        },
+        {
+          "9": -0.21733811497688293
+        },
+        {
+          "5": -1.0221751928329468
+        },
+        {
+          "0": -1.4216312170028687
+        },
+        {
+          ".": -0.022945724427700043
+        },
+        {
+          "": -0.07453012466430664
+        },
+        {
+          "1": -0.001471032970584929
+        },
+        {
+          "9": -0.004532658960670233
+        },
+        {
+          "5": -0.3874186873435974
+        },
+        {
+          "0": -0.0005920564290136099
+        },
+        {
+          "(": -0.034274227917194366
+        },
+        {
+          "Home": -0.004993230104446411
+        },
+        {
+          "Month": -0.0017116909148171544
+        },
+        {
+          "ly": -0.0004366874636616558
+        },
+        {
+          ")": -0.0012356749502941966
+        },
+        {
+          "<": -0.0339418426156044
+        },
+        {
+          "": -0.0023663633037358522
+        },
+        {
+          "1": -0.00018106251081917435
+        },
+        {
+          "9": -0.00028320116689428687
+        },
+        {
+          "8": -0.0011177966371178627
+        },
+        {
+          "9": -0.0009257083875127137
+        },
+        {
+          "(": -0.0035259476862847805
+        },
+        {
+          "M": -0.001263773301616311
+        },
+        {
+          "ira": -0.0006968930247239769
+        },
+        {
+          "b": -0.00030655929003842175
+        },
+        {
+          "ella": -0.0004606377915479243
+        },
+        {
+          "),": -0.03185802698135376
+        },
+        {
+          "so": -0.004439260810613632
+        },
+        {
+          "Home": -0.06313569098711014
+        },
+        {
+          "Month": -0.0011317284079268575
+        },
+        {
+          "ly": -0.00015293381875380874
+        },
+        {
+          "was": -0.007590736728161573
+        },
+        {
+          "published": -0.00968165136873722
+        },
+        {
+          "first": -0.010239568538963795
+        },
+        {
+          ".": -0.003929395228624344
+        },
+        {
+          "<0x0A>": -0.003759936196729541
+        },
+        {
+          "Answer": -0.00213216757401824
+        },
+        {
+          ":": -0.00032228996860794723
+        },
+        {
+          "Home": -0.0036767993588000536
+        },
+        {
+          "Month": -0.0006621075444854796
+        },
+        {
+          "ly": -5.066266385256313e-05
+        },
+        {
+          "<0x0A>": -0.017206907272338867
+        },
+        {
+          "Question": -0.18482929468154907
+        },
+        {
+          ":": -0.0002859421947505325
+        },
+        {
+          "Which": -1.2439210414886475
+        },
+        {
+          "of": -2.336158275604248
+        },
+        {
+          "the": -0.8443338871002197
+        },
+        {
+          "following": -0.13016246259212494
+        },
+        {
+          "is": -1.3142658472061157
+        },
+        {
+          "not": -1.4280132055282593
+        },
+        {
+          "a": -0.6245415210723877
+        },
+        {
+          "member": -3.538775682449341
+        },
+        {
+          "of": -0.024368753656744957
+        },
+        {
+          "the": -0.49907606840133667
+        },
+        {
+          "band": -3.4891304969787598
+        },
+        {
+          "The": -2.2136387825012207
+        },
+        {
+          "C": -4.011531352996826
+        },
+        {
+          "ran": -2.1719045639038086
+        },
+        {
+          "ber": -0.04822025075554848
+        },
+        {
+          "ries": -0.00086198840290308
+        },
+        {
+          "?": -0.5412447452545166
+        },
+        {
+          "<0x0A>": -0.738557755947113
+        },
+        {
+          "Th": -0.046252284198999405
+        },
+        {
+          "ought": -0.00010263393050990999
+        },
+        {
+          ":": -0.0005190217634662986
+        },
+        {
+          "Let": -0.024288590997457504
+        },
+        {
+          "'": -0.0006180283380672336
+        },
+        {
+          "s": -1.5139465176616795e-05
+        },
+        {
+          "think": -0.0011024356354027987
+        },
+        {
+          "step": -0.0009971652179956436
+        },
+        {
+          "by": -0.0002824861148837954
+        },
+        {
+          "step": -2.539125671319198e-05
+        },
+        {
+          ".": -0.0011082704877480865
+        },
+        {
+          "The": -1.0522994995117188
+        },
+        {
+          "C": -0.2854361832141876
+        },
+        {
+          "ran": -0.0006311332108452916
+        },
+        {
+          "ber": -0.0019803689792752266
+        },
+        {
+          "ries": -0.00041237910045310855
+        },
+        {
+          "members": -1.2834551334381104
+        },
+        {
+          "are": -0.050624825060367584
+        },
+        {
+          "Dol": -0.49802982807159424
+        },
+        {
+          "ores": -0.0004768426588270813
+        },
+        {
+          "O": -0.002817948115989566
+        },
+        {
+          "'": -0.01048367004841566
+        },
+        {
+          "R": -0.0029174406081438065
+        },
+        {
+          "i": -0.0024942022282630205
+        },
+        {
+          "ord": -0.0004103533865418285
+        },
+        {
+          "an": -0.0004291805380489677
+        },
+        {
+          ",": -0.09507446736097336
+        },
+        {
+          "No": -0.25340718030929565
+        },
+        {
+          "el": -0.00026556302327662706
+        },
+        {
+          "Hog": -0.001353777595795691
+        },
+        {
+          "an": -2.169585604860913e-05
+        },
+        {
+          ",": -0.0075080362148582935
+        },
+        {
+          "Mike": -0.28727513551712036
+        },
+        {
+          "Hog": -0.001178523525595665
+        },
+        {
+          "an": -2.1934269170742482e-05
+        },
+        {
+          ",": -0.08305273950099945
+        },
+        {
+          "and": -0.35854843258857727
+        },
+        {
+          "Fer": -0.0029666482005268335
+        },
+        {
+          "gal": -0.0005719218170270324
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Which women's magazine was published first, Mirabella or Home Monthly?\nThought 1:Let's think step by step. Mirabella was published in 1989. Home Monthly was published in 1950. 1950 (Home Monthly) < 1989 (Mirabella), so Home Monthly was published first.\nAnswer: Home Monthly\nAction 1: MeasureUncertainty [Home Monthly]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Home Monthly",
+  "summary": {
+    "final_answer": "Home Monthly",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

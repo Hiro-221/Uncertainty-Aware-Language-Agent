@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6467,
+  "question": "Question: Are Siping, Jilin and Linhai both in the same province in China?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Siping, Jilin and Linhai both in the same province in China?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Siping, Jilin and Linhai both in the same province in China?\nThought:",
+      "output": "Let's think step by step. Siping, Jilin is in Jilin province. Linhai is in Zhejiang province. So Siping, Jilin and Linhai are not in the same province.\nAnswer: No\nQuestion: Which of the following is not a member of the band The Cranberries?\nThought: Let's think step by step. The Cranberries members are Dolores O'Riordan, Noel Hogan, Mike Hogan, and Fergal Lawler. So the answer is not a member of the band The",
+      "probs": [
+        {
+          "Let": -0.008733528666198254
+        },
+        {
+          "'": -0.0006200536736287177
+        },
+        {
+          "s": -4.4225667807040736e-05
+        },
+        {
+          "think": -0.0008613928221166134
+        },
+        {
+          "step": -0.00033849707688204944
+        },
+        {
+          "by": -0.00027223696815781295
+        },
+        {
+          "step": -8.105902816168964e-05
+        },
+        {
+          ".": -0.0005212855176068842
+        },
+        {
+          "S": -0.13030613958835602
+        },
+        {
+          "ip": -0.0003741279651876539
+        },
+        {
+          "ing": -0.00041130665340460837
+        },
+        {
+          ",": -0.6663512587547302
+        },
+        {
+          "J": -0.006701258011162281
+        },
+        {
+          "il": -0.0012174582807347178
+        },
+        {
+          "in": -7.652943895664066e-05
+        },
+        {
+          "is": -0.3245847821235657
+        },
+        {
+          "in": -0.28943169116973877
+        },
+        {
+          "J": -0.11590857803821564
+        },
+        {
+          "il": -0.0012463905150070786
+        },
+        {
+          "in": -0.00017712931730784476
+        },
+        {
+          "province": -0.8380979299545288
+        },
+        {
+          ".": -0.39212408661842346
+        },
+        {
+          "Lin": -0.013414249755442142
+        },
+        {
+          "hai": -0.0009834696538746357
+        },
+        {
+          "is": -0.03249245509505272
+        },
+        {
+          "in": -0.052296098321676254
+        },
+        {
+          "Z": -0.0386434905230999
+        },
+        {
+          "he": -0.0004228651523590088
+        },
+        {
+          "ji": -0.00466164480894804
+        },
+        {
+          "ang": -0.00011324241495458409
+        },
+        {
+          "province": -0.07014884799718857
+        },
+        {
+          ".": -0.02147049829363823
+        },
+        {
+          "So": -0.5748305916786194
+        },
+        {
+          "S": -0.19290344417095184
+        },
+        {
+          "ip": -0.0002661589242052287
+        },
+        {
+          "ing": -0.0003680505615193397
+        },
+        {
+          ",": -0.0427236445248127
+        },
+        {
+          "J": -0.001702646492049098
+        },
+        {
+          "il": -0.0002548369811847806
+        },
+        {
+          "in": -7.509902934543788e-05
+        },
+        {
+          "and": -0.032725416123867035
+        },
+        {
+          "Lin": -0.002101000864058733
+        },
+        {
+          "hai": -0.00033504117163829505
+        },
+        {
+          "are": -0.03976614028215408
+        },
+        {
+          "not": -0.181809663772583
+        },
+        {
+          "in": -0.6447095274925232
+        },
+        {
+          "the": -0.004598518367856741
+        },
+        {
+          "same": -0.000824230897706002
+        },
+        {
+          "province": -0.006475892383605242
+        },
+        {
+          ".": -0.5851495265960693
+        },
+        {
+          "<0x0A>": -0.005707870703190565
+        },
+        {
+          "Answer": -0.0015831567579880357
+        },
+        {
+          ":": -0.0002743821241892874
+        },
+        {
+          "No": -0.010840335860848427
+        },
+        {
+          "<0x0A>": -0.021304452791810036
+        },
+        {
+          "Question": -0.312310129404068
+        },
+        {
+          ":": -0.0003847335756290704
+        },
+        {
+          "Which": -1.660069227218628
+        },
+        {
+          "of": -1.7912027835845947
+        },
+        {
+          "the": -0.8309788703918457
+        },
+        {
+          "following": -0.14298149943351746
+        },
+        {
+          "is": -1.1960653066635132
+        },
+        {
+          "not": -1.3731647729873657
+        },
+        {
+          "a": -0.6776049137115479
+        },
+        {
+          "member": -3.181588649749756
+        },
+        {
+          "of": -0.025542626157402992
+        },
+        {
+          "the": -0.5390474200248718
+        },
+        {
+          "band": -3.3471741676330566
+        },
+        {
+          "The": -2.204195737838745
+        },
+        {
+          "C": -3.939241647720337
+        },
+        {
+          "ran": -2.0516529083251953
+        },
+        {
+          "ber": -0.03852030634880066
+        },
+        {
+          "ries": -0.0006750926841050386
+        },
+        {
+          "?": -0.4386027157306671
+        },
+        {
+          "<0x0A>": -1.033494472503662
+        },
+        {
+          "Th": -0.08847560733556747
+        },
+        {
+          "ought": -0.00013350549852475524
+        },
+        {
+          ":": -0.00058466981863603
+        },
+        {
+          "Let": -0.02790769375860691
+        },
+        {
+          "'": -0.0007035640883259475
+        },
+        {
+          "s": -3.194758028257638e-05
+        },
+        {
+          "think": -0.0017178792040795088
+        },
+        {
+          "step": -0.0008922410197556019
+        },
+        {
+          "by": -0.0003927174839191139
+        },
+        {
+          "step": -6.794698856538162e-05
+        },
+        {
+          ".": -0.0011560192797333002
+        },
+        {
+          "The": -1.113872766494751
+        },
+        {
+          "C": -0.264999121427536
+        },
+        {
+          "ran": -0.0006494796834886074
+        },
+        {
+          "ber": -0.0016185053391382098
+        },
+        {
+          "ries": -0.0003660247311927378
+        },
+        {
+          "members": -1.300283432006836
+        },
+        {
+          "are": -0.06490373611450195
+        },
+        {
+          "Dol": -0.46569132804870605
+        },
+        {
+          "ores": -0.00035589560866355896
+        },
+        {
+          "O": -0.0021608355455100536
+        },
+        {
+          "'": -0.010784674435853958
+        },
+        {
+          "R": -0.003272774862125516
+        },
+        {
+          "i": -0.0017572689102962613
+        },
+        {
+          "ord": -0.00025960413040593266
+        },
+        {
+          "an": -0.00035482310340739787
+        },
+        {
+          ",": -0.08972059935331345
+        },
+        {
+          "No": -0.2352485954761505
+        },
+        {
+          "el": -0.00020787939138244838
+        },
+        {
+          "Hog": -0.0015586382942274213
+        },
+        {
+          "an": -1.8596476365928538e-05
+        },
+        {
+          ",": -0.008854175917804241
+        },
+        {
+          "Mike": -0.40490204095840454
+        },
+        {
+          "Hog": -0.001158519764430821
+        },
+        {
+          "an": -2.253030106658116e-05
+        },
+        {
+          ",": -0.08931576460599899
+        },
+        {
+          "and": -0.4322412312030792
+        },
+        {
+          "Fer": -0.00462379353120923
+        },
+        {
+          "gal": -0.0006210067658685148
+        },
+        {
+          "Law": -0.0006568658282049
+        },
+        {
+          "ler": -0.01503668911755085
+        },
+        {
+          ".": -0.030990343540906906
+        },
+        {
+          "So": -1.6605453491210938
+        },
+        {
+          "the": -0.84006667137146
+        },
+        {
+          "answer": -0.7319584488868713
+        },
+        {
+          "is": -0.08878566324710846
+        },
+        {
+          "not": -1.3682830333709717
+        },
+        {
+          "a": -0.4841994047164917
+        },
+        {
+          "member": -0.02571284957230091
+        },
+        {
+          "of": -0.07350577414035797
+        },
+        {
+          "the": -0.29657065868377686
+        },
+        {
+          "band": -0.010626871138811111
+        },
+        {
+          "The": -0.20241357386112213
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are Siping, Jilin and Linhai both in the same province in China?\nThought 1:Let's think step by step. Siping, Jilin is in Jilin province. Linhai is in Zhejiang province. So Siping, Jilin and Linhai are not in the same province.\nAnswer: No\nAction 1: MeasureUncertainty [No]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: No",
+  "summary": {
+    "final_answer": "No",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

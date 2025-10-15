@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2544,
+  "question": "Question: Are Hoodoo Gurus and Pierre Bouvier of the same nationality?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Hoodoo Gurus and Pierre Bouvier of the same nationality?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Hoodoo Gurus and Pierre Bouvier of the same nationality?\nThought:",
+      "output": "Let's think step by step. Hoodoo Gurus are Australian. Pierre Bouvier is Canadian. So Hoodoo Gurus and Pierre Bouvier are not of the same nationality.\nAnswer: No\nQuestion: What is the difference between the number of people who died in the 1999 İzmit earthquake and the number of people who died in the 1999 Athens earthquake?\nThought: Let's think step by step. 17,118 people died in the 1999 İzmit earthqu",
+      "probs": [
+        {
+          "Let": -0.010500303469598293
+        },
+        {
+          "'": -0.000408327643526718
+        },
+        {
+          "s": -1.2278481335670222e-05
+        },
+        {
+          "think": -0.0005584587925113738
+        },
+        {
+          "step": -0.0002668739762157202
+        },
+        {
+          "by": -0.0001778444420779124
+        },
+        {
+          "step": -7.331102824537084e-05
+        },
+        {
+          ".": -0.0004727914638351649
+        },
+        {
+          "H": -0.18455080687999725
+        },
+        {
+          "ood": -0.0006716379430145025
+        },
+        {
+          "oo": -0.0006291079334914684
+        },
+        {
+          "G": -0.000892121868673712
+        },
+        {
+          "urus": -0.00044371772673912346
+        },
+        {
+          "are": -0.6416234970092773
+        },
+        {
+          "Australian": -0.6751842498779297
+        },
+        {
+          ".": -0.41234061121940613
+        },
+        {
+          "Pierre": -0.014917724765837193
+        },
+        {
+          "B": -0.0026534132193773985
+        },
+        {
+          "ouv": -0.0006573423161171377
+        },
+        {
+          "ier": -0.002681947313249111
+        },
+        {
+          "is": -0.018928492441773415
+        },
+        {
+          "Canadian": -0.1251673400402069
+        },
+        {
+          ".": -0.044851530343294144
+        },
+        {
+          "So": -0.3443921208381653
+        },
+        {
+          "H": -0.14010725915431976
+        },
+        {
+          "ood": -0.0007189311436377466
+        },
+        {
+          "oo": -0.0009070096421055496
+        },
+        {
+          "G": -0.0012969900853931904
+        },
+        {
+          "urus": -0.0031329141929745674
+        },
+        {
+          "and": -0.01956533081829548
+        },
+        {
+          "Pierre": -0.0026179824490100145
+        },
+        {
+          "B": -0.0021098037250339985
+        },
+        {
+          "ouv": -0.0022348209749907255
+        },
+        {
+          "ier": -0.0014650813536718488
+        },
+        {
+          "are": -0.10298054665327072
+        },
+        {
+          "not": -0.4987415075302124
+        },
+        {
+          "of": -0.029191358014941216
+        },
+        {
+          "the": -0.0030774159822613
+        },
+        {
+          "same": -0.00026353701832704246
+        },
+        {
+          "national": -0.001892800792120397
+        },
+        {
+          "ity": -0.0011410161387175322
+        },
+        {
+          ".": -0.007109936326742172
+        },
+        {
+          "<0x0A>": -0.0034263969864696264
+        },
+        {
+          "Answer": -0.0016370717203244567
+        },
+        {
+          ":": -0.000316927267704159
+        },
+        {
+          "No": -0.011269251815974712
+        },
+        {
+          "<0x0A>": -0.017202220857143402
+        },
+        {
+          "Question": -0.3025643527507782
+        },
+        {
+          ":": -0.0003840185818262398
+        },
+        {
+          "What": -1.6762830018997192
+        },
+        {
+          "is": -1.1684848070144653
+        },
+        {
+          "the": -0.37434789538383484
+        },
+        {
+          "difference": -2.815096616744995
+        },
+        {
+          "between": -0.3562600612640381
+        },
+        {
+          "the": -1.0676310062408447
+        },
+        {
+          "number": -2.270671844482422
+        },
+        {
+          "of": -0.028051666915416718
+        },
+        {
+          "people": -3.3019793033599854
+        },
+        {
+          "who": -1.4909425973892212
+        },
+        {
+          "died": -2.0983827114105225
+        },
+        {
+          "in": -0.43034598231315613
+        },
+        {
+          "the": -0.426693856716156
+        },
+        {
+          "": -1.5279803276062012
+        },
+        {
+          "1": -0.6051008701324463
+        },
+        {
+          "9": -0.2155366986989975
+        },
+        {
+          "9": -1.481473445892334
+        },
+        {
+          "9": -1.7994030714035034
+        },
+        {
+          "": -1.6189640760421753
+        },
+        {
+          "İ": -0.03125450760126114
+        },
+        {
+          "z": -0.0007738456479273736
+        },
+        {
+          "mit": -8.11782301752828e-05
+        },
+        {
+          "earth": -0.02075454406440258
+        },
+        {
+          "qu": -7.378782902378589e-05
+        },
+        {
+          "ake": -0.0036855884827673435
+        },
+        {
+          "and": -0.10509981960058212
+        },
+        {
+          "the": -0.2768327593803406
+        },
+        {
+          "number": -0.8594434857368469
+        },
+        {
+          "of": -0.1038118377327919
+        },
+        {
+          "people": -0.22595009207725525
+        },
+        {
+          "who": -0.07198020815849304
+        },
+        {
+          "died": -0.06684272736310959
+        },
+        {
+          "in": -0.03010571375489235
+        },
+        {
+          "the": -0.05312424525618553
+        },
+        {
+          "": -0.22078758478164673
+        },
+        {
+          "1": -0.5730009078979492
+        },
+        {
+          "9": -0.16721339523792267
+        },
+        {
+          "9": -0.811710000038147
+        },
+        {
+          "9": -0.70819091796875
+        },
+        {
+          "Ath": -0.45613476634025574
+        },
+        {
+          "ens": -0.00037496211007237434
+        },
+        {
+          "earth": -0.14835770428180695
+        },
+        {
+          "qu": -8.11782301752828e-05
+        },
+        {
+          "ake": -0.004550933837890625
+        },
+        {
+          "?": -0.029798900708556175
+        },
+        {
+          "<0x0A>": -0.01332755945622921
+        },
+        {
+          "Th": -0.007060340140014887
+        },
+        {
+          "ought": -6.401333666872233e-05
+        },
+        {
+          ":": -0.0005329619161784649
+        },
+        {
+          "Let": -0.007299775257706642
+        },
+        {
+          "'": -0.0004772001120727509
+        },
+        {
+          "s": -2.753696753643453e-05
+        },
+        {
+          "think": -0.0006898645660839975
+        },
+        {
+          "step": -0.0005025792634114623
+        },
+        {
+          "by": -0.00029690624796785414
+        },
+        {
+          "step": -2.47952248173533e-05
+        },
+        {
+          ".": -0.0006255338666960597
+        },
+        {
+          "": -0.8046996593475342
+        },
+        {
+          "1": -0.10172095149755478
+        },
+        {
+          "7": -0.2667262852191925
+        },
+        {
+          ",": -0.17407576739788055
+        },
+        {
+          "1": -0.4056680500507355
+        },
+        {
+          "1": -0.28246718645095825
+        },
+        {
+          "8": -0.04368266090750694
+        },
+        {
+          "people": -0.16995778679847717
+        },
+        {
+          "died": -0.07818102091550827
+        },
+        {
+          "in": -0.011716010048985481
+        },
+        {
+          "the": -0.03357718512415886
+        },
+        {
+          "": -0.006307811941951513
+        },
+        {
+          "1": -0.010959785431623459
+        },
+        {
+          "9": -0.001617315225303173
+        },
+        {
+          "9": -0.0004505096294451505
+        },
+        {
+          "9": -0.0004010588163509965
+        },
+        {
+          "": -0.07883697748184204
+        },
+        {
+          "İ": -0.0004533693427219987
+        },
+        {
+          "z": -0.00010501786891836673
+        },
+        {
+          "mit": -0.0006965356878936291
+        },
+        {
+          "earth": -0.0020810156129300594
+        },
+        {
+          "qu": -6.97350042173639e-05
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are Hoodoo Gurus and Pierre Bouvier of the same nationality?\nThought 1:Let's think step by step. Hoodoo Gurus are Australian. Pierre Bouvier is Canadian. So Hoodoo Gurus and Pierre Bouvier are not of the same nationality.\nAnswer: No\nAction 1: MeasureUncertainty [No]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: No",
+  "summary": {
+    "final_answer": "No",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

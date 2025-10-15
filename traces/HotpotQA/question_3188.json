@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3188,
+  "question": "Question: Michael Braz completed a libretto for what Georgia college, founded in 1906?",
+  "gold_answer": "A Scholar Under Siege",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Michael Braz completed a libretto for what Georgia college, founded in 1906?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Michael Braz completed a libretto for what Georgia college, founded in 1906?\nThought:",
+      "output": "Let's think step by step. Michael Braz completed a libretto for Georgia College. Georgia College was founded in 1889. So the Georgia college, founded in 1906 is not Georgia College.\nAnswer: Georgia College\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film is The Thomas Crown Affair. The 1969 film is The Thomas Crown Affair. So the ",
+      "probs": [
+        {
+          "Let": -0.015567449852824211
+        },
+        {
+          "'": -0.0004769618099089712
+        },
+        {
+          "s": -1.7881377516459906e-06
+        },
+        {
+          "think": -0.0011480414541438222
+        },
+        {
+          "step": -0.0008709213580004871
+        },
+        {
+          "by": -0.0002261144545627758
+        },
+        {
+          "step": -3.516612196108326e-05
+        },
+        {
+          ".": -0.0006821212591603398
+        },
+        {
+          "Michael": -0.6525264978408813
+        },
+        {
+          "Bra": -0.012252657674252987
+        },
+        {
+          "z": -0.0021295505575835705
+        },
+        {
+          "completed": -0.319150447845459
+        },
+        {
+          "a": -0.061114802956581116
+        },
+        {
+          "libre": -0.01325768418610096
+        },
+        {
+          "tto": -0.00063744728686288
+        },
+        {
+          "for": -0.048593007028102875
+        },
+        {
+          "Georgia": -2.0965518951416016
+        },
+        {
+          "College": -0.5882539749145508
+        },
+        {
+          ".": -1.170624852180481
+        },
+        {
+          "Georgia": -0.2960532605648041
+        },
+        {
+          "College": -0.030960064381361008
+        },
+        {
+          "was": -0.2920028269290924
+        },
+        {
+          "founded": -0.036649905145168304
+        },
+        {
+          "in": -0.00965520553290844
+        },
+        {
+          "": -0.004925498738884926
+        },
+        {
+          "1": -0.0003363520372658968
+        },
+        {
+          "8": -0.11480537056922913
+        },
+        {
+          "8": -0.009669963270425797
+        },
+        {
+          "9": -0.007886226288974285
+        },
+        {
+          ".": -0.6732515096664429
+        },
+        {
+          "So": -0.7452701926231384
+        },
+        {
+          "the": -0.7432523965835571
+        },
+        {
+          "Georgia": -0.9438356161117554
+        },
+        {
+          "college": -0.044482965022325516
+        },
+        {
+          ",": -0.5188940167427063
+        },
+        {
+          "founded": -0.010096902959048748
+        },
+        {
+          "in": -0.0010439666220918298
+        },
+        {
+          "": -0.00047672350774519145
+        },
+        {
+          "1": -0.00025388356880284846
+        },
+        {
+          "9": -0.08770658820867538
+        },
+        {
+          "0": -0.000566203030757606
+        },
+        {
+          "6": -0.0009087961516343057
+        },
+        {
+          "is": -0.9712538719177246
+        },
+        {
+          "not": -0.20583748817443848
+        },
+        {
+          "Georgia": -0.08551014959812164
+        },
+        {
+          "College": -0.007877473719418049
+        },
+        {
+          ".": -0.10602059960365295
+        },
+        {
+          "<0x0A>": -0.20927970111370087
+        },
+        {
+          "Answer": -0.04218459129333496
+        },
+        {
+          ":": -0.0013543728273361921
+        },
+        {
+          "Georgia": -1.8048348426818848
+        },
+        {
+          "College": -0.249471515417099
+        },
+        {
+          "<0x0A>": -0.35340604186058044
+        },
+        {
+          "Question": -0.2982376515865326
+        },
+        {
+          ":": -0.00042358008795417845
+        },
+        {
+          "What": -1.4208364486694336
+        },
+        {
+          "is": -1.3164417743682861
+        },
+        {
+          "the": -0.4422832131385803
+        },
+        {
+          "name": -2.5315988063812256
+        },
+        {
+          "of": -0.049116358160972595
+        },
+        {
+          "the": -0.4714231491088867
+        },
+        {
+          "": -3.1744425296783447
+        },
+        {
+          "1": -0.6667914986610413
+        },
+        {
+          "9": -0.2205289751291275
+        },
+        {
+          "9": -1.4070992469787598
+        },
+        {
+          "9": -2.1057584285736084
+        },
+        {
+          "film": -1.6366980075836182
+        },
+        {
+          "that": -1.9224190711975098
+        },
+        {
+          "is": -2.0882465839385986
+        },
+        {
+          "a": -1.4749977588653564
+        },
+        {
+          "re": -1.1964887380599976
+        },
+        {
+          "make": -0.03093787282705307
+        },
+        {
+          "of": -0.01674266718327999
+        },
+        {
+          "the": -0.7847078442573547
+        },
+        {
+          "": -0.27397775650024414
+        },
+        {
+          "1": -0.01608690246939659
+        },
+        {
+          "9": -0.003340618684887886
+        },
+        {
+          "6": -1.2992041110992432
+        },
+        {
+          "9": -1.7984048128128052
+        },
+        {
+          "film": -0.34070971608161926
+        },
+        {
+          "of": -1.5023329257965088
+        },
+        {
+          "the": -0.027871176600456238
+        },
+        {
+          "same": -0.0037133803125470877
+        },
+        {
+          "name": -0.03417297080159187
+        },
+        {
+          "?": -0.4738481938838959
+        },
+        {
+          "<0x0A>": -0.02569623477756977
+        },
+        {
+          "Th": -0.0061298697255551815
+        },
+        {
+          "ought": -1.9907753085135482e-05
+        },
+        {
+          ":": -0.0001776060671545565
+        },
+        {
+          "Let": -0.010536989197134972
+        },
+        {
+          "'": -0.0002379134384682402
+        },
+        {
+          "s": -4.029192859889008e-05
+        },
+        {
+          "think": -0.0007073761080391705
+        },
+        {
+          "step": -0.00040451448876410723
+        },
+        {
+          "by": -0.0001776060671545565
+        },
+        {
+          "step": -1.1801649634435307e-05
+        },
+        {
+          ".": -0.000436091679148376
+        },
+        {
+          "The": -0.7491135597229004
+        },
+        {
+          "": -0.4111722707748413
+        },
+        {
+          "1": -0.008984968066215515
+        },
+        {
+          "9": -0.0005155664402991533
+        },
+        {
+          "9": -0.43075069785118103
+        },
+        {
+          "9": -0.0029651031363755465
+        },
+        {
+          "film": -0.05831833556294441
+        },
+        {
+          "is": -0.8629021644592285
+        },
+        {
+          "The": -1.1514604091644287
+        },
+        {
+          "Thomas": -0.3572741746902466
+        },
+        {
+          "Crown": -0.0015066235791891813
+        },
+        {
+          "Aff": -0.0013181816320866346
+        },
+        {
+          "air": -0.0006025406182743609
+        },
+        {
+          ".": -0.32390686869621277
+        },
+        {
+          "The": -0.16641482710838318
+        },
+        {
+          "": -0.09574565291404724
+        },
+        {
+          "1": -0.001013361383229494
+        },
+        {
+          "9": -0.00019464982324279845
+        },
+        {
+          "6": -0.03377324715256691
+        },
+        {
+          "9": -0.0023298519663512707
+        },
+        {
+          "film": -0.010781725868582726
+        },
+        {
+          "is": -0.28062692284584045
+        },
+        {
+          "The": -0.37658217549324036
+        },
+        {
+          "Thomas": -0.0010032388381659985
+        },
+        {
+          "Crown": -0.0006596058374270797
+        },
+        {
+          "Aff": -0.00041392818093299866
+        },
+        {
+          "air": -0.00011920218821614981
+        },
+        {
+          ".": -0.12744702398777008
+        },
+        {
+          "So": -0.33243685960769653
+        },
+        {
+          "the": -0.13064347207546234
+        },
+        {
+          "": -0.4180421233177185
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.68,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Michael Braz completed a libretto for what Georgia college, founded in 1906?\nThought 1:Let's think step by step. Michael Braz completed a libretto for Georgia College. Georgia College was founded in 1889. So the Georgia college, founded in 1906 is not Georgia College.\nAnswer: Georgia College\nAction 1: MeasureUncertainty [Georgia College]\nObservation 1: Answer’s uncertainty is 0.68, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Georgia College",
+  "summary": {
+    "final_answer": "Georgia College",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

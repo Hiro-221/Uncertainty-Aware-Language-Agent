@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6055,
+  "question": "Question: Which composer was wrote his music most recently, Michael Tippett or Luigi Cherubini?",
+  "gold_answer": "Michael Kemp Tippett",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which composer was wrote his music most recently, Michael Tippett or Luigi Cherubini?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which composer was wrote his music most recently, Michael Tippett or Luigi Cherubini?\nThought:",
+      "output": "Let's think step by step. Michael Tippett was born in 1905 and died in 1998. Luigi Cherubini was born in 1760 and died in 1842. 1905 (Michael Tippett) < 1760 (Luigi Cherubini), so Michael Tippett was wrote his music most recently.\nAnswer: Michael Tippett\nQuestion: Which of the following is a type of apartment?\nThought: Let's think step by step. Apartment is a type of flat. Fl",
+      "probs": [
+        {
+          "Let": -0.006125130690634251
+        },
+        {
+          "'": -0.0005046047735959291
+        },
+        {
+          "s": -6.854299135738984e-05
+        },
+        {
+          "think": -0.0005640584276989102
+        },
+        {
+          "step": -0.0003133521240670234
+        },
+        {
+          "by": -0.0001070442158379592
+        },
+        {
+          "step": -0.0001554368354845792
+        },
+        {
+          ".": -0.0004303721070755273
+        },
+        {
+          "Michael": -0.5529937744140625
+        },
+        {
+          "T": -0.004437006078660488
+        },
+        {
+          "ipp": -0.00019059749320149422
+        },
+        {
+          "ett": -0.00033456450910307467
+        },
+        {
+          "was": -0.8345286250114441
+        },
+        {
+          "born": -0.6219248175621033
+        },
+        {
+          "in": -0.10813900828361511
+        },
+        {
+          "": -0.034428920596838
+        },
+        {
+          "1": -0.0035709680523723364
+        },
+        {
+          "9": -0.0028795229736715555
+        },
+        {
+          "0": -0.004020940512418747
+        },
+        {
+          "5": -0.004415880423039198
+        },
+        {
+          "and": -0.5212234258651733
+        },
+        {
+          "died": -0.101181760430336
+        },
+        {
+          "in": -0.010977000929415226
+        },
+        {
+          "": -0.0013813963159918785
+        },
+        {
+          "1": -0.002294290577992797
+        },
+        {
+          "9": -0.00022885564249008894
+        },
+        {
+          "9": -0.004787885583937168
+        },
+        {
+          "8": -0.006993695627897978
+        },
+        {
+          ".": -0.12125135213136673
+        },
+        {
+          "Luigi": -0.10471630096435547
+        },
+        {
+          "Cher": -0.001150541938841343
+        },
+        {
+          "ub": -0.0002619877050165087
+        },
+        {
+          "ini": -0.00020621081057470292
+        },
+        {
+          "was": -0.02002931386232376
+        },
+        {
+          "born": -0.005996451713144779
+        },
+        {
+          "in": -0.004801410716027021
+        },
+        {
+          "": -0.002050441922619939
+        },
+        {
+          "1": -0.0003355178632773459
+        },
+        {
+          "7": -0.0011233931872993708
+        },
+        {
+          "6": -0.0048858774825930595
+        },
+        {
+          "0": -0.0018814972136169672
+        },
+        {
+          "and": -0.013419189490377903
+        },
+        {
+          "died": -0.0019900058396160603
+        },
+        {
+          "in": -0.002646160777658224
+        },
+        {
+          "": -0.00039450492477044463
+        },
+        {
+          "1": -0.000198821333469823
+        },
+        {
+          "8": -0.0010531361913308501
+        },
+        {
+          "4": -0.0028343526646494865
+        },
+        {
+          "2": -0.003857078729197383
+        },
+        {
+          ".": -0.010340331122279167
+        },
+        {
+          "": -1.0056818723678589
+        },
+        {
+          "1": -0.01669788546860218
+        },
+        {
+          "9": -0.25958988070487976
+        },
+        {
+          "0": -0.5960099101066589
+        },
+        {
+          "5": -0.0025506841484457254
+        },
+        {
+          "(": -0.22238710522651672
+        },
+        {
+          "Michael": -0.09332578629255295
+        },
+        {
+          "T": -0.0022131730802357197
+        },
+        {
+          "ipp": -0.0005876483046449721
+        },
+        {
+          "ett": -0.0008555566309951246
+        },
+        {
+          ")": -0.013794798403978348
+        },
+        {
+          "<": -0.3357020914554596
+        },
+        {
+          "": -0.003324222518131137
+        },
+        {
+          "1": -0.0011632826644927263
+        },
+        {
+          "7": -0.049996696412563324
+        },
+        {
+          "6": -0.0024868296459317207
+        },
+        {
+          "0": -0.0013159195659682155
+        },
+        {
+          "(": -0.003917877096682787
+        },
+        {
+          "Lu": -0.004078761208802462
+        },
+        {
+          "igi": -0.00024041623692028224
+        },
+        {
+          "Cher": -0.000847814604640007
+        },
+        {
+          "ub": -0.0003796095261350274
+        },
+        {
+          "ini": -0.00023040501400828362
+        },
+        {
+          "),": -0.1659684032201767
+        },
+        {
+          "so": -0.04915562644600868
+        },
+        {
+          "Michael": -0.5642391443252563
+        },
+        {
+          "T": -0.0022751418873667717
+        },
+        {
+          "ipp": -0.0008136299438774586
+        },
+        {
+          "ett": -0.001293775625526905
+        },
+        {
+          "was": -0.5555666089057922
+        },
+        {
+          "wrote": -0.4662264585494995
+        },
+        {
+          "his": -0.017692014575004578
+        },
+        {
+          "music": -0.005590518470853567
+        },
+        {
+          "most": -0.06764532625675201
+        },
+        {
+          "recently": -0.002291793003678322
+        },
+        {
+          ".": -0.01679084822535515
+        },
+        {
+          "<0x0A>": -0.004153198096901178
+        },
+        {
+          "Answer": -0.002526308177039027
+        },
+        {
+          ":": -0.00025519452174194157
+        },
+        {
+          "Michael": -0.004347397480159998
+        },
+        {
+          "T": -0.0005407063290476799
+        },
+        {
+          "ipp": -0.00033563701435923576
+        },
+        {
+          "ett": -0.00023934361524879932
+        },
+        {
+          "<0x0A>": -0.01900510862469673
+        },
+        {
+          "Question": -0.2243451327085495
+        },
+        {
+          ":": -0.0002444683632347733
+        },
+        {
+          "Which": -1.212030291557312
+        },
+        {
+          "of": -2.3883073329925537
+        },
+        {
+          "the": -0.8814195394515991
+        },
+        {
+          "following": -0.15513548254966736
+        },
+        {
+          "is": -1.2883325815200806
+        },
+        {
+          "a": -1.5381869077682495
+        },
+        {
+          "type": -3.8497314453125
+        },
+        {
+          "of": -0.016893764957785606
+        },
+        {
+          "a": -4.638489723205566
+        },
+        {
+          "partment": -3.3614389896392822
+        },
+        {
+          "?": -1.3462944030761719
+        },
+        {
+          "<0x0A>": -1.263407588005066
+        },
+        {
+          "Th": -0.06730546057224274
+        },
+        {
+          "ought": -0.00016211149340961128
+        },
+        {
+          ":": -0.00045503751607611775
+        },
+        {
+          "Let": -0.02460024133324623
+        },
+        {
+          "'": -0.0006973695708438754
+        },
+        {
+          "s": -1.2278481335670222e-05
+        },
+        {
+          "think": -0.0018556771101430058
+        },
+        {
+          "step": -0.0010219357209280133
+        },
+        {
+          "by": -0.00025876989820972085
+        },
+        {
+          "step": -1.0132738680113107e-05
+        },
+        {
+          ".": -0.0008311392739415169
+        },
+        {
+          "A": -1.1897884607315063
+        },
+        {
+          "partment": -0.6441414952278137
+        },
+        {
+          "is": -0.3745190501213074
+        },
+        {
+          "a": -0.17539064586162567
+        },
+        {
+          "type": -0.7819677591323853
+        },
+        {
+          "of": -0.008644422516226768
+        },
+        {
+          "flat": -2.3244004249572754
+        },
+        {
+          ".": -0.33769336342811584
+        },
+        {
+          "Fl": -1.169193983078003
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which composer was wrote his music most recently, Michael Tippett or Luigi Cherubini?\nThought 1:Let's think step by step. Michael Tippett was born in 1905 and died in 1998. Luigi Cherubini was born in 1760 and died in 1842. 1905 (Michael Tippett) < 1760 (Luigi Cherubini), so Michael Tippett was wrote his music most recently.\nAnswer: Michael Tippett\nAction 1: MeasureUncertainty [Michael Tippett]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Michael Tippett",
+  "summary": {
+    "final_answer": "Michael Tippett",
+    "em": false,
+    "f1": 0.8,
+    "mode": "uala_cot_only"
+  }
+}

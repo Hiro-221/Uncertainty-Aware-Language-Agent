@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5679,
+  "question": "Question: What country is the Selun located in?",
+  "gold_answer": "Switzerland",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What country is the Selun located in?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What country is the Selun located in?\nThought:",
+      "output": "Let's think step by step. Selun is a river in France.\nAnswer: France\nQuestion: What is the name of the river that the Selun flows into?\nThought: Let's think step by step. Selun flows into the Sarthe.\nAnswer: Sarthe\nQuestion: What is the name of the river that the Sarthe flows into?\nThought: Let's think step by step. Sarthe flows into the Loire.\nAnswer: Loire\nQuestion: What is the name of the river that the Loire flows into?\nThought",
+      "probs": [
+        {
+          "Let": -0.030499160289764404
+        },
+        {
+          "'": -0.0007189311436377466
+        },
+        {
+          "s": -3.40932747349143e-05
+        },
+        {
+          "think": -0.0019829864613711834
+        },
+        {
+          "step": -0.0008081507403403521
+        },
+        {
+          "by": -0.00027569307712838054
+        },
+        {
+          "step": -5.745722592109814e-05
+        },
+        {
+          ".": -0.0006833125371485949
+        },
+        {
+          "Sel": -0.6815553307533264
+        },
+        {
+          "un": -0.014630180783569813
+        },
+        {
+          "is": -0.157203808426857
+        },
+        {
+          "a": -0.968384861946106
+        },
+        {
+          "river": -1.4926612377166748
+        },
+        {
+          "in": -0.2738851010799408
+        },
+        {
+          "France": -2.2217531204223633
+        },
+        {
+          ".": -0.5414001941680908
+        },
+        {
+          "<0x0A>": -0.67507404088974
+        },
+        {
+          "Answer": -0.00378606328740716
+        },
+        {
+          ":": -0.0002675890573300421
+        },
+        {
+          "France": -0.006717953830957413
+        },
+        {
+          "<0x0A>": -0.017284005880355835
+        },
+        {
+          "Question": -0.22790998220443726
+        },
+        {
+          ":": -0.0003817544784396887
+        },
+        {
+          "What": -1.2014120817184448
+        },
+        {
+          "is": -1.302362084388733
+        },
+        {
+          "the": -0.37897080183029175
+        },
+        {
+          "name": -2.629046678543091
+        },
+        {
+          "of": -0.05198390781879425
+        },
+        {
+          "the": -0.4368499219417572
+        },
+        {
+          "river": -3.3774831295013428
+        },
+        {
+          "that": -0.871475338935852
+        },
+        {
+          "the": -1.5032626390457153
+        },
+        {
+          "Sel": -2.8463034629821777
+        },
+        {
+          "un": -0.015377648174762726
+        },
+        {
+          "flows": -0.8870725631713867
+        },
+        {
+          "into": -0.11682551354169846
+        },
+        {
+          "?": -0.06493523716926575
+        },
+        {
+          "<0x0A>": -0.004264072049409151
+        },
+        {
+          "Th": -0.004733903333544731
+        },
+        {
+          "ought": -1.597391747054644e-05
+        },
+        {
+          ":": -0.00015078838623594493
+        },
+        {
+          "Let": -0.009050299413502216
+        },
+        {
+          "'": -0.00042834642226807773
+        },
+        {
+          "s": -4.482168878894299e-05
+        },
+        {
+          "think": -0.00039986721822060645
+        },
+        {
+          "step": -0.0002734287118073553
+        },
+        {
+          "by": -0.00015901254664640874
+        },
+        {
+          "step": -1.7881233361549675e-05
+        },
+        {
+          ".": -0.00040665941196493804
+        },
+        {
+          "Sel": -0.17332465946674347
+        },
+        {
+          "un": -0.002079231198877096
+        },
+        {
+          "flows": -0.4610615372657776
+        },
+        {
+          "into": -0.01676095463335514
+        },
+        {
+          "the": -0.5117335319519043
+        },
+        {
+          "S": -1.761075735092163
+        },
+        {
+          "art": -0.8525282144546509
+        },
+        {
+          "he": -0.0008286379743367434
+        },
+        {
+          ".": -0.3839045464992523
+        },
+        {
+          "<0x0A>": -0.0403490886092186
+        },
+        {
+          "Answer": -0.0015457835979759693
+        },
+        {
+          ":": -0.0002848696312867105
+        },
+        {
+          "S": -0.061256762593984604
+        },
+        {
+          "art": -0.00011991735664196312
+        },
+        {
+          "he": -2.0265558760002023e-06
+        },
+        {
+          "<0x0A>": -0.019924499094486237
+        },
+        {
+          "Question": -0.182760089635849
+        },
+        {
+          ":": -0.0003297977091278881
+        },
+        {
+          "What": -0.9478124380111694
+        },
+        {
+          "is": -0.9836111664772034
+        },
+        {
+          "the": -0.17233410477638245
+        },
+        {
+          "name": -0.973839282989502
+        },
+        {
+          "of": -0.00822100043296814
+        },
+        {
+          "the": -0.10987887531518936
+        },
+        {
+          "river": -0.8707548975944519
+        },
+        {
+          "that": -0.05430901050567627
+        },
+        {
+          "the": -0.07621773332357407
+        },
+        {
+          "S": -0.29871225357055664
+        },
+        {
+          "art": -0.004501566756516695
+        },
+        {
+          "he": -0.00019059749320149422
+        },
+        {
+          "flows": -0.04107838496565819
+        },
+        {
+          "into": -0.00610202644020319
+        },
+        {
+          "?": -0.043188195675611496
+        },
+        {
+          "<0x0A>": -0.0017244244227185845
+        },
+        {
+          "Th": -0.002700850600376725
+        },
+        {
+          "ought": -4.5060096454108134e-05
+        },
+        {
+          ":": -7.83174327807501e-05
+        },
+        {
+          "Let": -0.0024297498166561127
+        },
+        {
+          "'": -8.928377064876258e-05
+        },
+        {
+          "s": -2.4676019165781327e-05
+        },
+        {
+          "think": -0.00018439977429807186
+        },
+        {
+          "step": -0.00013422065239865333
+        },
+        {
+          "by": -5.507317473529838e-05
+        },
+        {
+          "step": -1.0013530300057027e-05
+        },
+        {
+          ".": -0.00020847532141488045
+        },
+        {
+          "S": -0.0328260138630867
+        },
+        {
+          "art": -6.770858453819528e-05
+        },
+        {
+          "he": -6.4490144723095e-05
+        },
+        {
+          "flows": -0.010080616921186447
+        },
+        {
+          "into": -0.004304904956370592
+        },
+        {
+          "the": -0.040378741919994354
+        },
+        {
+          "Lo": -0.03363136202096939
+        },
+        {
+          "ire": -0.015674952417612076
+        },
+        {
+          ".": -0.04310770332813263
+        },
+        {
+          "<0x0A>": -0.004503821488469839
+        },
+        {
+          "Answer": -0.0011713793501257896
+        },
+        {
+          ":": -0.00019941726350225508
+        },
+        {
+          "Lo": -0.0055266208946704865
+        },
+        {
+          "ire": -0.0002217047003796324
+        },
+        {
+          "<0x0A>": -0.014502943493425846
+        },
+        {
+          "Question": -0.11475159227848053
+        },
+        {
+          ":": -0.00023123928986024112
+        },
+        {
+          "What": -0.5552223324775696
+        },
+        {
+          "is": -0.379634290933609
+        },
+        {
+          "the": -0.051109738647937775
+        },
+        {
+          "name": -0.22102662920951843
+        },
+        {
+          "of": -0.0016640876419842243
+        },
+        {
+          "the": -0.017184410244226456
+        },
+        {
+          "river": -0.12440120428800583
+        },
+        {
+          "that": -0.012792901135981083
+        },
+        {
+          "the": -0.017056208103895187
+        },
+        {
+          "Lo": -0.0646766945719719
+        },
+        {
+          "ire": -0.0010503972880542278
+        },
+        {
+          "flows": -0.0071243769489228725
+        },
+        {
+          "into": -0.0025618611834943295
+        },
+        {
+          "?": -0.011391832493245602
+        },
+        {
+          "<0x0A>": -0.0007694382802583277
+        },
+        {
+          "Th": -0.00258861412294209
+        },
+        {
+          "ought": -1.7881377516459906e-06
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: What country is the Selun located in?\nThought 1:Let's think step by step. Selun is a river in France.\nAnswer: France\nAction 1: MeasureUncertainty [France]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: France",
+  "summary": {
+    "final_answer": "France",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

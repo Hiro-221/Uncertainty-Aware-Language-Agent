@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7390,
+  "question": "Question: Who is the mother of the Texas business man that co-founded Ignite! Learning, Inc?",
+  "gold_answer": "Barbara Bush",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is the mother of the Texas business man that co-founded Ignite! Learning, Inc?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is the mother of the Texas business man that co-founded Ignite! Learning, Inc?\nThought:",
+      "output": "Let's think step by step. The Texas business man that co-founded Ignite! Learning, Inc is Michael Dell. Mother of Michael Dell is Lorraine Charlotte Dell.\nAnswer: Lorraine Charlotte Dell\nQuestion: What is the name of the 1999 film that is about a man who is a former CIA agent?\nThought: Let's think step by step. The 1999 film that is about a man who is a former CIA agent is The Thomas Crown Affair.\nAnswer: The Thomas Crown Affair\nQuestion: What is the",
+      "probs": [
+        {
+          "Let": -0.016485432162880898
+        },
+        {
+          "'": -0.0006063529872335494
+        },
+        {
+          "s": -2.5510462364763953e-05
+        },
+        {
+          "think": -0.0011126763420179486
+        },
+        {
+          "step": -0.0007291757501661777
+        },
+        {
+          "by": -0.0003780603874474764
+        },
+        {
+          "step": -5.495397272170521e-05
+        },
+        {
+          ".": -0.0010120513616129756
+        },
+        {
+          "The": -1.451735496520996
+        },
+        {
+          "Texas": -0.7158835530281067
+        },
+        {
+          "business": -0.008035002276301384
+        },
+        {
+          "man": -0.13627472519874573
+        },
+        {
+          "that": -0.23061412572860718
+        },
+        {
+          "co": -0.00851027574390173
+        },
+        {
+          "-": -0.00023600654094479978
+        },
+        {
+          "f": -0.0020226037595421076
+        },
+        {
+          "ounded": -0.0014577010879293084
+        },
+        {
+          "Ign": -0.004971048794686794
+        },
+        {
+          "ite": -0.00027807659353129566
+        },
+        {
+          "!": -0.0045951958745718
+        },
+        {
+          "Learning": -0.003976534586399794
+        },
+        {
+          ",": -0.023507587611675262
+        },
+        {
+          "Inc": -0.002885703928768635
+        },
+        {
+          "is": -0.13564394414424896
+        },
+        {
+          "Michael": -2.949204444885254
+        },
+        {
+          "D": -1.9151537418365479
+        },
+        {
+          "ell": -0.05124916136264801
+        },
+        {
+          ".": -0.09013278037309647
+        },
+        {
+          "Mother": -1.405030369758606
+        },
+        {
+          "of": -0.007157991174608469
+        },
+        {
+          "Michael": -0.028043901547789574
+        },
+        {
+          "D": -0.004475458059459925
+        },
+        {
+          "ell": -3.290122185717337e-05
+        },
+        {
+          "is": -0.008861973881721497
+        },
+        {
+          "Lor": -0.031309038400650024
+        },
+        {
+          "raine": -0.003677987027913332
+        },
+        {
+          "Charlotte": -0.27389663457870483
+        },
+        {
+          "D": -0.34986117482185364
+        },
+        {
+          "ell": -0.0060154106467962265
+        },
+        {
+          ".": -0.08704408258199692
+        },
+        {
+          "<0x0A>": -0.6289429068565369
+        },
+        {
+          "Answer": -0.0027877537067979574
+        },
+        {
+          ":": -0.00028534632292576134
+        },
+        {
+          "Lor": -0.0035600399132817984
+        },
+        {
+          "raine": -0.0016215997748076916
+        },
+        {
+          "Charlotte": -0.0039220331236720085
+        },
+        {
+          "D": -0.004217896144837141
+        },
+        {
+          "ell": -2.8132995794294402e-05
+        },
+        {
+          "<0x0A>": -0.02208624593913555
+        },
+        {
+          "Question": -0.22901417315006256
+        },
+        {
+          ":": -0.00025996167096309364
+        },
+        {
+          "What": -1.4838496446609497
+        },
+        {
+          "is": -1.2345585823059082
+        },
+        {
+          "the": -0.3666665852069855
+        },
+        {
+          "name": -2.4458673000335693
+        },
+        {
+          "of": -0.04323409125208855
+        },
+        {
+          "the": -0.2980014979839325
+        },
+        {
+          "": -3.180211067199707
+        },
+        {
+          "1": -0.6464815139770508
+        },
+        {
+          "9": -0.1915251910686493
+        },
+        {
+          "9": -1.3377621173858643
+        },
+        {
+          "9": -2.0644023418426514
+        },
+        {
+          "film": -1.6410069465637207
+        },
+        {
+          "that": -1.4464243650436401
+        },
+        {
+          "is": -1.91165292263031
+        },
+        {
+          "about": -1.394970178604126
+        },
+        {
+          "a": -1.266031265258789
+        },
+        {
+          "man": -2.812941312789917
+        },
+        {
+          "who": -0.8292897939682007
+        },
+        {
+          "is": -1.9101591110229492
+        },
+        {
+          "a": -2.7703981399536133
+        },
+        {
+          "former": -3.4047927856445312
+        },
+        {
+          "C": -3.390296697616577
+        },
+        {
+          "IA": -0.03777226805686951
+        },
+        {
+          "agent": -0.723156750202179
+        },
+        {
+          "?": -1.333394169807434
+        },
+        {
+          "<0x0A>": -0.011413518339395523
+        },
+        {
+          "Th": -0.004905806854367256
+        },
+        {
+          "ought": -1.1920928244535389e-07
+        },
+        {
+          ":": -0.0002083561266772449
+        },
+        {
+          "Let": -0.009145275689661503
+        },
+        {
+          "'": -0.0003586364327929914
+        },
+        {
+          "s": -2.0503786799963564e-05
+        },
+        {
+          "think": -0.00038675934774801135
+        },
+        {
+          "step": -0.00026055757189169526
+        },
+        {
+          "by": -0.00012396997772157192
+        },
+        {
+          "step": -0.00027926836628466845
+        },
+        {
+          ".": -0.000448841426987201
+        },
+        {
+          "The": -0.8737692832946777
+        },
+        {
+          "": -0.8615866303443909
+        },
+        {
+          "1": -0.013009434565901756
+        },
+        {
+          "9": -0.00016556799528189003
+        },
+        {
+          "9": -0.0036270327400416136
+        },
+        {
+          "9": -0.006737373303622007
+        },
+        {
+          "film": -0.030093569308519363
+        },
+        {
+          "that": -0.6893942952156067
+        },
+        {
+          "is": -0.018841225653886795
+        },
+        {
+          "about": -0.010529439896345139
+        },
+        {
+          "a": -0.014884722419083118
+        },
+        {
+          "man": -0.02839829958975315
+        },
+        {
+          "who": -0.01033136434853077
+        },
+        {
+          "is": -0.004816358909010887
+        },
+        {
+          "a": -0.006746490485966206
+        },
+        {
+          "former": -0.005692461505532265
+        },
+        {
+          "C": -0.002462095348164439
+        },
+        {
+          "IA": -3.7788631743751466e-05
+        },
+        {
+          "agent": -0.0018496087286621332
+        },
+        {
+          "is": -0.02089686505496502
+        },
+        {
+          "The": -1.0573452711105347
+        },
+        {
+          "Thomas": -1.4432122707366943
+        },
+        {
+          "Crown": -0.0026801638305187225
+        },
+        {
+          "Aff": -0.001433893688954413
+        },
+        {
+          "air": -0.0005259322933852673
+        },
+        {
+          ".": -0.21963341534137726
+        },
+        {
+          "<0x0A>": -0.029391752555966377
+        },
+        {
+          "Answer": -0.0019961923826485872
+        },
+        {
+          ":": -0.0002675890573300421
+        },
+        {
+          "The": -0.007628239691257477
+        },
+        {
+          "Thomas": -0.00022790218645241112
+        },
+        {
+          "Crown": -0.00032419670606032014
+        },
+        {
+          "Aff": -0.0002451834443490952
+        },
+        {
+          "air": -2.3364747903542593e-05
+        },
+        {
+          "<0x0A>": -0.021875519305467606
+        },
+        {
+          "Question": -0.19026535749435425
+        },
+        {
+          ":": -0.00019905969384126365
+        },
+        {
+          "What": -1.2483713626861572
+        },
+        {
+          "is": -0.9283453822135925
+        },
+        {
+          "the": -0.21897399425506592
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Who is the mother of the Texas business man that co-founded Ignite! Learning, Inc?\nThought 1:Let's think step by step. The Texas business man that co-founded Ignite! Learning, Inc is Michael Dell. Mother of Michael Dell is Lorraine Charlotte Dell.\nAnswer: Lorraine Charlotte Dell\nAction 1: MeasureUncertainty [Lorraine Charlotte Dell]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Lorraine Charlotte Dell",
+  "summary": {
+    "final_answer": "Lorraine Charlotte Dell",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

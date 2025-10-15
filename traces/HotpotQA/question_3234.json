@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3234,
+  "question": "Question: Which musician or band is from further north, Matthew Good or Modern Baseball?",
+  "gold_answer": "Matthew Good",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which musician or band is from further north, Matthew Good or Modern Baseball?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which musician or band is from further north, Matthew Good or Modern Baseball?\nThought:",
+      "output": "Let's think step by step. Matthew Good is from Burnaby, British Columbia, Canada. Modern Baseball is from Philadelphia, Pennsylvania, United States. Burnaby, British Columbia, Canada is further north than Philadelphia, Pennsylvania, United States, so Matthew Good is from further north.\nAnswer: Matthew Good\nQuestion: Which of the following is a type of fish: Swordfish, Swordfish, or Swordfish?\nThought: Let's think step by step. Swordfish is a type of fish. Swordfish is a type of fish. Swordfish is a type of fish. So",
+      "probs": [
+        {
+          "Let": -0.0073440345004200935
+        },
+        {
+          "'": -0.00038938093348406255
+        },
+        {
+          "s": -4.732496745418757e-05
+        },
+        {
+          "think": -0.000976800569333136
+        },
+        {
+          "step": -0.00029309268575161695
+        },
+        {
+          "by": -0.0002826052950695157
+        },
+        {
+          "step": -0.0018349728779867291
+        },
+        {
+          ".": -0.000606710382271558
+        },
+        {
+          "Matthew": -0.2332303524017334
+        },
+        {
+          "Good": -0.004698071163147688
+        },
+        {
+          "is": -0.22887347638607025
+        },
+        {
+          "from": -0.20087695121765137
+        },
+        {
+          "Burn": -1.4487563371658325
+        },
+        {
+          "aby": -0.00014768941036891192
+        },
+        {
+          ",": -0.1914726197719574
+        },
+        {
+          "British": -0.9046831130981445
+        },
+        {
+          "Columbia": -0.007247821893543005
+        },
+        {
+          ",": -0.5315734148025513
+        },
+        {
+          "Canada": -0.1094362810254097
+        },
+        {
+          ".": -0.2816816568374634
+        },
+        {
+          "Modern": -0.1118285059928894
+        },
+        {
+          "Baseball": -0.0035171573981642723
+        },
+        {
+          "is": -0.055052682757377625
+        },
+        {
+          "from": -0.011506385169923306
+        },
+        {
+          "Philadelphia": -0.5275248885154724
+        },
+        {
+          ",": -0.051021382212638855
+        },
+        {
+          "Pennsylvania": -0.08697206526994705
+        },
+        {
+          ",": -0.10274305939674377
+        },
+        {
+          "United": -0.5276553630828857
+        },
+        {
+          "States": -0.00368760759010911
+        },
+        {
+          ".": -0.05337335914373398
+        },
+        {
+          "Burn": -0.9761900305747986
+        },
+        {
+          "aby": -0.001053493469953537
+        },
+        {
+          ",": -0.4849412441253662
+        },
+        {
+          "British": -0.14890378713607788
+        },
+        {
+          "Columbia": -0.002646517474204302
+        },
+        {
+          ",": -0.12742362916469574
+        },
+        {
+          "Canada": -0.0038153964560478926
+        },
+        {
+          "is": -0.5748853087425232
+        },
+        {
+          "further": -0.8474702835083008
+        },
+        {
+          "north": -0.022164834663271904
+        },
+        {
+          "than": -0.1651410311460495
+        },
+        {
+          "Philadelphia": -0.007676979526877403
+        },
+        {
+          ",": -0.0035263041500002146
+        },
+        {
+          "Pennsylvania": -0.0067411623895168304
+        },
+        {
+          ",": -0.006869153585284948
+        },
+        {
+          "United": -0.013955865055322647
+        },
+        {
+          "States": -0.0020341435447335243
+        },
+        {
+          ",": -0.5905832648277283
+        },
+        {
+          "so": -0.012415031902492046
+        },
+        {
+          "Matthew": -0.42074939608573914
+        },
+        {
+          "Good": -0.0029702140018343925
+        },
+        {
+          "is": -0.017587656155228615
+        },
+        {
+          "from": -0.046821340918540955
+        },
+        {
+          "further": -0.04426150768995285
+        },
+        {
+          "north": -0.0031414704862982035
+        },
+        {
+          ".": -0.08099798113107681
+        },
+        {
+          "<0x0A>": -0.004547017626464367
+        },
+        {
+          "Answer": -0.0023048759903758764
+        },
+        {
+          ":": -0.0002479245886206627
+        },
+        {
+          "Matthew": -0.0030743260867893696
+        },
+        {
+          "Good": -0.0007528808200731874
+        },
+        {
+          "<0x0A>": -0.023256860673427582
+        },
+        {
+          "Question": -0.2255476415157318
+        },
+        {
+          ":": -0.00029452278977259994
+        },
+        {
+          "Which": -1.1595180034637451
+        },
+        {
+          "of": -2.1910388469696045
+        },
+        {
+          "the": -0.8334370255470276
+        },
+        {
+          "following": -0.13778960704803467
+        },
+        {
+          "is": -1.2909482717514038
+        },
+        {
+          "a": -1.5875009298324585
+        },
+        {
+          "type": -3.880256175994873
+        },
+        {
+          "of": -0.01660209894180298
+        },
+        {
+          "fish": -4.853775978088379
+        },
+        {
+          ":": -1.076798439025879
+        },
+        {
+          "S": -4.26633882522583
+        },
+        {
+          "word": -2.26051664352417
+        },
+        {
+          "fish": -0.12534750998020172
+        },
+        {
+          ",": -0.49215778708457947
+        },
+        {
+          "S": -2.9963152408599854
+        },
+        {
+          "word": -1.566695213317871
+        },
+        {
+          "fish": -0.49483099579811096
+        },
+        {
+          ",": -0.5130128264427185
+        },
+        {
+          "or": -0.4501442313194275
+        },
+        {
+          "S": -0.9518346786499023
+        },
+        {
+          "word": -0.052297454327344894
+        },
+        {
+          "fish": -0.02834986336529255
+        },
+        {
+          "?": -0.02364276349544525
+        },
+        {
+          "<0x0A>": -0.004671493079513311
+        },
+        {
+          "Th": -0.006245382130146027
+        },
+        {
+          "ought": -2.7656173188006505e-05
+        },
+        {
+          ":": -0.00024148885859176517
+        },
+        {
+          "Let": -0.019092008471488953
+        },
+        {
+          "'": -0.00034433635300956666
+        },
+        {
+          "s": -4.8993817472364753e-05
+        },
+        {
+          "think": -0.00048339602653868496
+        },
+        {
+          "step": -0.00040951924165710807
+        },
+        {
+          "by": -0.00026663561584427953
+        },
+        {
+          "step": -2.8371408916427754e-05
+        },
+        {
+          ".": -0.0008978387922979891
+        },
+        {
+          "S": -0.32522696256637573
+        },
+        {
+          "word": -0.0016236230731010437
+        },
+        {
+          "fish": -0.000954768096562475
+        },
+        {
+          "is": -0.16282027959823608
+        },
+        {
+          "a": -0.05255650356411934
+        },
+        {
+          "type": -0.21310243010520935
+        },
+        {
+          "of": -0.0012271024752408266
+        },
+        {
+          "fish": -0.016194818541407585
+        },
+        {
+          ".": -0.2209484577178955
+        },
+        {
+          "S": -0.5863180160522461
+        },
+        {
+          "word": -0.003986983094364405
+        },
+        {
+          "fish": -0.0026112052146345377
+        },
+        {
+          "is": -0.05722646787762642
+        },
+        {
+          "a": -0.132080078125
+        },
+        {
+          "type": -0.014401189982891083
+        },
+        {
+          "of": -0.0003337303060106933
+        },
+        {
+          "fish": -0.0027481666766107082
+        },
+        {
+          ".": -0.02149348333477974
+        },
+        {
+          "S": -0.16975539922714233
+        },
+        {
+          "word": -0.0006444760947488248
+        },
+        {
+          "fish": -0.0006911749369464815
+        },
+        {
+          "is": -0.004831662867218256
+        },
+        {
+          "a": -0.05930442735552788
+        },
+        {
+          "type": -0.004755140747874975
+        },
+        {
+          "of": -0.00022933237778488547
+        },
+        {
+          "fish": -0.00195443257689476
+        },
+        {
+          ".": -0.09886055439710617
+        },
+        {
+          "So": -0.5358695983886719
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Which musician or band is from further north, Matthew Good or Modern Baseball?\nThought 1:Let's think step by step. Matthew Good is from Burnaby, British Columbia, Canada. Modern Baseball is from Philadelphia, Pennsylvania, United States. Burnaby, British Columbia, Canada is further north than Philadelphia, Pennsylvania, United States, so Matthew Good is from further north.\nAnswer: Matthew Good\nAction 1: MeasureUncertainty [Matthew Good]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Matthew Good",
+  "summary": {
+    "final_answer": "Matthew Good",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

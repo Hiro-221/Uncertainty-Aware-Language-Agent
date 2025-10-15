@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2208,
+  "question": "Question: North Midland Divisional Engineers took part in a battle during WWII that went on for how many weeks ?",
+  "gold_answer": "six weeks",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: North Midland Divisional Engineers took part in a battle during WWII that went on for how many weeks ?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: North Midland Divisional Engineers took part in a battle during WWII that went on for how many weeks ?\nThought:",
+      "output": "Let's think step by step. North Midland Divisional Engineers took part in the Battle of Arnhem. The Battle of Arnhem went on for 9 days.\nAnswer: 9 days\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999 film Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let'",
+      "probs": [
+        {
+          "Let": -0.011512866243720055
+        },
+        {
+          "'": -0.0006554362480528653
+        },
+        {
+          "s": -3.40932747349143e-05
+        },
+        {
+          "think": -0.001708358759060502
+        },
+        {
+          "step": -0.0008428120636381209
+        },
+        {
+          "by": -0.0002060916303889826
+        },
+        {
+          "step": -1.4066597032069694e-05
+        },
+        {
+          ".": -0.0012159105390310287
+        },
+        {
+          "North": -0.833815336227417
+        },
+        {
+          "Mid": -0.0026309420354664326
+        },
+        {
+          "land": -0.002762194722890854
+        },
+        {
+          "Div": -0.013823957182466984
+        },
+        {
+          "is": -0.00052426423644647
+        },
+        {
+          "ional": -7.998623186722398e-05
+        },
+        {
+          "Engine": -0.00573691027238965
+        },
+        {
+          "ers": -0.0035953186452388763
+        },
+        {
+          "took": -0.1637537032365799
+        },
+        {
+          "part": -0.009316658601164818
+        },
+        {
+          "in": -0.005613041575998068
+        },
+        {
+          "the": -0.9436466693878174
+        },
+        {
+          "Battle": -0.3464999794960022
+        },
+        {
+          "of": -0.01835644245147705
+        },
+        {
+          "Arn": -1.657735824584961
+        },
+        {
+          "hem": -0.0033179253805428743
+        },
+        {
+          ".": -1.202370285987854
+        },
+        {
+          "The": -0.490458607673645
+        },
+        {
+          "Battle": -0.14532282948493958
+        },
+        {
+          "of": -0.003151095937937498
+        },
+        {
+          "Arn": -0.001835091970860958
+        },
+        {
+          "hem": -0.0017855905462056398
+        },
+        {
+          "went": -0.8445934057235718
+        },
+        {
+          "on": -0.014740721322596073
+        },
+        {
+          "for": -0.02021951973438263
+        },
+        {
+          "": -0.28028687834739685
+        },
+        {
+          "9": -0.3703256845474243
+        },
+        {
+          "days": -0.08858788013458252
+        },
+        {
+          ".": -0.6078321933746338
+        },
+        {
+          "<0x0A>": -0.5953437685966492
+        },
+        {
+          "Answer": -0.005219523329287767
+        },
+        {
+          ":": -0.0011306566884741187
+        },
+        {
+          "": -0.014268400147557259
+        },
+        {
+          "9": -0.0031583448871970177
+        },
+        {
+          "days": -0.1783170998096466
+        },
+        {
+          "<0x0A>": -0.046504367142915726
+        },
+        {
+          "Question": -0.17754031717777252
+        },
+        {
+          ":": -0.0004551566671580076
+        },
+        {
+          "What": -1.5093241930007935
+        },
+        {
+          "is": -1.236352801322937
+        },
+        {
+          "the": -0.37503811717033386
+        },
+        {
+          "name": -2.4193716049194336
+        },
+        {
+          "of": -0.050223007798194885
+        },
+        {
+          "the": -0.4200741946697235
+        },
+        {
+          "": -3.6887433528900146
+        },
+        {
+          "1": -0.6876326203346252
+        },
+        {
+          "9": -0.20787444710731506
+        },
+        {
+          "9": -1.3467638492584229
+        },
+        {
+          "9": -2.1073875427246094
+        },
+        {
+          "film": -1.576108694076538
+        },
+        {
+          "that": -1.6863125562667847
+        },
+        {
+          "was": -2.064934015274048
+        },
+        {
+          "directed": -1.2041295766830444
+        },
+        {
+          "by": -0.02483353763818741
+        },
+        {
+          "John": -3.57956862449646
+        },
+        {
+          "W": -2.465628147125244
+        },
+        {
+          "oo": -0.32522937655448914
+        },
+        {
+          "?": -0.9507282376289368
+        },
+        {
+          "<0x0A>": -0.016033995896577835
+        },
+        {
+          "Th": -0.00553883146494627
+        },
+        {
+          "ought": -2.8013790142722428e-05
+        },
+        {
+          ":": -0.0003812778159044683
+        },
+        {
+          "Let": -0.010646450333297253
+        },
+        {
+          "'": -0.0005298641044646502
+        },
+        {
+          "s": -2.2649508537142538e-05
+        },
+        {
+          "think": -0.0005718026659451425
+        },
+        {
+          "step": -0.0002520958660170436
+        },
+        {
+          "by": -0.00014768941036891192
+        },
+        {
+          "step": -0.00014161060971673578
+        },
+        {
+          ".": -0.0005245024804025888
+        },
+        {
+          "John": -1.0791552066802979
+        },
+        {
+          "W": -0.0036568455398082733
+        },
+        {
+          "oo": -0.00013040646445006132
+        },
+        {
+          "directed": -0.34649887681007385
+        },
+        {
+          "the": -1.1829583644866943
+        },
+        {
+          "": -0.4141435921192169
+        },
+        {
+          "1": -0.029102317988872528
+        },
+        {
+          "9": -0.00026341783814132214
+        },
+        {
+          "9": -0.020144401118159294
+        },
+        {
+          "9": -0.14235585927963257
+        },
+        {
+          "film": -0.08990998566150665
+        },
+        {
+          "Face": -0.7652789354324341
+        },
+        {
+          "/": -0.040717579424381256
+        },
+        {
+          "Off": -0.003945068921893835
+        },
+        {
+          ".": -0.08936722576618195
+        },
+        {
+          "<0x0A>": -0.09280616790056229
+        },
+        {
+          "Answer": -0.0017458448419347405
+        },
+        {
+          ":": -0.0005633435794152319
+        },
+        {
+          "Face": -0.006234719883650541
+        },
+        {
+          "/": -0.007070993538945913
+        },
+        {
+          "Off": -0.0036028018221259117
+        },
+        {
+          "<0x0A>": -0.033804018050432205
+        },
+        {
+          "Question": -0.19120533764362335
+        },
+        {
+          ":": -0.000276765669696033
+        },
+        {
+          "What": -1.3038654327392578
+        },
+        {
+          "is": -0.915473461151123
+        },
+        {
+          "the": -0.2211681604385376
+        },
+        {
+          "name": -0.9366164207458496
+        },
+        {
+          "of": -0.016178397461771965
+        },
+        {
+          "the": -0.18200574815273285
+        },
+        {
+          "": -1.1938424110412598
+        },
+        {
+          "1": -0.40023860335350037
+        },
+        {
+          "9": -0.02823965810239315
+        },
+        {
+          "9": -0.4133685231208801
+        },
+        {
+          "9": -0.43948784470558167
+        },
+        {
+          "film": -0.05333821102976799
+        },
+        {
+          "that": -0.032375551760196686
+        },
+        {
+          "was": -0.06525547057390213
+        },
+        {
+          "directed": -0.0356791689991951
+        },
+        {
+          "by": -0.0010785006452351809
+        },
+        {
+          "John": -0.47909975051879883
+        },
+        {
+          "W": -0.018333736807107925
+        },
+        {
+          "oo": -0.0005626287311315536
+        },
+        {
+          "?": -0.05738665536046028
+        },
+        {
+          "<0x0A>": -0.006915207486599684
+        },
+        {
+          "Th": -0.030335186049342155
+        },
+        {
+          "ought": -1.0728830375228426e-06
+        },
+        {
+          ":": -0.000302745756926015
+        },
+        {
+          "Let": -0.009260794147849083
+        },
+        {
+          "'": -0.0005349873681552708
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: North Midland Divisional Engineers took part in a battle during WWII that went on for how many weeks ?\nThought 1:Let's think step by step. North Midland Divisional Engineers took part in the Battle of Arnhem. The Battle of Arnhem went on for 9 days.\nAnswer: 9 days\nAction 1: MeasureUncertainty [9 days]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 9 days",
+  "summary": {
+    "final_answer": "9 days",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

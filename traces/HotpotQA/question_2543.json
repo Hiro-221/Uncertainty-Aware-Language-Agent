@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2543,
+  "question": "Question: The subject of McGinniss' 1983 book \"Fatal Vision\" was convicted of murder in what year?",
+  "gold_answer": "1979",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The subject of McGinniss' 1983 book \"Fatal Vision\" was convicted of murder in what year?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The subject of McGinniss' 1983 book \"Fatal Vision\" was convicted of murder in what year?\nThought:",
+      "output": "Let's think step by step. Fatal Vision is a book by Joe McGinniss. Fatal Vision is about Jeffrey MacDonald. Jeffrey MacDonald was convicted of murder in 1979. So the subject of McGinniss' 1983 book \"Fatal Vision\" was convicted of murder in 1979.\nAnswer: 1979\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let",
+      "probs": [
+        {
+          "Let": -0.013799854554235935
+        },
+        {
+          "'": -0.00048423008411191404
+        },
+        {
+          "s": -1.847726889536716e-05
+        },
+        {
+          "think": -0.0013730631908401847
+        },
+        {
+          "step": -0.0009950215462595224
+        },
+        {
+          "by": -0.0001726001501083374
+        },
+        {
+          "step": -0.0018811402842402458
+        },
+        {
+          ".": -0.0006461439770646393
+        },
+        {
+          "F": -1.3175792694091797
+        },
+        {
+          "atal": -0.002361011691391468
+        },
+        {
+          "V": -0.012138779275119305
+        },
+        {
+          "ision": -0.00042274597217328846
+        },
+        {
+          "is": -0.6936802864074707
+        },
+        {
+          "a": -0.47250115871429443
+        },
+        {
+          "book": -1.0959383249282837
+        },
+        {
+          "by": -0.9436995983123779
+        },
+        {
+          "Joe": -0.334865003824234
+        },
+        {
+          "McG": -0.0035245222970843315
+        },
+        {
+          "inn": -0.00300860358402133
+        },
+        {
+          "iss": -0.03404209017753601
+        },
+        {
+          ".": -0.8744486570358276
+        },
+        {
+          "F": -1.3362723588943481
+        },
+        {
+          "atal": -0.0019293281948193908
+        },
+        {
+          "V": -0.011809319257736206
+        },
+        {
+          "ision": -0.0007678897818550467
+        },
+        {
+          "is": -0.45987629890441895
+        },
+        {
+          "about": -0.6057885885238647
+        },
+        {
+          "Jeff": -0.5159345865249634
+        },
+        {
+          "rey": -0.002662567887455225
+        },
+        {
+          "Mac": -0.10102229565382004
+        },
+        {
+          "Donald": -0.006277130451053381
+        },
+        {
+          ".": -0.5860664248466492
+        },
+        {
+          "Jeff": -0.23543447256088257
+        },
+        {
+          "rey": -0.0015645894454792142
+        },
+        {
+          "Mac": -0.006619312800467014
+        },
+        {
+          "Donald": -0.006713335867971182
+        },
+        {
+          "was": -0.09923660755157471
+        },
+        {
+          "conv": -0.05766430124640465
+        },
+        {
+          "icted": -0.0002748588449321687
+        },
+        {
+          "of": -0.1494726836681366
+        },
+        {
+          "murder": -0.07059162110090256
+        },
+        {
+          "in": -0.034929461777210236
+        },
+        {
+          "": -0.018672052770853043
+        },
+        {
+          "1": -0.0006180283380672336
+        },
+        {
+          "9": -0.00017069313616957515
+        },
+        {
+          "7": -0.013586784712970257
+        },
+        {
+          "9": -0.06753179430961609
+        },
+        {
+          ".": -0.3348289430141449
+        },
+        {
+          "So": -0.2915099561214447
+        },
+        {
+          "the": -0.3521212935447693
+        },
+        {
+          "subject": -0.31633397936820984
+        },
+        {
+          "of": -0.01360701210796833
+        },
+        {
+          "McG": -0.15862181782722473
+        },
+        {
+          "inn": -0.0017095488728955388
+        },
+        {
+          "iss": -0.006737255025655031
+        },
+        {
+          "'": -0.004890860058367252
+        },
+        {
+          "": -0.03399784490466118
+        },
+        {
+          "1": -0.00012063252506777644
+        },
+        {
+          "9": -0.00023052419419400394
+        },
+        {
+          "8": -0.0005497612874023616
+        },
+        {
+          "3": -0.0006538875168189406
+        },
+        {
+          "book": -0.0019882211927324533
+        },
+        {
+          "\"": -0.13868628442287445
+        },
+        {
+          "F": -0.0005479741375893354
+        },
+        {
+          "atal": -1.966933996300213e-05
+        },
+        {
+          "V": -0.0006756883230991662
+        },
+        {
+          "ision": -0.00013529339048545808
+        },
+        {
+          "\"": -0.0032313058618456125
+        },
+        {
+          "was": -0.02665616013109684
+        },
+        {
+          "conv": -0.0036440177354961634
+        },
+        {
+          "icted": -0.001510551548562944
+        },
+        {
+          "of": -0.017686860635876656
+        },
+        {
+          "murder": -0.002313439268618822
+        },
+        {
+          "in": -0.0035297491122037172
+        },
+        {
+          "": -0.01145629957318306
+        },
+        {
+          "1": -0.00028355870745144784
+        },
+        {
+          "9": -0.00011979816190432757
+        },
+        {
+          "7": -0.00042012447374872863
+        },
+        {
+          "9": -0.00035279724397696555
+        },
+        {
+          ".": -0.009984430857002735
+        },
+        {
+          "<0x0A>": -0.0031550175044685602
+        },
+        {
+          "Answer": -0.002107900334522128
+        },
+        {
+          ":": -0.0006388768670149148
+        },
+        {
+          "": -0.004152367357164621
+        },
+        {
+          "1": -0.0002774807217065245
+        },
+        {
+          "9": -0.00012337400403339416
+        },
+        {
+          "7": -0.00023421882360707968
+        },
+        {
+          "9": -0.00029237763374112546
+        },
+        {
+          "<0x0A>": -0.019404230639338493
+        },
+        {
+          "Question": -0.19021421670913696
+        },
+        {
+          ":": -0.00022420754248742014
+        },
+        {
+          "What": -1.4384896755218506
+        },
+        {
+          "is": -1.2271623611450195
+        },
+        {
+          "the": -0.3696288764476776
+        },
+        {
+          "name": -2.4180545806884766
+        },
+        {
+          "of": -0.04268640652298927
+        },
+        {
+          "the": -0.463260293006897
+        },
+        {
+          "": -3.47756290435791
+        },
+        {
+          "1": -0.6817331314086914
+        },
+        {
+          "9": -0.1773242950439453
+        },
+        {
+          "9": -1.2680346965789795
+        },
+        {
+          "9": -2.0862088203430176
+        },
+        {
+          "film": -1.6058558225631714
+        },
+        {
+          "that": -1.744920015335083
+        },
+        {
+          "is": -1.8953237533569336
+        },
+        {
+          "a": -1.2670834064483643
+        },
+        {
+          "re": -1.0900297164916992
+        },
+        {
+          "make": -0.028043784201145172
+        },
+        {
+          "of": -0.015950113534927368
+        },
+        {
+          "the": -0.7799608707427979
+        },
+        {
+          "": -0.2518942952156067
+        },
+        {
+          "1": -0.010442852973937988
+        },
+        {
+          "9": -0.0023969272151589394
+        },
+        {
+          "6": -1.2190996408462524
+        },
+        {
+          "0": -1.6867338418960571
+        },
+        {
+          "film": -0.343546062707901
+        },
+        {
+          "Ocean": -1.683544635772705
+        },
+        {
+          "'": -0.009383149445056915
+        },
+        {
+          "s": -0.00015090756642166525
+        },
+        {
+          "": -0.4310861825942993
+        },
+        {
+          "1": -0.00014411364099942148
+        },
+        {
+          "1": -0.0004253674705978483
+        },
+        {
+          "?": -0.2333086133003235
+        },
+        {
+          "<0x0A>": -0.005335021764039993
+        },
+        {
+          "Th": -0.005573329050093889
+        },
+        {
+          "ought": -3.373566141817719e-05
+        },
+        {
+          ":": -0.000120751719805412
+        },
+        {
+          "Let": -0.009584718383848667
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: The subject of McGinniss' 1983 book \"Fatal Vision\" was convicted of murder in what year?\nThought 1:Let's think step by step. Fatal Vision is a book by Joe McGinniss. Fatal Vision is about Jeffrey MacDonald. Jeffrey MacDonald was convicted of murder in 1979. So the subject of McGinniss' 1983 book \"Fatal Vision\" was convicted of murder in 1979.\nAnswer: 1979\nAction 1: MeasureUncertainty [1979]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 1979",
+  "summary": {
+    "final_answer": "1979",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

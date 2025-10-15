@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1886,
+  "question": "Question: Between Death in the Afternoon and Hennchata, whose inventor has more literary fame?",
+  "gold_answer": "Death in the Afternoon",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Between Death in the Afternoon and Hennchata, whose inventor has more literary fame?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Between Death in the Afternoon and Hennchata, whose inventor has more literary fame?\nThought:",
+      "output": "Let's think step by step. Death in the Afternoon was invented by Ernest Hemingway. Hennchata was invented by Hennessy. Ernest Hemingway is more famous than Hennessy, so the inventor of Death in the Afternoon has more literary fame.\nAnswer: Death in the Afternoon\nQuestion: Which of the following is not a member of the genus Pteropus?\nThought: Let's think step by step. Pteropus is a genus of megabats. The genus Pteropus includes the following species: Pteropus alecto",
+      "probs": [
+        {
+          "Let": -0.013564087450504303
+        },
+        {
+          "'": -0.0008021951070986688
+        },
+        {
+          "s": -9.179073458653875e-06
+        },
+        {
+          "think": -0.0014192519010975957
+        },
+        {
+          "step": -0.0010115751065313816
+        },
+        {
+          "by": -0.0005063920398242772
+        },
+        {
+          "step": -1.0013530300057027e-05
+        },
+        {
+          ".": -0.0008657997823320329
+        },
+        {
+          "Death": -1.1221412420272827
+        },
+        {
+          "in": -0.002022246830165386
+        },
+        {
+          "the": -0.0004854215949308127
+        },
+        {
+          "Af": -0.004815409891307354
+        },
+        {
+          "ternoon": -0.00020966715237591416
+        },
+        {
+          "was": -0.5242720246315002
+        },
+        {
+          "invent": -0.25852280855178833
+        },
+        {
+          "ed": -0.002460430609062314
+        },
+        {
+          "by": -0.012787840329110622
+        },
+        {
+          "Ernest": -0.05495418235659599
+        },
+        {
+          "Hem": -0.0024370038881897926
+        },
+        {
+          "ing": -0.007842464372515678
+        },
+        {
+          "way": -0.0005519058904610574
+        },
+        {
+          ".": -0.518397331237793
+        },
+        {
+          "H": -0.11595115065574646
+        },
+        {
+          "enn": -0.0006611545104533434
+        },
+        {
+          "ch": -0.0026657781563699245
+        },
+        {
+          "ata": -0.0003432638186495751
+        },
+        {
+          "was": -0.06418613344430923
+        },
+        {
+          "invent": -0.04550032690167427
+        },
+        {
+          "ed": -0.0006479309522546828
+        },
+        {
+          "by": -0.006728729233145714
+        },
+        {
+          "H": -1.649265170097351
+        },
+        {
+          "enn": -0.16403783857822418
+        },
+        {
+          "ess": -0.08884205669164658
+        },
+        {
+          "y": -0.0016158869257196784
+        },
+        {
+          ".": -0.2835107147693634
+        },
+        {
+          "Ernest": -0.3049280047416687
+        },
+        {
+          "Hem": -0.002784900600090623
+        },
+        {
+          "ing": -0.0037781065329909325
+        },
+        {
+          "way": -0.0005999195855110884
+        },
+        {
+          "is": -0.5831063985824585
+        },
+        {
+          "more": -0.5727075338363647
+        },
+        {
+          "famous": -0.2682400047779083
+        },
+        {
+          "than": -0.3639727830886841
+        },
+        {
+          "H": -0.02127189375460148
+        },
+        {
+          "enn": -0.0021175360307097435
+        },
+        {
+          "ess": -0.011254281736910343
+        },
+        {
+          "y": -0.00024327656137757003
+        },
+        {
+          ",": -0.5073431730270386
+        },
+        {
+          "so": -0.03632083535194397
+        },
+        {
+          "the": -0.5717759728431702
+        },
+        {
+          "invent": -0.5862029790878296
+        },
+        {
+          "or": -0.00485633872449398
+        },
+        {
+          "of": -0.09201177209615707
+        },
+        {
+          "Death": -0.03279925137758255
+        },
+        {
+          "in": -0.0014963869471102953
+        },
+        {
+          "the": -0.0005762108485214412
+        },
+        {
+          "Af": -0.0011947167804464698
+        },
+        {
+          "ternoon": -0.00012468514614738524
+        },
+        {
+          "has": -0.1982184797525406
+        },
+        {
+          "more": -0.00975059624761343
+        },
+        {
+          "literary": -0.00863284058868885
+        },
+        {
+          "fame": -0.0023737368173897266
+        },
+        {
+          ".": -0.041752271354198456
+        },
+        {
+          "<0x0A>": -0.004295646212995052
+        },
+        {
+          "Answer": -0.0018504415638744831
+        },
+        {
+          ":": -0.0005398723296821117
+        },
+        {
+          "Death": -0.5041062235832214
+        },
+        {
+          "in": -0.0011659021256491542
+        },
+        {
+          "the": -0.00012909532233607024
+        },
+        {
+          "Af": -0.000835903687402606
+        },
+        {
+          "ternoon": -0.00010597144137136638
+        },
+        {
+          "<0x0A>": -0.03794524073600769
+        },
+        {
+          "Question": -0.2095455825328827
+        },
+        {
+          ":": -0.00025233422638848424
+        },
+        {
+          "Which": -1.501392126083374
+        },
+        {
+          "of": -1.8875327110290527
+        },
+        {
+          "the": -1.0048094987869263
+        },
+        {
+          "following": -0.1970047652721405
+        },
+        {
+          "is": -1.304377794265747
+        },
+        {
+          "not": -1.5379083156585693
+        },
+        {
+          "a": -0.6870676875114441
+        },
+        {
+          "member": -3.3106513023376465
+        },
+        {
+          "of": -0.0235279630869627
+        },
+        {
+          "the": -0.5549771189689636
+        },
+        {
+          "genus": -3.5094716548919678
+        },
+        {
+          "P": -3.3236076831817627
+        },
+        {
+          "ter": -2.0383238792419434
+        },
+        {
+          "opus": -0.45461469888687134
+        },
+        {
+          "?": -0.4773741662502289
+        },
+        {
+          "<0x0A>": -1.7488497495651245
+        },
+        {
+          "Th": -0.05254315584897995
+        },
+        {
+          "ought": -2.47952248173533e-05
+        },
+        {
+          ":": -0.0005012686015106738
+        },
+        {
+          "Let": -0.020706670358777046
+        },
+        {
+          "'": -0.0008903353591449559
+        },
+        {
+          "s": -3.135155202471651e-05
+        },
+        {
+          "think": -0.004047655034810305
+        },
+        {
+          "step": -0.003784044412896037
+        },
+        {
+          "by": -0.0004693360242526978
+        },
+        {
+          "step": -1.8358061424805783e-05
+        },
+        {
+          ".": -0.001312348060309887
+        },
+        {
+          "P": -1.6122267246246338
+        },
+        {
+          "ter": -0.07440818101167679
+        },
+        {
+          "opus": -0.009661698713898659
+        },
+        {
+          "is": -1.63344144821167
+        },
+        {
+          "a": -0.2983785569667816
+        },
+        {
+          "genus": -0.03609330952167511
+        },
+        {
+          "of": -0.1967921108007431
+        },
+        {
+          "meg": -0.6434839367866516
+        },
+        {
+          "ab": -0.006394520867615938
+        },
+        {
+          "ats": -0.13489693403244019
+        },
+        {
+          ".": -0.5404161810874939
+        },
+        {
+          "The": -1.9458670616149902
+        },
+        {
+          "genus": -1.4713258743286133
+        },
+        {
+          "P": -1.1314964294433594
+        },
+        {
+          "ter": -0.0006059955921955407
+        },
+        {
+          "opus": -0.00039617318543605506
+        },
+        {
+          "includes": -1.168839931488037
+        },
+        {
+          "the": -1.4204260110855103
+        },
+        {
+          "following": -1.7781506776809692
+        },
+        {
+          "species": -0.7492207288742065
+        },
+        {
+          ":": -0.13003340363502502
+        },
+        {
+          "P": -0.8763906359672546
+        },
+        {
+          "ter": -0.2177610546350479
+        },
+        {
+          "opus": -0.0006149308173917234
+        },
+        {
+          "a": -1.627752661705017
+        },
+        {
+          "lect": -0.008506020531058311
+        },
+        {
+          "o": -0.0020550815388560295
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Between Death in the Afternoon and Hennchata, whose inventor has more literary fame?\nThought 1:Let's think step by step. Death in the Afternoon was invented by Ernest Hemingway. Hennchata was invented by Hennessy. Ernest Hemingway is more famous than Hennessy, so the inventor of Death in the Afternoon has more literary fame.\nAnswer: Death in the Afternoon\nAction 1: MeasureUncertainty [Death in the Afternoon]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Death in the Afternoon",
+  "summary": {
+    "final_answer": "Death in the Afternoon",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

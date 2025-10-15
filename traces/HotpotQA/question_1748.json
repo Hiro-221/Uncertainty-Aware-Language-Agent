@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1748,
+  "question": "Question: Who was born earlier, Johnny Lujack or Jim Kelly?",
+  "gold_answer": "Jim Kelly",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who was born earlier, Johnny Lujack or Jim Kelly?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who was born earlier, Johnny Lujack or Jim Kelly?\nThought:",
+      "output": "Let's think step by step. Johnny Lujack was born in 1925. Jim Kelly was born in 1960. 1925 (Johnny Lujack) < 1960 (Jim Kelly), so Johnny Lujack was born earlier.\nAnswer: Johnny Lujack\nQuestion: Which of the following is not a member of the group of people who have been awarded the Nobel Prize in Physics?\nThought: Let's think step by step. The Nobel Prize in Physics is awarded to physicists. So the answer is not a physicist.\n",
+      "probs": [
+        {
+          "Let": -0.005533022340387106
+        },
+        {
+          "'": -0.0003778220561798662
+        },
+        {
+          "s": -1.2636104656849056e-05
+        },
+        {
+          "think": -0.000753357307985425
+        },
+        {
+          "step": -0.0004009396652691066
+        },
+        {
+          "by": -0.0002673506969586015
+        },
+        {
+          "step": -0.00014482879487331957
+        },
+        {
+          ".": -0.00044228785554878414
+        },
+        {
+          "Johnny": -0.11739258468151093
+        },
+        {
+          "Lu": -0.0027183268684893847
+        },
+        {
+          "jack": -0.0007857572636567056
+        },
+        {
+          "was": -0.03801731392741203
+        },
+        {
+          "born": -0.0023242621682584286
+        },
+        {
+          "in": -0.3253571689128876
+        },
+        {
+          "": -0.058623719960451126
+        },
+        {
+          "1": -0.0037064917851239443
+        },
+        {
+          "9": -0.002196639310568571
+        },
+        {
+          "2": -0.002612275304272771
+        },
+        {
+          "5": -0.00977585930377245
+        },
+        {
+          ".": -0.07305609434843063
+        },
+        {
+          "Jim": -0.01263741496950388
+        },
+        {
+          "Kelly": -0.0012968709925189614
+        },
+        {
+          "was": -0.012422448955476284
+        },
+        {
+          "born": -0.0024473497178405523
+        },
+        {
+          "in": -0.00500865001231432
+        },
+        {
+          "": -0.0024694681633263826
+        },
+        {
+          "1": -0.0007077334448695183
+        },
+        {
+          "9": -0.0011874536285176873
+        },
+        {
+          "6": -0.35928285121917725
+        },
+        {
+          "0": -0.01286445651203394
+        },
+        {
+          ".": -0.009620729833841324
+        },
+        {
+          "": -0.16955438256263733
+        },
+        {
+          "1": -0.005900820251554251
+        },
+        {
+          "9": -0.00100740697234869
+        },
+        {
+          "2": -0.05042149871587753
+        },
+        {
+          "5": -0.0008842610404826701
+        },
+        {
+          "(": -0.06956189125776291
+        },
+        {
+          "John": -0.006699481513351202
+        },
+        {
+          "ny": -0.0010333680547773838
+        },
+        {
+          "Lu": -0.0015902980230748653
+        },
+        {
+          "jack": -0.0014585343888029456
+        },
+        {
+          ")": -0.0018012979999184608
+        },
+        {
+          "<": -0.22369138896465302
+        },
+        {
+          "": -0.0025744650047272444
+        },
+        {
+          "1": -0.00017438798386137933
+        },
+        {
+          "9": -9.810443589231e-05
+        },
+        {
+          "6": -0.001277702976949513
+        },
+        {
+          "0": -0.0005208089714869857
+        },
+        {
+          "(": -0.0035741752944886684
+        },
+        {
+          "J": -0.00255651050247252
+        },
+        {
+          "im": -0.0004400238685775548
+        },
+        {
+          "Kelly": -0.0011754278093576431
+        },
+        {
+          "),": -0.0386369526386261
+        },
+        {
+          "so": -0.006584140472114086
+        },
+        {
+          "Johnny": -0.03694543242454529
+        },
+        {
+          "Lu": -0.001444369088858366
+        },
+        {
+          "jack": -0.003969054203480482
+        },
+        {
+          "was": -0.012363460846245289
+        },
+        {
+          "born": -0.0027072704397141933
+        },
+        {
+          "earlier": -0.01923363097012043
+        },
+        {
+          ".": -0.035883788019418716
+        },
+        {
+          "<0x0A>": -0.002881305990740657
+        },
+        {
+          "Answer": -0.0017134760273620486
+        },
+        {
+          ":": -0.00031251792097464204
+        },
+        {
+          "Johnny": -0.003300934797152877
+        },
+        {
+          "Lu": -0.00030489088385365903
+        },
+        {
+          "jack": -0.001303180935792625
+        },
+        {
+          "<0x0A>": -0.01776193268597126
+        },
+        {
+          "Question": -0.19688571989536285
+        },
+        {
+          ":": -0.00029297350556589663
+        },
+        {
+          "Which": -1.492855191230774
+        },
+        {
+          "of": -1.9332129955291748
+        },
+        {
+          "the": -0.8770062923431396
+        },
+        {
+          "following": -0.14942052960395813
+        },
+        {
+          "is": -1.1836601495742798
+        },
+        {
+          "not": -1.5578396320343018
+        },
+        {
+          "a": -0.6682810187339783
+        },
+        {
+          "member": -3.2687857151031494
+        },
+        {
+          "of": -0.023670822381973267
+        },
+        {
+          "the": -0.6198018789291382
+        },
+        {
+          "group": -3.3752129077911377
+        },
+        {
+          "of": -2.3188905715942383
+        },
+        {
+          "people": -2.730377435684204
+        },
+        {
+          "who": -1.870342493057251
+        },
+        {
+          "have": -1.7538295984268188
+        },
+        {
+          "been": -1.8285093307495117
+        },
+        {
+          "awarded": -2.1752424240112305
+        },
+        {
+          "the": -0.399368554353714
+        },
+        {
+          "Nobel": -2.1758501529693604
+        },
+        {
+          "Prize": -0.3378193974494934
+        },
+        {
+          "in": -0.4081937372684479
+        },
+        {
+          "Physics": -1.1413934230804443
+        },
+        {
+          "?": -0.8010857701301575
+        },
+        {
+          "<0x0A>": -1.4686617851257324
+        },
+        {
+          "Th": -0.11451379954814911
+        },
+        {
+          "ought": -0.0003184764937032014
+        },
+        {
+          ":": -0.001212814822793007
+        },
+        {
+          "Let": -0.02827199175953865
+        },
+        {
+          "'": -0.0009054613183252513
+        },
+        {
+          "s": -4.100715523236431e-05
+        },
+        {
+          "think": -0.0014922209084033966
+        },
+        {
+          "step": -0.001157805323600769
+        },
+        {
+          "by": -0.00022313489171210676
+        },
+        {
+          "step": -1.2636104656849056e-05
+        },
+        {
+          ".": -0.0017556030070409179
+        },
+        {
+          "The": -2.232004404067993
+        },
+        {
+          "Nobel": -1.2404980659484863
+        },
+        {
+          "Prize": -0.034948572516441345
+        },
+        {
+          "in": -0.046132877469062805
+        },
+        {
+          "Physics": -0.011190980672836304
+        },
+        {
+          "is": -1.012988567352295
+        },
+        {
+          "awarded": -0.6593978404998779
+        },
+        {
+          "to": -0.5239536166191101
+        },
+        {
+          "phys": -2.107151508331299
+        },
+        {
+          "ic": -0.004713021218776703
+        },
+        {
+          "ists": -0.06087164953351021
+        },
+        {
+          ".": -0.37853705883026123
+        },
+        {
+          "So": -3.1255483627319336
+        },
+        {
+          "the": -1.090590476989746
+        },
+        {
+          "answer": -1.1872646808624268
+        },
+        {
+          "is": -0.355972021818161
+        },
+        {
+          "not": -1.4756977558135986
+        },
+        {
+          "a": -0.19285175204277039
+        },
+        {
+          "phys": -0.1316208839416504
+        },
+        {
+          "ic": -0.0010570659069344401
+        },
+        {
+          "ist": -0.009808204136788845
+        },
+        {
+          ".": -0.07463102787733078
+        },
+        {
+          "<0x0A>": -0.8041068911552429
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Who was born earlier, Johnny Lujack or Jim Kelly?\nThought 1:Let's think step by step. Johnny Lujack was born in 1925. Jim Kelly was born in 1960. 1925 (Johnny Lujack) < 1960 (Jim Kelly), so Johnny Lujack was born earlier.\nAnswer: Johnny Lujack\nAction 1: MeasureUncertainty [Johnny Lujack]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Johnny Lujack",
+  "summary": {
+    "final_answer": "Johnny Lujack",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

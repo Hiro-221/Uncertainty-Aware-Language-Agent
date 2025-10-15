@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1129,
+  "question": "Question: Polk County Florida's second most populated city is home to which mall?",
+  "gold_answer": "Winter Haven Mall",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Polk County Florida's second most populated city is home to which mall?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Polk County Florida's second most populated city is home to which mall?\nThought:",
+      "output": "Let's think step by step. Polk County Florida's second most populated city is Lakeland. Lakeland is home to Lakeside Village. So the mall is Lakeside Village.\nAnswer: Lakeside Village\nQuestion: Which of the following is not a member of the 2008 United States Olympic team?\nThought: Let's think step by step. Members of the 2008 United States Olympic team are Michael Phelps, Brendan Hansen, Aaron Peirsol, and Jason Lezak. So the answer is not a member of",
+      "probs": [
+        {
+          "Let": -0.010027509182691574
+        },
+        {
+          "'": -0.0005697772721759975
+        },
+        {
+          "s": -6.55629628454335e-05
+        },
+        {
+          "think": -0.0010528980055823922
+        },
+        {
+          "step": -0.0006423317245207727
+        },
+        {
+          "by": -0.00020716428116429597
+        },
+        {
+          "step": -0.001591488253325224
+        },
+        {
+          ".": -0.0006933192489668727
+        },
+        {
+          "Pol": -1.2905391454696655
+        },
+        {
+          "k": -0.0006325627909973264
+        },
+        {
+          "County": -0.036174140870571136
+        },
+        {
+          "Florida": -0.480485200881958
+        },
+        {
+          "'": -0.10647284984588623
+        },
+        {
+          "s": -0.00023815179883968085
+        },
+        {
+          "second": -0.2200140357017517
+        },
+        {
+          "most": -0.019490979611873627
+        },
+        {
+          "populated": -0.008234478533267975
+        },
+        {
+          "city": -0.018325425684452057
+        },
+        {
+          "is": -0.034594643861055374
+        },
+        {
+          "Lak": -0.7313947677612305
+        },
+        {
+          "eland": -0.0005915798828937113
+        },
+        {
+          ".": -0.26868340373039246
+        },
+        {
+          "Lak": -0.44198542833328247
+        },
+        {
+          "eland": -0.0014018717920407653
+        },
+        {
+          "is": -0.4852466881275177
+        },
+        {
+          "home": -0.041612543165683746
+        },
+        {
+          "to": -0.005705618765205145
+        },
+        {
+          "L": -0.7098239660263062
+        },
+        {
+          "akes": -0.0022439793683588505
+        },
+        {
+          "ide": -0.007376576773822308
+        },
+        {
+          "Village": -0.008076981641352177
+        },
+        {
+          ".": -0.48957568407058716
+        },
+        {
+          "So": -0.49847275018692017
+        },
+        {
+          "the": -0.8979140520095825
+        },
+        {
+          "m": -0.5357473492622375
+        },
+        {
+          "all": -0.0012417471734806895
+        },
+        {
+          "is": -0.5463041067123413
+        },
+        {
+          "L": -0.06987998634576797
+        },
+        {
+          "akes": -9.893881360767409e-05
+        },
+        {
+          "ide": -0.0001262346631847322
+        },
+        {
+          "Village": -0.0025586506817489862
+        },
+        {
+          ".": -0.015864698216319084
+        },
+        {
+          "<0x0A>": -0.0030942915473133326
+        },
+        {
+          "Answer": -0.0019119569333270192
+        },
+        {
+          ":": -0.0005926521262153983
+        },
+        {
+          "L": -0.00403376342728734
+        },
+        {
+          "akes": -6.05564855504781e-05
+        },
+        {
+          "ide": -6.246371776796877e-05
+        },
+        {
+          "Village": -0.0021438251715153456
+        },
+        {
+          "<0x0A>": -0.021317405626177788
+        },
+        {
+          "Question": -0.1821879744529724
+        },
+        {
+          ":": -0.00030501006403937936
+        },
+        {
+          "Which": -1.457192301750183
+        },
+        {
+          "of": -1.9176571369171143
+        },
+        {
+          "the": -0.8454535007476807
+        },
+        {
+          "following": -0.10612641274929047
+        },
+        {
+          "is": -1.1762700080871582
+        },
+        {
+          "not": -1.3505725860595703
+        },
+        {
+          "a": -0.6091681122779846
+        },
+        {
+          "member": -3.3920094966888428
+        },
+        {
+          "of": -0.0273609422147274
+        },
+        {
+          "the": -0.4785845875740051
+        },
+        {
+          "": -3.707592248916626
+        },
+        {
+          "2": -0.9782261252403259
+        },
+        {
+          "0": -0.16868840157985687
+        },
+        {
+          "0": -0.6957296133041382
+        },
+        {
+          "8": -1.7975071668624878
+        },
+        {
+          "United": -2.5307397842407227
+        },
+        {
+          "States": -0.022638918831944466
+        },
+        {
+          "Olympic": -0.9739344120025635
+        },
+        {
+          "team": -1.1930161714553833
+        },
+        {
+          "?": -0.7958835959434509
+        },
+        {
+          "<0x0A>": -0.9422023892402649
+        },
+        {
+          "Th": -0.04830930754542351
+        },
+        {
+          "ought": -0.00014661667228210717
+        },
+        {
+          ":": -0.0007322729215957224
+        },
+        {
+          "Let": -0.02141180820763111
+        },
+        {
+          "'": -0.0006792622152715921
+        },
+        {
+          "s": -8.654219709569588e-05
+        },
+        {
+          "think": -0.0014861501986160874
+        },
+        {
+          "step": -0.0011739989276975393
+        },
+        {
+          "by": -0.0003250309091527015
+        },
+        {
+          "step": -3.790783375734463e-05
+        },
+        {
+          ".": -0.0011138670379295945
+        },
+        {
+          "M": -1.973467469215393
+        },
+        {
+          "embers": -0.08519141376018524
+        },
+        {
+          "of": -0.0077815488912165165
+        },
+        {
+          "the": -0.14698174595832825
+        },
+        {
+          "": -0.048050407320261
+        },
+        {
+          "2": -0.0007513322634622455
+        },
+        {
+          "0": -7.116541382856667e-05
+        },
+        {
+          "0": -0.0007969540893100202
+        },
+        {
+          "8": -0.0012474621180444956
+        },
+        {
+          "United": -0.016312574967741966
+        },
+        {
+          "States": -0.001213648240081966
+        },
+        {
+          "Olympic": -0.018999844789505005
+        },
+        {
+          "team": -0.01381231751292944
+        },
+        {
+          "are": -0.10155457258224487
+        },
+        {
+          "Michael": -2.734401226043701
+        },
+        {
+          "Ph": -0.02594449184834957
+        },
+        {
+          "el": -4.660974445869215e-05
+        },
+        {
+          "ps": -0.0003475538978818804
+        },
+        {
+          ",": -0.0897119864821434
+        },
+        {
+          "Br": -2.3542864322662354
+        },
+        {
+          "end": -0.1571447104215622
+        },
+        {
+          "an": -0.001757030957378447
+        },
+        {
+          "Hans": -0.001520430902019143
+        },
+        {
+          "en": -0.006610075477510691
+        },
+        {
+          ",": -0.033941153436899185
+        },
+        {
+          "A": -1.2186965942382812
+        },
+        {
+          "aron": -0.002809508005157113
+        },
+        {
+          "Pe": -0.059237804263830185
+        },
+        {
+          "ir": -0.0004829194222111255
+        },
+        {
+          "sol": -0.00043823651503771544
+        },
+        {
+          ",": -0.09355509281158447
+        },
+        {
+          "and": -0.5431705713272095
+        },
+        {
+          "Jason": -1.3911534547805786
+        },
+        {
+          "Le": -0.00345372105948627
+        },
+        {
+          "zak": -0.00026353701832704246
+        },
+        {
+          ".": -0.03223750740289688
+        },
+        {
+          "So": -1.4274404048919678
+        },
+        {
+          "the": -0.47182291746139526
+        },
+        {
+          "answer": -0.8017815351486206
+        },
+        {
+          "is": -0.057405225932598114
+        },
+        {
+          "not": -1.3318407535552979
+        },
+        {
+          "a": -0.5388879776000977
+        },
+        {
+          "member": -0.01061082910746336
+        },
+        {
+          "of": -0.12463854998350143
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Polk County Florida's second most populated city is home to which mall?\nThought 1:Let's think step by step. Polk County Florida's second most populated city is Lakeland. Lakeland is home to Lakeside Village. So the mall is Lakeside Village.\nAnswer: Lakeside Village\nAction 1: MeasureUncertainty [Lakeside Village]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Lakeside Village",
+  "summary": {
+    "final_answer": "Lakeside Village",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

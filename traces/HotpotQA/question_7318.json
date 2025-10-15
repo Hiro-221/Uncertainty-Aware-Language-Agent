@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7318,
+  "question": "Question: Where is the ice hockey team based that Zdeno Chára currently serving as captain of?",
+  "gold_answer": "Boston, Massachusetts",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Where is the ice hockey team based that Zdeno Chára currently serving as captain of?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Where is the ice hockey team based that Zdeno Chára currently serving as captain of?\nThought:",
+      "output": "Let's think step by step. Zdeno Chára currently serving as captain of Boston Bruins. So the ice hockey team based that Zdeno Chára currently serving as captain of is Boston Bruins.\nAnswer: Boston Bruins\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of the same name is The Thomas Crown Affair.\nAnswer",
+      "probs": [
+        {
+          "Let": -0.008071660995483398
+        },
+        {
+          "'": -0.00041321321623399854
+        },
+        {
+          "s": -5.090107151772827e-05
+        },
+        {
+          "think": -0.0011408970458433032
+        },
+        {
+          "step": -0.0005876483046449721
+        },
+        {
+          "by": -0.0002153879904653877
+        },
+        {
+          "step": -2.169585604860913e-05
+        },
+        {
+          ".": -0.00042798896902240813
+        },
+        {
+          "Z": -0.1426713615655899
+        },
+        {
+          "den": -0.0009220162755809724
+        },
+        {
+          "o": -0.0008074360666796565
+        },
+        {
+          "Ch": -0.007159174885600805
+        },
+        {
+          "ára": -0.04564805328845978
+        },
+        {
+          "currently": -0.7592998147010803
+        },
+        {
+          "serving": -0.21168199181556702
+        },
+        {
+          "as": -0.00348912226036191
+        },
+        {
+          "captain": -0.011505560018122196
+        },
+        {
+          "of": -0.011329954490065575
+        },
+        {
+          "Boston": -0.6839396953582764
+        },
+        {
+          "Bru": -0.0019694233778864145
+        },
+        {
+          "ins": -0.0017644088948145509
+        },
+        {
+          ".": -0.2151753157377243
+        },
+        {
+          "So": -1.0914502143859863
+        },
+        {
+          "the": -0.4098040461540222
+        },
+        {
+          "ice": -0.2978556454181671
+        },
+        {
+          "hockey": -0.0010143141262233257
+        },
+        {
+          "team": -0.002473986940458417
+        },
+        {
+          "based": -0.8505054712295532
+        },
+        {
+          "that": -0.37302690744400024
+        },
+        {
+          "Z": -0.036847200244665146
+        },
+        {
+          "den": -0.0002714027068577707
+        },
+        {
+          "o": -0.002055557444691658
+        },
+        {
+          "Ch": -0.0040062181651592255
+        },
+        {
+          "ára": -0.009558270685374737
+        },
+        {
+          "currently": -0.019495539367198944
+        },
+        {
+          "serving": -0.00451640086248517
+        },
+        {
+          "as": -0.002314033918082714
+        },
+        {
+          "captain": -0.002203062642365694
+        },
+        {
+          "of": -0.01321286242455244
+        },
+        {
+          "is": -0.04804006591439247
+        },
+        {
+          "Boston": -0.10417668521404266
+        },
+        {
+          "Bru": -0.003827153006568551
+        },
+        {
+          "ins": -0.0005261705373413861
+        },
+        {
+          ".": -0.016854967921972275
+        },
+        {
+          "<0x0A>": -0.00270715169608593
+        },
+        {
+          "Answer": -0.0017457258654758334
+        },
+        {
+          ":": -0.0002971446083392948
+        },
+        {
+          "Boston": -0.004514976870268583
+        },
+        {
+          "Bru": -0.0018546062055975199
+        },
+        {
+          "ins": -0.0009535771678201854
+        },
+        {
+          "<0x0A>": -0.016821209341287613
+        },
+        {
+          "Question": -0.1749909371137619
+        },
+        {
+          ":": -0.0002585315378382802
+        },
+        {
+          "What": -1.4325408935546875
+        },
+        {
+          "is": -1.1937657594680786
+        },
+        {
+          "the": -0.3709171712398529
+        },
+        {
+          "name": -2.3837192058563232
+        },
+        {
+          "of": -0.051149945706129074
+        },
+        {
+          "the": -0.42170488834381104
+        },
+        {
+          "": -3.501260757446289
+        },
+        {
+          "1": -0.7037109732627869
+        },
+        {
+          "9": -0.16861337423324585
+        },
+        {
+          "9": -1.3058439493179321
+        },
+        {
+          "9": -2.0732228755950928
+        },
+        {
+          "film": -1.528177261352539
+        },
+        {
+          "that": -1.6288485527038574
+        },
+        {
+          "is": -2.130561351776123
+        },
+        {
+          "a": -1.5251609086990356
+        },
+        {
+          "re": -1.1141496896743774
+        },
+        {
+          "make": -0.028266891837120056
+        },
+        {
+          "of": -0.01936132088303566
+        },
+        {
+          "the": -0.7518132925033569
+        },
+        {
+          "": -0.2888154089450836
+        },
+        {
+          "1": -0.011533842422068119
+        },
+        {
+          "9": -0.0022347019985318184
+        },
+        {
+          "6": -1.2615259885787964
+        },
+        {
+          "9": -1.7836217880249023
+        },
+        {
+          "film": -0.3302457332611084
+        },
+        {
+          "of": -1.1954286098480225
+        },
+        {
+          "the": -0.028738902881741524
+        },
+        {
+          "same": -0.002545333234593272
+        },
+        {
+          "name": -0.029780039563775063
+        },
+        {
+          "?": -0.4564421772956848
+        },
+        {
+          "<0x0A>": -0.01231812871992588
+        },
+        {
+          "Th": -0.0036921207793056965
+        },
+        {
+          "ought": -8.702239938429557e-06
+        },
+        {
+          ":": -0.0001392267586197704
+        },
+        {
+          "Let": -0.0072143287397921085
+        },
+        {
+          "'": -0.0002090712368953973
+        },
+        {
+          "s": -8.34461570775602e-06
+        },
+        {
+          "think": -0.0003541081096045673
+        },
+        {
+          "step": -0.00023779425828251988
+        },
+        {
+          "by": -0.00010823617776622996
+        },
+        {
+          "step": -2.9802276912960224e-06
+        },
+        {
+          ".": -0.0002728328399825841
+        },
+        {
+          "The": -0.6589124202728271
+        },
+        {
+          "": -0.33808884024620056
+        },
+        {
+          "1": -0.012468012981116772
+        },
+        {
+          "9": -0.00032360086333937943
+        },
+        {
+          "9": -0.43556028604507446
+        },
+        {
+          "9": -0.0020882722456008196
+        },
+        {
+          "film": -0.050723299384117126
+        },
+        {
+          "that": -0.5856638550758362
+        },
+        {
+          "is": -0.005946207791566849
+        },
+        {
+          "a": -0.007084014359861612
+        },
+        {
+          "re": -0.0017748808022588491
+        },
+        {
+          "make": -0.00033885458833537996
+        },
+        {
+          "of": -0.002741390373557806
+        },
+        {
+          "the": -0.01733626239001751
+        },
+        {
+          "": -0.00195312371943146
+        },
+        {
+          "1": -0.00034814971149899065
+        },
+        {
+          "9": -0.0001734344696160406
+        },
+        {
+          "6": -0.00305031961761415
+        },
+        {
+          "9": -0.0015503065660595894
+        },
+        {
+          "film": -0.002787515986710787
+        },
+        {
+          "of": -0.06739138811826706
+        },
+        {
+          "the": -0.0022955990862101316
+        },
+        {
+          "same": -0.0002623452164698392
+        },
+        {
+          "name": -0.0009389282786287367
+        },
+        {
+          "is": -0.023349566385149956
+        },
+        {
+          "The": -0.6479241847991943
+        },
+        {
+          "Thomas": -0.19988659024238586
+        },
+        {
+          "Crown": -0.00110600795596838
+        },
+        {
+          "Aff": -0.0008297099848277867
+        },
+        {
+          "air": -0.000518664310220629
+        },
+        {
+          ".": -0.18139083683490753
+        },
+        {
+          "<0x0A>": -0.5221987962722778
+        },
+        {
+          "Answer": -0.0019031523261219263
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Where is the ice hockey team based that Zdeno Chára currently serving as captain of?\nThought 1:Let's think step by step. Zdeno Chára currently serving as captain of Boston Bruins. So the ice hockey team based that Zdeno Chára currently serving as captain of is Boston Bruins.\nAnswer: Boston Bruins\nAction 1: MeasureUncertainty [Boston Bruins]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Boston Bruins",
+  "summary": {
+    "final_answer": "Boston Bruins",
+    "em": false,
+    "f1": 0.5,
+    "mode": "uala_cot_only"
+  }
+}

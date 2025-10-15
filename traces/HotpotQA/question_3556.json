@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3556,
+  "question": "Question: What South Australian capital held UFC Fight Night 65 in May of 2015?",
+  "gold_answer": "Adelaide",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What South Australian capital held UFC Fight Night 65 in May of 2015?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What South Australian capital held UFC Fight Night 65 in May of 2015?\nThought:",
+      "output": "Let's think step by step. Adelaide is the capital of South Australia. UFC Fight Night 65 was held in Adelaide in May of 2015. So the South Australian capital that held UFC Fight Night 65 in May of 2015 is Adelaide.\nAnswer: Adelaide\nQuestion: What is the name of the 1999 film that was directed by John Woo and starred Nicolas Cage?\nThought: Let's think step by step. The 1999 film that was directed by John Woo",
+      "probs": [
+        {
+          "Let": -0.015513341873884201
+        },
+        {
+          "'": -0.0007398966699838638
+        },
+        {
+          "s": -6.16293036728166e-05
+        },
+        {
+          "think": -0.0013803249457851052
+        },
+        {
+          "step": -0.0008978387922979891
+        },
+        {
+          "by": -0.0002299282787134871
+        },
+        {
+          "step": -3.957670196541585e-05
+        },
+        {
+          ".": -0.0005433275364339352
+        },
+        {
+          "Ad": -1.1605595350265503
+        },
+        {
+          "ela": -0.0004337085410952568
+        },
+        {
+          "ide": -0.00025090406415984035
+        },
+        {
+          "is": -0.37964391708374023
+        },
+        {
+          "the": -0.49018949270248413
+        },
+        {
+          "capital": -0.5237888097763062
+        },
+        {
+          "of": -0.37733814120292664
+        },
+        {
+          "South": -0.06722778081893921
+        },
+        {
+          "Australia": -0.05088067799806595
+        },
+        {
+          ".": -0.24868908524513245
+        },
+        {
+          "U": -0.8343402147293091
+        },
+        {
+          "FC": -0.0010657589882612228
+        },
+        {
+          "Fight": -0.05013253539800644
+        },
+        {
+          "Night": -0.002003211760893464
+        },
+        {
+          "": -0.07576418668031693
+        },
+        {
+          "6": -0.006043256726115942
+        },
+        {
+          "5": -0.004519011825323105
+        },
+        {
+          "was": -0.27405551075935364
+        },
+        {
+          "held": -0.06605622172355652
+        },
+        {
+          "in": -0.1411678045988083
+        },
+        {
+          "Ad": -0.11071128398180008
+        },
+        {
+          "ela": -0.00024863966973498464
+        },
+        {
+          "ide": -0.00036566724884323776
+        },
+        {
+          "in": -0.9693185091018677
+        },
+        {
+          "May": -0.029095834121108055
+        },
+        {
+          "of": -0.18524223566055298
+        },
+        {
+          "": -0.00046957432641647756
+        },
+        {
+          "2": -0.00068926892708987
+        },
+        {
+          "0": -0.00012814177898690104
+        },
+        {
+          "1": -0.000179036331246607
+        },
+        {
+          "5": -0.0011326810345053673
+        },
+        {
+          ".": -0.5159857273101807
+        },
+        {
+          "So": -0.6797390580177307
+        },
+        {
+          "the": -0.6144708395004272
+        },
+        {
+          "South": -0.5102919340133667
+        },
+        {
+          "Australian": -0.0059912377037107944
+        },
+        {
+          "capital": -0.006471154745668173
+        },
+        {
+          "that": -0.39792945981025696
+        },
+        {
+          "held": -0.023778505623340607
+        },
+        {
+          "U": -0.014615260064601898
+        },
+        {
+          "FC": -0.0005003153928555548
+        },
+        {
+          "Fight": -0.0026475873310118914
+        },
+        {
+          "Night": -0.002072569215670228
+        },
+        {
+          "": -0.00439356779679656
+        },
+        {
+          "6": -0.0003846143954433501
+        },
+        {
+          "5": -0.00043990471749566495
+        },
+        {
+          "in": -0.13056133687496185
+        },
+        {
+          "May": -0.004041480831801891
+        },
+        {
+          "of": -0.013598780147731304
+        },
+        {
+          "": -0.00035637227119877934
+        },
+        {
+          "2": -7.056941103655845e-05
+        },
+        {
+          "0": -7.86750388215296e-05
+        },
+        {
+          "1": -0.0002740246127359569
+        },
+        {
+          "5": -0.0007298904820345342
+        },
+        {
+          "is": -0.2130553126335144
+        },
+        {
+          "Ad": -0.0028551549185067415
+        },
+        {
+          "ela": -0.0002113357331836596
+        },
+        {
+          "ide": -0.00011097769311163574
+        },
+        {
+          ".": -0.009507732465863228
+        },
+        {
+          "<0x0A>": -0.003170703537762165
+        },
+        {
+          "Answer": -0.0018386616138741374
+        },
+        {
+          ":": -0.0003759154351428151
+        },
+        {
+          "Ad": -0.0017288275994360447
+        },
+        {
+          "ela": -5.1616290875244886e-05
+        },
+        {
+          "ide": -0.00011181206355104223
+        },
+        {
+          "<0x0A>": -0.04179137200117111
+        },
+        {
+          "Question": -0.20788423717021942
+        },
+        {
+          ":": -0.00027164106722921133
+        },
+        {
+          "What": -1.288818120956421
+        },
+        {
+          "is": -1.4757401943206787
+        },
+        {
+          "the": -0.4431014060974121
+        },
+        {
+          "name": -2.615252733230591
+        },
+        {
+          "of": -0.056648094207048416
+        },
+        {
+          "the": -0.44199347496032715
+        },
+        {
+          "": -3.1646201610565186
+        },
+        {
+          "1": -0.7605623006820679
+        },
+        {
+          "9": -0.22355659306049347
+        },
+        {
+          "9": -1.2802168130874634
+        },
+        {
+          "9": -2.0766844749450684
+        },
+        {
+          "film": -1.664949893951416
+        },
+        {
+          "that": -1.7032673358917236
+        },
+        {
+          "was": -2.1766436100006104
+        },
+        {
+          "directed": -1.3197568655014038
+        },
+        {
+          "by": -0.02972530573606491
+        },
+        {
+          "John": -3.5354373455047607
+        },
+        {
+          "W": -2.506671667098999
+        },
+        {
+          "oo": -0.23667012155056
+        },
+        {
+          "and": -0.8109070062637329
+        },
+        {
+          "star": -0.9477462768554688
+        },
+        {
+          "red": -0.0035449538845568895
+        },
+        {
+          "Nicolas": -1.0881611108779907
+        },
+        {
+          "C": -0.0011835244949907064
+        },
+        {
+          "age": -1.2755313036905136e-05
+        },
+        {
+          "?": -0.7192897200584412
+        },
+        {
+          "<0x0A>": -0.008316291496157646
+        },
+        {
+          "Th": -0.005494610872119665
+        },
+        {
+          "ought": -3.516612196108326e-05
+        },
+        {
+          ":": -0.00017796363681554794
+        },
+        {
+          "Let": -0.009184491820633411
+        },
+        {
+          "'": -0.000331704446580261
+        },
+        {
+          "s": -5.745722592109814e-05
+        },
+        {
+          "think": -0.0005072260973975062
+        },
+        {
+          "step": -0.00032264748006127775
+        },
+        {
+          "by": -0.0001380348257953301
+        },
+        {
+          "step": -4.792098479811102e-05
+        },
+        {
+          ".": -0.0003911683743353933
+        },
+        {
+          "The": -1.5181931257247925
+        },
+        {
+          "": -0.7462297081947327
+        },
+        {
+          "1": -0.008759408257901669
+        },
+        {
+          "9": -0.000316212244797498
+        },
+        {
+          "9": -0.0033946766052395105
+        },
+        {
+          "9": -0.017065467312932014
+        },
+        {
+          "film": -0.0393131747841835
+        },
+        {
+          "that": -0.7489127516746521
+        },
+        {
+          "was": -0.04303862154483795
+        },
+        {
+          "directed": -0.003942219074815512
+        },
+        {
+          "by": -0.0020070187747478485
+        },
+        {
+          "John": -0.003813615068793297
+        },
+        {
+          "W": -0.0006463822210207582
+        },
+        {
+          "oo": -0.0006098079611547291
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: What South Australian capital held UFC Fight Night 65 in May of 2015?\nThought 1:Let's think step by step. Adelaide is the capital of South Australia. UFC Fight Night 65 was held in Adelaide in May of 2015. So the South Australian capital that held UFC Fight Night 65 in May of 2015 is Adelaide.\nAnswer: Adelaide\nAction 1: MeasureUncertainty [Adelaide]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Adelaide",
+  "summary": {
+    "final_answer": "Adelaide",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

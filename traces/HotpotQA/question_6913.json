@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6913,
+  "question": "Question: Was Princess Charlotte of Cambridge born before or after the repealing of the Royal Marriages Act 1772?",
+  "gold_answer": "after",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Was Princess Charlotte of Cambridge born before or after the repealing of the Royal Marriages Act 1772?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Was Princess Charlotte of Cambridge born before or after the repealing of the Royal Marriages Act 1772?\nThought:",
+      "output": "Let's think step by step. Princess Charlotte of Cambridge was born in 2015. The Royal Marriages Act 1772 was repealed in 2015. 2015 (Princess Charlotte of Cambridge) = 2015 (repealing of the Royal Marriages Act 1772), so Princess Charlotte of Cambridge was born at the same time as the repealing of the Royal Marriages Act 1772.\nAnswer: At the same time\nQuestion: Which of the following is not a member of the group of",
+      "probs": [
+        {
+          "Let": -0.007448283955454826
+        },
+        {
+          "'": -0.000380324519937858
+        },
+        {
+          "s": -4.4225667807040736e-05
+        },
+        {
+          "think": -0.0005812147865071893
+        },
+        {
+          "step": -0.00043823651503771544
+        },
+        {
+          "by": -0.00039295581518672407
+        },
+        {
+          "step": -5.590759246842936e-05
+        },
+        {
+          ".": -0.0006112375995144248
+        },
+        {
+          "Princess": -0.3894023299217224
+        },
+        {
+          "Charlotte": -0.0011529234470799565
+        },
+        {
+          "of": -0.04497849941253662
+        },
+        {
+          "Cambridge": -0.0014750801492482424
+        },
+        {
+          "was": -0.025527752935886383
+        },
+        {
+          "born": -0.0022800182923674583
+        },
+        {
+          "in": -0.23480086028575897
+        },
+        {
+          "": -0.049468815326690674
+        },
+        {
+          "2": -0.0037176560144871473
+        },
+        {
+          "0": -0.003212531330063939
+        },
+        {
+          "1": -0.001617315225303173
+        },
+        {
+          "5": -0.0044717793352901936
+        },
+        {
+          ".": -0.10291784256696701
+        },
+        {
+          "The": -0.5060096979141235
+        },
+        {
+          "Royal": -0.03921792656183243
+        },
+        {
+          "Mar": -0.001135181519202888
+        },
+        {
+          "ri": -0.005986971780657768
+        },
+        {
+          "ages": -1.2040065485052764e-05
+        },
+        {
+          "Act": -0.0005638201837427914
+        },
+        {
+          "": -0.020782915875315666
+        },
+        {
+          "1": -0.00016342257731594145
+        },
+        {
+          "7": -0.001065163523890078
+        },
+        {
+          "7": -0.0005975367967039347
+        },
+        {
+          "2": -0.00021264675888232887
+        },
+        {
+          "was": -0.032237276434898376
+        },
+        {
+          "repe": -0.07901433855295181
+        },
+        {
+          "aled": -0.019594788551330566
+        },
+        {
+          "in": -0.10209517180919647
+        },
+        {
+          "": -0.019401073455810547
+        },
+        {
+          "2": -0.055351510643959045
+        },
+        {
+          "0": -0.001277702976949513
+        },
+        {
+          "1": -0.0020808966364711523
+        },
+        {
+          "5": -0.28860944509506226
+        },
+        {
+          ".": -0.14456023275852203
+        },
+        {
+          "": -0.9308738708496094
+        },
+        {
+          "2": -0.008706939406692982
+        },
+        {
+          "0": -0.0003165697562508285
+        },
+        {
+          "1": -0.00041500062798149884
+        },
+        {
+          "5": -0.0008055302896536887
+        },
+        {
+          "(": -0.09116854518651962
+        },
+        {
+          "Pr": -0.12976530194282532
+        },
+        {
+          "in": -0.0006691362359561026
+        },
+        {
+          "cess": -0.000339569611242041
+        },
+        {
+          "Charlotte": -0.0037463970948010683
+        },
+        {
+          "of": -0.044320352375507355
+        },
+        {
+          "Cambridge": -0.0006690170848742127
+        },
+        {
+          ")": -0.07673808932304382
+        },
+        {
+          "=": -0.5548985600471497
+        },
+        {
+          "": -0.015582590363919735
+        },
+        {
+          "2": -0.0007811117684468627
+        },
+        {
+          "0": -9.07141511561349e-05
+        },
+        {
+          "1": -0.00019202772818971425
+        },
+        {
+          "5": -0.0005590544897131622
+        },
+        {
+          "(": -0.004128267522901297
+        },
+        {
+          "re": -0.853442907333374
+        },
+        {
+          "pe": -0.000248401309363544
+        },
+        {
+          "aling": -0.125832200050354
+        },
+        {
+          "of": -0.0481569729745388
+        },
+        {
+          "the": -0.02846469171345234
+        },
+        {
+          "Royal": -0.0036510254722088575
+        },
+        {
+          "Mar": -0.0007611000328324735
+        },
+        {
+          "ri": -0.0022877492010593414
+        },
+        {
+          "ages": -3.242440288886428e-05
+        },
+        {
+          "Act": -0.000979658798314631
+        },
+        {
+          "": -0.008835388347506523
+        },
+        {
+          "1": -0.00011646069469861686
+        },
+        {
+          "7": -0.0006212450098246336
+        },
+        {
+          "7": -0.00043394684325903654
+        },
+        {
+          "2": -0.00027724236133508384
+        },
+        {
+          "),": -0.12409009784460068
+        },
+        {
+          "so": -0.01139961089938879
+        },
+        {
+          "Princess": -0.2275431752204895
+        },
+        {
+          "Charlotte": -0.0015697074122726917
+        },
+        {
+          "of": -0.010916748084127903
+        },
+        {
+          "Cambridge": -0.00048387263086624444
+        },
+        {
+          "was": -0.16784878075122833
+        },
+        {
+          "born": -0.02652742527425289
+        },
+        {
+          "at": -0.7508382797241211
+        },
+        {
+          "the": -0.023605624213814735
+        },
+        {
+          "same": -0.060563698410987854
+        },
+        {
+          "time": -0.033668018877506256
+        },
+        {
+          "as": -0.22922179102897644
+        },
+        {
+          "the": -0.053356293588876724
+        },
+        {
+          "repe": -0.04348042979836464
+        },
+        {
+          "aling": -0.008165902458131313
+        },
+        {
+          "of": -0.00551915168762207
+        },
+        {
+          "the": -0.004343836568295956
+        },
+        {
+          "Royal": -0.0018148632952943444
+        },
+        {
+          "Mar": -0.0004798214649781585
+        },
+        {
+          "ri": -0.001968114636838436
+        },
+        {
+          "ages": -8.34461570775602e-06
+        },
+        {
+          "Act": -0.0003817544784396887
+        },
+        {
+          "": -0.0028305486775934696
+        },
+        {
+          "1": -7.545663538621739e-05
+        },
+        {
+          "7": -9.476689592702314e-05
+        },
+        {
+          "7": -0.00012420836719684303
+        },
+        {
+          "2": -0.00012242044613230973
+        },
+        {
+          ".": -0.014219863340258598
+        },
+        {
+          "<0x0A>": -0.0046775443479418755
+        },
+        {
+          "Answer": -0.00263450900092721
+        },
+        {
+          ":": -0.00036530973738990724
+        },
+        {
+          "At": -0.9928491115570068
+        },
+        {
+          "the": -0.00861026719212532
+        },
+        {
+          "same": -0.0023029730655252934
+        },
+        {
+          "time": -0.0023412692826241255
+        },
+        {
+          "<0x0A>": -0.1222672089934349
+        },
+        {
+          "Question": -0.22896534204483032
+        },
+        {
+          ":": -0.00029774048016406596
+        },
+        {
+          "Which": -1.634792685508728
+        },
+        {
+          "of": -2.0176336765289307
+        },
+        {
+          "the": -0.9088922739028931
+        },
+        {
+          "following": -0.1475783735513687
+        },
+        {
+          "is": -1.1840689182281494
+        },
+        {
+          "not": -1.6371724605560303
+        },
+        {
+          "a": -0.6990451812744141
+        },
+        {
+          "member": -3.184049367904663
+        },
+        {
+          "of": -0.025912432000041008
+        },
+        {
+          "the": -0.5551885366439819
+        },
+        {
+          "group": -3.4340333938598633
+        },
+        {
+          "of": -2.132835865020752
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.38,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Was Princess Charlotte of Cambridge born before or after the repealing of the Royal Marriages Act 1772?\nThought 1:Let's think step by step. Princess Charlotte of Cambridge was born in 2015. The Royal Marriages Act 1772 was repealed in 2015. 2015 (Princess Charlotte of Cambridge) = 2015 (repealing of the Royal Marriages Act 1772), so Princess Charlotte of Cambridge was born at the same time as the repealing of the Royal Marriages Act 1772.\nAnswer: At the same time\nAction 1: MeasureUncertainty [At the same time]\nObservation 1: Answer’s uncertainty is 1.38, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: At the same time",
+  "summary": {
+    "final_answer": "At the same time",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

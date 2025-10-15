@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2835,
+  "question": "Question: What type of diary did one of the founders of the John Bishop Memorial Hospital in Srinagar write?",
+  "gold_answer": "a travel diary",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What type of diary did one of the founders of the John Bishop Memorial Hospital in Srinagar write?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What type of diary did one of the founders of the John Bishop Memorial Hospital in Srinagar write?\nThought:",
+      "output": "Let's think step by step. John Bishop Memorial Hospital was founded by John Bishop. John Bishop was a missionary. Missionaries write missionary diaries. So the type of diary John Bishop wrote is missionary diary.\nAnswer: missionary diary\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film is The Thomas Crown Affair. The 1969 film is The Thomas Crown Affair.",
+      "probs": [
+        {
+          "Let": -0.009954688139259815
+        },
+        {
+          "'": -0.00031740395934320986
+        },
+        {
+          "s": -1.764281842042692e-05
+        },
+        {
+          "think": -0.0008874768391251564
+        },
+        {
+          "step": -0.0006700892699882388
+        },
+        {
+          "by": -0.00019143179815728217
+        },
+        {
+          "step": -8.189342770492658e-05
+        },
+        {
+          ".": -0.0005882440018467605
+        },
+        {
+          "John": -1.374626874923706
+        },
+        {
+          "Bishop": -0.07190122455358505
+        },
+        {
+          "Memorial": -0.9490379691123962
+        },
+        {
+          "Hospital": -0.004836170934140682
+        },
+        {
+          "was": -0.9831508994102478
+        },
+        {
+          "founded": -0.4294564127922058
+        },
+        {
+          "by": -0.14841657876968384
+        },
+        {
+          "John": -1.9156564474105835
+        },
+        {
+          "Bishop": -0.08682474493980408
+        },
+        {
+          ".": -1.1616944074630737
+        },
+        {
+          "John": -0.455412358045578
+        },
+        {
+          "Bishop": -0.01751081459224224
+        },
+        {
+          "was": -1.0835132598876953
+        },
+        {
+          "a": -0.43004676699638367
+        },
+        {
+          "mission": -1.392539381980896
+        },
+        {
+          "ary": -0.0029883987735956907
+        },
+        {
+          ".": -1.002824306488037
+        },
+        {
+          "Mission": -1.05296790599823
+        },
+        {
+          "aries": -0.24706995487213135
+        },
+        {
+          "write": -1.3879148960113525
+        },
+        {
+          "mission": -0.9965963363647461
+        },
+        {
+          "ary": -0.10607120394706726
+        },
+        {
+          "di": -0.11890435218811035
+        },
+        {
+          "aries": -0.5301770567893982
+        },
+        {
+          ".": -0.6928741335868835
+        },
+        {
+          "So": -0.35874614119529724
+        },
+        {
+          "the": -0.707497239112854
+        },
+        {
+          "type": -0.3508723974227905
+        },
+        {
+          "of": -0.004045636393129826
+        },
+        {
+          "di": -0.029335955157876015
+        },
+        {
+          "ary": -0.005927958060055971
+        },
+        {
+          "John": -1.022968053817749
+        },
+        {
+          "Bishop": -0.006950249429792166
+        },
+        {
+          "wrote": -0.1499767005443573
+        },
+        {
+          "is": -0.5044754147529602
+        },
+        {
+          "mission": -0.42657271027565
+        },
+        {
+          "ary": -0.0008085080771706998
+        },
+        {
+          "di": -0.05277533829212189
+        },
+        {
+          "ary": -0.09750308841466904
+        },
+        {
+          ".": -0.005110415630042553
+        },
+        {
+          "<0x0A>": -0.004397009499371052
+        },
+        {
+          "Answer": -0.0016900317277759314
+        },
+        {
+          ":": -0.0003150205302517861
+        },
+        {
+          "mission": -0.1358082890510559
+        },
+        {
+          "ary": -0.0004077318590134382
+        },
+        {
+          "di": -0.040458884090185165
+        },
+        {
+          "ary": -0.011155026033520699
+        },
+        {
+          "<0x0A>": -0.02051340416073799
+        },
+        {
+          "Question": -0.19900301098823547
+        },
+        {
+          ":": -0.00025900822947733104
+        },
+        {
+          "What": -1.307620882987976
+        },
+        {
+          "is": -1.4346797466278076
+        },
+        {
+          "the": -0.4178488254547119
+        },
+        {
+          "name": -2.5061538219451904
+        },
+        {
+          "of": -0.0513518787920475
+        },
+        {
+          "the": -0.41991016268730164
+        },
+        {
+          "": -3.5937845706939697
+        },
+        {
+          "1": -0.6602288484573364
+        },
+        {
+          "9": -0.23279407620429993
+        },
+        {
+          "9": -1.4003599882125854
+        },
+        {
+          "9": -2.110440492630005
+        },
+        {
+          "film": -1.6707179546356201
+        },
+        {
+          "that": -1.7556425333023071
+        },
+        {
+          "is": -1.893014907836914
+        },
+        {
+          "a": -1.5416523218154907
+        },
+        {
+          "re": -1.2670241594314575
+        },
+        {
+          "make": -0.03302545100450516
+        },
+        {
+          "of": -0.017168473452329636
+        },
+        {
+          "the": -0.7989444136619568
+        },
+        {
+          "": -0.2856757640838623
+        },
+        {
+          "1": -0.018343450501561165
+        },
+        {
+          "9": -0.0024901593569666147
+        },
+        {
+          "6": -1.4039744138717651
+        },
+        {
+          "9": -1.8620078563690186
+        },
+        {
+          "film": -0.3202115297317505
+        },
+        {
+          "of": -1.662241816520691
+        },
+        {
+          "the": -0.020690441131591797
+        },
+        {
+          "same": -0.0030629171524196863
+        },
+        {
+          "name": -0.0293510053306818
+        },
+        {
+          "?": -0.44542965292930603
+        },
+        {
+          "<0x0A>": -0.019434979185461998
+        },
+        {
+          "Th": -0.005210154689848423
+        },
+        {
+          "ought": -1.3112935448589269e-05
+        },
+        {
+          ":": -0.00014041867689229548
+        },
+        {
+          "Let": -0.00851772166788578
+        },
+        {
+          "'": -0.0002711643755901605
+        },
+        {
+          "s": -1.6689160474925302e-05
+        },
+        {
+          "think": -0.0005160430446267128
+        },
+        {
+          "step": -0.0002933310461230576
+        },
+        {
+          "by": -0.00010096516780322418
+        },
+        {
+          "step": -3.576272320060525e-06
+        },
+        {
+          ".": -0.000379132863599807
+        },
+        {
+          "The": -0.7774679064750671
+        },
+        {
+          "": -0.418133944272995
+        },
+        {
+          "1": -0.008690040558576584
+        },
+        {
+          "9": -0.0004042761866003275
+        },
+        {
+          "9": -0.6789971590042114
+        },
+        {
+          "9": -0.0027255788445472717
+        },
+        {
+          "film": -0.08578338474035263
+        },
+        {
+          "is": -0.8582829833030701
+        },
+        {
+          "The": -0.9728744029998779
+        },
+        {
+          "Thomas": -0.3483883738517761
+        },
+        {
+          "Crown": -0.001207814086228609
+        },
+        {
+          "Aff": -0.0010941001819446683
+        },
+        {
+          "air": -0.0004797023138962686
+        },
+        {
+          ".": -0.3479281961917877
+        },
+        {
+          "The": -0.2237471342086792
+        },
+        {
+          "": -0.07184575498104095
+        },
+        {
+          "1": -0.0007540719816461205
+        },
+        {
+          "9": -0.00017593742813915014
+        },
+        {
+          "6": -0.01664629951119423
+        },
+        {
+          "9": -0.0023060652893036604
+        },
+        {
+          "film": -0.013953160494565964
+        },
+        {
+          "is": -0.28722432255744934
+        },
+        {
+          "The": -0.3712938129901886
+        },
+        {
+          "Thomas": -0.0004580163804348558
+        },
+        {
+          "Crown": -0.0005327236140146852
+        },
+        {
+          "Aff": -0.00047505536349490285
+        },
+        {
+          "air": -0.00010430268594063818
+        },
+        {
+          ".": -0.13878683745861053
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: What type of diary did one of the founders of the John Bishop Memorial Hospital in Srinagar write?\nThought 1:Let's think step by step. John Bishop Memorial Hospital was founded by John Bishop. John Bishop was a missionary. Missionaries write missionary diaries. So the type of diary John Bishop wrote is missionary diary.\nAnswer: missionary diary\nAction 1: MeasureUncertainty [missionary diary]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: missionary diary",
+  "summary": {
+    "final_answer": "missionary diary",
+    "em": false,
+    "f1": 0.5,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7067,
+  "question": "Question: What musical duo used samples from the first presenter of \"Tomorrow's World\" in their album Lost and Safe?",
+  "gold_answer": "American musical duo The Books",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What musical duo used samples from the first presenter of \"Tomorrow's World\" in their album Lost and Safe?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What musical duo used samples from the first presenter of \"Tomorrow's World\" in their album Lost and Safe?\nThought:",
+      "output": "Let's think step by step. The first presenter of \"Tomorrow's World\" is Raymond Baxter. The band that used samples from Raymond Baxter in their album Lost and Safe is The Books.\nAnswer: The Books\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1969 film is The Italian Job. The 1999 film is The Italian Job. So the 1999",
+      "probs": [
+        {
+          "Let": -0.019558783620595932
+        },
+        {
+          "'": -0.00020037073409184813
+        },
+        {
+          "s": -3.814624506048858e-05
+        },
+        {
+          "think": -0.0009966888464987278
+        },
+        {
+          "step": -0.0005160430446267128
+        },
+        {
+          "by": -0.00016950124700088054
+        },
+        {
+          "step": -2.992108420585282e-05
+        },
+        {
+          ".": -0.0008102948195300996
+        },
+        {
+          "The": -1.335776925086975
+        },
+        {
+          "first": -0.6731233596801758
+        },
+        {
+          "present": -0.010040491819381714
+        },
+        {
+          "er": -0.012437872588634491
+        },
+        {
+          "of": -0.008916443213820457
+        },
+        {
+          "\"": -0.5978155732154846
+        },
+        {
+          "Tom": -0.0010266992030665278
+        },
+        {
+          "orrow": -0.0020485385321080685
+        },
+        {
+          "'": -0.0012978235026821494
+        },
+        {
+          "s": -0.00023016665363684297
+        },
+        {
+          "World": -0.00285075674764812
+        },
+        {
+          "\"": -0.005934238899499178
+        },
+        {
+          "is": -0.22541537880897522
+        },
+        {
+          "Raymond": -0.2462046593427658
+        },
+        {
+          "B": -0.0026946684811264277
+        },
+        {
+          "ax": -0.00017581824795342982
+        },
+        {
+          "ter": -3.0874729418428615e-05
+        },
+        {
+          ".": -0.1302090287208557
+        },
+        {
+          "The": -1.7724075317382812
+        },
+        {
+          "band": -1.91460382938385
+        },
+        {
+          "that": -1.2109792232513428
+        },
+        {
+          "used": -0.4724891781806946
+        },
+        {
+          "samples": -0.1373652219772339
+        },
+        {
+          "from": -0.05190876126289368
+        },
+        {
+          "Raymond": -0.3668791353702545
+        },
+        {
+          "B": -0.005066176410764456
+        },
+        {
+          "ax": -0.0006958208978176117
+        },
+        {
+          "ter": -0.00025519452174194157
+        },
+        {
+          "in": -0.3012603521347046
+        },
+        {
+          "their": -0.06406471878290176
+        },
+        {
+          "album": -0.01972605474293232
+        },
+        {
+          "Lost": -0.14565575122833252
+        },
+        {
+          "and": -0.0019249258330091834
+        },
+        {
+          "Sa": -0.001178047270514071
+        },
+        {
+          "fe": -1.1920858014491387e-05
+        },
+        {
+          "is": -0.039525531232357025
+        },
+        {
+          "The": -0.628485918045044
+        },
+        {
+          "Books": -0.0005573864909820259
+        },
+        {
+          ".": -0.039485424757003784
+        },
+        {
+          "<0x0A>": -0.1862470954656601
+        },
+        {
+          "Answer": -0.002412268426269293
+        },
+        {
+          ":": -0.0003610197745729238
+        },
+        {
+          "The": -0.008004965260624886
+        },
+        {
+          "Books": -0.0020510368049144745
+        },
+        {
+          "<0x0A>": -0.018831633031368256
+        },
+        {
+          "Question": -0.18887367844581604
+        },
+        {
+          ":": -0.00025006983196362853
+        },
+        {
+          "What": -1.3902630805969238
+        },
+        {
+          "is": -1.4157999753952026
+        },
+        {
+          "the": -0.40630200505256653
+        },
+        {
+          "name": -2.5715763568878174
+        },
+        {
+          "of": -0.05143159627914429
+        },
+        {
+          "the": -0.43173882365226746
+        },
+        {
+          "": -3.373770236968994
+        },
+        {
+          "1": -0.6949054002761841
+        },
+        {
+          "9": -0.20562049746513367
+        },
+        {
+          "9": -1.3607696294784546
+        },
+        {
+          "9": -2.0673985481262207
+        },
+        {
+          "film": -1.7015423774719238
+        },
+        {
+          "that": -1.6618446111679077
+        },
+        {
+          "is": -1.9598883390426636
+        },
+        {
+          "a": -1.498384952545166
+        },
+        {
+          "re": -1.2165507078170776
+        },
+        {
+          "make": -0.03600534424185753
+        },
+        {
+          "of": -0.017110351473093033
+        },
+        {
+          "the": -0.7868717312812805
+        },
+        {
+          "": -0.3063878118991852
+        },
+        {
+          "1": -0.013212979771196842
+        },
+        {
+          "9": -0.0028136686887592077
+        },
+        {
+          "6": -1.2991002798080444
+        },
+        {
+          "9": -1.9010543823242188
+        },
+        {
+          "film": -0.32684046030044556
+        },
+        {
+          "of": -1.5732882022857666
+        },
+        {
+          "the": -0.022825948894023895
+        },
+        {
+          "same": -0.003099877154454589
+        },
+        {
+          "name": -0.030153371393680573
+        },
+        {
+          "?": -0.46366220712661743
+        },
+        {
+          "<0x0A>": -0.01750296726822853
+        },
+        {
+          "Th": -0.0043838354758918285
+        },
+        {
+          "ought": -1.2278481335670222e-05
+        },
+        {
+          ":": -0.00014172980445437133
+        },
+        {
+          "Let": -0.012429866939783096
+        },
+        {
+          "'": -0.00030322244856506586
+        },
+        {
+          "s": -1.3112935448589269e-05
+        },
+        {
+          "think": -0.0004408579843584448
+        },
+        {
+          "step": -0.0003638797497842461
+        },
+        {
+          "by": -0.00013398226292338222
+        },
+        {
+          "step": -8.77341881277971e-05
+        },
+        {
+          ".": -0.0004552758182398975
+        },
+        {
+          "The": -0.5123481750488281
+        },
+        {
+          "": -0.41251668334007263
+        },
+        {
+          "1": -0.00642176391556859
+        },
+        {
+          "9": -0.0002470903273206204
+        },
+        {
+          "6": -0.5706418752670288
+        },
+        {
+          "9": -0.003356420435011387
+        },
+        {
+          "film": -0.048347584903240204
+        },
+        {
+          "is": -0.7443304061889648
+        },
+        {
+          "The": -0.8722718358039856
+        },
+        {
+          "Italian": -0.29845038056373596
+        },
+        {
+          "Job": -0.0027363973204046488
+        },
+        {
+          ".": -0.37696436047554016
+        },
+        {
+          "The": -0.25617244839668274
+        },
+        {
+          "": -0.25283217430114746
+        },
+        {
+          "1": -0.004059171304106712
+        },
+        {
+          "9": -5.876845170860179e-05
+        },
+        {
+          "9": -0.016890952363610268
+        },
+        {
+          "9": -0.0020960045512765646
+        },
+        {
+          "film": -0.11387520283460617
+        },
+        {
+          "is": -0.3401963710784912
+        },
+        {
+          "The": -0.8529952168464661
+        },
+        {
+          "Italian": -0.030981676653027534
+        },
+        {
+          "Job": -0.0010182439582422376
+        },
+        {
+          ".": -0.3084825873374939
+        },
+        {
+          "So": -0.7954747080802917
+        },
+        {
+          "the": -0.14476251602172852
+        },
+        {
+          "": -0.6227364540100098
+        },
+        {
+          "1": -0.0009900197619572282
+        },
+        {
+          "9": -8.856858039507642e-05
+        },
+        {
+          "9": -0.020135754719376564
+        },
+        {
+          "9": -0.00025650550378486514
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: What musical duo used samples from the first presenter of \"Tomorrow's World\" in their album Lost and Safe?\nThought 1:Let's think step by step. The first presenter of \"Tomorrow's World\" is Raymond Baxter. The band that used samples from Raymond Baxter in their album Lost and Safe is The Books.\nAnswer: The Books\nAction 1: MeasureUncertainty [The Books]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: The Books",
+  "summary": {
+    "final_answer": "The Books",
+    "em": false,
+    "f1": 0.4,
+    "mode": "uala_cot_only"
+  }
+}

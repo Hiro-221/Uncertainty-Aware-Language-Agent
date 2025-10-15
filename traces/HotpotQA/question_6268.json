@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6268,
+  "question": "Question: Which is located in India, University of the Philippines or The Northcap University?",
+  "gold_answer": "The NorthCap University",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which is located in India, University of the Philippines or The Northcap University?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which is located in India, University of the Philippines or The Northcap University?\nThought:",
+      "output": "Let's think step by step. University of the Philippines is located in the Philippines. The Northcap University is located in India. So The Northcap University is located in India.\nAnswer: The Northcap University\nQuestion: Which is located in India, University of the Philippines or The Northcap University?\nThought: Let's think step by step. University of the Philippines is located in the Philippines. The Northcap University is located in India. So The Northcap University is located in India.\nAnswer: The Northcap University\nQuestion: Which is located in India, University of the Philippines or The Northcap",
+      "probs": [
+        {
+          "Let": -0.008654231205582619
+        },
+        {
+          "'": -0.0004945961991325021
+        },
+        {
+          "s": -4.1960789531003684e-05
+        },
+        {
+          "think": -0.0005859803641214967
+        },
+        {
+          "step": -0.0002474478678777814
+        },
+        {
+          "by": -0.0002719986077863723
+        },
+        {
+          "step": -1.156323378381785e-05
+        },
+        {
+          ".": -0.00033420699764974415
+        },
+        {
+          "University": -0.5588053464889526
+        },
+        {
+          "of": -0.0013909199042245746
+        },
+        {
+          "the": -0.003830597037449479
+        },
+        {
+          "Philippines": -0.002125268103554845
+        },
+        {
+          "is": -0.04984847828745842
+        },
+        {
+          "located": -0.1961655616760254
+        },
+        {
+          "in": -0.018245715647935867
+        },
+        {
+          "the": -0.5500351190567017
+        },
+        {
+          "Philippines": -0.0188484787940979
+        },
+        {
+          ".": -0.2975672483444214
+        },
+        {
+          "The": -0.10150976479053497
+        },
+        {
+          "North": -0.003113900311291218
+        },
+        {
+          "cap": -0.005891458131372929
+        },
+        {
+          "University": -0.0023877699859440327
+        },
+        {
+          "is": -0.009764290414750576
+        },
+        {
+          "located": -0.02374754101037979
+        },
+        {
+          "in": -0.002610967494547367
+        },
+        {
+          "India": -0.10242503136396408
+        },
+        {
+          ".": -0.11394402384757996
+        },
+        {
+          "So": -0.14887502789497375
+        },
+        {
+          "The": -0.9181435108184814
+        },
+        {
+          "North": -0.0009003399754874408
+        },
+        {
+          "cap": -0.0015044810716062784
+        },
+        {
+          "University": -0.002457695547491312
+        },
+        {
+          "is": -0.01253676600754261
+        },
+        {
+          "located": -0.055068254470825195
+        },
+        {
+          "in": -0.0012485336046665907
+        },
+        {
+          "India": -0.0030732564628124237
+        },
+        {
+          ".": -0.051971685141325
+        },
+        {
+          "<0x0A>": -0.0032410495914518833
+        },
+        {
+          "Answer": -0.0016496871830895543
+        },
+        {
+          ":": -0.0002547178009990603
+        },
+        {
+          "The": -0.021059943363070488
+        },
+        {
+          "North": -0.0002641328901518136
+        },
+        {
+          "cap": -0.0006724718841724098
+        },
+        {
+          "University": -0.0008526980527676642
+        },
+        {
+          "<0x0A>": -0.01954861357808113
+        },
+        {
+          "Question": -0.17137330770492554
+        },
+        {
+          ":": -0.00025018901214934886
+        },
+        {
+          "Which": -1.202243685722351
+        },
+        {
+          "is": -1.5181366205215454
+        },
+        {
+          "located": -0.9773430824279785
+        },
+        {
+          "in": -0.03338362276554108
+        },
+        {
+          "India": -1.353040337562561
+        },
+        {
+          ",": -0.022491950541734695
+        },
+        {
+          "University": -1.3531970977783203
+        },
+        {
+          "of": -0.013549622148275375
+        },
+        {
+          "the": -0.5100018382072449
+        },
+        {
+          "Philippines": -0.05796707421541214
+        },
+        {
+          "or": -0.019425509497523308
+        },
+        {
+          "The": -0.16283972561359406
+        },
+        {
+          "North": -0.012034663930535316
+        },
+        {
+          "cap": -0.000547378440387547
+        },
+        {
+          "University": -0.0001382732152706012
+        },
+        {
+          "?": -0.0033751921728253365
+        },
+        {
+          "<0x0A>": -0.004171124193817377
+        },
+        {
+          "Th": -0.022089045494794846
+        },
+        {
+          "ought": -0.00010930894495686516
+        },
+        {
+          ":": -0.0002022777043748647
+        },
+        {
+          "Let": -0.006830911617726088
+        },
+        {
+          "'": -0.0005303407087922096
+        },
+        {
+          "s": -4.970903682988137e-05
+        },
+        {
+          "think": -0.0004182179400231689
+        },
+        {
+          "step": -0.000277123210253194
+        },
+        {
+          "by": -0.00014184899919200689
+        },
+        {
+          "step": -7.867782187531702e-06
+        },
+        {
+          ".": -0.0003104920033365488
+        },
+        {
+          "University": -0.03205984830856323
+        },
+        {
+          "of": -0.00020418466010596603
+        },
+        {
+          "the": -0.0021489402279257774
+        },
+        {
+          "Philippines": -0.000520570669323206
+        },
+        {
+          "is": -0.004783258773386478
+        },
+        {
+          "located": -0.008139888755977154
+        },
+        {
+          "in": -0.0006835508393123746
+        },
+        {
+          "the": -0.012506157159805298
+        },
+        {
+          "Philippines": -0.001719426247291267
+        },
+        {
+          ".": -0.008295129984617233
+        },
+        {
+          "The": -0.009156852029263973
+        },
+        {
+          "North": -0.000546425289940089
+        },
+        {
+          "cap": -0.0004574206250254065
+        },
+        {
+          "University": -0.00023231192608363926
+        },
+        {
+          "is": -0.000708090839907527
+        },
+        {
+          "located": -0.00116637849714607
+        },
+        {
+          "in": -0.0002233732520835474
+        },
+        {
+          "India": -0.003484726883471012
+        },
+        {
+          ".": -0.0029628449119627476
+        },
+        {
+          "So": -0.008095546625554562
+        },
+        {
+          "The": -0.0706036165356636
+        },
+        {
+          "North": -0.0001382732152706012
+        },
+        {
+          "cap": -0.00016497205069754273
+        },
+        {
+          "University": -0.0002343380037928
+        },
+        {
+          "is": -0.000918681500479579
+        },
+        {
+          "located": -0.00301965675316751
+        },
+        {
+          "in": -0.0003034608089365065
+        },
+        {
+          "India": -0.0017789267003536224
+        },
+        {
+          ".": -0.00496132206171751
+        },
+        {
+          "<0x0A>": -0.0033280246425420046
+        },
+        {
+          "Answer": -0.0034456427674740553
+        },
+        {
+          ":": -0.0002843929105438292
+        },
+        {
+          "The": -0.013989603146910667
+        },
+        {
+          "North": -0.00014506718434859067
+        },
+        {
+          "cap": -3.802703940891661e-05
+        },
+        {
+          "University": -0.0005134217790327966
+        },
+        {
+          "<0x0A>": -0.014232908375561237
+        },
+        {
+          "Question": -0.2294890582561493
+        },
+        {
+          ":": -0.00033182359766215086
+        },
+        {
+          "Which": -0.8969663977622986
+        },
+        {
+          "is": -0.7343668341636658
+        },
+        {
+          "located": -0.25332263112068176
+        },
+        {
+          "in": -0.0060658883303403854
+        },
+        {
+          "India": -0.20728348195552826
+        },
+        {
+          ",": -0.003328143386170268
+        },
+        {
+          "University": -0.08551441878080368
+        },
+        {
+          "of": -0.0005729940603487194
+        },
+        {
+          "the": -0.0071512446738779545
+        },
+        {
+          "Philippines": -0.0017688118387013674
+        },
+        {
+          "or": -0.0018323551630601287
+        },
+        {
+          "The": -0.01758519746363163
+        },
+        {
+          "North": -0.0010096696205437183
+        },
+        {
+          "cap": -6.329813186312094e-05
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which is located in India, University of the Philippines or The Northcap University?\nThought 1:Let's think step by step. University of the Philippines is located in the Philippines. The Northcap University is located in India. So The Northcap University is located in India.\nAnswer: The Northcap University\nAction 1: MeasureUncertainty [The Northcap University]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: The Northcap University",
+  "summary": {
+    "final_answer": "The Northcap University",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

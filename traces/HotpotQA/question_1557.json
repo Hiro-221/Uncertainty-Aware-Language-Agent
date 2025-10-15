@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1557,
+  "question": "Question: Hardley Flood is an area of lagoons that support populations of the waterfowl that are a medium sized version of what animal?",
+  "gold_answer": "duck",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Hardley Flood is an area of lagoons that support populations of the waterfowl that are a medium sized version of what animal?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Hardley Flood is an area of lagoons that support populations of the waterfowl that are a medium sized version of what animal?\nThought:",
+      "output": "Let's think step by step. Hardley Flood is an area of lagoons that support populations of the waterfowl that are a medium sized version of the animal. So the animal is a medium sized version of waterfowl.\nAnswer: waterfowl\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film of the same name?\nThought: Let's think step by step. The 1999 film is a remake of the 1960 film of the same",
+      "probs": [
+        {
+          "Let": -0.010656828992068768
+        },
+        {
+          "'": -0.00042489083716645837
+        },
+        {
+          "s": -1.966933996300213e-05
+        },
+        {
+          "think": -0.0010568277211859822
+        },
+        {
+          "step": -0.0004916174802929163
+        },
+        {
+          "by": -0.0002240883477497846
+        },
+        {
+          "step": -2.098061486321967e-05
+        },
+        {
+          ".": -0.0005529781919904053
+        },
+        {
+          "Hard": -0.7669553756713867
+        },
+        {
+          "ley": -0.005684045609086752
+        },
+        {
+          "Flo": -0.013900493271648884
+        },
+        {
+          "od": -0.0013261580606922507
+        },
+        {
+          "is": -0.07623308897018433
+        },
+        {
+          "an": -0.09368416666984558
+        },
+        {
+          "area": -0.0068058110773563385
+        },
+        {
+          "of": -0.023338384926319122
+        },
+        {
+          "l": -0.004940682090818882
+        },
+        {
+          "ago": -5.1973900554003194e-05
+        },
+        {
+          "ons": -0.0012372228084132075
+        },
+        {
+          "that": -0.08139058947563171
+        },
+        {
+          "support": -0.025221040472388268
+        },
+        {
+          "populations": -0.013157450594007969
+        },
+        {
+          "of": -0.0016662298003211617
+        },
+        {
+          "the": -0.1556195169687271
+        },
+        {
+          "water": -0.0315982960164547
+        },
+        {
+          "f": -0.002257182030007243
+        },
+        {
+          "ow": -9.524368942948058e-05
+        },
+        {
+          "l": -0.0006165986997075379
+        },
+        {
+          "that": -0.7427381873130798
+        },
+        {
+          "are": -0.014513400383293629
+        },
+        {
+          "a": -0.07884611934423447
+        },
+        {
+          "medium": -0.013313443399965763
+        },
+        {
+          "s": -0.024751203134655952
+        },
+        {
+          "ized": -0.00014685506175737828
+        },
+        {
+          "version": -0.02090795524418354
+        },
+        {
+          "of": -0.007787581533193588
+        },
+        {
+          "the": -1.6529765129089355
+        },
+        {
+          "animal": -1.5068739652633667
+        },
+        {
+          ".": -1.3775736093521118
+        },
+        {
+          "So": -1.5399537086486816
+        },
+        {
+          "the": -0.3237462043762207
+        },
+        {
+          "animal": -0.946988046169281
+        },
+        {
+          "is": -0.6518401503562927
+        },
+        {
+          "a": -1.5266729593276978
+        },
+        {
+          "medium": -0.6114856004714966
+        },
+        {
+          "s": -0.045380376279354095
+        },
+        {
+          "ized": -1.811964830267243e-05
+        },
+        {
+          "version": -0.19069930911064148
+        },
+        {
+          "of": -0.07963012158870697
+        },
+        {
+          "water": -1.0246620178222656
+        },
+        {
+          "f": -0.004074843134731054
+        },
+        {
+          "ow": -0.0001486429391661659
+        },
+        {
+          "l": -0.021935930475592613
+        },
+        {
+          ".": -0.2248292714357376
+        },
+        {
+          "<0x0A>": -0.40931403636932373
+        },
+        {
+          "Answer": -0.010481075383722782
+        },
+        {
+          ":": -0.0004368066438473761
+        },
+        {
+          "water": -0.9073607325553894
+        },
+        {
+          "f": -0.005389920435845852
+        },
+        {
+          "ow": -0.00010895135346800089
+        },
+        {
+          "l": -0.0029037713538855314
+        },
+        {
+          "<0x0A>": -0.03309741988778114
+        },
+        {
+          "Question": -0.2443632334470749
+        },
+        {
+          ":": -0.0002865380665753037
+        },
+        {
+          "What": -1.5103341341018677
+        },
+        {
+          "is": -1.2588647603988647
+        },
+        {
+          "the": -0.4439055919647217
+        },
+        {
+          "name": -2.3188626766204834
+        },
+        {
+          "of": -0.068027064204216
+        },
+        {
+          "the": -0.39394545555114746
+        },
+        {
+          "": -3.2248146533966064
+        },
+        {
+          "1": -0.6462782621383667
+        },
+        {
+          "9": -0.20973175764083862
+        },
+        {
+          "9": -1.3434112071990967
+        },
+        {
+          "9": -2.0982649326324463
+        },
+        {
+          "film": -1.6622684001922607
+        },
+        {
+          "that": -1.686143398284912
+        },
+        {
+          "is": -1.8296252489089966
+        },
+        {
+          "a": -1.4530229568481445
+        },
+        {
+          "re": -1.3303405046463013
+        },
+        {
+          "make": -0.03841247782111168
+        },
+        {
+          "of": -0.022189786657691002
+        },
+        {
+          "the": -0.7593613862991333
+        },
+        {
+          "": -0.2922506332397461
+        },
+        {
+          "1": -0.020083529874682426
+        },
+        {
+          "9": -0.003115088678896427
+        },
+        {
+          "6": -1.346638798713684
+        },
+        {
+          "0": -1.9109388589859009
+        },
+        {
+          "film": -0.42174383997917175
+        },
+        {
+          "of": -1.5801994800567627
+        },
+        {
+          "the": -0.031285472214221954
+        },
+        {
+          "same": -0.0049957213923335075
+        },
+        {
+          "name": -0.028614608570933342
+        },
+        {
+          "?": -0.6237848997116089
+        },
+        {
+          "<0x0A>": -0.022544166073203087
+        },
+        {
+          "Th": -0.006810902617871761
+        },
+        {
+          "ought": -1.1920922133867862e-06
+        },
+        {
+          ":": -0.0001515035255579278
+        },
+        {
+          "Let": -0.012629175558686256
+        },
+        {
+          "'": -0.0003332536434754729
+        },
+        {
+          "s": -2.7179348762729205e-05
+        },
+        {
+          "think": -0.0012950851814821362
+        },
+        {
+          "step": -0.0005729940603487194
+        },
+        {
+          "by": -0.00013183678674977273
+        },
+        {
+          "step": -0.00017355366435367614
+        },
+        {
+          ".": -0.0004978132783435285
+        },
+        {
+          "The": -1.1029300689697266
+        },
+        {
+          "": -0.32124486565589905
+        },
+        {
+          "1": -0.006626773159950972
+        },
+        {
+          "9": -0.00030250742565840483
+        },
+        {
+          "9": -0.44151875376701355
+        },
+        {
+          "9": -0.002897114958614111
+        },
+        {
+          "film": -0.04297958314418793
+        },
+        {
+          "is": -0.8596316576004028
+        },
+        {
+          "a": -0.6671439409255981
+        },
+        {
+          "re": -0.009176223538815975
+        },
+        {
+          "make": -0.0008164886385202408
+        },
+        {
+          "of": -0.007984979078173637
+        },
+        {
+          "the": -0.04915619269013405
+        },
+        {
+          "": -0.011726731434464455
+        },
+        {
+          "1": -0.0010633773636072874
+        },
+        {
+          "9": -0.00017069313616957515
+        },
+        {
+          "6": -0.006449243053793907
+        },
+        {
+          "0": -0.0011716175358742476
+        },
+        {
+          "film": -0.004764157347381115
+        },
+        {
+          "of": -0.2521202862262726
+        },
+        {
+          "the": -0.004915652796626091
+        },
+        {
+          "same": -0.0020760190673172474
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.38,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Hardley Flood is an area of lagoons that support populations of the waterfowl that are a medium sized version of what animal?\nThought 1:Let's think step by step. Hardley Flood is an area of lagoons that support populations of the waterfowl that are a medium sized version of the animal. So the animal is a medium sized version of waterfowl.\nAnswer: waterfowl\nAction 1: MeasureUncertainty [waterfowl]\nObservation 1: Answer’s uncertainty is 1.38, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: waterfowl",
+  "summary": {
+    "final_answer": "waterfowl",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

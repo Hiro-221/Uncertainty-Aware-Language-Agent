@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4237,
+  "question": "Question: \"Tunak\", is a bhangra/pop love song by an artist born in which year ?",
+  "gold_answer": "1967",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: \"Tunak\", is a bhangra/pop love song by an artist born in which year ?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: \"Tunak\", is a bhangra/pop love song by an artist born in which year ?\nThought:",
+      "output": "Let's think step by step. \"Tunak\", is a bhangra/pop love song by Daler Mehndi. Daler Mehndi was born in 1967.\nAnswer: 1967\nQuestion: Which of the following is a 1999 film directed by John Woo?\nThought: Let's think step by step. A Better Tomorrow is a 1986 film directed by John Woo. A Better Tomorrow II is a 1987 film directed by John Woo. A Better Tomorrow III",
+      "probs": [
+        {
+          "Let": -0.014397194609045982
+        },
+        {
+          "'": -0.000856628583278507
+        },
+        {
+          "s": -0.00021252757869660854
+        },
+        {
+          "think": -0.0018153393175452948
+        },
+        {
+          "step": -0.0006637753685936332
+        },
+        {
+          "by": -0.00028701478731818497
+        },
+        {
+          "step": -5.721882189391181e-05
+        },
+        {
+          ".": -0.001783448620699346
+        },
+        {
+          "\"": -0.8650184869766235
+        },
+        {
+          "T": -0.01319427415728569
+        },
+        {
+          "un": -0.0009914488764479756
+        },
+        {
+          "ak": -0.00047672350774519145
+        },
+        {
+          "\",": -0.953830897808075
+        },
+        {
+          "is": -0.03931489214301109
+        },
+        {
+          "a": -0.005349843762814999
+        },
+        {
+          "b": -0.018773255869746208
+        },
+        {
+          "hang": -0.0002315968304174021
+        },
+        {
+          "ra": -0.0003766304289456457
+        },
+        {
+          "/": -0.012514868751168251
+        },
+        {
+          "pop": -0.000959412835072726
+        },
+        {
+          "love": -0.0057531483471393585
+        },
+        {
+          "song": -0.0011747133685275912
+        },
+        {
+          "by": -0.0432022400200367
+        },
+        {
+          "Dal": -0.7111894488334656
+        },
+        {
+          "er": -0.005746985320001841
+        },
+        {
+          "Me": -0.006652115378528833
+        },
+        {
+          "h": -0.0016089839627966285
+        },
+        {
+          "nd": -0.006426383275538683
+        },
+        {
+          "i": -0.0010383697226643562
+        },
+        {
+          ".": -0.2524396479129791
+        },
+        {
+          "Dal": -0.2877403795719147
+        },
+        {
+          "er": -0.0003275334893260151
+        },
+        {
+          "Me": -0.00464289728552103
+        },
+        {
+          "h": -0.001777260797098279
+        },
+        {
+          "nd": -0.000270091783022508
+        },
+        {
+          "i": -0.0007770617958158255
+        },
+        {
+          "was": -0.15717588365077972
+        },
+        {
+          "born": -0.004480679985135794
+        },
+        {
+          "in": -0.06584931164979935
+        },
+        {
+          "": -0.028236297890543938
+        },
+        {
+          "1": -0.00193813256919384
+        },
+        {
+          "9": -0.0026027634739875793
+        },
+        {
+          "6": -0.004722513258457184
+        },
+        {
+          "7": -0.02183353155851364
+        },
+        {
+          ".": -0.39031416177749634
+        },
+        {
+          "<0x0A>": -0.43121010065078735
+        },
+        {
+          "Answer": -0.0033786376006901264
+        },
+        {
+          ":": -0.0009581027552485466
+        },
+        {
+          "": -0.011540441773831844
+        },
+        {
+          "1": -0.0005583396414294839
+        },
+        {
+          "9": -0.0005066303419880569
+        },
+        {
+          "6": -0.001032891683280468
+        },
+        {
+          "7": -0.0006510283565148711
+        },
+        {
+          "<0x0A>": -0.030684957280755043
+        },
+        {
+          "Question": -0.22243653237819672
+        },
+        {
+          ":": -0.0003939091111533344
+        },
+        {
+          "Which": -1.5354689359664917
+        },
+        {
+          "of": -1.6234190464019775
+        },
+        {
+          "the": -0.6448965072631836
+        },
+        {
+          "following": -0.10312291979789734
+        },
+        {
+          "is": -1.2159816026687622
+        },
+        {
+          "a": -1.4473624229431152
+        },
+        {
+          "": -3.9640800952911377
+        },
+        {
+          "1": -0.7663003206253052
+        },
+        {
+          "9": -0.09955532103776932
+        },
+        {
+          "9": -1.3349971771240234
+        },
+        {
+          "9": -2.103555917739868
+        },
+        {
+          "film": -1.6428072452545166
+        },
+        {
+          "directed": -1.3300738334655762
+        },
+        {
+          "by": -0.028168614953756332
+        },
+        {
+          "John": -3.6609838008880615
+        },
+        {
+          "W": -2.2766599655151367
+        },
+        {
+          "oo": -0.19851362705230713
+        },
+        {
+          "?": -0.5475852489471436
+        },
+        {
+          "<0x0A>": -0.07069791853427887
+        },
+        {
+          "Th": -0.04312357306480408
+        },
+        {
+          "ought": -0.00010072677832795307
+        },
+        {
+          ":": -0.0007216709782369435
+        },
+        {
+          "Let": -0.018742486834526062
+        },
+        {
+          "'": -0.0007114263135008514
+        },
+        {
+          "s": -4.088794958079234e-05
+        },
+        {
+          "think": -0.0008854520856402814
+        },
+        {
+          "step": -0.000579546787776053
+        },
+        {
+          "by": -0.0003277718205936253
+        },
+        {
+          "step": -0.0001699779968475923
+        },
+        {
+          ".": -0.0010736184194684029
+        },
+        {
+          "A": -2.093661069869995
+        },
+        {
+          "Better": -0.6137413382530212
+        },
+        {
+          "Tom": -0.45082324743270874
+        },
+        {
+          "orrow": -0.001531619462184608
+        },
+        {
+          "is": -0.5676374435424805
+        },
+        {
+          "a": -0.053255364298820496
+        },
+        {
+          "": -0.05207342281937599
+        },
+        {
+          "1": -0.006583192851394415
+        },
+        {
+          "9": -5.340433563105762e-05
+        },
+        {
+          "8": -0.04096362367272377
+        },
+        {
+          "6": -0.009641509503126144
+        },
+        {
+          "film": -0.12911154329776764
+        },
+        {
+          "directed": -0.15375880897045135
+        },
+        {
+          "by": -0.0020611488725990057
+        },
+        {
+          "John": -0.0022852513939142227
+        },
+        {
+          "W": -0.0011130335042253137
+        },
+        {
+          "oo": -3.218599158572033e-05
+        },
+        {
+          ".": -0.07554922252893448
+        },
+        {
+          "A": -1.8894377946853638
+        },
+        {
+          "Better": -0.1347465217113495
+        },
+        {
+          "Tom": -0.006933202035725117
+        },
+        {
+          "orrow": -0.0008715168805792928
+        },
+        {
+          "II": -0.832643985748291
+        },
+        {
+          "is": -0.02711373381316662
+        },
+        {
+          "a": -0.007051107473671436
+        },
+        {
+          "": -0.0026416426990181208
+        },
+        {
+          "1": -0.000798859924543649
+        },
+        {
+          "9": -8.237022848334163e-05
+        },
+        {
+          "8": -0.004233208950608969
+        },
+        {
+          "7": -0.008066102862358093
+        },
+        {
+          "film": -0.00468810461461544
+        },
+        {
+          "directed": -0.0037161121144890785
+        },
+        {
+          "by": -0.0007924277451820672
+        },
+        {
+          "John": -0.0012410327326506376
+        },
+        {
+          "W": -0.0010626628063619137
+        },
+        {
+          "oo": -0.009530049748718739
+        },
+        {
+          ".": -0.00752389058470726
+        },
+        {
+          "A": -0.5754083395004272
+        },
+        {
+          "Better": -0.0688091292977333
+        },
+        {
+          "Tom": -0.03715553507208824
+        },
+        {
+          "orrow": -0.00030632095877081156
+        },
+        {
+          "III": -0.22271792590618134
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: \"Tunak\", is a bhangra/pop love song by an artist born in which year ?\nThought 1:Let's think step by step. \"Tunak\", is a bhangra/pop love song by Daler Mehndi. Daler Mehndi was born in 1967.\nAnswer: 1967\nAction 1: MeasureUncertainty [1967]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 1967",
+  "summary": {
+    "final_answer": "1967",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

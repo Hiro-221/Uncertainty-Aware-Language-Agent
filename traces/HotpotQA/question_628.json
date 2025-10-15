@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 628,
+  "question": "Question: What year was the American healthy lifestyle magazine, in which Georgia Rickard contributed, started?",
+  "gold_answer": "1950",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year was the American healthy lifestyle magazine, in which Georgia Rickard contributed, started?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year was the American healthy lifestyle magazine, in which Georgia Rickard contributed, started?\nThought:",
+      "output": "Let's think step by step. The American healthy lifestyle magazine is Women's Health. Women's Health was started in 2005. So the answer is 2005.\nAnswer: 2005\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. The 1999 film that was directed by John Woo is Mission: Impossible II. So the answer is Mission: Impossible II.\nAnswer: Mission: Impossible II\n",
+      "probs": [
+        {
+          "Let": -0.011933247558772564
+        },
+        {
+          "'": -0.0006974886637181044
+        },
+        {
+          "s": -4.541770613286644e-05
+        },
+        {
+          "think": -0.0009233264136128128
+        },
+        {
+          "step": -0.00038354191929101944
+        },
+        {
+          "by": -0.00019071667338721454
+        },
+        {
+          "step": -2.3483953555114567e-05
+        },
+        {
+          ".": -0.0006418551784008741
+        },
+        {
+          "The": -1.3584129810333252
+        },
+        {
+          "American": -0.31928178668022156
+        },
+        {
+          "health": -0.012666960246860981
+        },
+        {
+          "y": -0.002202229807153344
+        },
+        {
+          "l": -0.0019440815085545182
+        },
+        {
+          "ifest": -1.2159273865108844e-05
+        },
+        {
+          "yle": -0.0003103728231508285
+        },
+        {
+          "magazine": -0.0047979699447751045
+        },
+        {
+          "is": -0.7381147146224976
+        },
+        {
+          "Women": -1.7941086292266846
+        },
+        {
+          "'": -0.01188153401017189
+        },
+        {
+          "s": -0.00015364897262770683
+        },
+        {
+          "Health": -0.007675678003579378
+        },
+        {
+          ".": -0.28823867440223694
+        },
+        {
+          "Women": -0.4702070951461792
+        },
+        {
+          "'": -0.002331279218196869
+        },
+        {
+          "s": -0.00037424711626954377
+        },
+        {
+          "Health": -0.008925776928663254
+        },
+        {
+          "was": -0.23030588030815125
+        },
+        {
+          "started": -0.04721304401755333
+        },
+        {
+          "in": -0.007961917668581009
+        },
+        {
+          "": -0.06790878623723984
+        },
+        {
+          "2": -0.40749120712280273
+        },
+        {
+          "0": -6.758938252460212e-05
+        },
+        {
+          "0": -0.009180948138237
+        },
+        {
+          "5": -0.20171396434307098
+        },
+        {
+          ".": -0.2546512484550476
+        },
+        {
+          "So": -0.9165753722190857
+        },
+        {
+          "the": -0.21761003136634827
+        },
+        {
+          "answer": -0.8065714240074158
+        },
+        {
+          "is": -0.0211316104978323
+        },
+        {
+          "": -0.010421736165881157
+        },
+        {
+          "2": -0.0003840185818262398
+        },
+        {
+          "0": -9.762764238985255e-05
+        },
+        {
+          "0": -0.0002786724944598973
+        },
+        {
+          "5": -0.0008834273321554065
+        },
+        {
+          ".": -0.01775115728378296
+        },
+        {
+          "<0x0A>": -0.002732593100517988
+        },
+        {
+          "Answer": -0.002244574250653386
+        },
+        {
+          ":": -0.0005771639989688993
+        },
+        {
+          "": -0.00217760750092566
+        },
+        {
+          "2": -0.0001674750237725675
+        },
+        {
+          "0": -4.8040190449682996e-05
+        },
+        {
+          "0": -0.00015245705435518175
+        },
+        {
+          "5": -0.0003773453936446458
+        },
+        {
+          "<0x0A>": -0.016440754756331444
+        },
+        {
+          "Question": -0.16520178318023682
+        },
+        {
+          ":": -0.0002455409849062562
+        },
+        {
+          "What": -1.2588071823120117
+        },
+        {
+          "is": -1.374475121498108
+        },
+        {
+          "the": -0.38981539011001587
+        },
+        {
+          "name": -2.4277994632720947
+        },
+        {
+          "of": -0.03844000771641731
+        },
+        {
+          "the": -0.3941858112812042
+        },
+        {
+          "": -3.178473472595215
+        },
+        {
+          "1": -0.6921650767326355
+        },
+        {
+          "9": -0.1740925908088684
+        },
+        {
+          "9": -1.36265230178833
+        },
+        {
+          "9": -2.077467918395996
+        },
+        {
+          "film": -1.7527179718017578
+        },
+        {
+          "that": -1.8124407529830933
+        },
+        {
+          "was": -1.953849196434021
+        },
+        {
+          "directed": -1.2741353511810303
+        },
+        {
+          "by": -0.04737529531121254
+        },
+        {
+          "John": -3.5873215198516846
+        },
+        {
+          "W": -2.549567699432373
+        },
+        {
+          "oo": -0.2758089303970337
+        },
+        {
+          "?": -0.8439157009124756
+        },
+        {
+          "<0x0A>": -0.008105598390102386
+        },
+        {
+          "Th": -0.004121026024222374
+        },
+        {
+          "ought": -2.9801878554280847e-05
+        },
+        {
+          ":": -0.00019524575327523053
+        },
+        {
+          "Let": -0.01071497518569231
+        },
+        {
+          "'": -0.00033206192892976105
+        },
+        {
+          "s": -2.038458114839159e-05
+        },
+        {
+          "think": -0.0003816353273577988
+        },
+        {
+          "step": -0.0002885640424210578
+        },
+        {
+          "by": -0.00014911970356479287
+        },
+        {
+          "step": -2.407998726994265e-05
+        },
+        {
+          ".": -0.0003675738989841193
+        },
+        {
+          "The": -1.158522129058838
+        },
+        {
+          "": -0.37624600529670715
+        },
+        {
+          "1": -0.004856219980865717
+        },
+        {
+          "9": -0.0002908283786382526
+        },
+        {
+          "9": -0.0019086254760622978
+        },
+        {
+          "9": -0.0049437666311860085
+        },
+        {
+          "film": -0.04401981085538864
+        },
+        {
+          "that": -0.5385053157806396
+        },
+        {
+          "was": -0.04230492562055588
+        },
+        {
+          "directed": -0.005423949100077152
+        },
+        {
+          "by": -0.001991433557122946
+        },
+        {
+          "John": -0.003826915519312024
+        },
+        {
+          "W": -0.0009565545478835702
+        },
+        {
+          "oo": -0.00013779645087197423
+        },
+        {
+          "is": -0.04235577583312988
+        },
+        {
+          "Mission": -0.9548426866531372
+        },
+        {
+          ":": -0.07749715447425842
+        },
+        {
+          "Im": -0.0034854395780712366
+        },
+        {
+          "possible": -0.000426439888542518
+        },
+        {
+          "II": -0.41034743189811707
+        },
+        {
+          ".": -0.06643299013376236
+        },
+        {
+          "So": -0.3428821265697479
+        },
+        {
+          "the": -0.042289841920137405
+        },
+        {
+          "answer": -0.36407145857810974
+        },
+        {
+          "is": -0.009164057672023773
+        },
+        {
+          "Mission": -0.007772086188197136
+        },
+        {
+          ":": -0.004048248287290335
+        },
+        {
+          "Im": -0.0009790633339434862
+        },
+        {
+          "possible": -1.7762025890988298e-05
+        },
+        {
+          "II": -0.003627745434641838
+        },
+        {
+          ".": -0.030956942588090897
+        },
+        {
+          "<0x0A>": -0.0019193338230252266
+        },
+        {
+          "Answer": -0.0018485378241166472
+        },
+        {
+          ":": -0.0003070359816774726
+        },
+        {
+          "Mission": -0.0038545848801732063
+        },
+        {
+          ":": -0.008122270926833153
+        },
+        {
+          "Im": -0.0011970981722697616
+        },
+        {
+          "possible": -8.248942322097719e-05
+        },
+        {
+          "II": -0.005893946625292301
+        },
+        {
+          "<0x0A>": -0.016676196828484535
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: What year was the American healthy lifestyle magazine, in which Georgia Rickard contributed, started?\nThought 1:Let's think step by step. The American healthy lifestyle magazine is Women's Health. Women's Health was started in 2005. So the answer is 2005.\nAnswer: 2005\nAction 1: MeasureUncertainty [2005]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 2005",
+  "summary": {
+    "final_answer": "2005",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3819,
+  "question": "Question: Which rock band has released more albums, Shihad or Morningwood? ",
+  "gold_answer": "Shihad",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which rock band has released more albums, Shihad or Morningwood? \nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which rock band has released more albums, Shihad or Morningwood? \nThought:",
+      "output": "Let's think step by step. Shihad has released 10 albums. Morningwood has released 1 album. 10 (Shihad) > 1 (Morningwood), so Shihad has released more albums.\nAnswer: Shihad\nQuestion: Which of the following is a type of fish: Swordfish, Swordfish, or Swordfish?\nThought: Let's think step by step. Swordfish is a type of fish. Swordfish is a type of fish. Swordfish is a type of fish. So all of the following",
+      "probs": [
+        {
+          "Let": -0.01470994483679533
+        },
+        {
+          "'": -0.0024924185127019882
+        },
+        {
+          "s": -9.381330892210826e-05
+        },
+        {
+          "think": -0.0038760786410421133
+        },
+        {
+          "step": -0.0015880366554483771
+        },
+        {
+          "by": -0.0005840741214342415
+        },
+        {
+          "step": -0.00012587709352374077
+        },
+        {
+          ".": -0.0013887770473957062
+        },
+        {
+          "Sh": -0.35676583647727966
+        },
+        {
+          "ih": -0.0017296605510637164
+        },
+        {
+          "ad": -0.00014745102089364082
+        },
+        {
+          "has": -0.25706806778907776
+        },
+        {
+          "released": -0.07222433388233185
+        },
+        {
+          "": -0.16241997480392456
+        },
+        {
+          "1": -1.1201757192611694
+        },
+        {
+          "0": -0.6815537214279175
+        },
+        {
+          "albums": -0.2371608465909958
+        },
+        {
+          ".": -0.25515612959861755
+        },
+        {
+          "Mor": -0.021753516048192978
+        },
+        {
+          "ning": -0.0005575056420639157
+        },
+        {
+          "wood": -0.002546165604144335
+        },
+        {
+          "has": -0.03139718994498253
+        },
+        {
+          "released": -0.015943661332130432
+        },
+        {
+          "": -0.1073288694024086
+        },
+        {
+          "1": -0.6812068223953247
+        },
+        {
+          "album": -0.23712971806526184
+        },
+        {
+          ".": -0.023285627365112305
+        },
+        {
+          "": -0.30505603551864624
+        },
+        {
+          "1": -0.007293029688298702
+        },
+        {
+          "0": -0.07435163110494614
+        },
+        {
+          "(": -0.2585147023200989
+        },
+        {
+          "Sh": -0.009820599108934402
+        },
+        {
+          "ih": -0.0006048041977919638
+        },
+        {
+          "ad": -0.00030083899036981165
+        },
+        {
+          ")": -0.011586751788854599
+        },
+        {
+          ">": -0.017708761617541313
+        },
+        {
+          "": -0.003079911693930626
+        },
+        {
+          "1": -0.0012192443246021867
+        },
+        {
+          "(": -0.007860087789595127
+        },
+        {
+          "Mor": -0.00340679450891912
+        },
+        {
+          "ning": -0.00015507926582358778
+        },
+        {
+          "wood": -0.0030714739114046097
+        },
+        {
+          "),": -0.058753445744514465
+        },
+        {
+          "so": -0.008184583857655525
+        },
+        {
+          "Sh": -0.04382917284965515
+        },
+        {
+          "ih": -0.0008847374701872468
+        },
+        {
+          "ad": -0.0014831743901595473
+        },
+        {
+          "has": -0.028188085183501244
+        },
+        {
+          "released": -0.009035414084792137
+        },
+        {
+          "more": -0.005448728799819946
+        },
+        {
+          "albums": -0.012396193109452724
+        },
+        {
+          ".": -0.14301829040050507
+        },
+        {
+          "<0x0A>": -0.046419814229011536
+        },
+        {
+          "Answer": -0.005204818211495876
+        },
+        {
+          ":": -0.0006562701892107725
+        },
+        {
+          "Sh": -0.006073471624404192
+        },
+        {
+          "ih": -9.48860906646587e-05
+        },
+        {
+          "ad": -7.712543447269127e-05
+        },
+        {
+          "<0x0A>": -0.037988968193531036
+        },
+        {
+          "Question": -0.34089139103889465
+        },
+        {
+          ":": -0.00045158201828598976
+        },
+        {
+          "Which": -1.1894550323486328
+        },
+        {
+          "of": -2.2586750984191895
+        },
+        {
+          "the": -0.7933759689331055
+        },
+        {
+          "following": -0.16373032331466675
+        },
+        {
+          "is": -1.2923338413238525
+        },
+        {
+          "a": -1.5329877138137817
+        },
+        {
+          "type": -3.939021587371826
+        },
+        {
+          "of": -0.012967896647751331
+        },
+        {
+          "fish": -4.799478054046631
+        },
+        {
+          ":": -1.0568439960479736
+        },
+        {
+          "S": -4.25538444519043
+        },
+        {
+          "word": -2.139983654022217
+        },
+        {
+          "fish": -0.12311308830976486
+        },
+        {
+          ",": -0.4262574315071106
+        },
+        {
+          "S": -2.9750216007232666
+        },
+        {
+          "word": -1.64536452293396
+        },
+        {
+          "fish": -0.5755200982093811
+        },
+        {
+          ",": -0.6108095049858093
+        },
+        {
+          "or": -0.516039252281189
+        },
+        {
+          "S": -1.0429779291152954
+        },
+        {
+          "word": -0.06344978511333466
+        },
+        {
+          "fish": -0.03163629770278931
+        },
+        {
+          "?": -0.04006567224860191
+        },
+        {
+          "<0x0A>": -0.1581987589597702
+        },
+        {
+          "Th": -0.01055008266121149
+        },
+        {
+          "ought": -5.030505417380482e-05
+        },
+        {
+          ":": -0.000440262199845165
+        },
+        {
+          "Let": -0.018132284283638
+        },
+        {
+          "'": -0.0006335158832371235
+        },
+        {
+          "s": -6.747018051100895e-05
+        },
+        {
+          "think": -0.0012160295154899359
+        },
+        {
+          "step": -0.000618624035269022
+        },
+        {
+          "by": -0.0003897384158335626
+        },
+        {
+          "step": -4.7801782784517854e-05
+        },
+        {
+          ".": -0.0011096993694081903
+        },
+        {
+          "S": -0.299414724111557
+        },
+        {
+          "word": -0.001498291501775384
+        },
+        {
+          "fish": -0.0010582567192614079
+        },
+        {
+          "is": -0.13535526394844055
+        },
+        {
+          "a": -0.04635506123304367
+        },
+        {
+          "type": -0.24491925537586212
+        },
+        {
+          "of": -0.0011219641892239451
+        },
+        {
+          "fish": -0.017219796776771545
+        },
+        {
+          ".": -0.1181940883398056
+        },
+        {
+          "S": -0.6037359237670898
+        },
+        {
+          "word": -0.0036677727475762367
+        },
+        {
+          "fish": -0.0022696706000715494
+        },
+        {
+          "is": -0.048408348113298416
+        },
+        {
+          "a": -0.11631213128566742
+        },
+        {
+          "type": -0.013177333399653435
+        },
+        {
+          "of": -0.000376034586224705
+        },
+        {
+          "fish": -0.004001706372946501
+        },
+        {
+          ".": -0.015749705955386162
+        },
+        {
+          "S": -0.13839910924434662
+        },
+        {
+          "word": -0.0006797387031838298
+        },
+        {
+          "fish": -0.0008256602450273931
+        },
+        {
+          "is": -0.004430715925991535
+        },
+        {
+          "a": -0.05552428960800171
+        },
+        {
+          "type": -0.004179196432232857
+        },
+        {
+          "of": -0.00026663561584427953
+        },
+        {
+          "fish": -0.0020975510124117136
+        },
+        {
+          ".": -0.04573597386479378
+        },
+        {
+          "So": -0.5174104571342468
+        },
+        {
+          "all": -0.6895470023155212
+        },
+        {
+          "of": -0.40986552834510803
+        },
+        {
+          "the": -0.7011885643005371
+        },
+        {
+          "following": -0.399597704410553
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Which rock band has released more albums, Shihad or Morningwood? \nThought 1:Let's think step by step. Shihad has released 10 albums. Morningwood has released 1 album. 10 (Shihad) > 1 (Morningwood), so Shihad has released more albums.\nAnswer: Shihad\nAction 1: MeasureUncertainty [Shihad]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Shihad",
+  "summary": {
+    "final_answer": "Shihad",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

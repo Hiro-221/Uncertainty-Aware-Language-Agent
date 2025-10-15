@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4133,
+  "question": "Question: Guy Pearce starred in which movie produced by Marvel Studios ?",
+  "gold_answer": "Iron Man 3",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Guy Pearce starred in which movie produced by Marvel Studios ?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Guy Pearce starred in which movie produced by Marvel Studios ?\nThought:",
+      "output": "Let's think step by step. Guy Pearce starred in Iron Man 3. Iron Man 3 was produced by Marvel Studios, so the answer is Iron Man 3.\nAnswer: Iron Man 3\nQuestion: Which of the following is a character in the movie \"The Hangover Part II\"?\nThought: Let's think step by step. The Hangover Part II is a comedy film. The Hangover Part II is a comedy film, so the answer is not a character in the movie \"The Hangover Part II\".\nAnswer: not a character in the movie \"",
+      "probs": [
+        {
+          "Let": -0.016108838841319084
+        },
+        {
+          "'": -0.003918945789337158
+        },
+        {
+          "s": -2.4199192921514623e-05
+        },
+        {
+          "think": -0.0014803176745772362
+        },
+        {
+          "step": -0.000523430178873241
+        },
+        {
+          "by": -0.0002982171718031168
+        },
+        {
+          "step": -1.4543427823809907e-05
+        },
+        {
+          ".": -0.0012028133496642113
+        },
+        {
+          "Guy": -0.459134578704834
+        },
+        {
+          "Pear": -0.004635659046471119
+        },
+        {
+          "ce": -0.0013909199042245746
+        },
+        {
+          "star": -0.3357796370983124
+        },
+        {
+          "red": -0.0006135011790320277
+        },
+        {
+          "in": -0.010625455528497696
+        },
+        {
+          "Iron": -0.918616533279419
+        },
+        {
+          "Man": -0.010087697766721249
+        },
+        {
+          "": -0.028231313452124596
+        },
+        {
+          "3": -0.0008214913541451097
+        },
+        {
+          ".": -0.9672006964683533
+        },
+        {
+          "Iron": -0.39236947894096375
+        },
+        {
+          "Man": -0.00757168885320425
+        },
+        {
+          "": -0.006204154342412949
+        },
+        {
+          "3": -0.0005485698929987848
+        },
+        {
+          "was": -0.679412305355072
+        },
+        {
+          "produced": -0.0657837986946106
+        },
+        {
+          "by": -0.0030204886570572853
+        },
+        {
+          "Marvel": -0.023356087505817413
+        },
+        {
+          "Studios": -0.014567327685654163
+        },
+        {
+          ",": -0.5967259407043457
+        },
+        {
+          "so": -0.04958022013306618
+        },
+        {
+          "the": -0.194660022854805
+        },
+        {
+          "answer": -0.2703149616718292
+        },
+        {
+          "is": -0.03049939125776291
+        },
+        {
+          "Iron": -0.017026089131832123
+        },
+        {
+          "Man": -0.0028297165408730507
+        },
+        {
+          "": -0.0007226239540614188
+        },
+        {
+          "3": -8.010543388081715e-05
+        },
+        {
+          ".": -0.037267062813043594
+        },
+        {
+          "<0x0A>": -0.0037841631565243006
+        },
+        {
+          "Answer": -0.0026163177099078894
+        },
+        {
+          ":": -0.000957150012254715
+        },
+        {
+          "Iron": -0.0036643282510340214
+        },
+        {
+          "Man": -0.0047050719149410725
+        },
+        {
+          "": -0.000819347333163023
+        },
+        {
+          "3": -5.3881147323409095e-05
+        },
+        {
+          "<0x0A>": -0.02046084776520729
+        },
+        {
+          "Question": -0.1831507533788681
+        },
+        {
+          ":": -0.0002714027068577707
+        },
+        {
+          "Which": -1.392041563987732
+        },
+        {
+          "of": -1.7841053009033203
+        },
+        {
+          "the": -0.7163532376289368
+        },
+        {
+          "following": -0.10275241732597351
+        },
+        {
+          "is": -1.1647326946258545
+        },
+        {
+          "a": -1.448439359664917
+        },
+        {
+          "character": -3.8462352752685547
+        },
+        {
+          "in": -1.0225625038146973
+        },
+        {
+          "the": -1.0621113777160645
+        },
+        {
+          "movie": -2.0501065254211426
+        },
+        {
+          "\"": -1.819230079650879
+        },
+        {
+          "The": -1.611768364906311
+        },
+        {
+          "H": -3.905665397644043
+        },
+        {
+          "ang": -1.8044378757476807
+        },
+        {
+          "over": -0.005771638359874487
+        },
+        {
+          "Part": -0.9873591661453247
+        },
+        {
+          "II": -0.6855427622795105
+        },
+        {
+          "\"?": -0.6990375518798828
+        },
+        {
+          "<0x0A>": -0.32585400342941284
+        },
+        {
+          "Th": -0.07964211702346802
+        },
+        {
+          "ought": -0.0002040654799202457
+        },
+        {
+          ":": -0.0007876630988903344
+        },
+        {
+          "Let": -0.025180472061038017
+        },
+        {
+          "'": -0.0006578188622370362
+        },
+        {
+          "s": -7.664863369427621e-05
+        },
+        {
+          "think": -0.003263863269239664
+        },
+        {
+          "step": -0.0009391664643771946
+        },
+        {
+          "by": -0.0004766043566633016
+        },
+        {
+          "step": -7.390948667307384e-06
+        },
+        {
+          ".": -0.0011699505848810077
+        },
+        {
+          "The": -1.4767849445343018
+        },
+        {
+          "H": -0.37308305501937866
+        },
+        {
+          "ang": -0.0007608617888763547
+        },
+        {
+          "over": -0.0003135904553346336
+        },
+        {
+          "Part": -0.021285897120833397
+        },
+        {
+          "II": -0.010781018063426018
+        },
+        {
+          "is": -0.9259424209594727
+        },
+        {
+          "a": -0.26510384678840637
+        },
+        {
+          "comedy": -0.8995969295501709
+        },
+        {
+          "film": -0.7266202569007874
+        },
+        {
+          ".": -0.7410060167312622
+        },
+        {
+          "The": -2.1039700508117676
+        },
+        {
+          "H": -1.2146568298339844
+        },
+        {
+          "ang": -0.0011442311806604266
+        },
+        {
+          "over": -0.00018404220463708043
+        },
+        {
+          "Part": -0.03886527940630913
+        },
+        {
+          "II": -0.03604179620742798
+        },
+        {
+          "is": -1.2732970714569092
+        },
+        {
+          "a": -0.9887049794197083
+        },
+        {
+          "comedy": -0.8757895231246948
+        },
+        {
+          "film": -0.036000169813632965
+        },
+        {
+          ",": -0.954742431640625
+        },
+        {
+          "so": -0.2080206573009491
+        },
+        {
+          "the": -0.8709056973457336
+        },
+        {
+          "answer": -0.40361636877059937
+        },
+        {
+          "is": -0.1345132291316986
+        },
+        {
+          "not": -2.239123582839966
+        },
+        {
+          "a": -1.8403842449188232
+        },
+        {
+          "character": -0.43683314323425293
+        },
+        {
+          "in": -0.48138850927352905
+        },
+        {
+          "the": -0.5550917387008667
+        },
+        {
+          "movie": -0.04829147085547447
+        },
+        {
+          "\"": -0.5934113264083862
+        },
+        {
+          "The": -0.025765711441636086
+        },
+        {
+          "H": -0.006173706613481045
+        },
+        {
+          "ang": -0.0005311747081577778
+        },
+        {
+          "over": -0.00023505308490712196
+        },
+        {
+          "Part": -0.0035169196780771017
+        },
+        {
+          "II": -0.005427506286650896
+        },
+        {
+          "\".": -0.08271367847919464
+        },
+        {
+          "<0x0A>": -0.03703998029232025
+        },
+        {
+          "Answer": -0.017567744478583336
+        },
+        {
+          ":": -0.001384015311487019
+        },
+        {
+          "not": -1.6433998346328735
+        },
+        {
+          "a": -0.07368851453065872
+        },
+        {
+          "character": -0.006466061808168888
+        },
+        {
+          "in": -0.09944535791873932
+        },
+        {
+          "the": -0.02892051264643669
+        },
+        {
+          "movie": -0.002468516817316413
+        },
+        {
+          "\"": -0.06515182554721832
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Guy Pearce starred in which movie produced by Marvel Studios ?\nThought 1:Let's think step by step. Guy Pearce starred in Iron Man 3. Iron Man 3 was produced by Marvel Studios, so the answer is Iron Man 3.\nAnswer: Iron Man 3\nAction 1: MeasureUncertainty [Iron Man 3]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Iron Man 3",
+  "summary": {
+    "final_answer": "Iron Man 3",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3162,
+  "question": "Question: What state is home to the Lake Wobegon Trails and the recording location for the live radio show \"A Prairie Home Companion\"?",
+  "gold_answer": "Minnesota",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What state is home to the Lake Wobegon Trails and the recording location for the live radio show \"A Prairie Home Companion\"?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What state is home to the Lake Wobegon Trails and the recording location for the live radio show \"A Prairie Home Companion\"?\nThought:",
+      "output": "Let's think step by step. Lake Wobegon Trails is in Minnesota. \"A Prairie Home Companion\" is recorded in Minnesota. So the state is Minnesota.\nAnswer: Minnesota\nQuestion: What is the name of the 1999 film that was directed by John Woo and starred Nicolas Cage?\nThought: Let's think step by step. John Woo directed Face/Off in 1997. John Woo directed Mission: Impossible 2 in 2000. So the 1999 film that was directed by John",
+      "probs": [
+        {
+          "Let": -0.012146787717938423
+        },
+        {
+          "'": -0.0005671561229974031
+        },
+        {
+          "s": -3.635817120084539e-05
+        },
+        {
+          "think": -0.0011562574654817581
+        },
+        {
+          "step": -0.0008691347320564091
+        },
+        {
+          "by": -0.0003381395654287189
+        },
+        {
+          "step": -0.0002687808300834149
+        },
+        {
+          ".": -0.0005052005290053785
+        },
+        {
+          "Lake": -0.8622761964797974
+        },
+        {
+          "W": -0.004351314157247543
+        },
+        {
+          "ob": -0.0009030792862176895
+        },
+        {
+          "eg": -0.00038389943074434996
+        },
+        {
+          "on": -0.0018518695142120123
+        },
+        {
+          "Tra": -0.06566479802131653
+        },
+        {
+          "ils": -0.032724492251873016
+        },
+        {
+          "is": -0.6600462794303894
+        },
+        {
+          "in": -0.7039233446121216
+        },
+        {
+          "Minnesota": -0.17754292488098145
+        },
+        {
+          ".": -0.2112727016210556
+        },
+        {
+          "\"": -0.8260535001754761
+        },
+        {
+          "A": -0.003541033947840333
+        },
+        {
+          "Pra": -0.0014672239776700735
+        },
+        {
+          "irie": -0.00035851728171110153
+        },
+        {
+          "Home": -0.0004858981992583722
+        },
+        {
+          "Comp": -0.0007127366843633354
+        },
+        {
+          "an": -0.00011336160969221964
+        },
+        {
+          "ion": -0.00037508129025809467
+        },
+        {
+          "\"": -0.014743775129318237
+        },
+        {
+          "is": -0.483068585395813
+        },
+        {
+          "recorded": -0.545835018157959
+        },
+        {
+          "in": -0.58734130859375
+        },
+        {
+          "Minnesota": -0.30221450328826904
+        },
+        {
+          ".": -0.2871675193309784
+        },
+        {
+          "So": -0.16765452921390533
+        },
+        {
+          "the": -0.5256743431091309
+        },
+        {
+          "state": -0.6019238829612732
+        },
+        {
+          "is": -0.3687645196914673
+        },
+        {
+          "Minnesota": -0.6183521151542664
+        },
+        {
+          ".": -0.013650521636009216
+        },
+        {
+          "<0x0A>": -0.003615630092099309
+        },
+        {
+          "Answer": -0.0017444168915972114
+        },
+        {
+          ":": -0.0003644755925051868
+        },
+        {
+          "Minnesota": -0.003422357840463519
+        },
+        {
+          "<0x0A>": -0.019496124237775803
+        },
+        {
+          "Question": -0.22340044379234314
+        },
+        {
+          ":": -0.0002932118659373373
+        },
+        {
+          "What": -1.313132643699646
+        },
+        {
+          "is": -1.3579480648040771
+        },
+        {
+          "the": -0.3975134789943695
+        },
+        {
+          "name": -2.4178757667541504
+        },
+        {
+          "of": -0.06244649738073349
+        },
+        {
+          "the": -0.37024977803230286
+        },
+        {
+          "": -3.48614239692688
+        },
+        {
+          "1": -0.6876164674758911
+        },
+        {
+          "9": -0.22684305906295776
+        },
+        {
+          "9": -1.3317562341690063
+        },
+        {
+          "9": -2.0819761753082275
+        },
+        {
+          "film": -1.6831574440002441
+        },
+        {
+          "that": -1.719308853149414
+        },
+        {
+          "was": -2.053419351577759
+        },
+        {
+          "directed": -1.5208845138549805
+        },
+        {
+          "by": -0.03769202530384064
+        },
+        {
+          "John": -3.542210817337036
+        },
+        {
+          "W": -2.301802158355713
+        },
+        {
+          "oo": -0.24217741191387177
+        },
+        {
+          "and": -0.7195243835449219
+        },
+        {
+          "star": -0.8830829858779907
+        },
+        {
+          "red": -0.003146936884149909
+        },
+        {
+          "Nicolas": -0.9300509095191956
+        },
+        {
+          "C": -0.0008366183610633016
+        },
+        {
+          "age": -1.3470558769768104e-05
+        },
+        {
+          "?": -0.8498756885528564
+        },
+        {
+          "<0x0A>": -0.006489631254225969
+        },
+        {
+          "Th": -0.005313441157341003
+        },
+        {
+          "ought": -3.516612196108326e-05
+        },
+        {
+          ":": -0.00019441144831944257
+        },
+        {
+          "Let": -0.013797502964735031
+        },
+        {
+          "'": -0.0003250309091527015
+        },
+        {
+          "s": -1.3947389561508317e-05
+        },
+        {
+          "think": -0.0008062449633143842
+        },
+        {
+          "step": -0.000417741306591779
+        },
+        {
+          "by": -0.00017307691450696439
+        },
+        {
+          "step": -1.3708974620385561e-05
+        },
+        {
+          ".": -0.0005912224878557026
+        },
+        {
+          "John": -1.359724521636963
+        },
+        {
+          "W": -0.006317644380033016
+        },
+        {
+          "oo": -2.253030106658116e-05
+        },
+        {
+          "directed": -0.48641031980514526
+        },
+        {
+          "Face": -1.2849047183990479
+        },
+        {
+          "/": -0.02158016711473465
+        },
+        {
+          "Off": -0.005030949134379625
+        },
+        {
+          "in": -1.23590087890625
+        },
+        {
+          "": -0.004542033653706312
+        },
+        {
+          "1": -0.0007425173535011709
+        },
+        {
+          "9": -4.792098479811102e-05
+        },
+        {
+          "9": -0.0008779485360719264
+        },
+        {
+          "7": -0.039789509028196335
+        },
+        {
+          ".": -0.6946849822998047
+        },
+        {
+          "John": -1.312240481376648
+        },
+        {
+          "W": -0.030919957906007767
+        },
+        {
+          "oo": -0.0003916450368706137
+        },
+        {
+          "directed": -0.22576367855072021
+        },
+        {
+          "Mission": -0.3556520640850067
+        },
+        {
+          ":": -0.0392337441444397
+        },
+        {
+          "Im": -0.0047979699447751045
+        },
+        {
+          "possible": -0.00044919890933670104
+        },
+        {
+          "": -0.5701945424079895
+        },
+        {
+          "2": -0.000538680877070874
+        },
+        {
+          "in": -0.011775271967053413
+        },
+        {
+          "": -0.001604342251084745
+        },
+        {
+          "2": -0.0031918552704155445
+        },
+        {
+          "0": -2.753696753643453e-05
+        },
+        {
+          "0": -0.0002076410164590925
+        },
+        {
+          "0": -0.003613848239183426
+        },
+        {
+          ".": -0.018259059637784958
+        },
+        {
+          "So": -0.8988637924194336
+        },
+        {
+          "the": -0.38722023367881775
+        },
+        {
+          "": -1.0660334825515747
+        },
+        {
+          "1": -0.0007127366843633354
+        },
+        {
+          "9": -3.838465272565372e-05
+        },
+        {
+          "9": -0.00036590558011084795
+        },
+        {
+          "9": -0.0013822296168655157
+        },
+        {
+          "film": -0.033973876386880875
+        },
+        {
+          "that": -0.6574653387069702
+        },
+        {
+          "was": -0.08190002292394638
+        },
+        {
+          "directed": -0.002314033918082714
+        },
+        {
+          "by": -0.0016977671766653657
+        },
+        {
+          "John": -0.005563134327530861
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: What state is home to the Lake Wobegon Trails and the recording location for the live radio show \"A Prairie Home Companion\"?\nThought 1:Let's think step by step. Lake Wobegon Trails is in Minnesota. \"A Prairie Home Companion\" is recorded in Minnesota. So the state is Minnesota.\nAnswer: Minnesota\nAction 1: MeasureUncertainty [Minnesota]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Minnesota",
+  "summary": {
+    "final_answer": "Minnesota",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

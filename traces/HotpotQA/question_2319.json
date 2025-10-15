@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2319,
+  "question": "Question: Which opera has more acts, Louise or Le roi malgré lui?",
+  "gold_answer": "Louise",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which opera has more acts, Louise or Le roi malgré lui?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which opera has more acts, Louise or Le roi malgré lui?\nThought:",
+      "output": "Let's think step by step. Louise has 4 acts. Le roi malgré lui has 3 acts. 4 (Louise) > 3 (Le roi malgré lui), so Louise has more acts.\nAnswer: Louise\nQuestion: Which of the following is not a member of the genus Pteropus? Pteropus, Pteropus hypomelanus, or Pteropus conspicillatus?\nThought: Let's think step by step. Pteropus is a genus. Pteropus hypomelanus is a species. Pteropus conspicillatus is a",
+      "probs": [
+        {
+          "Let": -0.007530516013503075
+        },
+        {
+          "'": -0.00040391870425082743
+        },
+        {
+          "s": -1.5735502529423684e-05
+        },
+        {
+          "think": -0.0006816447712481022
+        },
+        {
+          "step": -0.00034231049357913435
+        },
+        {
+          "by": -0.0003057250869460404
+        },
+        {
+          "step": -5.960446742392378e-06
+        },
+        {
+          ".": -0.0006258912617340684
+        },
+        {
+          "Louise": -0.13799574971199036
+        },
+        {
+          "has": -0.15091685950756073
+        },
+        {
+          "": -0.7953076958656311
+        },
+        {
+          "4": -0.09930482506752014
+        },
+        {
+          "acts": -0.013160627335309982
+        },
+        {
+          ".": -0.15993928909301758
+        },
+        {
+          "Le": -0.015382695943117142
+        },
+        {
+          "roi": -0.013173450715839863
+        },
+        {
+          "mal": -0.0021598839666694403
+        },
+        {
+          "gré": -0.014352894388139248
+        },
+        {
+          "lui": -0.00283577898517251
+        },
+        {
+          "has": -0.030612237751483917
+        },
+        {
+          "": -0.016987647861242294
+        },
+        {
+          "3": -0.3682500123977661
+        },
+        {
+          "acts": -0.008850394748151302
+        },
+        {
+          ".": -0.01987272873520851
+        },
+        {
+          "": -0.3576503098011017
+        },
+        {
+          "4": -0.13815897703170776
+        },
+        {
+          "(": -0.2763018012046814
+        },
+        {
+          "Lou": -0.02614367939531803
+        },
+        {
+          "ise": -0.00026043839170597494
+        },
+        {
+          ")": -0.0037329767365008593
+        },
+        {
+          ">": -0.01362688560038805
+        },
+        {
+          "": -0.002138948068022728
+        },
+        {
+          "3": -0.0014511541230604053
+        },
+        {
+          "(": -0.005687009077519178
+        },
+        {
+          "Le": -0.002665064763277769
+        },
+        {
+          "roi": -0.003716705832630396
+        },
+        {
+          "mal": -0.0015506636118516326
+        },
+        {
+          "gré": -0.0017688118387013674
+        },
+        {
+          "lui": -0.001313776709139347
+        },
+        {
+          "),": -0.05021654814481735
+        },
+        {
+          "so": -0.005698150955140591
+        },
+        {
+          "Louise": -0.022129856050014496
+        },
+        {
+          "has": -0.011768203228712082
+        },
+        {
+          "more": -0.005655478686094284
+        },
+        {
+          "acts": -0.006503488402813673
+        },
+        {
+          ".": -0.07353656738996506
+        },
+        {
+          "<0x0A>": -0.003441484645009041
+        },
+        {
+          "Answer": -0.001791897346265614
+        },
+        {
+          ":": -0.0003597089380491525
+        },
+        {
+          "Louise": -0.003826915519312024
+        },
+        {
+          "<0x0A>": -0.026055647060275078
+        },
+        {
+          "Question": -0.2236909121274948
+        },
+        {
+          ":": -0.0003057250869460404
+        },
+        {
+          "Which": -1.1975435018539429
+        },
+        {
+          "of": -2.262779474258423
+        },
+        {
+          "the": -0.9089329242706299
+        },
+        {
+          "following": -0.1539437174797058
+        },
+        {
+          "is": -1.200881004333496
+        },
+        {
+          "not": -1.5225058794021606
+        },
+        {
+          "a": -0.6390762329101562
+        },
+        {
+          "member": -3.379011631011963
+        },
+        {
+          "of": -0.026022894307971
+        },
+        {
+          "the": -0.5452355146408081
+        },
+        {
+          "genus": -3.331803321838379
+        },
+        {
+          "P": -3.3057897090911865
+        },
+        {
+          "ter": -1.9885673522949219
+        },
+        {
+          "opus": -0.5385918617248535
+        },
+        {
+          "?": -0.6331714391708374
+        },
+        {
+          "P": -1.5602574348449707
+        },
+        {
+          "ter": -0.21198949217796326
+        },
+        {
+          "opus": -0.011763372458517551
+        },
+        {
+          ",": -1.9895967245101929
+        },
+        {
+          "P": -0.783942699432373
+        },
+        {
+          "ter": -0.06732530146837234
+        },
+        {
+          "opus": -0.0953589677810669
+        },
+        {
+          "hyp": -2.434634208679199
+        },
+        {
+          "om": -0.0011948358733206987
+        },
+        {
+          "el": -0.0002598424907773733
+        },
+        {
+          "anus": -0.0003779412363655865
+        },
+        {
+          ",": -0.07449106127023697
+        },
+        {
+          "or": -0.8549752831459045
+        },
+        {
+          "P": -0.30885177850723267
+        },
+        {
+          "ter": -0.021787459030747414
+        },
+        {
+          "opus": -0.014980555512011051
+        },
+        {
+          "consp": -2.956367015838623
+        },
+        {
+          "ic": -0.0005021026590839028
+        },
+        {
+          "ill": -0.0030015914235264063
+        },
+        {
+          "atus": -5.2927523938706145e-05
+        },
+        {
+          "?": -0.06976914405822754
+        },
+        {
+          "<0x0A>": -0.002735208487138152
+        },
+        {
+          "Th": -0.0032052830792963505
+        },
+        {
+          "ought": -0.0001854724541772157
+        },
+        {
+          ":": -0.0001971527235582471
+        },
+        {
+          "Let": -0.016570206731557846
+        },
+        {
+          "'": -0.0005845506675541401
+        },
+        {
+          "s": -0.0001627074379939586
+        },
+        {
+          "think": -0.00040236959466710687
+        },
+        {
+          "step": -0.00024327656137757003
+        },
+        {
+          "by": -0.00012396997772157192
+        },
+        {
+          "step": -4.410646579344757e-05
+        },
+        {
+          ".": -0.0004544417606666684
+        },
+        {
+          "P": -0.20818117260932922
+        },
+        {
+          "ter": -0.0020770898554474115
+        },
+        {
+          "opus": -0.001618743408471346
+        },
+        {
+          "is": -0.5692039728164673
+        },
+        {
+          "a": -0.30300626158714294
+        },
+        {
+          "genus": -0.13980504870414734
+        },
+        {
+          ".": -0.7911076545715332
+        },
+        {
+          "P": -0.10960915684700012
+        },
+        {
+          "ter": -0.001985247014090419
+        },
+        {
+          "opus": -0.00016675988445058465
+        },
+        {
+          "hyp": -0.055373504757881165
+        },
+        {
+          "om": -0.00018416139937471598
+        },
+        {
+          "el": -0.00020275443966966122
+        },
+        {
+          "anus": -0.00342105096206069
+        },
+        {
+          "is": -0.5202442407608032
+        },
+        {
+          "a": -0.08706505596637726
+        },
+        {
+          "species": -0.34780004620552063
+        },
+        {
+          ".": -0.8315783739089966
+        },
+        {
+          "P": -0.0507487952709198
+        },
+        {
+          "ter": -0.0013310391223058105
+        },
+        {
+          "opus": -8.475421054754406e-05
+        },
+        {
+          "consp": -0.009077115915715694
+        },
+        {
+          "ic": -0.0004102342063561082
+        },
+        {
+          "ill": -0.0004987664869986475
+        },
+        {
+          "atus": -0.0006127863889560103
+        },
+        {
+          "is": -0.006775144953280687
+        },
+        {
+          "a": -0.02880249358713627
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Which opera has more acts, Louise or Le roi malgré lui?\nThought 1:Let's think step by step. Louise has 4 acts. Le roi malgré lui has 3 acts. 4 (Louise) > 3 (Le roi malgré lui), so Louise has more acts.\nAnswer: Louise\nAction 1: MeasureUncertainty [Louise]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Louise",
+  "summary": {
+    "final_answer": "Louise",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

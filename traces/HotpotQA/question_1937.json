@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1937,
+  "question": "Question: What collegiate division does the team coached by P.W. Underwood play in?",
+  "gold_answer": "Division I",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What collegiate division does the team coached by P.W. Underwood play in?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What collegiate division does the team coached by P.W. Underwood play in?\nThought:",
+      "output": "Let's think step by step. P.W. Underwood coached the University of Kentucky men's basketball team. The University of Kentucky men's basketball team plays in NCAA Division I. So the team coached by P.W. Underwood plays in NCAA Division I.\nAnswer: NCAA Division I\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a 1960 film. Ocean'",
+      "probs": [
+        {
+          "Let": -0.009723089635372162
+        },
+        {
+          "'": -0.00024399164249189198
+        },
+        {
+          "s": -3.8742269680369645e-05
+        },
+        {
+          "think": -0.0008853329927660525
+        },
+        {
+          "step": -0.000446696620201692
+        },
+        {
+          "by": -0.00032360086333937943
+        },
+        {
+          "step": -7.510157047363464e-06
+        },
+        {
+          ".": -0.0005283151986077428
+        },
+        {
+          "P": -0.2437075972557068
+        },
+        {
+          ".": -0.005305733531713486
+        },
+        {
+          "W": -0.06942243874073029
+        },
+        {
+          ".": -0.0017526278970763087
+        },
+        {
+          "Under": -0.001392943668179214
+        },
+        {
+          "wood": -0.00026055757189169526
+        },
+        {
+          "co": -0.8051633834838867
+        },
+        {
+          "ached": -0.003623231779783964
+        },
+        {
+          "the": -1.0130276679992676
+        },
+        {
+          "University": -2.619706869125366
+        },
+        {
+          "of": -0.007785215973854065
+        },
+        {
+          "Kentucky": -2.6014349460601807
+        },
+        {
+          "men": -1.559411883354187
+        },
+        {
+          "'": -0.013117330148816109
+        },
+        {
+          "s": -9.917721035890281e-05
+        },
+        {
+          "basketball": -0.07255798578262329
+        },
+        {
+          "team": -0.05636937543749809
+        },
+        {
+          ".": -0.5761216878890991
+        },
+        {
+          "The": -0.7881120443344116
+        },
+        {
+          "University": -0.34905722737312317
+        },
+        {
+          "of": -0.0018918488640338182
+        },
+        {
+          "Kentucky": -0.0013821106404066086
+        },
+        {
+          "men": -0.7524711489677429
+        },
+        {
+          "'": -0.0024703005328774452
+        },
+        {
+          "s": -0.00019167017308063805
+        },
+        {
+          "basketball": -0.005048622377216816
+        },
+        {
+          "team": -0.014295429922640324
+        },
+        {
+          "plays": -0.5557509660720825
+        },
+        {
+          "in": -0.08016663789749146
+        },
+        {
+          "NCAA": -0.8006299138069153
+        },
+        {
+          "Division": -0.07946079969406128
+        },
+        {
+          "I": -0.0422673299908638
+        },
+        {
+          ".": -0.33980292081832886
+        },
+        {
+          "So": -0.46666282415390015
+        },
+        {
+          "the": -0.26831984519958496
+        },
+        {
+          "team": -0.7139468193054199
+        },
+        {
+          "co": -0.0745406299829483
+        },
+        {
+          "ached": -0.0003939091111533344
+        },
+        {
+          "by": -0.00042965717148035765
+        },
+        {
+          "P": -0.003407863900065422
+        },
+        {
+          ".": -0.001303776167333126
+        },
+        {
+          "W": -0.0032221563160419464
+        },
+        {
+          ".": -0.0007489498239010572
+        },
+        {
+          "Under": -0.0015605426160618663
+        },
+        {
+          "wood": -0.00035339308669790626
+        },
+        {
+          "plays": -0.10031387954950333
+        },
+        {
+          "in": -0.006456349510699511
+        },
+        {
+          "NCAA": -0.050831280648708344
+        },
+        {
+          "Division": -0.0027598170563578606
+        },
+        {
+          "I": -0.002253613667562604
+        },
+        {
+          ".": -0.015044203959405422
+        },
+        {
+          "<0x0A>": -0.0028232974000275135
+        },
+        {
+          "Answer": -0.0014465117128565907
+        },
+        {
+          ":": -0.00030155404238030314
+        },
+        {
+          "NCAA": -0.014299425296485424
+        },
+        {
+          "Division": -0.005866215564310551
+        },
+        {
+          "I": -0.005076257977634668
+        },
+        {
+          "<0x0A>": -0.024037247523665428
+        },
+        {
+          "Question": -0.2066192626953125
+        },
+        {
+          ":": -0.00024184639914892614
+        },
+        {
+          "What": -1.29920494556427
+        },
+        {
+          "is": -1.374436855316162
+        },
+        {
+          "the": -0.37083590030670166
+        },
+        {
+          "name": -2.3174843788146973
+        },
+        {
+          "of": -0.044727399945259094
+        },
+        {
+          "the": -0.38902565836906433
+        },
+        {
+          "": -3.6506154537200928
+        },
+        {
+          "1": -0.6335892081260681
+        },
+        {
+          "9": -0.17758724093437195
+        },
+        {
+          "9": -1.3416787385940552
+        },
+        {
+          "9": -2.086425304412842
+        },
+        {
+          "film": -1.5095328092575073
+        },
+        {
+          "that": -1.736122965812683
+        },
+        {
+          "is": -2.2578353881835938
+        },
+        {
+          "a": -1.5062109231948853
+        },
+        {
+          "re": -0.9847833514213562
+        },
+        {
+          "make": -0.027582114562392235
+        },
+        {
+          "of": -0.01893235370516777
+        },
+        {
+          "the": -0.8141887187957764
+        },
+        {
+          "": -0.295703262090683
+        },
+        {
+          "1": -0.015130746178328991
+        },
+        {
+          "9": -0.0026949062012135983
+        },
+        {
+          "6": -1.2411761283874512
+        },
+        {
+          "0": -1.8715656995773315
+        },
+        {
+          "film": -0.34947168827056885
+        },
+        {
+          "Ocean": -1.4882704019546509
+        },
+        {
+          "'": -0.008645604364573956
+        },
+        {
+          "s": -0.00011562632425921038
+        },
+        {
+          "": -0.40574273467063904
+        },
+        {
+          "1": -0.00035422726068645716
+        },
+        {
+          "1": -0.000548331590835005
+        },
+        {
+          "?": -0.2854272127151489
+        },
+        {
+          "<0x0A>": -0.004347397480159998
+        },
+        {
+          "Th": -0.006578692700713873
+        },
+        {
+          "ought": -0.00010883215873036534
+        },
+        {
+          ":": -0.0001586549769854173
+        },
+        {
+          "Let": -0.011706466786563396
+        },
+        {
+          "'": -0.00034814971149899065
+        },
+        {
+          "s": -3.2782016205601394e-05
+        },
+        {
+          "think": -0.0003268184664193541
+        },
+        {
+          "step": -0.0002661589242052287
+        },
+        {
+          "by": -0.00017653337272349745
+        },
+        {
+          "step": -1.8358061424805783e-05
+        },
+        {
+          ".": -0.0004011779965367168
+        },
+        {
+          "Ocean": -0.6333727836608887
+        },
+        {
+          "'": -0.004979352001100779
+        },
+        {
+          "s": -0.00016378014697693288
+        },
+        {
+          "Ele": -0.6093916893005371
+        },
+        {
+          "ven": -2.6702524337451905e-05
+        },
+        {
+          "is": -0.4323205351829529
+        },
+        {
+          "a": -0.2906731069087982
+        },
+        {
+          "": -0.6642267107963562
+        },
+        {
+          "1": -0.2812332510948181
+        },
+        {
+          "9": -0.00021455370006151497
+        },
+        {
+          "6": -0.27130991220474243
+        },
+        {
+          "0": -0.0006839081761427224
+        },
+        {
+          "film": -0.2153351753950119
+        },
+        {
+          ".": -0.36549100279808044
+        },
+        {
+          "Ocean": -0.15700575709342957
+        },
+        {
+          "'": -0.002769803162664175
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: What collegiate division does the team coached by P.W. Underwood play in?\nThought 1:Let's think step by step. P.W. Underwood coached the University of Kentucky men's basketball team. The University of Kentucky men's basketball team plays in NCAA Division I. So the team coached by P.W. Underwood plays in NCAA Division I.\nAnswer: NCAA Division I\nAction 1: MeasureUncertainty [NCAA Division I]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: NCAA Division I",
+  "summary": {
+    "final_answer": "NCAA Division I",
+    "em": false,
+    "f1": 0.8,
+    "mode": "uala_cot_only"
+  }
+}

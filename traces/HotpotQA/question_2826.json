@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2826,
+  "question": "Question: Who is older Craig Nicholls or Norman Blake ?",
+  "gold_answer": "Norman Blake",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is older Craig Nicholls or Norman Blake ?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is older Craig Nicholls or Norman Blake ?\nThought:",
+      "output": "Let's think step by step. Craig Nicholls was born in 1977. Norman Blake was born in 1965. 1977 (Craig Nicholls) > 1965 (Norman Blake), so Craig Nicholls is older.\nAnswer: Craig Nicholls\nQuestion: Which of the following is a nickname of the 1990s?\nThought: Let's think step by step. The 1990s is also known as the Nineties.\nAnswer: Nineties",
+      "probs": [
+        {
+          "Let": -0.009388345293700695
+        },
+        {
+          "'": -0.0006936766440048814
+        },
+        {
+          "s": -2.7656173188006505e-05
+        },
+        {
+          "think": -0.001492816023528576
+        },
+        {
+          "step": -0.000416907190810889
+        },
+        {
+          "by": -0.00011908298620255664
+        },
+        {
+          "step": -0.00010084597306558862
+        },
+        {
+          ".": -0.0006578188622370362
+        },
+        {
+          "Craig": -0.33606666326522827
+        },
+        {
+          "Nich": -0.006434556096792221
+        },
+        {
+          "oll": -0.0001481661747675389
+        },
+        {
+          "s": -0.0014718662714585662
+        },
+        {
+          "was": -0.4405055642127991
+        },
+        {
+          "born": -0.012600217014551163
+        },
+        {
+          "in": -0.2695826590061188
+        },
+        {
+          "": -0.039045628160238266
+        },
+        {
+          "1": -0.005769860465079546
+        },
+        {
+          "9": -0.00282947882078588
+        },
+        {
+          "7": -0.4187253713607788
+        },
+        {
+          "7": -0.06892741471529007
+        },
+        {
+          ".": -0.16582903265953064
+        },
+        {
+          "Norman": -0.031375009566545486
+        },
+        {
+          "Bla": -0.00157196877989918
+        },
+        {
+          "ke": -0.0001599660754436627
+        },
+        {
+          "was": -0.03306524455547333
+        },
+        {
+          "born": -0.0032669526990503073
+        },
+        {
+          "in": -0.009551775641739368
+        },
+        {
+          "": -0.0037847571074962616
+        },
+        {
+          "1": -0.001813197392039001
+        },
+        {
+          "9": -0.0021898592822253704
+        },
+        {
+          "6": -0.6409685611724854
+        },
+        {
+          "5": -0.0357755608856678
+        },
+        {
+          ".": -0.012703096494078636
+        },
+        {
+          "": -0.2765045166015625
+        },
+        {
+          "1": -0.013721193186938763
+        },
+        {
+          "9": -0.0002693767019081861
+        },
+        {
+          "7": -0.6260924339294434
+        },
+        {
+          "7": -0.001086359960027039
+        },
+        {
+          "(": -0.11041798442602158
+        },
+        {
+          "C": -0.011008835397660732
+        },
+        {
+          "ra": -0.002674813847988844
+        },
+        {
+          "ig": -0.00029845553217455745
+        },
+        {
+          "Nich": -0.0034852020908147097
+        },
+        {
+          "oll": -0.0009377372916787863
+        },
+        {
+          "s": -0.0006133820279501379
+        },
+        {
+          ")": -0.0050819506868720055
+        },
+        {
+          ">": -0.4061434268951416
+        },
+        {
+          "": -0.0038707349449396133
+        },
+        {
+          "1": -0.00016318420239258558
+        },
+        {
+          "9": -0.00025090406415984035
+        },
+        {
+          "6": -0.0011741180205717683
+        },
+        {
+          "5": -0.001336158369667828
+        },
+        {
+          "(": -0.005158092360943556
+        },
+        {
+          "N": -0.002843862399458885
+        },
+        {
+          "orm": -0.001392229343764484
+        },
+        {
+          "an": -0.00028379703871905804
+        },
+        {
+          "Bla": -0.0013827058719471097
+        },
+        {
+          "ke": -0.00020466140995267779
+        },
+        {
+          "),": -0.07449349761009216
+        },
+        {
+          "so": -0.01495636347681284
+        },
+        {
+          "Craig": -0.30503854155540466
+        },
+        {
+          "Nich": -0.003249961184337735
+        },
+        {
+          "oll": -0.0015873225638642907
+        },
+        {
+          "s": -0.001527334563434124
+        },
+        {
+          "is": -0.014586007222533226
+        },
+        {
+          "older": -0.03153950348496437
+        },
+        {
+          ".": -0.2103385627269745
+        },
+        {
+          "<0x0A>": -0.004620826803147793
+        },
+        {
+          "Answer": -0.002362676663324237
+        },
+        {
+          ":": -0.0006472161621786654
+        },
+        {
+          "Craig": -0.0056693474762141705
+        },
+        {
+          "Nich": -0.000578474544454366
+        },
+        {
+          "oll": -0.0004800597671419382
+        },
+        {
+          "s": -0.0007595514762215316
+        },
+        {
+          "<0x0A>": -0.030270768329501152
+        },
+        {
+          "Question": -0.1987660676240921
+        },
+        {
+          ":": -0.00033885458833537996
+        },
+        {
+          "Which": -1.5049962997436523
+        },
+        {
+          "of": -1.8934714794158936
+        },
+        {
+          "the": -0.8068371415138245
+        },
+        {
+          "following": -0.10998845100402832
+        },
+        {
+          "is": -1.1375832557678223
+        },
+        {
+          "a": -1.6019840240478516
+        },
+        {
+          "nick": -3.8079357147216797
+        },
+        {
+          "name": -0.0071549140848219395
+        },
+        {
+          "of": -0.6367856860160828
+        },
+        {
+          "the": -1.8104562759399414
+        },
+        {
+          "": -2.8288912773132324
+        },
+        {
+          "1": -0.8802680373191833
+        },
+        {
+          "9": -0.44228458404541016
+        },
+        {
+          "9": -1.6300631761550903
+        },
+        {
+          "0": -2.0321757793426514
+        },
+        {
+          "s": -1.5752955675125122
+        },
+        {
+          "?": -2.539721965789795
+        },
+        {
+          "<0x0A>": -0.9591453075408936
+        },
+        {
+          "Th": -0.07991553097963333
+        },
+        {
+          "ought": -1.311301275563892e-06
+        },
+        {
+          ":": -0.0007091629668138921
+        },
+        {
+          "Let": -0.026405178010463715
+        },
+        {
+          "'": -0.0008817598572932184
+        },
+        {
+          "s": -3.4927710657939315e-05
+        },
+        {
+          "think": -0.0018688846612349153
+        },
+        {
+          "step": -0.0012763934209942818
+        },
+        {
+          "by": -7.748303323751315e-05
+        },
+        {
+          "step": -5.006777428206988e-06
+        },
+        {
+          ".": -0.0011157722910866141
+        },
+        {
+          "The": -0.8296196460723877
+        },
+        {
+          "": -0.47413790225982666
+        },
+        {
+          "1": -0.04892623424530029
+        },
+        {
+          "9": -0.0023054706398397684
+        },
+        {
+          "9": -0.05605755373835564
+        },
+        {
+          "0": -0.0025210760068148375
+        },
+        {
+          "s": -0.0056969658471643925
+        },
+        {
+          "is": -0.7197657227516174
+        },
+        {
+          "also": -1.133741855621338
+        },
+        {
+          "known": -0.47461000084877014
+        },
+        {
+          "as": -0.010644091293215752
+        },
+        {
+          "the": -0.43567943572998047
+        },
+        {
+          "N": -1.1972438097000122
+        },
+        {
+          "inet": -0.6968550086021423
+        },
+        {
+          "ies": -0.0002935693773906678
+        },
+        {
+          ".": -0.5300304293632507
+        },
+        {
+          "<0x0A>": -0.7649570107460022
+        },
+        {
+          "Answer": -0.004382411018013954
+        },
+        {
+          ":": -0.0004987664869986475
+        },
+        {
+          "N": -0.47033560276031494
+        },
+        {
+          "inet": -0.001049920916557312
+        },
+        {
+          "ies": -9.142934868577868e-05
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Who is older Craig Nicholls or Norman Blake ?\nThought 1:Let's think step by step. Craig Nicholls was born in 1977. Norman Blake was born in 1965. 1977 (Craig Nicholls) > 1965 (Norman Blake), so Craig Nicholls is older.\nAnswer: Craig Nicholls\nAction 1: MeasureUncertainty [Craig Nicholls]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Craig Nicholls",
+  "summary": {
+    "final_answer": "Craig Nicholls",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

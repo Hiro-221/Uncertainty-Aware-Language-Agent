@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 816,
+  "question": "Question: In which University is Richard Williams' former assistant a member of the Athletics Hall of Fame?",
+  "gold_answer": "Campbellsville University",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In which University is Richard Williams' former assistant a member of the Athletics Hall of Fame?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In which University is Richard Williams' former assistant a member of the Athletics Hall of Fame?\nThought:",
+      "output": "Let's think step by step. Richard Williams is a tennis coach. He is the father of Venus and Serena Williams. Richard Williams' former assistant is Oracene Price. Oracene Price is a member of the Athletics Hall of Fame at University of Central Arkansas.\nAnswer: University of Central Arkansas\nQuestion: Which of the following is not a member of the 2010s in music?\nThought: Let's think step by step. 2010s in music is a decade in music. 2010s in music is not a member of",
+      "probs": [
+        {
+          "Let": -0.011613854207098484
+        },
+        {
+          "'": -0.0003632839070633054
+        },
+        {
+          "s": -1.8596476365928538e-05
+        },
+        {
+          "think": -0.0010550415609031916
+        },
+        {
+          "step": -0.0006822404102422297
+        },
+        {
+          "by": -0.0001998939987970516
+        },
+        {
+          "step": -2.6940935640595853e-05
+        },
+        {
+          ".": -0.0005248599336482584
+        },
+        {
+          "Richard": -0.2862650752067566
+        },
+        {
+          "Williams": -0.032080743461847305
+        },
+        {
+          "is": -1.024328589439392
+        },
+        {
+          "a": -0.835350513458252
+        },
+        {
+          "tennis": -1.2831056118011475
+        },
+        {
+          "coach": -0.10164611041545868
+        },
+        {
+          ".": -0.6131963729858398
+        },
+        {
+          "He": -1.623586654663086
+        },
+        {
+          "is": -1.3599677085876465
+        },
+        {
+          "the": -1.1212095022201538
+        },
+        {
+          "father": -0.7670243978500366
+        },
+        {
+          "of": -0.34901097416877747
+        },
+        {
+          "Ven": -0.7544639110565186
+        },
+        {
+          "us": -0.00037067217635922134
+        },
+        {
+          "and": -0.6256530284881592
+        },
+        {
+          "Ser": -0.0025278539396822453
+        },
+        {
+          "ena": -0.0019450333202257752
+        },
+        {
+          "Williams": -0.06405677646398544
+        },
+        {
+          ".": -0.31495150923728943
+        },
+        {
+          "Richard": -1.7123758792877197
+        },
+        {
+          "Williams": -0.16896016895771027
+        },
+        {
+          "'": -0.7673988938331604
+        },
+        {
+          "former": -0.13160374760627747
+        },
+        {
+          "assistant": -0.03062819316983223
+        },
+        {
+          "is": -0.24543970823287964
+        },
+        {
+          "O": -0.792911946773529
+        },
+        {
+          "rac": -0.012562193907797337
+        },
+        {
+          "ene": -0.0020568659529089928
+        },
+        {
+          "Price": -0.01709769479930401
+        },
+        {
+          ".": -0.34240323305130005
+        },
+        {
+          "O": -0.40134766697883606
+        },
+        {
+          "rac": -0.0011878109071403742
+        },
+        {
+          "ene": -0.0016448076348751783
+        },
+        {
+          "Price": -0.026491321623325348
+        },
+        {
+          "is": -0.24059820175170898
+        },
+        {
+          "a": -0.4854046106338501
+        },
+        {
+          "member": -0.6005246639251709
+        },
+        {
+          "of": -0.00324758468195796
+        },
+        {
+          "the": -0.09481937438249588
+        },
+        {
+          "Athletics": -0.8838702440261841
+        },
+        {
+          "Hall": -0.0030778914224356413
+        },
+        {
+          "of": -0.001157567254267633
+        },
+        {
+          "Fame": -0.00047791501856409013
+        },
+        {
+          "at": -0.6593732833862305
+        },
+        {
+          "University": -1.2794263362884521
+        },
+        {
+          "of": -0.023137124255299568
+        },
+        {
+          "Central": -0.4648970365524292
+        },
+        {
+          "Ark": -0.8435546159744263
+        },
+        {
+          "ansas": -0.0003666205739136785
+        },
+        {
+          ".": -0.08084461092948914
+        },
+        {
+          "<0x0A>": -0.3314078450202942
+        },
+        {
+          "Answer": -0.0022559924982488155
+        },
+        {
+          ":": -0.00039104922325350344
+        },
+        {
+          "University": -0.011531485244631767
+        },
+        {
+          "of": -0.0003873551613651216
+        },
+        {
+          "Central": -0.0006983225466683507
+        },
+        {
+          "Ark": -0.0005470209871418774
+        },
+        {
+          "ansas": -0.00010477947944309562
+        },
+        {
+          "<0x0A>": -0.024419475346803665
+        },
+        {
+          "Question": -0.2740579843521118
+        },
+        {
+          ":": -0.00027891082572750747
+        },
+        {
+          "Which": -1.502298355102539
+        },
+        {
+          "of": -1.9644134044647217
+        },
+        {
+          "the": -0.8019821643829346
+        },
+        {
+          "following": -0.1275927871465683
+        },
+        {
+          "is": -1.1763430833816528
+        },
+        {
+          "not": -1.3291360139846802
+        },
+        {
+          "a": -0.6839601993560791
+        },
+        {
+          "member": -3.0067765712738037
+        },
+        {
+          "of": -0.02342619188129902
+        },
+        {
+          "the": -0.5150280594825745
+        },
+        {
+          "": -3.518859624862671
+        },
+        {
+          "2": -0.8994646072387695
+        },
+        {
+          "0": -0.14274702966213226
+        },
+        {
+          "1": -0.7229225039482117
+        },
+        {
+          "0": -1.6113784313201904
+        },
+        {
+          "s": -2.6206300258636475
+        },
+        {
+          "in": -2.099249839782715
+        },
+        {
+          "music": -1.7244433164596558
+        },
+        {
+          "?": -0.9945663213729858
+        },
+        {
+          "<0x0A>": -0.4993882179260254
+        },
+        {
+          "Th": -0.04593740403652191
+        },
+        {
+          "ought": -0.00026306029758416116
+        },
+        {
+          ":": -0.0008191090892069042
+        },
+        {
+          "Let": -0.02937566116452217
+        },
+        {
+          "'": -0.0004625442670658231
+        },
+        {
+          "s": -3.909988299710676e-05
+        },
+        {
+          "think": -0.0009860896971076727
+        },
+        {
+          "step": -0.001334372558631003
+        },
+        {
+          "by": -0.0003670972364488989
+        },
+        {
+          "step": -7.283422019099817e-05
+        },
+        {
+          ".": -0.0013236580416560173
+        },
+        {
+          "": -1.4974409341812134
+        },
+        {
+          "2": -0.23947596549987793
+        },
+        {
+          "0": -0.015909988433122635
+        },
+        {
+          "1": -0.09334185719490051
+        },
+        {
+          "0": -0.045447129756212234
+        },
+        {
+          "s": -0.05290820077061653
+        },
+        {
+          "in": -0.11087305098772049
+        },
+        {
+          "music": -0.01461420301347971
+        },
+        {
+          "is": -0.5746592283248901
+        },
+        {
+          "a": -0.5253636240959167
+        },
+        {
+          "de": -0.920413076877594
+        },
+        {
+          "cade": -0.00015877417172305286
+        },
+        {
+          "in": -0.7664175629615784
+        },
+        {
+          "music": -0.31320473551750183
+        },
+        {
+          ".": -0.7490028738975525
+        },
+        {
+          "": -1.1656763553619385
+        },
+        {
+          "2": -0.5433497428894043
+        },
+        {
+          "0": -0.01959291845560074
+        },
+        {
+          "1": -0.4346064329147339
+        },
+        {
+          "0": -0.24381212890148163
+        },
+        {
+          "s": -0.20757624506950378
+        },
+        {
+          "in": -0.26912441849708557
+        },
+        {
+          "music": -0.2755948305130005
+        },
+        {
+          "is": -1.4364707469940186
+        },
+        {
+          "not": -1.4709386825561523
+        },
+        {
+          "a": -0.182138592004776
+        },
+        {
+          "member": -0.29359549283981323
+        },
+        {
+          "of": -0.1072593703866005
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: In which University is Richard Williams' former assistant a member of the Athletics Hall of Fame?\nThought 1:Let's think step by step. Richard Williams is a tennis coach. He is the father of Venus and Serena Williams. Richard Williams' former assistant is Oracene Price. Oracene Price is a member of the Athletics Hall of Fame at University of Central Arkansas.\nAnswer: University of Central Arkansas\nAction 1: MeasureUncertainty [University of Central Arkansas]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: University of Central Arkansas",
+  "summary": {
+    "final_answer": "University of Central Arkansas",
+    "em": false,
+    "f1": 0.3333333333333333,
+    "mode": "uala_cot_only"
+  }
+}

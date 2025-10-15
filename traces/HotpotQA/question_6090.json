@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6090,
+  "question": "Question: Are John Tardy and Stza from the same country?",
+  "gold_answer": "yes",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are John Tardy and Stza from the same country?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are John Tardy and Stza from the same country?\nThought:",
+      "output": "Let's think step by step. John Tardy is from the United States. Stza is from the United States. So John Tardy and Stza are from the same country.\nAnswer: Yes\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,8",
+      "probs": [
+        {
+          "Let": -0.01064798329025507
+        },
+        {
+          "'": -0.00040665941196493804
+        },
+        {
+          "s": -8.821448318485636e-06
+        },
+        {
+          "think": -0.0008336406317539513
+        },
+        {
+          "step": -0.0003833036171272397
+        },
+        {
+          "by": -0.00014244495832826942
+        },
+        {
+          "step": -0.00789580587297678
+        },
+        {
+          ".": -0.00044347942457534373
+        },
+        {
+          "John": -0.10163825005292892
+        },
+        {
+          "T": -0.0038461536169052124
+        },
+        {
+          "ard": -0.000270091783022508
+        },
+        {
+          "y": -0.0001445904199499637
+        },
+        {
+          "is": -0.24464534223079681
+        },
+        {
+          "from": -0.662246823310852
+        },
+        {
+          "the": -0.511602520942688
+        },
+        {
+          "United": -0.18157526850700378
+        },
+        {
+          "States": -0.004041480831801891
+        },
+        {
+          ".": -0.2238539755344391
+        },
+        {
+          "St": -0.022520389407873154
+        },
+        {
+          "za": -0.00021145492792129517
+        },
+        {
+          "is": -0.03826643154025078
+        },
+        {
+          "from": -0.055819928646087646
+        },
+        {
+          "the": -0.03242667764425278
+        },
+        {
+          "United": -0.0040364945307374
+        },
+        {
+          "States": -0.004060833714902401
+        },
+        {
+          ".": -0.057317424565553665
+        },
+        {
+          "So": -0.15384437143802643
+        },
+        {
+          "John": -0.1331281065940857
+        },
+        {
+          "T": -0.0012384133879095316
+        },
+        {
+          "ard": -0.00021443451987579465
+        },
+        {
+          "y": -2.52720492426306e-05
+        },
+        {
+          "and": -0.009210595861077309
+        },
+        {
+          "St": -0.002305232686921954
+        },
+        {
+          "za": -0.0009791824268177152
+        },
+        {
+          "are": -0.06296612322330475
+        },
+        {
+          "from": -0.013342498801648617
+        },
+        {
+          "the": -0.005529229063540697
+        },
+        {
+          "same": -0.004604688845574856
+        },
+        {
+          "country": -0.0024512740783393383
+        },
+        {
+          ".": -0.03016921691596508
+        },
+        {
+          "<0x0A>": -0.004735445603728294
+        },
+        {
+          "Answer": -0.001190906623378396
+        },
+        {
+          ":": -0.00041321321623399854
+        },
+        {
+          "Yes": -0.021881932392716408
+        },
+        {
+          "<0x0A>": -0.017005814239382744
+        },
+        {
+          "Question": -0.17279495298862457
+        },
+        {
+          ":": -0.00040046300273388624
+        },
+        {
+          "What": -1.7213902473449707
+        },
+        {
+          "is": -1.2402479648590088
+        },
+        {
+          "the": -0.40926700830459595
+        },
+        {
+          "elev": -2.8394787311553955
+        },
+        {
+          "ation": -0.0008144637104123831
+        },
+        {
+          "range": -0.20241279900074005
+        },
+        {
+          "for": -0.06664390116930008
+        },
+        {
+          "the": -0.09496649354696274
+        },
+        {
+          "area": -0.20772385597229004
+        },
+        {
+          "that": -0.07756687700748444
+        },
+        {
+          "the": -0.13884234428405762
+        },
+        {
+          "eastern": -0.8389904499053955
+        },
+        {
+          "sector": -0.018887551501393318
+        },
+        {
+          "of": -0.002423209138214588
+        },
+        {
+          "the": -0.015216458588838577
+        },
+        {
+          "Colorado": -0.09677161276340485
+        },
+        {
+          "or": -0.00895200576633215
+        },
+        {
+          "ogen": -0.00047219570842571557
+        },
+        {
+          "y": -0.00023398046323563904
+        },
+        {
+          "extends": -0.013602778315544128
+        },
+        {
+          "into": -0.005464141722768545
+        },
+        {
+          "?": -0.016582049429416656
+        },
+        {
+          "<0x0A>": -0.011076981201767921
+        },
+        {
+          "Th": -0.049183204770088196
+        },
+        {
+          "ought": -0.00018439977429807186
+        },
+        {
+          ":": -0.0014452022733166814
+        },
+        {
+          "Let": -0.03632026165723801
+        },
+        {
+          "'": -0.002293101279065013
+        },
+        {
+          "s": -7.426462980220094e-05
+        },
+        {
+          "think": -0.003272774862125516
+        },
+        {
+          "step": -0.0018254535971209407
+        },
+        {
+          "by": -0.00035172473872080445
+        },
+        {
+          "step": -5.209310256759636e-05
+        },
+        {
+          ".": -0.0015190026024356484
+        },
+        {
+          "The": -0.10082745552062988
+        },
+        {
+          "eastern": -0.03864624351263046
+        },
+        {
+          "sector": -0.0016262413701042533
+        },
+        {
+          "of": -0.001785828499123454
+        },
+        {
+          "Colorado": -0.12003371864557266
+        },
+        {
+          "or": -0.006308641284704208
+        },
+        {
+          "ogen": -0.0002127659390680492
+        },
+        {
+          "y": -0.00038258862332440913
+        },
+        {
+          "extends": -0.006123590283095837
+        },
+        {
+          "into": -0.0031853197142481804
+        },
+        {
+          "the": -0.030747845768928528
+        },
+        {
+          "High": -0.03180721774697304
+        },
+        {
+          "Pla": -0.001824739621952176
+        },
+        {
+          "ins": -0.00010740180005086586
+        },
+        {
+          ".": -0.03457840904593468
+        },
+        {
+          "High": -0.052592016756534576
+        },
+        {
+          "Pla": -0.004199021030217409
+        },
+        {
+          "ins": -3.576214658096433e-05
+        },
+        {
+          "rise": -0.03748088702559471
+        },
+        {
+          "in": -0.0025982451625168324
+        },
+        {
+          "elev": -0.00028725311858579516
+        },
+        {
+          "ation": -0.0002196785935666412
+        },
+        {
+          "from": -0.0007850425899960101
+        },
+        {
+          "around": -0.009239298291504383
+        },
+        {
+          "": -0.0014886498684063554
+        },
+        {
+          "1": -0.008792495355010033
+        },
+        {
+          ",": -0.006046811584383249
+        },
+        {
+          "8": -0.0018477048724889755
+        },
+        {
+          "0": -0.00024303820100612938
+        },
+        {
+          "0": -3.4689302992774174e-05
+        },
+        {
+          "to": -0.004871997982263565
+        },
+        {
+          "": -0.0004673104267567396
+        },
+        {
+          "7": -0.0029290891252458096
+        },
+        {
+          ",": -0.00040904260822571814
+        },
+        {
+          "0": -0.0003190723655279726
+        },
+        {
+          "0": -2.3007127310847864e-05
+        },
+        {
+          "0": -3.814624506048858e-05
+        },
+        {
+          "ft": -0.0061880419962108135
+        },
+        {
+          ",": -0.021615050733089447
+        },
+        {
+          "so": -0.0014611531514674425
+        },
+        {
+          "the": -0.0022254243958741426
+        },
+        {
+          "answer": -0.005706329829990864
+        },
+        {
+          "is": -0.0017006233101710677
+        },
+        {
+          "": -0.0052936384454369545
+        },
+        {
+          "1": -0.0010039533954113722
+        },
+        {
+          ",": -0.0014953156933188438
+        },
+        {
+          "8": -0.0002215855201939121
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are John Tardy and Stza from the same country?\nThought 1:Let's think step by step. John Tardy is from the United States. Stza is from the United States. So John Tardy and Stza are from the same country.\nAnswer: Yes\nAction 1: MeasureUncertainty [Yes]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Yes",
+  "summary": {
+    "final_answer": "Yes",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 899,
+  "question": "Question: Are William Kronick and Jon Turteltaub both television writers ?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are William Kronick and Jon Turteltaub both television writers ?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are William Kronick and Jon Turteltaub both television writers ?\nThought:",
+      "output": "Let's think step by step. William Kronick is a television writer. Jon Turteltaub is a television writer. So William Kronick and Jon Turteltaub are both television writers.\nAnswer: Yes\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is ",
+      "probs": [
+        {
+          "Let": -0.006843580398708582
+        },
+        {
+          "'": -0.000918681500479579
+        },
+        {
+          "s": -4.5536911784438416e-05
+        },
+        {
+          "think": -0.0007495454628951848
+        },
+        {
+          "step": -0.0004538459761533886
+        },
+        {
+          "by": -0.0001802282058633864
+        },
+        {
+          "step": -4.8874615458771586e-05
+        },
+        {
+          ".": -0.0008592489175498486
+        },
+        {
+          "William": -0.15028385818004608
+        },
+        {
+          "K": -0.003311390522867441
+        },
+        {
+          "ron": -0.0001299296854995191
+        },
+        {
+          "ick": -8.928377064876258e-05
+        },
+        {
+          "is": -0.12714610993862152
+        },
+        {
+          "a": -0.16985900700092316
+        },
+        {
+          "television": -0.678699791431427
+        },
+        {
+          "writer": -0.704203188419342
+        },
+        {
+          ".": -0.5248764753341675
+        },
+        {
+          "Jon": -0.021828165277838707
+        },
+        {
+          "T": -0.000856509490404278
+        },
+        {
+          "urt": -0.00043132537393830717
+        },
+        {
+          "elta": -0.00224576354958117
+        },
+        {
+          "ub": -0.00011145447206217796
+        },
+        {
+          "is": -0.01996341161429882
+        },
+        {
+          "a": -0.1060793548822403
+        },
+        {
+          "television": -0.6358903050422668
+        },
+        {
+          "writer": -0.9821170568466187
+        },
+        {
+          ".": -0.8787544369697571
+        },
+        {
+          "So": -0.12887001037597656
+        },
+        {
+          "William": -0.5483037829399109
+        },
+        {
+          "K": -0.0022355346009135246
+        },
+        {
+          "ron": -0.00023016665363684297
+        },
+        {
+          "ick": -0.00025006983196362853
+        },
+        {
+          "and": -0.009770900942385197
+        },
+        {
+          "Jon": -0.0028174726758152246
+        },
+        {
+          "T": -0.001212814822793007
+        },
+        {
+          "urt": -0.0023350848350673914
+        },
+        {
+          "elta": -0.0040604774840176105
+        },
+        {
+          "ub": -9.131014667218551e-05
+        },
+        {
+          "are": -0.21506735682487488
+        },
+        {
+          "both": -0.026069583371281624
+        },
+        {
+          "television": -0.011385703459382057
+        },
+        {
+          "writers": -0.036783087998628616
+        },
+        {
+          ".": -0.10099384933710098
+        },
+        {
+          "<0x0A>": -0.005249644163995981
+        },
+        {
+          "Answer": -0.0024254685267806053
+        },
+        {
+          ":": -0.0007045170641504228
+        },
+        {
+          "Yes": -0.039066608995199203
+        },
+        {
+          "<0x0A>": -0.01801954209804535
+        },
+        {
+          "Question": -0.1927662193775177
+        },
+        {
+          ":": -0.0005545270396396518
+        },
+        {
+          "What": -1.6910194158554077
+        },
+        {
+          "is": -1.2310540676116943
+        },
+        {
+          "the": -0.4010171592235565
+        },
+        {
+          "elev": -2.7230782508850098
+        },
+        {
+          "ation": -0.0008226824575103819
+        },
+        {
+          "range": -0.19064690172672272
+        },
+        {
+          "for": -0.07515773922204971
+        },
+        {
+          "the": -0.09450000524520874
+        },
+        {
+          "area": -0.2250320464372635
+        },
+        {
+          "that": -0.08658317476511002
+        },
+        {
+          "the": -0.14413975179195404
+        },
+        {
+          "eastern": -0.9350569248199463
+        },
+        {
+          "sector": -0.021517401561141014
+        },
+        {
+          "of": -0.0031655936036258936
+        },
+        {
+          "the": -0.016136521473526955
+        },
+        {
+          "Colorado": -0.11455249786376953
+        },
+        {
+          "or": -0.010192841291427612
+        },
+        {
+          "ogen": -0.00047839165199548006
+        },
+        {
+          "y": -0.000324673397699371
+        },
+        {
+          "extends": -0.013123566284775734
+        },
+        {
+          "into": -0.004738055635243654
+        },
+        {
+          "?": -0.034020427614450455
+        },
+        {
+          "<0x0A>": -0.009677400812506676
+        },
+        {
+          "Th": -0.03404854238033295
+        },
+        {
+          "ought": -0.00014768941036891192
+        },
+        {
+          ":": -0.0011748324614018202
+        },
+        {
+          "Let": -0.022593000903725624
+        },
+        {
+          "'": -0.001833664020523429
+        },
+        {
+          "s": -8.177422569133341e-05
+        },
+        {
+          "think": -0.002536058658733964
+        },
+        {
+          "step": -0.0012900849105790257
+        },
+        {
+          "by": -0.00029869386344216764
+        },
+        {
+          "step": -5.030505417380482e-05
+        },
+        {
+          ".": -0.0013508014380931854
+        },
+        {
+          "The": -0.0868397206068039
+        },
+        {
+          "eastern": -0.04244855418801308
+        },
+        {
+          "sector": -0.0018106985371559858
+        },
+        {
+          "of": -0.0017325166845694184
+        },
+        {
+          "Colorado": -0.14669890701770782
+        },
+        {
+          "or": -0.006484775338321924
+        },
+        {
+          "ogen": -0.0002119316632160917
+        },
+        {
+          "y": -0.00039891392225399613
+        },
+        {
+          "extends": -0.005221894942224026
+        },
+        {
+          "into": -0.002757915062829852
+        },
+        {
+          "the": -0.031285934150218964
+        },
+        {
+          "High": -0.03197164461016655
+        },
+        {
+          "Pla": -0.0016398091102018952
+        },
+        {
+          "ins": -0.00010799778101500124
+        },
+        {
+          ".": -0.03806425258517265
+        },
+        {
+          "High": -0.05332758650183678
+        },
+        {
+          "Pla": -0.004984571132808924
+        },
+        {
+          "ins": -3.802703940891661e-05
+        },
+        {
+          "rise": -0.03584928438067436
+        },
+        {
+          "in": -0.00264140497893095
+        },
+        {
+          "elev": -0.00027366707217879593
+        },
+        {
+          "ation": -0.00015901254664640874
+        },
+        {
+          "from": -0.0008357845945283771
+        },
+        {
+          "around": -0.009247565641999245
+        },
+        {
+          "": -0.0013394916895776987
+        },
+        {
+          "1": -0.006709428504109383
+        },
+        {
+          ",": -0.007152073550969362
+        },
+        {
+          "8": -0.0015479261055588722
+        },
+        {
+          "0": -0.0002108589978888631
+        },
+        {
+          "0": -2.6940935640595853e-05
+        },
+        {
+          "to": -0.00538802333176136
+        },
+        {
+          "": -0.0005301024066284299
+        },
+        {
+          "7": -0.0018306892598047853
+        },
+        {
+          ",": -0.0005735897575505078
+        },
+        {
+          "0": -0.000278195773717016
+        },
+        {
+          "0": -1.645074735279195e-05
+        },
+        {
+          "0": -3.313963316031732e-05
+        },
+        {
+          "ft": -0.007406632881611586
+        },
+        {
+          ",": -0.021945377811789513
+        },
+        {
+          "so": -0.0014477020595222712
+        },
+        {
+          "the": -0.0026899129152297974
+        },
+        {
+          "answer": -0.00906553864479065
+        },
+        {
+          "is": -0.0020217709243297577
+        },
+        {
+          "": -0.0057538594119250774
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are William Kronick and Jon Turteltaub both television writers ?\nThought 1:Let's think step by step. William Kronick is a television writer. Jon Turteltaub is a television writer. So William Kronick and Jon Turteltaub are both television writers.\nAnswer: Yes\nAction 1: MeasureUncertainty [Yes]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Yes",
+  "summary": {
+    "final_answer": "Yes",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

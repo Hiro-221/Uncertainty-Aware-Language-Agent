@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5965,
+  "question": "Question: How many miles west of Phoenix, Arizona is the base where the 63d Fighter Squadron is assigned?",
+  "gold_answer": "15",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many miles west of Phoenix, Arizona is the base where the 63d Fighter Squadron is assigned?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many miles west of Phoenix, Arizona is the base where the 63d Fighter Squadron is assigned?\nThought:",
+      "output": "Let's think step by step. The 63d Fighter Squadron is assigned to Luke Air Force Base. Luke Air Force Base is 15 miles west of Phoenix, Arizona. So the base where the 63d Fighter Squadron is assigned is 15 miles west of Phoenix, Arizona.\nAnswer: 15 miles\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a remake of",
+      "probs": [
+        {
+          "Let": -0.01314262580126524
+        },
+        {
+          "'": -0.00040046300273388624
+        },
+        {
+          "s": -2.3483953555114567e-05
+        },
+        {
+          "think": -0.0011520899133756757
+        },
+        {
+          "step": -0.000619696278590709
+        },
+        {
+          "by": -0.00024971229140646756
+        },
+        {
+          "step": -0.0001299296854995191
+        },
+        {
+          ".": -0.0007415643776766956
+        },
+        {
+          "The": -0.881423830986023
+        },
+        {
+          "": -0.33707395195961
+        },
+        {
+          "6": -0.019174575805664062
+        },
+        {
+          "3": -0.005536342039704323
+        },
+        {
+          "d": -0.021080369129776955
+        },
+        {
+          "F": -0.007053356617689133
+        },
+        {
+          "ighter": -0.00042906138696707785
+        },
+        {
+          "Squadron": -0.007368648424744606
+        },
+        {
+          "is": -0.06425824016332626
+        },
+        {
+          "assigned": -0.25401562452316284
+        },
+        {
+          "to": -0.5032572746276855
+        },
+        {
+          "Luke": -0.24512134492397308
+        },
+        {
+          "Air": -0.17825186252593994
+        },
+        {
+          "Force": -0.002648895373567939
+        },
+        {
+          "Base": -0.004850644152611494
+        },
+        {
+          ".": -0.8900593519210815
+        },
+        {
+          "Luke": -0.6551049947738647
+        },
+        {
+          "Air": -0.05958772078156471
+        },
+        {
+          "Force": -0.002096956130117178
+        },
+        {
+          "Base": -0.019483380019664764
+        },
+        {
+          "is": -0.0308024063706398
+        },
+        {
+          "": -0.7980111837387085
+        },
+        {
+          "1": -0.16412252187728882
+        },
+        {
+          "5": -0.47794926166534424
+        },
+        {
+          "miles": -0.13529914617538452
+        },
+        {
+          "west": -0.04572845622897148
+        },
+        {
+          "of": -0.008606485091149807
+        },
+        {
+          "Phoenix": -0.015555125661194324
+        },
+        {
+          ",": -0.10684744268655777
+        },
+        {
+          "Arizona": -0.11032724380493164
+        },
+        {
+          ".": -0.3993508815765381
+        },
+        {
+          "So": -0.3684789538383484
+        },
+        {
+          "the": -0.3801652193069458
+        },
+        {
+          "base": -0.6124412417411804
+        },
+        {
+          "where": -0.08694583922624588
+        },
+        {
+          "the": -0.015436223708093166
+        },
+        {
+          "": -0.0012368656462058425
+        },
+        {
+          "6": -0.0005947966128587723
+        },
+        {
+          "3": -0.0006827168981544673
+        },
+        {
+          "d": -0.0027978583239018917
+        },
+        {
+          "F": -0.0015873225638642907
+        },
+        {
+          "ighter": -0.00015960850578267127
+        },
+        {
+          "Squadron": -0.0012353177880868316
+        },
+        {
+          "is": -0.0017591729993000627
+        },
+        {
+          "assigned": -0.005669466219842434
+        },
+        {
+          "is": -0.03911750763654709
+        },
+        {
+          "": -0.04671986773610115
+        },
+        {
+          "1": -0.001026341924443841
+        },
+        {
+          "5": -0.0008412636234425008
+        },
+        {
+          "miles": -0.006342757027596235
+        },
+        {
+          "west": -0.03791448101401329
+        },
+        {
+          "of": -0.0054980493150651455
+        },
+        {
+          "Phoenix": -0.0012393658980727196
+        },
+        {
+          ",": -0.01875395141541958
+        },
+        {
+          "Arizona": -0.0010943383676931262
+        },
+        {
+          ".": -0.014191068708896637
+        },
+        {
+          "<0x0A>": -0.004122687969356775
+        },
+        {
+          "Answer": -0.0019795361440628767
+        },
+        {
+          ":": -0.000551310193259269
+        },
+        {
+          "": -0.008264390751719475
+        },
+        {
+          "1": -0.0007653883076272905
+        },
+        {
+          "5": -0.0008237544680014253
+        },
+        {
+          "miles": -0.27402278780937195
+        },
+        {
+          "<0x0A>": -0.2097170650959015
+        },
+        {
+          "Question": -0.1818988174200058
+        },
+        {
+          ":": -0.0002369599969824776
+        },
+        {
+          "What": -1.4472883939743042
+        },
+        {
+          "is": -1.200221300125122
+        },
+        {
+          "the": -0.40499427914619446
+        },
+        {
+          "name": -2.3135411739349365
+        },
+        {
+          "of": -0.05619606375694275
+        },
+        {
+          "the": -0.37972912192344666
+        },
+        {
+          "": -3.481868267059326
+        },
+        {
+          "1": -0.6886427998542786
+        },
+        {
+          "9": -0.24472784996032715
+        },
+        {
+          "9": -1.2884196043014526
+        },
+        {
+          "9": -2.0732388496398926
+        },
+        {
+          "film": -1.6091647148132324
+        },
+        {
+          "that": -1.7231934070587158
+        },
+        {
+          "is": -1.8908692598342896
+        },
+        {
+          "a": -1.4019358158111572
+        },
+        {
+          "re": -1.172285795211792
+        },
+        {
+          "make": -0.032569076865911484
+        },
+        {
+          "of": -0.016214875504374504
+        },
+        {
+          "the": -0.8027501106262207
+        },
+        {
+          "": -0.2762450873851776
+        },
+        {
+          "1": -0.013083327561616898
+        },
+        {
+          "9": -0.0021090900991111994
+        },
+        {
+          "6": -1.338991641998291
+        },
+        {
+          "0": -1.9397984743118286
+        },
+        {
+          "film": -0.3688741624355316
+        },
+        {
+          "Ocean": -1.4396766424179077
+        },
+        {
+          "'": -0.01015567034482956
+        },
+        {
+          "s": -0.00016699827392585576
+        },
+        {
+          "": -0.49882766604423523
+        },
+        {
+          "1": -0.0002740246127359569
+        },
+        {
+          "1": -0.0004998388467356563
+        },
+        {
+          "?": -0.29809555411338806
+        },
+        {
+          "<0x0A>": -0.0046844263561069965
+        },
+        {
+          "Th": -0.004138477612286806
+        },
+        {
+          "ought": -2.2053474822314456e-05
+        },
+        {
+          ":": -0.00013183678674977273
+        },
+        {
+          "Let": -0.010270718485116959
+        },
+        {
+          "'": -0.00036816971260122955
+        },
+        {
+          "s": -3.2543604902457446e-05
+        },
+        {
+          "think": -0.000426439888542518
+        },
+        {
+          "step": -0.00025817399728111923
+        },
+        {
+          "by": -0.00016985881666187197
+        },
+        {
+          "step": -1.2278481335670222e-05
+        },
+        {
+          ".": -0.0003488647344056517
+        },
+        {
+          "Ocean": -0.5928747057914734
+        },
+        {
+          "'": -0.0066930875182151794
+        },
+        {
+          "s": -0.00022825974156148732
+        },
+        {
+          "Ele": -0.46664851903915405
+        },
+        {
+          "ven": -3.659658250398934e-05
+        },
+        {
+          "is": -0.37237438559532166
+        },
+        {
+          "a": -0.2579163610935211
+        },
+        {
+          "re": -0.5688750147819519
+        },
+        {
+          "make": -0.0014132998185232282
+        },
+        {
+          "of": -0.005749355535954237
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: How many miles west of Phoenix, Arizona is the base where the 63d Fighter Squadron is assigned?\nThought 1:Let's think step by step. The 63d Fighter Squadron is assigned to Luke Air Force Base. Luke Air Force Base is 15 miles west of Phoenix, Arizona. So the base where the 63d Fighter Squadron is assigned is 15 miles west of Phoenix, Arizona.\nAnswer: 15 miles\nAction 1: MeasureUncertainty [15 miles]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 15 miles",
+  "summary": {
+    "final_answer": "15 miles",
+    "em": false,
+    "f1": 0.6666666666666666,
+    "mode": "uala_cot_only"
+  }
+}

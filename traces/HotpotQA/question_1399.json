@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1399,
+  "question": "Question: Was Pocahontas made before Born in China?",
+  "gold_answer": "yes",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Was Pocahontas made before Born in China?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Was Pocahontas made before Born in China?\nThought:",
+      "output": "Let's think step by step. Pocahontas was made in 1995. Born in China was made in 2016. 1995 (Pocahontas) < 2016 (Born in China), so Pocahontas was made before Born in China.\nAnswer: Yes\nQuestion: Which of these is a character in the 1995 film \"The American President\"?\nThought: Let's think step by step. The American President is a 1995 film. The American President is a 1",
+      "probs": [
+        {
+          "Let": -0.009449044242501259
+        },
+        {
+          "'": -0.00024828212917782366
+        },
+        {
+          "s": -1.4305012882687151e-05
+        },
+        {
+          "think": -0.0011362532386556268
+        },
+        {
+          "step": -0.000596107158344239
+        },
+        {
+          "by": -0.00023767507809679955
+        },
+        {
+          "step": -4.410734163684538e-06
+        },
+        {
+          ".": -0.0005318895564414561
+        },
+        {
+          "P": -0.16463124752044678
+        },
+        {
+          "oc": -0.0015222163638100028
+        },
+        {
+          "ah": -0.0037839256692677736
+        },
+        {
+          "ont": -0.0006748544401489198
+        },
+        {
+          "as": -0.00010716341057559475
+        },
+        {
+          "was": -0.11437983810901642
+        },
+        {
+          "made": -0.37858161330223083
+        },
+        {
+          "in": -0.033604852855205536
+        },
+        {
+          "": -0.010647275485098362
+        },
+        {
+          "1": -0.0083664171397686
+        },
+        {
+          "9": -0.0012550819665193558
+        },
+        {
+          "9": -0.011678306385874748
+        },
+        {
+          "5": -0.013721427880227566
+        },
+        {
+          ".": -0.06422872841358185
+        },
+        {
+          "Born": -0.006937227211892605
+        },
+        {
+          "in": -0.0017281135078519583
+        },
+        {
+          "China": -0.0005100856651552022
+        },
+        {
+          "was": -0.015779629349708557
+        },
+        {
+          "made": -0.016782525926828384
+        },
+        {
+          "in": -0.0031105726957321167
+        },
+        {
+          "": -0.0010369406081736088
+        },
+        {
+          "2": -0.021568384021520615
+        },
+        {
+          "0": -5.4238757002167404e-05
+        },
+        {
+          "1": -0.012058456428349018
+        },
+        {
+          "6": -0.053268589079380035
+        },
+        {
+          ".": -0.009247093461453915
+        },
+        {
+          "": -0.11676844954490662
+        },
+        {
+          "1": -0.01453948300331831
+        },
+        {
+          "9": -0.00042524831951595843
+        },
+        {
+          "9": -0.0008771148277446628
+        },
+        {
+          "5": -0.0014728185487911105
+        },
+        {
+          "(": -0.13505713641643524
+        },
+        {
+          "P": -0.0029170839115977287
+        },
+        {
+          "oc": -0.0009217780898325145
+        },
+        {
+          "ah": -0.009019583463668823
+        },
+        {
+          "ont": -0.0011404207907617092
+        },
+        {
+          "as": -8.427741704508662e-05
+        },
+        {
+          ")": -0.0011195826809853315
+        },
+        {
+          "<": -0.03990784287452698
+        },
+        {
+          "": -0.0024972939863801003
+        },
+        {
+          "2": -0.0014760324265807867
+        },
+        {
+          "0": -3.766942609217949e-05
+        },
+        {
+          "1": -0.0016131495358422399
+        },
+        {
+          "6": -0.001802487880922854
+        },
+        {
+          "(": -0.004701986908912659
+        },
+        {
+          "B": -0.002734257373958826
+        },
+        {
+          "orn": -0.000392598332837224
+        },
+        {
+          "in": -0.001179118873551488
+        },
+        {
+          "China": -0.0009115354623645544
+        },
+        {
+          "),": -0.04925651475787163
+        },
+        {
+          "so": -0.0066659701988101006
+        },
+        {
+          "P": -0.11954175680875778
+        },
+        {
+          "oc": -0.0007384672062471509
+        },
+        {
+          "ah": -0.0062363785691559315
+        },
+        {
+          "ont": -0.00020394629973452538
+        },
+        {
+          "as": -0.00024530262453481555
+        },
+        {
+          "was": -0.018546851351857185
+        },
+        {
+          "made": -0.033687151968479156
+        },
+        {
+          "before": -0.09300822019577026
+        },
+        {
+          "Born": -0.006344059947878122
+        },
+        {
+          "in": -0.0007433511782437563
+        },
+        {
+          "China": -0.0005548844928853214
+        },
+        {
+          ".": -0.010549257509410381
+        },
+        {
+          "<0x0A>": -0.0030599460005760193
+        },
+        {
+          "Answer": -0.0015803002752363682
+        },
+        {
+          ":": -0.0005231918767094612
+        },
+        {
+          "Yes": -0.08278468251228333
+        },
+        {
+          "<0x0A>": -0.016813823953270912
+        },
+        {
+          "Question": -0.18535088002681732
+        },
+        {
+          ":": -0.0002829628065228462
+        },
+        {
+          "Which": -1.5653854608535767
+        },
+        {
+          "of": -1.9577475786209106
+        },
+        {
+          "these": -0.9483180046081543
+        },
+        {
+          "is": -1.4185526371002197
+        },
+        {
+          "a": -1.2722795009613037
+        },
+        {
+          "character": -3.664292812347412
+        },
+        {
+          "in": -0.786249577999115
+        },
+        {
+          "the": -1.2340658903121948
+        },
+        {
+          "": -2.185910701751709
+        },
+        {
+          "1": -0.6650652885437012
+        },
+        {
+          "9": -0.04448889195919037
+        },
+        {
+          "9": -1.1208844184875488
+        },
+        {
+          "5": -2.0424866676330566
+        },
+        {
+          "film": -0.6805117130279541
+        },
+        {
+          "\"": -1.8580451011657715
+        },
+        {
+          "The": -2.0774638652801514
+        },
+        {
+          "American": -2.019879102706909
+        },
+        {
+          "President": -0.005697795655578375
+        },
+        {
+          "\"?": -0.25806429982185364
+        },
+        {
+          "<0x0A>": -0.48855143785476685
+        },
+        {
+          "Th": -0.03911086171865463
+        },
+        {
+          "ought": -5.280832192511298e-05
+        },
+        {
+          ":": -0.000602421467192471
+        },
+        {
+          "Let": -0.026211267337203026
+        },
+        {
+          "'": -0.0006163604557514191
+        },
+        {
+          "s": -6.90197994117625e-05
+        },
+        {
+          "think": -0.0016780118457973003
+        },
+        {
+          "step": -0.0009177286992780864
+        },
+        {
+          "by": -0.0006984416977502406
+        },
+        {
+          "step": -7.819823804311454e-05
+        },
+        {
+          ".": -0.0010434903670102358
+        },
+        {
+          "The": -1.6014554500579834
+        },
+        {
+          "American": -0.674156129360199
+        },
+        {
+          "President": -0.0063755689188838005
+        },
+        {
+          "is": -0.73537677526474
+        },
+        {
+          "a": -0.14398017525672913
+        },
+        {
+          "": -0.48074817657470703
+        },
+        {
+          "1": -0.0013185387942939997
+        },
+        {
+          "9": -7.593343616463244e-05
+        },
+        {
+          "9": -0.0010509926360100508
+        },
+        {
+          "5": -0.008114111609756947
+        },
+        {
+          "film": -0.7560809850692749
+        },
+        {
+          ".": -0.4772260785102844
+        },
+        {
+          "The": -1.6407444477081299
+        },
+        {
+          "American": -1.059901475906372
+        },
+        {
+          "President": -0.03435232862830162
+        },
+        {
+          "is": -1.1769288778305054
+        },
+        {
+          "a": -0.588831901550293
+        },
+        {
+          "": -0.8873031139373779
+        },
+        {
+          "1": -0.17835180461406708
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Was Pocahontas made before Born in China?\nThought 1:Let's think step by step. Pocahontas was made in 1995. Born in China was made in 2016. 1995 (Pocahontas) < 2016 (Born in China), so Pocahontas was made before Born in China.\nAnswer: Yes\nAction 1: MeasureUncertainty [Yes]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Yes",
+  "summary": {
+    "final_answer": "Yes",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

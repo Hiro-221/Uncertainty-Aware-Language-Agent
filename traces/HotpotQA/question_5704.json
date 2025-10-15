@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5704,
+  "question": "Question: Meet Market is a 2004 film starring which son of a former prime minister?",
+  "gold_answer": "Julian McMahon",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Meet Market is a 2004 film starring which son of a former prime minister?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Meet Market is a 2004 film starring which son of a former prime minister?\nThought:",
+      "output": "Let's think step by step. Meet Market is a 2004 film starring Patrick Stewart. Patrick Stewart is a son of a former prime minister. So the son of a former prime minister is Patrick Stewart.\nAnswer: Patrick Stewart\nQuestion: Which of the following is a 1990s film directed by John Woo?\nThought: Let's think step by step. A Better Tomorrow III is a 1990s film directed by John Woo.\nAnswer: A Better Tomorrow III\nQuestion: Which of the following is a 1990",
+      "probs": [
+        {
+          "Let": -0.019818153232336044
+        },
+        {
+          "'": -0.000460876093711704
+        },
+        {
+          "s": -4.7801782784517854e-05
+        },
+        {
+          "think": -0.0012525817146524787
+        },
+        {
+          "step": -0.0006239851354621351
+        },
+        {
+          "by": -0.00025781645672395825
+        },
+        {
+          "step": -3.969590397900902e-05
+        },
+        {
+          ".": -0.0005566716426983476
+        },
+        {
+          "Me": -0.5213803052902222
+        },
+        {
+          "et": -0.0007503792876377702
+        },
+        {
+          "Market": -0.0039856769144535065
+        },
+        {
+          "is": -0.17172586917877197
+        },
+        {
+          "a": -0.01822979561984539
+        },
+        {
+          "": -0.037973932921886444
+        },
+        {
+          "2": -0.00016008525562938303
+        },
+        {
+          "0": -4.2914423829643056e-05
+        },
+        {
+          "0": -0.00030071981018409133
+        },
+        {
+          "4": -0.003217284567654133
+        },
+        {
+          "film": -0.02700698934495449
+        },
+        {
+          "st": -0.09117724746465683
+        },
+        {
+          "arring": -0.0005250982358120382
+        },
+        {
+          "Patrick": -2.204838991165161
+        },
+        {
+          "Stewart": -2.0640385150909424
+        },
+        {
+          ".": -0.7073909044265747
+        },
+        {
+          "Patrick": -0.30493301153182983
+        },
+        {
+          "Stewart": -0.01599164493381977
+        },
+        {
+          "is": -0.27592888474464417
+        },
+        {
+          "a": -1.1395974159240723
+        },
+        {
+          "son": -0.1714969277381897
+        },
+        {
+          "of": -0.004528861492872238
+        },
+        {
+          "a": -0.49244725704193115
+        },
+        {
+          "former": -0.12049023807048798
+        },
+        {
+          "prime": -0.11040624231100082
+        },
+        {
+          "minister": -0.0022526620887219906
+        },
+        {
+          ".": -0.9032784104347229
+        },
+        {
+          "So": -0.43548187613487244
+        },
+        {
+          "the": -0.8659565448760986
+        },
+        {
+          "son": -0.6144657135009766
+        },
+        {
+          "of": -0.07502193748950958
+        },
+        {
+          "a": -0.01980436220765114
+        },
+        {
+          "former": -0.002736516296863556
+        },
+        {
+          "prime": -0.0019468179671093822
+        },
+        {
+          "minister": -0.002612869720906019
+        },
+        {
+          "is": -0.35194432735443115
+        },
+        {
+          "Patrick": -0.004523521289229393
+        },
+        {
+          "Stewart": -0.0047608353197574615
+        },
+        {
+          ".": -0.010609177872538567
+        },
+        {
+          "<0x0A>": -0.004288286902010441
+        },
+        {
+          "Answer": -0.0016424274072051048
+        },
+        {
+          ":": -0.00031728477915748954
+        },
+        {
+          "Patrick": -0.0037817880511283875
+        },
+        {
+          "Stewart": -0.003289290703833103
+        },
+        {
+          "<0x0A>": -0.015832548961043358
+        },
+        {
+          "Question": -0.21045544743537903
+        },
+        {
+          ":": -0.0002575780963525176
+        },
+        {
+          "Which": -1.433379888534546
+        },
+        {
+          "of": -1.8397481441497803
+        },
+        {
+          "the": -0.8469390869140625
+        },
+        {
+          "following": -0.11045385152101517
+        },
+        {
+          "is": -1.0988073348999023
+        },
+        {
+          "a": -1.4007177352905273
+        },
+        {
+          "": -3.742490530014038
+        },
+        {
+          "1": -0.7708317637443542
+        },
+        {
+          "9": -0.10046806931495667
+        },
+        {
+          "9": -1.3965424299240112
+        },
+        {
+          "0": -1.9031212329864502
+        },
+        {
+          "s": -0.6172382235527039
+        },
+        {
+          "film": -2.1291027069091797
+        },
+        {
+          "directed": -2.001535415649414
+        },
+        {
+          "by": -0.013793622143566608
+        },
+        {
+          "John": -3.302710771560669
+        },
+        {
+          "W": -2.131157875061035
+        },
+        {
+          "oo": -0.3764880299568176
+        },
+        {
+          "?": -0.37379205226898193
+        },
+        {
+          "<0x0A>": -0.2939266860485077
+        },
+        {
+          "Th": -0.04916062206029892
+        },
+        {
+          "ought": -0.00012087091454304755
+        },
+        {
+          ":": -0.0006279165390878916
+        },
+        {
+          "Let": -0.02196473628282547
+        },
+        {
+          "'": -0.0005371319712139666
+        },
+        {
+          "s": -1.5735502529423684e-05
+        },
+        {
+          "think": -0.0018528213258832693
+        },
+        {
+          "step": -0.000512111175339669
+        },
+        {
+          "by": -0.0001793938863556832
+        },
+        {
+          "step": -4.565611743601039e-05
+        },
+        {
+          ".": -0.0009544108179397881
+        },
+        {
+          "A": -1.7561333179473877
+        },
+        {
+          "Better": -0.6685951352119446
+        },
+        {
+          "Tom": -0.029785940423607826
+        },
+        {
+          "orrow": -0.0007855190197005868
+        },
+        {
+          "III": -0.95855712890625
+        },
+        {
+          "is": -0.30561497807502747
+        },
+        {
+          "a": -0.1249476969242096
+        },
+        {
+          "": -0.05482893064618111
+        },
+        {
+          "1": -0.006026904564350843
+        },
+        {
+          "9": -0.00016223068814724684
+        },
+        {
+          "9": -0.26416414976119995
+        },
+        {
+          "0": -0.009458373300731182
+        },
+        {
+          "s": -0.05967981368303299
+        },
+        {
+          "film": -0.014209873043000698
+        },
+        {
+          "directed": -0.08750029653310776
+        },
+        {
+          "by": -0.0011441120877861977
+        },
+        {
+          "John": -0.12859226763248444
+        },
+        {
+          "W": -0.002284894697368145
+        },
+        {
+          "oo": -6.210611172718927e-05
+        },
+        {
+          ".": -0.05779505521059036
+        },
+        {
+          "<0x0A>": -1.5198876857757568
+        },
+        {
+          "Answer": -0.03725890815258026
+        },
+        {
+          ":": -0.0008554374799132347
+        },
+        {
+          "A": -0.011876232922077179
+        },
+        {
+          "Better": -0.0005295066512189806
+        },
+        {
+          "Tom": -0.00037126801908016205
+        },
+        {
+          "orrow": -0.0002609150833450258
+        },
+        {
+          "III": -0.002961775055155158
+        },
+        {
+          "<0x0A>": -0.022610599175095558
+        },
+        {
+          "Question": -0.18101102113723755
+        },
+        {
+          ":": -0.0002308817347511649
+        },
+        {
+          "Which": -1.2713823318481445
+        },
+        {
+          "of": -0.9613519906997681
+        },
+        {
+          "the": -0.17152345180511475
+        },
+        {
+          "following": -0.03005516342818737
+        },
+        {
+          "is": -0.6182997822761536
+        },
+        {
+          "a": -0.46334266662597656
+        },
+        {
+          "": -0.7402052283287048
+        },
+        {
+          "1": -0.22747641801834106
+        },
+        {
+          "9": -0.010481664910912514
+        },
+        {
+          "9": -0.3672693371772766
+        },
+        {
+          "0": -0.05298847332596779
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Meet Market is a 2004 film starring which son of a former prime minister?\nThought 1:Let's think step by step. Meet Market is a 2004 film starring Patrick Stewart. Patrick Stewart is a son of a former prime minister. So the son of a former prime minister is Patrick Stewart.\nAnswer: Patrick Stewart\nAction 1: MeasureUncertainty [Patrick Stewart]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Patrick Stewart",
+  "summary": {
+    "final_answer": "Patrick Stewart",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

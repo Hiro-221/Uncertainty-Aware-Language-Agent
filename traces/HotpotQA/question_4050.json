@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4050,
+  "question": "Question: What nationality is the man who developed the dictator game?",
+  "gold_answer": "Israeli-American",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What nationality is the man who developed the dictator game?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What nationality is the man who developed the dictator game?\nThought:",
+      "output": "Let's think step by step. The dictator game was developed by Werner Güth. Werner Güth is a German economist. So the man who developed the dictator game is German.\nAnswer: German\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999 film Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let",
+      "probs": [
+        {
+          "Let": -0.014252182096242905
+        },
+        {
+          "'": -0.0005896736984141171
+        },
+        {
+          "s": -8.106198947643861e-06
+        },
+        {
+          "think": -0.0009899006690829992
+        },
+        {
+          "step": -0.000482442817883566
+        },
+        {
+          "by": -0.0002172949316445738
+        },
+        {
+          "step": -0.00011717586312443018
+        },
+        {
+          ".": -0.000679500459227711
+        },
+        {
+          "The": -0.7566819787025452
+        },
+        {
+          "dict": -0.49111485481262207
+        },
+        {
+          "ator": -0.0008434075862169266
+        },
+        {
+          "game": -0.003968816716223955
+        },
+        {
+          "was": -0.17819680273532867
+        },
+        {
+          "developed": -0.07613256573677063
+        },
+        {
+          "by": -0.034061331301927567
+        },
+        {
+          "Werner": -0.5959586501121521
+        },
+        {
+          "Gü": -0.14539025723934174
+        },
+        {
+          "th": -0.000539634027518332
+        },
+        {
+          ".": -0.5914696455001831
+        },
+        {
+          "Werner": -0.3235071897506714
+        },
+        {
+          "Gü": -0.050410959869623184
+        },
+        {
+          "th": -0.0008887869771569967
+        },
+        {
+          "is": -0.0975075215101242
+        },
+        {
+          "a": -0.7162743806838989
+        },
+        {
+          "German": -0.040174927562475204
+        },
+        {
+          "econom": -0.21663859486579895
+        },
+        {
+          "ist": -0.006622036453336477
+        },
+        {
+          ".": -0.61742103099823
+        },
+        {
+          "So": -0.1219557523727417
+        },
+        {
+          "the": -0.31568920612335205
+        },
+        {
+          "man": -0.6066185832023621
+        },
+        {
+          "who": -0.06603658199310303
+        },
+        {
+          "developed": -0.006674022413790226
+        },
+        {
+          "the": -0.009735367260873318
+        },
+        {
+          "dict": -0.006294663064181805
+        },
+        {
+          "ator": -0.001919690752401948
+        },
+        {
+          "game": -0.0016282646683976054
+        },
+        {
+          "is": -0.08905920386314392
+        },
+        {
+          "German": -0.20167839527130127
+        },
+        {
+          ".": -0.019415220245718956
+        },
+        {
+          "<0x0A>": -0.003582608886063099
+        },
+        {
+          "Answer": -0.0015776818618178368
+        },
+        {
+          ":": -0.0004844683862756938
+        },
+        {
+          "German": -0.012120171450078487
+        },
+        {
+          "<0x0A>": -0.02005326747894287
+        },
+        {
+          "Question": -0.21703927218914032
+        },
+        {
+          ":": -0.00038747431244701147
+        },
+        {
+          "What": -1.2835228443145752
+        },
+        {
+          "is": -1.373560905456543
+        },
+        {
+          "the": -0.3750338554382324
+        },
+        {
+          "name": -2.3707845211029053
+        },
+        {
+          "of": -0.047132644802331924
+        },
+        {
+          "the": -0.3364030718803406
+        },
+        {
+          "": -3.5167198181152344
+        },
+        {
+          "1": -0.6465715765953064
+        },
+        {
+          "9": -0.17142553627490997
+        },
+        {
+          "9": -1.3489985466003418
+        },
+        {
+          "9": -2.0651004314422607
+        },
+        {
+          "film": -1.6141629219055176
+        },
+        {
+          "that": -1.6816017627716064
+        },
+        {
+          "was": -1.9597047567367554
+        },
+        {
+          "directed": -1.2826457023620605
+        },
+        {
+          "by": -0.030781947076320648
+        },
+        {
+          "John": -3.547907590866089
+        },
+        {
+          "W": -2.479235887527466
+        },
+        {
+          "oo": -0.2405312955379486
+        },
+        {
+          "?": -0.7532212138175964
+        },
+        {
+          "<0x0A>": -0.00849951896816492
+        },
+        {
+          "Th": -0.005590636748820543
+        },
+        {
+          "ought": -2.8371408916427754e-05
+        },
+        {
+          ":": -9.202533692587167e-05
+        },
+        {
+          "Let": -0.012919413857161999
+        },
+        {
+          "'": -0.0003064401389565319
+        },
+        {
+          "s": -2.3364747903542593e-05
+        },
+        {
+          "think": -0.00034433635300956666
+        },
+        {
+          "step": -0.00033766290289349854
+        },
+        {
+          "by": -8.487341256113723e-05
+        },
+        {
+          "step": -0.00014840454969089478
+        },
+        {
+          ".": -0.0002833203470800072
+        },
+        {
+          "John": -1.4120121002197266
+        },
+        {
+          "W": -0.003799482947215438
+        },
+        {
+          "oo": -0.000192504478036426
+        },
+        {
+          "directed": -0.4178975820541382
+        },
+        {
+          "the": -1.4458580017089844
+        },
+        {
+          "": -0.3217736780643463
+        },
+        {
+          "1": -0.028174642473459244
+        },
+        {
+          "9": -0.00028391621890477836
+        },
+        {
+          "9": -0.01608608104288578
+        },
+        {
+          "9": -0.1574772745370865
+        },
+        {
+          "film": -0.07661851495504379
+        },
+        {
+          "Face": -0.777434229850769
+        },
+        {
+          "/": -0.020624347031116486
+        },
+        {
+          "Off": -0.002664945786818862
+        },
+        {
+          ".": -0.10002484917640686
+        },
+        {
+          "<0x0A>": -0.6211297512054443
+        },
+        {
+          "Answer": -0.003469996154308319
+        },
+        {
+          ":": -0.00038818930624984205
+        },
+        {
+          "Face": -0.0043898881413042545
+        },
+        {
+          "/": -0.004215402994304895
+        },
+        {
+          "Off": -0.00443368311971426
+        },
+        {
+          "<0x0A>": -0.02631867676973343
+        },
+        {
+          "Question": -0.2500919997692108
+        },
+        {
+          ":": -0.0002489972102921456
+        },
+        {
+          "What": -1.127553105354309
+        },
+        {
+          "is": -1.0484524965286255
+        },
+        {
+          "the": -0.2157023549079895
+        },
+        {
+          "name": -0.9756869077682495
+        },
+        {
+          "of": -0.01091238483786583
+        },
+        {
+          "the": -0.15126626193523407
+        },
+        {
+          "": -1.227234959602356
+        },
+        {
+          "1": -0.44137123227119446
+        },
+        {
+          "9": -0.02678000181913376
+        },
+        {
+          "9": -0.46486619114875793
+        },
+        {
+          "9": -0.4891115427017212
+        },
+        {
+          "film": -0.06559592485427856
+        },
+        {
+          "that": -0.04760413616895676
+        },
+        {
+          "was": -0.09850240498781204
+        },
+        {
+          "directed": -0.054437603801488876
+        },
+        {
+          "by": -0.0013392536202445626
+        },
+        {
+          "John": -0.7438039779663086
+        },
+        {
+          "W": -0.02442505955696106
+        },
+        {
+          "oo": -0.0007376333815045655
+        },
+        {
+          "?": -0.05452452972531319
+        },
+        {
+          "<0x0A>": -0.007921233773231506
+        },
+        {
+          "Th": -0.036994487047195435
+        },
+        {
+          "ought": -4.768370445162873e-07
+        },
+        {
+          ":": -0.00026222606538794935
+        },
+        {
+          "Let": -0.013067795895040035
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: What nationality is the man who developed the dictator game?\nThought 1:Let's think step by step. The dictator game was developed by Werner Güth. Werner Güth is a German economist. So the man who developed the dictator game is German.\nAnswer: German\nAction 1: MeasureUncertainty [German]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: German",
+  "summary": {
+    "final_answer": "German",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

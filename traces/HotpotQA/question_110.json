@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 110,
+  "question": "Question: Based on a True Story... is an album by which country music star, with the single My Eyes?",
+  "gold_answer": "Blake Shelton",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Based on a True Story... is an album by which country music star, with the single My Eyes?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Based on a True Story... is an album by which country music star, with the single My Eyes?\nThought:",
+      "output": "Let's think step by step. Based on a True Story... is an album by Blake Shelton, with the single My Eyes.\nAnswer: Blake Shelton\nQuestion: Which of these is a 2009 film directed by Michael Hoffman?\nThought: Let's think step by step. The Last Station is a 2009 film directed by Michael Hoffman.\nAnswer: The Last Station\nQuestion: Which of these is a 2009 film directed by Michael Hoffman?\nThought: Let's think step by step. The Last",
+      "probs": [
+        {
+          "Let": -0.012990372255444527
+        },
+        {
+          "'": -0.0005737089086323977
+        },
+        {
+          "s": -2.8132995794294402e-05
+        },
+        {
+          "think": -0.001110890181735158
+        },
+        {
+          "step": -0.00041261743172071874
+        },
+        {
+          "by": -0.00023719835735391825
+        },
+        {
+          "step": -0.005185606423765421
+        },
+        {
+          ".": -0.0006404255982488394
+        },
+        {
+          "Based": -0.6933084726333618
+        },
+        {
+          "on": -0.010050641372799873
+        },
+        {
+          "a": -0.003183418419212103
+        },
+        {
+          "True": -0.0015570909017696977
+        },
+        {
+          "Story": -0.0003725788265001029
+        },
+        {
+          "...": -0.06586873531341553
+        },
+        {
+          "is": -0.07579048722982407
+        },
+        {
+          "an": -0.16240274906158447
+        },
+        {
+          "album": -0.0023941919207572937
+        },
+        {
+          "by": -0.02880156598985195
+        },
+        {
+          "Bla": -0.13183927536010742
+        },
+        {
+          "ke": -2.95634672511369e-05
+        },
+        {
+          "Sh": -0.0007298904820345342
+        },
+        {
+          "el": -0.0005635818815790117
+        },
+        {
+          "ton": -2.3364747903542593e-05
+        },
+        {
+          ",": -0.709824800491333
+        },
+        {
+          "with": -0.47402888536453247
+        },
+        {
+          "the": -0.031430114060640335
+        },
+        {
+          "single": -0.06376736611127853
+        },
+        {
+          "My": -0.1116156131029129
+        },
+        {
+          "E": -0.0005397531786002219
+        },
+        {
+          "yes": -0.00023803261865396053
+        },
+        {
+          ".": -0.09454859793186188
+        },
+        {
+          "<0x0A>": -0.13262741267681122
+        },
+        {
+          "Answer": -0.002760411472991109
+        },
+        {
+          ":": -0.00026663561584427953
+        },
+        {
+          "Bla": -0.021881116554141045
+        },
+        {
+          "ke": -7.164221460698172e-05
+        },
+        {
+          "Sh": -0.0011932880152016878
+        },
+        {
+          "el": -0.0002406545972917229
+        },
+        {
+          "ton": -5.185469490243122e-05
+        },
+        {
+          "<0x0A>": -0.050444964319467545
+        },
+        {
+          "Question": -0.23214839398860931
+        },
+        {
+          ":": -0.000301673193462193
+        },
+        {
+          "Which": -1.5224429368972778
+        },
+        {
+          "of": -1.9304759502410889
+        },
+        {
+          "these": -0.8678951263427734
+        },
+        {
+          "is": -1.5220298767089844
+        },
+        {
+          "a": -1.0260707139968872
+        },
+        {
+          "": -3.3334426879882812
+        },
+        {
+          "2": -0.7312020063400269
+        },
+        {
+          "0": -0.04384845495223999
+        },
+        {
+          "0": -0.7312070727348328
+        },
+        {
+          "9": -1.9352126121520996
+        },
+        {
+          "film": -1.6188876628875732
+        },
+        {
+          "directed": -1.5962685346603394
+        },
+        {
+          "by": -0.016161154955625534
+        },
+        {
+          "Michael": -3.78816556930542
+        },
+        {
+          "Hoff": -2.3108134269714355
+        },
+        {
+          "man": -0.003678224515169859
+        },
+        {
+          "?": -0.5771856307983398
+        },
+        {
+          "<0x0A>": -0.18243543803691864
+        },
+        {
+          "Th": -0.020064016804099083
+        },
+        {
+          "ought": -2.777537883957848e-05
+        },
+        {
+          ":": -0.00027497802511788905
+        },
+        {
+          "Let": -0.016858719289302826
+        },
+        {
+          "'": -0.00048196621355600655
+        },
+        {
+          "s": -4.255681051290594e-05
+        },
+        {
+          "think": -0.0026666102930903435
+        },
+        {
+          "step": -0.0013237770181149244
+        },
+        {
+          "by": -0.0002361257211305201
+        },
+        {
+          "step": -3.349725011503324e-05
+        },
+        {
+          ".": -0.0009776342194527388
+        },
+        {
+          "The": -0.9725139141082764
+        },
+        {
+          "Last": -0.295633465051651
+        },
+        {
+          "Station": -0.00048101297579705715
+        },
+        {
+          "is": -0.28589433431625366
+        },
+        {
+          "a": -0.05687166750431061
+        },
+        {
+          "": -0.03600914031267166
+        },
+        {
+          "2": -0.001856985967606306
+        },
+        {
+          "0": -3.58813522325363e-05
+        },
+        {
+          "0": -0.0017272805562242866
+        },
+        {
+          "9": -0.0014387742849066854
+        },
+        {
+          "film": -0.010007799603044987
+        },
+        {
+          "directed": -0.02484121173620224
+        },
+        {
+          "by": -0.001176975667476654
+        },
+        {
+          "Michael": -0.001336158369667828
+        },
+        {
+          "Hoff": -0.0012688927818089724
+        },
+        {
+          "man": -0.0009180859779007733
+        },
+        {
+          ".": -0.08258043974637985
+        },
+        {
+          "<0x0A>": -0.2168343961238861
+        },
+        {
+          "Answer": -0.0022220939863473177
+        },
+        {
+          ":": -0.0002244459028588608
+        },
+        {
+          "The": -0.006284593604505062
+        },
+        {
+          "Last": -0.0016327871708199382
+        },
+        {
+          "Station": -0.00029774048016406596
+        },
+        {
+          "<0x0A>": -0.021896744146943092
+        },
+        {
+          "Question": -0.21908554434776306
+        },
+        {
+          ":": -0.0002526917669456452
+        },
+        {
+          "Which": -1.4100902080535889
+        },
+        {
+          "of": -1.1720316410064697
+        },
+        {
+          "these": -0.21226169168949127
+        },
+        {
+          "is": -0.7106041312217712
+        },
+        {
+          "a": -0.41361427307128906
+        },
+        {
+          "": -0.7786967158317566
+        },
+        {
+          "2": -0.3126026690006256
+        },
+        {
+          "0": -0.001035749795846641
+        },
+        {
+          "0": -0.29759469628334045
+        },
+        {
+          "9": -0.44305503368377686
+        },
+        {
+          "film": -0.06354846060276031
+        },
+        {
+          "directed": -0.031947165727615356
+        },
+        {
+          "by": -0.00048673225683160126
+        },
+        {
+          "Michael": -0.297130823135376
+        },
+        {
+          "Hoff": -0.003443385474383831
+        },
+        {
+          "man": -0.000436091679148376
+        },
+        {
+          "?": -0.007588252425193787
+        },
+        {
+          "<0x0A>": -0.0046783750876784325
+        },
+        {
+          "Th": -0.023308105766773224
+        },
+        {
+          "ought": -4.3748852476710454e-05
+        },
+        {
+          ":": -9.011816291604191e-05
+        },
+        {
+          "Let": -0.007339537609368563
+        },
+        {
+          "'": -0.00040725519647821784
+        },
+        {
+          "s": -2.47952248173533e-05
+        },
+        {
+          "think": -0.0003328961320221424
+        },
+        {
+          "step": -0.0002300474588992074
+        },
+        {
+          "by": -6.115249561844394e-05
+        },
+        {
+          "step": -9.417489309271332e-06
+        },
+        {
+          ".": -0.00021610308613162488
+        },
+        {
+          "The": -0.42120254039764404
+        },
+        {
+          "Last": -0.13091541826725006
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Based on a True Story... is an album by which country music star, with the single My Eyes?\nThought 1:Let's think step by step. Based on a True Story... is an album by Blake Shelton, with the single My Eyes.\nAnswer: Blake Shelton\nAction 1: MeasureUncertainty [Blake Shelton]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Blake Shelton",
+  "summary": {
+    "final_answer": "Blake Shelton",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

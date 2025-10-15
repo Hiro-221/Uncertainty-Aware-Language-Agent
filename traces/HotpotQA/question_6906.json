@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6906,
+  "question": "Question: Who was the running mate of the man about whose candidacy the 2016 book Insane Clown President: Dispatches from the 2016 Circus documents?",
+  "gold_answer": "Mike Pence",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who was the running mate of the man about whose candidacy the 2016 book Insane Clown President: Dispatches from the 2016 Circus documents?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who was the running mate of the man about whose candidacy the 2016 book Insane Clown President: Dispatches from the 2016 Circus documents?\nThought:",
+      "output": "Let's think step by step. Insane Clown President: Dispatches from the 2016 Circus documents the candidacy of Donald Trump. Donald Trump's running mate is Mike Pence. So the running mate of the man about whose candidacy the 2016 book Insane Clown President: Dispatches from the 2016 Circus documents is Mike Pence.\nAnswer: Mike Pence\nQuestion: What is the name of the 2016 book about the 2016 presidential campaign of the man who was the running mate",
+      "probs": [
+        {
+          "Let": -0.008935465477406979
+        },
+        {
+          "'": -0.0014642480527982116
+        },
+        {
+          "s": -0.21620646119117737
+        },
+        {
+          "think": -0.0006779517862014472
+        },
+        {
+          "step": -0.0007051127031445503
+        },
+        {
+          "by": -0.00015031162183731794
+        },
+        {
+          "step": -6.318072337307967e-06
+        },
+        {
+          ".": -0.0006281548412516713
+        },
+        {
+          "Ins": -1.3345751762390137
+        },
+        {
+          "ane": -0.00048268112004734576
+        },
+        {
+          "C": -0.0025342749431729317
+        },
+        {
+          "low": -0.00017379203927703202
+        },
+        {
+          "n": -5.2927523938706145e-05
+        },
+        {
+          "President": -0.0023084438871592283
+        },
+        {
+          ":": -0.20113182067871094
+        },
+        {
+          "Dis": -0.0008491248008795083
+        },
+        {
+          "patch": -1.3232143828645349e-05
+        },
+        {
+          "es": -6.890059739816934e-05
+        },
+        {
+          "from": -0.001095886342227459
+        },
+        {
+          "the": -0.00031549722189083695
+        },
+        {
+          "": -0.00034231049357913435
+        },
+        {
+          "2": -8.475421054754406e-05
+        },
+        {
+          "0": -4.255681051290594e-05
+        },
+        {
+          "1": -4.672895011026412e-05
+        },
+        {
+          "6": -0.00024971229140646756
+        },
+        {
+          "Circ": -0.0020285521168261766
+        },
+        {
+          "us": -9.691245941212401e-05
+        },
+        {
+          "documents": -0.3472999334335327
+        },
+        {
+          "the": -0.5847156047821045
+        },
+        {
+          "candid": -0.5293405055999756
+        },
+        {
+          "acy": -0.0013262771535664797
+        },
+        {
+          "of": -0.012761946767568588
+        },
+        {
+          "Donald": -0.12855766713619232
+        },
+        {
+          "Trump": -0.023333610966801643
+        },
+        {
+          ".": -0.2244085669517517
+        },
+        {
+          "Donald": -0.9862908124923706
+        },
+        {
+          "Trump": -0.007871204987168312
+        },
+        {
+          "'": -0.19331935048103333
+        },
+        {
+          "s": -0.0006444760947488248
+        },
+        {
+          "running": -0.024649672210216522
+        },
+        {
+          "mate": -0.0056642503477633
+        },
+        {
+          "is": -0.5292785167694092
+        },
+        {
+          "Mike": -0.046409912407398224
+        },
+        {
+          "P": -0.0007419217727147043
+        },
+        {
+          "ence": -0.00020823694649152458
+        },
+        {
+          ".": -0.3300030529499054
+        },
+        {
+          "So": -0.5720129609107971
+        },
+        {
+          "the": -0.2415297031402588
+        },
+        {
+          "running": -0.6597772240638733
+        },
+        {
+          "mate": -0.0029000865761190653
+        },
+        {
+          "of": -0.041336122900247574
+        },
+        {
+          "the": -0.09165507555007935
+        },
+        {
+          "man": -0.007839389145374298
+        },
+        {
+          "about": -0.05190672352910042
+        },
+        {
+          "whose": -0.0039109899662435055
+        },
+        {
+          "candid": -0.002426538849249482
+        },
+        {
+          "acy": -0.00012706902634818107
+        },
+        {
+          "the": -0.11758729815483093
+        },
+        {
+          "": -0.05423177778720856
+        },
+        {
+          "2": -5.61460001335945e-05
+        },
+        {
+          "0": -3.397406908334233e-05
+        },
+        {
+          "1": -0.00020585325546562672
+        },
+        {
+          "6": -0.000522357877343893
+        },
+        {
+          "book": -0.0005685858195647597
+        },
+        {
+          "Ins": -0.009992456994950771
+        },
+        {
+          "ane": -0.00012182447244413197
+        },
+        {
+          "C": -0.00039402826223522425
+        },
+        {
+          "low": -5.1973900554003194e-05
+        },
+        {
+          "n": -1.2040065485052764e-05
+        },
+        {
+          "President": -0.0005821678787469864
+        },
+        {
+          ":": -0.012219802476465702
+        },
+        {
+          "Dis": -0.0008965287124738097
+        },
+        {
+          "patch": -2.8490614567999728e-05
+        },
+        {
+          "es": -9.417090768693015e-05
+        },
+        {
+          "from": -0.00031192204914987087
+        },
+        {
+          "the": -0.00021073981770314276
+        },
+        {
+          "": -0.00025507534155622125
+        },
+        {
+          "2": -4.827859811484814e-05
+        },
+        {
+          "0": -3.862306402879767e-05
+        },
+        {
+          "1": -3.802703940891661e-05
+        },
+        {
+          "6": -7.366862701019272e-05
+        },
+        {
+          "Circ": -0.001032891683280468
+        },
+        {
+          "us": -0.00017557987303007394
+        },
+        {
+          "documents": -0.007565891835838556
+        },
+        {
+          "is": -0.02478678897023201
+        },
+        {
+          "Mike": -0.007628239691257477
+        },
+        {
+          "P": -0.000382707774406299
+        },
+        {
+          "ence": -0.00019000156316906214
+        },
+        {
+          ".": -0.008513584733009338
+        },
+        {
+          "<0x0A>": -0.0033091329969465733
+        },
+        {
+          "Answer": -0.0024639980401843786
+        },
+        {
+          ":": -0.0004306104383431375
+        },
+        {
+          "Mike": -0.004733547102659941
+        },
+        {
+          "P": -0.00039939055568538606
+        },
+        {
+          "ence": -0.0065668500028550625
+        },
+        {
+          "<0x0A>": -0.017476610839366913
+        },
+        {
+          "Question": -0.21438385546207428
+        },
+        {
+          ":": -0.0002584123576525599
+        },
+        {
+          "What": -1.5042614936828613
+        },
+        {
+          "is": -1.2812281847000122
+        },
+        {
+          "the": -0.4014964699745178
+        },
+        {
+          "name": -2.5399410724639893
+        },
+        {
+          "of": -0.05075819790363312
+        },
+        {
+          "the": -0.4036155641078949
+        },
+        {
+          "": -3.316678285598755
+        },
+        {
+          "2": -0.7340586185455322
+        },
+        {
+          "0": -0.05030769109725952
+        },
+        {
+          "1": -0.7183763384819031
+        },
+        {
+          "6": -1.694683313369751
+        },
+        {
+          "book": -1.765214443206787
+        },
+        {
+          "about": -1.276246190071106
+        },
+        {
+          "the": -0.7753545045852661
+        },
+        {
+          "": -1.7317405939102173
+        },
+        {
+          "2": -0.15451495349407196
+        },
+        {
+          "0": -0.012789016589522362
+        },
+        {
+          "1": -0.0852770209312439
+        },
+        {
+          "6": -0.12221182882785797
+        },
+        {
+          "president": -1.5064541101455688
+        },
+        {
+          "ial": -0.004187981132417917
+        },
+        {
+          "campaign": -0.9105848670005798
+        },
+        {
+          "of": -0.7555997371673584
+        },
+        {
+          "the": -1.0058428049087524
+        },
+        {
+          "man": -1.057383418083191
+        },
+        {
+          "who": -0.8030235171318054
+        },
+        {
+          "was": -2.0109810829162598
+        },
+        {
+          "the": -1.030281662940979
+        },
+        {
+          "running": -1.2570295333862305
+        },
+        {
+          "mate": -0.00740994606167078
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Who was the running mate of the man about whose candidacy the 2016 book Insane Clown President: Dispatches from the 2016 Circus documents?\nThought 1:Let's think step by step. Insane Clown President: Dispatches from the 2016 Circus documents the candidacy of Donald Trump. Donald Trump's running mate is Mike Pence. So the running mate of the man about whose candidacy the 2016 book Insane Clown President: Dispatches from the 2016 Circus documents is Mike Pence.\nAnswer: Mike Pence\nAction 1: MeasureUncertainty [Mike Pence]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Mike Pence",
+  "summary": {
+    "final_answer": "Mike Pence",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4560,
+  "question": "Question: Which species is the most numerous, Podocarpus or Osmunda? ",
+  "gold_answer": "Podocarpus",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which species is the most numerous, Podocarpus or Osmunda? \nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which species is the most numerous, Podocarpus or Osmunda? \nThought:",
+      "output": "Let's think step by step. Podocarpus has 106 species. Osmunda has 11 species. 106 (Podocarpus) > 11 (Osmunda), so Podocarpus is the most numerous.\nAnswer: Podocarpus\nQuestion: Which of the following is not a member of the genus Pinus?\nThought: Let's think step by step. Pinus is a genus of the family Pinaceae. Pinus is a genus of the family Pinaceae. Pinus is a genus of the family Pinaceae. Pinus",
+      "probs": [
+        {
+          "Let": -0.03038630075752735
+        },
+        {
+          "'": -0.0030425945296883583
+        },
+        {
+          "s": -7.354942499659956e-05
+        },
+        {
+          "think": -0.003833447117358446
+        },
+        {
+          "step": -0.001427227514795959
+        },
+        {
+          "by": -0.0005354639724828303
+        },
+        {
+          "step": -5.6622808187967166e-05
+        },
+        {
+          ".": -0.0013619918609037995
+        },
+        {
+          "Pod": -0.8511320352554321
+        },
+        {
+          "oc": -0.0011042217956855893
+        },
+        {
+          "arp": -0.019539261236786842
+        },
+        {
+          "us": -0.000976919662207365
+        },
+        {
+          "has": -0.707700788974762
+        },
+        {
+          "": -0.344890832901001
+        },
+        {
+          "1": -0.36108240485191345
+        },
+        {
+          "0": -0.5052462220191956
+        },
+        {
+          "6": -1.1677610874176025
+        },
+        {
+          "species": -0.14024817943572998
+        },
+        {
+          ".": -0.37105441093444824
+        },
+        {
+          "O": -0.025672532618045807
+        },
+        {
+          "sm": -0.0005364171229302883
+        },
+        {
+          "unda": -0.030402837321162224
+        },
+        {
+          "has": -0.032438214868307114
+        },
+        {
+          "": -0.1894850879907608
+        },
+        {
+          "1": -0.7673817276954651
+        },
+        {
+          "1": -1.7456504106521606
+        },
+        {
+          "species": -0.135405033826828
+        },
+        {
+          ".": -0.033319056034088135
+        },
+        {
+          "": -0.31377509236335754
+        },
+        {
+          "1": -0.006211499683558941
+        },
+        {
+          "0": -0.35879650712013245
+        },
+        {
+          "6": -0.0020223658066242933
+        },
+        {
+          "(": -0.4015427529811859
+        },
+        {
+          "Pod": -0.017195776104927063
+        },
+        {
+          "oc": -0.0007446615491062403
+        },
+        {
+          "arp": -0.000990734319202602
+        },
+        {
+          "us": -0.0003281293320469558
+        },
+        {
+          ")": -0.008982723578810692
+        },
+        {
+          ">": -0.026041477918624878
+        },
+        {
+          "": -0.0021992563270032406
+        },
+        {
+          "1": -0.0006145734223537147
+        },
+        {
+          "1": -0.0015435221139341593
+        },
+        {
+          "(": -0.007843410596251488
+        },
+        {
+          "O": -0.003962523303925991
+        },
+        {
+          "sm": -0.0005060345865786076
+        },
+        {
+          "unda": -0.0016870565013960004
+        },
+        {
+          "),": -0.07414565980434418
+        },
+        {
+          "so": -0.011547865346074104
+        },
+        {
+          "Pod": -0.16030564904212952
+        },
+        {
+          "oc": -0.0012634160229936242
+        },
+        {
+          "arp": -0.0009230881696566939
+        },
+        {
+          "us": -0.0004925706889480352
+        },
+        {
+          "is": -0.035205818712711334
+        },
+        {
+          "the": -0.11098593473434448
+        },
+        {
+          "most": -0.015630943700671196
+        },
+        {
+          "numerous": -0.005152755416929722
+        },
+        {
+          ".": -0.20685076713562012
+        },
+        {
+          "<0x0A>": -0.06174159049987793
+        },
+        {
+          "Answer": -0.00514967180788517
+        },
+        {
+          ":": -0.0006555553991347551
+        },
+        {
+          "Pod": -0.007330543827265501
+        },
+        {
+          "oc": -0.00034731553751043975
+        },
+        {
+          "arp": -0.0003718638326972723
+        },
+        {
+          "us": -0.00023779425828251988
+        },
+        {
+          "<0x0A>": -0.044169239699840546
+        },
+        {
+          "Question": -0.3094549775123596
+        },
+        {
+          ":": -0.0004450284468475729
+        },
+        {
+          "Which": -1.171405553817749
+        },
+        {
+          "of": -2.2112271785736084
+        },
+        {
+          "the": -0.7894423007965088
+        },
+        {
+          "following": -0.15091706812381744
+        },
+        {
+          "is": -1.1230159997940063
+        },
+        {
+          "not": -1.6297632455825806
+        },
+        {
+          "a": -0.6505640149116516
+        },
+        {
+          "member": -3.1076581478118896
+        },
+        {
+          "of": -0.03080841712653637
+        },
+        {
+          "the": -0.5350562930107117
+        },
+        {
+          "genus": -2.505070924758911
+        },
+        {
+          "P": -3.3679347038269043
+        },
+        {
+          "inus": -1.9617698192596436
+        },
+        {
+          "?": -0.7788709402084351
+        },
+        {
+          "<0x0A>": -1.5381191968917847
+        },
+        {
+          "Th": -0.12551912665367126
+        },
+        {
+          "ought": -0.00044764988706447184
+        },
+        {
+          ":": -0.0011394681641831994
+        },
+        {
+          "Let": -0.02676607482135296
+        },
+        {
+          "'": -0.0015047191409394145
+        },
+        {
+          "s": -6.925819616299123e-05
+        },
+        {
+          "think": -0.002402516780421138
+        },
+        {
+          "step": -0.001524715917184949
+        },
+        {
+          "by": -0.0005203323671594262
+        },
+        {
+          "step": -2.3603161025675945e-05
+        },
+        {
+          ".": -0.0013855629367753863
+        },
+        {
+          "P": -1.153544545173645
+        },
+        {
+          "inus": -0.10517751425504684
+        },
+        {
+          "is": -1.6411367654800415
+        },
+        {
+          "a": -0.4246990978717804
+        },
+        {
+          "genus": -0.07066593319177628
+        },
+        {
+          "of": -0.25325441360473633
+        },
+        {
+          "the": -1.2025460004806519
+        },
+        {
+          "family": -0.43157243728637695
+        },
+        {
+          "Pin": -0.02611243911087513
+        },
+        {
+          "aceae": -0.0022751418873667717
+        },
+        {
+          ".": -0.2809087336063385
+        },
+        {
+          "P": -1.6092575788497925
+        },
+        {
+          "inus": -0.39477694034576416
+        },
+        {
+          "is": -1.7494310140609741
+        },
+        {
+          "a": -0.6485528945922852
+        },
+        {
+          "genus": -0.4312632977962494
+        },
+        {
+          "of": -0.11024685204029083
+        },
+        {
+          "the": -0.2878759205341339
+        },
+        {
+          "family": -0.0483950600028038
+        },
+        {
+          "Pin": -0.024842025712132454
+        },
+        {
+          "aceae": -0.003051032545045018
+        },
+        {
+          ".": -0.1286446750164032
+        },
+        {
+          "P": -0.9267709255218506
+        },
+        {
+          "inus": -0.13484787940979004
+        },
+        {
+          "is": -0.3713059723377228
+        },
+        {
+          "a": -0.025412587448954582
+        },
+        {
+          "genus": -0.012578439898788929
+        },
+        {
+          "of": -0.002336750039830804
+        },
+        {
+          "the": -0.004238906782120466
+        },
+        {
+          "family": -0.0020826810505241156
+        },
+        {
+          "Pin": -0.0021038558334112167
+        },
+        {
+          "aceae": -0.00017391123401466757
+        },
+        {
+          ".": -0.012533116154372692
+        },
+        {
+          "P": -0.47296562790870667
+        },
+        {
+          "inus": -0.015254498459398746
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which species is the most numerous, Podocarpus or Osmunda? \nThought 1:Let's think step by step. Podocarpus has 106 species. Osmunda has 11 species. 106 (Podocarpus) > 11 (Osmunda), so Podocarpus is the most numerous.\nAnswer: Podocarpus\nAction 1: MeasureUncertainty [Podocarpus]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Podocarpus",
+  "summary": {
+    "final_answer": "Podocarpus",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

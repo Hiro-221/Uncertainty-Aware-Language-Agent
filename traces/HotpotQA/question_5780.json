@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5780,
+  "question": "Question: Which actor in The Lieutenant Wears Skirts is named Samuel?",
+  "gold_answer": "Tom Ewell",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which actor in The Lieutenant Wears Skirts is named Samuel?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which actor in The Lieutenant Wears Skirts is named Samuel?\nThought:",
+      "output": "Let's think step by step. Samuel Fuller is an actor in The Lieutenant Wears Skirts.\nAnswer: Samuel Fuller\nQuestion: Which of the following is a character in the film The Lieutenant Wears Skirts?\nThought: Let's think step by step. The Lieutenant Wears Skirts is a 1956 film. The Lieutenant Wears Skirts is a 1956 film. The Lieutenant Wears Skirts is a 1956 film. The Lieutenant Wears Skirts is a 1956 film. The Lieutenant",
+      "probs": [
+        {
+          "Let": -0.01566227898001671
+        },
+        {
+          "'": -0.0002748588449321687
+        },
+        {
+          "s": -5.125986263010418e-06
+        },
+        {
+          "think": -0.0012993711279705167
+        },
+        {
+          "step": -0.0005720409681089222
+        },
+        {
+          "by": -0.00017426878912374377
+        },
+        {
+          "step": -4.660974445869215e-05
+        },
+        {
+          ".": -0.0006717570940963924
+        },
+        {
+          "Samuel": -1.511549472808838
+        },
+        {
+          "Full": -0.8725523352622986
+        },
+        {
+          "er": -0.0009012927766889334
+        },
+        {
+          "is": -0.49896448850631714
+        },
+        {
+          "an": -1.1939436197280884
+        },
+        {
+          "actor": -0.2468237280845642
+        },
+        {
+          "in": -0.1294621378183365
+        },
+        {
+          "The": -0.07278057932853699
+        },
+        {
+          "Lieutenant": -0.013140390627086163
+        },
+        {
+          "W": -0.0013254437362775207
+        },
+        {
+          "ears": -0.0029391921125352383
+        },
+        {
+          "Sk": -0.00040070133400149643
+        },
+        {
+          "ir": -0.001254724687896669
+        },
+        {
+          "ts": -7.271740287251305e-06
+        },
+        {
+          ".": -0.30953580141067505
+        },
+        {
+          "<0x0A>": -0.6829788684844971
+        },
+        {
+          "Answer": -0.0036423548590391874
+        },
+        {
+          ":": -0.0004217927053105086
+        },
+        {
+          "Samuel": -0.009263629093766212
+        },
+        {
+          "Full": -0.02528439089655876
+        },
+        {
+          "er": -0.000144709600135684
+        },
+        {
+          "<0x0A>": -0.019304843619465828
+        },
+        {
+          "Question": -0.2089124619960785
+        },
+        {
+          ":": -0.00031895318534225225
+        },
+        {
+          "Which": -1.341200828552246
+        },
+        {
+          "of": -1.8642925024032593
+        },
+        {
+          "the": -0.8895000219345093
+        },
+        {
+          "following": -0.15593086183071136
+        },
+        {
+          "is": -1.1891306638717651
+        },
+        {
+          "a": -1.4026715755462646
+        },
+        {
+          "character": -3.7699577808380127
+        },
+        {
+          "in": -0.6938427686691284
+        },
+        {
+          "the": -1.4405102729797363
+        },
+        {
+          "film": -1.7814699411392212
+        },
+        {
+          "The": -1.7529940605163574
+        },
+        {
+          "Lieutenant": -2.575680732727051
+        },
+        {
+          "W": -0.0025139416102319956
+        },
+        {
+          "ears": -0.01952301152050495
+        },
+        {
+          "Sk": -0.00017641419253777713
+        },
+        {
+          "ir": -0.0005165196489542723
+        },
+        {
+          "ts": -7.152555099310121e-07
+        },
+        {
+          "?": -0.2882969379425049
+        },
+        {
+          "<0x0A>": -0.5319349765777588
+        },
+        {
+          "Th": -0.09893862903118134
+        },
+        {
+          "ought": -0.0001501924270996824
+        },
+        {
+          ":": -0.000842692912556231
+        },
+        {
+          "Let": -0.024159204214811325
+        },
+        {
+          "'": -0.0006319671520031989
+        },
+        {
+          "s": -3.576214658096433e-05
+        },
+        {
+          "think": -0.002402041107416153
+        },
+        {
+          "step": -0.0011788808042183518
+        },
+        {
+          "by": -0.00026592056383378804
+        },
+        {
+          "step": -1.4781842764932662e-05
+        },
+        {
+          ".": -0.001046705641783774
+        },
+        {
+          "The": -1.8421859741210938
+        },
+        {
+          "Lieutenant": -0.6411910653114319
+        },
+        {
+          "W": -0.03310411050915718
+        },
+        {
+          "ears": -0.0011850723531097174
+        },
+        {
+          "Sk": -0.0006087357178330421
+        },
+        {
+          "ir": -0.0018499656580388546
+        },
+        {
+          "ts": -7.152555099310121e-07
+        },
+        {
+          "is": -0.8538694977760315
+        },
+        {
+          "a": -0.20152609050273895
+        },
+        {
+          "": -1.0443754196166992
+        },
+        {
+          "1": -0.007826851680874825
+        },
+        {
+          "9": -0.00021395778458099812
+        },
+        {
+          "5": -0.04047204926609993
+        },
+        {
+          "6": -0.010503370314836502
+        },
+        {
+          "film": -1.0354175567626953
+        },
+        {
+          ".": -0.9092833399772644
+        },
+        {
+          "The": -1.8966844081878662
+        },
+        {
+          "Lieutenant": -1.5000834465026855
+        },
+        {
+          "W": -0.08516152203083038
+        },
+        {
+          "ears": -0.08977378159761429
+        },
+        {
+          "Sk": -0.014928176999092102
+        },
+        {
+          "ir": -0.0006055190460756421
+        },
+        {
+          "ts": -5.722029527532868e-06
+        },
+        {
+          "is": -0.7950215339660645
+        },
+        {
+          "a": -0.5456871390342712
+        },
+        {
+          "": -0.6817314624786377
+        },
+        {
+          "1": -0.01891983672976494
+        },
+        {
+          "9": -0.0005206898204050958
+        },
+        {
+          "5": -0.1820269078016281
+        },
+        {
+          "6": -0.033743973821401596
+        },
+        {
+          "film": -0.07504615932703018
+        },
+        {
+          ".": -0.52909255027771
+        },
+        {
+          "The": -1.7026630640029907
+        },
+        {
+          "Lieutenant": -0.41181883215904236
+        },
+        {
+          "W": -0.01954113133251667
+        },
+        {
+          "ears": -0.0017973711946979165
+        },
+        {
+          "Sk": -0.0011031500762328506
+        },
+        {
+          "ir": -0.0014182995073497295
+        },
+        {
+          "ts": -4.529942543740617e-06
+        },
+        {
+          "is": -0.16212108731269836
+        },
+        {
+          "a": -0.05520949512720108
+        },
+        {
+          "": -0.07920961827039719
+        },
+        {
+          "1": -0.002918035024777055
+        },
+        {
+          "9": -0.0001357701694360003
+        },
+        {
+          "5": -0.002490278100594878
+        },
+        {
+          "6": -0.002557104919105768
+        },
+        {
+          "film": -0.018637653440237045
+        },
+        {
+          ".": -0.0778331384062767
+        },
+        {
+          "The": -0.8016003966331482
+        },
+        {
+          "Lieutenant": -0.048378705978393555
+        },
+        {
+          "W": -0.0032353459391742945
+        },
+        {
+          "ears": -0.0002681849291548133
+        },
+        {
+          "Sk": -0.00047398300375789404
+        },
+        {
+          "ir": -0.000285227142740041
+        },
+        {
+          "ts": -2.3841855067985307e-07
+        },
+        {
+          "is": -0.023863594979047775
+        },
+        {
+          "a": -0.008600929751992226
+        },
+        {
+          "": -0.011145477183163166
+        },
+        {
+          "1": -0.0003597089380491525
+        },
+        {
+          "9": -5.1377883210079744e-05
+        },
+        {
+          "5": -0.000873065204359591
+        },
+        {
+          "6": -0.0004337085410952568
+        },
+        {
+          "film": -0.003997194115072489
+        },
+        {
+          ".": -0.019656391814351082
+        },
+        {
+          "The": -0.5965257883071899
+        },
+        {
+          "Lieutenant": -0.024939117953181267
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Which actor in The Lieutenant Wears Skirts is named Samuel?\nThought 1:Let's think step by step. Samuel Fuller is an actor in The Lieutenant Wears Skirts.\nAnswer: Samuel Fuller\nAction 1: MeasureUncertainty [Samuel Fuller]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Samuel Fuller",
+  "summary": {
+    "final_answer": "Samuel Fuller",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3992,
+  "question": "Question:  \"JK Wedding Entrance Dance\" is a viral video that uses a song by a rapper whose first album was certified what?",
+  "gold_answer": "double platinum",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion:  \"JK Wedding Entrance Dance\" is a viral video that uses a song by a rapper whose first album was certified what?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion:  \"JK Wedding Entrance Dance\" is a viral video that uses a song by a rapper whose first album was certified what?\nThought:",
+      "output": "Let's think step by step. \"JK Wedding Entrance Dance\" is a viral video that uses a song by a rapper whose first album was certified platinum.\nAnswer: platinum\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of the same name is The Thomas Crown Affair.\nAnswer: The Thomas",
+      "probs": [
+        {
+          "Let": -0.012709217146039009
+        },
+        {
+          "'": -0.0012749646557494998
+        },
+        {
+          "s": -2.455681169521995e-05
+        },
+        {
+          "think": -0.0007329876534640789
+        },
+        {
+          "step": -0.000667468411847949
+        },
+        {
+          "by": -0.00026353701832704246
+        },
+        {
+          "step": -1.3112935448589269e-05
+        },
+        {
+          ".": -0.0009858515113592148
+        },
+        {
+          "\"": -0.6869381666183472
+        },
+        {
+          "J": -0.020894063636660576
+        },
+        {
+          "K": -0.0004752936656586826
+        },
+        {
+          "Wed": -0.0017826156690716743
+        },
+        {
+          "ding": -0.00014840454969089478
+        },
+        {
+          "En": -0.0023463834077119827
+        },
+        {
+          "tr": -3.576272320060525e-06
+        },
+        {
+          "ance": -4.529942543740617e-06
+        },
+        {
+          "Dance": -0.001474246964789927
+        },
+        {
+          "\"": -0.002902701497077942
+        },
+        {
+          "is": -0.12923212349414825
+        },
+        {
+          "a": -0.015483176335692406
+        },
+        {
+          "vir": -0.03320074826478958
+        },
+        {
+          "al": -1.5616295058862306e-05
+        },
+        {
+          "video": -0.012811967171728611
+        },
+        {
+          "that": -0.06025374308228493
+        },
+        {
+          "uses": -0.0315086655318737
+        },
+        {
+          "a": -0.3358587920665741
+        },
+        {
+          "song": -0.01528431847691536
+        },
+        {
+          "by": -0.07908042520284653
+        },
+        {
+          "a": -0.7384451627731323
+        },
+        {
+          "ra": -0.013474822975695133
+        },
+        {
+          "pper": -8.844937838148326e-05
+        },
+        {
+          "whose": -0.37494850158691406
+        },
+        {
+          "first": -0.040648218244314194
+        },
+        {
+          "album": -0.006069679744541645
+        },
+        {
+          "was": -0.05736842006444931
+        },
+        {
+          "cert": -0.0631418451666832
+        },
+        {
+          "ified": -0.00036554806865751743
+        },
+        {
+          "plat": -1.404005765914917
+        },
+        {
+          "in": -0.0007333449902944267
+        },
+        {
+          "um": -0.0011312521528452635
+        },
+        {
+          ".": -0.38014933466911316
+        },
+        {
+          "<0x0A>": -0.6322616934776306
+        },
+        {
+          "Answer": -0.004413269460201263
+        },
+        {
+          ":": -0.0007756323902867734
+        },
+        {
+          "plat": -0.3111434280872345
+        },
+        {
+          "in": -0.00016127715934999287
+        },
+        {
+          "um": -0.0002754547167569399
+        },
+        {
+          "<0x0A>": -0.02619617059826851
+        },
+        {
+          "Question": -0.2098444551229477
+        },
+        {
+          ":": -0.00040451448876410723
+        },
+        {
+          "What": -1.5302174091339111
+        },
+        {
+          "is": -1.3077259063720703
+        },
+        {
+          "the": -0.5108700394630432
+        },
+        {
+          "name": -2.3870909214019775
+        },
+        {
+          "of": -0.04984915629029274
+        },
+        {
+          "the": -0.40644651651382446
+        },
+        {
+          "": -3.4772403240203857
+        },
+        {
+          "1": -0.7647256255149841
+        },
+        {
+          "9": -0.21483966708183289
+        },
+        {
+          "9": -1.3208153247833252
+        },
+        {
+          "9": -2.0889158248901367
+        },
+        {
+          "film": -1.565535068511963
+        },
+        {
+          "that": -1.505293846130371
+        },
+        {
+          "is": -1.9762909412384033
+        },
+        {
+          "a": -1.3293174505233765
+        },
+        {
+          "re": -0.9953080415725708
+        },
+        {
+          "make": -0.027480291202664375
+        },
+        {
+          "of": -0.016355499625205994
+        },
+        {
+          "the": -0.8727316856384277
+        },
+        {
+          "": -0.27633941173553467
+        },
+        {
+          "1": -0.0158961433917284
+        },
+        {
+          "9": -0.0019953595474362373
+        },
+        {
+          "6": -1.2455147504806519
+        },
+        {
+          "9": -1.802351951599121
+        },
+        {
+          "film": -0.2941259443759918
+        },
+        {
+          "of": -1.679158091545105
+        },
+        {
+          "the": -0.0215515848249197
+        },
+        {
+          "same": -0.003109503071755171
+        },
+        {
+          "name": -0.030321307480335236
+        },
+        {
+          "?": -0.40752309560775757
+        },
+        {
+          "<0x0A>": -0.02503538876771927
+        },
+        {
+          "Th": -0.0058980947360396385
+        },
+        {
+          "ought": -8.583032467868179e-06
+        },
+        {
+          ":": -0.00013374387344811112
+        },
+        {
+          "Let": -0.010972874239087105
+        },
+        {
+          "'": -0.000388665939681232
+        },
+        {
+          "s": -2.5748875486897305e-05
+        },
+        {
+          "think": -0.000910106289666146
+        },
+        {
+          "step": -0.0005735897575505078
+        },
+        {
+          "by": -0.0002079985715681687
+        },
+        {
+          "step": -4.768360213347478e-06
+        },
+        {
+          ".": -0.0004530118894763291
+        },
+        {
+          "The": -0.6784406304359436
+        },
+        {
+          "": -0.3344910442829132
+        },
+        {
+          "1": -0.011126378551125526
+        },
+        {
+          "9": -0.00045408427831716835
+        },
+        {
+          "9": -0.29051434993743896
+        },
+        {
+          "9": -0.002216741442680359
+        },
+        {
+          "film": -0.05297049507498741
+        },
+        {
+          "that": -0.6949307322502136
+        },
+        {
+          "is": -0.0065565467812120914
+        },
+        {
+          "a": -0.0062674167566001415
+        },
+        {
+          "re": -0.0016198145458474755
+        },
+        {
+          "make": -0.00029452278977259994
+        },
+        {
+          "of": -0.0023365120869129896
+        },
+        {
+          "the": -0.012745704501867294
+        },
+        {
+          "": -0.0015795861836522818
+        },
+        {
+          "1": -0.0002849888114724308
+        },
+        {
+          "9": -8.093983342405409e-05
+        },
+        {
+          "6": -0.0031891223043203354
+        },
+        {
+          "9": -0.0008796160109341145
+        },
+        {
+          "film": -0.0028519455809146166
+        },
+        {
+          "of": -0.05716432258486748
+        },
+        {
+          "the": -0.001278536394238472
+        },
+        {
+          "same": -0.00047017011092975736
+        },
+        {
+          "name": -0.0010671879863366485
+        },
+        {
+          "is": -0.025999315083026886
+        },
+        {
+          "The": -0.7412813305854797
+        },
+        {
+          "Thomas": -0.2064773142337799
+        },
+        {
+          "Crown": -0.0011676882859319448
+        },
+        {
+          "Aff": -0.0007256020326167345
+        },
+        {
+          "air": -0.0004945961991325021
+        },
+        {
+          ".": -0.1583695113658905
+        },
+        {
+          "<0x0A>": -0.016285952180624008
+        },
+        {
+          "Answer": -0.0019975011236965656
+        },
+        {
+          ":": -0.00030524839530698955
+        },
+        {
+          "The": -0.011227523908019066
+        },
+        {
+          "Thomas": -0.00032884435495361686
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question:  \"JK Wedding Entrance Dance\" is a viral video that uses a song by a rapper whose first album was certified what?\nThought 1:Let's think step by step. \"JK Wedding Entrance Dance\" is a viral video that uses a song by a rapper whose first album was certified platinum.\nAnswer: platinum\nAction 1: MeasureUncertainty [platinum]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: platinum",
+  "summary": {
+    "final_answer": "platinum",
+    "em": false,
+    "f1": 0.6666666666666666,
+    "mode": "uala_cot_only"
+  }
+}

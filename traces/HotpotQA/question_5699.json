@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5699,
+  "question": "Question: When did the place in Canada where François Beaucourt (1740-1794) was mainly active acquired its present name?",
+  "gold_answer": "1763",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: When did the place in Canada where François Beaucourt (1740-1794) was mainly active acquired its present name?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: When did the place in Canada where François Beaucourt (1740-1794) was mainly active acquired its present name?\nThought:",
+      "output": "Let's think step by step. François Beaucourt (1740-1794) was mainly active in Canada. Canada acquired its present name in 1867. So the place in Canada where François Beaucourt (1740-1794) was mainly active acquired its present name in 1867.\nAnswer: 1867\nQuestion: What is the name of the place in Canada where François Beaucourt (1740-1794) was mainly active?\nThought: Let's think step by step.",
+      "probs": [
+        {
+          "Let": -0.017979266121983528
+        },
+        {
+          "'": -0.0007116645574569702
+        },
+        {
+          "s": -4.6967357775429264e-05
+        },
+        {
+          "think": -0.0018443731823936105
+        },
+        {
+          "step": -0.0009703694959171116
+        },
+        {
+          "by": -0.0002985746832564473
+        },
+        {
+          "step": -2.8013790142722428e-05
+        },
+        {
+          ".": -0.0009841842111200094
+        },
+        {
+          "François": -0.6942434310913086
+        },
+        {
+          "Be": -0.007219417952001095
+        },
+        {
+          "auc": -0.0007191693875938654
+        },
+        {
+          "ourt": -0.00036554806865751743
+        },
+        {
+          "(": -0.2349485605955124
+        },
+        {
+          "1": -0.0035409152042120695
+        },
+        {
+          "7": -0.0006574614671990275
+        },
+        {
+          "4": -0.0012549628736451268
+        },
+        {
+          "0": -0.0005628670332953334
+        },
+        {
+          "-": -0.018100909888744354
+        },
+        {
+          "1": -0.00044979469384998083
+        },
+        {
+          "7": -0.00032944019767455757
+        },
+        {
+          "9": -0.00023135847004596144
+        },
+        {
+          "4": -0.0003240775258745998
+        },
+        {
+          ")": -0.01666025072336197
+        },
+        {
+          "was": -0.16150133311748505
+        },
+        {
+          "mainly": -0.20618422329425812
+        },
+        {
+          "active": -0.003939012996852398
+        },
+        {
+          "in": -0.07826898992061615
+        },
+        {
+          "Canada": -1.788989543914795
+        },
+        {
+          ".": -1.3337794542312622
+        },
+        {
+          "Canada": -0.8448517322540283
+        },
+        {
+          "acquired": -0.7044500112533569
+        },
+        {
+          "its": -0.04381993040442467
+        },
+        {
+          "present": -0.04299260303378105
+        },
+        {
+          "name": -0.003930107690393925
+        },
+        {
+          "in": -0.21732325851917267
+        },
+        {
+          "": -0.035691361874341965
+        },
+        {
+          "1": -0.002711193636059761
+        },
+        {
+          "8": -0.4696316421031952
+        },
+        {
+          "6": -0.05792443826794624
+        },
+        {
+          "7": -0.010456419549882412
+        },
+        {
+          ".": -0.22824488580226898
+        },
+        {
+          "So": -0.9377289414405823
+        },
+        {
+          "the": -0.4599863886833191
+        },
+        {
+          "place": -0.1469728946685791
+        },
+        {
+          "in": -0.17544446885585785
+        },
+        {
+          "Canada": -0.0019483646610751748
+        },
+        {
+          "where": -0.06895846128463745
+        },
+        {
+          "François": -0.013821957632899284
+        },
+        {
+          "Be": -0.0011700696777552366
+        },
+        {
+          "auc": -0.0002325502864550799
+        },
+        {
+          "ourt": -4.768360213347478e-06
+        },
+        {
+          "(": -0.03469597548246384
+        },
+        {
+          "1": -8.082063141046092e-05
+        },
+        {
+          "7": -0.00010263393050990999
+        },
+        {
+          "4": -0.00017212340026162565
+        },
+        {
+          "0": -4.51792984677013e-05
+        },
+        {
+          "-": -0.0006428082706406713
+        },
+        {
+          "1": -0.00036042393185198307
+        },
+        {
+          "7": -0.00020489977032411844
+        },
+        {
+          "9": -5.924526340095326e-05
+        },
+        {
+          "4": -6.067568756407127e-05
+        },
+        {
+          ")": -0.00026890001026913524
+        },
+        {
+          "was": -0.00223422609269619
+        },
+        {
+          "mainly": -0.002447230741381645
+        },
+        {
+          "active": -0.0021557204890996218
+        },
+        {
+          "acquired": -0.015603598207235336
+        },
+        {
+          "its": -0.006029630079865456
+        },
+        {
+          "present": -0.003432812402024865
+        },
+        {
+          "name": -0.0008006466086953878
+        },
+        {
+          "in": -0.030761485919356346
+        },
+        {
+          "": -0.002793697640299797
+        },
+        {
+          "1": -0.00017510310863144696
+        },
+        {
+          "8": -0.0020613865926861763
+        },
+        {
+          "6": -0.0007621721015311778
+        },
+        {
+          "7": -0.00033563701435923576
+        },
+        {
+          ".": -0.014974331483244896
+        },
+        {
+          "<0x0A>": -0.004109153989702463
+        },
+        {
+          "Answer": -0.002239697612822056
+        },
+        {
+          ":": -0.0005852655158378184
+        },
+        {
+          "": -0.022880129516124725
+        },
+        {
+          "1": -0.0002609150833450258
+        },
+        {
+          "8": -0.0008457897347398102
+        },
+        {
+          "6": -0.0003649522550404072
+        },
+        {
+          "7": -0.00017724849749356508
+        },
+        {
+          "<0x0A>": -0.021699275821447372
+        },
+        {
+          "Question": -0.19928023219108582
+        },
+        {
+          ":": -0.000270091783022508
+        },
+        {
+          "What": -1.487013816833496
+        },
+        {
+          "is": -1.2381041049957275
+        },
+        {
+          "the": -0.39387181401252747
+        },
+        {
+          "name": -2.5055336952209473
+        },
+        {
+          "of": -0.05605541169643402
+        },
+        {
+          "the": -0.4056931734085083
+        },
+        {
+          "place": -3.3923287391662598
+        },
+        {
+          "in": -0.8457678556442261
+        },
+        {
+          "Canada": -1.4800306558609009
+        },
+        {
+          "where": -0.1120738610625267
+        },
+        {
+          "François": -1.5390145778656006
+        },
+        {
+          "Be": -0.08626586943864822
+        },
+        {
+          "auc": -0.0033483414445072412
+        },
+        {
+          "ourt": -5.519237674889155e-05
+        },
+        {
+          "(": -0.021597666665911674
+        },
+        {
+          "1": -0.0026209547650069
+        },
+        {
+          "7": -0.004585702903568745
+        },
+        {
+          "4": -0.012224513106048107
+        },
+        {
+          "0": -0.0012959185987710953
+        },
+        {
+          "-": -0.005780409090220928
+        },
+        {
+          "1": -0.00041738382424227893
+        },
+        {
+          "7": -0.0028693003114312887
+        },
+        {
+          "9": -0.0005351065192371607
+        },
+        {
+          "4": -0.0006541258189827204
+        },
+        {
+          ")": -0.008379301987588406
+        },
+        {
+          "was": -0.03946548327803612
+        },
+        {
+          "mainly": -0.020810822024941444
+        },
+        {
+          "active": -0.001353658502921462
+        },
+        {
+          "?": -0.157960906624794
+        },
+        {
+          "<0x0A>": -0.004758699797093868
+        },
+        {
+          "Th": -0.005480977240949869
+        },
+        {
+          "ought": -4.136476854910143e-05
+        },
+        {
+          ":": -0.00013934595335740596
+        },
+        {
+          "Let": -0.005585657898336649
+        },
+        {
+          "'": -0.0002656822034623474
+        },
+        {
+          "s": -2.038458114839159e-05
+        },
+        {
+          "think": -0.000301673193462193
+        },
+        {
+          "step": -0.00011932138295378536
+        },
+        {
+          "by": -8.153582894010469e-05
+        },
+        {
+          "step": -1.2755313036905136e-05
+        },
+        {
+          ".": -0.00039319414645433426
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: When did the place in Canada where François Beaucourt (1740-1794) was mainly active acquired its present name?\nThought 1:Let's think step by step. François Beaucourt (1740-1794) was mainly active in Canada. Canada acquired its present name in 1867. So the place in Canada where François Beaucourt (1740-1794) was mainly active acquired its present name in 1867.\nAnswer: 1867\nAction 1: MeasureUncertainty [1867]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 1867",
+  "summary": {
+    "final_answer": "1867",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

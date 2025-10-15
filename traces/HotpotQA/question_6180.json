@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6180,
+  "question": "Question: Are the mountains known as Trivor and The Crown both found in Asia?",
+  "gold_answer": "yes",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are the mountains known as Trivor and The Crown both found in Asia?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are the mountains known as Trivor and The Crown both found in Asia?\nThought:",
+      "output": "Let's think step by step. Trivor is found in Asia. The Crown is found in Asia. So the mountains known as Trivor and The Crown are both found in Asia.\nAnswer: Yes\nQuestion: Which of the following is a type of fish: the common carp, the common carp, or the common carp?\nThought: Let's think step by step. The common carp is a type of fish. So the common carp is a type of fish.\nAnswer: the common carp\nQuestion: Which of the following is a type of fish: the common",
+      "probs": [
+        {
+          "Let": -0.009234101511538029
+        },
+        {
+          "'": -0.0006317288498394191
+        },
+        {
+          "s": -3.707340147229843e-05
+        },
+        {
+          "think": -0.0007070187130011618
+        },
+        {
+          "step": -0.0003156163729727268
+        },
+        {
+          "by": -0.00023064337437972426
+        },
+        {
+          "step": -0.00018261195509694517
+        },
+        {
+          ".": -0.0006540066679008305
+        },
+        {
+          "T": -0.13349878787994385
+        },
+        {
+          "riv": -0.0016304069431498647
+        },
+        {
+          "or": -0.0007483542431145906
+        },
+        {
+          "is": -0.09754645079374313
+        },
+        {
+          "found": -1.296661376953125
+        },
+        {
+          "in": -0.01112897228449583
+        },
+        {
+          "Asia": -0.7766003608703613
+        },
+        {
+          ".": -0.20558778941631317
+        },
+        {
+          "The": -0.0377301387488842
+        },
+        {
+          "Crown": -0.005316879600286484
+        },
+        {
+          "is": -0.03659290447831154
+        },
+        {
+          "found": -0.13594096899032593
+        },
+        {
+          "in": -0.007477982901036739
+        },
+        {
+          "Asia": -1.038059949874878
+        },
+        {
+          ".": -0.07022397220134735
+        },
+        {
+          "So": -0.3351121246814728
+        },
+        {
+          "the": -0.8458832502365112
+        },
+        {
+          "mountains": -0.18133017420768738
+        },
+        {
+          "known": -0.13203193247318268
+        },
+        {
+          "as": -0.0016337393317371607
+        },
+        {
+          "T": -0.0046099103055894375
+        },
+        {
+          "riv": -4.2914423829643056e-05
+        },
+        {
+          "or": -0.00016962042718660086
+        },
+        {
+          "and": -0.00222756527364254
+        },
+        {
+          "The": -0.009975461289286613
+        },
+        {
+          "Crown": -0.0006659197388216853
+        },
+        {
+          "are": -0.147185817360878
+        },
+        {
+          "both": -0.058197662234306335
+        },
+        {
+          "found": -0.0033105588518083096
+        },
+        {
+          "in": -0.0005403488758020103
+        },
+        {
+          "Asia": -0.0014801985817030072
+        },
+        {
+          ".": -0.006540677044540644
+        },
+        {
+          "<0x0A>": -0.0028942623175680637
+        },
+        {
+          "Answer": -0.0011443501571193337
+        },
+        {
+          ":": -0.00042012447374872863
+        },
+        {
+          "Yes": -0.025568772107362747
+        },
+        {
+          "<0x0A>": -0.015305684879422188
+        },
+        {
+          "Question": -0.17296433448791504
+        },
+        {
+          ":": -0.0003293210465926677
+        },
+        {
+          "Which": -1.6789357662200928
+        },
+        {
+          "of": -1.7883238792419434
+        },
+        {
+          "the": -0.8655829429626465
+        },
+        {
+          "following": -0.19672386348247528
+        },
+        {
+          "is": -1.2092058658599854
+        },
+        {
+          "a": -1.6156938076019287
+        },
+        {
+          "type": -3.891437530517578
+        },
+        {
+          "of": -0.011528068222105503
+        },
+        {
+          "fish": -4.591292858123779
+        },
+        {
+          ":": -1.017173409461975
+        },
+        {
+          "the": -4.0931572914123535
+        },
+        {
+          "common": -4.171896457672119
+        },
+        {
+          "car": -2.1423513889312744
+        },
+        {
+          "p": -0.01721077412366867
+        },
+        {
+          ",": -0.3755989372730255
+        },
+        {
+          "the": -0.6035874485969543
+        },
+        {
+          "common": -2.8456196784973145
+        },
+        {
+          "car": -1.6124827861785889
+        },
+        {
+          "p": -0.048591189086437225
+        },
+        {
+          ",": -0.35558414459228516
+        },
+        {
+          "or": -0.2598046362400055
+        },
+        {
+          "the": -0.11930680274963379
+        },
+        {
+          "common": -0.7959988713264465
+        },
+        {
+          "car": -0.12017928808927536
+        },
+        {
+          "p": -0.0021858150139451027
+        },
+        {
+          "?": -0.018822040408849716
+        },
+        {
+          "<0x0A>": -0.006235549226403236
+        },
+        {
+          "Th": -0.009270952083170414
+        },
+        {
+          "ought": -4.124556289752945e-05
+        },
+        {
+          ":": -0.00032050241134129465
+        },
+        {
+          "Let": -0.02131040394306183
+        },
+        {
+          "'": -0.0005546461907215416
+        },
+        {
+          "s": -5.030505417380482e-05
+        },
+        {
+          "think": -0.0008189899963326752
+        },
+        {
+          "step": -0.0006305375136435032
+        },
+        {
+          "by": -0.0004418112221173942
+        },
+        {
+          "step": -2.407998726994265e-05
+        },
+        {
+          ".": -0.0011798333143815398
+        },
+        {
+          "The": -0.6576004028320312
+        },
+        {
+          "common": -0.040290120989084244
+        },
+        {
+          "car": -0.0023240242153406143
+        },
+        {
+          "p": -0.0006194579764269292
+        },
+        {
+          "is": -0.0479472391307354
+        },
+        {
+          "a": -0.042931850999593735
+        },
+        {
+          "type": -0.27599337697029114
+        },
+        {
+          "of": -0.001177332829684019
+        },
+        {
+          "fish": -0.03133260831236839
+        },
+        {
+          ".": -0.1490500420331955
+        },
+        {
+          "So": -0.7388918399810791
+        },
+        {
+          "the": -0.2880169749259949
+        },
+        {
+          "common": -0.19460241496562958
+        },
+        {
+          "car": -0.0009215399040840566
+        },
+        {
+          "p": -0.0007402540650218725
+        },
+        {
+          "is": -0.11926892399787903
+        },
+        {
+          "a": -0.06348894536495209
+        },
+        {
+          "type": -0.02159685082733631
+        },
+        {
+          "of": -0.0006349454633891582
+        },
+        {
+          "fish": -0.001313419546931982
+        },
+        {
+          ".": -0.03942468762397766
+        },
+        {
+          "<0x0A>": -0.057122550904750824
+        },
+        {
+          "Answer": -0.003708392148837447
+        },
+        {
+          ":": -0.0004499138449318707
+        },
+        {
+          "the": -0.6632021069526672
+        },
+        {
+          "common": -0.0009450022480450571
+        },
+        {
+          "car": -0.00022230061586014926
+        },
+        {
+          "p": -9.131014667218551e-05
+        },
+        {
+          "<0x0A>": -0.034382618963718414
+        },
+        {
+          "Question": -0.3100518584251404
+        },
+        {
+          ":": -0.0003064401389565319
+        },
+        {
+          "Which": -1.0853793621063232
+        },
+        {
+          "of": -0.7230005860328674
+        },
+        {
+          "the": -0.10899670422077179
+        },
+        {
+          "following": -0.022083215415477753
+        },
+        {
+          "is": -0.3907262980937958
+        },
+        {
+          "a": -0.25561508536338806
+        },
+        {
+          "type": -0.3462320566177368
+        },
+        {
+          "of": -0.0007357274298556149
+        },
+        {
+          "fish": -0.9302358031272888
+        },
+        {
+          ":": -0.013241802342236042
+        },
+        {
+          "the": -0.12378279119729996
+        },
+        {
+          "common": -0.5615012645721436
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are the mountains known as Trivor and The Crown both found in Asia?\nThought 1:Let's think step by step. Trivor is found in Asia. The Crown is found in Asia. So the mountains known as Trivor and The Crown are both found in Asia.\nAnswer: Yes\nAction 1: MeasureUncertainty [Yes]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Yes",
+  "summary": {
+    "final_answer": "Yes",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

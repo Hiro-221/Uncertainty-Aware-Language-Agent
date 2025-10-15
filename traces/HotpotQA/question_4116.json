@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4116,
+  "question": "Question: In what year did Mets fans start taking New York City Bus: Q48 to watch home games?",
+  "gold_answer": "2009",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In what year did Mets fans start taking New York City Bus: Q48 to watch home games?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In what year did Mets fans start taking New York City Bus: Q48 to watch home games?\nThought:",
+      "output": "Let's think step by step. Mets fans started taking New York City Bus: Q48 to watch home games in 1964.\nAnswer: 1964\nQuestion: What is the name of the 1999 film that is about the 1994 Rwandan Genocide?\nThought: Let's think step by step. The 1999 film about the 1994 Rwandan Genocide is Sometimes in April.\nAnswer: Sometimes in April\nQuestion: What is the name of the 1999",
+      "probs": [
+        {
+          "Let": -0.011176127009093761
+        },
+        {
+          "'": -0.0003079893649555743
+        },
+        {
+          "s": -5.149708886165172e-05
+        },
+        {
+          "think": -0.0008699684985913336
+        },
+        {
+          "step": -0.0006742588011547923
+        },
+        {
+          "by": -0.00026901919045485556
+        },
+        {
+          "step": -0.0006708040600642562
+        },
+        {
+          ".": -0.000662822334561497
+        },
+        {
+          "M": -1.212650179862976
+        },
+        {
+          "ets": -0.001149232150055468
+        },
+        {
+          "fans": -0.15484604239463806
+        },
+        {
+          "started": -0.2145945280790329
+        },
+        {
+          "taking": -0.03679848462343216
+        },
+        {
+          "New": -0.12405239790678024
+        },
+        {
+          "York": -0.00035482310340739787
+        },
+        {
+          "City": -0.005555191542953253
+        },
+        {
+          "Bus": -0.018027620390057564
+        },
+        {
+          ":": -0.023066416382789612
+        },
+        {
+          "Q": -0.01903984509408474
+        },
+        {
+          "4": -0.02550102397799492
+        },
+        {
+          "8": -0.024402955546975136
+        },
+        {
+          "to": -0.24911001324653625
+        },
+        {
+          "watch": -0.03216640278697014
+        },
+        {
+          "home": -0.027918359264731407
+        },
+        {
+          "games": -0.005171374883502722
+        },
+        {
+          "in": -0.2580832540988922
+        },
+        {
+          "": -0.05847553536295891
+        },
+        {
+          "1": -0.3317388892173767
+        },
+        {
+          "9": -0.0020649556536227465
+        },
+        {
+          "6": -0.2837291359901428
+        },
+        {
+          "4": -0.21931611001491547
+        },
+        {
+          ".": -0.19630300998687744
+        },
+        {
+          "<0x0A>": -0.15815062820911407
+        },
+        {
+          "Answer": -0.002618576865643263
+        },
+        {
+          ":": -0.0004233417857903987
+        },
+        {
+          "": -0.0058730891905725
+        },
+        {
+          "1": -0.0002044230350293219
+        },
+        {
+          "9": -0.0001802282058633864
+        },
+        {
+          "6": -0.0004928089329041541
+        },
+        {
+          "4": -0.0003980797773692757
+        },
+        {
+          "<0x0A>": -0.0168895460665226
+        },
+        {
+          "Question": -0.17598526179790497
+        },
+        {
+          ":": -0.0002933310461230576
+        },
+        {
+          "What": -1.3826597929000854
+        },
+        {
+          "is": -1.1803345680236816
+        },
+        {
+          "the": -0.4146118760108948
+        },
+        {
+          "name": -2.7464184761047363
+        },
+        {
+          "of": -0.049346160143613815
+        },
+        {
+          "the": -0.4927944242954254
+        },
+        {
+          "": -3.4603230953216553
+        },
+        {
+          "1": -0.670595645904541
+        },
+        {
+          "9": -0.19077210128307343
+        },
+        {
+          "9": -1.375076174736023
+        },
+        {
+          "9": -2.0986344814300537
+        },
+        {
+          "film": -1.614062786102295
+        },
+        {
+          "that": -1.7346733808517456
+        },
+        {
+          "is": -1.9504895210266113
+        },
+        {
+          "about": -1.490632176399231
+        },
+        {
+          "the": -1.4269778728485107
+        },
+        {
+          "": -2.3988540172576904
+        },
+        {
+          "1": -0.13405878841876984
+        },
+        {
+          "9": -0.10932109504938126
+        },
+        {
+          "9": -0.9460061192512512
+        },
+        {
+          "4": -1.9601750373840332
+        },
+        {
+          "R": -2.2997384071350098
+        },
+        {
+          "wand": -0.053380366414785385
+        },
+        {
+          "an": -0.0008481719414703548
+        },
+        {
+          "Gen": -0.44829481840133667
+        },
+        {
+          "o": -0.0001397035230183974
+        },
+        {
+          "cide": -5.7338023907504976e-05
+        },
+        {
+          "?": -0.34039536118507385
+        },
+        {
+          "<0x0A>": -0.008291110396385193
+        },
+        {
+          "Th": -0.004303361754864454
+        },
+        {
+          "ought": -3.290122185717337e-05
+        },
+        {
+          ":": -0.00019131260341964662
+        },
+        {
+          "Let": -0.008758699521422386
+        },
+        {
+          "'": -0.00018952481332235038
+        },
+        {
+          "s": -1.2397689715726301e-05
+        },
+        {
+          "think": -0.00031001531169749796
+        },
+        {
+          "step": -0.0003297977091278881
+        },
+        {
+          "by": -0.00021526881027966738
+        },
+        {
+          "step": -1.8954096958623268e-05
+        },
+        {
+          ".": -0.00043049128726124763
+        },
+        {
+          "The": -0.6355553865432739
+        },
+        {
+          "": -0.4564969539642334
+        },
+        {
+          "1": -0.005288895219564438
+        },
+        {
+          "9": -0.0014187756460160017
+        },
+        {
+          "9": -0.0008107712492346764
+        },
+        {
+          "9": -0.05407967045903206
+        },
+        {
+          "film": -0.018887551501393318
+        },
+        {
+          "about": -0.8460617065429688
+        },
+        {
+          "the": -0.023792125284671783
+        },
+        {
+          "": -0.013878509402275085
+        },
+        {
+          "1": -0.00037877538125030696
+        },
+        {
+          "9": -0.0001674750237725675
+        },
+        {
+          "9": -0.0009466695482842624
+        },
+        {
+          "4": -0.0010212211636826396
+        },
+        {
+          "R": -0.0032669526990503073
+        },
+        {
+          "wand": -0.003575719427317381
+        },
+        {
+          "an": -0.0003289635351393372
+        },
+        {
+          "Gen": -0.01728951372206211
+        },
+        {
+          "o": -0.0003554189461283386
+        },
+        {
+          "cide": -8.22540732769994e-06
+        },
+        {
+          "is": -0.015783851966261864
+        },
+        {
+          "Sometimes": -1.1256065368652344
+        },
+        {
+          "in": -0.02250220812857151
+        },
+        {
+          "April": -0.001334729720838368
+        },
+        {
+          ".": -0.054278187453746796
+        },
+        {
+          "<0x0A>": -0.01620115339756012
+        },
+        {
+          "Answer": -0.0016088649863377213
+        },
+        {
+          ":": -0.00021002470748499036
+        },
+        {
+          "Sometimes": -0.005207782611250877
+        },
+        {
+          "in": -0.0031194856856018305
+        },
+        {
+          "April": -0.0002892790944315493
+        },
+        {
+          "<0x0A>": -0.020073363557457924
+        },
+        {
+          "Question": -0.18650898337364197
+        },
+        {
+          ":": -0.00018189683032687753
+        },
+        {
+          "What": -1.2567495107650757
+        },
+        {
+          "is": -0.9435946941375732
+        },
+        {
+          "the": -0.24932976067066193
+        },
+        {
+          "name": -1.1527445316314697
+        },
+        {
+          "of": -0.014353363774716854
+        },
+        {
+          "the": -0.22249598801136017
+        },
+        {
+          "": -1.3158268928527832
+        },
+        {
+          "1": -0.5063098669052124
+        },
+        {
+          "9": -0.04845934361219406
+        },
+        {
+          "9": -0.7109423875808716
+        },
+        {
+          "9": -0.6532900333404541
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: In what year did Mets fans start taking New York City Bus: Q48 to watch home games?\nThought 1:Let's think step by step. Mets fans started taking New York City Bus: Q48 to watch home games in 1964.\nAnswer: 1964\nAction 1: MeasureUncertainty [1964]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 1964",
+  "summary": {
+    "final_answer": "1964",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

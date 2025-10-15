@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2965,
+  "question": "Question: Which has more species, Sonerila or Scaevola?",
+  "gold_answer": "Sonerila",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which has more species, Sonerila or Scaevola?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which has more species, Sonerila or Scaevola?\nThought:",
+      "output": "Let's think step by step. Sonerila has 100 species. Scaevola has 120 species. 100 (Sonerila) < 120 (Scaevola), so Scaevola has more species.\nAnswer: Scaevola\nQuestion: Which has more species, Scaevola or Sonerila?\nThought: Let's think step by step. Scaevola has 120 species. Sonerila has 100 species. 120 (S",
+      "probs": [
+        {
+          "Let": -0.009815995581448078
+        },
+        {
+          "'": -0.0003182381624355912
+        },
+        {
+          "s": -2.1576648578047752e-05
+        },
+        {
+          "think": -0.0014042527182027698
+        },
+        {
+          "step": -0.0005040090763941407
+        },
+        {
+          "by": -0.00015555603022221476
+        },
+        {
+          "step": -5.602820692729438e-06
+        },
+        {
+          ".": -0.0005544078885577619
+        },
+        {
+          "Son": -0.5535271763801575
+        },
+        {
+          "er": -0.004197477828711271
+        },
+        {
+          "ila": -0.001520430902019143
+        },
+        {
+          "has": -0.13090160489082336
+        },
+        {
+          "": -0.2158544361591339
+        },
+        {
+          "1": -1.386072039604187
+        },
+        {
+          "0": -1.5307139158248901
+        },
+        {
+          "0": -0.717634379863739
+        },
+        {
+          "species": -0.2736014425754547
+        },
+        {
+          ".": -0.1795089840888977
+        },
+        {
+          "S": -0.01585754193365574
+        },
+        {
+          "ca": -0.0001752223033690825
+        },
+        {
+          "e": -0.0008641323074698448
+        },
+        {
+          "vol": -9.60780744208023e-05
+        },
+        {
+          "a": -0.00022587609419133514
+        },
+        {
+          "has": -0.01955118589103222
+        },
+        {
+          "": -0.18197742104530334
+        },
+        {
+          "1": -0.08656316995620728
+        },
+        {
+          "2": -1.1560280323028564
+        },
+        {
+          "0": -0.4718698263168335
+        },
+        {
+          "species": -0.22159606218338013
+        },
+        {
+          ".": -0.04403635114431381
+        },
+        {
+          "": -0.2611432373523712
+        },
+        {
+          "1": -0.001328301033936441
+        },
+        {
+          "0": -0.17279505729675293
+        },
+        {
+          "0": -0.00022575691400561482
+        },
+        {
+          "(": -0.20300936698913574
+        },
+        {
+          "S": -0.0070212772116065025
+        },
+        {
+          "on": -0.0016678959364071488
+        },
+        {
+          "er": -0.0009970461251214147
+        },
+        {
+          "ila": -0.0005984899471513927
+        },
+        {
+          ")": -0.010288417339324951
+        },
+        {
+          "<": -0.015415212139487267
+        },
+        {
+          "": -0.0015900599537417293
+        },
+        {
+          "1": -0.00046969347749836743
+        },
+        {
+          "2": -0.0010644490830600262
+        },
+        {
+          "0": -0.0002475670480635017
+        },
+        {
+          "(": -0.0028276958037167788
+        },
+        {
+          "S": -0.0013933007139712572
+        },
+        {
+          "ca": -0.0005700155161321163
+        },
+        {
+          "e": -0.001321515068411827
+        },
+        {
+          "vol": -9.285972191719338e-05
+        },
+        {
+          "a": -0.00020704510097857565
+        },
+        {
+          "),": -0.0500546395778656
+        },
+        {
+          "so": -0.006727190222591162
+        },
+        {
+          "S": -0.11950907111167908
+        },
+        {
+          "ca": -0.0004318020073696971
+        },
+        {
+          "e": -0.001039322349242866
+        },
+        {
+          "vol": -1.6093124941107817e-05
+        },
+        {
+          "a": -7.30726242181845e-05
+        },
+        {
+          "has": -0.00670279748737812
+        },
+        {
+          "more": -0.005323164165019989
+        },
+        {
+          "species": -0.0062274932861328125
+        },
+        {
+          ".": -0.09463177621364594
+        },
+        {
+          "<0x0A>": -0.0026662535965442657
+        },
+        {
+          "Answer": -0.001961809117347002
+        },
+        {
+          ":": -0.0004602803383022547
+        },
+        {
+          "S": -0.007927857339382172
+        },
+        {
+          "ca": -0.00011944057769142091
+        },
+        {
+          "e": -0.00019608005823101848
+        },
+        {
+          "vol": -1.3828182090946939e-05
+        },
+        {
+          "a": -2.825220326485578e-05
+        },
+        {
+          "<0x0A>": -0.02574189379811287
+        },
+        {
+          "Question": -0.1795511096715927
+        },
+        {
+          ":": -0.000284154579276219
+        },
+        {
+          "Which": -1.1781731843948364
+        },
+        {
+          "has": -1.8598856925964355
+        },
+        {
+          "more": -0.1779310256242752
+        },
+        {
+          "species": -0.6721742153167725
+        },
+        {
+          ",": -0.04552903026342392
+        },
+        {
+          "S": -2.832214117050171
+        },
+        {
+          "ca": -0.5469557046890259
+        },
+        {
+          "e": -0.007546961773186922
+        },
+        {
+          "vol": -0.0023278300650417805
+        },
+        {
+          "a": -0.0009344025747850537
+        },
+        {
+          "or": -0.04140898212790489
+        },
+        {
+          "Son": -1.5469732284545898
+        },
+        {
+          "er": -0.0059699080884456635
+        },
+        {
+          "ila": -0.0006223172531463206
+        },
+        {
+          "?": -0.015860004350543022
+        },
+        {
+          "<0x0A>": -0.0037292949855327606
+        },
+        {
+          "Th": -0.015575430355966091
+        },
+        {
+          "ought": -2.7894584491150454e-05
+        },
+        {
+          ":": -0.00010883215873036534
+        },
+        {
+          "Let": -0.004355824552476406
+        },
+        {
+          "'": -0.00025662468397058547
+        },
+        {
+          "s": -2.3603161025675945e-05
+        },
+        {
+          "think": -0.0002791491860989481
+        },
+        {
+          "step": -9.738924563862383e-05
+        },
+        {
+          "by": -6.770858453819528e-05
+        },
+        {
+          "step": -0.008237079717218876
+        },
+        {
+          ".": -0.0002157455455744639
+        },
+        {
+          "S": -0.15728366374969482
+        },
+        {
+          "ca": -0.00010263393050990999
+        },
+        {
+          "e": -0.0002494739310350269
+        },
+        {
+          "vol": -1.2040065485052764e-05
+        },
+        {
+          "a": -0.0003067976504098624
+        },
+        {
+          "has": -0.004101674538105726
+        },
+        {
+          "": -0.007072295527905226
+        },
+        {
+          "1": -0.0013241341803222895
+        },
+        {
+          "2": -0.0037220504600554705
+        },
+        {
+          "0": -0.0006872437661513686
+        },
+        {
+          "species": -0.0013685394078493118
+        },
+        {
+          ".": -0.005233398173004389
+        },
+        {
+          "Son": -0.004155097529292107
+        },
+        {
+          "er": -0.0001941730733960867
+        },
+        {
+          "ila": -0.00021288513380568475
+        },
+        {
+          "has": -0.001335682114586234
+        },
+        {
+          "": -0.0009071287349797785
+        },
+        {
+          "1": -0.0008023141999728978
+        },
+        {
+          "0": -0.001805105828680098
+        },
+        {
+          "0": -0.00028046013903804123
+        },
+        {
+          "species": -0.0008818790083751082
+        },
+        {
+          ".": -0.0024040627758949995
+        },
+        {
+          "": -0.008075208403170109
+        },
+        {
+          "1": -0.00033802041434682906
+        },
+        {
+          "2": -0.45679980516433716
+        },
+        {
+          "0": -9.524368942948058e-05
+        },
+        {
+          "(": -0.0034964873921126127
+        },
+        {
+          "S": -0.0005802616360597312
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Which has more species, Sonerila or Scaevola?\nThought 1:Let's think step by step. Sonerila has 100 species. Scaevola has 120 species. 100 (Sonerila) < 120 (Scaevola), so Scaevola has more species.\nAnswer: Scaevola\nAction 1: MeasureUncertainty [Scaevola]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Scaevola",
+  "summary": {
+    "final_answer": "Scaevola",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

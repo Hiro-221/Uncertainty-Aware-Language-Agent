@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7096,
+  "question": "Question: In what city did Charlie Spiller play college football?",
+  "gold_answer": "Lorman",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In what city did Charlie Spiller play college football?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In what city did Charlie Spiller play college football?\nThought:",
+      "output": "Let's think step by step. Charlie Spiller played college football in the city of Tallahassee.\nAnswer: Tallahassee\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999 film Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1",
+      "probs": [
+        {
+          "Let": -0.009490611031651497
+        },
+        {
+          "'": -0.0005484507419168949
+        },
+        {
+          "s": -1.5258672647178173e-05
+        },
+        {
+          "think": -0.0012323412811383605
+        },
+        {
+          "step": -0.0005204515182413161
+        },
+        {
+          "by": -0.00017152745567727834
+        },
+        {
+          "step": -8.022463589441031e-05
+        },
+        {
+          ".": -0.0006668727728538215
+        },
+        {
+          "Charlie": -0.12378089874982834
+        },
+        {
+          "Sp": -0.004950171802192926
+        },
+        {
+          "iller": -0.001311395550146699
+        },
+        {
+          "played": -0.17375028133392334
+        },
+        {
+          "college": -0.12851323187351227
+        },
+        {
+          "football": -0.002998501295223832
+        },
+        {
+          "in": -0.7440386414527893
+        },
+        {
+          "the": -3.409374475479126
+        },
+        {
+          "city": -0.9164052605628967
+        },
+        {
+          "of": -0.28209853172302246
+        },
+        {
+          "T": -3.386533260345459
+        },
+        {
+          "alla": -0.8480872511863708
+        },
+        {
+          "has": -0.0007550249574705958
+        },
+        {
+          "see": -0.0022600365336984396
+        },
+        {
+          ".": -0.5342129468917847
+        },
+        {
+          "<0x0A>": -0.06181936711072922
+        },
+        {
+          "Answer": -0.001348301419056952
+        },
+        {
+          ":": -0.0002843929105438292
+        },
+        {
+          "T": -0.004369948524981737
+        },
+        {
+          "alla": -0.0006799769471399486
+        },
+        {
+          "has": -1.8596476365928538e-05
+        },
+        {
+          "see": -0.0011840007500723004
+        },
+        {
+          "<0x0A>": -0.08061577379703522
+        },
+        {
+          "Question": -0.17622067034244537
+        },
+        {
+          ":": -0.0002874914789572358
+        },
+        {
+          "What": -1.3375072479248047
+        },
+        {
+          "is": -1.2706817388534546
+        },
+        {
+          "the": -0.4130140542984009
+        },
+        {
+          "name": -2.5162289142608643
+        },
+        {
+          "of": -0.041714541614055634
+        },
+        {
+          "the": -0.48451778292655945
+        },
+        {
+          "": -3.503864049911499
+        },
+        {
+          "1": -0.6964759230613708
+        },
+        {
+          "9": -0.1708034873008728
+        },
+        {
+          "9": -1.3150303363800049
+        },
+        {
+          "9": -2.0806972980499268
+        },
+        {
+          "film": -1.4930739402770996
+        },
+        {
+          "that": -1.7852067947387695
+        },
+        {
+          "was": -2.1942944526672363
+        },
+        {
+          "directed": -1.1943103075027466
+        },
+        {
+          "by": -0.02722046710550785
+        },
+        {
+          "John": -3.5104403495788574
+        },
+        {
+          "W": -2.4271080493927
+        },
+        {
+          "oo": -0.26502299308776855
+        },
+        {
+          "?": -0.8514114618301392
+        },
+        {
+          "<0x0A>": -0.008273021318018436
+        },
+        {
+          "Th": -0.005365850869566202
+        },
+        {
+          "ought": -3.3854863431770355e-05
+        },
+        {
+          ":": -0.0001778444420779124
+        },
+        {
+          "Let": -0.012674258090555668
+        },
+        {
+          "'": -0.00045372682507149875
+        },
+        {
+          "s": -1.549708758830093e-05
+        },
+        {
+          "think": -0.000514851592015475
+        },
+        {
+          "step": -0.0005443998379632831
+        },
+        {
+          "by": -0.00018034738604910672
+        },
+        {
+          "step": -4.851700214203447e-05
+        },
+        {
+          ".": -0.0003773453936446458
+        },
+        {
+          "John": -1.4054875373840332
+        },
+        {
+          "W": -0.003995413426309824
+        },
+        {
+          "oo": -5.924526340095326e-05
+        },
+        {
+          "directed": -0.31324273347854614
+        },
+        {
+          "the": -0.9498076438903809
+        },
+        {
+          "": -0.4223102927207947
+        },
+        {
+          "1": -0.018853627145290375
+        },
+        {
+          "9": -0.00010048838157672435
+        },
+        {
+          "9": -0.009858018718659878
+        },
+        {
+          "9": -0.07055429369211197
+        },
+        {
+          "film": -0.048775359988212585
+        },
+        {
+          "Face": -0.9886294603347778
+        },
+        {
+          "/": -0.02579742670059204
+        },
+        {
+          "Off": -0.00277883792296052
+        },
+        {
+          ".": -0.1281239092350006
+        },
+        {
+          "<0x0A>": -0.042254988104104996
+        },
+        {
+          "Answer": -0.0012367465533316135
+        },
+        {
+          ":": -0.0003446938644628972
+        },
+        {
+          "Face": -0.004071756266057491
+        },
+        {
+          "/": -0.00417053047567606
+        },
+        {
+          "Off": -0.00264140497893095
+        },
+        {
+          "<0x0A>": -0.026355484500527382
+        },
+        {
+          "Question": -0.21328918635845184
+        },
+        {
+          ":": -0.00024232311989180744
+        },
+        {
+          "What": -1.1674813032150269
+        },
+        {
+          "is": -0.9825248718261719
+        },
+        {
+          "the": -0.2313288152217865
+        },
+        {
+          "name": -0.9587092399597168
+        },
+        {
+          "of": -0.01072393823415041
+        },
+        {
+          "the": -0.18726587295532227
+        },
+        {
+          "": -1.1333975791931152
+        },
+        {
+          "1": -0.4186006784439087
+        },
+        {
+          "9": -0.025776050984859467
+        },
+        {
+          "9": -0.5220605731010437
+        },
+        {
+          "9": -0.5010372996330261
+        },
+        {
+          "film": -0.057250332087278366
+        },
+        {
+          "that": -0.03603961318731308
+        },
+        {
+          "was": -0.07954568415880203
+        },
+        {
+          "directed": -0.04064776375889778
+        },
+        {
+          "by": -0.0009048658539541066
+        },
+        {
+          "John": -0.6148359775543213
+        },
+        {
+          "W": -0.02264847606420517
+        },
+        {
+          "oo": -0.0005945583689026535
+        },
+        {
+          "?": -0.034283675253391266
+        },
+        {
+          "<0x0A>": -0.005910656414926052
+        },
+        {
+          "Th": -0.025807185098528862
+        },
+        {
+          "ought": -4.768370445162873e-07
+        },
+        {
+          ":": -0.00021824838768225163
+        },
+        {
+          "Let": -0.008951060473918915
+        },
+        {
+          "'": -0.0003620922507252544
+        },
+        {
+          "s": -2.3007127310847864e-05
+        },
+        {
+          "think": -0.0006566275842487812
+        },
+        {
+          "step": -0.00036483307485468686
+        },
+        {
+          "by": -0.0001234931987710297
+        },
+        {
+          "step": -1.2397689715726301e-05
+        },
+        {
+          ".": -0.0003343261778354645
+        },
+        {
+          "John": -0.07971719652414322
+        },
+        {
+          "W": -0.0005510718910954893
+        },
+        {
+          "oo": -0.00011920218821614981
+        },
+        {
+          "directed": -0.036966342478990555
+        },
+        {
+          "the": -0.018679307773709297
+        },
+        {
+          "": -0.004704359918832779
+        },
+        {
+          "1": -0.018193859606981277
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: In what city did Charlie Spiller play college football?\nThought 1:Let's think step by step. Charlie Spiller played college football in the city of Tallahassee.\nAnswer: Tallahassee\nAction 1: MeasureUncertainty [Tallahassee]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Tallahassee",
+  "summary": {
+    "final_answer": "Tallahassee",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

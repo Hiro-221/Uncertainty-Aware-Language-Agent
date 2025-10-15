@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5032,
+  "question": "Question: What is the legal name of Johnny Campbell's hometown?",
+  "gold_answer": "Londonderry",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is the legal name of Johnny Campbell's hometown?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is the legal name of Johnny Campbell's hometown?\nThought:",
+      "output": "Let's think step by step. Johnny Campbell's hometown is San Diego, California. So the legal name of Johnny Campbell's hometown is San Diego, California.\nAnswer: San Diego, California\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a 1960 film. Ocean's Eleven is a 2001 film. So the 1999",
+      "probs": [
+        {
+          "Let": -0.014935811050236225
+        },
+        {
+          "'": -0.000542612629942596
+        },
+        {
+          "s": -4.768360213347478e-06
+        },
+        {
+          "think": -0.0014980534324422479
+        },
+        {
+          "step": -0.0007844470092095435
+        },
+        {
+          "by": -0.00034397884155623615
+        },
+        {
+          "step": -3.909988299710676e-05
+        },
+        {
+          ".": -0.0006984416977502406
+        },
+        {
+          "Johnny": -0.2989864945411682
+        },
+        {
+          "Campbell": -0.008712848648428917
+        },
+        {
+          "'": -0.6800894141197205
+        },
+        {
+          "s": -0.0005821678787469864
+        },
+        {
+          "h": -0.04432377591729164
+        },
+        {
+          "omet": -5.745722592109814e-05
+        },
+        {
+          "own": -0.0003583981015253812
+        },
+        {
+          "is": -0.0850180983543396
+        },
+        {
+          "San": -2.0766496658325195
+        },
+        {
+          "Diego": -1.5227816104888916
+        },
+        {
+          ",": -0.6822828650474548
+        },
+        {
+          "California": -0.49348020553588867
+        },
+        {
+          ".": -0.30512773990631104
+        },
+        {
+          "So": -1.5127074718475342
+        },
+        {
+          "the": -0.25944676995277405
+        },
+        {
+          "legal": -0.08234168589115143
+        },
+        {
+          "name": -0.0016526625258848071
+        },
+        {
+          "of": -0.11719126254320145
+        },
+        {
+          "Johnny": -0.12184949219226837
+        },
+        {
+          "Campbell": -0.0036176491994410753
+        },
+        {
+          "'": -0.0024409282486885786
+        },
+        {
+          "s": -0.00023469554434996098
+        },
+        {
+          "h": -0.005213119555264711
+        },
+        {
+          "omet": -5.722029527532868e-06
+        },
+        {
+          "own": -0.00034457468427717686
+        },
+        {
+          "is": -0.032001662999391556
+        },
+        {
+          "San": -0.0317356176674366
+        },
+        {
+          "Diego": -0.0005013877525925636
+        },
+        {
+          ",": -0.2623280882835388
+        },
+        {
+          "California": -0.020706670358777046
+        },
+        {
+          ".": -0.02894008345901966
+        },
+        {
+          "<0x0A>": -0.004576091188937426
+        },
+        {
+          "Answer": -0.0020889858715236187
+        },
+        {
+          ":": -0.0003369478799868375
+        },
+        {
+          "San": -0.0028956886380910873
+        },
+        {
+          "Diego": -0.0004981707315891981
+        },
+        {
+          ",": -0.00855956319719553
+        },
+        {
+          "California": -0.0056761037558317184
+        },
+        {
+          "<0x0A>": -0.02927633561193943
+        },
+        {
+          "Question": -0.18806299567222595
+        },
+        {
+          ":": -0.00029297350556589663
+        },
+        {
+          "What": -1.2831168174743652
+        },
+        {
+          "is": -1.0354832410812378
+        },
+        {
+          "the": -0.3292624056339264
+        },
+        {
+          "name": -2.5249640941619873
+        },
+        {
+          "of": -0.044269490987062454
+        },
+        {
+          "the": -0.6225553154945374
+        },
+        {
+          "": -3.623667001724243
+        },
+        {
+          "1": -0.6827979683876038
+        },
+        {
+          "9": -0.2095998078584671
+        },
+        {
+          "9": -1.2986903190612793
+        },
+        {
+          "9": -2.0738484859466553
+        },
+        {
+          "film": -1.6048755645751953
+        },
+        {
+          "that": -1.8138375282287598
+        },
+        {
+          "is": -2.1714444160461426
+        },
+        {
+          "a": -1.5543808937072754
+        },
+        {
+          "re": -1.193023443222046
+        },
+        {
+          "make": -0.03298312425613403
+        },
+        {
+          "of": -0.019095050171017647
+        },
+        {
+          "the": -0.8375072479248047
+        },
+        {
+          "": -0.2787991762161255
+        },
+        {
+          "1": -0.015736211091279984
+        },
+        {
+          "9": -0.002566141774877906
+        },
+        {
+          "6": -1.2947239875793457
+        },
+        {
+          "0": -1.8962719440460205
+        },
+        {
+          "film": -0.4128606915473938
+        },
+        {
+          "Ocean": -1.4924696683883667
+        },
+        {
+          "'": -0.009133817628026009
+        },
+        {
+          "s": -0.00011598391574807465
+        },
+        {
+          "": -0.3998265266418457
+        },
+        {
+          "1": -0.0003859252028632909
+        },
+        {
+          "1": -0.0007001094636507332
+        },
+        {
+          "?": -0.261699914932251
+        },
+        {
+          "<0x0A>": -0.00499773770570755
+        },
+        {
+          "Th": -0.005942060146480799
+        },
+        {
+          "ought": -5.674201020156033e-05
+        },
+        {
+          ":": -0.00011920218821614981
+        },
+        {
+          "Let": -0.01104691717773676
+        },
+        {
+          "'": -0.0003488647344056517
+        },
+        {
+          "s": -2.932505594799295e-05
+        },
+        {
+          "think": -0.0003682888636831194
+        },
+        {
+          "step": -0.000310730334604159
+        },
+        {
+          "by": -0.00020180096908006817
+        },
+        {
+          "step": -0.0004631400224752724
+        },
+        {
+          ".": -0.00037543877260759473
+        },
+        {
+          "Ocean": -0.6729253530502319
+        },
+        {
+          "'": -0.007230306044220924
+        },
+        {
+          "s": -0.00028010259848088026
+        },
+        {
+          "Ele": -0.5792059302330017
+        },
+        {
+          "ven": -3.0278701160568744e-05
+        },
+        {
+          "is": -0.4438653588294983
+        },
+        {
+          "a": -0.2817021608352661
+        },
+        {
+          "": -0.6752309799194336
+        },
+        {
+          "1": -0.27745240926742554
+        },
+        {
+          "9": -0.00019858295854646713
+        },
+        {
+          "6": -0.26052606105804443
+        },
+        {
+          "0": -0.0008112476789392531
+        },
+        {
+          "film": -0.18503578007221222
+        },
+        {
+          ".": -0.3722347915172577
+        },
+        {
+          "Ocean": -0.14380334317684174
+        },
+        {
+          "'": -0.0033583214972168207
+        },
+        {
+          "s": -0.0006416169344447553
+        },
+        {
+          "Ele": -0.07772968709468842
+        },
+        {
+          "ven": -1.5616295058862306e-05
+        },
+        {
+          "is": -0.20754912495613098
+        },
+        {
+          "a": -0.13913249969482422
+        },
+        {
+          "": -0.26046112179756165
+        },
+        {
+          "2": -0.5760093927383423
+        },
+        {
+          "0": -3.349725011503324e-05
+        },
+        {
+          "0": -0.0016390950186178088
+        },
+        {
+          "1": -0.004076386336237192
+        },
+        {
+          "film": -0.20666299760341644
+        },
+        {
+          ".": -0.2945347726345062
+        },
+        {
+          "So": -0.9768373966217041
+        },
+        {
+          "the": -0.3658805787563324
+        },
+        {
+          "": -0.5985938906669617
+        },
+        {
+          "1": -0.07438250631093979
+        },
+        {
+          "9": -0.000102037942269817
+        },
+        {
+          "9": -0.008196053095161915
+        },
+        {
+          "9": -0.0008055302896536887
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: What is the legal name of Johnny Campbell's hometown?\nThought 1:Let's think step by step. Johnny Campbell's hometown is San Diego, California. So the legal name of Johnny Campbell's hometown is San Diego, California.\nAnswer: San Diego, California\nAction 1: MeasureUncertainty [San Diego, California]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: San Diego, California",
+  "summary": {
+    "final_answer": "San Diego, California",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

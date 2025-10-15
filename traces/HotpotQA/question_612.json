@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 612,
+  "question": "Question: Are Distortion Mirrors and OK Go both considered rock bands?",
+  "gold_answer": "yes",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Distortion Mirrors and OK Go both considered rock bands?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Distortion Mirrors and OK Go both considered rock bands?\nThought:",
+      "output": "Let's think step by step. Distortion Mirrors is a rock band. OK Go is a rock band. So Distortion Mirrors and OK Go are both considered rock bands.\nAnswer: Yes\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a 1960 film. Ocean's Eleven is a 2001 film. So the 1999",
+      "probs": [
+        {
+          "Let": -0.013480233028531075
+        },
+        {
+          "'": -0.00043466180795803666
+        },
+        {
+          "s": -4.23184028477408e-05
+        },
+        {
+          "think": -0.0011177966371178627
+        },
+        {
+          "step": -0.00046075694262981415
+        },
+        {
+          "by": -0.0001722425949992612
+        },
+        {
+          "step": -1.4543427823809907e-05
+        },
+        {
+          ".": -0.0005477358354255557
+        },
+        {
+          "Dist": -0.2889633774757385
+        },
+        {
+          "ort": -0.0016500442288815975
+        },
+        {
+          "ion": -0.0012290074955672026
+        },
+        {
+          "Mir": -0.007730093784630299
+        },
+        {
+          "ror": -0.0016614693449810147
+        },
+        {
+          "s": -0.0033686577808111906
+        },
+        {
+          "is": -0.33239462971687317
+        },
+        {
+          "a": -0.49597102403640747
+        },
+        {
+          "rock": -0.7157171964645386
+        },
+        {
+          "band": -0.08331874758005142
+        },
+        {
+          ".": -0.18067476153373718
+        },
+        {
+          "OK": -0.029877927154302597
+        },
+        {
+          "Go": -0.0007427555974572897
+        },
+        {
+          "is": -0.032133616507053375
+        },
+        {
+          "a": -0.3865596652030945
+        },
+        {
+          "rock": -0.03966199606657028
+        },
+        {
+          "band": -0.01596090756356716
+        },
+        {
+          ".": -0.0834110900759697
+        },
+        {
+          "So": -0.11264757812023163
+        },
+        {
+          "Dist": -0.6337763071060181
+        },
+        {
+          "ort": -0.0011067223967984319
+        },
+        {
+          "ion": -0.0009085579658858478
+        },
+        {
+          "Mir": -0.0011551857460290194
+        },
+        {
+          "ror": -0.0037138555198907852
+        },
+        {
+          "s": -0.002086011925712228
+        },
+        {
+          "and": -0.005954384338110685
+        },
+        {
+          "OK": -0.004492666106671095
+        },
+        {
+          "Go": -0.0017961811972782016
+        },
+        {
+          "are": -0.10115008801221848
+        },
+        {
+          "both": -0.11306916177272797
+        },
+        {
+          "considered": -0.03886183723807335
+        },
+        {
+          "rock": -0.00668645603582263
+        },
+        {
+          "bands": -0.007273857947438955
+        },
+        {
+          ".": -0.005547722801566124
+        },
+        {
+          "<0x0A>": -0.0026976405642926693
+        },
+        {
+          "Answer": -0.00130425242241472
+        },
+        {
+          ":": -0.000402250443585217
+        },
+        {
+          "Yes": -0.024756785482168198
+        },
+        {
+          "<0x0A>": -0.012560310773551464
+        },
+        {
+          "Question": -0.16827109456062317
+        },
+        {
+          ":": -0.0003393312799744308
+        },
+        {
+          "What": -1.7279818058013916
+        },
+        {
+          "is": -1.2774065732955933
+        },
+        {
+          "the": -0.40766361355781555
+        },
+        {
+          "name": -2.7415757179260254
+        },
+        {
+          "of": -0.053322724997997284
+        },
+        {
+          "the": -0.451193630695343
+        },
+        {
+          "": -3.344503879547119
+        },
+        {
+          "1": -0.674352765083313
+        },
+        {
+          "9": -0.16997015476226807
+        },
+        {
+          "9": -1.3405020236968994
+        },
+        {
+          "9": -2.07610821723938
+        },
+        {
+          "film": -1.5487016439437866
+        },
+        {
+          "that": -1.632912516593933
+        },
+        {
+          "is": -2.0163538455963135
+        },
+        {
+          "a": -1.4883283376693726
+        },
+        {
+          "re": -1.1913304328918457
+        },
+        {
+          "make": -0.028068821877241135
+        },
+        {
+          "of": -0.0187691617757082
+        },
+        {
+          "the": -0.8025013208389282
+        },
+        {
+          "": -0.286572128534317
+        },
+        {
+          "1": -0.015925239771604538
+        },
+        {
+          "9": -0.0023498323280364275
+        },
+        {
+          "6": -1.309537649154663
+        },
+        {
+          "0": -1.8999066352844238
+        },
+        {
+          "film": -0.43277257680892944
+        },
+        {
+          "Ocean": -1.6357941627502441
+        },
+        {
+          "'": -0.011230823583900928
+        },
+        {
+          "s": -0.00017271934484597296
+        },
+        {
+          "": -0.3778805136680603
+        },
+        {
+          "1": -0.0002899941464420408
+        },
+        {
+          "1": -0.000846027978695929
+        },
+        {
+          "?": -0.27729910612106323
+        },
+        {
+          "<0x0A>": -0.006745306774973869
+        },
+        {
+          "Th": -0.009194886311888695
+        },
+        {
+          "ought": -6.8662193370983e-05
+        },
+        {
+          ":": -0.0002890407631639391
+        },
+        {
+          "Let": -0.01498748455196619
+        },
+        {
+          "'": -0.0004935238393954933
+        },
+        {
+          "s": -3.564294092939235e-05
+        },
+        {
+          "think": -0.0005597693379968405
+        },
+        {
+          "step": -0.000444551813416183
+        },
+        {
+          "by": -0.0002002515539061278
+        },
+        {
+          "step": -5.638440416078083e-05
+        },
+        {
+          ".": -0.000497336674015969
+        },
+        {
+          "Ocean": -0.48193883895874023
+        },
+        {
+          "'": -0.007003639359027147
+        },
+        {
+          "s": -0.0002548369811847806
+        },
+        {
+          "Ele": -0.5223544836044312
+        },
+        {
+          "ven": -4.2914423829643056e-05
+        },
+        {
+          "is": -0.38622990250587463
+        },
+        {
+          "a": -0.28017953038215637
+        },
+        {
+          "": -0.6758454442024231
+        },
+        {
+          "1": -0.25206032395362854
+        },
+        {
+          "9": -0.00028081765049137175
+        },
+        {
+          "6": -0.19178126752376556
+        },
+        {
+          "0": -0.0008195855189114809
+        },
+        {
+          "film": -0.21794714033603668
+        },
+        {
+          ".": -0.33330100774765015
+        },
+        {
+          "Ocean": -0.14405067265033722
+        },
+        {
+          "'": -0.003829528111964464
+        },
+        {
+          "s": -0.00011955977242905647
+        },
+        {
+          "Ele": -0.08479459583759308
+        },
+        {
+          "ven": -2.0265373677830212e-05
+        },
+        {
+          "is": -0.1805514693260193
+        },
+        {
+          "a": -0.11678425222635269
+        },
+        {
+          "": -0.25791996717453003
+        },
+        {
+          "2": -0.4397636353969574
+        },
+        {
+          "0": -2.3841574147809297e-05
+        },
+        {
+          "0": -0.0014732946874573827
+        },
+        {
+          "1": -0.003570849308744073
+        },
+        {
+          "film": -0.21106316149234772
+        },
+        {
+          ".": -0.19014187157154083
+        },
+        {
+          "So": -0.6191349625587463
+        },
+        {
+          "the": -0.5328971147537231
+        },
+        {
+          "": -0.6060171127319336
+        },
+        {
+          "1": -0.05172380805015564
+        },
+        {
+          "9": -5.376194530981593e-05
+        },
+        {
+          "9": -0.007929868064820766
+        },
+        {
+          "9": -0.0008665143977850676
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are Distortion Mirrors and OK Go both considered rock bands?\nThought 1:Let's think step by step. Distortion Mirrors is a rock band. OK Go is a rock band. So Distortion Mirrors and OK Go are both considered rock bands.\nAnswer: Yes\nAction 1: MeasureUncertainty [Yes]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Yes",
+  "summary": {
+    "final_answer": "Yes",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

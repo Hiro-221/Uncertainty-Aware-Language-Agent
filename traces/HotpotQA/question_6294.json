@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6294,
+  "question": "Question: Where is the concert venue which hosted the first US performance of \"Libuše\" located?",
+  "gold_answer": "Midtown Manhattan in New York City,",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Where is the concert venue which hosted the first US performance of \"Libuše\" located?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Where is the concert venue which hosted the first US performance of \"Libuše\" located?\nThought:",
+      "output": "Let's think step by step. The first US performance of \"Libuše\" was held at the Metropolitan Opera House. The Metropolitan Opera House is located in New York City. So the concert venue which hosted the first US performance of \"Libuše\" is located in New York City.\nAnswer: New York City\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. The 1999 film that was directed by John Woo is Mission: Impossible II.\nAnswer: Mission:",
+      "probs": [
+        {
+          "Let": -0.01809704676270485
+        },
+        {
+          "'": -0.0003159739135298878
+        },
+        {
+          "s": -2.52720492426306e-05
+        },
+        {
+          "think": -0.0012807984603568912
+        },
+        {
+          "step": -0.0007428746903315187
+        },
+        {
+          "by": -0.000300958170555532
+        },
+        {
+          "step": -0.0006811682251282036
+        },
+        {
+          ".": -0.0007177399238571525
+        },
+        {
+          "The": -0.8513489961624146
+        },
+        {
+          "first": -0.9353320002555847
+        },
+        {
+          "US": -0.11065130680799484
+        },
+        {
+          "performance": -0.008482616394758224
+        },
+        {
+          "of": -0.005416598170995712
+        },
+        {
+          "\"": -0.14223499596118927
+        },
+        {
+          "Lib": -0.0017251383978873491
+        },
+        {
+          "u": -0.013312031514942646
+        },
+        {
+          "še": -0.0007288183551281691
+        },
+        {
+          "\"": -0.005773060489445925
+        },
+        {
+          "was": -0.37127768993377686
+        },
+        {
+          "held": -1.4589344263076782
+        },
+        {
+          "at": -0.6179957985877991
+        },
+        {
+          "the": -0.7468617558479309
+        },
+        {
+          "Metropolitan": -0.44286665320396423
+        },
+        {
+          "Opera": -0.00912968348711729
+        },
+        {
+          "House": -0.6348064541816711
+        },
+        {
+          ".": -0.6960309743881226
+        },
+        {
+          "The": -1.1015677452087402
+        },
+        {
+          "Metropolitan": -0.1646849364042282
+        },
+        {
+          "Opera": -0.002403111197054386
+        },
+        {
+          "House": -0.026905803009867668
+        },
+        {
+          "is": -0.05968699976801872
+        },
+        {
+          "located": -0.38697877526283264
+        },
+        {
+          "in": -0.25981107354164124
+        },
+        {
+          "New": -0.4650805592536926
+        },
+        {
+          "York": -0.0006995138246566057
+        },
+        {
+          "City": -0.2101394683122635
+        },
+        {
+          ".": -0.49118801951408386
+        },
+        {
+          "So": -0.37279996275901794
+        },
+        {
+          "the": -0.09768830239772797
+        },
+        {
+          "concert": -0.4818301498889923
+        },
+        {
+          "ven": -0.004771157167851925
+        },
+        {
+          "ue": -0.000454799213912338
+        },
+        {
+          "which": -0.3518545925617218
+        },
+        {
+          "hosted": -0.009360946714878082
+        },
+        {
+          "the": -0.004460860975086689
+        },
+        {
+          "first": -0.0024468740448355675
+        },
+        {
+          "US": -0.007072887383401394
+        },
+        {
+          "performance": -0.0018741200910881162
+        },
+        {
+          "of": -0.0023290193639695644
+        },
+        {
+          "\"": -0.01948443241417408
+        },
+        {
+          "Lib": -0.0006834316882304847
+        },
+        {
+          "u": -0.002940024249255657
+        },
+        {
+          "še": -0.0015376898227259517
+        },
+        {
+          "\"": -0.003121862420812249
+        },
+        {
+          "is": -0.03359366953372955
+        },
+        {
+          "located": -0.1708795428276062
+        },
+        {
+          "in": -0.04880737513303757
+        },
+        {
+          "New": -0.0051034181378781796
+        },
+        {
+          "York": -0.0002944036095868796
+        },
+        {
+          "City": -0.0071233115158975124
+        },
+        {
+          ".": -0.011648260988295078
+        },
+        {
+          "<0x0A>": -0.0032073031179606915
+        },
+        {
+          "Answer": -0.002219476969912648
+        },
+        {
+          ":": -0.0003657863999251276
+        },
+        {
+          "New": -0.006359577644616365
+        },
+        {
+          "York": -0.0008237544680014253
+        },
+        {
+          "City": -0.00693332077935338
+        },
+        {
+          "<0x0A>": -0.04172494634985924
+        },
+        {
+          "Question": -0.19652731716632843
+        },
+        {
+          ":": -0.00022742546570952982
+        },
+        {
+          "What": -1.4489057064056396
+        },
+        {
+          "is": -1.2048060894012451
+        },
+        {
+          "the": -0.3601838946342468
+        },
+        {
+          "name": -2.3243026733398438
+        },
+        {
+          "of": -0.04846763238310814
+        },
+        {
+          "the": -0.3853892385959625
+        },
+        {
+          "": -3.532397508621216
+        },
+        {
+          "1": -0.6128057837486267
+        },
+        {
+          "9": -0.1848083883523941
+        },
+        {
+          "9": -1.4106073379516602
+        },
+        {
+          "9": -2.101422071456909
+        },
+        {
+          "film": -1.5951212644577026
+        },
+        {
+          "that": -1.8416621685028076
+        },
+        {
+          "was": -1.9845664501190186
+        },
+        {
+          "directed": -1.4134714603424072
+        },
+        {
+          "by": -0.031523678451776505
+        },
+        {
+          "John": -3.590867280960083
+        },
+        {
+          "W": -2.376150369644165
+        },
+        {
+          "oo": -0.2560429871082306
+        },
+        {
+          "?": -0.8633650541305542
+        },
+        {
+          "<0x0A>": -0.009807614609599113
+        },
+        {
+          "Th": -0.005899990908801556
+        },
+        {
+          "ought": -1.168244216387393e-05
+        },
+        {
+          ":": -0.0002044230350293219
+        },
+        {
+          "Let": -0.015241466462612152
+        },
+        {
+          "'": -0.0003432638186495751
+        },
+        {
+          "s": -3.8742269680369645e-05
+        },
+        {
+          "think": -0.0004700509598478675
+        },
+        {
+          "step": -0.00028784899041056633
+        },
+        {
+          "by": -0.00010132275929208845
+        },
+        {
+          "step": -6.210611172718927e-05
+        },
+        {
+          ".": -0.0003580405900720507
+        },
+        {
+          "The": -1.4793609380722046
+        },
+        {
+          "": -0.7256717085838318
+        },
+        {
+          "1": -0.008903918787837029
+        },
+        {
+          "9": -0.0006310140597634017
+        },
+        {
+          "9": -0.0025391501840204
+        },
+        {
+          "9": -0.012420211918652058
+        },
+        {
+          "film": -0.04485517740249634
+        },
+        {
+          "that": -0.7090874314308167
+        },
+        {
+          "was": -0.0446925163269043
+        },
+        {
+          "directed": -0.005501961335539818
+        },
+        {
+          "by": -0.0016269554616883397
+        },
+        {
+          "John": -0.005423475056886673
+        },
+        {
+          "W": -0.0008740180637687445
+        },
+        {
+          "oo": -0.00014161060971673578
+        },
+        {
+          "is": -0.06985285878181458
+        },
+        {
+          "Mission": -1.2017836570739746
+        },
+        {
+          ":": -0.07335313409566879
+        },
+        {
+          "Im": -0.0033930132631212473
+        },
+        {
+          "possible": -0.0003641180810518563
+        },
+        {
+          "II": -0.5011256337165833
+        },
+        {
+          ".": -0.11458215862512589
+        },
+        {
+          "<0x0A>": -0.4459224343299866
+        },
+        {
+          "Answer": -0.0021734442561864853
+        },
+        {
+          ":": -0.0002858230145648122
+        },
+        {
+          "Mission": -0.005038421601057053
+        },
+        {
+          ":": -0.011661575175821781
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Where is the concert venue which hosted the first US performance of \"Libuše\" located?\nThought 1:Let's think step by step. The first US performance of \"Libuše\" was held at the Metropolitan Opera House. The Metropolitan Opera House is located in New York City. So the concert venue which hosted the first US performance of \"Libuše\" is located in New York City.\nAnswer: New York City\nAction 1: MeasureUncertainty [New York City]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: New York City",
+  "summary": {
+    "final_answer": "New York City",
+    "em": false,
+    "f1": 0.6666666666666666,
+    "mode": "uala_cot_only"
+  }
+}

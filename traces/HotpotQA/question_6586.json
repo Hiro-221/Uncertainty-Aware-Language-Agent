@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6586,
+  "question": "Question: What is the name of the largest shipping facility in the Northeastern United States, where the Boston Red Socks play?",
+  "gold_answer": "Port of Boston",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is the name of the largest shipping facility in the Northeastern United States, where the Boston Red Socks play?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is the name of the largest shipping facility in the Northeastern United States, where the Boston Red Socks play?\nThought:",
+      "output": "Let's think step by step. The Boston Red Socks play at Fenway Park. The largest shipping facility in the Northeastern United States is the Port of Boston. So the largest shipping facility in the Northeastern United States, where the Boston Red Socks play is the Port of Boston.\nAnswer: Port of Boston\nQuestion: What is the name of the largest shipping facility in the Northeastern United States, where the Boston Red Socks play?\nThought: Let's think step by step. The Boston Red Socks play at Fenway Park. The largest sh",
+      "probs": [
+        {
+          "Let": -0.024277538061141968
+        },
+        {
+          "'": -0.0009390473715029657
+        },
+        {
+          "s": -2.5629668016335927e-05
+        },
+        {
+          "think": -0.0012004319578409195
+        },
+        {
+          "step": -0.0007236960809677839
+        },
+        {
+          "by": -0.00030596344731748104
+        },
+        {
+          "step": -2.4437606043647975e-05
+        },
+        {
+          ".": -0.0007765853079035878
+        },
+        {
+          "The": -0.43753138184547424
+        },
+        {
+          "Boston": -0.6530231237411499
+        },
+        {
+          "Red": -0.011009778827428818
+        },
+        {
+          "So": -0.0020886289421468973
+        },
+        {
+          "cks": -0.3099287450313568
+        },
+        {
+          "play": -0.06536625325679779
+        },
+        {
+          "at": -0.5269124507904053
+        },
+        {
+          "Fen": -0.10723217576742172
+        },
+        {
+          "way": -0.0010631391778588295
+        },
+        {
+          "Park": -0.013087445870041847
+        },
+        {
+          ".": -0.2494627833366394
+        },
+        {
+          "The": -0.8284906148910522
+        },
+        {
+          "largest": -0.5692663788795471
+        },
+        {
+          "sh": -0.022517476230859756
+        },
+        {
+          "ipping": -0.0003680505615193397
+        },
+        {
+          "facility": -0.009221226908266544
+        },
+        {
+          "in": -0.025663120672106743
+        },
+        {
+          "the": -0.03649509698152542
+        },
+        {
+          "N": -0.02726953662931919
+        },
+        {
+          "ort": -0.0060881637036800385
+        },
+        {
+          "he": -1.3470558769768104e-05
+        },
+        {
+          "astern": -0.0010201494442299008
+        },
+        {
+          "United": -0.005954621359705925
+        },
+        {
+          "States": -0.002329970942810178
+        },
+        {
+          "is": -0.17270830273628235
+        },
+        {
+          "the": -0.6359574198722839
+        },
+        {
+          "Port": -0.17535993456840515
+        },
+        {
+          "of": -0.032371047884225845
+        },
+        {
+          "Boston": -0.3672148585319519
+        },
+        {
+          ".": -0.35573825240135193
+        },
+        {
+          "So": -0.29586103558540344
+        },
+        {
+          "the": -0.07366182655096054
+        },
+        {
+          "largest": -0.5501078963279724
+        },
+        {
+          "sh": -0.004106423351913691
+        },
+        {
+          "ipping": -0.00014828535495325923
+        },
+        {
+          "facility": -0.0018894692184403539
+        },
+        {
+          "in": -0.10203274339437485
+        },
+        {
+          "the": -0.00481612142175436
+        },
+        {
+          "N": -0.004748496692627668
+        },
+        {
+          "ort": -0.0016125545371323824
+        },
+        {
+          "he": -1.4305104514278355e-06
+        },
+        {
+          "astern": -0.00043990471749566495
+        },
+        {
+          "United": -0.0019885781221091747
+        },
+        {
+          "States": -0.00644201785326004
+        },
+        {
+          ",": -0.7507501840591431
+        },
+        {
+          "where": -0.0046235560439527035
+        },
+        {
+          "the": -0.006725058425217867
+        },
+        {
+          "Boston": -0.007652846165001392
+        },
+        {
+          "Red": -0.0007346553611569107
+        },
+        {
+          "So": -0.001609698054380715
+        },
+        {
+          "cks": -0.01724756695330143
+        },
+        {
+          "play": -0.0031411137897521257
+        },
+        {
+          "is": -0.6492552161216736
+        },
+        {
+          "the": -0.17288541793823242
+        },
+        {
+          "Port": -0.008338280953466892
+        },
+        {
+          "of": -0.00046135272714309394
+        },
+        {
+          "Boston": -0.0006947487709112465
+        },
+        {
+          ".": -0.01997801847755909
+        },
+        {
+          "<0x0A>": -0.003975822124630213
+        },
+        {
+          "Answer": -0.0020060669630765915
+        },
+        {
+          ":": -0.0003326578007545322
+        },
+        {
+          "Port": -0.9838299751281738
+        },
+        {
+          "of": -0.0015612567076459527
+        },
+        {
+          "Boston": -0.0005301024066284299
+        },
+        {
+          "<0x0A>": -0.021848926320672035
+        },
+        {
+          "Question": -0.21502073109149933
+        },
+        {
+          ":": -0.0003023882454726845
+        },
+        {
+          "What": -1.3029325008392334
+        },
+        {
+          "is": -0.980781614780426
+        },
+        {
+          "the": -0.3108207583427429
+        },
+        {
+          "name": -1.3137303590774536
+        },
+        {
+          "of": -0.025641394779086113
+        },
+        {
+          "the": -0.3395828306674957
+        },
+        {
+          "largest": -1.9439308643341064
+        },
+        {
+          "sh": -0.4985165596008301
+        },
+        {
+          "ipping": -0.0005664412747137249
+        },
+        {
+          "facility": -0.005891576409339905
+        },
+        {
+          "in": -0.016234228387475014
+        },
+        {
+          "the": -0.04342221841216087
+        },
+        {
+          "N": -0.07600197941064835
+        },
+        {
+          "ort": -0.006030222401022911
+        },
+        {
+          "he": -7.510157047363464e-06
+        },
+        {
+          "astern": -0.0002907091984525323
+        },
+        {
+          "United": -0.0012494861148297787
+        },
+        {
+          "States": -0.000938332756049931
+        },
+        {
+          ",": -0.1099267229437828
+        },
+        {
+          "where": -0.06260809302330017
+        },
+        {
+          "the": -0.11927326023578644
+        },
+        {
+          "Boston": -0.27302467823028564
+        },
+        {
+          "Red": -0.03935535252094269
+        },
+        {
+          "So": -0.006239221431314945
+        },
+        {
+          "cks": -0.2671707272529602
+        },
+        {
+          "play": -0.01197035238146782
+        },
+        {
+          "?": -0.008068704046308994
+        },
+        {
+          "<0x0A>": -0.005813476163893938
+        },
+        {
+          "Th": -0.021031111478805542
+        },
+        {
+          "ought": -5.6503606174374e-05
+        },
+        {
+          ":": -0.00016139635408762842
+        },
+        {
+          "Let": -0.011850552633404732
+        },
+        {
+          "'": -0.0005283151986077428
+        },
+        {
+          "s": -2.47952248173533e-05
+        },
+        {
+          "think": -0.0005092516075819731
+        },
+        {
+          "step": -0.0002714027068577707
+        },
+        {
+          "by": -0.00016973962192423642
+        },
+        {
+          "step": -4.1960789531003684e-05
+        },
+        {
+          ".": -0.0004629017203114927
+        },
+        {
+          "The": -0.04808926209807396
+        },
+        {
+          "Boston": -0.08213504403829575
+        },
+        {
+          "Red": -0.0006868863711133599
+        },
+        {
+          "So": -0.0010592094622552395
+        },
+        {
+          "cks": -0.013453533872961998
+        },
+        {
+          "play": -0.008624331094324589
+        },
+        {
+          "at": -0.008487226441502571
+        },
+        {
+          "Fen": -0.007781903725117445
+        },
+        {
+          "way": -0.00013171759201213717
+        },
+        {
+          "Park": -0.0018818541429936886
+        },
+        {
+          ".": -0.009695228189229965
+        },
+        {
+          "The": -0.029347185045480728
+        },
+        {
+          "largest": -0.009523319080471992
+        },
+        {
+          "sh": -0.0016231469344347715
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.09,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: What is the name of the largest shipping facility in the Northeastern United States, where the Boston Red Socks play?\nThought 1:Let's think step by step. The Boston Red Socks play at Fenway Park. The largest shipping facility in the Northeastern United States is the Port of Boston. So the largest shipping facility in the Northeastern United States, where the Boston Red Socks play is the Port of Boston.\nAnswer: Port of Boston\nAction 1: MeasureUncertainty [Port of Boston]\nObservation 1: Answer’s uncertainty is 1.09, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Port of Boston",
+  "summary": {
+    "final_answer": "Port of Boston",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

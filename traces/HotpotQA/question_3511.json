@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3511,
+  "question": "Question: Was Vanderbilt University or Emory University founded first?",
+  "gold_answer": "Emory University.",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Was Vanderbilt University or Emory University founded first?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Was Vanderbilt University or Emory University founded first?\nThought:",
+      "output": "Let's think step by step. Vanderbilt University was founded in 1873. Emory University was founded in 1836. 1836 (Emory University) < 1873 (Vanderbilt University), so Emory University was founded first.\nAnswer: Emory University\nQuestion: Which of the following is a type of fish: Swordfish, Swordfish, or Swordfish?\nThought: Let's think step by step. Swordfish is a type of fish. Swordfish is a type of fish. S",
+      "probs": [
+        {
+          "Let": -0.0049840970896184444
+        },
+        {
+          "'": -0.00046266341814771295
+        },
+        {
+          "s": -2.288792165927589e-05
+        },
+        {
+          "think": -0.0004917366313748062
+        },
+        {
+          "step": -0.00031382881570607424
+        },
+        {
+          "by": -0.00011157367407577112
+        },
+        {
+          "step": -1.4662635294371285e-05
+        },
+        {
+          ".": -0.00048196621355600655
+        },
+        {
+          "V": -0.05833374336361885
+        },
+        {
+          "ander": -0.00042524831951595843
+        },
+        {
+          "b": -0.0005136600811965764
+        },
+        {
+          "ilt": -1.9073468138230965e-06
+        },
+        {
+          "University": -0.007752213627099991
+        },
+        {
+          "was": -0.018824497237801552
+        },
+        {
+          "founded": -0.030606340616941452
+        },
+        {
+          "in": -0.02652173675596714
+        },
+        {
+          "": -0.00865529477596283
+        },
+        {
+          "1": -0.000503770774230361
+        },
+        {
+          "8": -0.0021892646327614784
+        },
+        {
+          "7": -0.009648003615438938
+        },
+        {
+          "3": -0.007518093101680279
+        },
+        {
+          ".": -0.047036658972501755
+        },
+        {
+          "Em": -0.0053983391262590885
+        },
+        {
+          "ory": -0.0002828436263371259
+        },
+        {
+          "University": -0.0023022594396024942
+        },
+        {
+          "was": -0.0034861525055021048
+        },
+        {
+          "founded": -0.004460148513317108
+        },
+        {
+          "in": -0.004610859323292971
+        },
+        {
+          "": -0.0013704441953450441
+        },
+        {
+          "1": -0.000597179401665926
+        },
+        {
+          "8": -0.01693408563733101
+        },
+        {
+          "3": -0.0075477901846170425
+        },
+        {
+          "6": -0.006319302599877119
+        },
+        {
+          ".": -0.009944302029907703
+        },
+        {
+          "": -0.0484771728515625
+        },
+        {
+          "1": -0.0004913791781291366
+        },
+        {
+          "8": -0.0012025751639157534
+        },
+        {
+          "3": -0.30147987604141235
+        },
+        {
+          "6": -0.0007544293766841292
+        },
+        {
+          "(": -0.027619803324341774
+        },
+        {
+          "Em": -0.006214461755007505
+        },
+        {
+          "ory": -0.0005650115781463683
+        },
+        {
+          "University": -0.015002281405031681
+        },
+        {
+          ")": -0.0010116941994056106
+        },
+        {
+          "<": -0.01597287319600582
+        },
+        {
+          "": -0.0015256681945174932
+        },
+        {
+          "1": -9.214453893946484e-05
+        },
+        {
+          "8": -0.0008793777669779956
+        },
+        {
+          "7": -0.0013491347199305892
+        },
+        {
+          "3": -0.0012060280423611403
+        },
+        {
+          "(": -0.0027052494697272778
+        },
+        {
+          "V": -0.0009613183210603893
+        },
+        {
+          "ander": -0.0007463291985914111
+        },
+        {
+          "b": -0.0004532501916401088
+        },
+        {
+          "ilt": -9.417489309271332e-06
+        },
+        {
+          "University": -0.0019866747315973043
+        },
+        {
+          "),": -0.024982139468193054
+        },
+        {
+          "so": -0.0034785496536642313
+        },
+        {
+          "Em": -0.03633256256580353
+        },
+        {
+          "ory": -0.0003268184664193541
+        },
+        {
+          "University": -0.0030015914235264063
+        },
+        {
+          "was": -0.0076541476882994175
+        },
+        {
+          "founded": -0.005902479402720928
+        },
+        {
+          "first": -0.015196263790130615
+        },
+        {
+          ".": -0.00303082843311131
+        },
+        {
+          "<0x0A>": -0.0023005942348390818
+        },
+        {
+          "Answer": -0.00223708082921803
+        },
+        {
+          ":": -0.0003297977091278881
+        },
+        {
+          "Em": -0.05014251172542572
+        },
+        {
+          "ory": -4.31528314948082e-05
+        },
+        {
+          "University": -0.00468395184725523
+        },
+        {
+          "<0x0A>": -0.019677430391311646
+        },
+        {
+          "Question": -0.1666809618473053
+        },
+        {
+          ":": -0.00024184639914892614
+        },
+        {
+          "Which": -1.6214015483856201
+        },
+        {
+          "of": -2.0597803592681885
+        },
+        {
+          "the": -0.9165878295898438
+        },
+        {
+          "following": -0.17190596461296082
+        },
+        {
+          "is": -1.1385791301727295
+        },
+        {
+          "a": -1.5268712043762207
+        },
+        {
+          "type": -3.8882155418395996
+        },
+        {
+          "of": -0.013468001037836075
+        },
+        {
+          "fish": -4.8082275390625
+        },
+        {
+          ":": -1.0568006038665771
+        },
+        {
+          "S": -4.258709907531738
+        },
+        {
+          "word": -1.9842585325241089
+        },
+        {
+          "fish": -0.10594554245471954
+        },
+        {
+          ",": -0.44061699509620667
+        },
+        {
+          "S": -2.977675199508667
+        },
+        {
+          "word": -1.7104382514953613
+        },
+        {
+          "fish": -0.5015408992767334
+        },
+        {
+          ",": -0.49845343828201294
+        },
+        {
+          "or": -0.5562672019004822
+        },
+        {
+          "S": -1.118152379989624
+        },
+        {
+          "word": -0.06410407274961472
+        },
+        {
+          "fish": -0.027120230719447136
+        },
+        {
+          "?": -0.023605041205883026
+        },
+        {
+          "<0x0A>": -0.005189164076000452
+        },
+        {
+          "Th": -0.009690269827842712
+        },
+        {
+          "ought": -2.6702524337451905e-05
+        },
+        {
+          ":": -0.0004312062228564173
+        },
+        {
+          "Let": -0.01951552927494049
+        },
+        {
+          "'": -0.0005927712772972882
+        },
+        {
+          "s": -4.768258077092469e-05
+        },
+        {
+          "think": -0.0010781434830278158
+        },
+        {
+          "step": -0.000543446687515825
+        },
+        {
+          "by": -0.00028772983932867646
+        },
+        {
+          "step": -2.8371408916427754e-05
+        },
+        {
+          ".": -0.0009348789462819695
+        },
+        {
+          "S": -0.38840752840042114
+        },
+        {
+          "word": -0.0015827997121959925
+        },
+        {
+          "fish": -0.001096005435101688
+        },
+        {
+          "is": -0.1532602608203888
+        },
+        {
+          "a": -0.04797746241092682
+        },
+        {
+          "type": -0.21837009489536285
+        },
+        {
+          "of": -0.0012640113709494472
+        },
+        {
+          "fish": -0.019531195983290672
+        },
+        {
+          ".": -0.19200442731380463
+        },
+        {
+          "S": -0.66930091381073
+        },
+        {
+          "word": -0.004085290711373091
+        },
+        {
+          "fish": -0.00233556074090302
+        },
+        {
+          "is": -0.059426199644804
+        },
+        {
+          "a": -0.14306426048278809
+        },
+        {
+          "type": -0.008648913353681564
+        },
+        {
+          "of": -0.0004109491710551083
+        },
+        {
+          "fish": -0.003379231784492731
+        },
+        {
+          ".": -0.023024361580610275
+        },
+        {
+          "S": -0.1718294769525528
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Was Vanderbilt University or Emory University founded first?\nThought 1:Let's think step by step. Vanderbilt University was founded in 1873. Emory University was founded in 1836. 1836 (Emory University) < 1873 (Vanderbilt University), so Emory University was founded first.\nAnswer: Emory University\nAction 1: MeasureUncertainty [Emory University]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Emory University",
+  "summary": {
+    "final_answer": "Emory University",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

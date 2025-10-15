@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4611,
+  "question": "Question: Löwenbräu and Bürgerbräukeller are both located where?",
+  "gold_answer": "Germany",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Löwenbräu and Bürgerbräukeller are both located where?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Löwenbräu and Bürgerbräukeller are both located where?\nThought:",
+      "output": "Let's think step by step. Löwenbräu is located in Munich. Bürgerbräukeller is located in Munich. So Löwenbräu and Bürgerbräukeller are both located in Munich.\nAnswer: Munich\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a remake of the 1960 film Ocean's 11.\nAnswer: Ocean'",
+      "probs": [
+        {
+          "Let": -0.008851103484630585
+        },
+        {
+          "'": -0.0004992430913262069
+        },
+        {
+          "s": -3.433168603805825e-05
+        },
+        {
+          "think": -0.0009070096421055496
+        },
+        {
+          "step": -0.0007512131123803556
+        },
+        {
+          "by": -0.0003409996279515326
+        },
+        {
+          "step": -8.583032467868179e-06
+        },
+        {
+          ".": -0.0005026984144933522
+        },
+        {
+          "Lö": -0.3378893733024597
+        },
+        {
+          "wen": -0.0001967951684491709
+        },
+        {
+          "br": -0.0009135602158494294
+        },
+        {
+          "äu": -0.004718479234725237
+        },
+        {
+          "is": -0.5081907510757446
+        },
+        {
+          "located": -0.3233412206172943
+        },
+        {
+          "in": -0.07351430505514145
+        },
+        {
+          "Mun": -0.21476389467716217
+        },
+        {
+          "ich": -0.000605638197157532
+        },
+        {
+          ".": -0.5870153903961182
+        },
+        {
+          "Bürger": -0.023314977064728737
+        },
+        {
+          "br": -0.0003980797773692757
+        },
+        {
+          "ä": -0.008512166328728199
+        },
+        {
+          "uk": -8.880697714630514e-05
+        },
+        {
+          "eller": -0.0004328744253143668
+        },
+        {
+          "is": -0.011198288761079311
+        },
+        {
+          "located": -0.24572786688804626
+        },
+        {
+          "in": -0.004432139918208122
+        },
+        {
+          "Mun": -0.016896579414606094
+        },
+        {
+          "ich": -0.00013004888023715466
+        },
+        {
+          ".": -0.058049753308296204
+        },
+        {
+          "So": -0.16954050958156586
+        },
+        {
+          "Lö": -0.6568500995635986
+        },
+        {
+          "wen": -0.0005497612874023616
+        },
+        {
+          "br": -0.0002985746832564473
+        },
+        {
+          "äu": -0.0007722970913164318
+        },
+        {
+          "and": -0.0029471556190401316
+        },
+        {
+          "Bürger": -0.002430819906294346
+        },
+        {
+          "br": -0.0004316828562878072
+        },
+        {
+          "ä": -0.0035821336787194014
+        },
+        {
+          "uk": -0.0004408579843584448
+        },
+        {
+          "eller": -0.000105375460407231
+        },
+        {
+          "are": -0.021093210205435753
+        },
+        {
+          "both": -0.06840620189905167
+        },
+        {
+          "located": -0.012608104385435581
+        },
+        {
+          "in": -0.01276842039078474
+        },
+        {
+          "Mun": -0.007153375539928675
+        },
+        {
+          "ich": -3.45700973412022e-05
+        },
+        {
+          ".": -0.011062008328735828
+        },
+        {
+          "<0x0A>": -0.002620122628286481
+        },
+        {
+          "Answer": -0.0019290901254862547
+        },
+        {
+          ":": -0.00039033422945067286
+        },
+        {
+          "Mun": -0.024567440152168274
+        },
+        {
+          "ich": -5.817244164063595e-05
+        },
+        {
+          "<0x0A>": -0.05591394752264023
+        },
+        {
+          "Question": -0.21892189979553223
+        },
+        {
+          ":": -0.0003084660565946251
+        },
+        {
+          "What": -1.507527232170105
+        },
+        {
+          "is": -1.2736105918884277
+        },
+        {
+          "the": -0.46200305223464966
+        },
+        {
+          "name": -2.730168581008911
+        },
+        {
+          "of": -0.055224161595106125
+        },
+        {
+          "the": -0.48663198947906494
+        },
+        {
+          "": -3.547483205795288
+        },
+        {
+          "1": -0.6638975739479065
+        },
+        {
+          "9": -0.19433772563934326
+        },
+        {
+          "9": -1.3430079221725464
+        },
+        {
+          "9": -2.0998008251190186
+        },
+        {
+          "film": -1.5349855422973633
+        },
+        {
+          "that": -1.7577747106552124
+        },
+        {
+          "is": -1.910023808479309
+        },
+        {
+          "a": -1.4311726093292236
+        },
+        {
+          "re": -1.1700363159179688
+        },
+        {
+          "make": -0.029103128239512444
+        },
+        {
+          "of": -0.017495352774858475
+        },
+        {
+          "the": -0.7920069694519043
+        },
+        {
+          "": -0.2585600018501282
+        },
+        {
+          "1": -0.014331037178635597
+        },
+        {
+          "9": -0.002245644573122263
+        },
+        {
+          "6": -1.3039569854736328
+        },
+        {
+          "0": -1.78826904296875
+        },
+        {
+          "film": -0.402450293302536
+        },
+        {
+          "Ocean": -1.432989478111267
+        },
+        {
+          "'": -0.009229140356183052
+        },
+        {
+          "s": -0.00012909532233607024
+        },
+        {
+          "": -0.41115495562553406
+        },
+        {
+          "1": -0.00041500062798149884
+        },
+        {
+          "1": -0.0006260104128159583
+        },
+        {
+          "?": -0.28644779324531555
+        },
+        {
+          "<0x0A>": -0.00622393935918808
+        },
+        {
+          "Th": -0.006014700047671795
+        },
+        {
+          "ought": -3.4689302992774174e-05
+        },
+        {
+          ":": -0.0001754606782924384
+        },
+        {
+          "Let": -0.010717923752963543
+        },
+        {
+          "'": -0.000388665939681232
+        },
+        {
+          "s": -4.649054244509898e-05
+        },
+        {
+          "think": -0.0007465674425475299
+        },
+        {
+          "step": -0.0006132629350759089
+        },
+        {
+          "by": -0.0002540027489885688
+        },
+        {
+          "step": -5.8887653722194955e-05
+        },
+        {
+          ".": -0.000486970558995381
+        },
+        {
+          "Ocean": -0.5817697644233704
+        },
+        {
+          "'": -0.006445689592510462
+        },
+        {
+          "s": -0.0002978596603497863
+        },
+        {
+          "Ele": -0.5679237842559814
+        },
+        {
+          "ven": -3.6477376852417365e-05
+        },
+        {
+          "is": -0.4091545045375824
+        },
+        {
+          "a": -0.2975737154483795
+        },
+        {
+          "re": -0.6014264225959778
+        },
+        {
+          "make": -0.001512932125478983
+        },
+        {
+          "of": -0.006661825347691774
+        },
+        {
+          "the": -0.21426156163215637
+        },
+        {
+          "": -0.018584880977869034
+        },
+        {
+          "1": -0.00011669908417388797
+        },
+        {
+          "9": -8.785339014139026e-05
+        },
+        {
+          "6": -0.0011468507582321763
+        },
+        {
+          "0": -0.0007184546557255089
+        },
+        {
+          "film": -0.014024280942976475
+        },
+        {
+          "Ocean": -0.01980237476527691
+        },
+        {
+          "'": -0.0009466695482842624
+        },
+        {
+          "s": -0.00029952809563837945
+        },
+        {
+          "": -0.011050454340875149
+        },
+        {
+          "1": -1.597391747054644e-05
+        },
+        {
+          "1": -0.00010108436981681734
+        },
+        {
+          ".": -0.40953323245048523
+        },
+        {
+          "<0x0A>": -0.7886342406272888
+        },
+        {
+          "Answer": -0.002644971711561084
+        },
+        {
+          ":": -0.00029690624796785414
+        },
+        {
+          "Ocean": -0.003970122430473566
+        },
+        {
+          "'": -0.0024442579597234726
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Löwenbräu and Bürgerbräukeller are both located where?\nThought 1:Let's think step by step. Löwenbräu is located in Munich. Bürgerbräukeller is located in Munich. So Löwenbräu and Bürgerbräukeller are both located in Munich.\nAnswer: Munich\nAction 1: MeasureUncertainty [Munich]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Munich",
+  "summary": {
+    "final_answer": "Munich",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6333,
+  "question": "Question: Which genus of flowering plants has the most species, Caesalpinia or Achimenes?",
+  "gold_answer": "Caesalpinia",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which genus of flowering plants has the most species, Caesalpinia or Achimenes?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which genus of flowering plants has the most species, Caesalpinia or Achimenes?\nThought:",
+      "output": "Let's think step by step. Caesalpinia has 140 species. Achimenes has 25 species. 140 (Caesalpinia) > 25 (Achimenes), so Caesalpinia has the most species.\nAnswer: Caesalpinia\nQuestion: Which of the following is a type of fish, a type of bird, or a type of mammal?\nThought: Let's think step by step. A type of fish is a type of mammal. A type of bird is a type of m",
+      "probs": [
+        {
+          "Let": -0.008709421381354332
+        },
+        {
+          "'": -0.00035315475543029606
+        },
+        {
+          "s": -4.279521817807108e-05
+        },
+        {
+          "think": -0.000686767278239131
+        },
+        {
+          "step": -0.0002857038634829223
+        },
+        {
+          "by": -0.0002416080387774855
+        },
+        {
+          "step": -0.00016151554882526398
+        },
+        {
+          ".": -0.000526289688423276
+        },
+        {
+          "Ca": -0.7906973958015442
+        },
+        {
+          "es": -0.0004287039046175778
+        },
+        {
+          "al": -0.0017163321608677506
+        },
+        {
+          "pin": -0.0010490872664377093
+        },
+        {
+          "ia": -0.0013228246243670583
+        },
+        {
+          "has": -0.22604593634605408
+        },
+        {
+          "": -0.34573110938072205
+        },
+        {
+          "1": -0.2109520584344864
+        },
+        {
+          "4": -0.5503003597259521
+        },
+        {
+          "0": -0.27887582778930664
+        },
+        {
+          "species": -0.23526443541049957
+        },
+        {
+          ".": -0.19625060260295868
+        },
+        {
+          "Ach": -0.0060643479228019714
+        },
+        {
+          "imen": -0.0029056731145828962
+        },
+        {
+          "es": -0.00044276448898017406
+        },
+        {
+          "has": -0.017067108303308487
+        },
+        {
+          "": -0.10254500806331635
+        },
+        {
+          "2": -0.10729257017374039
+        },
+        {
+          "5": -0.12853597104549408
+        },
+        {
+          "species": -0.4409288465976715
+        },
+        {
+          ".": -0.020049061626195908
+        },
+        {
+          "": -0.17010733485221863
+        },
+        {
+          "1": -0.14355221390724182
+        },
+        {
+          "4": -0.001208885689266026
+        },
+        {
+          "0": -0.0003880701260641217
+        },
+        {
+          "(": -0.24338102340698242
+        },
+        {
+          "Ca": -0.004242230672389269
+        },
+        {
+          "es": -0.0004086851258762181
+        },
+        {
+          "al": -0.003077178495004773
+        },
+        {
+          "pin": -0.0013875867007300258
+        },
+        {
+          "ia": -0.00040797016117721796
+        },
+        {
+          ")": -0.005492358468472958
+        },
+        {
+          ">": -0.020904336124658585
+        },
+        {
+          "": -0.0015757775399833918
+        },
+        {
+          "2": -0.0009845414897426963
+        },
+        {
+          "5": -0.000774917658418417
+        },
+        {
+          "(": -0.003880472155287862
+        },
+        {
+          "A": -0.0022807319182902575
+        },
+        {
+          "ch": -0.0004260824352968484
+        },
+        {
+          "imen": -0.002640334889292717
+        },
+        {
+          "es": -0.0018716213526204228
+        },
+        {
+          "),": -0.04263877123594284
+        },
+        {
+          "so": -0.004532658960670233
+        },
+        {
+          "Ca": -0.15878476202487946
+        },
+        {
+          "es": -0.0008598444401286542
+        },
+        {
+          "al": -0.0013463966315612197
+        },
+        {
+          "pin": -0.000922969076782465
+        },
+        {
+          "ia": -0.0002236116270069033
+        },
+        {
+          "has": -0.03909492492675781
+        },
+        {
+          "the": -0.08625952899456024
+        },
+        {
+          "most": -0.002690031658858061
+        },
+        {
+          "species": -0.009606679901480675
+        },
+        {
+          ".": -0.009604082442820072
+        },
+        {
+          "<0x0A>": -0.0031697528902441263
+        },
+        {
+          "Answer": -0.0018705505644902587
+        },
+        {
+          ":": -0.0002469711471349001
+        },
+        {
+          "Ca": -0.004266683477908373
+        },
+        {
+          "es": -0.00021419614495243877
+        },
+        {
+          "al": -0.00096941675292328
+        },
+        {
+          "pin": -0.00025376438861712813
+        },
+        {
+          "ia": -0.00010406429646536708
+        },
+        {
+          "<0x0A>": -0.023720648139715195
+        },
+        {
+          "Question": -0.17115715146064758
+        },
+        {
+          ":": -0.00023827097902540118
+        },
+        {
+          "Which": -1.262868046760559
+        },
+        {
+          "of": -2.052018404006958
+        },
+        {
+          "the": -0.7838547825813293
+        },
+        {
+          "following": -0.142148956656456
+        },
+        {
+          "is": -1.1823806762695312
+        },
+        {
+          "a": -1.4791889190673828
+        },
+        {
+          "type": -3.805077314376831
+        },
+        {
+          "of": -0.015029290691018105
+        },
+        {
+          "fish": -4.875439167022705
+        },
+        {
+          ",": -1.0255768299102783
+        },
+        {
+          "a": -3.097233295440674
+        },
+        {
+          "type": -2.5039448738098145
+        },
+        {
+          "of": -0.002252543345093727
+        },
+        {
+          "bird": -2.3425350189208984
+        },
+        {
+          ",": -0.1611325591802597
+        },
+        {
+          "or": -0.7226757407188416
+        },
+        {
+          "a": -0.2712791860103607
+        },
+        {
+          "type": -0.2630605399608612
+        },
+        {
+          "of": -0.0021364500280469656
+        },
+        {
+          "m": -1.4840736389160156
+        },
+        {
+          "amm": -0.06450314819812775
+        },
+        {
+          "al": -0.003005275735631585
+        },
+        {
+          "?": -0.3708031475543976
+        },
+        {
+          "<0x0A>": -0.9479816555976868
+        },
+        {
+          "Th": -0.09518122673034668
+        },
+        {
+          "ought": -0.0001497156627010554
+        },
+        {
+          ":": -0.0009444067254662514
+        },
+        {
+          "Let": -0.02440795861184597
+        },
+        {
+          "'": -0.0009305914281867445
+        },
+        {
+          "s": -3.766942609217949e-05
+        },
+        {
+          "think": -0.003071949351578951
+        },
+        {
+          "step": -0.0017131189815700054
+        },
+        {
+          "by": -0.00048756631440483034
+        },
+        {
+          "step": -5.531158240046352e-05
+        },
+        {
+          ".": -0.0015785150462761521
+        },
+        {
+          "A": -2.032042980194092
+        },
+        {
+          "type": -1.3664380311965942
+        },
+        {
+          "of": -0.005750896409153938
+        },
+        {
+          "fish": -0.1723237782716751
+        },
+        {
+          "is": -0.13335368037223816
+        },
+        {
+          "a": -1.8567578792572021
+        },
+        {
+          "type": -1.8372297286987305
+        },
+        {
+          "of": -0.00455627404153347
+        },
+        {
+          "m": -0.9948015213012695
+        },
+        {
+          "amm": -0.004038512706756592
+        },
+        {
+          "al": -0.002625829540193081
+        },
+        {
+          ".": -0.38140517473220825
+        },
+        {
+          "A": -0.24253122508525848
+        },
+        {
+          "type": -0.018214110285043716
+        },
+        {
+          "of": -0.0003782987187150866
+        },
+        {
+          "bird": -0.14665289223194122
+        },
+        {
+          "is": -0.016314921900629997
+        },
+        {
+          "a": -0.35262730717658997
+        },
+        {
+          "type": -0.017906202003359795
+        },
+        {
+          "of": -0.0004544417606666684
+        },
+        {
+          "m": -0.11122690886259079
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Which genus of flowering plants has the most species, Caesalpinia or Achimenes?\nThought 1:Let's think step by step. Caesalpinia has 140 species. Achimenes has 25 species. 140 (Caesalpinia) > 25 (Achimenes), so Caesalpinia has the most species.\nAnswer: Caesalpinia\nAction 1: MeasureUncertainty [Caesalpinia]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Caesalpinia",
+  "summary": {
+    "final_answer": "Caesalpinia",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

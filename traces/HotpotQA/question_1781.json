@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1781,
+  "question": "Question: Which tour did The Beatles release their album Dark Horse?",
+  "gold_answer": "American tour",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which tour did The Beatles release their album Dark Horse?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which tour did The Beatles release their album Dark Horse?\nThought:",
+      "output": "Let's think step by step. The Beatles released their album Dark Horse in 1974. The Beatles' 1974 tour was the Dark Horse tour. So the tour The Beatles released their album Dark Horse is the Dark Horse tour.\nAnswer: Dark Horse tour\nQuestion: Which of the following is not a member of the band The Beatles?\nThought: Let's think step by step. The Beatles members are John Lennon, Paul McCartney, George Harrison, and Ringo Starr. So the answer is not a member",
+      "probs": [
+        {
+          "Let": -0.012312829494476318
+        },
+        {
+          "'": -0.0007049936102703214
+        },
+        {
+          "s": -9.500529267825186e-05
+        },
+        {
+          "think": -0.0010528980055823922
+        },
+        {
+          "step": -0.00048601735034026206
+        },
+        {
+          "by": -0.00017641419253777713
+        },
+        {
+          "step": -2.13382354559144e-05
+        },
+        {
+          ".": -0.0005553610390052199
+        },
+        {
+          "The": -0.5103117227554321
+        },
+        {
+          "Beat": -0.16923537850379944
+        },
+        {
+          "les": -0.001543165068142116
+        },
+        {
+          "released": -0.547361433506012
+        },
+        {
+          "their": -0.32792457938194275
+        },
+        {
+          "album": -0.04382609203457832
+        },
+        {
+          "Dark": -0.10542503744363785
+        },
+        {
+          "Hor": -0.0012661544606089592
+        },
+        {
+          "se": -6.794906312279636e-06
+        },
+        {
+          "in": -0.7396558523178101
+        },
+        {
+          "": -0.5972798466682434
+        },
+        {
+          "1": -0.022401846945285797
+        },
+        {
+          "9": -0.0015920833684504032
+        },
+        {
+          "7": -0.11538198590278625
+        },
+        {
+          "4": -0.08339047431945801
+        },
+        {
+          ".": -0.26870298385620117
+        },
+        {
+          "The": -1.2936667203903198
+        },
+        {
+          "Beat": -0.4617886543273926
+        },
+        {
+          "les": -0.004498481284826994
+        },
+        {
+          "'": -2.028137445449829
+        },
+        {
+          "": -1.147121787071228
+        },
+        {
+          "1": -0.007145800162106752
+        },
+        {
+          "9": -0.0024183334317058325
+        },
+        {
+          "7": -0.3000775873661041
+        },
+        {
+          "4": -0.0794697180390358
+        },
+        {
+          "tour": -0.8879760503768921
+        },
+        {
+          "was": -0.5523874759674072
+        },
+        {
+          "the": -1.728643774986267
+        },
+        {
+          "Dark": -1.8031001091003418
+        },
+        {
+          "Hor": -0.0037884386256337166
+        },
+        {
+          "se": -3.2066785934148356e-05
+        },
+        {
+          "tour": -0.4083581864833832
+        },
+        {
+          ".": -0.43074706196784973
+        },
+        {
+          "So": -0.3299948275089264
+        },
+        {
+          "the": -0.5567182302474976
+        },
+        {
+          "tour": -0.3821977972984314
+        },
+        {
+          "The": -0.933316707611084
+        },
+        {
+          "Beat": -0.001511027687229216
+        },
+        {
+          "les": -0.000747877755202353
+        },
+        {
+          "released": -0.10145720839500427
+        },
+        {
+          "their": -0.017830556258559227
+        },
+        {
+          "album": -0.007784624584019184
+        },
+        {
+          "Dark": -0.011796713806688786
+        },
+        {
+          "Hor": -0.001511027687229216
+        },
+        {
+          "se": -2.2172682292875834e-05
+        },
+        {
+          "is": -0.6861242651939392
+        },
+        {
+          "the": -0.4801783561706543
+        },
+        {
+          "Dark": -0.09757120907306671
+        },
+        {
+          "Hor": -0.0014925779541954398
+        },
+        {
+          "se": -1.0251946150674485e-05
+        },
+        {
+          "tour": -0.04078281670808792
+        },
+        {
+          ".": -0.010281220078468323
+        },
+        {
+          "<0x0A>": -0.003123882692307234
+        },
+        {
+          "Answer": -0.0013984196120873094
+        },
+        {
+          ":": -0.00023982033599168062
+        },
+        {
+          "Dark": -0.2973029911518097
+        },
+        {
+          "Hor": -0.000942858459893614
+        },
+        {
+          "se": -4.0531076592742465e-06
+        },
+        {
+          "tour": -0.20685872435569763
+        },
+        {
+          "<0x0A>": -0.028545213863253593
+        },
+        {
+          "Question": -0.2083694487810135
+        },
+        {
+          ":": -0.0002790300059132278
+        },
+        {
+          "Which": -1.356623649597168
+        },
+        {
+          "of": -2.1758360862731934
+        },
+        {
+          "the": -0.7749526500701904
+        },
+        {
+          "following": -0.14814062416553497
+        },
+        {
+          "is": -1.2106099128723145
+        },
+        {
+          "not": -1.341228723526001
+        },
+        {
+          "a": -0.602608859539032
+        },
+        {
+          "member": -3.0852415561676025
+        },
+        {
+          "of": -0.031801559031009674
+        },
+        {
+          "the": -0.592665433883667
+        },
+        {
+          "band": -3.3300657272338867
+        },
+        {
+          "The": -2.1590919494628906
+        },
+        {
+          "Beat": -3.0592992305755615
+        },
+        {
+          "les": -0.02505236305296421
+        },
+        {
+          "?": -0.2742234468460083
+        },
+        {
+          "<0x0A>": -0.49911147356033325
+        },
+        {
+          "Th": -0.021497098729014397
+        },
+        {
+          "ought": -9.107174992095679e-05
+        },
+        {
+          ":": -0.0005469018360599875
+        },
+        {
+          "Let": -0.015494796447455883
+        },
+        {
+          "'": -0.0006162413046695292
+        },
+        {
+          "s": -5.0424259825376794e-05
+        },
+        {
+          "think": -0.0010979106882587075
+        },
+        {
+          "step": -0.0005653690313920379
+        },
+        {
+          "by": -0.000377583724912256
+        },
+        {
+          "step": -1.966933996300213e-05
+        },
+        {
+          ".": -0.0010110987350344658
+        },
+        {
+          "The": -1.0748659372329712
+        },
+        {
+          "Beat": -0.16225163638591766
+        },
+        {
+          "les": -0.001910767168737948
+        },
+        {
+          "members": -1.5501549243927002
+        },
+        {
+          "are": -0.04696739464998245
+        },
+        {
+          "John": -0.3372159004211426
+        },
+        {
+          "L": -0.028351834043860435
+        },
+        {
+          "enn": -2.5987286790041253e-05
+        },
+        {
+          "on": -0.00014327930693980306
+        },
+        {
+          ",": -0.016874777153134346
+        },
+        {
+          "Paul": -0.08171197026968002
+        },
+        {
+          "McC": -0.002013205084949732
+        },
+        {
+          "art": -0.0001515035255579278
+        },
+        {
+          "ney": -0.00012170527770649642
+        },
+        {
+          ",": -0.002004520269110799
+        },
+        {
+          "George": -0.12231235951185226
+        },
+        {
+          "Harrison": -0.0010043105576187372
+        },
+        {
+          ",": -0.14823241531848907
+        },
+        {
+          "and": -0.18588407337665558
+        },
+        {
+          "Ring": -0.030919034034013748
+        },
+        {
+          "o": -0.0002896366349887103
+        },
+        {
+          "St": -0.01612279750406742
+        },
+        {
+          "arr": -5.4834770708112046e-05
+        },
+        {
+          ".": -0.0301316250115633
+        },
+        {
+          "So": -2.0923664569854736
+        },
+        {
+          "the": -0.4438267946243286
+        },
+        {
+          "answer": -0.9018198251724243
+        },
+        {
+          "is": -0.06252612173557281
+        },
+        {
+          "not": -1.6055846214294434
+        },
+        {
+          "a": -0.5421625971794128
+        },
+        {
+          "member": -0.06554891914129257
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which tour did The Beatles release their album Dark Horse?\nThought 1:Let's think step by step. The Beatles released their album Dark Horse in 1974. The Beatles' 1974 tour was the Dark Horse tour. So the tour The Beatles released their album Dark Horse is the Dark Horse tour.\nAnswer: Dark Horse tour\nAction 1: MeasureUncertainty [Dark Horse tour]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Dark Horse tour",
+  "summary": {
+    "final_answer": "Dark Horse tour",
+    "em": false,
+    "f1": 0.4,
+    "mode": "uala_cot_only"
+  }
+}

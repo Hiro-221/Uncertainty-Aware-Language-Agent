@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3567,
+  "question": "Question: \"I Wed Three Wives\" is an episode of a television series that ran on what network?",
+  "gold_answer": "ABC",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: \"I Wed Three Wives\" is an episode of a television series that ran on what network?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: \"I Wed Three Wives\" is an episode of a television series that ran on what network?\nThought:",
+      "output": "Let's think step by step. \"I Wed Three Wives\" is an episode of a television series that ran on ABC.\nAnswer: ABC\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. The 1999 film that was directed by John Woo is Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. The ",
+      "probs": [
+        {
+          "Let": -0.013350614346563816
+        },
+        {
+          "'": -0.0002739054325502366
+        },
+        {
+          "s": -2.90866428258596e-05
+        },
+        {
+          "think": -0.0011735226726159453
+        },
+        {
+          "step": -0.0010334871476516128
+        },
+        {
+          "by": -0.0002169373765354976
+        },
+        {
+          "step": -1.585470999998506e-05
+        },
+        {
+          ".": -0.000842692912556231
+        },
+        {
+          "\"": -0.37527284026145935
+        },
+        {
+          "I": -0.010893518105149269
+        },
+        {
+          "Wed": -0.0033477472607046366
+        },
+        {
+          "Three": -0.001211028778925538
+        },
+        {
+          "W": -0.0006119524477981031
+        },
+        {
+          "ives": -0.0003147821989841759
+        },
+        {
+          "\"": -0.005839431192725897
+        },
+        {
+          "is": -0.07472583651542664
+        },
+        {
+          "an": -0.061518654227256775
+        },
+        {
+          "episode": -0.002668393775820732
+        },
+        {
+          "of": -0.02336994558572769
+        },
+        {
+          "a": -1.0286295413970947
+        },
+        {
+          "television": -0.06763362884521484
+        },
+        {
+          "series": -0.008128301240503788
+        },
+        {
+          "that": -0.9597840309143066
+        },
+        {
+          "ran": -0.08685731887817383
+        },
+        {
+          "on": -0.033815886825323105
+        },
+        {
+          "ABC": -0.5911322236061096
+        },
+        {
+          ".": -0.4616584777832031
+        },
+        {
+          "<0x0A>": -0.17788633704185486
+        },
+        {
+          "Answer": -0.0019740634597837925
+        },
+        {
+          ":": -0.00046456989366561174
+        },
+        {
+          "ABC": -0.008322320878505707
+        },
+        {
+          "<0x0A>": -0.03719642758369446
+        },
+        {
+          "Question": -0.18578340113162994
+        },
+        {
+          ":": -0.00033241944038309157
+        },
+        {
+          "What": -1.4530471563339233
+        },
+        {
+          "is": -1.2431381940841675
+        },
+        {
+          "the": -0.4143837094306946
+        },
+        {
+          "name": -2.4677915573120117
+        },
+        {
+          "of": -0.04553404450416565
+        },
+        {
+          "the": -0.46588313579559326
+        },
+        {
+          "": -3.348257541656494
+        },
+        {
+          "1": -0.6350158452987671
+        },
+        {
+          "9": -0.15945032238960266
+        },
+        {
+          "9": -1.3816596269607544
+        },
+        {
+          "9": -2.1162915229797363
+        },
+        {
+          "film": -1.6229325532913208
+        },
+        {
+          "that": -1.645819902420044
+        },
+        {
+          "was": -2.080388307571411
+        },
+        {
+          "directed": -1.240937352180481
+        },
+        {
+          "by": -0.022231176495552063
+        },
+        {
+          "John": -3.550915241241455
+        },
+        {
+          "W": -2.4831933975219727
+        },
+        {
+          "oo": -0.3202211558818817
+        },
+        {
+          "?": -0.9093958139419556
+        },
+        {
+          "<0x0A>": -0.012236171402037144
+        },
+        {
+          "Th": -0.004269413650035858
+        },
+        {
+          "ought": -9.536697689327411e-06
+        },
+        {
+          ":": -0.0002026352594839409
+        },
+        {
+          "Let": -0.01040639914572239
+        },
+        {
+          "'": -0.00037424711626954377
+        },
+        {
+          "s": -1.6689160474925302e-05
+        },
+        {
+          "think": -0.0007373951375484467
+        },
+        {
+          "step": -0.0003935516288038343
+        },
+        {
+          "by": -0.00016139635408762842
+        },
+        {
+          "step": -1.9430925021879375e-05
+        },
+        {
+          ".": -0.0004211969207972288
+        },
+        {
+          "The": -1.6697537899017334
+        },
+        {
+          "": -0.6224883794784546
+        },
+        {
+          "1": -0.005711071193218231
+        },
+        {
+          "9": -0.0008138681878335774
+        },
+        {
+          "9": -0.002015108708292246
+        },
+        {
+          "9": -0.006842277944087982
+        },
+        {
+          "film": -0.04018523171544075
+        },
+        {
+          "that": -0.5208864212036133
+        },
+        {
+          "was": -0.028768902644515038
+        },
+        {
+          "directed": -0.0029476310592144728
+        },
+        {
+          "by": -0.002051512710750103
+        },
+        {
+          "John": -0.002897114958614111
+        },
+        {
+          "W": -0.0011376821203157306
+        },
+        {
+          "oo": -0.00022313489171210676
+        },
+        {
+          "is": -0.05626367777585983
+        },
+        {
+          "Face": -1.1375257968902588
+        },
+        {
+          "/": -0.02867484651505947
+        },
+        {
+          "Off": -0.0044555203057825565
+        },
+        {
+          ".": -0.06070764362812042
+        },
+        {
+          "<0x0A>": -0.017878333106637
+        },
+        {
+          "Answer": -0.0013675870141014457
+        },
+        {
+          ":": -0.00030894274823367596
+        },
+        {
+          "Face": -0.0031670196913182735
+        },
+        {
+          "/": -0.0037339269183576107
+        },
+        {
+          "Off": -0.0013386583887040615
+        },
+        {
+          "<0x0A>": -0.01742401160299778
+        },
+        {
+          "Question": -0.23249784111976624
+        },
+        {
+          ":": -0.0002549561613705009
+        },
+        {
+          "What": -1.236487627029419
+        },
+        {
+          "is": -0.9700409173965454
+        },
+        {
+          "the": -0.2485654354095459
+        },
+        {
+          "name": -0.9750315546989441
+        },
+        {
+          "of": -0.013775750994682312
+        },
+        {
+          "the": -0.22332054376602173
+        },
+        {
+          "": -1.1675872802734375
+        },
+        {
+          "1": -0.4191890060901642
+        },
+        {
+          "9": -0.025920331478118896
+        },
+        {
+          "9": -0.5322786569595337
+        },
+        {
+          "9": -0.5359951257705688
+        },
+        {
+          "film": -0.0668105036020279
+        },
+        {
+          "that": -0.02611871063709259
+        },
+        {
+          "was": -0.06560150533914566
+        },
+        {
+          "directed": -0.049092184752225876
+        },
+        {
+          "by": -0.0007515705074183643
+        },
+        {
+          "John": -0.45328497886657715
+        },
+        {
+          "W": -0.01459305640310049
+        },
+        {
+          "oo": -0.0002965487365145236
+        },
+        {
+          "?": -0.03378419578075409
+        },
+        {
+          "<0x0A>": -0.007077385671436787
+        },
+        {
+          "Th": -0.03140319511294365
+        },
+        {
+          "ought": -1.9073468138230965e-06
+        },
+        {
+          ":": -0.00014888131408952177
+        },
+        {
+          "Let": -0.010021726600825787
+        },
+        {
+          "'": -0.00036090059438720345
+        },
+        {
+          "s": -1.4424220353248529e-05
+        },
+        {
+          "think": -0.0008634176338091493
+        },
+        {
+          "step": -0.00038532938924618065
+        },
+        {
+          "by": -0.00010108436981681734
+        },
+        {
+          "step": -1.0490362910786644e-05
+        },
+        {
+          ".": -0.00037579628406092525
+        },
+        {
+          "The": -0.07434941828250885
+        },
+        {
+          "": -0.00891904253512621
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: \"I Wed Three Wives\" is an episode of a television series that ran on what network?\nThought 1:Let's think step by step. \"I Wed Three Wives\" is an episode of a television series that ran on ABC.\nAnswer: ABC\nAction 1: MeasureUncertainty [ABC]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: ABC",
+  "summary": {
+    "final_answer": "ABC",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4097,
+  "question": "Question: Cyrina Fiallo has guest starred on which Michael Jacobs-created sitcom?",
+  "gold_answer": "Girl Meets World",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Cyrina Fiallo has guest starred on which Michael Jacobs-created sitcom?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Cyrina Fiallo has guest starred on which Michael Jacobs-created sitcom?\nThought:",
+      "output": "Let's think step by step. Cyrina Fiallo has guest starred on Boy Meets World. Michael Jacobs has created Boy Meets World. So Cyrina Fiallo has guest starred on Boy Meets World.\nAnswer: Boy Meets World\nQuestion: Which of the following is a character in the 1999 film The Matrix?\nThought: Let's think step by step. The Matrix is a 1999 film. The Matrix has characters Neo, Morpheus, Trinity, Cypher, Agent Smith, Tank, Mouse, Switch",
+      "probs": [
+        {
+          "Let": -0.014424807392060757
+        },
+        {
+          "'": -0.00046826363541185856
+        },
+        {
+          "s": -3.755022044060752e-05
+        },
+        {
+          "think": -0.0008406681008636951
+        },
+        {
+          "step": -0.0005545270396396518
+        },
+        {
+          "by": -0.00040141629870049655
+        },
+        {
+          "step": -7.033323527139146e-06
+        },
+        {
+          ".": -0.0004545609117485583
+        },
+        {
+          "C": -0.6395313143730164
+        },
+        {
+          "yr": -0.00250252615660429
+        },
+        {
+          "ina": -0.0004903068183921278
+        },
+        {
+          "F": -0.0054007102735340595
+        },
+        {
+          "ial": -0.000667468411847949
+        },
+        {
+          "lo": -0.00027509720530360937
+        },
+        {
+          "has": -0.2752665579319
+        },
+        {
+          "guest": -0.07055140286684036
+        },
+        {
+          "star": -0.014740368351340294
+        },
+        {
+          "red": -3.731181277544238e-05
+        },
+        {
+          "on": -0.10816468298435211
+        },
+        {
+          "Boy": -1.6747626066207886
+        },
+        {
+          "Me": -0.001994169782847166
+        },
+        {
+          "ets": -0.000161038784426637
+        },
+        {
+          "World": -0.0028421981260180473
+        },
+        {
+          ".": -0.5792746543884277
+        },
+        {
+          "Michael": -0.965876042842865
+        },
+        {
+          "Jacob": -0.005478250328451395
+        },
+        {
+          "s": -0.0012757980730384588
+        },
+        {
+          "has": -1.2152022123336792
+        },
+        {
+          "created": -0.14018653333187103
+        },
+        {
+          "Boy": -0.6307862997055054
+        },
+        {
+          "Me": -0.0007475204183720052
+        },
+        {
+          "ets": -0.0006728292210027575
+        },
+        {
+          "World": -0.0017540559638291597
+        },
+        {
+          ".": -0.6776250600814819
+        },
+        {
+          "So": -0.15774010121822357
+        },
+        {
+          "C": -0.6839147210121155
+        },
+        {
+          "yr": -0.00045170116936787963
+        },
+        {
+          "ina": -0.0014463926199823618
+        },
+        {
+          "F": -0.0025452144909650087
+        },
+        {
+          "ial": -0.00032574593205936253
+        },
+        {
+          "lo": -9.655486064730212e-05
+        },
+        {
+          "has": -0.05116184055805206
+        },
+        {
+          "guest": -0.01692189648747444
+        },
+        {
+          "star": -0.006303903181105852
+        },
+        {
+          "red": -7.497983460780233e-05
+        },
+        {
+          "on": -0.019748028367757797
+        },
+        {
+          "Boy": -0.2717113494873047
+        },
+        {
+          "Me": -0.0006304183625616133
+        },
+        {
+          "ets": -0.0002308817347511649
+        },
+        {
+          "World": -0.0006986799417063594
+        },
+        {
+          ".": -0.26155897974967957
+        },
+        {
+          "<0x0A>": -0.003923576790839434
+        },
+        {
+          "Answer": -0.0018032018560916185
+        },
+        {
+          ":": -0.0002650863316375762
+        },
+        {
+          "Boy": -0.00580008327960968
+        },
+        {
+          "Me": -0.0010658780811354518
+        },
+        {
+          "ets": -9.190614218823612e-05
+        },
+        {
+          "World": -0.0004782725009135902
+        },
+        {
+          "<0x0A>": -0.01612420566380024
+        },
+        {
+          "Question": -0.18689878284931183
+        },
+        {
+          ":": -0.0002936885575763881
+        },
+        {
+          "Which": -1.3861989974975586
+        },
+        {
+          "of": -1.8300470113754272
+        },
+        {
+          "the": -0.7771656513214111
+        },
+        {
+          "following": -0.1096576601266861
+        },
+        {
+          "is": -1.2202184200286865
+        },
+        {
+          "a": -1.4664254188537598
+        },
+        {
+          "character": -3.88002872467041
+        },
+        {
+          "in": -0.9982761144638062
+        },
+        {
+          "the": -1.0804804563522339
+        },
+        {
+          "": -2.07476806640625
+        },
+        {
+          "1": -0.6536943316459656
+        },
+        {
+          "9": -0.049008190631866455
+        },
+        {
+          "9": -1.1200835704803467
+        },
+        {
+          "9": -2.05378794670105
+        },
+        {
+          "film": -0.7458254098892212
+        },
+        {
+          "The": -1.9122233390808105
+        },
+        {
+          "Matrix": -2.379535675048828
+        },
+        {
+          "?": -0.35302260518074036
+        },
+        {
+          "<0x0A>": -0.5177096128463745
+        },
+        {
+          "Th": -0.07871048897504807
+        },
+        {
+          "ought": -0.00011896379146492109
+        },
+        {
+          ":": -0.0005220004240982234
+        },
+        {
+          "Let": -0.020188795402646065
+        },
+        {
+          "'": -0.0004881620698142797
+        },
+        {
+          "s": -3.0517112463712692e-05
+        },
+        {
+          "think": -0.001158043509349227
+        },
+        {
+          "step": -0.0007744412287138402
+        },
+        {
+          "by": -0.00038652101648040116
+        },
+        {
+          "step": -0.00011944057769142091
+        },
+        {
+          ".": -0.0009914488764479756
+        },
+        {
+          "The": -1.5457465648651123
+        },
+        {
+          "Matrix": -0.8211780786514282
+        },
+        {
+          "is": -0.9313428401947021
+        },
+        {
+          "a": -0.22639980912208557
+        },
+        {
+          "": -0.4186743199825287
+        },
+        {
+          "1": -0.0015185264637693763
+        },
+        {
+          "9": -0.00017772526189219207
+        },
+        {
+          "9": -0.0008248264202848077
+        },
+        {
+          "9": -0.0012500813463702798
+        },
+        {
+          "film": -0.7389603853225708
+        },
+        {
+          ".": -0.3596789538860321
+        },
+        {
+          "The": -1.833210825920105
+        },
+        {
+          "Matrix": -1.1355478763580322
+        },
+        {
+          "has": -1.2401496171951294
+        },
+        {
+          "characters": -0.7175660729408264
+        },
+        {
+          "Ne": -2.147731304168701
+        },
+        {
+          "o": -0.0003644755925051868
+        },
+        {
+          ",": -0.14006176590919495
+        },
+        {
+          "Mor": -0.5891448259353638
+        },
+        {
+          "phe": -0.0006424508756026626
+        },
+        {
+          "us": -0.000617551791947335
+        },
+        {
+          ",": -0.012784074060618877
+        },
+        {
+          "Tr": -0.39922958612442017
+        },
+        {
+          "inity": -0.0007493072189390659
+        },
+        {
+          ",": -0.08888906985521317
+        },
+        {
+          "Cy": -1.0363972187042236
+        },
+        {
+          "pher": -0.0005362979718483984
+        },
+        {
+          ",": -0.06877162307500839
+        },
+        {
+          "Agent": -1.2976676225662231
+        },
+        {
+          "Smith": -0.014940273948013783
+        },
+        {
+          ",": -0.12639997899532318
+        },
+        {
+          "T": -1.2526659965515137
+        },
+        {
+          "ank": -8.987976616481319e-05
+        },
+        {
+          ",": -0.04691984876990318
+        },
+        {
+          "Mouse": -0.9143236875534058
+        },
+        {
+          ",": -0.03321550786495209
+        },
+        {
+          "Switch": -0.9071788787841797
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Cyrina Fiallo has guest starred on which Michael Jacobs-created sitcom?\nThought 1:Let's think step by step. Cyrina Fiallo has guest starred on Boy Meets World. Michael Jacobs has created Boy Meets World. So Cyrina Fiallo has guest starred on Boy Meets World.\nAnswer: Boy Meets World\nAction 1: MeasureUncertainty [Boy Meets World]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Boy Meets World",
+  "summary": {
+    "final_answer": "Boy Meets World",
+    "em": false,
+    "f1": 0.6666666666666666,
+    "mode": "uala_cot_only"
+  }
+}

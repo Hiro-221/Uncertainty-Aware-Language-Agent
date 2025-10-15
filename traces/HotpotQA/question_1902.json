@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1902,
+  "question": "Question: How many Golden Globe Awards did the artist who published the photo book \"In Mexico\" win?",
+  "gold_answer": "five",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many Golden Globe Awards did the artist who published the photo book \"In Mexico\" win?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many Golden Globe Awards did the artist who published the photo book \"In Mexico\" win?\nThought:",
+      "output": "Let's think step by step. The artist who published the photo book \"In Mexico\" is Graciela Iturbide. Graciela Iturbide won 0 Golden Globe Awards. So the answer is 0.\nAnswer: 0\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. The 1999 film that was directed by John Woo is Mission: Impossible II.\nAnswer: Mission: Impossible II\nQuestion: What is the name of the 1",
+      "probs": [
+        {
+          "Let": -0.00957078579813242
+        },
+        {
+          "'": -0.00035148640745319426
+        },
+        {
+          "s": -3.242440288886428e-05
+        },
+        {
+          "think": -0.0009486941853538156
+        },
+        {
+          "step": -0.0004912600270472467
+        },
+        {
+          "by": -0.00028761065914295614
+        },
+        {
+          "step": -0.00020895205670967698
+        },
+        {
+          ".": -0.0007333449902944267
+        },
+        {
+          "The": -0.9875618815422058
+        },
+        {
+          "artist": -0.14027957618236542
+        },
+        {
+          "who": -0.08955036103725433
+        },
+        {
+          "published": -0.016055580228567123
+        },
+        {
+          "the": -0.04255366325378418
+        },
+        {
+          "photo": -0.01233637984842062
+        },
+        {
+          "book": -0.0017571499338373542
+        },
+        {
+          "\"": -0.08027919381856918
+        },
+        {
+          "In": -0.003713499056175351
+        },
+        {
+          "Mexico": -0.001877094735391438
+        },
+        {
+          "\"": -0.003787250956520438
+        },
+        {
+          "is": -0.07441183179616928
+        },
+        {
+          "Gra": -2.3511877059936523
+        },
+        {
+          "ci": -0.0014859121292829514
+        },
+        {
+          "ela": -0.000358159770257771
+        },
+        {
+          "It": -0.0016717043472453952
+        },
+        {
+          "urb": -0.00020823694649152458
+        },
+        {
+          "ide": -0.00013243274588603526
+        },
+        {
+          ".": -0.1120079979300499
+        },
+        {
+          "Gra": -0.2459675371646881
+        },
+        {
+          "ci": -0.00043466180795803666
+        },
+        {
+          "ela": -0.004155691247433424
+        },
+        {
+          "It": -0.005127731245011091
+        },
+        {
+          "urb": -0.00031871485407464206
+        },
+        {
+          "ide": -0.0004570631426759064
+        },
+        {
+          "won": -0.5926684141159058
+        },
+        {
+          "": -0.5399962067604065
+        },
+        {
+          "0": -0.38161876797676086
+        },
+        {
+          "Golden": -0.05883381515741348
+        },
+        {
+          "Glo": -0.009389526210725307
+        },
+        {
+          "be": -0.0008699684985913336
+        },
+        {
+          "Awards": -0.1464620977640152
+        },
+        {
+          ".": -0.49413812160491943
+        },
+        {
+          "So": -0.6010088324546814
+        },
+        {
+          "the": -0.18568092584609985
+        },
+        {
+          "answer": -0.47163981199264526
+        },
+        {
+          "is": -0.0190474484115839
+        },
+        {
+          "": -0.0680132508277893
+        },
+        {
+          "0": -0.0006135011790320277
+        },
+        {
+          ".": -0.03832161799073219
+        },
+        {
+          "<0x0A>": -0.0027656422462314367
+        },
+        {
+          "Answer": -0.0018137923907488585
+        },
+        {
+          ":": -0.0005925330333411694
+        },
+        {
+          "": -0.007275870069861412
+        },
+        {
+          "0": -0.0005303407087922096
+        },
+        {
+          "<0x0A>": -0.02676329016685486
+        },
+        {
+          "Question": -0.18215489387512207
+        },
+        {
+          ":": -0.00020180096908006817
+        },
+        {
+          "What": -1.4807835817337036
+        },
+        {
+          "is": -1.177371859550476
+        },
+        {
+          "the": -0.34746482968330383
+        },
+        {
+          "name": -2.4924681186676025
+        },
+        {
+          "of": -0.043497320264577866
+        },
+        {
+          "the": -0.368157297372818
+        },
+        {
+          "": -3.60103440284729
+        },
+        {
+          "1": -0.6714380383491516
+        },
+        {
+          "9": -0.18348728120326996
+        },
+        {
+          "9": -1.3427305221557617
+        },
+        {
+          "9": -2.0890467166900635
+        },
+        {
+          "film": -1.5735139846801758
+        },
+        {
+          "that": -1.6861166954040527
+        },
+        {
+          "was": -2.0939319133758545
+        },
+        {
+          "directed": -1.3772624731063843
+        },
+        {
+          "by": -0.033604852855205536
+        },
+        {
+          "John": -3.603425979614258
+        },
+        {
+          "W": -2.502347230911255
+        },
+        {
+          "oo": -0.26293590664863586
+        },
+        {
+          "?": -0.8873847126960754
+        },
+        {
+          "<0x0A>": -0.011886599473655224
+        },
+        {
+          "Th": -0.004378850571811199
+        },
+        {
+          "ought": -5.483612312673358e-06
+        },
+        {
+          ":": -0.00010978573118336499
+        },
+        {
+          "Let": -0.010763682425022125
+        },
+        {
+          "'": -0.000302030734019354
+        },
+        {
+          "s": -5.364403477869928e-06
+        },
+        {
+          "think": -0.00046588058467023075
+        },
+        {
+          "step": -0.00025102324434556067
+        },
+        {
+          "by": -7.486063259420916e-05
+        },
+        {
+          "step": -1.9430925021879375e-05
+        },
+        {
+          ".": -0.00035065223346464336
+        },
+        {
+          "The": -1.1458957195281982
+        },
+        {
+          "": -0.4305972456932068
+        },
+        {
+          "1": -0.0064580077305436134
+        },
+        {
+          "9": -0.0002946419408544898
+        },
+        {
+          "9": -0.0020469920709729195
+        },
+        {
+          "9": -0.005936253350228071
+        },
+        {
+          "film": -0.04009705409407616
+        },
+        {
+          "that": -0.4172990620136261
+        },
+        {
+          "was": -0.024591518566012383
+        },
+        {
+          "directed": -0.005307274870574474
+        },
+        {
+          "by": -0.0013936578761786222
+        },
+        {
+          "John": -0.004172786138951778
+        },
+        {
+          "W": -0.0008046964649111032
+        },
+        {
+          "oo": -0.0001357701694360003
+        },
+        {
+          "is": -0.03649084270000458
+        },
+        {
+          "Mission": -1.2413122653961182
+        },
+        {
+          ":": -0.09025739878416061
+        },
+        {
+          "Im": -0.0032020746730268
+        },
+        {
+          "possible": -0.00043752157944254577
+        },
+        {
+          "II": -0.54607754945755
+        },
+        {
+          ".": -0.10228385031223297
+        },
+        {
+          "<0x0A>": -0.5045572519302368
+        },
+        {
+          "Answer": -0.0029621317517012358
+        },
+        {
+          ":": -0.000259723310591653
+        },
+        {
+          "Mission": -0.004311195574700832
+        },
+        {
+          ":": -0.009315242059528828
+        },
+        {
+          "Im": -0.0015475689433515072
+        },
+        {
+          "possible": -3.802703940891661e-05
+        },
+        {
+          "II": -0.0075229438953101635
+        },
+        {
+          "<0x0A>": -0.020008748397231102
+        },
+        {
+          "Question": -0.1881808191537857
+        },
+        {
+          ":": -0.00019035911827813834
+        },
+        {
+          "What": -1.233036756515503
+        },
+        {
+          "is": -0.9045794010162354
+        },
+        {
+          "the": -0.2192309945821762
+        },
+        {
+          "name": -1.0420018434524536
+        },
+        {
+          "of": -0.011806020513176918
+        },
+        {
+          "the": -0.13617122173309326
+        },
+        {
+          "": -1.1096608638763428
+        },
+        {
+          "1": -0.4529304802417755
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: How many Golden Globe Awards did the artist who published the photo book \"In Mexico\" win?\nThought 1:Let's think step by step. The artist who published the photo book \"In Mexico\" is Graciela Iturbide. Graciela Iturbide won 0 Golden Globe Awards. So the answer is 0.\nAnswer: 0\nAction 1: MeasureUncertainty [0]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 0",
+  "summary": {
+    "final_answer": "0",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

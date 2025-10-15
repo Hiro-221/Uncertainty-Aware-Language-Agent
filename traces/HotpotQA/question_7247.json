@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7247,
+  "question": "Question: What are some foods that may have been served at the Hawaiin Cottage?",
+  "gold_answer": "poi, Kalua pig, poke, lomi salmon, opihi, haupia",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What are some foods that may have been served at the Hawaiin Cottage?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What are some foods that may have been served at the Hawaiin Cottage?\nThought:",
+      "output": "Let's think step by step. Hawaiin Cottage is a restaurant. Restaurants serve food. So foods that may have been served at the Hawaiin Cottage are food.\nAnswer: food\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999 film Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought:",
+      "probs": [
+        {
+          "Let": -0.025310076773166656
+        },
+        {
+          "'": -0.0006768796010874212
+        },
+        {
+          "s": -8.630380034446716e-05
+        },
+        {
+          "think": -0.003179615829139948
+        },
+        {
+          "step": -0.00233853398822248
+        },
+        {
+          "by": -0.0005469018360599875
+        },
+        {
+          "step": -2.4676019165781327e-05
+        },
+        {
+          ".": -0.0009641766082495451
+        },
+        {
+          "Hawai": -1.444489598274231
+        },
+        {
+          "in": -0.5147027969360352
+        },
+        {
+          "C": -0.040328249335289
+        },
+        {
+          "ott": -0.0013238961109891534
+        },
+        {
+          "age": -0.003502308391034603
+        },
+        {
+          "is": -0.9510802030563354
+        },
+        {
+          "a": -0.3940207064151764
+        },
+        {
+          "restaurant": -1.1285054683685303
+        },
+        {
+          ".": -1.3208973407745361
+        },
+        {
+          "R": -1.6629326343536377
+        },
+        {
+          "estaur": -0.01053179893642664
+        },
+        {
+          "ants": -0.16602575778961182
+        },
+        {
+          "serve": -0.6657654047012329
+        },
+        {
+          "food": -0.2117813527584076
+        },
+        {
+          ".": -0.7367442846298218
+        },
+        {
+          "So": -0.7464068531990051
+        },
+        {
+          "food": -0.888204038143158
+        },
+        {
+          "s": -0.09445250034332275
+        },
+        {
+          "that": -0.09191402047872543
+        },
+        {
+          "may": -0.024147799238562584
+        },
+        {
+          "have": -0.01357561256736517
+        },
+        {
+          "been": -0.0016092220321297646
+        },
+        {
+          "served": -0.002628445392474532
+        },
+        {
+          "at": -0.025269046425819397
+        },
+        {
+          "the": -0.13402333855628967
+        },
+        {
+          "Hawai": -0.008852875791490078
+        },
+        {
+          "in": -0.06228980794548988
+        },
+        {
+          "C": -0.0031123552471399307
+        },
+        {
+          "ott": -6.222531374078244e-05
+        },
+        {
+          "age": -0.0005086558521725237
+        },
+        {
+          "are": -0.22402988374233246
+        },
+        {
+          "food": -0.8455749154090881
+        },
+        {
+          ".": -0.6777679324150085
+        },
+        {
+          "<0x0A>": -0.020613370463252068
+        },
+        {
+          "Answer": -0.0037137367762625217
+        },
+        {
+          ":": -0.0004203628050163388
+        },
+        {
+          "food": -0.09973131120204926
+        },
+        {
+          "<0x0A>": -0.05267355963587761
+        },
+        {
+          "Question": -0.24270182847976685
+        },
+        {
+          ":": -0.0003194298769813031
+        },
+        {
+          "What": -1.1611862182617188
+        },
+        {
+          "is": -1.25234055519104
+        },
+        {
+          "the": -0.48485955595970154
+        },
+        {
+          "name": -2.5688302516937256
+        },
+        {
+          "of": -0.05881200730800629
+        },
+        {
+          "the": -0.4177142083644867
+        },
+        {
+          "": -3.6106574535369873
+        },
+        {
+          "1": -0.6517457365989685
+        },
+        {
+          "9": -0.18274618685245514
+        },
+        {
+          "9": -1.366066336631775
+        },
+        {
+          "9": -2.0805037021636963
+        },
+        {
+          "film": -1.5764487981796265
+        },
+        {
+          "that": -1.6880909204483032
+        },
+        {
+          "was": -2.0224194526672363
+        },
+        {
+          "directed": -1.2923314571380615
+        },
+        {
+          "by": -0.027944674715399742
+        },
+        {
+          "John": -3.5658164024353027
+        },
+        {
+          "W": -2.4127886295318604
+        },
+        {
+          "oo": -0.28540274500846863
+        },
+        {
+          "?": -0.89109206199646
+        },
+        {
+          "<0x0A>": -0.008330123499035835
+        },
+        {
+          "Th": -0.006064584944397211
+        },
+        {
+          "ought": -2.8967437174287625e-05
+        },
+        {
+          ":": -0.0002548369811847806
+        },
+        {
+          "Let": -0.014971395954489708
+        },
+        {
+          "'": -0.0003014348621945828
+        },
+        {
+          "s": -1.9192511899746023e-05
+        },
+        {
+          "think": -0.0006456674309447408
+        },
+        {
+          "step": -0.00029952809563837945
+        },
+        {
+          "by": -0.00014041867689229548
+        },
+        {
+          "step": -1.8715683836489916e-05
+        },
+        {
+          ".": -0.00032443503732793033
+        },
+        {
+          "John": -1.3691251277923584
+        },
+        {
+          "W": -0.003626557532697916
+        },
+        {
+          "oo": -0.00012432756193447858
+        },
+        {
+          "directed": -0.48784780502319336
+        },
+        {
+          "the": -1.5410900115966797
+        },
+        {
+          "": -0.365953266620636
+        },
+        {
+          "1": -0.03134138882160187
+        },
+        {
+          "9": -0.0002727136597968638
+        },
+        {
+          "9": -0.019731665030121803
+        },
+        {
+          "9": -0.156390979886055
+        },
+        {
+          "film": -0.06295571476221085
+        },
+        {
+          "Face": -0.9020999670028687
+        },
+        {
+          "/": -0.03453579917550087
+        },
+        {
+          "Off": -0.003679293440654874
+        },
+        {
+          ".": -0.14106926321983337
+        },
+        {
+          "<0x0A>": -0.6502049565315247
+        },
+        {
+          "Answer": -0.00272260676138103
+        },
+        {
+          ":": -0.0003673355677165091
+        },
+        {
+          "Face": -0.005885295569896698
+        },
+        {
+          "/": -0.005858986172825098
+        },
+        {
+          "Off": -0.00352559145539999
+        },
+        {
+          "<0x0A>": -0.021049555391073227
+        },
+        {
+          "Question": -0.20859889686107635
+        },
+        {
+          ":": -0.00021824838768225163
+        },
+        {
+          "What": -1.010959506034851
+        },
+        {
+          "is": -0.993205189704895
+        },
+        {
+          "the": -0.2965085506439209
+        },
+        {
+          "name": -0.9894761443138123
+        },
+        {
+          "of": -0.013356143608689308
+        },
+        {
+          "the": -0.17175619304180145
+        },
+        {
+          "": -1.0737159252166748
+        },
+        {
+          "1": -0.36329102516174316
+        },
+        {
+          "9": -0.019548848271369934
+        },
+        {
+          "9": -0.3566209673881531
+        },
+        {
+          "9": -0.3577779531478882
+        },
+        {
+          "film": -0.04943273216485977
+        },
+        {
+          "that": -0.03841282054781914
+        },
+        {
+          "was": -0.0825662836432457
+        },
+        {
+          "directed": -0.04389100894331932
+        },
+        {
+          "by": -0.0013440155889838934
+        },
+        {
+          "John": -0.5104215145111084
+        },
+        {
+          "W": -0.017432328313589096
+        },
+        {
+          "oo": -0.0005147324409335852
+        },
+        {
+          "?": -0.04994158446788788
+        },
+        {
+          "<0x0A>": -0.0067544239573180676
+        },
+        {
+          "Th": -0.029646268114447594
+        },
+        {
+          "ought": -2.3841830625315197e-06
+        },
+        {
+          ":": -0.00022480344341602176
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: What are some foods that may have been served at the Hawaiin Cottage?\nThought 1:Let's think step by step. Hawaiin Cottage is a restaurant. Restaurants serve food. So foods that may have been served at the Hawaiin Cottage are food.\nAnswer: food\nAction 1: MeasureUncertainty [food]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: food",
+  "summary": {
+    "final_answer": "food",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

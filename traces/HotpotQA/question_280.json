@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 280,
+  "question": "Question: Flyboys stars which actor who was nominated for an Academy Award for \"127 Hours\"?",
+  "gold_answer": "James Franco",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Flyboys stars which actor who was nominated for an Academy Award for \"127 Hours\"?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Flyboys stars which actor who was nominated for an Academy Award for \"127 Hours\"?\nThought:",
+      "output": "Let's think step by step. Flyboys stars James Franco. James Franco was nominated for an Academy Award for \"127 Hours\", so the answer is James Franco.\nAnswer: James Franco\nQuestion: Which of these is a character in the 2006 film \"The Last King of Scotland\"?\nThought: Let's think step by step. The Last King of Scotland is a 2006 film. The Last King of Scotland is a 2006 film. The Last King of Scotland is a 2006 film. The Last King of Scotland is a",
+      "probs": [
+        {
+          "Let": -0.013149567879736423
+        },
+        {
+          "'": -0.00042143522296100855
+        },
+        {
+          "s": -6.639736966462806e-05
+        },
+        {
+          "think": -0.0008135108510032296
+        },
+        {
+          "step": -0.000427274004323408
+        },
+        {
+          "by": -0.0002411313180346042
+        },
+        {
+          "step": -0.0008690156391821802
+        },
+        {
+          ".": -0.0005527398898266256
+        },
+        {
+          "Fly": -0.8503434658050537
+        },
+        {
+          "bo": -0.002899611135944724
+        },
+        {
+          "ys": -2.109982233378105e-05
+        },
+        {
+          "stars": -0.18893063068389893
+        },
+        {
+          "James": -0.5062810778617859
+        },
+        {
+          "Franco": -0.003027857281267643
+        },
+        {
+          ".": -0.7279341220855713
+        },
+        {
+          "James": -0.20099152624607086
+        },
+        {
+          "Franco": -0.0007488307310268283
+        },
+        {
+          "was": -0.1338091790676117
+        },
+        {
+          "nominated": -0.02722151018679142
+        },
+        {
+          "for": -0.006199060007929802
+        },
+        {
+          "an": -0.10775355249643326
+        },
+        {
+          "Academy": -0.009607033804059029
+        },
+        {
+          "Award": -0.0032011240255087614
+        },
+        {
+          "for": -0.022603489458560944
+        },
+        {
+          "\"": -0.2894975543022156
+        },
+        {
+          "1": -0.002678618300706148
+        },
+        {
+          "2": -3.8980677345534787e-05
+        },
+        {
+          "7": -8.523101132595912e-05
+        },
+        {
+          "H": -0.006960312370210886
+        },
+        {
+          "ours": -7.319182623177767e-05
+        },
+        {
+          "\",": -0.7542192339897156
+        },
+        {
+          "so": -0.013540801592171192
+        },
+        {
+          "the": -0.092512346804142
+        },
+        {
+          "answer": -0.19328093528747559
+        },
+        {
+          "is": -0.01217093039304018
+        },
+        {
+          "James": -0.016325827687978745
+        },
+        {
+          "Franco": -0.00031835734262131155
+        },
+        {
+          ".": -0.016251470893621445
+        },
+        {
+          "<0x0A>": -0.00272486568428576
+        },
+        {
+          "Answer": -0.0016721803694963455
+        },
+        {
+          ":": -0.0005476167425513268
+        },
+        {
+          "James": -0.0013087764382362366
+        },
+        {
+          "Franco": -0.0001951265730895102
+        },
+        {
+          "<0x0A>": -0.014890359714627266
+        },
+        {
+          "Question": -0.19216379523277283
+        },
+        {
+          ":": -0.00032050241134129465
+        },
+        {
+          "Which": -1.4356223344802856
+        },
+        {
+          "of": -1.881616234779358
+        },
+        {
+          "these": -0.9004290103912354
+        },
+        {
+          "is": -1.4865829944610596
+        },
+        {
+          "a": -1.0430558919906616
+        },
+        {
+          "character": -3.4355382919311523
+        },
+        {
+          "in": -0.7571432590484619
+        },
+        {
+          "the": -1.108681082725525
+        },
+        {
+          "": -2.059469699859619
+        },
+        {
+          "2": -0.6726036071777344
+        },
+        {
+          "0": -0.005836705211549997
+        },
+        {
+          "0": -0.4470492899417877
+        },
+        {
+          "6": -1.6975020170211792
+        },
+        {
+          "film": -0.6052961349487305
+        },
+        {
+          "\"": -0.5543432235717773
+        },
+        {
+          "The": -1.6160553693771362
+        },
+        {
+          "Last": -2.6030871868133545
+        },
+        {
+          "King": -0.6692658066749573
+        },
+        {
+          "of": -0.005289488006383181
+        },
+        {
+          "Scotland": -0.0003594706067815423
+        },
+        {
+          "\"?": -0.13887855410575867
+        },
+        {
+          "<0x0A>": -0.38742005825042725
+        },
+        {
+          "Th": -0.020330263301730156
+        },
+        {
+          "ought": -0.00016389934171456844
+        },
+        {
+          ":": -0.0004822045157197863
+        },
+        {
+          "Let": -0.024943886324763298
+        },
+        {
+          "'": -0.0004152389301452786
+        },
+        {
+          "s": -6.651657167822123e-05
+        },
+        {
+          "think": -0.0016132686287164688
+        },
+        {
+          "step": -0.000802075956016779
+        },
+        {
+          "by": -0.00023672162205912173
+        },
+        {
+          "step": -0.000278195773717016
+        },
+        {
+          ".": -0.0008192281820811331
+        },
+        {
+          "The": -1.2740709781646729
+        },
+        {
+          "Last": -0.4410537779331207
+        },
+        {
+          "King": -0.0021414461079984903
+        },
+        {
+          "of": -0.0019822726026177406
+        },
+        {
+          "Scotland": -0.0023061842657625675
+        },
+        {
+          "is": -0.8269467353820801
+        },
+        {
+          "a": -0.4577193260192871
+        },
+        {
+          "": -0.5840805768966675
+        },
+        {
+          "2": -0.0010669498005881906
+        },
+        {
+          "0": -5.3165931603871286e-05
+        },
+        {
+          "0": -0.001177571015432477
+        },
+        {
+          "6": -0.0034187936689704657
+        },
+        {
+          "film": -0.6699830293655396
+        },
+        {
+          ".": -0.7853366136550903
+        },
+        {
+          "The": -1.5126893520355225
+        },
+        {
+          "Last": -0.9038021564483643
+        },
+        {
+          "King": -0.0024717275518924
+        },
+        {
+          "of": -0.0015867274487391114
+        },
+        {
+          "Scotland": -0.001848180778324604
+        },
+        {
+          "is": -1.3186900615692139
+        },
+        {
+          "a": -0.9607924222946167
+        },
+        {
+          "": -0.9108507037162781
+        },
+        {
+          "2": -0.042401023209095
+        },
+        {
+          "0": -0.00012432756193447858
+        },
+        {
+          "0": -0.013474351726472378
+        },
+        {
+          "6": -0.016539722681045532
+        },
+        {
+          "film": -0.13873930275440216
+        },
+        {
+          ".": -0.9370183348655701
+        },
+        {
+          "The": -1.3146822452545166
+        },
+        {
+          "Last": -0.2626743018627167
+        },
+        {
+          "King": -0.0025924190413206816
+        },
+        {
+          "of": -0.0014043716946616769
+        },
+        {
+          "Scotland": -0.0016250512562692165
+        },
+        {
+          "is": -0.18985755741596222
+        },
+        {
+          "a": -0.05922050029039383
+        },
+        {
+          "": -0.02885623462498188
+        },
+        {
+          "2": -0.0005268854438327253
+        },
+        {
+          "0": -1.0371154530730564e-05
+        },
+        {
+          "0": -0.0001003691868390888
+        },
+        {
+          "6": -0.0006898645660839975
+        },
+        {
+          "film": -0.00976700522005558
+        },
+        {
+          ".": -0.09280519187450409
+        },
+        {
+          "The": -0.5418869256973267
+        },
+        {
+          "Last": -0.03628404811024666
+        },
+        {
+          "King": -0.0011326810345053673
+        },
+        {
+          "of": -0.0005797850899398327
+        },
+        {
+          "Scotland": -0.0006386386230587959
+        },
+        {
+          "is": -0.020707955583930016
+        },
+        {
+          "a": -0.007989590987563133
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Flyboys stars which actor who was nominated for an Academy Award for \"127 Hours\"?\nThought 1:Let's think step by step. Flyboys stars James Franco. James Franco was nominated for an Academy Award for \"127 Hours\", so the answer is James Franco.\nAnswer: James Franco\nAction 1: MeasureUncertainty [James Franco]\nObservation 1: Answer’s uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: James Franco",
+  "summary": {
+    "final_answer": "James Franco",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

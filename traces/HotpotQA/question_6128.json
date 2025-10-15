@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6128,
+  "question": "Question: Stitch's Great Escape! replaced the theater-in-the-round attraction in which section of the Magic Kingdom theme park?",
+  "gold_answer": "Tomorrowland",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Stitch's Great Escape! replaced the theater-in-the-round attraction in which section of the Magic Kingdom theme park?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Stitch's Great Escape! replaced the theater-in-the-round attraction in which section of the Magic Kingdom theme park?\nThought:",
+      "output": "Let's think step by step. Stitch's Great Escape! replaced the theater-in-the-round attraction in Tomorrowland.\nAnswer: Tomorrowland\nQuestion: Which of these is a type of fish?\nThought: Let's think step by step. A fish is a type of animal. A fish is a type of vertebrate. A fish is a type of chordate. A fish is a type of animal. A fish is a type of vertebrate. A fish is a type of chordate. A fish is a type of animal. A",
+      "probs": [
+        {
+          "Let": -0.012354748323559761
+        },
+        {
+          "'": -0.00043442347669042647
+        },
+        {
+          "s": -2.6940935640595853e-05
+        },
+        {
+          "think": -0.0009511952521279454
+        },
+        {
+          "step": -0.000745018885936588
+        },
+        {
+          "by": -0.00038795097498223186
+        },
+        {
+          "step": -9.727005090098828e-05
+        },
+        {
+          ".": -0.0005496421363204718
+        },
+        {
+          "St": -0.5405489206314087
+        },
+        {
+          "itch": -0.0009803733555600047
+        },
+        {
+          "'": -0.008051320910453796
+        },
+        {
+          "s": -0.00014006110723130405
+        },
+        {
+          "Great": -0.000667468411847949
+        },
+        {
+          "Es": -0.00048137042904272676
+        },
+        {
+          "cape": -8.511180931236595e-05
+        },
+        {
+          "!": -0.027736222371459007
+        },
+        {
+          "replaced": -0.2748275101184845
+        },
+        {
+          "the": -0.33806222677230835
+        },
+        {
+          "the": -0.08817396312952042
+        },
+        {
+          "ater": -0.0005376085755415261
+        },
+        {
+          "-": -0.0035068225115537643
+        },
+        {
+          "in": -0.00029869386344216764
+        },
+        {
+          "-": -0.0002829628065228462
+        },
+        {
+          "the": -0.00045003299601376057
+        },
+        {
+          "-": -0.0008996253600344062
+        },
+        {
+          "round": -0.0004239375703036785
+        },
+        {
+          "att": -0.004656424280256033
+        },
+        {
+          "raction": -2.622600959512056e-06
+        },
+        {
+          "in": -1.076570987701416
+        },
+        {
+          "Tom": -0.5329576730728149
+        },
+        {
+          "orrow": -0.0029576150700449944
+        },
+        {
+          "land": -0.0038203841540962458
+        },
+        {
+          ".": -0.5362386703491211
+        },
+        {
+          "<0x0A>": -0.4861069917678833
+        },
+        {
+          "Answer": -0.004142276477068663
+        },
+        {
+          ":": -0.0004742213059216738
+        },
+        {
+          "Tom": -0.006163399200886488
+        },
+        {
+          "orrow": -0.001679201959632337
+        },
+        {
+          "land": -0.0005128260818310082
+        },
+        {
+          "<0x0A>": -0.02426520548760891
+        },
+        {
+          "Question": -0.2046046108007431
+        },
+        {
+          ":": -0.0002896366349887103
+        },
+        {
+          "Which": -1.428845763206482
+        },
+        {
+          "of": -1.7249250411987305
+        },
+        {
+          "these": -0.8295369744300842
+        },
+        {
+          "is": -1.3676117658615112
+        },
+        {
+          "a": -1.1524451971054077
+        },
+        {
+          "type": -3.7534732818603516
+        },
+        {
+          "of": -0.012412912212312222
+        },
+        {
+          "fish": -4.904768943786621
+        },
+        {
+          "?": -0.8589692711830139
+        },
+        {
+          "<0x0A>": -0.6204738020896912
+        },
+        {
+          "Th": -0.013019436039030552
+        },
+        {
+          "ought": -3.540453326422721e-05
+        },
+        {
+          ":": -0.0002694958820939064
+        },
+        {
+          "Let": -0.027330204844474792
+        },
+        {
+          "'": -0.0005214046686887741
+        },
+        {
+          "s": -5.4238757002167404e-05
+        },
+        {
+          "think": -0.002105759223923087
+        },
+        {
+          "step": -0.0015695883193984628
+        },
+        {
+          "by": -0.0003066784702241421
+        },
+        {
+          "step": -4.3748852476710454e-05
+        },
+        {
+          ".": -0.0010413468116894364
+        },
+        {
+          "A": -2.30842661857605
+        },
+        {
+          "fish": -1.5777215957641602
+        },
+        {
+          "is": -0.15046007931232452
+        },
+        {
+          "a": -0.7060971856117249
+        },
+        {
+          "type": -1.566921353340149
+        },
+        {
+          "of": -0.004781597759574652
+        },
+        {
+          "animal": -0.8279143571853638
+        },
+        {
+          ".": -0.8102898001670837
+        },
+        {
+          "A": -1.8092178106307983
+        },
+        {
+          "fish": -1.6719998121261597
+        },
+        {
+          "is": -0.22382843494415283
+        },
+        {
+          "a": -0.8286916017532349
+        },
+        {
+          "type": -0.25020015239715576
+        },
+        {
+          "of": -0.0014996008248999715
+        },
+        {
+          "verte": -1.0116558074951172
+        },
+        {
+          "br": -0.003330400912091136
+        },
+        {
+          "ate": -0.01705855317413807
+        },
+        {
+          ".": -0.07262273132801056
+        },
+        {
+          "A": -0.4434375762939453
+        },
+        {
+          "fish": -0.0900609940290451
+        },
+        {
+          "is": -0.029241256415843964
+        },
+        {
+          "a": -0.12133688479661942
+        },
+        {
+          "type": -0.014931348152458668
+        },
+        {
+          "of": -0.0007376333815045655
+        },
+        {
+          "ch": -0.5923202037811279
+        },
+        {
+          "ord": -0.000709401210770011
+        },
+        {
+          "ate": -0.013009081594645977
+        },
+        {
+          ".": -0.017816152423620224
+        },
+        {
+          "A": -0.4253457188606262
+        },
+        {
+          "fish": -0.048394039273262024
+        },
+        {
+          "is": -0.013159450143575668
+        },
+        {
+          "a": -0.08478331565856934
+        },
+        {
+          "type": -0.008656122721731663
+        },
+        {
+          "of": -0.0005021026590839028
+        },
+        {
+          "animal": -1.1239588260650635
+        },
+        {
+          ".": -1.0949492454528809
+        },
+        {
+          "A": -1.000340461730957
+        },
+        {
+          "fish": -0.12992432713508606
+        },
+        {
+          "is": -0.01879946142435074
+        },
+        {
+          "a": -0.10811814665794373
+        },
+        {
+          "type": -0.008453183807432652
+        },
+        {
+          "of": -0.0005641775787808001
+        },
+        {
+          "verte": -1.176331639289856
+        },
+        {
+          "br": -0.0022718114778399467
+        },
+        {
+          "ate": -0.00039307496626861393
+        },
+        {
+          ".": -0.011403735727071762
+        },
+        {
+          "A": -0.09460423141717911
+        },
+        {
+          "fish": -0.00986049696803093
+        },
+        {
+          "is": -0.0022101993672549725
+        },
+        {
+          "a": -0.008685313165187836
+        },
+        {
+          "type": -0.001658970140852034
+        },
+        {
+          "of": -0.00039986721822060645
+        },
+        {
+          "ch": -0.0662272721529007
+        },
+        {
+          "ord": -0.00034028460504487157
+        },
+        {
+          "ate": -0.0005831210291944444
+        },
+        {
+          ".": -0.022002870216965675
+        },
+        {
+          "A": -0.7754328846931458
+        },
+        {
+          "fish": -0.09636843949556351
+        },
+        {
+          "is": -0.017863109707832336
+        },
+        {
+          "a": -0.07136302441358566
+        },
+        {
+          "type": -0.018846256658434868
+        },
+        {
+          "of": -0.0010031197452917695
+        },
+        {
+          "animal": -0.24693018198013306
+        },
+        {
+          ".": -0.03970713913440704
+        },
+        {
+          "A": -0.27944156527519226
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Stitch's Great Escape! replaced the theater-in-the-round attraction in which section of the Magic Kingdom theme park?\nThought 1:Let's think step by step. Stitch's Great Escape! replaced the theater-in-the-round attraction in Tomorrowland.\nAnswer: Tomorrowland\nAction 1: MeasureUncertainty [Tomorrowland]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Tomorrowland",
+  "summary": {
+    "final_answer": "Tomorrowland",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

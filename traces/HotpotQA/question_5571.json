@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5571,
+  "question": "Question: Are Bangkok Girl and Home both horror movies?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Bangkok Girl and Home both horror movies?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Bangkok Girl and Home both horror movies?\nThought:",
+      "output": "Let's think step by step. Bangkok Girl is a documentary. Home is a horror movie. So Bangkok Girl and Home are not both horror movies.\nAnswer: No\nQuestion: What is the difference between the number of episodes of The Adventures of Ozzie and Harriet and the number of episodes of The Adventures of Ozzie and Harriet?\nThought: Let's think step by step. The Adventures of Ozzie and Harriet has 435 episodes. The Adventures of Ozzie and Harriet has 43",
+      "probs": [
+        {
+          "Let": -0.013967502862215042
+        },
+        {
+          "'": -0.0004465774691198021
+        },
+        {
+          "s": -2.2291887944447808e-05
+        },
+        {
+          "think": -0.0013262771535664797
+        },
+        {
+          "step": -0.0003409996279515326
+        },
+        {
+          "by": -0.00022539935889653862
+        },
+        {
+          "step": -1.7762025890988298e-05
+        },
+        {
+          ".": -0.0005488081369549036
+        },
+        {
+          "Bang": -0.26112091541290283
+        },
+        {
+          "k": -0.00041166413575410843
+        },
+        {
+          "ok": -0.00016556799528189003
+        },
+        {
+          "Girl": -0.0018128404626622796
+        },
+        {
+          "is": -0.12260851263999939
+        },
+        {
+          "a": -0.18820077180862427
+        },
+        {
+          "document": -0.6124895811080933
+        },
+        {
+          "ary": -0.00047886825632303953
+        },
+        {
+          ".": -1.0374855995178223
+        },
+        {
+          "Home": -0.12123319506645203
+        },
+        {
+          "is": -0.1381339579820633
+        },
+        {
+          "a": -0.06473681330680847
+        },
+        {
+          "horror": -0.5527173280715942
+        },
+        {
+          "movie": -0.3545325994491577
+        },
+        {
+          ".": -0.046694837510585785
+        },
+        {
+          "So": -0.5669195652008057
+        },
+        {
+          "Bang": -0.6858844757080078
+        },
+        {
+          "k": -0.00044312194222584367
+        },
+        {
+          "ok": -8.296622399939224e-05
+        },
+        {
+          "Girl": -0.0028433867264539003
+        },
+        {
+          "and": -0.37690648436546326
+        },
+        {
+          "Home": -0.0038694285321980715
+        },
+        {
+          "are": -0.19348007440567017
+        },
+        {
+          "not": -0.3867855966091156
+        },
+        {
+          "both": -0.0517708994448185
+        },
+        {
+          "horror": -0.01808943599462509
+        },
+        {
+          "mov": -0.015451483428478241
+        },
+        {
+          "ies": -0.00014685506175737828
+        },
+        {
+          ".": -0.01519156713038683
+        },
+        {
+          "<0x0A>": -0.005317235365509987
+        },
+        {
+          "Answer": -0.0013699679402634501
+        },
+        {
+          ":": -0.00032669928623363376
+        },
+        {
+          "No": -0.012820911593735218
+        },
+        {
+          "<0x0A>": -0.017188629135489464
+        },
+        {
+          "Question": -0.2940160632133484
+        },
+        {
+          ":": -0.0003599472693167627
+        },
+        {
+          "What": -1.7686654329299927
+        },
+        {
+          "is": -1.1771199703216553
+        },
+        {
+          "the": -0.3888189196586609
+        },
+        {
+          "difference": -2.5316267013549805
+        },
+        {
+          "between": -0.26993125677108765
+        },
+        {
+          "the": -1.2110931873321533
+        },
+        {
+          "number": -2.3856258392333984
+        },
+        {
+          "of": -0.02408565953373909
+        },
+        {
+          "episodes": -3.16237473487854
+        },
+        {
+          "of": -0.48042017221450806
+        },
+        {
+          "The": -2.277984380722046
+        },
+        {
+          "Advent": -3.7301290035247803
+        },
+        {
+          "ures": -0.03490482643246651
+        },
+        {
+          "of": -0.006404944229871035
+        },
+        {
+          "O": -2.559933662414551
+        },
+        {
+          "z": -0.032265786081552505
+        },
+        {
+          "zie": -0.0009912106906995177
+        },
+        {
+          "and": -0.016308704391121864
+        },
+        {
+          "Har": -0.0010064542293548584
+        },
+        {
+          "ri": -2.7418097943154862e-06
+        },
+        {
+          "et": -0.00025197668583132327
+        },
+        {
+          "and": -0.15458470582962036
+        },
+        {
+          "the": -1.2071502208709717
+        },
+        {
+          "number": -0.17061905562877655
+        },
+        {
+          "of": -0.005913737695664167
+        },
+        {
+          "episodes": -0.4793224334716797
+        },
+        {
+          "of": -0.01813076250255108
+        },
+        {
+          "The": -1.578796148300171
+        },
+        {
+          "Advent": -2.481841564178467
+        },
+        {
+          "ures": -0.010174079798161983
+        },
+        {
+          "of": -0.00280831940472126
+        },
+        {
+          "O": -1.144126057624817
+        },
+        {
+          "z": -0.004941038321703672
+        },
+        {
+          "zie": -0.0005185451591387391
+        },
+        {
+          "and": -0.0227985680103302
+        },
+        {
+          "Har": -0.0007844470092095435
+        },
+        {
+          "ri": -2.2649508537142538e-05
+        },
+        {
+          "et": -0.0005617947317659855
+        },
+        {
+          "?": -0.1827012002468109
+        },
+        {
+          "<0x0A>": -0.010501128621399403
+        },
+        {
+          "Th": -0.007390894927084446
+        },
+        {
+          "ought": -0.00012599628826137632
+        },
+        {
+          ":": -0.000254241080256179
+        },
+        {
+          "Let": -0.021085388958454132
+        },
+        {
+          "'": -0.0004589696181938052
+        },
+        {
+          "s": -8.415821503149346e-05
+        },
+        {
+          "think": -0.000501983508002013
+        },
+        {
+          "step": -0.0004814896092284471
+        },
+        {
+          "by": -0.00017391123401466757
+        },
+        {
+          "step": -1.9073304429184645e-05
+        },
+        {
+          ".": -0.0007188120507635176
+        },
+        {
+          "The": -0.3803960978984833
+        },
+        {
+          "Advent": -0.34650081396102905
+        },
+        {
+          "ures": -0.0018699555657804012
+        },
+        {
+          "of": -0.0003026265767402947
+        },
+        {
+          "O": -0.000582644424866885
+        },
+        {
+          "z": -0.0001358893496217206
+        },
+        {
+          "zie": -9.953480184776708e-05
+        },
+        {
+          "and": -0.001129227806814015
+        },
+        {
+          "Har": -0.00024482590379193425
+        },
+        {
+          "ri": -4.565611743601039e-05
+        },
+        {
+          "et": -0.00010573305189609528
+        },
+        {
+          "has": -0.3226602077484131
+        },
+        {
+          "": -0.04562903195619583
+        },
+        {
+          "4": -0.07326683402061462
+        },
+        {
+          "3": -0.02433687448501587
+        },
+        {
+          "5": -0.04922927916049957
+        },
+        {
+          "episodes": -0.010626517236232758
+        },
+        {
+          ".": -0.1027744710445404
+        },
+        {
+          "The": -0.2454051971435547
+        },
+        {
+          "Advent": -0.22646720707416534
+        },
+        {
+          "ures": -0.0007321537705138326
+        },
+        {
+          "of": -0.0001429217227268964
+        },
+        {
+          "O": -0.00037698791129514575
+        },
+        {
+          "z": -0.00026425207033753395
+        },
+        {
+          "zie": -6.556489552167477e-06
+        },
+        {
+          "and": -0.0006680640508420765
+        },
+        {
+          "Har": -0.00018034738604910672
+        },
+        {
+          "ri": -4.8993817472364753e-05
+        },
+        {
+          "et": -7.986703712958843e-05
+        },
+        {
+          "has": -0.23938684165477753
+        },
+        {
+          "": -0.048972323536872864
+        },
+        {
+          "4": -0.004662713035941124
+        },
+        {
+          "3": -0.0023449561558663845
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are Bangkok Girl and Home both horror movies?\nThought 1:Let's think step by step. Bangkok Girl is a documentary. Home is a horror movie. So Bangkok Girl and Home are not both horror movies.\nAnswer: No\nAction 1: MeasureUncertainty [No]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: No",
+  "summary": {
+    "final_answer": "No",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

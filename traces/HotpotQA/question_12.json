@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 12,
+  "question": "Question: What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+  "gold_answer": "1999",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?\nThought:",
+      "output": "Let's think step by step. Guns N Roses performed a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective in 1990.\nAnswer: 1990\nQuestion: What is the name of the 1990 film starring Arnold Schwarzenegger as a former New York Police detective?\nThought: Let's think step by step. The name of the 1990 film starring Arnold Schwarzenegger as a former New York Police detective is Kindergarten Cop.\nAnswer: Kinder",
+      "probs": [
+        {
+          "Let": -0.01610637456178665
+        },
+        {
+          "'": -0.00080195686314255
+        },
+        {
+          "s": -0.001258534612134099
+        },
+        {
+          "think": -0.0008459088858217001
+        },
+        {
+          "step": -0.0006317288498394191
+        },
+        {
+          "by": -0.00020323118951637298
+        },
+        {
+          "step": -0.00048029806930571795
+        },
+        {
+          ".": -0.0006494796834886074
+        },
+        {
+          "G": -0.5616791844367981
+        },
+        {
+          "uns": -0.0032683785539120436
+        },
+        {
+          "N": -0.007230542600154877
+        },
+        {
+          "Ros": -0.13905034959316254
+        },
+        {
+          "es": -2.2172682292875834e-05
+        },
+        {
+          "performed": -0.5597758293151855
+        },
+        {
+          "a": -0.3133070468902588
+        },
+        {
+          "prom": -0.04509291425347328
+        },
+        {
+          "o": -0.0025107308756560087
+        },
+        {
+          "for": -0.18113794922828674
+        },
+        {
+          "a": -0.5582510828971863
+        },
+        {
+          "movie": -0.038247499614953995
+        },
+        {
+          "st": -0.638200581073761
+        },
+        {
+          "arring": -0.00114125432446599
+        },
+        {
+          "Arnold": -0.0542515404522419
+        },
+        {
+          "Schwar": -0.0017794027226045728
+        },
+        {
+          "zen": -0.0011629253858700395
+        },
+        {
+          "eg": -7.068861305015162e-05
+        },
+        {
+          "ger": -0.0003392120997887105
+        },
+        {
+          "as": -0.22143970429897308
+        },
+        {
+          "a": -0.016579587012529373
+        },
+        {
+          "former": -0.02165517956018448
+        },
+        {
+          "New": -0.011455945670604706
+        },
+        {
+          "York": -0.0003551805857568979
+        },
+        {
+          "Police": -0.018883924931287766
+        },
+        {
+          "detect": -0.005499234888702631
+        },
+        {
+          "ive": -0.0001864259538706392
+        },
+        {
+          "in": -0.15227563679218292
+        },
+        {
+          "": -0.050030943006277084
+        },
+        {
+          "1": -0.11413015425205231
+        },
+        {
+          "9": -0.0006529344827868044
+        },
+        {
+          "9": -0.35135313868522644
+        },
+        {
+          "0": -1.1809064149856567
+        },
+        {
+          ".": -0.10183917731046677
+        },
+        {
+          "<0x0A>": -0.1627771258354187
+        },
+        {
+          "Answer": -0.00271428469568491
+        },
+        {
+          ":": -0.0004363300104159862
+        },
+        {
+          "": -0.004519605077803135
+        },
+        {
+          "1": -0.000316927267704159
+        },
+        {
+          "9": -0.00017307691450696439
+        },
+        {
+          "9": -0.0002824861148837954
+        },
+        {
+          "0": -0.00042226933874189854
+        },
+        {
+          "<0x0A>": -0.017584845423698425
+        },
+        {
+          "Question": -0.1785983294248581
+        },
+        {
+          ":": -0.0002580548170953989
+        },
+        {
+          "What": -1.2730495929718018
+        },
+        {
+          "is": -1.4669328927993774
+        },
+        {
+          "the": -0.4209156930446625
+        },
+        {
+          "name": -2.378767967224121
+        },
+        {
+          "of": -0.04827818274497986
+        },
+        {
+          "the": -0.4276694357395172
+        },
+        {
+          "": -3.268653154373169
+        },
+        {
+          "1": -0.6781889200210571
+        },
+        {
+          "9": -0.15636976063251495
+        },
+        {
+          "9": -1.2259645462036133
+        },
+        {
+          "0": -1.9445585012435913
+        },
+        {
+          "film": -1.756178379058838
+        },
+        {
+          "st": -1.2993820905685425
+        },
+        {
+          "arring": -0.0018331881146878004
+        },
+        {
+          "Arnold": -0.7783361673355103
+        },
+        {
+          "Schwar": -0.0022904847282916307
+        },
+        {
+          "zen": -0.0013688965700566769
+        },
+        {
+          "eg": -2.312633478140924e-05
+        },
+        {
+          "ger": -0.0003864018653985113
+        },
+        {
+          "as": -0.2570371925830841
+        },
+        {
+          "a": -0.04804665595293045
+        },
+        {
+          "former": -0.05715520307421684
+        },
+        {
+          "New": -0.04028485342860222
+        },
+        {
+          "York": -0.00017128908075392246
+        },
+        {
+          "Police": -0.08488823473453522
+        },
+        {
+          "detect": -0.011216914281249046
+        },
+        {
+          "ive": -0.00019429226813372225
+        },
+        {
+          "?": -0.2673785984516144
+        },
+        {
+          "<0x0A>": -0.0041673253290355206
+        },
+        {
+          "Th": -0.0069155627861619
+        },
+        {
+          "ought": -3.111314072157256e-05
+        },
+        {
+          ":": -0.00012635385792236775
+        },
+        {
+          "Let": -0.009822015650570393
+        },
+        {
+          "'": -0.00027056847466155887
+        },
+        {
+          "s": -1.0847986231965479e-05
+        },
+        {
+          "think": -0.000508417550008744
+        },
+        {
+          "step": -0.00022754464589525014
+        },
+        {
+          "by": -8.546940807718784e-05
+        },
+        {
+          "step": -4.6491513785440475e-06
+        },
+        {
+          ".": -0.0003532739356160164
+        },
+        {
+          "The": -0.6925376653671265
+        },
+        {
+          "name": -0.704155445098877
+        },
+        {
+          "of": -0.013410603627562523
+        },
+        {
+          "the": -0.04781576246023178
+        },
+        {
+          "": -0.08077027648687363
+        },
+        {
+          "1": -0.00014518637908622622
+        },
+        {
+          "9": -2.455681169521995e-05
+        },
+        {
+          "9": -0.0004589696181938052
+        },
+        {
+          "0": -0.00029869386344216764
+        },
+        {
+          "film": -0.019385406747460365
+        },
+        {
+          "st": -0.01971062645316124
+        },
+        {
+          "arring": -0.0009190387791022658
+        },
+        {
+          "Arnold": -0.003363430267199874
+        },
+        {
+          "Schwar": -0.000532008707523346
+        },
+        {
+          "zen": -0.0005069877952337265
+        },
+        {
+          "eg": -3.814689989667386e-06
+        },
+        {
+          "ger": -0.0022514727897942066
+        },
+        {
+          "as": -0.013562087900936604
+        },
+        {
+          "a": -0.001073380233719945
+        },
+        {
+          "former": -0.000841025379486382
+        },
+        {
+          "New": -0.0009051040397025645
+        },
+        {
+          "York": -0.00018368464952800423
+        },
+        {
+          "Police": -0.0022712168283760548
+        },
+        {
+          "detect": -0.0010557560017332435
+        },
+        {
+          "ive": -0.00024303820100612938
+        },
+        {
+          "is": -0.00967350509017706
+        },
+        {
+          "Kinder": -0.4240477681159973
+        },
+        {
+          "g": -0.00030524839530698955
+        },
+        {
+          "arten": -0.0040578655898571014
+        },
+        {
+          "Cop": -0.0068983961828053
+        },
+        {
+          ".": -0.05031449347734451
+        },
+        {
+          "<0x0A>": -0.010427752509713173
+        },
+        {
+          "Answer": -0.001715261023491621
+        },
+        {
+          ":": -0.00021181246847845614
+        },
+        {
+          "Kinder": -0.003578807692974806
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?\nThought 1:Let's think step by step. Guns N Roses performed a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective in 1990.\nAnswer: 1990\nAction 1: MeasureUncertainty [1990]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 1990",
+  "summary": {
+    "final_answer": "1990",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

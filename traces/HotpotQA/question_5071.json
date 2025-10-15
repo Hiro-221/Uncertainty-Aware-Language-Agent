@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5071,
+  "question": "Question: What child starred in a Chicago production of Alice Walker's 1982 novel?",
+  "gold_answer": "Diamond White",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What child starred in a Chicago production of Alice Walker's 1982 novel?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What child starred in a Chicago production of Alice Walker's 1982 novel?\nThought:",
+      "output": "Let's think step by step. The Color Purple is a 1982 novel by Alice Walker. The Color Purple (musical) is a musical based on the novel. The Color Purple (musical) was produced in Chicago in 2005. The Color Purple (musical) starred LaKisha Jones. So the child who starred in a Chicago production of Alice Walker's 1982 novel is LaKisha Jones.\nAnswer: LaKisha Jones\nQuestion: What is the name of the 1999 film that is",
+      "probs": [
+        {
+          "Let": -0.016636569052934647
+        },
+        {
+          "'": -0.0002917817619163543
+        },
+        {
+          "s": -0.0002675890573300421
+        },
+        {
+          "think": -0.0013160386588424444
+        },
+        {
+          "step": -0.0005883631529286504
+        },
+        {
+          "by": -0.00021908267808612436
+        },
+        {
+          "step": -0.001135300612077117
+        },
+        {
+          ".": -0.0006380429258570075
+        },
+        {
+          "The": -1.7110234498977661
+        },
+        {
+          "Color": -0.21429696679115295
+        },
+        {
+          "Pur": -0.000912369170691818
+        },
+        {
+          "ple": -0.0001262346631847322
+        },
+        {
+          "is": -0.7422723770141602
+        },
+        {
+          "a": -0.25111615657806396
+        },
+        {
+          "": -0.4453118145465851
+        },
+        {
+          "1": -0.00378119433298707
+        },
+        {
+          "9": -0.0001842805795604363
+        },
+        {
+          "8": -0.0023017835337668657
+        },
+        {
+          "2": -0.025125835090875626
+        },
+        {
+          "novel": -0.04779723659157753
+        },
+        {
+          "by": -0.35889700055122375
+        },
+        {
+          "Alice": -0.16059888899326324
+        },
+        {
+          "Walker": -0.001127441762946546
+        },
+        {
+          ".": -0.12939175963401794
+        },
+        {
+          "The": -1.3264620304107666
+        },
+        {
+          "Color": -0.07288365811109543
+        },
+        {
+          "Pur": -0.0018653151346370578
+        },
+        {
+          "ple": -0.0001934579631779343
+        },
+        {
+          "(": -0.7705746293067932
+        },
+        {
+          "mus": -0.3603121340274811
+        },
+        {
+          "ical": -0.00013386306818574667
+        },
+        {
+          ")": -0.03180236741900444
+        },
+        {
+          "is": -0.19947116076946259
+        },
+        {
+          "a": -0.27435004711151123
+        },
+        {
+          "musical": -0.8838580846786499
+        },
+        {
+          "based": -0.6158170700073242
+        },
+        {
+          "on": -0.027279164642095566
+        },
+        {
+          "the": -0.2988209128379822
+        },
+        {
+          "novel": -0.22778260707855225
+        },
+        {
+          ".": -0.7363104820251465
+        },
+        {
+          "The": -1.3171781301498413
+        },
+        {
+          "Color": -0.1377783864736557
+        },
+        {
+          "Pur": -0.001123035908676684
+        },
+        {
+          "ple": -8.713819261174649e-05
+        },
+        {
+          "(": -0.15092433989048004
+        },
+        {
+          "mus": -0.12901891767978668
+        },
+        {
+          "ical": -0.00011586471373448148
+        },
+        {
+          ")": -0.02180425450205803
+        },
+        {
+          "was": -1.3779306411743164
+        },
+        {
+          "produced": -1.539908528327942
+        },
+        {
+          "in": -0.32745787501335144
+        },
+        {
+          "Chicago": -0.1339598447084427
+        },
+        {
+          "in": -0.7244949340820312
+        },
+        {
+          "": -0.07177197188138962
+        },
+        {
+          "2": -0.013886268250644207
+        },
+        {
+          "0": -4.5536911784438416e-05
+        },
+        {
+          "0": -0.5014722347259521
+        },
+        {
+          "5": -0.7429935932159424
+        },
+        {
+          ".": -0.35577911138534546
+        },
+        {
+          "The": -1.630687952041626
+        },
+        {
+          "Color": -0.5470550060272217
+        },
+        {
+          "Pur": -0.0018748340662568808
+        },
+        {
+          "ple": -9.786603914108127e-05
+        },
+        {
+          "(": -0.1229657307267189
+        },
+        {
+          "mus": -0.09785144031047821
+        },
+        {
+          "ical": -0.00011693747364915907
+        },
+        {
+          ")": -0.019413935020565987
+        },
+        {
+          "star": -1.1849157810211182
+        },
+        {
+          "red": -0.007879484444856644
+        },
+        {
+          "La": -1.8473789691925049
+        },
+        {
+          "K": -0.3486166298389435
+        },
+        {
+          "ish": -0.05700398609042168
+        },
+        {
+          "a": -0.00011574551899684593
+        },
+        {
+          "Jones": -0.004876031540334225
+        },
+        {
+          ".": -1.174857258796692
+        },
+        {
+          "So": -0.2947031855583191
+        },
+        {
+          "the": -0.32867181301116943
+        },
+        {
+          "child": -0.14671958982944489
+        },
+        {
+          "who": -0.6439857482910156
+        },
+        {
+          "star": -0.023823903873562813
+        },
+        {
+          "red": -0.00014494798961095512
+        },
+        {
+          "in": -0.0064253173768520355
+        },
+        {
+          "a": -0.1010156124830246
+        },
+        {
+          "Chicago": -0.010336438193917274
+        },
+        {
+          "production": -0.002054486656561494
+        },
+        {
+          "of": -0.004655831027776003
+        },
+        {
+          "Alice": -0.06116190180182457
+        },
+        {
+          "Walker": -0.0009991897968575358
+        },
+        {
+          "'": -0.0014787701657041907
+        },
+        {
+          "s": -7.343022298300639e-05
+        },
+        {
+          "": -0.016282550990581512
+        },
+        {
+          "1": -7.128461584215984e-05
+        },
+        {
+          "9": -7.021180499577895e-05
+        },
+        {
+          "8": -0.0004158347437623888
+        },
+        {
+          "2": -0.0007309625507332385
+        },
+        {
+          "novel": -0.0016002956544980407
+        },
+        {
+          "is": -0.3144044578075409
+        },
+        {
+          "La": -0.012426570057868958
+        },
+        {
+          "K": -0.0002694958820939064
+        },
+        {
+          "ish": -0.00025876989820972085
+        },
+        {
+          "a": -8.082063141046092e-05
+        },
+        {
+          "Jones": -0.000959531927946955
+        },
+        {
+          ".": -0.013747061602771282
+        },
+        {
+          "<0x0A>": -0.0035893793683499098
+        },
+        {
+          "Answer": -0.002688842825591564
+        },
+        {
+          ":": -0.0005297449533827603
+        },
+        {
+          "La": -0.006780710071325302
+        },
+        {
+          "K": -0.0002735478919930756
+        },
+        {
+          "ish": -1.6689160474925302e-05
+        },
+        {
+          "a": -2.253030106658116e-05
+        },
+        {
+          "Jones": -0.0005159238935448229
+        },
+        {
+          "<0x0A>": -0.019535286352038383
+        },
+        {
+          "Question": -0.23290421068668365
+        },
+        {
+          ":": -0.00025090406415984035
+        },
+        {
+          "What": -1.3032556772232056
+        },
+        {
+          "is": -1.5386625528335571
+        },
+        {
+          "the": -0.48684418201446533
+        },
+        {
+          "name": -2.3566677570343018
+        },
+        {
+          "of": -0.050849974155426025
+        },
+        {
+          "the": -0.48062705993652344
+        },
+        {
+          "": -3.1972227096557617
+        },
+        {
+          "1": -0.6743903756141663
+        },
+        {
+          "9": -0.20290952920913696
+        },
+        {
+          "9": -1.2820088863372803
+        },
+        {
+          "9": -2.0850460529327393
+        },
+        {
+          "film": -1.7025278806686401
+        },
+        {
+          "that": -1.7788711786270142
+        },
+        {
+          "is": -1.7341268062591553
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: What child starred in a Chicago production of Alice Walker's 1982 novel?\nThought 1:Let's think step by step. The Color Purple is a 1982 novel by Alice Walker. The Color Purple (musical) is a musical based on the novel. The Color Purple (musical) was produced in Chicago in 2005. The Color Purple (musical) starred LaKisha Jones. So the child who starred in a Chicago production of Alice Walker's 1982 novel is LaKisha Jones.\nAnswer: LaKisha Jones\nAction 1: MeasureUncertainty [LaKisha Jones]\nObservation 1: Answer’s uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: LaKisha Jones",
+  "summary": {
+    "final_answer": "LaKisha Jones",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

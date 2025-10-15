@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 433,
+  "question": "Question: Which band has more members, Test Icicles or X Ambassadors?",
+  "gold_answer": "X Ambassadors",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which band has more members, Test Icicles or X Ambassadors?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which band has more members, Test Icicles or X Ambassadors?\nThought:",
+      "output": "Let's think step by step. Test Icicles has 3 members. X Ambassadors has 4 members. 3 (Test Icicles) < 4 (X Ambassadors), so X Ambassadors has more members.\nAnswer: X Ambassadors\nQuestion: Which of the following is a type of apartment?\nThought: Let's think step by step. Apartment is a type of apartment.\nAnswer: Apartment\nQuestion: Which of the following is a type of apartment?\nThought: Let's think step by step. Apartment is",
+      "probs": [
+        {
+          "Let": -0.006542690098285675
+        },
+        {
+          "'": -0.00046993177966214716
+        },
+        {
+          "s": -5.245071224635467e-05
+        },
+        {
+          "think": -0.0008849757141433656
+        },
+        {
+          "step": -0.00027891082572750747
+        },
+        {
+          "by": -0.00014172980445437133
+        },
+        {
+          "step": -0.0013777059502899647
+        },
+        {
+          ".": -0.0004854215949308127
+        },
+        {
+          "Test": -0.6125127077102661
+        },
+        {
+          "I": -0.0018266435945406556
+        },
+        {
+          "c": -0.0006258912617340684
+        },
+        {
+          "icles": -0.0029681934975087643
+        },
+        {
+          "has": -0.30977964401245117
+        },
+        {
+          "": -0.32071641087532043
+        },
+        {
+          "3": -0.18680769205093384
+        },
+        {
+          "members": -0.03339330852031708
+        },
+        {
+          ".": -0.15450647473335266
+        },
+        {
+          "X": -0.017543848603963852
+        },
+        {
+          "Amb": -0.00209469604305923
+        },
+        {
+          "ass": -0.0013815154088661075
+        },
+        {
+          "adors": -0.00044824567157775164
+        },
+        {
+          "has": -0.038310833275318146
+        },
+        {
+          "": -0.011918405070900917
+        },
+        {
+          "4": -0.28144219517707825
+        },
+        {
+          "members": -0.01492030918598175
+        },
+        {
+          ".": -0.01934576965868473
+        },
+        {
+          "": -0.21896547079086304
+        },
+        {
+          "3": -0.14910796284675598
+        },
+        {
+          "(": -0.20185767114162445
+        },
+        {
+          "Test": -0.01818215288221836
+        },
+        {
+          "I": -0.0011843579122796655
+        },
+        {
+          "c": -0.0006084974738769233
+        },
+        {
+          "icles": -0.0012742503313347697
+        },
+        {
+          ")": -0.005910893436521292
+        },
+        {
+          "<": -0.012563606724143028
+        },
+        {
+          "": -0.0012672259472310543
+        },
+        {
+          "4": -0.0010811204556375742
+        },
+        {
+          "(": -0.0038395035080611706
+        },
+        {
+          "X": -0.0016595651395618916
+        },
+        {
+          "Amb": -0.00114292127545923
+        },
+        {
+          "ass": -0.001189477858133614
+        },
+        {
+          "adors": -0.0004017737810499966
+        },
+        {
+          "),": -0.05007482320070267
+        },
+        {
+          "so": -0.008646194823086262
+        },
+        {
+          "X": -0.10772508382797241
+        },
+        {
+          "Amb": -0.0028423171024769545
+        },
+        {
+          "ass": -0.0008391196606680751
+        },
+        {
+          "adors": -0.0005841932725161314
+        },
+        {
+          "has": -0.03921930119395256
+        },
+        {
+          "more": -0.004506669472903013
+        },
+        {
+          "members": -0.006135675590485334
+        },
+        {
+          ".": -0.09700370579957962
+        },
+        {
+          "<0x0A>": -0.002833758248016238
+        },
+        {
+          "Answer": -0.0017885654233396053
+        },
+        {
+          ":": -0.00044943721150048077
+        },
+        {
+          "X": -0.008308961987495422
+        },
+        {
+          "Amb": -0.0007415643776766956
+        },
+        {
+          "ass": -2.9205850296420977e-05
+        },
+        {
+          "adors": -0.00010561384988250211
+        },
+        {
+          "<0x0A>": -0.022221500054001808
+        },
+        {
+          "Question": -0.1815376877784729
+        },
+        {
+          ":": -0.00027771908207796514
+        },
+        {
+          "Which": -1.1909033060073853
+        },
+        {
+          "of": -2.2408251762390137
+        },
+        {
+          "the": -0.8303816914558411
+        },
+        {
+          "following": -0.1510900855064392
+        },
+        {
+          "is": -1.2290250062942505
+        },
+        {
+          "a": -1.4975862503051758
+        },
+        {
+          "type": -3.892385482788086
+        },
+        {
+          "of": -0.012170694768428802
+        },
+        {
+          "a": -4.771234512329102
+        },
+        {
+          "partment": -3.147362232208252
+        },
+        {
+          "?": -1.1463412046432495
+        },
+        {
+          "<0x0A>": -1.1076607704162598
+        },
+        {
+          "Th": -0.09496042132377625
+        },
+        {
+          "ought": -0.0002774807217065245
+        },
+        {
+          ":": -0.0006400682032108307
+        },
+        {
+          "Let": -0.04349344223737717
+        },
+        {
+          "'": -0.0009815642843022943
+        },
+        {
+          "s": -4.5536911784438416e-05
+        },
+        {
+          "think": -0.003979027736932039
+        },
+        {
+          "step": -0.002008922165259719
+        },
+        {
+          "by": -0.00033623288618400693
+        },
+        {
+          "step": -9.059865078597795e-06
+        },
+        {
+          ".": -0.0012332937913015485
+        },
+        {
+          "A": -1.2387040853500366
+        },
+        {
+          "partment": -0.799788236618042
+        },
+        {
+          "is": -0.41270211338996887
+        },
+        {
+          "a": -0.13845640420913696
+        },
+        {
+          "type": -0.5512575507164001
+        },
+        {
+          "of": -0.007846604101359844
+        },
+        {
+          "a": -2.061673879623413
+        },
+        {
+          "partment": -0.03819460794329643
+        },
+        {
+          ".": -0.15531961619853973
+        },
+        {
+          "<0x0A>": -1.7622369527816772
+        },
+        {
+          "Answer": -0.02330787293612957
+        },
+        {
+          ":": -0.0004829194222111255
+        },
+        {
+          "A": -0.5453170537948608
+        },
+        {
+          "partment": -0.005821653641760349
+        },
+        {
+          "<0x0A>": -0.02080148085951805
+        },
+        {
+          "Question": -0.160503551363945
+        },
+        {
+          ":": -0.00031585473334416747
+        },
+        {
+          "Which": -0.9984407424926758
+        },
+        {
+          "of": -0.8868506550788879
+        },
+        {
+          "the": -0.07135958224534988
+        },
+        {
+          "following": -0.009877258911728859
+        },
+        {
+          "is": -0.31077200174331665
+        },
+        {
+          "a": -0.2942952513694763
+        },
+        {
+          "type": -0.4539603590965271
+        },
+        {
+          "of": -0.0012438902631402016
+        },
+        {
+          "a": -1.321083426475525
+        },
+        {
+          "partment": -0.006698534358292818
+        },
+        {
+          "?": -0.02040093019604683
+        },
+        {
+          "<0x0A>": -0.015125344507396221
+        },
+        {
+          "Th": -0.0049384282901883125
+        },
+        {
+          "ought": -5.2927523938706145e-05
+        },
+        {
+          ":": -4.2914423829643056e-05
+        },
+        {
+          "Let": -0.0025357017293572426
+        },
+        {
+          "'": -0.0003256267518736422
+        },
+        {
+          "s": -1.0251946150674485e-05
+        },
+        {
+          "think": -0.00023958197562023997
+        },
+        {
+          "step": -0.00013314791431184858
+        },
+        {
+          "by": -6.151010165922344e-05
+        },
+        {
+          "step": -1.156323378381785e-05
+        },
+        {
+          ".": -0.00013851160474587232
+        },
+        {
+          "A": -1.458574891090393
+        },
+        {
+          "partment": -0.2182943969964981
+        },
+        {
+          "is": -0.17734885215759277
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which band has more members, Test Icicles or X Ambassadors?\nThought 1:Let's think step by step. Test Icicles has 3 members. X Ambassadors has 4 members. 3 (Test Icicles) < 4 (X Ambassadors), so X Ambassadors has more members.\nAnswer: X Ambassadors\nAction 1: MeasureUncertainty [X Ambassadors]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: X Ambassadors",
+  "summary": {
+    "final_answer": "X Ambassadors",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

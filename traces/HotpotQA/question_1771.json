@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1771,
+  "question": "Question: Are the bands \"Black Grape\" and \"Balance and Composure\" from the same country?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are the bands \"Black Grape\" and \"Balance and Composure\" from the same country?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are the bands \"Black Grape\" and \"Balance and Composure\" from the same country?\nThought:",
+      "output": "Let's think step by step. Black Grape is from England. Balance and Composure is from the United States. So Black Grape and Balance and Composure are not from the same country.\nAnswer: No\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a 1960 film. Ocean's Eleven is a 2001 film. So the 199",
+      "probs": [
+        {
+          "Let": -0.007233146578073502
+        },
+        {
+          "'": -0.00046206763363443315
+        },
+        {
+          "s": -5.030505417380482e-05
+        },
+        {
+          "think": -0.0006262486567720771
+        },
+        {
+          "step": -0.0004634975048247725
+        },
+        {
+          "by": -0.0003695997002068907
+        },
+        {
+          "step": -0.0001787979417713359
+        },
+        {
+          ".": -0.000717025191988796
+        },
+        {
+          "Black": -0.3408814072608948
+        },
+        {
+          "Gra": -0.003162028733640909
+        },
+        {
+          "pe": -7.056941103655845e-05
+        },
+        {
+          "is": -0.19141218066215515
+        },
+        {
+          "from": -0.5624159574508667
+        },
+        {
+          "England": -0.8515135049819946
+        },
+        {
+          ".": -0.32179778814315796
+        },
+        {
+          "Bal": -0.020155848935246468
+        },
+        {
+          "ance": -0.00039081089198589325
+        },
+        {
+          "and": -0.0031175841577351093
+        },
+        {
+          "Compos": -0.003483182517811656
+        },
+        {
+          "ure": -8.797258487902582e-05
+        },
+        {
+          "is": -0.06054462119936943
+        },
+        {
+          "from": -0.014982552267611027
+        },
+        {
+          "the": -0.7765643000602722
+        },
+        {
+          "United": -0.22176587581634521
+        },
+        {
+          "States": -0.005245493724942207
+        },
+        {
+          ".": -0.09873560070991516
+        },
+        {
+          "So": -0.5786817073822021
+        },
+        {
+          "Black": -0.7166202068328857
+        },
+        {
+          "Gra": -0.0014350840356200933
+        },
+        {
+          "pe": -1.585470999998506e-05
+        },
+        {
+          "and": -0.006053328514099121
+        },
+        {
+          "Bal": -0.0041035739704966545
+        },
+        {
+          "ance": -0.000491855782456696
+        },
+        {
+          "and": -0.0023192670196294785
+        },
+        {
+          "Compos": -0.0012819890398532152
+        },
+        {
+          "ure": -0.00022837892174720764
+        },
+        {
+          "are": -0.04371381178498268
+        },
+        {
+          "not": -0.6081634759902954
+        },
+        {
+          "from": -0.009223825298249722
+        },
+        {
+          "the": -0.004647880792617798
+        },
+        {
+          "same": -0.0004413345886860043
+        },
+        {
+          "country": -0.0036272702272981405
+        },
+        {
+          ".": -0.00810902751982212
+        },
+        {
+          "<0x0A>": -0.003989357966929674
+        },
+        {
+          "Answer": -0.0012873465893790126
+        },
+        {
+          ":": -0.0003393312799744308
+        },
+        {
+          "No": -0.019180774688720703
+        },
+        {
+          "<0x0A>": -0.019457660615444183
+        },
+        {
+          "Question": -0.26464053988456726
+        },
+        {
+          ":": -0.00033504117163829505
+        },
+        {
+          "What": -1.676263689994812
+        },
+        {
+          "is": -1.2030845880508423
+        },
+        {
+          "the": -0.3528084456920624
+        },
+        {
+          "name": -2.832731008529663
+        },
+        {
+          "of": -0.0485902801156044
+        },
+        {
+          "the": -0.4140029549598694
+        },
+        {
+          "": -3.523239850997925
+        },
+        {
+          "1": -0.6703758835792542
+        },
+        {
+          "9": -0.1721542775630951
+        },
+        {
+          "9": -1.3679864406585693
+        },
+        {
+          "9": -2.1010327339172363
+        },
+        {
+          "film": -1.515567421913147
+        },
+        {
+          "that": -1.760401725769043
+        },
+        {
+          "is": -1.9622963666915894
+        },
+        {
+          "a": -1.4938089847564697
+        },
+        {
+          "re": -1.1102455854415894
+        },
+        {
+          "make": -0.027107352390885353
+        },
+        {
+          "of": -0.018682466819882393
+        },
+        {
+          "the": -0.7470251321792603
+        },
+        {
+          "": -0.2646763324737549
+        },
+        {
+          "1": -0.01569114811718464
+        },
+        {
+          "9": -0.0025078770704567432
+        },
+        {
+          "6": -1.3506535291671753
+        },
+        {
+          "0": -1.9286762475967407
+        },
+        {
+          "film": -0.39291009306907654
+        },
+        {
+          "Ocean": -1.4602775573730469
+        },
+        {
+          "'": -0.011881769634783268
+        },
+        {
+          "s": -0.00016449528629891574
+        },
+        {
+          "": -0.4693090319633484
+        },
+        {
+          "1": -0.0002890407631639391
+        },
+        {
+          "1": -0.000589792791288346
+        },
+        {
+          "?": -0.24447153508663177
+        },
+        {
+          "<0x0A>": -0.006739149335771799
+        },
+        {
+          "Th": -0.009121769107878208
+        },
+        {
+          "ought": -7.533743337262422e-05
+        },
+        {
+          ":": -0.00024089295766316354
+        },
+        {
+          "Let": -0.0160088911652565
+        },
+        {
+          "'": -0.0005069877952337265
+        },
+        {
+          "s": -1.9073304429184645e-05
+        },
+        {
+          "think": -0.0010377742582932115
+        },
+        {
+          "step": -0.0006398299592547119
+        },
+        {
+          "by": -0.0003090619284193963
+        },
+        {
+          "step": -2.098061486321967e-05
+        },
+        {
+          ".": -0.0005611990345641971
+        },
+        {
+          "Ocean": -0.5808121562004089
+        },
+        {
+          "'": -0.008022111840546131
+        },
+        {
+          "s": -0.00024005869636312127
+        },
+        {
+          "Ele": -0.47325634956359863
+        },
+        {
+          "ven": -3.349725011503324e-05
+        },
+        {
+          "is": -0.3835400938987732
+        },
+        {
+          "a": -0.30849239230155945
+        },
+        {
+          "": -0.6915115118026733
+        },
+        {
+          "1": -0.2591226398944855
+        },
+        {
+          "9": -0.00021407696476671845
+        },
+        {
+          "6": -0.18905989825725555
+        },
+        {
+          "0": -0.0007675323868170381
+        },
+        {
+          "film": -0.22254857420921326
+        },
+        {
+          ".": -0.32521507143974304
+        },
+        {
+          "Ocean": -0.14650875329971313
+        },
+        {
+          "'": -0.0045387111604213715
+        },
+        {
+          "s": -0.00017295771976932883
+        },
+        {
+          "Ele": -0.07709043473005295
+        },
+        {
+          "ven": -2.4914430468925275e-05
+        },
+        {
+          "is": -0.16871961951255798
+        },
+        {
+          "a": -0.12702159583568573
+        },
+        {
+          "": -0.26432108879089355
+        },
+        {
+          "2": -0.36729511618614197
+        },
+        {
+          "0": -5.090107151772827e-05
+        },
+        {
+          "0": -0.0015955348499119282
+        },
+        {
+          "1": -0.0038134963251650333
+        },
+        {
+          "film": -0.14730773866176605
+        },
+        {
+          ".": -0.23598410189151764
+        },
+        {
+          "So": -0.797875165939331
+        },
+        {
+          "the": -0.45339980721473694
+        },
+        {
+          "": -0.6229543685913086
+        },
+        {
+          "1": -0.04243564233183861
+        },
+        {
+          "9": -8.248942322097719e-05
+        },
+        {
+          "9": -0.0076905833557248116
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are the bands \"Black Grape\" and \"Balance and Composure\" from the same country?\nThought 1:Let's think step by step. Black Grape is from England. Balance and Composure is from the United States. So Black Grape and Balance and Composure are not from the same country.\nAnswer: No\nAction 1: MeasureUncertainty [No]\nObservation 1: Answer’s uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: No",
+  "summary": {
+    "final_answer": "No",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

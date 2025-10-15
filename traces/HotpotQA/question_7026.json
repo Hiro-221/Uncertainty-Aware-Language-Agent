@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7026,
+  "question": "Question: Which peak is flanked by Manaslu, Shispare or Ngadi Chuli?",
+  "gold_answer": "Ngadi Chuli",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which peak is flanked by Manaslu, Shispare or Ngadi Chuli?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which peak is flanked by Manaslu, Shispare or Ngadi Chuli?\nThought:",
+      "output": "Let's think step by step. Manaslu is flanked by Ngadi Chuli. So the peak flanked by Manaslu is Ngadi Chuli.\nAnswer: Ngadi Chuli\nQuestion: Which of these is a 1990s film?\nThought: Let's think step by step. 1990s films are The 13th Warrior, The 13th Warrior, The 13th Warrior, The 13th Warrior, The 13th Warrior, The 13th Warrior,",
+      "probs": [
+        {
+          "Let": -0.010704596526920795
+        },
+        {
+          "'": -0.00044312194222584367
+        },
+        {
+          "s": -6.41325386823155e-05
+        },
+        {
+          "think": -0.001050516264513135
+        },
+        {
+          "step": -0.0006199345225468278
+        },
+        {
+          "by": -0.00038425691309385
+        },
+        {
+          "step": -0.0001928620331455022
+        },
+        {
+          ".": -0.0005274811992421746
+        },
+        {
+          "Man": -0.591966450214386
+        },
+        {
+          "as": -0.0026381947100162506
+        },
+        {
+          "lu": -0.003091320628300309
+        },
+        {
+          "is": -0.13582348823547363
+        },
+        {
+          "fl": -0.15291525423526764
+        },
+        {
+          "ank": -0.0003121604095213115
+        },
+        {
+          "ed": -0.0008229206432588398
+        },
+        {
+          "by": -0.0062124477699398994
+        },
+        {
+          "Ng": -0.8917670249938965
+        },
+        {
+          "adi": -0.0032976078800857067
+        },
+        {
+          "Ch": -0.00283946399576962
+        },
+        {
+          "uli": -0.002096361480653286
+        },
+        {
+          ".": -0.5855876207351685
+        },
+        {
+          "So": -0.8903765678405762
+        },
+        {
+          "the": -0.890353798866272
+        },
+        {
+          "peak": -0.6151080131530762
+        },
+        {
+          "fl": -0.3616568148136139
+        },
+        {
+          "ank": -0.00045253525604493916
+        },
+        {
+          "ed": -0.0008180370787158608
+        },
+        {
+          "by": -0.0020525832660496235
+        },
+        {
+          "Man": -0.3873794972896576
+        },
+        {
+          "as": -0.0004773192631546408
+        },
+        {
+          "lu": -0.00029583368450403214
+        },
+        {
+          "is": -0.3845294713973999
+        },
+        {
+          "Ng": -0.04601152241230011
+        },
+        {
+          "adi": -0.0016906267264857888
+        },
+        {
+          "Ch": -0.0005184260080568492
+        },
+        {
+          "uli": -0.0007768235518597066
+        },
+        {
+          ".": -0.03879326581954956
+        },
+        {
+          "<0x0A>": -0.006554296240210533
+        },
+        {
+          "Answer": -0.0018228357657790184
+        },
+        {
+          ":": -0.0003163314249832183
+        },
+        {
+          "Ng": -0.010383865796029568
+        },
+        {
+          "adi": -0.0021738011855632067
+        },
+        {
+          "Ch": -0.0005265279905870557
+        },
+        {
+          "uli": -0.0001954841281985864
+        },
+        {
+          "<0x0A>": -0.015960438176989555
+        },
+        {
+          "Question": -0.17279887199401855
+        },
+        {
+          ":": -0.00023934361524879932
+        },
+        {
+          "Which": -1.2468080520629883
+        },
+        {
+          "of": -2.074017286300659
+        },
+        {
+          "these": -0.8073785901069641
+        },
+        {
+          "is": -1.3650028705596924
+        },
+        {
+          "a": -1.1165398359298706
+        },
+        {
+          "": -3.7291269302368164
+        },
+        {
+          "1": -0.7459011673927307
+        },
+        {
+          "9": -0.1058257669210434
+        },
+        {
+          "9": -1.3988099098205566
+        },
+        {
+          "0": -1.8235821723937988
+        },
+        {
+          "s": -0.6143210530281067
+        },
+        {
+          "film": -1.9666507244110107
+        },
+        {
+          "?": -1.4653398990631104
+        },
+        {
+          "<0x0A>": -1.4255932569503784
+        },
+        {
+          "Th": -0.018686093389987946
+        },
+        {
+          "ought": -6.401333666872233e-05
+        },
+        {
+          ":": -0.00023016665363684297
+        },
+        {
+          "Let": -0.021615050733089447
+        },
+        {
+          "'": -0.0004362108593340963
+        },
+        {
+          "s": -4.446407547220588e-05
+        },
+        {
+          "think": -0.002214838284999132
+        },
+        {
+          "step": -0.0011975744273513556
+        },
+        {
+          "by": -0.00025054652360267937
+        },
+        {
+          "step": -4.589452510117553e-05
+        },
+        {
+          ".": -0.0008148210472427309
+        },
+        {
+          "": -1.8625068664550781
+        },
+        {
+          "1": -0.20439143478870392
+        },
+        {
+          "9": -0.06553998589515686
+        },
+        {
+          "9": -0.14337757229804993
+        },
+        {
+          "0": -0.27131590247154236
+        },
+        {
+          "s": -0.08538144081830978
+        },
+        {
+          "films": -0.6943066716194153
+        },
+        {
+          "are": -0.21056602895259857
+        },
+        {
+          "The": -2.4159414768218994
+        },
+        {
+          "": -3.6516623497009277
+        },
+        {
+          "1": -0.7063816785812378
+        },
+        {
+          "3": -0.4858540892601013
+        },
+        {
+          "th": -0.03937586396932602
+        },
+        {
+          "War": -0.17742103338241577
+        },
+        {
+          "rior": -0.0001394651480950415
+        },
+        {
+          ",": -0.34900233149528503
+        },
+        {
+          "The": -1.5429646968841553
+        },
+        {
+          "": -1.045202612876892
+        },
+        {
+          "1": -0.8686350584030151
+        },
+        {
+          "3": -0.6161160469055176
+        },
+        {
+          "th": -0.04982931166887283
+        },
+        {
+          "War": -0.6081640124320984
+        },
+        {
+          "rior": -0.0025637636426836252
+        },
+        {
+          ",": -0.17874908447265625
+        },
+        {
+          "The": -0.9072182178497314
+        },
+        {
+          "": -0.09468752145767212
+        },
+        {
+          "1": -0.16240011155605316
+        },
+        {
+          "3": -0.049704886972904205
+        },
+        {
+          "th": -0.005288658197969198
+        },
+        {
+          "War": -0.027872567996382713
+        },
+        {
+          "rior": -0.0007795632118359208
+        },
+        {
+          ",": -0.23276782035827637
+        },
+        {
+          "The": -0.5148698091506958
+        },
+        {
+          "": -0.03382084518671036
+        },
+        {
+          "1": -0.04284996539354324
+        },
+        {
+          "3": -0.014246541075408459
+        },
+        {
+          "th": -0.0008182753226719797
+        },
+        {
+          "War": -0.003627151483669877
+        },
+        {
+          "rior": -5.566918844124302e-05
+        },
+        {
+          ",": -0.11619199812412262
+        },
+        {
+          "The": -0.30290934443473816
+        },
+        {
+          "": -0.016795068979263306
+        },
+        {
+          "1": -0.009050535969436169
+        },
+        {
+          "3": -0.0028643079567700624
+        },
+        {
+          "th": -0.0007400158210657537
+        },
+        {
+          "War": -0.0006903410539962351
+        },
+        {
+          "rior": -0.00036399890086613595
+        },
+        {
+          ",": -0.1001795157790184
+        },
+        {
+          "The": -0.23434236645698547
+        },
+        {
+          "": -0.01002066396176815
+        },
+        {
+          "1": -0.004511891398578882
+        },
+        {
+          "3": -0.00334596517495811
+        },
+        {
+          "th": -0.0009965697536244988
+        },
+        {
+          "War": -0.0006169561529532075
+        },
+        {
+          "rior": -0.00010585224663373083
+        },
+        {
+          ",": -0.08318492770195007
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which peak is flanked by Manaslu, Shispare or Ngadi Chuli?\nThought 1:Let's think step by step. Manaslu is flanked by Ngadi Chuli. So the peak flanked by Manaslu is Ngadi Chuli.\nAnswer: Ngadi Chuli\nAction 1: MeasureUncertainty [Ngadi Chuli]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Ngadi Chuli",
+  "summary": {
+    "final_answer": "Ngadi Chuli",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6986,
+  "question": "Question: While at the University of Michigan, Louis Smith played with what American jazz trumpeter, bandleader, and composer?",
+  "gold_answer": "Miles Dewey Davis III",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: While at the University of Michigan, Louis Smith played with what American jazz trumpeter, bandleader, and composer?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: While at the University of Michigan, Louis Smith played with what American jazz trumpeter, bandleader, and composer?\nThought:",
+      "output": "Let's think step by step. Louis Smith played with Thad Jones. Thad Jones is an American jazz trumpeter, bandleader, and composer. So the answer is Thad Jones.\nAnswer: Thad Jones\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of the same name is The Thomas Crown Affair.\nAnswer: The",
+      "probs": [
+        {
+          "Let": -0.015082838013768196
+        },
+        {
+          "'": -0.0010000233305618167
+        },
+        {
+          "s": -8.189342770492658e-05
+        },
+        {
+          "think": -0.0010508735431358218
+        },
+        {
+          "step": -0.0005179494037292898
+        },
+        {
+          "by": -0.00020168177434243262
+        },
+        {
+          "step": -0.00014435203047469258
+        },
+        {
+          ".": -0.0005311747081577778
+        },
+        {
+          "Louis": -0.5723944902420044
+        },
+        {
+          "Smith": -0.009639974683523178
+        },
+        {
+          "played": -0.48308461904525757
+        },
+        {
+          "with": -0.08777811378240585
+        },
+        {
+          "Th": -1.4628002643585205
+        },
+        {
+          "ad": -0.0005498804384842515
+        },
+        {
+          "Jones": -0.005079816095530987
+        },
+        {
+          ".": -1.1272356510162354
+        },
+        {
+          "Th": -0.7023249268531799
+        },
+        {
+          "ad": -0.00029213930247351527
+        },
+        {
+          "Jones": -0.006177498027682304
+        },
+        {
+          "is": -0.3202393352985382
+        },
+        {
+          "an": -0.16390185058116913
+        },
+        {
+          "American": -0.0049429358914494514
+        },
+        {
+          "jazz": -0.02001727931201458
+        },
+        {
+          "tr": -0.0030414059292525053
+        },
+        {
+          "ump": -0.0004624251159839332
+        },
+        {
+          "eter": -0.004121382255107164
+        },
+        {
+          ",": -0.02494167722761631
+        },
+        {
+          "band": -0.047303780913352966
+        },
+        {
+          "le": -0.007276580203324556
+        },
+        {
+          "ader": -2.47952248173533e-05
+        },
+        {
+          ",": -0.016901150345802307
+        },
+        {
+          "and": -0.009630530141294003
+        },
+        {
+          "composer": -0.004038512706756592
+        },
+        {
+          ".": -0.3030160367488861
+        },
+        {
+          "So": -0.632064700126648
+        },
+        {
+          "the": -0.8246414661407471
+        },
+        {
+          "answer": -0.7519031167030334
+        },
+        {
+          "is": -0.03579074144363403
+        },
+        {
+          "Th": -0.009259968064725399
+        },
+        {
+          "ad": -0.00021765247220173478
+        },
+        {
+          "Jones": -0.0004732680681627244
+        },
+        {
+          ".": -0.018188124522566795
+        },
+        {
+          "<0x0A>": -0.002093982184305787
+        },
+        {
+          "Answer": -0.002075662137940526
+        },
+        {
+          ":": -0.0004262015863787383
+        },
+        {
+          "Th": -0.0021454906091094017
+        },
+        {
+          "ad": -7.819823804311454e-05
+        },
+        {
+          "Jones": -0.0003175231395289302
+        },
+        {
+          "<0x0A>": -0.0181427039206028
+        },
+        {
+          "Question": -0.18632110953330994
+        },
+        {
+          ":": -0.0003044141922146082
+        },
+        {
+          "What": -1.402541160583496
+        },
+        {
+          "is": -1.301186442375183
+        },
+        {
+          "the": -0.3932395279407501
+        },
+        {
+          "name": -2.542335271835327
+        },
+        {
+          "of": -0.049541763961315155
+        },
+        {
+          "the": -0.4605066776275635
+        },
+        {
+          "": -3.2435903549194336
+        },
+        {
+          "1": -0.6732742786407471
+        },
+        {
+          "9": -0.19144132733345032
+        },
+        {
+          "9": -1.3866323232650757
+        },
+        {
+          "9": -2.089308261871338
+        },
+        {
+          "film": -1.7096537351608276
+        },
+        {
+          "that": -1.843651294708252
+        },
+        {
+          "is": -1.9114633798599243
+        },
+        {
+          "a": -1.3728829622268677
+        },
+        {
+          "re": -1.2734568119049072
+        },
+        {
+          "make": -0.03581593185663223
+        },
+        {
+          "of": -0.016098516061902046
+        },
+        {
+          "the": -0.7253587245941162
+        },
+        {
+          "": -0.2727145254611969
+        },
+        {
+          "1": -0.011255932040512562
+        },
+        {
+          "9": -0.0023350848350673914
+        },
+        {
+          "6": -1.3384803533554077
+        },
+        {
+          "9": -1.9045277833938599
+        },
+        {
+          "film": -0.3918267786502838
+        },
+        {
+          "of": -1.2926266193389893
+        },
+        {
+          "the": -0.018832335248589516
+        },
+        {
+          "same": -0.0024705384857952595
+        },
+        {
+          "name": -0.028726741671562195
+        },
+        {
+          "?": -0.4767400622367859
+        },
+        {
+          "<0x0A>": -0.020115075632929802
+        },
+        {
+          "Th": -0.004179077688604593
+        },
+        {
+          "ought": -1.4543427823809907e-05
+        },
+        {
+          ":": -0.00016068121476564556
+        },
+        {
+          "Let": -0.010840100236237049
+        },
+        {
+          "'": -0.0001892864383989945
+        },
+        {
+          "s": -1.764281842042692e-05
+        },
+        {
+          "think": -0.000639710808172822
+        },
+        {
+          "step": -0.0007659838884137571
+        },
+        {
+          "by": -0.00016735584358684719
+        },
+        {
+          "step": -0.0034391088411211967
+        },
+        {
+          ".": -0.0003911683743353933
+        },
+        {
+          "The": -0.6588398218154907
+        },
+        {
+          "": -0.4311922788619995
+        },
+        {
+          "1": -0.012879402376711369
+        },
+        {
+          "9": -0.0003093002596870065
+        },
+        {
+          "9": -0.35968220233917236
+        },
+        {
+          "9": -0.002881305990740657
+        },
+        {
+          "film": -0.10349490493535995
+        },
+        {
+          "that": -0.7655693292617798
+        },
+        {
+          "is": -0.00649484246969223
+        },
+        {
+          "a": -0.008290164172649384
+        },
+        {
+          "re": -0.001787018496543169
+        },
+        {
+          "make": -0.00038020533975213766
+        },
+        {
+          "of": -0.003105700248852372
+        },
+        {
+          "the": -0.019757026806473732
+        },
+        {
+          "": -0.0021161085460335016
+        },
+        {
+          "1": -0.00026341783814132214
+        },
+        {
+          "9": -0.0002307625545654446
+        },
+        {
+          "6": -0.003658151952549815
+        },
+        {
+          "9": -0.0011062461417168379
+        },
+        {
+          "film": -0.004325795453041792
+        },
+        {
+          "of": -0.08097972720861435
+        },
+        {
+          "the": -0.0020123724825680256
+        },
+        {
+          "same": -0.0003992714046034962
+        },
+        {
+          "name": -0.0010457528987899423
+        },
+        {
+          "is": -0.017909130081534386
+        },
+        {
+          "The": -0.7455929517745972
+        },
+        {
+          "Thomas": -0.2591192126274109
+        },
+        {
+          "Crown": -0.000849601230584085
+        },
+        {
+          "Aff": -0.0009400001727044582
+        },
+        {
+          "air": -0.0004847066884394735
+        },
+        {
+          ".": -0.16241227090358734
+        },
+        {
+          "<0x0A>": -0.4793558716773987
+        },
+        {
+          "Answer": -0.0025563915260136127
+        },
+        {
+          ":": -0.0002924968139268458
+        },
+        {
+          "The": -0.0052992114797234535
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: While at the University of Michigan, Louis Smith played with what American jazz trumpeter, bandleader, and composer?\nThought 1:Let's think step by step. Louis Smith played with Thad Jones. Thad Jones is an American jazz trumpeter, bandleader, and composer. So the answer is Thad Jones.\nAnswer: Thad Jones\nAction 1: MeasureUncertainty [Thad Jones]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Thad Jones",
+  "summary": {
+    "final_answer": "Thad Jones",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

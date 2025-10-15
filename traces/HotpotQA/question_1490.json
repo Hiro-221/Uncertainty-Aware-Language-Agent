@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1490,
+  "question": "Question: Li Yitong made her television debut on which network?",
+  "gold_answer": "Dragon TV",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Li Yitong made her television debut on which network?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Li Yitong made her television debut on which network?\nThought:",
+      "output": "Let's think step by step. Li Yitong made her television debut on Hunan Television.\nAnswer: Hunan Television\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999 film Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999",
+      "probs": [
+        {
+          "Let": -0.018214579671621323
+        },
+        {
+          "'": -0.0008521024719811976
+        },
+        {
+          "s": -7.795983401592821e-05
+        },
+        {
+          "think": -0.0019258777610957623
+        },
+        {
+          "step": -0.0007522851810790598
+        },
+        {
+          "by": -0.0002954761730507016
+        },
+        {
+          "step": -5.8530047681415454e-05
+        },
+        {
+          ".": -0.0006312523037195206
+        },
+        {
+          "Li": -0.17444439232349396
+        },
+        {
+          "Y": -0.006458481773734093
+        },
+        {
+          "it": -0.0013087764382362366
+        },
+        {
+          "ong": -0.00041976699139922857
+        },
+        {
+          "made": -0.2226645052433014
+        },
+        {
+          "her": -0.015451600775122643
+        },
+        {
+          "television": -0.02244695834815502
+        },
+        {
+          "debut": -0.0024160738103091717
+        },
+        {
+          "on": -0.15042006969451904
+        },
+        {
+          "Hun": -1.2805640697479248
+        },
+        {
+          "an": -0.0004215544031467289
+        },
+        {
+          "Television": -0.8512396812438965
+        },
+        {
+          ".": -0.3641067445278168
+        },
+        {
+          "<0x0A>": -0.10837157815694809
+        },
+        {
+          "Answer": -0.002050560899078846
+        },
+        {
+          ":": -0.0002641328901518136
+        },
+        {
+          "Hun": -0.0076864431612193584
+        },
+        {
+          "an": -0.00021741411183029413
+        },
+        {
+          "Television": -0.006225834600627422
+        },
+        {
+          "<0x0A>": -0.023231470957398415
+        },
+        {
+          "Question": -0.16617871820926666
+        },
+        {
+          ":": -0.00037901371251791716
+        },
+        {
+          "What": -1.5265766382217407
+        },
+        {
+          "is": -1.1815813779830933
+        },
+        {
+          "the": -0.44204893708229065
+        },
+        {
+          "name": -2.6058425903320312
+        },
+        {
+          "of": -0.042339205741882324
+        },
+        {
+          "the": -0.5097842216491699
+        },
+        {
+          "": -3.327521562576294
+        },
+        {
+          "1": -0.7783738374710083
+        },
+        {
+          "9": -0.18652738630771637
+        },
+        {
+          "9": -1.295453667640686
+        },
+        {
+          "9": -2.092708110809326
+        },
+        {
+          "film": -1.566670298576355
+        },
+        {
+          "that": -1.8025943040847778
+        },
+        {
+          "was": -2.077211856842041
+        },
+        {
+          "directed": -1.324791431427002
+        },
+        {
+          "by": -0.025763504207134247
+        },
+        {
+          "John": -3.6109070777893066
+        },
+        {
+          "W": -2.390554904937744
+        },
+        {
+          "oo": -0.26743626594543457
+        },
+        {
+          "?": -0.7675471901893616
+        },
+        {
+          "<0x0A>": -0.009711756370961666
+        },
+        {
+          "Th": -0.0045839231461286545
+        },
+        {
+          "ought": -2.1457441107486375e-05
+        },
+        {
+          ":": -0.0001380348257953301
+        },
+        {
+          "Let": -0.007447692099958658
+        },
+        {
+          "'": -0.0003418338019400835
+        },
+        {
+          "s": -9.417489309271332e-06
+        },
+        {
+          "think": -0.0004764852055814117
+        },
+        {
+          "step": -0.0005781171494163573
+        },
+        {
+          "by": -0.00013422065239865333
+        },
+        {
+          "step": -2.4437606043647975e-05
+        },
+        {
+          ".": -0.000382707774406299
+        },
+        {
+          "John": -1.5307176113128662
+        },
+        {
+          "W": -0.004366625566035509
+        },
+        {
+          "oo": -0.0001486429391661659
+        },
+        {
+          "directed": -0.3679634928703308
+        },
+        {
+          "the": -1.3940093517303467
+        },
+        {
+          "": -0.29021456837654114
+        },
+        {
+          "1": -0.02066066488623619
+        },
+        {
+          "9": -0.00020811776630580425
+        },
+        {
+          "9": -0.014342552982270718
+        },
+        {
+          "9": -0.08841656893491745
+        },
+        {
+          "film": -0.05473232641816139
+        },
+        {
+          "Face": -0.9967172145843506
+        },
+        {
+          "/": -0.033111490309238434
+        },
+        {
+          "Off": -0.003082526382058859
+        },
+        {
+          ".": -0.10844998061656952
+        },
+        {
+          "<0x0A>": -0.057469043880701065
+        },
+        {
+          "Answer": -0.0012947280192747712
+        },
+        {
+          ":": -0.0003768687602132559
+        },
+        {
+          "Face": -0.004459199029952288
+        },
+        {
+          "/": -0.005420748144388199
+        },
+        {
+          "Off": -0.0025301130954176188
+        },
+        {
+          "<0x0A>": -0.03966658189892769
+        },
+        {
+          "Question": -0.21979685127735138
+        },
+        {
+          ":": -0.0002044230350293219
+        },
+        {
+          "What": -1.3294297456741333
+        },
+        {
+          "is": -0.9835124015808105
+        },
+        {
+          "the": -0.23997554183006287
+        },
+        {
+          "name": -1.0066604614257812
+        },
+        {
+          "of": -0.011365314014256
+        },
+        {
+          "the": -0.1945570856332779
+        },
+        {
+          "": -1.0704724788665771
+        },
+        {
+          "1": -0.4979455769062042
+        },
+        {
+          "9": -0.021096594631671906
+        },
+        {
+          "9": -0.4259662926197052
+        },
+        {
+          "9": -0.462581992149353
+        },
+        {
+          "film": -0.06312303990125656
+        },
+        {
+          "that": -0.04218481853604317
+        },
+        {
+          "was": -0.0742105171084404
+        },
+        {
+          "directed": -0.046395234763622284
+        },
+        {
+          "by": -0.0010080024367198348
+        },
+        {
+          "John": -0.4672096371650696
+        },
+        {
+          "W": -0.013357201591134071
+        },
+        {
+          "oo": -0.000289159914245829
+        },
+        {
+          "?": -0.03504975140094757
+        },
+        {
+          "<0x0A>": -0.007687507662922144
+        },
+        {
+          "Th": -0.03118356131017208
+        },
+        {
+          "ought": -3.576278118089249e-07
+        },
+        {
+          ":": -0.00018308870494365692
+        },
+        {
+          "Let": -0.00882924348115921
+        },
+        {
+          "'": -0.0005030558677390218
+        },
+        {
+          "s": -3.313963316031732e-05
+        },
+        {
+          "think": -0.0008895016508176923
+        },
+        {
+          "step": -0.00043930893298238516
+        },
+        {
+          "by": -0.00011455356434453279
+        },
+        {
+          "step": -7.033323527139146e-06
+        },
+        {
+          ".": -0.0004198861715849489
+        },
+        {
+          "John": -0.06089228764176369
+        },
+        {
+          "W": -0.0004805363714694977
+        },
+        {
+          "oo": -4.970903682988137e-05
+        },
+        {
+          "directed": -0.030928973108530045
+        },
+        {
+          "the": -0.01617593504488468
+        },
+        {
+          "": -0.002992677502334118
+        },
+        {
+          "1": -0.017096640542149544
+        },
+        {
+          "9": -5.8053239627042785e-05
+        },
+        {
+          "9": -0.0012148389359936118
+        },
+        {
+          "9": -0.009854949079453945
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Li Yitong made her television debut on which network?\nThought 1:Let's think step by step. Li Yitong made her television debut on Hunan Television.\nAnswer: Hunan Television\nAction 1: MeasureUncertainty [Hunan Television]\nObservation 1: Answer’s uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Hunan Television",
+  "summary": {
+    "final_answer": "Hunan Television",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

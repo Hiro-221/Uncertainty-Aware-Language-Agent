@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2382,
+  "question": "Question: In what city does a Christian minister who won the singles title with Jan Kodes in the 1970 French Open currently reside?",
+  "gold_answer": "Perth, Western Australia",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In what city does a Christian minister who won the singles title with Jan Kodes in the 1970 French Open currently reside?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In what city does a Christian minister who won the singles title with Jan Kodes in the 1970 French Open currently reside?\nThought:",
+      "output": "Let's think step by step. A Christian minister who won the singles title with Jan Kodes in the 1970 French Open is Cliff Richey. Cliff Richey currently resides in San Antonio, Texas.\nAnswer: San Antonio, Texas\nQuestion: What is the name of the 1999 film that was directed by John Woo and starred Nicolas Cage?\nThought: Let's think step by step. The 1999 film that was directed by John Woo and starred Nicolas Cage is Face/Off.\nAnswer: Face/",
+      "probs": [
+        {
+          "Let": -0.017338253557682037
+        },
+        {
+          "'": -0.0005718026659451425
+        },
+        {
+          "s": -2.777537883957848e-05
+        },
+        {
+          "think": -0.0013781820889562368
+        },
+        {
+          "step": -0.0008044582791626453
+        },
+        {
+          "by": -0.00019798702851403505
+        },
+        {
+          "step": -0.0006165986997075379
+        },
+        {
+          ".": -0.0006370898918248713
+        },
+        {
+          "A": -1.3228356838226318
+        },
+        {
+          "Christian": -0.04855882748961449
+        },
+        {
+          "minister": -0.006747201085090637
+        },
+        {
+          "who": -0.11778578907251358
+        },
+        {
+          "won": -0.005406164564192295
+        },
+        {
+          "the": -0.006331266835331917
+        },
+        {
+          "singles": -0.03509797900915146
+        },
+        {
+          "title": -0.005096657667309046
+        },
+        {
+          "with": -0.02238156460225582
+        },
+        {
+          "Jan": -0.0037100547924637794
+        },
+        {
+          "K": -0.001383896335028112
+        },
+        {
+          "odes": -0.0017572689102962613
+        },
+        {
+          "in": -0.015471789985895157
+        },
+        {
+          "the": -0.007480231113731861
+        },
+        {
+          "": -0.005883518140763044
+        },
+        {
+          "1": -8.177422569133341e-05
+        },
+        {
+          "9": -0.00010990492592100054
+        },
+        {
+          "7": -0.0004408579843584448
+        },
+        {
+          "0": -0.0008036244544200599
+        },
+        {
+          "French": -0.0008990298374556005
+        },
+        {
+          "Open": -0.0015655416063964367
+        },
+        {
+          "is": -0.21981360018253326
+        },
+        {
+          "Cl": -1.3099937438964844
+        },
+        {
+          "iff": -0.004731055814772844
+        },
+        {
+          "R": -0.6776182651519775
+        },
+        {
+          "iche": -0.002975324634462595
+        },
+        {
+          "y": -0.00010013079008786008
+        },
+        {
+          ".": -0.12205187976360321
+        },
+        {
+          "Cl": -0.3017027676105499
+        },
+        {
+          "iff": -0.0003634030872490257
+        },
+        {
+          "R": -0.008745109662413597
+        },
+        {
+          "iche": -0.0009114163694903255
+        },
+        {
+          "y": -0.00029237763374112546
+        },
+        {
+          "currently": -0.37067505717277527
+        },
+        {
+          "res": -0.02664443664252758
+        },
+        {
+          "ides": -0.04152689129114151
+        },
+        {
+          "in": -0.009997296147048473
+        },
+        {
+          "San": -1.1395817995071411
+        },
+        {
+          "Antonio": -0.3504464328289032
+        },
+        {
+          ",": -0.4548278748989105
+        },
+        {
+          "Texas": -0.3720577359199524
+        },
+        {
+          ".": -0.2292959988117218
+        },
+        {
+          "<0x0A>": -0.3066820800304413
+        },
+        {
+          "Answer": -0.0020369987469166517
+        },
+        {
+          ":": -0.0003152588615193963
+        },
+        {
+          "San": -0.005948459263890982
+        },
+        {
+          "Antonio": -0.0016468308167532086
+        },
+        {
+          ",": -0.09080642461776733
+        },
+        {
+          "Texas": -0.014693615958094597
+        },
+        {
+          "<0x0A>": -0.02807554416358471
+        },
+        {
+          "Question": -0.1932096928358078
+        },
+        {
+          ":": -0.0002489972102921456
+        },
+        {
+          "What": -1.4194591045379639
+        },
+        {
+          "is": -1.3629279136657715
+        },
+        {
+          "the": -0.42292848229408264
+        },
+        {
+          "name": -2.30313777923584
+        },
+        {
+          "of": -0.04434145241975784
+        },
+        {
+          "the": -0.516880452632904
+        },
+        {
+          "": -3.0983221530914307
+        },
+        {
+          "1": -0.623238742351532
+        },
+        {
+          "9": -0.1765669286251068
+        },
+        {
+          "9": -1.37589430809021
+        },
+        {
+          "9": -2.060922622680664
+        },
+        {
+          "film": -1.6018352508544922
+        },
+        {
+          "that": -1.6673252582550049
+        },
+        {
+          "was": -2.1796953678131104
+        },
+        {
+          "directed": -1.425234079360962
+        },
+        {
+          "by": -0.03623185679316521
+        },
+        {
+          "John": -3.616811752319336
+        },
+        {
+          "W": -2.4539175033569336
+        },
+        {
+          "oo": -0.30442723631858826
+        },
+        {
+          "and": -0.8927547931671143
+        },
+        {
+          "star": -1.0117270946502686
+        },
+        {
+          "red": -0.0028551549185067415
+        },
+        {
+          "Nicolas": -1.093143105506897
+        },
+        {
+          "C": -0.0011792379664257169
+        },
+        {
+          "age": -1.7404405298293568e-05
+        },
+        {
+          "?": -0.7100935578346252
+        },
+        {
+          "<0x0A>": -0.007542584091424942
+        },
+        {
+          "Th": -0.0065340446308255196
+        },
+        {
+          "ought": -3.373566141817719e-05
+        },
+        {
+          ":": -0.00018714107864070684
+        },
+        {
+          "Let": -0.011219979263842106
+        },
+        {
+          "'": -0.0003844952443614602
+        },
+        {
+          "s": -1.6569954823353328e-05
+        },
+        {
+          "think": -0.0007327494095079601
+        },
+        {
+          "step": -0.0003364712174516171
+        },
+        {
+          "by": -0.00014077626110520214
+        },
+        {
+          "step": -3.5523738915799186e-05
+        },
+        {
+          ".": -0.00044347942457534373
+        },
+        {
+          "The": -1.3274482488632202
+        },
+        {
+          "": -0.4922160804271698
+        },
+        {
+          "1": -0.0071015325374901295
+        },
+        {
+          "9": -0.00016020445036701858
+        },
+        {
+          "9": -0.001335563138127327
+        },
+        {
+          "9": -0.006839673034846783
+        },
+        {
+          "film": -0.021222295239567757
+        },
+        {
+          "that": -0.36729180812835693
+        },
+        {
+          "was": -0.02013026364147663
+        },
+        {
+          "directed": -0.003195063676685095
+        },
+        {
+          "by": -0.0015616138698533177
+        },
+        {
+          "John": -0.002998025855049491
+        },
+        {
+          "W": -0.0005362979718483984
+        },
+        {
+          "oo": -0.00038926175329834223
+        },
+        {
+          "and": -0.23590829968452454
+        },
+        {
+          "star": -0.011928300373256207
+        },
+        {
+          "red": -0.0002735478919930756
+        },
+        {
+          "Nicolas": -0.00812298059463501
+        },
+        {
+          "C": -0.0010143141262233257
+        },
+        {
+          "age": -0.00020597243565134704
+        },
+        {
+          "is": -0.04896062985062599
+        },
+        {
+          "Face": -0.1058521419763565
+        },
+        {
+          "/": -0.019112007692456245
+        },
+        {
+          "Off": -0.003727276111021638
+        },
+        {
+          ".": -0.05565238744020462
+        },
+        {
+          "<0x0A>": -0.016378367319703102
+        },
+        {
+          "Answer": -0.0019312318181619048
+        },
+        {
+          ":": -0.00033742457162588835
+        },
+        {
+          "Face": -0.002588138682767749
+        },
+        {
+          "/": -0.0023916945792734623
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: In what city does a Christian minister who won the singles title with Jan Kodes in the 1970 French Open currently reside?\nThought 1:Let's think step by step. A Christian minister who won the singles title with Jan Kodes in the 1970 French Open is Cliff Richey. Cliff Richey currently resides in San Antonio, Texas.\nAnswer: San Antonio, Texas\nAction 1: MeasureUncertainty [San Antonio, Texas]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: San Antonio, Texas",
+  "summary": {
+    "final_answer": "San Antonio, Texas",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only"
+  }
+}

@@ -10,14 +10,76 @@ from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer, Bit
 from utils.prompter import Prompter
 from peft import PeftModel
 from uncertainty_utils import *
+import requests
+
+
+# --------- Trace logging helpers (one JSON file per question) ---------
+TRACE_DIR = "traces/HotpotQA"
+DEBUG_WIKI = os.environ.get("DEBUG_WIKI", "0") == "1"
+
+
+def _ensure_trace_dir():
+    os.makedirs(TRACE_DIR, exist_ok=True)
+
+
+def _trace_path(question_idx):
+    _ensure_trace_dir()
+    return os.path.join(TRACE_DIR, f"question_{question_idx}.json")
+
+
+def _init_trace(dataset_name, model_name, mode_name, question_idx, question_text, gold_answer):
+    return {
+        "dataset": dataset_name,
+        "model": model_name,
+        "mode": mode_name,
+        "question_idx": question_idx,
+        "question": question_text,
+        "gold_answer": gold_answer,
+        "events": []
+    }
+
+
+def _log_event(trace_obj, event):
+    try:
+        trace_obj["events"].append(event)
+    except Exception:
+        pass
+
+
+def _write_trace(question_idx, trace_obj):
+    path = _trace_path(question_idx)
+    with open(path, "w") as f:
+        json.dump(trace_obj, f, ensure_ascii=False, indent=2)
+
+
+# --------- Optional debugging helpers for Wikipedia suggestions ---------
+def _debug_wiki_suggest(query):
+    try:
+        params = {
+            "action": "opensearch",
+            "search": query,
+            "limit": 5,
+            "namespace": 0,
+            "format": "json",
+        }
+        headers = {"User-Agent": "Uncertainty-Agent/1.0 (contact: taruhiro39@gmail.com)"}
+        resp = requests.get("https://en.wikipedia.org/w/api.php", params=params, timeout=8, headers=headers)
+        resp.raise_for_status()
+        data = resp.json()
+        # data: [search, titles[], descriptions[], urls[]]
+        if isinstance(data, list) and len(data) >= 2:
+            return {"status_code": resp.status_code, "titles": data[1]}
+    except Exception:
+        return {"status_code": None, "titles": []}
+    return {"status_code": resp.status_code, "titles": []}
 
 
 base_model = "meta-llama/Llama-2-70b-hf"
 load_in_4bit = False # set False to use 8-bit
 mode = "uala" # choose from [standard, cot, react, uala]
 uncertainty_estimation_method = "entropy" # choose from [min, avg, log_sum, norm, entropy]
-oracle = True # whether to use oracle in uala
-save_file_name = "outputs/llama2-hotpotqa-dev-uala-oracle.jsonl" # saved file name
+oracle = False # whether to use oracle in uala
+save_file_name = "outputs/llama2-hotpotqa-dev-uala-nooracle.jsonl" # saved file name
 
 # load pre-calculated uncertainty threshold based on calibration set
 if uncertainty_estimation_method == "min":
@@ -116,11 +178,19 @@ env = wrappers.LoggingWrapper(env)
 
 def step(env, action):
     attempts = 0
+    start_ts = time.time()
     while attempts < 10:
         try:
-            return env.step(action)
+            obs, r, done, info = env.step(action)
+            latency_ms = int((time.time() - start_ts) * 1000)
+            if isinstance(info, dict):
+                info["latency_ms"] = latency_ms
+            return obs, r, done, info
         except requests.exceptions.Timeout:
             attempts += 1
+            if DEBUG_WIKI:
+                print(f"[DEBUG_WIKI] Timeout on action={action!r}, retry={attempts}")
+            # No trace object here; caller will attach retry info per step
 
 prompt_file = './prompts/prompts.json'
 with open(prompt_file, 'r') as f:
@@ -146,13 +216,25 @@ Here are some examples.
 """
 
 
-def standard(idx=None, instruction=instruction_standard, prompt=hotpotqa_standard_examples, to_print=True):
+def standard(idx=None, instruction=instruction_standard, prompt=hotpotqa_standard_examples, to_print=True, trace=None):
     question = env.reset(idx=idx)
     if to_print:
         print(idx, question)
     prompt += question + "\n"
-    answer, probs = llama2_prompt(instruction, prompt + "Answer:", return_probs=True)
-    answer = answer.split("\n")[0].strip()
+    full_input = prompt + "Answer:"
+    answer_raw, probs = llama2_prompt(instruction, full_input, return_probs=True)
+    if trace is not None:
+        full_prompt_text = prompter.generate_prompt(instruction, full_input)
+        _log_event(trace, {
+            "type": "llm_call",
+            "stage": "standard",
+            "instruction": instruction,
+            "input": full_input,
+            "prompt": full_prompt_text,
+            "output": answer_raw,
+            "probs": probs
+        })
+    answer = answer_raw.split("\n")[0].strip()
     if to_print:
         print("Answer:", answer)
 
@@ -166,13 +248,25 @@ def standard(idx=None, instruction=instruction_standard, prompt=hotpotqa_standar
             break
     return answer, token_probs
 
-def cot(idx=None, instruction=instruction_cot, prompt=hotpotqa_cot_examples, to_print=True):
+def cot(idx=None, instruction=instruction_cot, prompt=hotpotqa_cot_examples, to_print=True, trace=None):
     question = env.reset(idx=idx)
     if to_print:
         print(idx, question)
     prompt += question + "\n"
-    answer, probs = llama2_prompt(instruction, prompt + "Thought:", return_probs=True)
-    answer = answer.split("\nQuestion:")[0].strip()
+    full_input = prompt + "Thought:"
+    answer_raw, probs = llama2_prompt(instruction, full_input, return_probs=True)
+    if trace is not None:
+        full_prompt_text = prompter.generate_prompt(instruction, full_input)
+        _log_event(trace, {
+            "type": "llm_call",
+            "stage": "cot",
+            "instruction": instruction,
+            "input": full_input,
+            "prompt": full_prompt_text,
+            "output": answer_raw,
+            "probs": probs
+        })
+    answer = answer_raw.split("\nQuestion:")[0].strip()
     if to_print:
         print("Thought:", answer)
 
@@ -186,7 +280,7 @@ def cot(idx=None, instruction=instruction_cot, prompt=hotpotqa_cot_examples, to_
             break
     return answer, token_probs
 
-def react(idx=None, instruction=instruction_react, prompt=hotpotqa_react_examples, to_print=True):
+def react(idx=None, instruction=instruction_react, prompt=hotpotqa_react_examples, to_print=True, trace=None):
     question = env.reset(idx=idx)
     if to_print:
         print(idx, question)
@@ -195,7 +289,20 @@ def react(idx=None, instruction=instruction_react, prompt=hotpotqa_react_example
     react_probs = []
     for i in range(1, 8):
         n_calls += 1
-        thought_action, thought_action_probs = llama2_prompt(instruction, prompt + f"Thought {i}:", return_probs=True)
+        step_input = prompt + f"Thought {i}:"
+        thought_action, thought_action_probs = llama2_prompt(instruction, step_input, return_probs=True)
+        if DEBUG_WIKI:
+            print(f"[DEBUG_WIKI] LLM raw ThoughtAction {i}: {repr(thought_action)}")
+        if trace is not None:
+            _log_event(trace, {
+                "type": "llm_call",
+                "stage": f"react_step_{i}",
+                "instruction": instruction,
+                "input": step_input,
+                "prompt": prompter.generate_prompt(instruction, step_input),
+                "output": thought_action,
+                "probs": thought_action_probs
+            })
         react_probs.append(thought_action_probs)
         try:
             thought = thought_action.strip().split(f"\nAction {i}: ")[0]
@@ -205,16 +312,76 @@ def react(idx=None, instruction=instruction_react, prompt=hotpotqa_react_example
             n_badcalls += 1
             n_calls += 1
             thought = thought_action.strip().split('\n')[0]
-            action, action_probs= llama2_prompt(instruction, prompt + f"Thought {i}: {thought}\nAction {i}:", return_probs=True)
+            action_input = prompt + f"Thought {i}: {thought}\nAction {i}:"
+            action, action_probs= llama2_prompt(instruction, action_input, return_probs=True)
             action = action.split("\n")[0].strip()
             react_probs.append(action_probs)
+            if trace is not None:
+                _log_event(trace, {
+                    "type": "llm_call",
+                    "stage": f"react_step_{i}_action",
+                    "instruction": instruction,
+                    "input": action_input,
+                    "prompt": prompter.generate_prompt(instruction, action_input),
+                    "output": action,
+                    "probs": action_probs
+                })
+        if DEBUG_WIKI:
+            print(f"[DEBUG_WIKI] Parsed Thought {i}: {thought}")
+        step_start = time.time()
         obs, r, done, info = step(env, action[0].lower() + action[1:])
+        if DEBUG_WIKI:
+            print(f"[DEBUG_WIKI] Action {i}: {action}")
+            print(f"[DEBUG_WIKI] Raw Observation {i}: {repr(obs)}")
+            print(f"[DEBUG_WIKI] Info {i}: {info}")
+            # Suggest candidates if search returns empty
+            if obs == "" and action.lower().startswith("search[") and action.endswith("]"):
+                q = action[action.find("[") + 1: action.rfind("]")]
+                suggestions = _debug_wiki_suggest(q)
+                titles = suggestions.get("titles", [])
+                if titles:
+                    print(f"[DEBUG_WIKI] Suggestions for {q!r}: {titles}")
+                else:
+                    print(f"[DEBUG_WIKI] No suggestions for {q!r}")
+        raw_obs = obs
         obs = obs.replace('\\n', '')
 
         step_str = f"Thought {i}: {thought}\nAction {i}: {action}\nObservation {i}: {obs}\n"
         prompt += step_str
         if to_print:
             print(step_str)
+        if trace is not None:
+            # Extract similar titles structurally when mismatch message appears
+            similar_titles = None
+            if isinstance(raw_obs, str) and raw_obs.startswith("Could not find ") and "Similar:" in raw_obs:
+                try:
+                    # raw format: Could not find X. Similar: ['A', 'B', ...].
+                    after = raw_obs.split("Similar:", 1)[1].strip()
+                    # ensure we only parse the list part
+                    list_text = after
+                    similar_titles = ast.literal_eval(list_text)
+                except Exception:
+                    similar_titles = None
+
+            _log_event(trace, {
+                "type": "react_step",
+                "index": i,
+                "thought": thought,
+                "action": action,
+                "observation": obs,
+                "raw_observation": raw_obs,
+                "info": info,
+                "similar_titles": similar_titles
+            })
+            if DEBUG_WIKI and raw_obs == "" and action.lower().startswith("search[") and action.endswith("]"):
+                q = action[action.find("[") + 1: action.rfind("]")]
+                sug = _debug_wiki_suggest(q)
+                _log_event(trace, {
+                    "type": "debug_wiki_suggestions",
+                    "query": q,
+                    "status_code": sug.get("status_code"),
+                    "suggestions": sug.get("titles", [])
+                })
         if done:
             break
     if not done:
@@ -244,9 +411,11 @@ with open(save_file_name,"a") as output_file:
         question = env.reset(idx=i)
         gold_answer = env.data[i][1]
         num_instance += 1
+        # initialize per-question trace
+        trace = _init_trace("HotpotQA", base_model, mode, i, question, gold_answer)
 
         if mode == "standard":
-            predicted_answer, _ = standard(i, to_print=True)
+            predicted_answer, _ = standard(i, to_print=True, trace=trace)
             print('-----------')
             em = (wrappers.normalize_answer(predicted_answer) == wrappers.normalize_answer(gold_answer))
             f1 = wrappers.f1_score(wrappers.normalize_answer(predicted_answer), wrappers.normalize_answer(gold_answer))[0]
@@ -254,9 +423,12 @@ with open(save_file_name,"a") as output_file:
             if standard_final_output["em"]:
                 num_correct += 1
             output_file.write(json.dumps(standard_final_output, ensure_ascii=False) + '\n')
+            trace["traj"] = standard_final_output["traj"]
+            trace["summary"] = {"final_answer": predicted_answer, "em": em, "f1": f1, "mode": "standard"}
+            _write_trace(i, trace)
 
         elif mode == "cot":
-            cot_output, _ = cot(i, to_print=True)
+            cot_output, _ = cot(i, to_print=True, trace=trace)
             print('-----------')
             try:
                 predicted_answer = cot_output.split('Answer:')[1].strip()
@@ -271,9 +443,12 @@ with open(save_file_name,"a") as output_file:
             if cot_final_output["em"]:
                 num_correct += 1
             output_file.write(json.dumps(cot_final_output, ensure_ascii=False) + '\n')
+            trace["traj"] = cot_final_output["traj"]
+            trace["summary"] = {"final_answer": predicted_answer, "em": em, "f1": f1, "mode": "cot"}
+            _write_trace(i, trace)
 
         elif mode == "react":
-            info, _ = react(i, to_print=True)
+            info, _ = react(i, to_print=True, trace=trace)
             evals.append(info['em'])
             print(sum(evals), len(evals), sum(evals) / len(evals), (time.time() - old_time) / len(evals))
             print('-----------')
@@ -282,10 +457,13 @@ with open(save_file_name,"a") as output_file:
             if info["em"]:
                 num_correct += 1
             output_file.write(json.dumps(info, ensure_ascii=False) + '\n')
+            trace["traj"] = info["traj"]
+            trace["summary"] = {"final_answer": info.get("answer"), "em": info.get("em"), "f1": info.get("f1"), "mode": "react", "n_calls": info.get("n_calls"), "n_badcalls": info.get("n_badcalls")}
+            _write_trace(i, trace)
 
         elif mode == "uala":
             print('-----------CoT-----------')
-            cot_output, probs = cot(i, to_print=True)
+            cot_output, probs = cot(i, to_print=True, trace=trace)
             try:
                 predicted_answer = cot_output.split('Answer:')[1].strip()
             except:
@@ -315,13 +493,21 @@ with open(save_file_name,"a") as output_file:
 
             # calculate uncertainty
             uncertainty = cal_uncertainty(answer_probs, 5)
+            _log_event(trace, {
+                "type": "measure_uncertainty",
+                "phase": "cot_answer",
+                "uncertainty": round(uncertainty, 2),
+                "threshold": uncertainty_threshold,
+                "answer_probs_len": len(answer_probs)
+            })
 
             # make tool use
             if uncertainty > uncertainty_threshold:
                 print(f'-----------Answer’s uncertainty {round(uncertainty,2)}, which falls outside the acceptable uncertainty threshold of {uncertainty_threshold}, I need to use an external tool to solve the question.-----------')
                 num_tool_call_instance += 1
                 print('-----------ReAct-----------')
-                info, react_probs = react(i, to_print=True)
+                _log_event(trace, {"type": "tool_activation", "tool": "ReAct"})
+                info, react_probs = react(i, to_print=True, trace=trace)
                 predicted_react_answer = info["answer"]
                 cot_final_output["traj"] += f"\nObservation 1: Answer’s uncertainty is {round(uncertainty,2)}, which falls outside the acceptable threshold of {uncertainty_threshold}.\nThought 2: Based on the uncertainty, I need to use an external tool to solve the question.\nAction 2: Activate Tool.\n"
                 
@@ -363,6 +549,13 @@ with open(save_file_name,"a") as output_file:
                         answer_probs = [0.0]
 
                     react_uncertainty = cal_uncertainty(answer_probs, 5)
+                    _log_event(trace, {
+                        "type": "measure_uncertainty",
+                        "phase": "react_answer",
+                        "uncertainty": round(react_uncertainty, 2),
+                        "threshold": uncertainty_threshold,
+                        "answer_probs_len": len(answer_probs)
+                    })
                     if react_uncertainty > uncertainty_threshold:
                         info["steps"] += 1
                         if oracle:
@@ -373,14 +566,17 @@ with open(save_file_name,"a") as output_file:
                             info["em"] = True
                             info["f1"] = 1.0
                             num_ask_human += 1
+                            _log_event(trace, {"type": "ask_human", "gold_answer": gold_answer})
                         else:
                             print(f"-----------Answer’s uncertainty is {round(react_uncertainty,2)}, which falls outside the acceptable threshold of {uncertainty_threshold}, for simplicity, answer is still kept.-----------")
                             info["traj"] += f"\nObservation {str(last_index+2)}: Answer’s uncertainty is {round(react_uncertainty,2)}, which falls outside the acceptable threshold of {uncertainty_threshold}.\nThought {str(last_index+2)}: For simplicity, answer is still kept.\nAction {str(last_index+2)}: Keep Answer.\nAnswer: {predicted_react_answer}"
+                            _log_event(trace, {"type": "keep_answer", "phase": "react_answer_high_uncertainty", "answer": predicted_react_answer})
                             
                     else:
                         print(f"-----------Answer’s uncertainty is {round(react_uncertainty,2)}, which falls within the acceptable threshold of {uncertainty_threshold}, answer is kept.-----------")
                         info["traj"] += f"\nObservation {str(last_index+2)}: Answer’s uncertainty is {round(react_uncertainty,2)}, which falls within the acceptable threshold of {uncertainty_threshold}.\nThought {str(last_index+2)}: Based on the uncertainty, answer is kept.\nAction {str(last_index+2)}: Keep Answer.\nAnswer: {predicted_react_answer}"
                         info["steps"] += 1
+                        _log_event(trace, {"type": "keep_answer", "phase": "react_answer", "answer": predicted_react_answer})
                     
                 else:
                     print("-----------Returned tool-use answer is invalid, I need to use the backoff answer.-----------")
@@ -391,13 +587,20 @@ with open(save_file_name,"a") as output_file:
                     info["reward"] = cot_final_output["reward"]
                     info["em"] = cot_final_output["em"]
                     info["f1"] = cot_final_output["f1"]
+                    _log_event(trace, {"type": "use_backoff_answer", "answer": predicted_answer})
 
                 if info["em"]:
                     num_correct += 1
                 output_file.write(json.dumps(info, ensure_ascii=False) + '\n')
+                trace["traj"] = info["traj"]
+                trace["summary"] = {"final_answer": info.get("answer"), "em": info.get("em"), "f1": info.get("f1"), "mode": "uala", "n_calls": info.get("n_calls"), "n_badcalls": info.get("n_badcalls")}
+                _write_trace(i, trace)
             else:
                 print(f'-----------Answer’s uncertainty is {round(uncertainty,2)}, which falls within the acceptable threshold of {uncertainty_threshold}, answer is kept.-----------')
                 cot_final_output["traj"] += f"\nObservation 1: Answer’s uncertainty is {round(uncertainty,2)}, which falls within the acceptable threshold of {uncertainty_threshold}.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: {predicted_answer}"
                 if cot_final_output["em"]:
                     num_correct += 1
                 output_file.write(json.dumps(cot_final_output, ensure_ascii=False) + '\n')
+                trace["traj"] = cot_final_output["traj"]
+                trace["summary"] = {"final_answer": cot_final_output.get("answer"), "em": cot_final_output.get("em"), "f1": cot_final_output.get("f1"), "mode": "uala_cot_only"}
+                _write_trace(i, trace)

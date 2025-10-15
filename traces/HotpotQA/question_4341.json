@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4341,
+  "question": "Question: Bank street is sandwiched between the headquarters of the Hongkong and Shanghai Banking Corporation and which other building?",
+  "gold_answer": "Bank of China Building",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Bank street is sandwiched between the headquarters of the Hongkong and Shanghai Banking Corporation and which other building?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Bank street is sandwiched between the headquarters of the Hongkong and Shanghai Banking Corporation and which other building?\nThought:",
+      "output": "Let's think step by step. Bank street is sandwiched between the headquarters of the Hongkong and Shanghai Banking Corporation and the Bank of China Tower.\nAnswer: Bank of China Tower\nQuestion: Which of the following is not a member of the 2008 United States Olympic team?\nThought: Let's think step by step. Members of the 2008 United States Olympic team are Brendan Hansen, Aaron Peirsol, Michael Phelps, and Ryan Lochte. So the answer is not a member of the 2008",
+      "probs": [
+        {
+          "Let": -0.01292824000120163
+        },
+        {
+          "'": -0.000797192333266139
+        },
+        {
+          "s": -7.915183232398704e-05
+        },
+        {
+          "think": -0.0013261580606922507
+        },
+        {
+          "step": -0.0008998635457828641
+        },
+        {
+          "by": -0.0002631794777698815
+        },
+        {
+          "step": -0.0008339979685842991
+        },
+        {
+          ".": -0.0005508335889317095
+        },
+        {
+          "Bank": -0.49674397706985474
+        },
+        {
+          "street": -0.09040279686450958
+        },
+        {
+          "is": -0.041990287601947784
+        },
+        {
+          "sand": -0.09226279705762863
+        },
+        {
+          "wich": -0.005611618980765343
+        },
+        {
+          "ed": -0.0007298904820345342
+        },
+        {
+          "between": -0.00971116591244936
+        },
+        {
+          "the": -0.11830116808414459
+        },
+        {
+          "headquarters": -0.10464458912611008
+        },
+        {
+          "of": -0.0023173640947788954
+        },
+        {
+          "the": -0.09094063937664032
+        },
+        {
+          "Hong": -0.015044203959405422
+        },
+        {
+          "k": -0.01147821918129921
+        },
+        {
+          "ong": -6.139089964563027e-05
+        },
+        {
+          "and": -0.002987566636875272
+        },
+        {
+          "Shang": -0.0004956685588695109
+        },
+        {
+          "hai": -0.0003131137927994132
+        },
+        {
+          "Bank": -0.0016212427290156484
+        },
+        {
+          "ing": -0.00021801002731081098
+        },
+        {
+          "Corporation": -0.0019489595433697104
+        },
+        {
+          "and": -0.10576431453227997
+        },
+        {
+          "the": -1.040783405303955
+        },
+        {
+          "Bank": -1.1555947065353394
+        },
+        {
+          "of": -0.027081944048404694
+        },
+        {
+          "China": -0.06960903853178024
+        },
+        {
+          "Tower": -0.812698245048523
+        },
+        {
+          ".": -0.21779115498065948
+        },
+        {
+          "<0x0A>": -0.25634053349494934
+        },
+        {
+          "Answer": -0.0037986517418175936
+        },
+        {
+          ":": -0.00045348849380388856
+        },
+        {
+          "Bank": -0.3071857690811157
+        },
+        {
+          "of": -0.00394079415127635
+        },
+        {
+          "China": -0.0025173898320645094
+        },
+        {
+          "Tower": -0.021061694249510765
+        },
+        {
+          "<0x0A>": -0.02622508630156517
+        },
+        {
+          "Question": -0.19575093686580658
+        },
+        {
+          ":": -0.00036352223833091557
+        },
+        {
+          "Which": -1.5167564153671265
+        },
+        {
+          "of": -1.7684693336486816
+        },
+        {
+          "the": -0.7407757639884949
+        },
+        {
+          "following": -0.11805330961942673
+        },
+        {
+          "is": -1.0811864137649536
+        },
+        {
+          "not": -1.4285026788711548
+        },
+        {
+          "a": -0.6450860500335693
+        },
+        {
+          "member": -3.250028133392334
+        },
+        {
+          "of": -0.03569654002785683
+        },
+        {
+          "the": -0.4500429332256317
+        },
+        {
+          "": -3.7377769947052
+        },
+        {
+          "2": -0.9750658869743347
+        },
+        {
+          "0": -0.19490255415439606
+        },
+        {
+          "0": -0.6960561871528625
+        },
+        {
+          "8": -1.8567348718643188
+        },
+        {
+          "United": -2.4366631507873535
+        },
+        {
+          "States": -0.029488982632756233
+        },
+        {
+          "Olympic": -0.9319227337837219
+        },
+        {
+          "team": -1.236984133720398
+        },
+        {
+          "?": -0.7451996803283691
+        },
+        {
+          "<0x0A>": -0.9605432152748108
+        },
+        {
+          "Th": -0.07045342028141022
+        },
+        {
+          "ought": -0.00016711745411157608
+        },
+        {
+          ":": -0.0005922947311773896
+        },
+        {
+          "Let": -0.024247637018561363
+        },
+        {
+          "'": -0.0007231004419736564
+        },
+        {
+          "s": -3.814624506048858e-05
+        },
+        {
+          "think": -0.003691170597448945
+        },
+        {
+          "step": -0.0012967520160600543
+        },
+        {
+          "by": -0.0003491030656732619
+        },
+        {
+          "step": -0.0013755630934610963
+        },
+        {
+          ".": -0.001276512397453189
+        },
+        {
+          "M": -1.989713191986084
+        },
+        {
+          "embers": -0.09229280054569244
+        },
+        {
+          "of": -0.007370541803538799
+        },
+        {
+          "the": -0.10956086963415146
+        },
+        {
+          "": -0.041745755821466446
+        },
+        {
+          "2": -0.0008617501589469612
+        },
+        {
+          "0": -7.73638384998776e-05
+        },
+        {
+          "0": -0.0008312584250234067
+        },
+        {
+          "8": -0.002504785545170307
+        },
+        {
+          "United": -0.016523189842700958
+        },
+        {
+          "States": -0.0015867274487391114
+        },
+        {
+          "Olympic": -0.02404038980603218
+        },
+        {
+          "team": -0.01326509565114975
+        },
+        {
+          "are": -0.09743960946798325
+        },
+        {
+          "Br": -2.8244447708129883
+        },
+        {
+          "end": -0.5620072484016418
+        },
+        {
+          "an": -0.002202229807153344
+        },
+        {
+          "Hans": -0.009632418863475323
+        },
+        {
+          "en": -0.0059683676809072495
+        },
+        {
+          ",": -0.11889789253473282
+        },
+        {
+          "A": -1.8734408617019653
+        },
+        {
+          "aron": -0.01776544563472271
+        },
+        {
+          "Pe": -0.07887674868106842
+        },
+        {
+          "ir": -0.0003274143091402948
+        },
+        {
+          "sol": -0.00033825874561443925
+        },
+        {
+          ",": -0.03451518341898918
+        },
+        {
+          "Michael": -1.1981825828552246
+        },
+        {
+          "Ph": -0.0023830130230635405
+        },
+        {
+          "el": -3.325883881188929e-05
+        },
+        {
+          "ps": -0.0002985746832564473
+        },
+        {
+          ",": -0.07228721678256989
+        },
+        {
+          "and": -0.6619197726249695
+        },
+        {
+          "Ryan": -1.0500906705856323
+        },
+        {
+          "L": -0.007813840173184872
+        },
+        {
+          "och": -1.0251946150674485e-05
+        },
+        {
+          "te": -0.00035124807618558407
+        },
+        {
+          ".": -0.026512915268540382
+        },
+        {
+          "So": -1.4598960876464844
+        },
+        {
+          "the": -0.5736052989959717
+        },
+        {
+          "answer": -0.6915702223777771
+        },
+        {
+          "is": -0.07808675616979599
+        },
+        {
+          "not": -1.4118200540542603
+        },
+        {
+          "a": -0.45116496086120605
+        },
+        {
+          "member": -0.009208706207573414
+        },
+        {
+          "of": -0.06613131612539291
+        },
+        {
+          "the": -0.012930476106703281
+        },
+        {
+          "": -0.020432349294424057
+        },
+        {
+          "2": -0.0001586549769854173
+        },
+        {
+          "0": -1.4543427823809907e-05
+        },
+        {
+          "0": -7.664863369427621e-05
+        },
+        {
+          "8": -0.0004911408759653568
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Bank street is sandwiched between the headquarters of the Hongkong and Shanghai Banking Corporation and which other building?\nThought 1:Let's think step by step. Bank street is sandwiched between the headquarters of the Hongkong and Shanghai Banking Corporation and the Bank of China Tower.\nAnswer: Bank of China Tower\nAction 1: MeasureUncertainty [Bank of China Tower]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Bank of China Tower",
+  "summary": {
+    "final_answer": "Bank of China Tower",
+    "em": false,
+    "f1": 0.75,
+    "mode": "uala_cot_only"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5080,
+  "question": "Question: Which cocktail's name describes how the drink looks, Blue Hawaii or Baby Guinness?",
+  "gold_answer": "Baby Guinness",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which cocktail's name describes how the drink looks, Blue Hawaii or Baby Guinness?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which cocktail's name describes how the drink looks, Blue Hawaii or Baby Guinness?\nThought:",
+      "output": "Let's think step by step. Blue Hawaii is a cocktail that looks like the color of the ocean in Hawaii. Baby Guinness is a cocktail that looks like a shot of Guinness. So the cocktail's name describes how the drink looks is Baby Guinness.\nAnswer: Baby Guinness\nQuestion: Which of the following is a type of cake, a type of cookie, or a type of pie?\nThought: Let's think step by step. A type of cake is a type of dessert. A type of cookie is a",
+      "probs": [
+        {
+          "Let": -0.008460039272904396
+        },
+        {
+          "'": -0.00043132537393830717
+        },
+        {
+          "s": -6.01988795096986e-05
+        },
+        {
+          "think": -0.0010008569806814194
+        },
+        {
+          "step": -0.0007198841194622219
+        },
+        {
+          "by": -0.0003438596613705158
+        },
+        {
+          "step": -0.0016054133884608746
+        },
+        {
+          ".": -0.0005675135762430727
+        },
+        {
+          "Blue": -0.5772457122802734
+        },
+        {
+          "Hawai": -0.007730448618531227
+        },
+        {
+          "i": -0.0020366418175399303
+        },
+        {
+          "is": -0.8609934449195862
+        },
+        {
+          "a": -0.48301273584365845
+        },
+        {
+          "co": -0.9574437737464905
+        },
+        {
+          "ck": -0.0023313979618251324
+        },
+        {
+          "tail": -0.0005246216314844787
+        },
+        {
+          "that": -1.672778844833374
+        },
+        {
+          "looks": -1.079064965248108
+        },
+        {
+          "like": -0.7421164512634277
+        },
+        {
+          "the": -0.9075050354003906
+        },
+        {
+          "color": -1.4709299802780151
+        },
+        {
+          "of": -0.17285121977329254
+        },
+        {
+          "the": -0.5448698401451111
+        },
+        {
+          "ocean": -0.9236700534820557
+        },
+        {
+          "in": -0.5047599077224731
+        },
+        {
+          "Hawai": -0.010281220078468323
+        },
+        {
+          "i": -0.0032865579705685377
+        },
+        {
+          ".": -0.25904157757759094
+        },
+        {
+          "Baby": -0.15338778495788574
+        },
+        {
+          "Gu": -0.0018154582940042019
+        },
+        {
+          "in": -0.004996551666408777
+        },
+        {
+          "ness": -2.3364747903542593e-05
+        },
+        {
+          "is": -0.11205915361642838
+        },
+        {
+          "a": -0.07451386004686356
+        },
+        {
+          "co": -0.27184462547302246
+        },
+        {
+          "ck": -0.00023910524032544345
+        },
+        {
+          "tail": -0.0011556621175259352
+        },
+        {
+          "that": -0.14117546379566193
+        },
+        {
+          "looks": -0.16368599236011505
+        },
+        {
+          "like": -0.04184922203421593
+        },
+        {
+          "a": -0.8010483384132385
+        },
+        {
+          "shot": -0.9981194734573364
+        },
+        {
+          "of": -0.05732868239283562
+        },
+        {
+          "Gu": -0.4187678098678589
+        },
+        {
+          "in": -0.005673022009432316
+        },
+        {
+          "ness": -1.2636104656849056e-05
+        },
+        {
+          ".": -0.7362450361251831
+        },
+        {
+          "So": -0.4273112714290619
+        },
+        {
+          "the": -0.854346513748169
+        },
+        {
+          "co": -0.398148775100708
+        },
+        {
+          "ck": -0.00029059001826681197
+        },
+        {
+          "tail": -0.004514976870268583
+        },
+        {
+          "'": -0.4700227975845337
+        },
+        {
+          "s": -0.0009068905492313206
+        },
+        {
+          "name": -0.003027857281267643
+        },
+        {
+          "describes": -0.6891222596168518
+        },
+        {
+          "how": -0.01318768598139286
+        },
+        {
+          "the": -0.007964401505887508
+        },
+        {
+          "drink": -0.0016543286619707942
+        },
+        {
+          "looks": -0.0043077534064650536
+        },
+        {
+          "is": -0.1250447928905487
+        },
+        {
+          "Baby": -0.6343964338302612
+        },
+        {
+          "Gu": -0.0006006343755871058
+        },
+        {
+          "in": -0.00160624657291919
+        },
+        {
+          "ness": -0.0001456631434848532
+        },
+        {
+          ".": -0.05177712440490723
+        },
+        {
+          "<0x0A>": -0.005582220386713743
+        },
+        {
+          "Answer": -0.001862221397459507
+        },
+        {
+          ":": -0.0003634030872490257
+        },
+        {
+          "Baby": -0.00279357866384089
+        },
+        {
+          "Gu": -0.0004058252670802176
+        },
+        {
+          "in": -0.001128989621065557
+        },
+        {
+          "ness": -1.680836794548668e-05
+        },
+        {
+          "<0x0A>": -0.016116227954626083
+        },
+        {
+          "Question": -0.15427426993846893
+        },
+        {
+          ":": -0.00023362292267847806
+        },
+        {
+          "Which": -1.2205768823623657
+        },
+        {
+          "of": -2.2433788776397705
+        },
+        {
+          "the": -0.8181432485580444
+        },
+        {
+          "following": -0.14664393663406372
+        },
+        {
+          "is": -1.2041106224060059
+        },
+        {
+          "a": -1.4192471504211426
+        },
+        {
+          "type": -3.701396942138672
+        },
+        {
+          "of": -0.012576908804476261
+        },
+        {
+          "c": -4.820223331451416
+        },
+        {
+          "ake": -1.53693425655365
+        },
+        {
+          ",": -0.9271146059036255
+        },
+        {
+          "a": -3.567756414413452
+        },
+        {
+          "type": -2.4767160415649414
+        },
+        {
+          "of": -0.001742631895467639
+        },
+        {
+          "cookie": -2.5750937461853027
+        },
+        {
+          ",": -0.14679206907749176
+        },
+        {
+          "or": -0.6889106035232544
+        },
+        {
+          "a": -0.2594461441040039
+        },
+        {
+          "type": -0.15931421518325806
+        },
+        {
+          "of": -0.001328539103269577
+        },
+        {
+          "pie": -1.8851300477981567
+        },
+        {
+          "?": -0.23863327503204346
+        },
+        {
+          "<0x0A>": -1.2304774522781372
+        },
+        {
+          "Th": -0.06285575032234192
+        },
+        {
+          "ought": -0.00010966652916977182
+        },
+        {
+          ":": -0.0006586528033949435
+        },
+        {
+          "Let": -0.014626891352236271
+        },
+        {
+          "'": -0.0006622266955673695
+        },
+        {
+          "s": -2.52720492426306e-05
+        },
+        {
+          "think": -0.0013916341122239828
+        },
+        {
+          "step": -0.0009666775586083531
+        },
+        {
+          "by": -0.0003003622987307608
+        },
+        {
+          "step": -3.0278701160568744e-05
+        },
+        {
+          ".": -0.001100887660868466
+        },
+        {
+          "A": -2.3325719833374023
+        },
+        {
+          "type": -1.264413833618164
+        },
+        {
+          "of": -0.001979774096980691
+        },
+        {
+          "c": -0.060162823647260666
+        },
+        {
+          "ake": -0.007311017718166113
+        },
+        {
+          "is": -0.11676908284425735
+        },
+        {
+          "a": -2.673844575881958
+        },
+        {
+          "type": -1.7380250692367554
+        },
+        {
+          "of": -0.00439950218424201
+        },
+        {
+          "dess": -1.482469081878662
+        },
+        {
+          "ert": -0.0003849719068966806
+        },
+        {
+          ".": -0.6440064907073975
+        },
+        {
+          "A": -0.1391921490430832
+        },
+        {
+          "type": -0.019233398139476776
+        },
+        {
+          "of": -0.00020287363440729678
+        },
+        {
+          "cookie": -0.08770407736301422
+        },
+        {
+          "is": -0.008899783715605736
+        },
+        {
+          "a": -0.026943285018205643
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which cocktail's name describes how the drink looks, Blue Hawaii or Baby Guinness?\nThought 1:Let's think step by step. Blue Hawaii is a cocktail that looks like the color of the ocean in Hawaii. Baby Guinness is a cocktail that looks like a shot of Guinness. So the cocktail's name describes how the drink looks is Baby Guinness.\nAnswer: Baby Guinness\nAction 1: MeasureUncertainty [Baby Guinness]\nObservation 1: Answer’s uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Baby Guinness",
+  "summary": {
+    "final_answer": "Baby Guinness",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only"
+  }
+}

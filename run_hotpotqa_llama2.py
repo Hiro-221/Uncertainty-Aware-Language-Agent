@@ -81,6 +81,13 @@ uncertainty_estimation_method = "entropy" # choose from [min, avg, log_sum, norm
 oracle = False # whether to use oracle in uala
 save_file_name = "outputs/llama2-hotpotqa-dev-uala-nooracle.jsonl" # saved file name
 
+# add timestamp to output file to avoid appending to existing runs
+timestamp = time.strftime("%Y%m%d-%H%M%S")
+base, ext = os.path.splitext(save_file_name)
+save_file_name = f"{base}-{timestamp}{ext}"
+# ensure output directory exists
+os.makedirs(os.path.dirname(save_file_name) or ".", exist_ok=True)
+
 # load pre-calculated uncertainty threshold based on calibration set
 if uncertainty_estimation_method == "min":
     cal_uncertainty = cal_uncertainty_min

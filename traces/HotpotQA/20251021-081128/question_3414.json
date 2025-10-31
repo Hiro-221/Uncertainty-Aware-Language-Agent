@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3414,
+  "question": "Question: What country of origin does Eric Lucassen and Party for Freedom have in common?",
+  "gold_answer": "Dutch",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What country of origin does Eric Lucassen and Party for Freedom have in common?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What country of origin does Eric Lucassen and Party for Freedom have in common?\nThought:",
+      "output": "Let's think step by step. Country of origin of Eric Lucassen is Netherlands. Country of origin of Party for Freedom is Netherlands. So country of origin Eric Lucassen and Party for Freedom have in common is Netherlands.\nAnswer: Netherlands\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so",
+      "probs": [
+        {
+          "Let": -0.005273954011499882
+        },
+        {
+          "'": -0.00019798702851403505
+        },
+        {
+          "s": -3.2186455882765586e-06
+        },
+        {
+          "think": -0.00030083899036981165
+        },
+        {
+          "step": -0.00011693747364915907
+        },
+        {
+          "by": -6.425174069590867e-05
+        },
+        {
+          "step": -0.0010085977846756577
+        },
+        {
+          ".": -0.0002047805901383981
+        },
+        {
+          "Country": -0.9010694026947021
+        },
+        {
+          "of": -0.004031032789498568
+        },
+        {
+          "origin": -0.037626929581165314
+        },
+        {
+          "of": -0.0734405368566513
+        },
+        {
+          "Eric": -0.0341457799077034
+        },
+        {
+          "Luc": -0.000847814604640007
+        },
+        {
+          "assen": -0.00027581225731410086
+        },
+        {
+          "is": -0.026033928617835045
+        },
+        {
+          "Netherlands": -0.6936407089233398
+        },
+        {
+          ".": -0.04390276223421097
+        },
+        {
+          "Country": -0.15454897284507751
+        },
+        {
+          "of": -0.0005088941543363035
+        },
+        {
+          "origin": -0.0020183208398520947
+        },
+        {
+          "of": -0.00283577898517251
+        },
+        {
+          "Party": -0.009873127564787865
+        },
+        {
+          "for": -0.0021007629111409187
+        },
+        {
+          "Fre": -0.0009380945703014731
+        },
+        {
+          "edom": -0.0001419681793777272
+        },
+        {
+          "is": -0.009228668175637722
+        },
+        {
+          "Netherlands": -0.05530582740902901
+        },
+        {
+          ".": -0.016597291454672813
+        },
+        {
+          "So": -0.050706300884485245
+        },
+        {
+          "country": -0.6448723077774048
+        },
+        {
+          "of": -0.0017983231227844954
+        },
+        {
+          "origin": -0.004307515919208527
+        },
+        {
+          "Eric": -0.19777126610279083
+        },
+        {
+          "Luc": -0.00045908879837952554
+        },
+        {
+          "assen": -0.0004654039512388408
+        },
+        {
+          "and": -0.0013067525578662753
+        },
+        {
+          "Party": -0.0029464424587786198
+        },
+        {
+          "for": -0.0006363751017488539
+        },
+        {
+          "Fre": -0.0003491030656732619
+        },
+        {
+          "edom": -4.100715523236431e-05
+        },
+        {
+          "have": -0.020039012655615807
+        },
+        {
+          "in": -0.0009545299108140171
+        },
+        {
+          "common": -0.0005818104837089777
+        },
+        {
+          "is": -0.00824547465890646
+        },
+        {
+          "Netherlands": -0.018258826807141304
+        },
+        {
+          ".": -0.007144025061279535
+        },
+        {
+          "<0x0A>": -0.0018722163513302803
+        },
+        {
+          "Answer": -0.0017598869744688272
+        },
+        {
+          ":": -0.00022003613412380219
+        },
+        {
+          "Netherlands": -0.018719321116805077
+        },
+        {
+          "<0x0A>": -0.013812199234962463
+        },
+        {
+          "Question": -0.1497897356748581
+        },
+        {
+          ":": -0.00022492263815365732
+        },
+        {
+          "What": -1.242209792137146
+        },
+        {
+          "is": -1.4612362384796143
+        },
+        {
+          "the": -0.34701433777809143
+        },
+        {
+          "elev": -2.4699230194091797
+        },
+        {
+          "ation": -0.000536655425094068
+        },
+        {
+          "range": -0.1405859887599945
+        },
+        {
+          "for": -0.052826110273599625
+        },
+        {
+          "the": -0.1588270664215088
+        },
+        {
+          "area": -0.2995901107788086
+        },
+        {
+          "that": -0.10001460462808609
+        },
+        {
+          "the": -0.2212144136428833
+        },
+        {
+          "eastern": -1.6367340087890625
+        },
+        {
+          "sector": -0.05567460134625435
+        },
+        {
+          "of": -0.0032633880618959665
+        },
+        {
+          "the": -0.020594803616404533
+        },
+        {
+          "Colorado": -0.21202005445957184
+        },
+        {
+          "or": -0.009243786334991455
+        },
+        {
+          "ogen": -0.00029571453342214227
+        },
+        {
+          "y": -0.0001951265730895102
+        },
+        {
+          "extends": -0.016157284379005432
+        },
+        {
+          "into": -0.005612922832369804
+        },
+        {
+          "?": -0.010977000929415226
+        },
+        {
+          "<0x0A>": -0.0055127497762441635
+        },
+        {
+          "Th": -0.02005852572619915
+        },
+        {
+          "ought": -6.472854875028133e-05
+        },
+        {
+          ":": -0.0005684667266905308
+        },
+        {
+          "Let": -0.016288649290800095
+        },
+        {
+          "'": -0.0013155624037608504
+        },
+        {
+          "s": -5.507317473529838e-05
+        },
+        {
+          "think": -0.0015447123441845179
+        },
+        {
+          "step": -0.0008283997885882854
+        },
+        {
+          "by": -0.00022921319759916514
+        },
+        {
+          "step": -0.0012453190283849835
+        },
+        {
+          ".": -0.0006760457181371748
+        },
+        {
+          "The": -0.0564488060772419
+        },
+        {
+          "eastern": -0.024061452597379684
+        },
+        {
+          "sector": -0.0012284121476113796
+        },
+        {
+          "of": -0.0013047285610809922
+        },
+        {
+          "Colorado": -0.11408601701259613
+        },
+        {
+          "or": -0.004959305748343468
+        },
+        {
+          "ogen": -0.00012134769349358976
+        },
+        {
+          "y": -0.0003432638186495751
+        },
+        {
+          "extends": -0.003906002501025796
+        },
+        {
+          "into": -0.0015551865799352527
+        },
+        {
+          "the": -0.03044007159769535
+        },
+        {
+          "High": -0.028785118833184242
+        },
+        {
+          "Pla": -0.0010350352386012673
+        },
+        {
+          "ins": -6.818538531661034e-05
+        },
+        {
+          ".": -0.025322746485471725
+        },
+        {
+          "High": -0.03432882949709892
+        },
+        {
+          "Pla": -0.0029560700058937073
+        },
+        {
+          "ins": -2.13382354559144e-05
+        },
+        {
+          "rise": -0.025002136826515198
+        },
+        {
+          "in": -0.0017149040941148996
+        },
+        {
+          "elev": -0.0001472126314183697
+        },
+        {
+          "ation": -0.00016318420239258558
+        },
+        {
+          "from": -0.0005383234238252044
+        },
+        {
+          "around": -0.007923717610538006
+        },
+        {
+          "": -0.0009657248156145215
+        },
+        {
+          "1": -0.007102834526449442
+        },
+        {
+          ",": -0.004739242140203714
+        },
+        {
+          "8": -0.0012907992349937558
+        },
+        {
+          "0": -0.0002256377338198945
+        },
+        {
+          "0": -9.417489309271332e-06
+        },
+        {
+          "to": -0.003936044406145811
+        },
+        {
+          "": -0.0003406421164982021
+        },
+        {
+          "7": -0.0020527022425085306
+        },
+        {
+          ",": -0.00034540885826572776
+        },
+        {
+          "0": -0.00022003613412380219
+        },
+        {
+          "0": -1.0847986231965479e-05
+        },
+        {
+          "0": -4.1126360883936286e-05
+        },
+        {
+          "ft": -0.004930955357849598
+        },
+        {
+          ",": -0.013320853933691978
+        },
+        {
+          "so": -0.0008497203234583139
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: What country of origin does Eric Lucassen and Party for Freedom have in common?\nThought 1:Let's think step by step. Country of origin of Eric Lucassen is Netherlands. Country of origin of Party for Freedom is Netherlands. So country of origin Eric Lucassen and Party for Freedom have in common is Netherlands.\nAnswer: Netherlands\nAction 1: MeasureUncertainty [Netherlands]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Netherlands",
+  "summary": {
+    "final_answer": "Netherlands",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

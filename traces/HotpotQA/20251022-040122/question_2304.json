@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2304,
+  "question": "Question: Pablo Jose Ozuna is the cousin of a Dominican professional baseball left fielder who made his MLB debut in what year?",
+  "gold_answer": "2013",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Pablo Jose Ozuna is the cousin of a Dominican professional baseball left fielder who made his MLB debut in what year?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Pablo Jose Ozuna is the cousin of a Dominican professional baseball left fielder who made his MLB debut in what year?\nThought:",
+      "output": "Let's think step by step. Pablo Jose Ozuna is the cousin of a Dominican professional baseball left fielder who made his MLB debut in 2003. So the answer is 2003.\nAnswer: 2003\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of the same name is The Thomas",
+      "probs": [
+        {
+          "Let": -0.008350693620741367
+        },
+        {
+          "'": -0.0005579821881838143
+        },
+        {
+          "s": -2.9444261599564925e-05
+        },
+        {
+          "think": -0.0007951673469506204
+        },
+        {
+          "step": -0.0003873551613651216
+        },
+        {
+          "by": -0.00020001317898277193
+        },
+        {
+          "step": -5.829164365422912e-05
+        },
+        {
+          ".": -0.0006861716392450035
+        },
+        {
+          "Pablo": -0.4624482989311218
+        },
+        {
+          "Jose": -0.010928893461823463
+        },
+        {
+          "O": -0.00214037555269897
+        },
+        {
+          "z": -0.0002965487365145236
+        },
+        {
+          "una": -0.0002932118659373373
+        },
+        {
+          "is": -0.14211007952690125
+        },
+        {
+          "the": -0.16782741248607635
+        },
+        {
+          "cousin": -0.005584235303103924
+        },
+        {
+          "of": -0.0021207479294389486
+        },
+        {
+          "a": -1.4011461734771729
+        },
+        {
+          "Domin": -0.04503650590777397
+        },
+        {
+          "ican": -0.0007616956136189401
+        },
+        {
+          "professional": -0.014986896887421608
+        },
+        {
+          "baseball": -0.0015518538421019912
+        },
+        {
+          "left": -0.07088528573513031
+        },
+        {
+          "fiel": -0.001149232150055468
+        },
+        {
+          "der": -1.0847986231965479e-05
+        },
+        {
+          "who": -2.02376127243042
+        },
+        {
+          "made": -0.13875974714756012
+        },
+        {
+          "his": -0.016473237425088882
+        },
+        {
+          "ML": -0.014383798465132713
+        },
+        {
+          "B": -0.0004012971476186067
+        },
+        {
+          "debut": -0.004283301532268524
+        },
+        {
+          "in": -0.02336435578763485
+        },
+        {
+          "": -0.051858849823474884
+        },
+        {
+          "2": -0.41318732500076294
+        },
+        {
+          "0": -0.00033063191222026944
+        },
+        {
+          "0": -0.19763264060020447
+        },
+        {
+          "3": -1.2800909280776978
+        },
+        {
+          ".": -0.24344447255134583
+        },
+        {
+          "So": -0.8264611959457397
+        },
+        {
+          "the": -0.1353309005498886
+        },
+        {
+          "answer": -0.5886199474334717
+        },
+        {
+          "is": -0.03779832273721695
+        },
+        {
+          "": -0.01459975354373455
+        },
+        {
+          "2": -0.0005864569102413952
+        },
+        {
+          "0": -0.0001787979417713359
+        },
+        {
+          "0": -0.0002739054325502366
+        },
+        {
+          "3": -0.0009302341495640576
+        },
+        {
+          ".": -0.02215270884335041
+        },
+        {
+          "<0x0A>": -0.0028143818490207195
+        },
+        {
+          "Answer": -0.002554964739829302
+        },
+        {
+          ":": -0.0005318895564414561
+        },
+        {
+          "": -0.0018206939566880465
+        },
+        {
+          "2": -0.0001954841281985864
+        },
+        {
+          "0": -5.507317473529838e-05
+        },
+        {
+          "0": -0.00013672371278516948
+        },
+        {
+          "3": -0.0004234609368722886
+        },
+        {
+          "<0x0A>": -0.0173500869423151
+        },
+        {
+          "Question": -0.16808107495307922
+        },
+        {
+          ":": -0.000285584683297202
+        },
+        {
+          "What": -1.5156636238098145
+        },
+        {
+          "is": -1.1861788034439087
+        },
+        {
+          "the": -0.3829422891139984
+        },
+        {
+          "name": -2.468259572982788
+        },
+        {
+          "of": -0.048046428710222244
+        },
+        {
+          "the": -0.4545709490776062
+        },
+        {
+          "": -3.245941162109375
+        },
+        {
+          "1": -0.7173622250556946
+        },
+        {
+          "9": -0.19908292591571808
+        },
+        {
+          "9": -1.290740728378296
+        },
+        {
+          "9": -2.043354034423828
+        },
+        {
+          "film": -1.5850870609283447
+        },
+        {
+          "that": -1.7805280685424805
+        },
+        {
+          "is": -2.0093934535980225
+        },
+        {
+          "a": -1.5477932691574097
+        },
+        {
+          "re": -1.2970255613327026
+        },
+        {
+          "make": -0.034144170582294464
+        },
+        {
+          "of": -0.018898196518421173
+        },
+        {
+          "the": -0.7945664525032043
+        },
+        {
+          "": -0.2870514988899231
+        },
+        {
+          "1": -0.01196528784930706
+        },
+        {
+          "9": -0.001737395767122507
+        },
+        {
+          "6": -1.3381657600402832
+        },
+        {
+          "9": -1.8206803798675537
+        },
+        {
+          "film": -0.41728830337524414
+        },
+        {
+          "of": -1.1750612258911133
+        },
+        {
+          "the": -0.0236185472458601
+        },
+        {
+          "same": -0.0029166084714233875
+        },
+        {
+          "name": -0.02640889212489128
+        },
+        {
+          "?": -0.5479766130447388
+        },
+        {
+          "<0x0A>": -0.017107771709561348
+        },
+        {
+          "Th": -0.004614538047462702
+        },
+        {
+          "ought": -8.34461570775602e-06
+        },
+        {
+          ":": -0.00016807096835691482
+        },
+        {
+          "Let": -0.011070732958614826
+        },
+        {
+          "'": -0.00031025364296510816
+        },
+        {
+          "s": -6.437280717364047e-06
+        },
+        {
+          "think": -0.00077622797107324
+        },
+        {
+          "step": -0.0006538875168189406
+        },
+        {
+          "by": -0.0001289761275984347
+        },
+        {
+          "step": -0.002457695547491312
+        },
+        {
+          ".": -0.0004021312633994967
+        },
+        {
+          "The": -0.6221836805343628
+        },
+        {
+          "": -0.3671836256980896
+        },
+        {
+          "1": -0.012498975731432438
+        },
+        {
+          "9": -0.0003184764937032014
+        },
+        {
+          "9": -0.314937949180603
+        },
+        {
+          "9": -0.0022191202733665705
+        },
+        {
+          "film": -0.04888888821005821
+        },
+        {
+          "that": -0.576482892036438
+        },
+        {
+          "is": -0.0056028468534350395
+        },
+        {
+          "a": -0.007235513534396887
+        },
+        {
+          "re": -0.0014969820622354746
+        },
+        {
+          "make": -0.0003361137059982866
+        },
+        {
+          "of": -0.0022078203037381172
+        },
+        {
+          "the": -0.01195963378995657
+        },
+        {
+          "": -0.0016769407084211707
+        },
+        {
+          "1": -0.00028308198670856655
+        },
+        {
+          "9": -0.00019596086349338293
+        },
+        {
+          "6": -0.003804589621722698
+        },
+        {
+          "9": -0.001122916815802455
+        },
+        {
+          "film": -0.0030592328403145075
+        },
+        {
+          "of": -0.04889626428484917
+        },
+        {
+          "the": -0.0012703214306384325
+        },
+        {
+          "same": -0.00030322244856506586
+        },
+        {
+          "name": -0.0009171332349069417
+        },
+        {
+          "is": -0.021668128669261932
+        },
+        {
+          "The": -0.7387799620628357
+        },
+        {
+          "Thomas": -0.21407940983772278
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Pablo Jose Ozuna is the cousin of a Dominican professional baseball left fielder who made his MLB debut in what year?\nThought 1:Let's think step by step. Pablo Jose Ozuna is the cousin of a Dominican professional baseball left fielder who made his MLB debut in 2003. So the answer is 2003.\nAnswer: 2003\nAction 1: MeasureUncertainty [2003]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 2003",
+  "summary": {
+    "final_answer": "2003",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1885,
+  "question": "Question: What star of Parks and Recreation appeared in November?",
+  "gold_answer": "Nick Offerman",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What star of Parks and Recreation appeared in November?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What star of Parks and Recreation appeared in November?\nThought:",
+      "output": "Let's think step by step. November is a 2004 film. Stars of November are Courteney Cox, James Le Gros, and Michael Ealy. Stars of Parks and Recreation are Amy Poehler, Rashida Jones, Aziz Ansari, Nick Offerman, Aubrey Plaza, Chris Pratt, Adam Scott, Rob Lowe, Jim O'Heir, Retta, and Paul Schneider. Stars of November and Parks and Recreation are Courteney Cox.\nAnswer: Courteney Cox\nQuestion: What is the",
+      "probs": [
+        {
+          "Let": -0.017354421317577362
+        },
+        {
+          "'": -0.0004109491710551083
+        },
+        {
+          "s": -2.455681169521995e-05
+        },
+        {
+          "think": -0.0007398966699838638
+        },
+        {
+          "step": -0.0007831366965547204
+        },
+        {
+          "by": -0.00024720950750634074
+        },
+        {
+          "step": -1.3351351299206726e-05
+        },
+        {
+          ".": -0.0006805725861340761
+        },
+        {
+          "November": -1.6139615774154663
+        },
+        {
+          "is": -0.43438172340393066
+        },
+        {
+          "a": -0.18138983845710754
+        },
+        {
+          "": -0.8417917490005493
+        },
+        {
+          "2": -0.1546570211648941
+        },
+        {
+          "0": -0.0018919678404927254
+        },
+        {
+          "0": -0.01574888452887535
+        },
+        {
+          "4": -0.03298646956682205
+        },
+        {
+          "film": -0.9602913856506348
+        },
+        {
+          ".": -0.9039375185966492
+        },
+        {
+          "Stars": -2.124476671218872
+        },
+        {
+          "of": -0.04581648111343384
+        },
+        {
+          "November": -0.31154054403305054
+        },
+        {
+          "are": -0.19109582901000977
+        },
+        {
+          "Cour": -0.06726745516061783
+        },
+        {
+          "ten": -0.0004325169720686972
+        },
+        {
+          "ey": -0.0007166677969507873
+        },
+        {
+          "C": -0.00010227633902104571
+        },
+        {
+          "ox": -1.311301275563892e-06
+        },
+        {
+          ",": -0.17175127565860748
+        },
+        {
+          "James": -0.17895463109016418
+        },
+        {
+          "Le": -0.0006269635050557554
+        },
+        {
+          "Gros": -0.6636307835578918
+        },
+        {
+          ",": -0.031074708327651024
+        },
+        {
+          "and": -0.6643239259719849
+        },
+        {
+          "Michael": -0.6272782683372498
+        },
+        {
+          "E": -0.006278433836996555
+        },
+        {
+          "aly": -0.021334443241357803
+        },
+        {
+          ".": -0.03650153428316116
+        },
+        {
+          "Stars": -1.192307949066162
+        },
+        {
+          "of": -0.005506585352122784
+        },
+        {
+          "Park": -0.024729572236537933
+        },
+        {
+          "s": -0.0034901914186775684
+        },
+        {
+          "and": -0.0019043420907109976
+        },
+        {
+          "Rec": -0.000942977552767843
+        },
+        {
+          "re": -0.000922969076782465
+        },
+        {
+          "ation": -0.0007130940794013441
+        },
+        {
+          "are": -0.036602672189474106
+        },
+        {
+          "Amy": -0.2231108397245407
+        },
+        {
+          "Po": -0.0013809201773256063
+        },
+        {
+          "eh": -0.001865434111095965
+        },
+        {
+          "ler": -0.00020239688456058502
+        },
+        {
+          ",": -0.037938009947538376
+        },
+        {
+          "R": -0.48392701148986816
+        },
+        {
+          "ash": -0.00021443451987579465
+        },
+        {
+          "ida": -0.0002076410164590925
+        },
+        {
+          "Jones": -0.0003108495147898793
+        },
+        {
+          ",": -0.009339098818600178
+        },
+        {
+          "Az": -0.5993006229400635
+        },
+        {
+          "iz": -5.8053239627042785e-05
+        },
+        {
+          "Ans": -0.0007066613179631531
+        },
+        {
+          "ari": -0.0005494038923643529
+        },
+        {
+          ",": -0.03993510454893112
+        },
+        {
+          "Nick": -0.34711113572120667
+        },
+        {
+          "Of": -0.0010387268848717213
+        },
+        {
+          "fer": -2.8967437174287625e-05
+        },
+        {
+          "man": -0.0004898302140645683
+        },
+        {
+          ",": -0.02509595826268196
+        },
+        {
+          "A": -0.25921380519866943
+        },
+        {
+          "ubre": -0.000440262199845165
+        },
+        {
+          "y": -1.4543427823809907e-05
+        },
+        {
+          "Pla": -0.0008673481643199921
+        },
+        {
+          "za": -0.0008006466086953878
+        },
+        {
+          ",": -0.019210126250982285
+        },
+        {
+          "Chris": -0.3760862648487091
+        },
+        {
+          "Pr": -0.002477792324498296
+        },
+        {
+          "att": -0.0007566926069557667
+        },
+        {
+          ",": -0.012081069871783257
+        },
+        {
+          "Adam": -0.07266119867563248
+        },
+        {
+          "Scott": -0.00040451448876410723
+        },
+        {
+          ",": -0.009319493547081947
+        },
+        {
+          "Rob": -0.10056186467409134
+        },
+        {
+          "L": -0.00233056559227407
+        },
+        {
+          "owe": -1.1920928244535389e-07
+        },
+        {
+          ",": -0.013922478072345257
+        },
+        {
+          "Jim": -0.47663867473602295
+        },
+        {
+          "O": -0.0013318725395947695
+        },
+        {
+          "'": -0.01979851722717285
+        },
+        {
+          "He": -0.0041318293660879135
+        },
+        {
+          "ir": -3.7431014789035544e-05
+        },
+        {
+          ",": -0.013485290110111237
+        },
+        {
+          "Ret": -0.15909288823604584
+        },
+        {
+          "ta": -2.3603161025675945e-05
+        },
+        {
+          ",": -0.044157031923532486
+        },
+        {
+          "and": -0.3754490911960602
+        },
+        {
+          "Paul": -0.27358266711235046
+        },
+        {
+          "Schne": -0.0026466362178325653
+        },
+        {
+          "ider": -0.0005581013392657042
+        },
+        {
+          ".": -0.0165669247508049
+        },
+        {
+          "Stars": -1.2046247720718384
+        },
+        {
+          "of": -0.09646380692720413
+        },
+        {
+          "November": -0.2069842368364334
+        },
+        {
+          "and": -0.5368358492851257
+        },
+        {
+          "Park": -0.15997391939163208
+        },
+        {
+          "s": -0.0005011494504287839
+        },
+        {
+          "and": -0.001277822069823742
+        },
+        {
+          "Rec": -0.0017897554207593203
+        },
+        {
+          "re": -0.0019277813844382763
+        },
+        {
+          "ation": -0.0001691436773398891
+        },
+        {
+          "are": -0.8586901426315308
+        },
+        {
+          "Cour": -0.6443917155265808
+        },
+        {
+          "ten": -0.00014661667228210717
+        },
+        {
+          "ey": -0.001110771088860929
+        },
+        {
+          "C": -0.0006324436399154365
+        },
+        {
+          "ox": -4.017272294731811e-05
+        },
+        {
+          ".": -0.7800508141517639
+        },
+        {
+          "<0x0A>": -0.7230648994445801
+        },
+        {
+          "Answer": -0.003738558851182461
+        },
+        {
+          ":": -0.0003014348621945828
+        },
+        {
+          "Cour": -0.00801951065659523
+        },
+        {
+          "ten": -4.4225667807040736e-05
+        },
+        {
+          "ey": -0.0008668717346154153
+        },
+        {
+          "C": -0.0003483880718704313
+        },
+        {
+          "ox": -1.7881377516459906e-06
+        },
+        {
+          "<0x0A>": -0.022570041939616203
+        },
+        {
+          "Question": -0.2825332283973694
+        },
+        {
+          ":": -0.0002836778585333377
+        },
+        {
+          "What": -1.3071919679641724
+        },
+        {
+          "is": -1.4530612230300903
+        },
+        {
+          "the": -0.4675615727901459
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: What star of Parks and Recreation appeared in November?\nThought 1:Let's think step by step. November is a 2004 film. Stars of November are Courteney Cox, James Le Gros, and Michael Ealy. Stars of Parks and Recreation are Amy Poehler, Rashida Jones, Aziz Ansari, Nick Offerman, Aubrey Plaza, Chris Pratt, Adam Scott, Rob Lowe, Jim O'Heir, Retta, and Paul Schneider. Stars of November and Parks and Recreation are Courteney Cox.\nAnswer: Courteney Cox\nAction 1: MeasureUncertainty [Courteney Cox]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Courteney Cox",
+  "summary": {
+    "final_answer": "Courteney Cox",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

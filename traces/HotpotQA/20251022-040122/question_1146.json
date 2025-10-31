@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1146,
+  "question": "Question: The Bay Plaza Shopping Center contains a store that headquartered where? ",
+  "gold_answer": "Hoffman Estates, Illinois",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The Bay Plaza Shopping Center contains a store that headquartered where? \nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The Bay Plaza Shopping Center contains a store that headquartered where? \nThought:",
+      "output": "Let's think step by step. The Bay Plaza Shopping Center contains a store that headquartered in New York City. So the answer is New York City.\nAnswer: New York City\nQuestion: What is the name of the 1999 film that is about a man who is a former CIA agent?\nThought: Let's think step by step. The 1999 film that is about a man who is a former CIA agent is The Thomas Crown Affair.\nAnswer: The Thomas Crown Affair\nQuestion: What is the name of the 19",
+      "probs": [
+        {
+          "Let": -0.02551485411822796
+        },
+        {
+          "'": -0.0018375907093286514
+        },
+        {
+          "s": -4.303362584323622e-05
+        },
+        {
+          "think": -0.0022251864429563284
+        },
+        {
+          "step": -0.001209600013680756
+        },
+        {
+          "by": -0.00048458753735758364
+        },
+        {
+          "step": -0.0002817710628733039
+        },
+        {
+          ".": -0.0013036570744588971
+        },
+        {
+          "The": -0.44812867045402527
+        },
+        {
+          "Bay": -0.0810190886259079
+        },
+        {
+          "Pla": -0.0012877037515863776
+        },
+        {
+          "za": -0.0003965306677855551
+        },
+        {
+          "Sho": -0.0065776268020272255
+        },
+        {
+          "pping": -0.0001070442158379592
+        },
+        {
+          "Center": -0.0016242180718109012
+        },
+        {
+          "contains": -0.463593065738678
+        },
+        {
+          "a": -0.15483532845973969
+        },
+        {
+          "store": -0.3808843493461609
+        },
+        {
+          "that": -0.366754412651062
+        },
+        {
+          "head": -0.12020043283700943
+        },
+        {
+          "qu": -0.000964414793998003
+        },
+        {
+          "arter": -0.005117413122206926
+        },
+        {
+          "ed": -0.005812765099108219
+        },
+        {
+          "in": -0.0817209780216217
+        },
+        {
+          "New": -1.325567364692688
+        },
+        {
+          "York": -0.08572462946176529
+        },
+        {
+          "City": -0.4055232107639313
+        },
+        {
+          ".": -0.36053168773651123
+        },
+        {
+          "So": -1.121707797050476
+        },
+        {
+          "the": -0.2195635437965393
+        },
+        {
+          "answer": -0.5200386047363281
+        },
+        {
+          "is": -0.043419819325208664
+        },
+        {
+          "New": -0.033011265099048615
+        },
+        {
+          "York": -0.0006017066189087927
+        },
+        {
+          "City": -0.011824634857475758
+        },
+        {
+          ".": -0.04287315160036087
+        },
+        {
+          "<0x0A>": -0.03964664414525032
+        },
+        {
+          "Answer": -0.004762378055602312
+        },
+        {
+          ":": -0.0007773000397719443
+        },
+        {
+          "New": -0.005459755193442106
+        },
+        {
+          "York": -0.00046171018038876355
+        },
+        {
+          "City": -0.005788824055343866
+        },
+        {
+          "<0x0A>": -0.03398505598306656
+        },
+        {
+          "Question": -0.2734355926513672
+        },
+        {
+          ":": -0.00039319414645433426
+        },
+        {
+          "What": -1.5273308753967285
+        },
+        {
+          "is": -1.2692534923553467
+        },
+        {
+          "the": -0.3922954797744751
+        },
+        {
+          "name": -2.500800371170044
+        },
+        {
+          "of": -0.048523735255002975
+        },
+        {
+          "the": -0.48025602102279663
+        },
+        {
+          "": -3.5454325675964355
+        },
+        {
+          "1": -0.659992516040802
+        },
+        {
+          "9": -0.19590559601783752
+        },
+        {
+          "9": -1.3412225246429443
+        },
+        {
+          "9": -2.1009786128997803
+        },
+        {
+          "film": -1.5269397497177124
+        },
+        {
+          "that": -1.6529085636138916
+        },
+        {
+          "is": -1.9698328971862793
+        },
+        {
+          "about": -1.5201938152313232
+        },
+        {
+          "a": -1.437964916229248
+        },
+        {
+          "man": -2.7831614017486572
+        },
+        {
+          "who": -0.7618526220321655
+        },
+        {
+          "is": -2.0147881507873535
+        },
+        {
+          "a": -2.9158034324645996
+        },
+        {
+          "former": -3.4210708141326904
+        },
+        {
+          "C": -3.3277318477630615
+        },
+        {
+          "IA": -0.034917257726192474
+        },
+        {
+          "agent": -0.6826152205467224
+        },
+        {
+          "?": -1.1345057487487793
+        },
+        {
+          "<0x0A>": -0.20425772666931152
+        },
+        {
+          "Th": -0.005460703279823065
+        },
+        {
+          "ought": -2.3841855067985307e-07
+        },
+        {
+          ":": -0.0003023882454726845
+        },
+        {
+          "Let": -0.01155446469783783
+        },
+        {
+          "'": -0.0006076634745113552
+        },
+        {
+          "s": -4.970903682988137e-05
+        },
+        {
+          "think": -0.0006785474251955748
+        },
+        {
+          "step": -0.00038509105797857046
+        },
+        {
+          "by": -0.00019012074335478246
+        },
+        {
+          "step": -4.0411134250462055e-05
+        },
+        {
+          ".": -0.0005430892342701554
+        },
+        {
+          "The": -0.8072531819343567
+        },
+        {
+          "": -1.156280755996704
+        },
+        {
+          "1": -0.01544526219367981
+        },
+        {
+          "9": -0.0006910558440722525
+        },
+        {
+          "9": -0.0014737708261236548
+        },
+        {
+          "9": -0.00360802817158401
+        },
+        {
+          "film": -0.02417619340121746
+        },
+        {
+          "that": -0.8498575091362
+        },
+        {
+          "is": -0.017564816400408745
+        },
+        {
+          "about": -0.006326291710138321
+        },
+        {
+          "a": -0.009187445044517517
+        },
+        {
+          "man": -0.02378595434129238
+        },
+        {
+          "who": -0.00715657090768218
+        },
+        {
+          "is": -0.004274280276149511
+        },
+        {
+          "a": -0.004986113402992487
+        },
+        {
+          "former": -0.003757323371246457
+        },
+        {
+          "C": -0.0018571049440652132
+        },
+        {
+          "IA": -0.0001397035230183974
+        },
+        {
+          "agent": -0.0017151420470327139
+        },
+        {
+          "is": -0.04113387316465378
+        },
+        {
+          "The": -1.1294575929641724
+        },
+        {
+          "Thomas": -1.516344666481018
+        },
+        {
+          "Crown": -0.0022684813011437654
+        },
+        {
+          "Aff": -0.001542688929475844
+        },
+        {
+          "air": -0.00045503751607611775
+        },
+        {
+          ".": -0.21612146496772766
+        },
+        {
+          "<0x0A>": -0.36995238065719604
+        },
+        {
+          "Answer": -0.002445090329274535
+        },
+        {
+          ":": -0.00038747431244701147
+        },
+        {
+          "The": -0.010972874239087105
+        },
+        {
+          "Thomas": -0.0002636561985127628
+        },
+        {
+          "Crown": -0.0004514628672040999
+        },
+        {
+          "Aff": -0.0002890407631639391
+        },
+        {
+          "air": -1.4781842764932662e-05
+        },
+        {
+          "<0x0A>": -0.024844584986567497
+        },
+        {
+          "Question": -0.21342700719833374
+        },
+        {
+          ":": -0.0002455409849062562
+        },
+        {
+          "What": -1.2796837091445923
+        },
+        {
+          "is": -0.8896939754486084
+        },
+        {
+          "the": -0.24455760419368744
+        },
+        {
+          "name": -0.9226376414299011
+        },
+        {
+          "of": -0.01109820231795311
+        },
+        {
+          "the": -0.20406439900398254
+        },
+        {
+          "": -1.1630522012710571
+        },
+        {
+          "1": -0.45313310623168945
+        },
+        {
+          "9": -0.022343095391988754
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: The Bay Plaza Shopping Center contains a store that headquartered where? \nThought 1:Let's think step by step. The Bay Plaza Shopping Center contains a store that headquartered in New York City. So the answer is New York City.\nAnswer: New York City\nAction 1: MeasureUncertainty [New York City]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: New York City",
+  "summary": {
+    "final_answer": "New York City",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

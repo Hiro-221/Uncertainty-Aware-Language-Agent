@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2033,
+  "question": "Question: How many rooms are in the building built in 1883 at Garden City in Nassau County, New York?",
+  "gold_answer": "500-room",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many rooms are in the building built in 1883 at Garden City in Nassau County, New York?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many rooms are in the building built in 1883 at Garden City in Nassau County, New York?\nThought:",
+      "output": "Let's think step by step. The building built in 1883 at Garden City in Nassau County, New York is Cathedral of the Incarnation. Cathedral of the Incarnation has 1 room.\nAnswer: 1\nQuestion: What is the name of the 1999 film directed by John Woo?\nThought: Let's think step by step. The 1999 film directed by John Woo is Mission: Impossible 2.\nAnswer: Mission: Impossible 2\nQuestion: What is the name of the 19",
+      "probs": [
+        {
+          "Let": -0.013675568625330925
+        },
+        {
+          "'": -0.00035982808913104236
+        },
+        {
+          "s": -5.23315102327615e-05
+        },
+        {
+          "think": -0.0020712607074528933
+        },
+        {
+          "step": -0.0006333967321552336
+        },
+        {
+          "by": -0.0001734344696160406
+        },
+        {
+          "step": -1.5139465176616795e-05
+        },
+        {
+          ".": -0.0005943200667388737
+        },
+        {
+          "The": -0.8782203197479248
+        },
+        {
+          "building": -0.20193111896514893
+        },
+        {
+          "built": -0.214588463306427
+        },
+        {
+          "in": -0.008094009943306446
+        },
+        {
+          "": -0.004396297503262758
+        },
+        {
+          "1": -0.00011526874004630372
+        },
+        {
+          "8": -0.0008144637104123831
+        },
+        {
+          "8": -0.001416156766936183
+        },
+        {
+          "3": -0.0008681819308549166
+        },
+        {
+          "at": -0.07101354002952576
+        },
+        {
+          "Garden": -0.0017269235104322433
+        },
+        {
+          "City": -0.0020419952925294638
+        },
+        {
+          "in": -0.05426734685897827
+        },
+        {
+          "N": -0.0027023961301892996
+        },
+        {
+          "ass": -0.00015078838623594493
+        },
+        {
+          "au": -9.917721035890281e-05
+        },
+        {
+          "County": -0.002315223217010498
+        },
+        {
+          ",": -0.017850346863269806
+        },
+        {
+          "New": -0.0020236745476722717
+        },
+        {
+          "York": -0.000248043768806383
+        },
+        {
+          "is": -0.4336758852005005
+        },
+        {
+          "C": -1.591007947921753
+        },
+        {
+          "athedral": -0.009752131067216396
+        },
+        {
+          "of": -0.029468495398759842
+        },
+        {
+          "the": -0.017890745773911476
+        },
+        {
+          "Inc": -0.010825948789715767
+        },
+        {
+          "arn": -1.6927575416048057e-05
+        },
+        {
+          "ation": -6.007967749610543e-05
+        },
+        {
+          ".": -0.31573188304901123
+        },
+        {
+          "C": -0.8445671200752258
+        },
+        {
+          "athedral": -0.002120985882356763
+        },
+        {
+          "of": -0.004475102294236422
+        },
+        {
+          "the": -0.0018626974197104573
+        },
+        {
+          "Inc": -0.0010439666220918298
+        },
+        {
+          "arn": -7.83174327807501e-05
+        },
+        {
+          "ation": -0.0001408954558428377
+        },
+        {
+          "has": -0.25150251388549805
+        },
+        {
+          "": -0.31217098236083984
+        },
+        {
+          "1": -1.162615180015564
+        },
+        {
+          "room": -1.652784824371338
+        },
+        {
+          ".": -0.6767294406890869
+        },
+        {
+          "<0x0A>": -0.1648697555065155
+        },
+        {
+          "Answer": -0.002266221446916461
+        },
+        {
+          ":": -0.0006376855308189988
+        },
+        {
+          "": -0.04054874926805496
+        },
+        {
+          "1": -0.0009528625523671508
+        },
+        {
+          "<0x0A>": -0.1999070942401886
+        },
+        {
+          "Question": -0.18980954587459564
+        },
+        {
+          ":": -0.00021217002358753234
+        },
+        {
+          "What": -1.4546687602996826
+        },
+        {
+          "is": -1.129065990447998
+        },
+        {
+          "the": -0.36337244510650635
+        },
+        {
+          "name": -2.3709871768951416
+        },
+        {
+          "of": -0.043162621557712555
+        },
+        {
+          "the": -0.38908934593200684
+        },
+        {
+          "": -3.0746278762817383
+        },
+        {
+          "1": -0.5454938411712646
+        },
+        {
+          "9": -0.25552597641944885
+        },
+        {
+          "9": -1.4688564538955688
+        },
+        {
+          "9": -2.1067724227905273
+        },
+        {
+          "film": -1.5607869625091553
+        },
+        {
+          "directed": -1.900877594947815
+        },
+        {
+          "by": -0.015143544413149357
+        },
+        {
+          "John": -3.6313681602478027
+        },
+        {
+          "W": -2.4543862342834473
+        },
+        {
+          "oo": -0.3040662407875061
+        },
+        {
+          "?": -0.9116541147232056
+        },
+        {
+          "<0x0A>": -0.011261825449764729
+        },
+        {
+          "Th": -0.00575717817991972
+        },
+        {
+          "ought": -9.894321920000948e-06
+        },
+        {
+          ":": -0.00020072828920092434
+        },
+        {
+          "Let": -0.016932561993598938
+        },
+        {
+          "'": -0.0003299168893136084
+        },
+        {
+          "s": -1.3232143828645349e-05
+        },
+        {
+          "think": -0.0009611992281861603
+        },
+        {
+          "step": -0.0003623305819928646
+        },
+        {
+          "by": -0.0001102625101339072
+        },
+        {
+          "step": -0.00014590153296012431
+        },
+        {
+          ".": -0.00038890427094884217
+        },
+        {
+          "The": -1.3043744564056396
+        },
+        {
+          "": -0.3924199640750885
+        },
+        {
+          "1": -0.008717456832528114
+        },
+        {
+          "9": -0.00029595286468975246
+        },
+        {
+          "9": -0.005647892132401466
+        },
+        {
+          "9": -0.00712911132723093
+        },
+        {
+          "film": -0.03739120438694954
+        },
+        {
+          "directed": -0.03020264394581318
+        },
+        {
+          "by": -0.0009658439084887505
+        },
+        {
+          "John": -0.0038484097458422184
+        },
+        {
+          "W": -0.0007765853079035878
+        },
+        {
+          "oo": -0.00022098960471339524
+        },
+        {
+          "is": -0.033552058041095734
+        },
+        {
+          "Mission": -0.9126191139221191
+        },
+        {
+          ":": -0.0750541239976883
+        },
+        {
+          "Im": -0.0036653971765190363
+        },
+        {
+          "possible": -0.0003895000845659524
+        },
+        {
+          "": -0.6050742268562317
+        },
+        {
+          "2": -0.00035601475974544883
+        },
+        {
+          ".": -0.0821467936038971
+        },
+        {
+          "<0x0A>": -0.09251561015844345
+        },
+        {
+          "Answer": -0.0016432604752480984
+        },
+        {
+          ":": -0.00025960413040593266
+        },
+        {
+          "Mission": -0.0039177583530545235
+        },
+        {
+          ":": -0.005975833162665367
+        },
+        {
+          "Im": -0.0013997290516272187
+        },
+        {
+          "possible": -1.3470558769768104e-05
+        },
+        {
+          "": -0.017762400209903717
+        },
+        {
+          "2": -0.00012063252506777644
+        },
+        {
+          "<0x0A>": -0.019089436158537865
+        },
+        {
+          "Question": -0.2269355058670044
+        },
+        {
+          ":": -0.0001908358681248501
+        },
+        {
+          "What": -1.2098430395126343
+        },
+        {
+          "is": -0.8478396534919739
+        },
+        {
+          "the": -0.21568889915943146
+        },
+        {
+          "name": -1.2001385688781738
+        },
+        {
+          "of": -0.014183664694428444
+        },
+        {
+          "the": -0.16583923995494843
+        },
+        {
+          "": -1.1874581575393677
+        },
+        {
+          "1": -0.42020535469055176
+        },
+        {
+          "9": -0.05051308125257492
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: How many rooms are in the building built in 1883 at Garden City in Nassau County, New York?\nThought 1:Let's think step by step. The building built in 1883 at Garden City in Nassau County, New York is Cathedral of the Incarnation. Cathedral of the Incarnation has 1 room.\nAnswer: 1\nAction 1: MeasureUncertainty [1]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 1",
+  "summary": {
+    "final_answer": "1",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

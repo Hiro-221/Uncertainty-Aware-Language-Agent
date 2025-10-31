@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2854,
+  "question": "Question: Where was the builder of the Hyundai Stellar located?",
+  "gold_answer": "Seoul",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Where was the builder of the Hyundai Stellar located?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Where was the builder of the Hyundai Stellar located?\nThought:",
+      "output": "Let's think step by step. The Hyundai Stellar was built in South Korea.\nAnswer: South Korea\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. The 1999 film that was directed by John Woo is Mission: Impossible II.\nAnswer: Mission: Impossible II\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. The 1",
+      "probs": [
+        {
+          "Let": -0.017354538664221764
+        },
+        {
+          "'": -0.0006323245470412076
+        },
+        {
+          "s": -3.981510963058099e-05
+        },
+        {
+          "think": -0.0012238877825438976
+        },
+        {
+          "step": -0.0005217621219344437
+        },
+        {
+          "by": -9.500529267825186e-05
+        },
+        {
+          "step": -1.2755313036905136e-05
+        },
+        {
+          ".": -0.000659248442389071
+        },
+        {
+          "The": -0.8255764245986938
+        },
+        {
+          "Hy": -0.5147707462310791
+        },
+        {
+          "und": -0.0008141063735820353
+        },
+        {
+          "ai": -8.49926145747304e-05
+        },
+        {
+          "St": -0.030670853331685066
+        },
+        {
+          "ell": -0.0008484101272188127
+        },
+        {
+          "ar": -0.0003583981015253812
+        },
+        {
+          "was": -0.17308275401592255
+        },
+        {
+          "built": -0.5281206369400024
+        },
+        {
+          "in": -0.6240738034248352
+        },
+        {
+          "South": -0.8776144981384277
+        },
+        {
+          "Korea": -0.0039175208657979965
+        },
+        {
+          ".": -0.373334139585495
+        },
+        {
+          "<0x0A>": -0.9557517766952515
+        },
+        {
+          "Answer": -0.003825609339401126
+        },
+        {
+          ":": -0.0004508670826908201
+        },
+        {
+          "South": -0.011253220960497856
+        },
+        {
+          "Korea": -0.0011192255187779665
+        },
+        {
+          "<0x0A>": -0.01863390952348709
+        },
+        {
+          "Question": -0.22606857120990753
+        },
+        {
+          ":": -0.00042024365393444896
+        },
+        {
+          "What": -1.4004755020141602
+        },
+        {
+          "is": -1.2422794103622437
+        },
+        {
+          "the": -0.4277878701686859
+        },
+        {
+          "name": -2.7287614345550537
+        },
+        {
+          "of": -0.059895411133766174
+        },
+        {
+          "the": -0.4602673649787903
+        },
+        {
+          "": -3.397597074508667
+        },
+        {
+          "1": -0.6423012614250183
+        },
+        {
+          "9": -0.18385116755962372
+        },
+        {
+          "9": -1.3353155851364136
+        },
+        {
+          "9": -2.1192727088928223
+        },
+        {
+          "film": -1.6239217519760132
+        },
+        {
+          "that": -1.8933533430099487
+        },
+        {
+          "was": -2.051011562347412
+        },
+        {
+          "directed": -1.1890923976898193
+        },
+        {
+          "by": -0.02272387407720089
+        },
+        {
+          "John": -3.5424981117248535
+        },
+        {
+          "W": -2.396622657775879
+        },
+        {
+          "oo": -0.28970468044281006
+        },
+        {
+          "?": -0.8112370371818542
+        },
+        {
+          "<0x0A>": -0.010657301172614098
+        },
+        {
+          "Th": -0.006296440027654171
+        },
+        {
+          "ought": -3.611976353568025e-05
+        },
+        {
+          ":": -0.00018189683032687753
+        },
+        {
+          "Let": -0.016164321452379227
+        },
+        {
+          "'": -0.0005267662927508354
+        },
+        {
+          "s": -1.3828182090946939e-05
+        },
+        {
+          "think": -0.0007135705673135817
+        },
+        {
+          "step": -0.0007033258443698287
+        },
+        {
+          "by": -0.0001720042055239901
+        },
+        {
+          "step": -4.935142715112306e-05
+        },
+        {
+          ".": -0.0004648081958293915
+        },
+        {
+          "The": -1.3493049144744873
+        },
+        {
+          "": -0.7464312314987183
+        },
+        {
+          "1": -0.009337090887129307
+        },
+        {
+          "9": -0.0006185048841871321
+        },
+        {
+          "9": -0.0026324877981096506
+        },
+        {
+          "9": -0.010121330618858337
+        },
+        {
+          "film": -0.05674270913004875
+        },
+        {
+          "that": -0.7807592153549194
+        },
+        {
+          "was": -0.05623020976781845
+        },
+        {
+          "directed": -0.004317249171435833
+        },
+        {
+          "by": -0.0018104605842381716
+        },
+        {
+          "John": -0.0031918552704155445
+        },
+        {
+          "W": -0.0010249129263684154
+        },
+        {
+          "oo": -0.00029571453342214227
+        },
+        {
+          "is": -0.11044339090585709
+        },
+        {
+          "Mission": -1.0033307075500488
+        },
+        {
+          ":": -0.08039414882659912
+        },
+        {
+          "Im": -0.0033906372264027596
+        },
+        {
+          "possible": -0.000507464399561286
+        },
+        {
+          "II": -0.43402543663978577
+        },
+        {
+          ".": -0.10653532296419144
+        },
+        {
+          "<0x0A>": -0.023693872615695
+        },
+        {
+          "Answer": -0.0016853903653100133
+        },
+        {
+          ":": -0.0002708068350329995
+        },
+        {
+          "Mission": -0.004510585684329271
+        },
+        {
+          ":": -0.012905527837574482
+        },
+        {
+          "Im": -0.0017135950038209558
+        },
+        {
+          "possible": -4.7205765440594405e-05
+        },
+        {
+          "II": -0.010032583959400654
+        },
+        {
+          "<0x0A>": -0.021625082939863205
+        },
+        {
+          "Question": -0.18335500359535217
+        },
+        {
+          ":": -0.0002008474839385599
+        },
+        {
+          "What": -1.2479891777038574
+        },
+        {
+          "is": -0.9825019836425781
+        },
+        {
+          "the": -0.2355237752199173
+        },
+        {
+          "name": -1.1070952415466309
+        },
+        {
+          "of": -0.016099806874990463
+        },
+        {
+          "the": -0.1560688614845276
+        },
+        {
+          "": -1.125736951828003
+        },
+        {
+          "1": -0.4211137294769287
+        },
+        {
+          "9": -0.03136056661605835
+        },
+        {
+          "9": -0.5768356323242188
+        },
+        {
+          "9": -0.5352797508239746
+        },
+        {
+          "film": -0.06281757354736328
+        },
+        {
+          "that": -0.029785245656967163
+        },
+        {
+          "was": -0.06539863348007202
+        },
+        {
+          "directed": -0.06341230869293213
+        },
+        {
+          "by": -0.000995974289253354
+        },
+        {
+          "John": -0.4704434871673584
+        },
+        {
+          "W": -0.01474166102707386
+        },
+        {
+          "oo": -0.00031120702624320984
+        },
+        {
+          "?": -0.030027052387595177
+        },
+        {
+          "<0x0A>": -0.006279855500906706
+        },
+        {
+          "Th": -0.024842724204063416
+        },
+        {
+          "ought": -6.437280717364047e-06
+        },
+        {
+          ":": -0.0002735478919930756
+        },
+        {
+          "Let": -0.011133924126625061
+        },
+        {
+          "'": -0.00033706706017255783
+        },
+        {
+          "s": -2.169585604860913e-05
+        },
+        {
+          "think": -0.0005863377591595054
+        },
+        {
+          "step": -0.0005256939912214875
+        },
+        {
+          "by": -0.00013267113536130637
+        },
+        {
+          "step": -1.1920922133867862e-06
+        },
+        {
+          ".": -0.00041929035796783864
+        },
+        {
+          "The": -0.08781698346138
+        },
+        {
+          "": -0.010823236778378487
+        },
+        {
+          "1": -0.005982231814414263
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Where was the builder of the Hyundai Stellar located?\nThought 1:Let's think step by step. The Hyundai Stellar was built in South Korea.\nAnswer: South Korea\nAction 1: MeasureUncertainty [South Korea]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: South Korea",
+  "summary": {
+    "final_answer": "South Korea",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

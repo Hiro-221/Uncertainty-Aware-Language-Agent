@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6325,
+  "question": "Question: Which genus has more species, Leitneria or Tricyrtis?",
+  "gold_answer": "Tricyrtis",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which genus has more species, Leitneria or Tricyrtis?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which genus has more species, Leitneria or Tricyrtis?\nThought:",
+      "output": "Let's think step by step. Leitneria has 1 species. Tricyrtis has 20 species. 1 (Leitneria) < 20 (Tricyrtis), so Tricyrtis has more species.\nAnswer: Tricyrtis\nQuestion: Which of the following is a type of apartment?\nThought: Let's think step by step. Apartment is a type of apartment.\nAnswer: Apartment\nQuestion: Which of the following is a type of apartment?\nThought: Let's think step by step.",
+      "probs": [
+        {
+          "Let": -0.007654265966266394
+        },
+        {
+          "'": -0.000388665939681232
+        },
+        {
+          "s": -2.4676019165781327e-05
+        },
+        {
+          "think": -0.0011268462985754013
+        },
+        {
+          "step": -0.0004612335760612041
+        },
+        {
+          "by": -0.00019560330838430673
+        },
+        {
+          "step": -0.12515492737293243
+        },
+        {
+          ".": -0.00048494499060325325
+        },
+        {
+          "Le": -0.5965190529823303
+        },
+        {
+          "it": -0.0014804366510361433
+        },
+        {
+          "ner": -0.0007444233051501215
+        },
+        {
+          "ia": -0.0016699191182851791
+        },
+        {
+          "has": -0.14456012845039368
+        },
+        {
+          "": -0.31465139985084534
+        },
+        {
+          "1": -0.5600746273994446
+        },
+        {
+          "species": -0.13233201205730438
+        },
+        {
+          ".": -0.27263346314430237
+        },
+        {
+          "Tr": -0.015665682032704353
+        },
+        {
+          "icy": -0.0009301149984821677
+        },
+        {
+          "rt": -0.005761563777923584
+        },
+        {
+          "is": -0.0009357126546092331
+        },
+        {
+          "has": -0.011440624482929707
+        },
+        {
+          "": -0.07255809754133224
+        },
+        {
+          "2": -0.8608548641204834
+        },
+        {
+          "0": -1.5572571754455566
+        },
+        {
+          "species": -0.4715939164161682
+        },
+        {
+          ".": -0.041017286479473114
+        },
+        {
+          "": -0.3268028795719147
+        },
+        {
+          "1": -0.28219544887542725
+        },
+        {
+          "(": -0.23100802302360535
+        },
+        {
+          "Le": -0.009776449762284756
+        },
+        {
+          "it": -0.0013372297398746014
+        },
+        {
+          "ner": -0.0008276851149275899
+        },
+        {
+          "ia": -0.0010203876299783587
+        },
+        {
+          ")": -0.007541164290159941
+        },
+        {
+          "<": -0.022741585969924927
+        },
+        {
+          "": -0.001648973091505468
+        },
+        {
+          "2": -0.0010895751183852553
+        },
+        {
+          "0": -0.0012019798159599304
+        },
+        {
+          "(": -0.0035383019130676985
+        },
+        {
+          "T": -0.002310228068381548
+        },
+        {
+          "ric": -0.00027259447961114347
+        },
+        {
+          "y": -0.018493253737688065
+        },
+        {
+          "rt": -0.00032860602368600667
+        },
+        {
+          "is": -0.0001357701694360003
+        },
+        {
+          "),": -0.05254632234573364
+        },
+        {
+          "so": -0.005965760443359613
+        },
+        {
+          "Tr": -0.13937892019748688
+        },
+        {
+          "icy": -0.0026057357899844646
+        },
+        {
+          "rt": -0.0002494739310350269
+        },
+        {
+          "is": -0.0001062098381225951
+        },
+        {
+          "has": -0.010822176001966
+        },
+        {
+          "more": -0.003915977198630571
+        },
+        {
+          "species": -0.0037206250708550215
+        },
+        {
+          ".": -0.12229843437671661
+        },
+        {
+          "<0x0A>": -0.0028653775807470083
+        },
+        {
+          "Answer": -0.00201177760027349
+        },
+        {
+          ":": -0.0003719830128829926
+        },
+        {
+          "Tr": -0.006963863503187895
+        },
+        {
+          "icy": -0.0004104725376237184
+        },
+        {
+          "rt": -4.625213477993384e-05
+        },
+        {
+          "is": -4.5060096454108134e-05
+        },
+        {
+          "<0x0A>": -0.021325457841157913
+        },
+        {
+          "Question": -0.16779948770999908
+        },
+        {
+          ":": -0.0002330270071979612
+        },
+        {
+          "Which": -1.2061930894851685
+        },
+        {
+          "of": -2.266814947128296
+        },
+        {
+          "the": -0.8407555818557739
+        },
+        {
+          "following": -0.13744273781776428
+        },
+        {
+          "is": -1.2110772132873535
+        },
+        {
+          "a": -1.540808916091919
+        },
+        {
+          "type": -3.7791082859039307
+        },
+        {
+          "of": -0.01613171212375164
+        },
+        {
+          "a": -4.90390157699585
+        },
+        {
+          "partment": -3.2760169506073
+        },
+        {
+          "?": -1.2492574453353882
+        },
+        {
+          "<0x0A>": -0.9552072882652283
+        },
+        {
+          "Th": -0.09041270613670349
+        },
+        {
+          "ought": -0.00018785618885885924
+        },
+        {
+          ":": -0.0005384425749070942
+        },
+        {
+          "Let": -0.036270253360271454
+        },
+        {
+          "'": -0.0007240534760057926
+        },
+        {
+          "s": -5.304672595229931e-05
+        },
+        {
+          "think": -0.0019149314612150192
+        },
+        {
+          "step": -0.0016014858847483993
+        },
+        {
+          "by": -0.00027426297310739756
+        },
+        {
+          "step": -0.0001419681793777272
+        },
+        {
+          ".": -0.001149827498011291
+        },
+        {
+          "A": -1.2399559020996094
+        },
+        {
+          "partment": -1.0083597898483276
+        },
+        {
+          "is": -0.5957760214805603
+        },
+        {
+          "a": -0.1719285547733307
+        },
+        {
+          "type": -0.6494432091712952
+        },
+        {
+          "of": -0.008436635136604309
+        },
+        {
+          "a": -1.894208312034607
+        },
+        {
+          "partment": -0.03760592266917229
+        },
+        {
+          ".": -0.16486065089702606
+        },
+        {
+          "<0x0A>": -1.5778746604919434
+        },
+        {
+          "Answer": -0.0183248408138752
+        },
+        {
+          ":": -0.00047851080307736993
+        },
+        {
+          "A": -0.5831961631774902
+        },
+        {
+          "partment": -0.005671836901456118
+        },
+        {
+          "<0x0A>": -0.02051387168467045
+        },
+        {
+          "Question": -0.16979122161865234
+        },
+        {
+          ":": -0.0002615109842736274
+        },
+        {
+          "Which": -0.9886077642440796
+        },
+        {
+          "of": -0.8215674161911011
+        },
+        {
+          "the": -0.08234969526529312
+        },
+        {
+          "following": -0.012084603309631348
+        },
+        {
+          "is": -0.35379326343536377
+        },
+        {
+          "a": -0.31712567806243896
+        },
+        {
+          "type": -0.507611095905304
+        },
+        {
+          "of": -0.0014061573892831802
+        },
+        {
+          "a": -1.417925477027893
+        },
+        {
+          "partment": -0.0054615335538983345
+        },
+        {
+          "?": -0.021561969071626663
+        },
+        {
+          "<0x0A>": -0.01571684703230858
+        },
+        {
+          "Th": -0.00640553655102849
+        },
+        {
+          "ought": -3.3378044463461265e-05
+        },
+        {
+          ":": -5.2569914259947836e-05
+        },
+        {
+          "Let": -0.0028380376752465963
+        },
+        {
+          "'": -0.0001935771433636546
+        },
+        {
+          "s": -9.775113539944869e-06
+        },
+        {
+          "think": -0.00019453064305707812
+        },
+        {
+          "step": -0.00010609064338495955
+        },
+        {
+          "by": -2.8371408916427754e-05
+        },
+        {
+          "step": -2.622600959512056e-06
+        },
+        {
+          ".": -0.00014041867689229548
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which genus has more species, Leitneria or Tricyrtis?\nThought 1:Let's think step by step. Leitneria has 1 species. Tricyrtis has 20 species. 1 (Leitneria) < 20 (Tricyrtis), so Tricyrtis has more species.\nAnswer: Tricyrtis\nAction 1: MeasureUncertainty [Tricyrtis]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Tricyrtis",
+  "summary": {
+    "final_answer": "Tricyrtis",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

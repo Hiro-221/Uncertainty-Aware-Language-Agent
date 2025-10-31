@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6175,
+  "question": "Question: How many albums have been sold by the band who was supported by Iron Maiden on their World Wide Blitz Tour?",
+  "gold_answer": "close to 50 million",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many albums have been sold by the band who was supported by Iron Maiden on their World Wide Blitz Tour?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many albums have been sold by the band who was supported by Iron Maiden on their World Wide Blitz Tour?\nThought:",
+      "output": "Let's think step by step. The band who was supported by Iron Maiden on their World Wide Blitz Tour is Saxon. Saxon has sold 13 million albums.\nAnswer: 13 million\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. The 1999 film that was directed by John Woo is Mission: Impossible II.\nAnswer: Mission: Impossible II\nQuestion: What is the name of the 1999 film that was directed",
+      "probs": [
+        {
+          "Let": -0.010705186054110527
+        },
+        {
+          "'": -0.0007164295529946685
+        },
+        {
+          "s": -2.7179348762729205e-05
+        },
+        {
+          "think": -0.0013294914970174432
+        },
+        {
+          "step": -0.0005540504935197532
+        },
+        {
+          "by": -0.0002112165529979393
+        },
+        {
+          "step": -0.00011896379146492109
+        },
+        {
+          ".": -0.0009857324184849858
+        },
+        {
+          "The": -1.293378472328186
+        },
+        {
+          "band": -0.3440496623516083
+        },
+        {
+          "who": -0.6438069939613342
+        },
+        {
+          "was": -0.03457380086183548
+        },
+        {
+          "supported": -0.0028263882268220186
+        },
+        {
+          "by": -0.0029385979287326336
+        },
+        {
+          "Iron": -0.002634152304381132
+        },
+        {
+          "Ma": -0.0013083001831546426
+        },
+        {
+          "iden": -0.0001802282058633864
+        },
+        {
+          "on": -0.029799247160553932
+        },
+        {
+          "their": -0.022205175831913948
+        },
+        {
+          "World": -0.006487617734819651
+        },
+        {
+          "W": -0.0047694966197013855
+        },
+        {
+          "ide": -1.2397689715726301e-05
+        },
+        {
+          "Bl": -0.00019798702851403505
+        },
+        {
+          "itz": -0.0004926898400299251
+        },
+        {
+          "Tour": -0.012340736575424671
+        },
+        {
+          "is": -0.13024680316448212
+        },
+        {
+          "Sax": -1.5238242149353027
+        },
+        {
+          "on": -0.0003935516288038343
+        },
+        {
+          ".": -0.21476119756698608
+        },
+        {
+          "Sax": -0.7002598643302917
+        },
+        {
+          "on": -0.00077622797107324
+        },
+        {
+          "has": -0.9912827014923096
+        },
+        {
+          "sold": -0.04671338200569153
+        },
+        {
+          "": -0.6653062701225281
+        },
+        {
+          "1": -0.21867170929908752
+        },
+        {
+          "3": -0.42271316051483154
+        },
+        {
+          "million": -0.3606871962547302
+        },
+        {
+          "albums": -0.126587375998497
+        },
+        {
+          ".": -0.4468148350715637
+        },
+        {
+          "<0x0A>": -0.39968353509902954
+        },
+        {
+          "Answer": -0.002079825848340988
+        },
+        {
+          ":": -0.0006933192489668727
+        },
+        {
+          "": -0.007997632957994938
+        },
+        {
+          "1": -0.0005017452058382332
+        },
+        {
+          "3": -0.000688077649101615
+        },
+        {
+          "million": -0.062089625746011734
+        },
+        {
+          "<0x0A>": -0.2077944576740265
+        },
+        {
+          "Question": -0.23758018016815186
+        },
+        {
+          ":": -0.00031740395934320986
+        },
+        {
+          "What": -1.4609713554382324
+        },
+        {
+          "is": -1.1100132465362549
+        },
+        {
+          "the": -0.3172098696231842
+        },
+        {
+          "name": -2.396829128265381
+        },
+        {
+          "of": -0.039306640625
+        },
+        {
+          "the": -0.3589577078819275
+        },
+        {
+          "": -3.6820223331451416
+        },
+        {
+          "1": -0.6711403131484985
+        },
+        {
+          "9": -0.19266702234745026
+        },
+        {
+          "9": -1.3347980976104736
+        },
+        {
+          "9": -2.117586851119995
+        },
+        {
+          "film": -1.6029348373413086
+        },
+        {
+          "that": -1.641679286956787
+        },
+        {
+          "was": -1.7733628749847412
+        },
+        {
+          "directed": -1.296365737915039
+        },
+        {
+          "by": -0.0317331925034523
+        },
+        {
+          "John": -3.5943491458892822
+        },
+        {
+          "W": -2.443859100341797
+        },
+        {
+          "oo": -0.2581826150417328
+        },
+        {
+          "?": -0.786081850528717
+        },
+        {
+          "<0x0A>": -0.008044462651014328
+        },
+        {
+          "Th": -0.004942698869854212
+        },
+        {
+          "ought": -3.516612196108326e-05
+        },
+        {
+          ":": -0.00011812942830147222
+        },
+        {
+          "Let": -0.012794077396392822
+        },
+        {
+          "'": -0.0004009396652691066
+        },
+        {
+          "s": -1.07287787614041e-05
+        },
+        {
+          "think": -0.0006754500791430473
+        },
+        {
+          "step": -0.00022706791060045362
+        },
+        {
+          "by": -8.77341881277971e-05
+        },
+        {
+          "step": -2.610649426060263e-05
+        },
+        {
+          ".": -0.00038699767901562154
+        },
+        {
+          "The": -1.396135926246643
+        },
+        {
+          "": -0.523476779460907
+        },
+        {
+          "1": -0.005007938481867313
+        },
+        {
+          "9": -0.000302030734019354
+        },
+        {
+          "9": -0.001713952049612999
+        },
+        {
+          "9": -0.0029233836103230715
+        },
+        {
+          "film": -0.039820440113544464
+        },
+        {
+          "that": -0.3363301753997803
+        },
+        {
+          "was": -0.024137327447533607
+        },
+        {
+          "directed": -0.013107329607009888
+        },
+        {
+          "by": -0.0011628062929958105
+        },
+        {
+          "John": -0.003661715192720294
+        },
+        {
+          "W": -0.0007194076315499842
+        },
+        {
+          "oo": -0.0001820160250645131
+        },
+        {
+          "is": -0.05307145416736603
+        },
+        {
+          "Mission": -1.2286980152130127
+        },
+        {
+          ":": -0.10235293954610825
+        },
+        {
+          "Im": -0.003124595619738102
+        },
+        {
+          "possible": -0.00044848397374153137
+        },
+        {
+          "II": -0.3683755397796631
+        },
+        {
+          ".": -0.07093514502048492
+        },
+        {
+          "<0x0A>": -0.03174647316336632
+        },
+        {
+          "Answer": -0.0017583399312570691
+        },
+        {
+          ":": -0.0002865380665753037
+        },
+        {
+          "Mission": -0.003773237345740199
+        },
+        {
+          ":": -0.011588990688323975
+        },
+        {
+          "Im": -0.001583989942446351
+        },
+        {
+          "possible": -3.957670196541585e-05
+        },
+        {
+          "II": -0.010458542965352535
+        },
+        {
+          "<0x0A>": -0.02070491947233677
+        },
+        {
+          "Question": -0.20297901332378387
+        },
+        {
+          ":": -0.00022218143567442894
+        },
+        {
+          "What": -1.247619867324829
+        },
+        {
+          "is": -0.9416401982307434
+        },
+        {
+          "the": -0.20908725261688232
+        },
+        {
+          "name": -1.098787546157837
+        },
+        {
+          "of": -0.012385950423777103
+        },
+        {
+          "the": -0.14693553745746613
+        },
+        {
+          "": -1.481441617012024
+        },
+        {
+          "1": -0.43947139382362366
+        },
+        {
+          "9": -0.029971638694405556
+        },
+        {
+          "9": -0.5960280299186707
+        },
+        {
+          "9": -0.5778613090515137
+        },
+        {
+          "film": -0.08045794814825058
+        },
+        {
+          "that": -0.036984264850616455
+        },
+        {
+          "was": -0.10803468525409698
+        },
+        {
+          "directed": -0.11386711150407791
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: How many albums have been sold by the band who was supported by Iron Maiden on their World Wide Blitz Tour?\nThought 1:Let's think step by step. The band who was supported by Iron Maiden on their World Wide Blitz Tour is Saxon. Saxon has sold 13 million albums.\nAnswer: 13 million\nAction 1: MeasureUncertainty [13 million]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 13 million",
+  "summary": {
+    "final_answer": "13 million",
+    "em": false,
+    "f1": 0.3333333333333333,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

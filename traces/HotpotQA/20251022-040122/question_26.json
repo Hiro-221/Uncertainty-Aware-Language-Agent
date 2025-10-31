@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 26,
+  "question": "Question: The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+  "gold_answer": "1838",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?\nThought:",
+      "output": "Let's think step by step. Virginia Commonwealth University was founded in 1968.\nAnswer: 1968\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of the same name is The Thomas Crown Affair.\nAnswer: The Thomas Crown Affair\nQuestion: What is the name of the 1999 film that",
+      "probs": [
+        {
+          "Let": -0.011013787239789963
+        },
+        {
+          "'": -0.00022301571152638644
+        },
+        {
+          "s": -9.65590606938349e-06
+        },
+        {
+          "think": -0.0010349161457270384
+        },
+        {
+          "step": -0.0006042085005901754
+        },
+        {
+          "by": -0.00018880968855228275
+        },
+        {
+          "step": -2.8609820219571702e-05
+        },
+        {
+          ".": -0.0006825978052802384
+        },
+        {
+          "Virginia": -1.024951457977295
+        },
+        {
+          "Commonwealth": -0.003481757128611207
+        },
+        {
+          "University": -0.0027501878794282675
+        },
+        {
+          "was": -0.04833713546395302
+        },
+        {
+          "founded": -0.04954879730939865
+        },
+        {
+          "in": -0.02450939640402794
+        },
+        {
+          "": -0.024608034640550613
+        },
+        {
+          "1": -0.001971802907064557
+        },
+        {
+          "9": -0.46541160345077515
+        },
+        {
+          "6": -0.031252309679985046
+        },
+        {
+          "8": -0.020233187824487686
+        },
+        {
+          ".": -0.46063098311424255
+        },
+        {
+          "<0x0A>": -0.747175931930542
+        },
+        {
+          "Answer": -0.005135559011250734
+        },
+        {
+          ":": -0.0006071869283914566
+        },
+        {
+          "": -0.007418584078550339
+        },
+        {
+          "1": -0.00036066226311959326
+        },
+        {
+          "9": -0.0002315968304174021
+        },
+        {
+          "6": -0.00032300499151460826
+        },
+        {
+          "8": -0.0005376085755415261
+        },
+        {
+          "<0x0A>": -0.02073294296860695
+        },
+        {
+          "Question": -0.22147762775421143
+        },
+        {
+          ":": -0.0002714027068577707
+        },
+        {
+          "What": -1.5105212926864624
+        },
+        {
+          "is": -1.178768515586853
+        },
+        {
+          "the": -0.34066104888916016
+        },
+        {
+          "name": -2.535283088684082
+        },
+        {
+          "of": -0.050019942224025726
+        },
+        {
+          "the": -0.4209335446357727
+        },
+        {
+          "": -3.304260015487671
+        },
+        {
+          "1": -0.8047271966934204
+        },
+        {
+          "9": -0.20615802705287933
+        },
+        {
+          "9": -1.357935905456543
+        },
+        {
+          "9": -2.0730416774749756
+        },
+        {
+          "film": -1.475416660308838
+        },
+        {
+          "that": -1.870942234992981
+        },
+        {
+          "is": -1.9849845170974731
+        },
+        {
+          "a": -1.498098373413086
+        },
+        {
+          "re": -1.2038804292678833
+        },
+        {
+          "make": -0.033990584313869476
+        },
+        {
+          "of": -0.02068273350596428
+        },
+        {
+          "the": -0.7139666676521301
+        },
+        {
+          "": -0.25098252296447754
+        },
+        {
+          "1": -0.011072383262217045
+        },
+        {
+          "9": -0.0020434230100363493
+        },
+        {
+          "6": -1.2779872417449951
+        },
+        {
+          "9": -1.8812003135681152
+        },
+        {
+          "film": -0.3695905804634094
+        },
+        {
+          "of": -1.3330268859863281
+        },
+        {
+          "the": -0.02182781510055065
+        },
+        {
+          "same": -0.002826150506734848
+        },
+        {
+          "name": -0.02715631201863289
+        },
+        {
+          "?": -0.5292513370513916
+        },
+        {
+          "<0x0A>": -0.025124091655015945
+        },
+        {
+          "Th": -0.00590982660651207
+        },
+        {
+          "ought": -7.510157047363464e-06
+        },
+        {
+          ":": -0.00018416139937471598
+        },
+        {
+          "Let": -0.020014826208353043
+        },
+        {
+          "'": -0.0003488647344056517
+        },
+        {
+          "s": -3.2543604902457446e-05
+        },
+        {
+          "think": -0.0015375708462670445
+        },
+        {
+          "step": -0.0006679449579678476
+        },
+        {
+          "by": -0.00011944057769142091
+        },
+        {
+          "step": -6.031808152329177e-05
+        },
+        {
+          ".": -0.0006996329175308347
+        },
+        {
+          "The": -0.661749541759491
+        },
+        {
+          "": -0.3811323344707489
+        },
+        {
+          "1": -0.022002054378390312
+        },
+        {
+          "9": -0.0006123098428361118
+        },
+        {
+          "9": -0.6199671030044556
+        },
+        {
+          "9": -0.0038543473929166794
+        },
+        {
+          "film": -0.11294427514076233
+        },
+        {
+          "that": -0.935851514339447
+        },
+        {
+          "is": -0.010476120747625828
+        },
+        {
+          "a": -0.0105305016040802
+        },
+        {
+          "re": -0.002540695946663618
+        },
+        {
+          "make": -0.0003985564399044961
+        },
+        {
+          "of": -0.004325320478528738
+        },
+        {
+          "the": -0.02329133450984955
+        },
+        {
+          "": -0.003079911693930626
+        },
+        {
+          "1": -0.0003864018653985113
+        },
+        {
+          "9": -0.0001530530134914443
+        },
+        {
+          "6": -0.0027072704397141933
+        },
+        {
+          "9": -0.002093744231387973
+        },
+        {
+          "film": -0.005368103738874197
+        },
+        {
+          "of": -0.10611580312252045
+        },
+        {
+          "the": -0.0022161465603858232
+        },
+        {
+          "same": -0.0005477358354255557
+        },
+        {
+          "name": -0.0011537569807842374
+        },
+        {
+          "is": -0.03707076609134674
+        },
+        {
+          "The": -0.7272835373878479
+        },
+        {
+          "Thomas": -0.19428835809230804
+        },
+        {
+          "Crown": -0.0010836211731657386
+        },
+        {
+          "Aff": -0.0008529362385161221
+        },
+        {
+          "air": -0.0005285535007715225
+        },
+        {
+          ".": -0.17557498812675476
+        },
+        {
+          "<0x0A>": -0.03938572108745575
+        },
+        {
+          "Answer": -0.0016632545739412308
+        },
+        {
+          ":": -0.00028832571115344763
+        },
+        {
+          "The": -0.00559336319565773
+        },
+        {
+          "Thomas": -0.0002681849291548133
+        },
+        {
+          "Crown": -0.00026341783814132214
+        },
+        {
+          "Aff": -0.00022110878489911556
+        },
+        {
+          "air": -0.0009622710640542209
+        },
+        {
+          "<0x0A>": -0.04922644421458244
+        },
+        {
+          "Question": -0.18355782330036163
+        },
+        {
+          ":": -0.0002416080387774855
+        },
+        {
+          "What": -1.3450331687927246
+        },
+        {
+          "is": -0.8883759379386902
+        },
+        {
+          "the": -0.21880465745925903
+        },
+        {
+          "name": -1.0940850973129272
+        },
+        {
+          "of": -0.015561229549348354
+        },
+        {
+          "the": -0.1860564947128296
+        },
+        {
+          "": -1.2351453304290771
+        },
+        {
+          "1": -0.4538465142250061
+        },
+        {
+          "9": -0.021635815501213074
+        },
+        {
+          "9": -0.5181225538253784
+        },
+        {
+          "9": -0.45455044507980347
+        },
+        {
+          "film": -0.04513256996870041
+        },
+        {
+          "that": -0.03171679377555847
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?\nThought 1:Let's think step by step. Virginia Commonwealth University was founded in 1968.\nAnswer: 1968\nAction 1: MeasureUncertainty [1968]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 1968",
+  "summary": {
+    "final_answer": "1968",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1429,
+  "question": "Question: Which band was formed first, Circus Diablo or Magic Dirt?",
+  "gold_answer": "Magic Dirt",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which band was formed first, Circus Diablo or Magic Dirt?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which band was formed first, Circus Diablo or Magic Dirt?\nThought:",
+      "output": "Let's think step by step. Circus Diablo was formed in 2006. Magic Dirt was formed in 1992. 1992 (Magic Dirt) < 2006 (Circus Diablo), so Magic Dirt was formed first.\nAnswer: Magic Dirt\nQuestion: Which of the following is a character in the film \"The Last of the Mohicans\"?\nThought: Let's think step by step. The Last of the Mohicans is a 1992 historical epic film set in 1757 during",
+      "probs": [
+        {
+          "Let": -0.006796457339078188
+        },
+        {
+          "'": -0.0006599632324650884
+        },
+        {
+          "s": -5.2927523938706145e-05
+        },
+        {
+          "think": -0.0006824786541983485
+        },
+        {
+          "step": -0.00036352223833091557
+        },
+        {
+          "by": -0.00015472168161068112
+        },
+        {
+          "step": -4.756337511935271e-05
+        },
+        {
+          ".": -0.0005987281911075115
+        },
+        {
+          "Circ": -0.08246507495641708
+        },
+        {
+          "us": -0.00018940561858471483
+        },
+        {
+          "Di": -0.003997194115072489
+        },
+        {
+          "ablo": -0.0034444546326994896
+        },
+        {
+          "was": -0.04050135612487793
+        },
+        {
+          "formed": -0.025125138461589813
+        },
+        {
+          "in": -0.031892091035842896
+        },
+        {
+          "": -0.022538455203175545
+        },
+        {
+          "2": -0.055103227496147156
+        },
+        {
+          "0": -5.8530047681415454e-05
+        },
+        {
+          "0": -0.0012704405235126615
+        },
+        {
+          "6": -0.19329488277435303
+        },
+        {
+          ".": -0.03946525603532791
+        },
+        {
+          "Magic": -0.014837507158517838
+        },
+        {
+          "D": -0.0023085628636181355
+        },
+        {
+          "irt": -0.00035506143467500806
+        },
+        {
+          "was": -0.018621506169438362
+        },
+        {
+          "formed": -0.009563583880662918
+        },
+        {
+          "in": -0.009126139804720879
+        },
+        {
+          "": -0.012811378575861454
+        },
+        {
+          "1": -0.0034221201203763485
+        },
+        {
+          "9": -0.0001616347290109843
+        },
+        {
+          "9": -0.2195635437965393
+        },
+        {
+          "2": -0.118452288210392
+        },
+        {
+          ".": -0.010533097200095654
+        },
+        {
+          "": -0.06870251148939133
+        },
+        {
+          "1": -0.253839373588562
+        },
+        {
+          "9": -0.00016902448260225356
+        },
+        {
+          "9": -0.0005393957253545523
+        },
+        {
+          "2": -0.0008598444401286542
+        },
+        {
+          "(": -0.03447280079126358
+        },
+        {
+          "Mag": -0.03152934089303017
+        },
+        {
+          "ic": -0.00013314791431184858
+        },
+        {
+          "D": -0.003003730671480298
+        },
+        {
+          "irt": -0.00022980909852776676
+        },
+        {
+          ")": -0.0014384171226993203
+        },
+        {
+          "<": -0.021252870559692383
+        },
+        {
+          "": -0.0017616719705983996
+        },
+        {
+          "2": -0.000819347333163023
+        },
+        {
+          "0": -3.58813522325363e-05
+        },
+        {
+          "0": -0.0003630455757956952
+        },
+        {
+          "6": -0.001335205975919962
+        },
+        {
+          "(": -0.0051202597096562386
+        },
+        {
+          "Circ": -0.004858830012381077
+        },
+        {
+          "us": -0.00025602878304198384
+        },
+        {
+          "Di": -0.0025330858770757914
+        },
+        {
+          "ablo": -0.0021002870053052902
+        },
+        {
+          "),": -0.037112005054950714
+        },
+        {
+          "so": -0.0054420894011855125
+        },
+        {
+          "Magic": -0.04318317398428917
+        },
+        {
+          "D": -0.0025766051840037107
+        },
+        {
+          "irt": -0.0006515049026347697
+        },
+        {
+          "was": -0.011034773662686348
+        },
+        {
+          "formed": -0.004772343672811985
+        },
+        {
+          "first": -0.014650268480181694
+        },
+        {
+          ".": -0.003378281369805336
+        },
+        {
+          "<0x0A>": -0.0027611248660832644
+        },
+        {
+          "Answer": -0.0019160023657605052
+        },
+        {
+          ":": -0.00040344204171560705
+        },
+        {
+          "Magic": -0.0034627497661858797
+        },
+        {
+          "D": -0.0007745603215880692
+        },
+        {
+          "irt": -0.00013910756388213485
+        },
+        {
+          "<0x0A>": -0.016033057123422623
+        },
+        {
+          "Question": -0.16948677599430084
+        },
+        {
+          ":": -0.0002547178009990603
+        },
+        {
+          "Which": -1.2409604787826538
+        },
+        {
+          "of": -2.2723209857940674
+        },
+        {
+          "the": -0.7759894728660583
+        },
+        {
+          "following": -0.14246173202991486
+        },
+        {
+          "is": -1.2732800245285034
+        },
+        {
+          "a": -1.5007920265197754
+        },
+        {
+          "character": -3.9067132472991943
+        },
+        {
+          "in": -0.9425692558288574
+        },
+        {
+          "the": -1.0328348875045776
+        },
+        {
+          "film": -2.198732376098633
+        },
+        {
+          "\"": -1.9022331237792969
+        },
+        {
+          "The": -1.6774675846099854
+        },
+        {
+          "Last": -4.088020324707031
+        },
+        {
+          "of": -2.3251054286956787
+        },
+        {
+          "the": -0.30578163266181946
+        },
+        {
+          "Moh": -0.2935148775577545
+        },
+        {
+          "icans": -0.0013300867285579443
+        },
+        {
+          "\"?": -0.658755362033844
+        },
+        {
+          "<0x0A>": -1.4936904907226562
+        },
+        {
+          "Th": -0.19097717106342316
+        },
+        {
+          "ought": -0.00020072828920092434
+        },
+        {
+          ":": -0.00102324562612921
+        },
+        {
+          "Let": -0.034072160720825195
+        },
+        {
+          "'": -0.0007745603215880692
+        },
+        {
+          "s": -2.1815061700181104e-05
+        },
+        {
+          "think": -0.0014365125680342317
+        },
+        {
+          "step": -0.0013473490253090858
+        },
+        {
+          "by": -0.0006008726777508855
+        },
+        {
+          "step": -0.0006621075444854796
+        },
+        {
+          ".": -0.0015389991458505392
+        },
+        {
+          "The": -1.6821892261505127
+        },
+        {
+          "Last": -0.9067891240119934
+        },
+        {
+          "of": -0.002660665661096573
+        },
+        {
+          "the": -0.0028839209116995335
+        },
+        {
+          "Moh": -0.0006712805479764938
+        },
+        {
+          "icans": -0.0019070786656811833
+        },
+        {
+          "is": -0.8312883377075195
+        },
+        {
+          "a": -0.41255638003349304
+        },
+        {
+          "": -0.5352990031242371
+        },
+        {
+          "1": -0.015286901034414768
+        },
+        {
+          "9": -0.0038127838633954525
+        },
+        {
+          "9": -0.1593242734670639
+        },
+        {
+          "2": -0.003848291002213955
+        },
+        {
+          "historical": -1.1745431423187256
+        },
+        {
+          "ep": -0.16288834810256958
+        },
+        {
+          "ic": -3.1709168979432434e-05
+        },
+        {
+          "film": -0.23428398370742798
+        },
+        {
+          "set": -0.6187435984611511
+        },
+        {
+          "in": -0.10248572379350662
+        },
+        {
+          "": -0.040015965700149536
+        },
+        {
+          "1": -5.352353764465079e-05
+        },
+        {
+          "7": -0.005538001656532288
+        },
+        {
+          "5": -0.001347587094642222
+        },
+        {
+          "7": -0.00044800734031014144
+        },
+        {
+          "during": -0.4213850200176239
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Which band was formed first, Circus Diablo or Magic Dirt?\nThought 1:Let's think step by step. Circus Diablo was formed in 2006. Magic Dirt was formed in 1992. 1992 (Magic Dirt) < 2006 (Circus Diablo), so Magic Dirt was formed first.\nAnswer: Magic Dirt\nAction 1: MeasureUncertainty [Magic Dirt]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Magic Dirt",
+  "summary": {
+    "final_answer": "Magic Dirt",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

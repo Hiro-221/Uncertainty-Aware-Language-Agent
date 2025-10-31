@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4142,
+  "question": "Question: Were Frank Tashlin and George Kuchar both animators?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Were Frank Tashlin and George Kuchar both animators?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Were Frank Tashlin and George Kuchar both animators?\nThought:",
+      "output": "Let's think step by step. Frank Tashlin is an animator, cartoonist, screenwriter, and director. George Kuchar is a film director, screenwriter, and actor. So Frank Tashlin and George Kuchar are not both animators.\nAnswer: No\nQuestion: Which of the following is not a member of the group of people who have been awarded the Nobel Prize in Physics?\nThought: Let's think step by step. The Nobel Prize in Physics is awarded to physicists. So the answer is not a physicist.\nAnswer: John Steinbeck\nQuestion",
+      "probs": [
+        {
+          "Let": -0.007734707091003656
+        },
+        {
+          "'": -0.00046039948938414454
+        },
+        {
+          "s": -7.760223525110632e-05
+        },
+        {
+          "think": -0.0005030558677390218
+        },
+        {
+          "step": -0.0003500564198475331
+        },
+        {
+          "by": -0.00016807096835691482
+        },
+        {
+          "step": -3.123234637314454e-05
+        },
+        {
+          ".": -0.0005099665140733123
+        },
+        {
+          "Frank": -0.208258718252182
+        },
+        {
+          "T": -0.0025018127635121346
+        },
+        {
+          "ash": -3.9457496313843876e-05
+        },
+        {
+          "lin": -0.0006980843027122319
+        },
+        {
+          "is": -0.5791473984718323
+        },
+        {
+          "an": -0.6430948972702026
+        },
+        {
+          "anim": -0.06131966412067413
+        },
+        {
+          "ator": -0.0004253674705978483
+        },
+        {
+          ",": -0.5356143712997437
+        },
+        {
+          "cart": -1.2601631879806519
+        },
+        {
+          "oon": -0.0002522150462027639
+        },
+        {
+          "ist": -0.005410077050328255
+        },
+        {
+          ",": -0.04622599110007286
+        },
+        {
+          "screen": -1.0804736614227295
+        },
+        {
+          "writer": -0.0016243371646851301
+        },
+        {
+          ",": -0.0585004985332489
+        },
+        {
+          "and": -0.5390405654907227
+        },
+        {
+          "director": -0.7587777376174927
+        },
+        {
+          ".": -0.03795396164059639
+        },
+        {
+          "George": -0.020610451698303223
+        },
+        {
+          "K": -0.0013327058404684067
+        },
+        {
+          "uchar": -0.000646501372102648
+        },
+        {
+          "is": -0.045088011771440506
+        },
+        {
+          "a": -0.6854353547096252
+        },
+        {
+          "film": -0.866252064704895
+        },
+        {
+          "director": -0.41563862562179565
+        },
+        {
+          ",": -0.5621365904808044
+        },
+        {
+          "screen": -1.106691598892212
+        },
+        {
+          "writer": -0.0008590107318013906
+        },
+        {
+          ",": -0.018216686323285103
+        },
+        {
+          "and": -0.8837710022926331
+        },
+        {
+          "actor": -0.5375451445579529
+        },
+        {
+          ".": -0.023875700309872627
+        },
+        {
+          "So": -0.2776832580566406
+        },
+        {
+          "Frank": -0.3604423999786377
+        },
+        {
+          "T": -0.003066482488065958
+        },
+        {
+          "ash": -0.00019786784832831472
+        },
+        {
+          "lin": -0.0007727735792286694
+        },
+        {
+          "and": -0.23915167152881622
+        },
+        {
+          "George": -0.002474700566381216
+        },
+        {
+          "K": -0.000996093382127583
+        },
+        {
+          "uchar": -0.0017945152940228581
+        },
+        {
+          "are": -0.990222692489624
+        },
+        {
+          "not": -0.6597906947135925
+        },
+        {
+          "both": -0.02566242404282093
+        },
+        {
+          "anim": -0.004210654646158218
+        },
+        {
+          "ators": -0.0101179089397192
+        },
+        {
+          ".": -0.018845437094569206
+        },
+        {
+          "<0x0A>": -0.005609485320746899
+        },
+        {
+          "Answer": -0.001637666835449636
+        },
+        {
+          ":": -0.0003090619284193963
+        },
+        {
+          "No": -0.00845803041011095
+        },
+        {
+          "<0x0A>": -0.016140978783369064
+        },
+        {
+          "Question": -0.3541925251483917
+        },
+        {
+          ":": -0.00035422726068645716
+        },
+        {
+          "Which": -1.5820566415786743
+        },
+        {
+          "of": -1.8964266777038574
+        },
+        {
+          "the": -0.9864789247512817
+        },
+        {
+          "following": -0.13262803852558136
+        },
+        {
+          "is": -1.1565849781036377
+        },
+        {
+          "not": -1.3261531591415405
+        },
+        {
+          "a": -0.6620224118232727
+        },
+        {
+          "member": -3.42863130569458
+        },
+        {
+          "of": -0.024479500949382782
+        },
+        {
+          "the": -0.6050271391868591
+        },
+        {
+          "group": -3.456425189971924
+        },
+        {
+          "of": -1.9990609884262085
+        },
+        {
+          "people": -2.4549481868743896
+        },
+        {
+          "who": -1.7927706241607666
+        },
+        {
+          "have": -1.7533841133117676
+        },
+        {
+          "been": -1.855562686920166
+        },
+        {
+          "awarded": -2.190552234649658
+        },
+        {
+          "the": -0.4370792806148529
+        },
+        {
+          "Nobel": -2.697890043258667
+        },
+        {
+          "Prize": -0.3572179675102234
+        },
+        {
+          "in": -0.3611232042312622
+        },
+        {
+          "Physics": -1.099687099456787
+        },
+        {
+          "?": -0.8937464952468872
+        },
+        {
+          "<0x0A>": -1.6795001029968262
+        },
+        {
+          "Th": -0.10523524135351181
+        },
+        {
+          "ought": -0.0002015625941567123
+        },
+        {
+          ":": -0.0009790633339434862
+        },
+        {
+          "Let": -0.025525080040097237
+        },
+        {
+          "'": -0.0009285667329095304
+        },
+        {
+          "s": -3.2305197237292305e-05
+        },
+        {
+          "think": -0.004468100145459175
+        },
+        {
+          "step": -0.002573156962171197
+        },
+        {
+          "by": -0.00036900385748595
+        },
+        {
+          "step": -2.4437606043647975e-05
+        },
+        {
+          ".": -0.0024951535742729902
+        },
+        {
+          "The": -2.218348979949951
+        },
+        {
+          "Nobel": -1.3776935338974
+        },
+        {
+          "Prize": -0.03199126943945885
+        },
+        {
+          "in": -0.0440908782184124
+        },
+        {
+          "Physics": -0.009105467237532139
+        },
+        {
+          "is": -1.0151822566986084
+        },
+        {
+          "awarded": -0.5749666690826416
+        },
+        {
+          "to": -0.4576818346977234
+        },
+        {
+          "phys": -2.0556271076202393
+        },
+        {
+          "ic": -0.004296002443879843
+        },
+        {
+          "ists": -0.046525757759809494
+        },
+        {
+          ".": -0.34881967306137085
+        },
+        {
+          "So": -3.2542314529418945
+        },
+        {
+          "the": -1.1908568143844604
+        },
+        {
+          "answer": -1.2603317499160767
+        },
+        {
+          "is": -0.361702561378479
+        },
+        {
+          "not": -1.3820295333862305
+        },
+        {
+          "a": -0.17620137333869934
+        },
+        {
+          "phys": -0.08354739844799042
+        },
+        {
+          "ic": -0.0008942657150328159
+        },
+        {
+          "ist": -0.008626576513051987
+        },
+        {
+          ".": -0.0762474462389946
+        },
+        {
+          "<0x0A>": -0.8684976100921631
+        },
+        {
+          "Answer": -0.05371968448162079
+        },
+        {
+          ":": -0.0017753568245097995
+        },
+        {
+          "John": -3.663078546524048
+        },
+        {
+          "Stein": -1.8178938627243042
+        },
+        {
+          "beck": -0.0026771915145218372
+        },
+        {
+          "<0x0A>": -0.11379721760749817
+        },
+        {
+          "Question": -0.3239404857158661
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Were Frank Tashlin and George Kuchar both animators?\nThought 1:Let's think step by step. Frank Tashlin is an animator, cartoonist, screenwriter, and director. George Kuchar is a film director, screenwriter, and actor. So Frank Tashlin and George Kuchar are not both animators.\nAnswer: No\nAction 1: MeasureUncertainty [No]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: No",
+  "summary": {
+    "final_answer": "No",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

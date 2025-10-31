@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4897,
+  "question": "Question: The Feminine Touch is a drama film starring which English actress?",
+  "gold_answer": "Delphi Lawrence",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The Feminine Touch is a drama film starring which English actress?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The Feminine Touch is a drama film starring which English actress?\nThought:",
+      "output": "Let's think step by step. The Feminine Touch is a drama film starring Rosalind Russell. Rosalind Russell is an American actress, not English. So the English actress is not Rosalind Russell.\nAnswer: Rosalind Russell\nQuestion: Which of the following is a 1990s film?\nThought: Let's think step by step. The 1990s is the decade from 1 January 1990 to 31 December 1999. The 1990s is the decade from 1",
+      "probs": [
+        {
+          "Let": -0.021068580448627472
+        },
+        {
+          "'": -0.0004741021548397839
+        },
+        {
+          "s": -5.602820692729438e-06
+        },
+        {
+          "think": -0.0017271614633500576
+        },
+        {
+          "step": -0.0006232702871784568
+        },
+        {
+          "by": -0.00022504181833937764
+        },
+        {
+          "step": -0.0014784131199121475
+        },
+        {
+          ".": -0.0007207180024124682
+        },
+        {
+          "The": -0.4562007188796997
+        },
+        {
+          "Fem": -0.0381057932972908
+        },
+        {
+          "in": -0.0015224544331431389
+        },
+        {
+          "ine": -0.0003296785580459982
+        },
+        {
+          "Touch": -0.0006161222117953002
+        },
+        {
+          "is": -0.15303893387317657
+        },
+        {
+          "a": -0.035230908542871475
+        },
+        {
+          "drama": -0.2951574921607971
+        },
+        {
+          "film": -0.009725450538098812
+        },
+        {
+          "st": -0.14799854159355164
+        },
+        {
+          "arring": -0.000474936212413013
+        },
+        {
+          "Ros": -0.5458745956420898
+        },
+        {
+          "al": -0.02685311809182167
+        },
+        {
+          "ind": -0.0006096888100728393
+        },
+        {
+          "Russell": -0.0009833505610004067
+        },
+        {
+          ".": -0.35595640540122986
+        },
+        {
+          "Ros": -0.7857977747917175
+        },
+        {
+          "al": -0.0031424211338162422
+        },
+        {
+          "ind": -4.541770613286644e-05
+        },
+        {
+          "Russell": -0.031483251601457596
+        },
+        {
+          "is": -0.21256601810455322
+        },
+        {
+          "an": -0.1935783177614212
+        },
+        {
+          "American": -0.1766883283853531
+        },
+        {
+          "actress": -0.036741260439157486
+        },
+        {
+          ",": -0.7350242137908936
+        },
+        {
+          "not": -0.6670897006988525
+        },
+        {
+          "English": -0.6001944541931152
+        },
+        {
+          ".": -0.7717752456665039
+        },
+        {
+          "So": -0.3420054018497467
+        },
+        {
+          "the": -0.41835954785346985
+        },
+        {
+          "English": -0.5512129068374634
+        },
+        {
+          "actress": -0.003582846373319626
+        },
+        {
+          "is": -1.4063702821731567
+        },
+        {
+          "not": -0.8545854091644287
+        },
+        {
+          "Ros": -0.15147866308689117
+        },
+        {
+          "al": -0.0007713441736996174
+        },
+        {
+          "ind": -0.0005057962844148278
+        },
+        {
+          "Russell": -0.008164364844560623
+        },
+        {
+          ".": -0.23790396749973297
+        },
+        {
+          "<0x0A>": -0.6598292589187622
+        },
+        {
+          "Answer": -0.06646979600191116
+        },
+        {
+          ":": -0.0015259062638506293
+        },
+        {
+          "Ros": -1.1088825464248657
+        },
+        {
+          "al": -0.046118877828121185
+        },
+        {
+          "ind": -0.002170351566746831
+        },
+        {
+          "Russell": -0.0023218835704028606
+        },
+        {
+          "<0x0A>": -0.2344243973493576
+        },
+        {
+          "Question": -0.3297390639781952
+        },
+        {
+          ":": -0.00039081089198589325
+        },
+        {
+          "Which": -1.4196100234985352
+        },
+        {
+          "of": -1.8168305158615112
+        },
+        {
+          "the": -0.829870343208313
+        },
+        {
+          "following": -0.12039248645305634
+        },
+        {
+          "is": -1.132482647895813
+        },
+        {
+          "a": -1.348764181137085
+        },
+        {
+          "": -3.780244827270508
+        },
+        {
+          "1": -0.6708477139472961
+        },
+        {
+          "9": -0.09411229938268661
+        },
+        {
+          "9": -1.6830286979675293
+        },
+        {
+          "0": -1.7175146341323853
+        },
+        {
+          "s": -0.5114442110061646
+        },
+        {
+          "film": -2.00026535987854
+        },
+        {
+          "?": -1.7197611331939697
+        },
+        {
+          "<0x0A>": -1.3405349254608154
+        },
+        {
+          "Th": -0.09281952679157257
+        },
+        {
+          "ought": -0.00025507534155622125
+        },
+        {
+          ":": -0.0006292270263656974
+        },
+        {
+          "Let": -0.021360231563448906
+        },
+        {
+          "'": -0.0006939148879610002
+        },
+        {
+          "s": -1.6569954823353328e-05
+        },
+        {
+          "think": -0.003913127351552248
+        },
+        {
+          "step": -0.0011071987682953477
+        },
+        {
+          "by": -0.00037043384509161115
+        },
+        {
+          "step": -1.3947389561508317e-05
+        },
+        {
+          ".": -0.001447225920855999
+        },
+        {
+          "The": -1.6277073621749878
+        },
+        {
+          "": -1.9733046293258667
+        },
+        {
+          "1": -0.06805367767810822
+        },
+        {
+          "9": -0.010951060801744461
+        },
+        {
+          "9": -0.09636756777763367
+        },
+        {
+          "0": -0.035891033709049225
+        },
+        {
+          "s": -0.011795535683631897
+        },
+        {
+          "is": -0.8758167028427124
+        },
+        {
+          "the": -1.2072283029556274
+        },
+        {
+          "de": -0.6809398531913757
+        },
+        {
+          "cade": -4.160317621426657e-05
+        },
+        {
+          "from": -0.9506219029426575
+        },
+        {
+          "": -0.39189743995666504
+        },
+        {
+          "1": -0.006636010017246008
+        },
+        {
+          "January": -0.09735720604658127
+        },
+        {
+          "": -0.011316871270537376
+        },
+        {
+          "1": -0.0005564333405345678
+        },
+        {
+          "9": -0.00043644916149787605
+        },
+        {
+          "9": -0.0004798214649781585
+        },
+        {
+          "0": -0.002454365836456418
+        },
+        {
+          "to": -0.047483526170253754
+        },
+        {
+          "": -0.0020720933098345995
+        },
+        {
+          "3": -0.001046348363161087
+        },
+        {
+          "1": -0.00040951924165710807
+        },
+        {
+          "December": -0.0012973472476005554
+        },
+        {
+          "": -0.0008208957733586431
+        },
+        {
+          "1": -0.05092645063996315
+        },
+        {
+          "9": -1.7881233361549675e-05
+        },
+        {
+          "9": -9.369411418447271e-05
+        },
+        {
+          "9": -0.0005820487276650965
+        },
+        {
+          ".": -0.09070038795471191
+        },
+        {
+          "The": -1.6555448770523071
+        },
+        {
+          "": -2.280197858810425
+        },
+        {
+          "1": -0.33423513174057007
+        },
+        {
+          "9": -0.04787633195519447
+        },
+        {
+          "9": -0.4152333438396454
+        },
+        {
+          "0": -0.11656349897384644
+        },
+        {
+          "s": -0.030791079625487328
+        },
+        {
+          "is": -1.1368683576583862
+        },
+        {
+          "the": -1.069260597229004
+        },
+        {
+          "de": -0.6507086157798767
+        },
+        {
+          "cade": -8.34430247778073e-05
+        },
+        {
+          "from": -0.15404897928237915
+        },
+        {
+          "": -0.01859857141971588
+        },
+        {
+          "1": -0.0033730538561940193
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.38,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: The Feminine Touch is a drama film starring which English actress?\nThought 1:Let's think step by step. The Feminine Touch is a drama film starring Rosalind Russell. Rosalind Russell is an American actress, not English. So the English actress is not Rosalind Russell.\nAnswer: Rosalind Russell\nAction 1: MeasureUncertainty [Rosalind Russell]\nObservation 1: Answer's uncertainty is 1.38, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Rosalind Russell",
+  "summary": {
+    "final_answer": "Rosalind Russell",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.38
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 251,
+  "question": "Question: What is Opry Mills in Nashville, Tennessee?",
+  "gold_answer": "super-regional shopping mall",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is Opry Mills in Nashville, Tennessee?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is Opry Mills in Nashville, Tennessee?\nThought:",
+      "output": "Let's think step by step. Opry Mills is a shopping mall.\nAnswer: shopping mall\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a 1960 film. Ocean's Eleven is a 2001 film. Ocean's Eleven is a remake of the 1960 film Ocean's 11.\nAnswer",
+      "probs": [
+        {
+          "Let": -0.015767425298690796
+        },
+        {
+          "'": -0.000940476544201374
+        },
+        {
+          "s": -0.0001045410826918669
+        },
+        {
+          "think": -0.001666586846113205
+        },
+        {
+          "step": -0.001110532903112471
+        },
+        {
+          "by": -0.00043525759247131646
+        },
+        {
+          "step": -2.1219027985353023e-05
+        },
+        {
+          ".": -0.0006224363460205495
+        },
+        {
+          "O": -0.17874908447265625
+        },
+        {
+          "pr": -0.00052998325554654
+        },
+        {
+          "y": -3.2305197237292305e-05
+        },
+        {
+          "M": -0.005583524238318205
+        },
+        {
+          "ills": -0.0006617502076551318
+        },
+        {
+          "is": -0.4490697979927063
+        },
+        {
+          "a": -0.46186894178390503
+        },
+        {
+          "sho": -0.30906909704208374
+        },
+        {
+          "pping": -0.00028165188268758357
+        },
+        {
+          "m": -0.05966532602906227
+        },
+        {
+          "all": -0.004747310187667608
+        },
+        {
+          ".": -0.9017979502677917
+        },
+        {
+          "<0x0A>": -0.42355650663375854
+        },
+        {
+          "Answer": -0.0026038335636258125
+        },
+        {
+          ":": -0.000433112756581977
+        },
+        {
+          "sho": -0.35334157943725586
+        },
+        {
+          "pping": -0.00019369633810129017
+        },
+        {
+          "m": -0.003124595619738102
+        },
+        {
+          "all": -0.000596107158344239
+        },
+        {
+          "<0x0A>": -0.021351946517825127
+        },
+        {
+          "Question": -0.17729733884334564
+        },
+        {
+          ":": -0.00024244230007752776
+        },
+        {
+          "What": -1.2123689651489258
+        },
+        {
+          "is": -0.9572520852088928
+        },
+        {
+          "the": -0.7319104075431824
+        },
+        {
+          "name": -2.6885769367218018
+        },
+        {
+          "of": -0.0484626367688179
+        },
+        {
+          "the": -0.4837220311164856
+        },
+        {
+          "": -3.5639257431030273
+        },
+        {
+          "1": -0.6770666241645813
+        },
+        {
+          "9": -0.20307981967926025
+        },
+        {
+          "9": -1.3573788404464722
+        },
+        {
+          "9": -2.0727598667144775
+        },
+        {
+          "film": -1.606982946395874
+        },
+        {
+          "that": -1.9747719764709473
+        },
+        {
+          "is": -1.9954426288604736
+        },
+        {
+          "a": -1.3269585371017456
+        },
+        {
+          "re": -1.2106857299804688
+        },
+        {
+          "make": -0.030993927270174026
+        },
+        {
+          "of": -0.01617358811199665
+        },
+        {
+          "the": -0.7514180541038513
+        },
+        {
+          "": -0.26782411336898804
+        },
+        {
+          "1": -0.010898824781179428
+        },
+        {
+          "9": -0.0018122454639524221
+        },
+        {
+          "6": -1.2849889993667603
+        },
+        {
+          "0": -1.8847615718841553
+        },
+        {
+          "film": -0.4321254789829254
+        },
+        {
+          "Ocean": -1.4837220907211304
+        },
+        {
+          "'": -0.009132045321166515
+        },
+        {
+          "s": -0.00018142008048016578
+        },
+        {
+          "": -0.4802513122558594
+        },
+        {
+          "1": -0.0003106111544184387
+        },
+        {
+          "1": -0.0005559567362070084
+        },
+        {
+          "?": -0.24373020231723785
+        },
+        {
+          "<0x0A>": -0.004465370438992977
+        },
+        {
+          "Th": -0.00407769251614809
+        },
+        {
+          "ought": -5.2927523938706145e-05
+        },
+        {
+          ":": -9.595887240720913e-05
+        },
+        {
+          "Let": -0.013031437993049622
+        },
+        {
+          "'": -0.00045003299601376057
+        },
+        {
+          "s": -3.516612196108326e-05
+        },
+        {
+          "think": -0.0010846928926184773
+        },
+        {
+          "step": -0.0006805725861340761
+        },
+        {
+          "by": -0.00017963226127903908
+        },
+        {
+          "step": -0.00012432756193447858
+        },
+        {
+          ".": -0.0003967689990531653
+        },
+        {
+          "Ocean": -0.6218808889389038
+        },
+        {
+          "'": -0.007060931995511055
+        },
+        {
+          "s": -0.00032669928623363376
+        },
+        {
+          "Ele": -0.5037477612495422
+        },
+        {
+          "ven": -4.7205765440594405e-05
+        },
+        {
+          "is": -0.3745829164981842
+        },
+        {
+          "a": -0.3064969778060913
+        },
+        {
+          "": -0.6448877453804016
+        },
+        {
+          "1": -0.3009890019893646
+        },
+        {
+          "9": -0.00017855956684798002
+        },
+        {
+          "6": -0.2083086520433426
+        },
+        {
+          "0": -0.0007662221323698759
+        },
+        {
+          "film": -0.19958540797233582
+        },
+        {
+          ".": -0.35590094327926636
+        },
+        {
+          "Ocean": -0.17300233244895935
+        },
+        {
+          "'": -0.003522265236824751
+        },
+        {
+          "s": -0.0002674698771443218
+        },
+        {
+          "Ele": -0.07395702600479126
+        },
+        {
+          "ven": -2.062299427052494e-05
+        },
+        {
+          "is": -0.19251865148544312
+        },
+        {
+          "a": -0.12433330714702606
+        },
+        {
+          "": -0.23405638337135315
+        },
+        {
+          "2": -0.45670032501220703
+        },
+        {
+          "0": -3.361645576660521e-05
+        },
+        {
+          "0": -0.0019919094629585743
+        },
+        {
+          "1": -0.0036250133998692036
+        },
+        {
+          "film": -0.23386628925800323
+        },
+        {
+          ".": -0.3219059705734253
+        },
+        {
+          "Ocean": -1.1896238327026367
+        },
+        {
+          "'": -0.008483326062560081
+        },
+        {
+          "s": -0.0007963585085235536
+        },
+        {
+          "Ele": -0.5400632619857788
+        },
+        {
+          "ven": -0.00021610308613162488
+        },
+        {
+          "is": -0.4636194109916687
+        },
+        {
+          "a": -0.25156843662261963
+        },
+        {
+          "re": -0.17583149671554565
+        },
+        {
+          "make": -0.001065282616764307
+        },
+        {
+          "of": -0.011890840716660023
+        },
+        {
+          "the": -0.40196624398231506
+        },
+        {
+          "": -0.03184301406145096
+        },
+        {
+          "1": -0.0009504806366749108
+        },
+        {
+          "9": -5.769562994828448e-05
+        },
+        {
+          "6": -0.0037070857360959053
+        },
+        {
+          "0": -0.0007616956136189401
+        },
+        {
+          "film": -0.025116534903645515
+        },
+        {
+          "Ocean": -0.1491980254650116
+        },
+        {
+          "'": -0.0005888396990485489
+        },
+        {
+          "s": -6.151010165922344e-05
+        },
+        {
+          "": -0.1474606990814209
+        },
+        {
+          "1": -1.680836794548668e-05
+        },
+        {
+          "1": -6.723177648382261e-05
+        },
+        {
+          ".": -0.305681973695755
+        },
+        {
+          "<0x0A>": -0.08427064120769501
+        },
+        {
+          "Answer": -0.001545069506391883
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: What is Opry Mills in Nashville, Tennessee?\nThought 1:Let's think step by step. Opry Mills is a shopping mall.\nAnswer: shopping mall\nAction 1: MeasureUncertainty [shopping mall]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: shopping mall",
+  "summary": {
+    "final_answer": "shopping mall",
+    "em": false,
+    "f1": 0.8,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

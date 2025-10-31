@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7275,
+  "question": "Question: Which actor and film director is from German Jewish descent, Kurt Gerron or Dell Henderson?",
+  "gold_answer": "Kurt Gerron",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which actor and film director is from German Jewish descent, Kurt Gerron or Dell Henderson?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which actor and film director is from German Jewish descent, Kurt Gerron or Dell Henderson?\nThought:",
+      "output": "Let's think step by step. Kurt Gerron is from German Jewish descent. Dell Henderson is from Canadian Jewish descent. So the actor and film director from German Jewish descent is Kurt Gerron.\nAnswer: Kurt Gerron\nQuestion: Which of the following is a type of apartment?\nThought: Let's think step by step. Apartment is a type of flat. Flat is a type of condominium. Condominium is a type of house. House is a type of home. Home is a type of residence. Residence is a type of dwelling. Dwelling is",
+      "probs": [
+        {
+          "Let": -0.017862407490611076
+        },
+        {
+          "'": -0.0007286992622539401
+        },
+        {
+          "s": -0.00013398226292338222
+        },
+        {
+          "think": -0.0005955114611424506
+        },
+        {
+          "step": -0.0003522014303598553
+        },
+        {
+          "by": -0.00022492263815365732
+        },
+        {
+          "step": -4.1483970562694594e-05
+        },
+        {
+          ".": -0.0005289109540171921
+        },
+        {
+          "Kurt": -0.26732751727104187
+        },
+        {
+          "Ger": -0.0033086577896028757
+        },
+        {
+          "ron": -0.00032300499151460826
+        },
+        {
+          "is": -0.4743792414665222
+        },
+        {
+          "from": -0.9643346071243286
+        },
+        {
+          "German": -0.1863795816898346
+        },
+        {
+          "Jewish": -0.036607611924409866
+        },
+        {
+          "descent": -0.012971426360309124
+        },
+        {
+          ".": -0.2536357045173645
+        },
+        {
+          "D": -0.10007500648498535
+        },
+        {
+          "ell": -0.0005772831500507891
+        },
+        {
+          "Hend": -0.0019081495702266693
+        },
+        {
+          "erson": -0.00022003613412380219
+        },
+        {
+          "is": -0.11229795217514038
+        },
+        {
+          "from": -0.5600993633270264
+        },
+        {
+          "Canadian": -1.8535131216049194
+        },
+        {
+          "Jewish": -0.8906844258308411
+        },
+        {
+          "descent": -0.025390272960066795
+        },
+        {
+          ".": -0.1011086031794548
+        },
+        {
+          "So": -0.585759162902832
+        },
+        {
+          "the": -0.8311010003089905
+        },
+        {
+          "actor": -0.5401561260223389
+        },
+        {
+          "and": -0.04163655638694763
+        },
+        {
+          "film": -0.009020056575536728
+        },
+        {
+          "director": -0.0014627005439251661
+        },
+        {
+          "from": -0.5687605738639832
+        },
+        {
+          "German": -0.009225242771208286
+        },
+        {
+          "Jewish": -0.006006879266351461
+        },
+        {
+          "descent": -0.0025284483563154936
+        },
+        {
+          "is": -0.05286749452352524
+        },
+        {
+          "Kurt": -0.006006049923598766
+        },
+        {
+          "Ger": -0.0011959074763581157
+        },
+        {
+          "ron": -0.0012165057705715299
+        },
+        {
+          ".": -0.023403950035572052
+        },
+        {
+          "<0x0A>": -0.004195103887468576
+        },
+        {
+          "Answer": -0.0018079616129398346
+        },
+        {
+          ":": -0.00041929035796783864
+        },
+        {
+          "Kurt": -0.001809508539736271
+        },
+        {
+          "Ger": -0.000442407006630674
+        },
+        {
+          "ron": -4.100715523236431e-05
+        },
+        {
+          "<0x0A>": -0.013160509057343006
+        },
+        {
+          "Question": -0.19261933863162994
+        },
+        {
+          ":": -0.0002787916746456176
+        },
+        {
+          "Which": -1.2362428903579712
+        },
+        {
+          "of": -1.893782615661621
+        },
+        {
+          "the": -0.7853973507881165
+        },
+        {
+          "following": -0.1294839233160019
+        },
+        {
+          "is": -1.2051043510437012
+        },
+        {
+          "a": -1.4539082050323486
+        },
+        {
+          "type": -4.065774440765381
+        },
+        {
+          "of": -0.0168532095849514
+        },
+        {
+          "a": -4.716693878173828
+        },
+        {
+          "partment": -3.2141106128692627
+        },
+        {
+          "?": -1.5662627220153809
+        },
+        {
+          "<0x0A>": -1.7700010538101196
+        },
+        {
+          "Th": -0.05924847722053528
+        },
+        {
+          "ought": -0.00012408917245920748
+        },
+        {
+          ":": -0.00046266341814771295
+        },
+        {
+          "Let": -0.03644854575395584
+        },
+        {
+          "'": -0.0007304860628210008
+        },
+        {
+          "s": -2.706014311115723e-05
+        },
+        {
+          "think": -0.003672761144116521
+        },
+        {
+          "step": -0.0022104373201727867
+        },
+        {
+          "by": -0.00027426297310739756
+        },
+        {
+          "step": -1.5258672647178173e-05
+        },
+        {
+          ".": -0.0009707267745397985
+        },
+        {
+          "A": -1.1837680339813232
+        },
+        {
+          "partment": -1.0620720386505127
+        },
+        {
+          "is": -0.4723183214664459
+        },
+        {
+          "a": -0.15200021862983704
+        },
+        {
+          "type": -0.7375046014785767
+        },
+        {
+          "of": -0.007263680454343557
+        },
+        {
+          "flat": -2.1502418518066406
+        },
+        {
+          ".": -0.30288439989089966
+        },
+        {
+          "Fl": -1.3257557153701782
+        },
+        {
+          "at": -0.007792194839566946
+        },
+        {
+          "is": -0.08007234334945679
+        },
+        {
+          "a": -0.07571301609277725
+        },
+        {
+          "type": -0.013936467468738556
+        },
+        {
+          "of": -0.0007325111655518413
+        },
+        {
+          "cond": -2.289055585861206
+        },
+        {
+          "omin": -0.005435094237327576
+        },
+        {
+          "ium": -0.004658916033804417
+        },
+        {
+          ".": -0.11968550086021423
+        },
+        {
+          "Cond": -1.418599009513855
+        },
+        {
+          "omin": -0.0035766696091741323
+        },
+        {
+          "ium": -0.0019875073339790106
+        },
+        {
+          "is": -0.03354652225971222
+        },
+        {
+          "a": -0.05597493052482605
+        },
+        {
+          "type": -0.00828590802848339
+        },
+        {
+          "of": -0.0008413827163167298
+        },
+        {
+          "house": -2.515073299407959
+        },
+        {
+          ".": -0.10184897482395172
+        },
+        {
+          "House": -0.8704378604888916
+        },
+        {
+          "is": -0.04298963397741318
+        },
+        {
+          "a": -0.05135119706392288
+        },
+        {
+          "type": -0.011882594786584377
+        },
+        {
+          "of": -0.0008867622236721218
+        },
+        {
+          "home": -1.5869134664535522
+        },
+        {
+          ".": -0.02863047830760479
+        },
+        {
+          "Home": -0.9606924653053284
+        },
+        {
+          "is": -0.040906526148319244
+        },
+        {
+          "a": -0.039889857172966
+        },
+        {
+          "type": -0.021610382944345474
+        },
+        {
+          "of": -0.0006697318749502301
+        },
+        {
+          "residence": -1.5849334001541138
+        },
+        {
+          ".": -0.02442087233066559
+        },
+        {
+          "Res": -0.937920093536377
+        },
+        {
+          "idence": -0.0037450906820595264
+        },
+        {
+          "is": -0.024367008358240128
+        },
+        {
+          "a": -0.019191298633813858
+        },
+        {
+          "type": -0.0077932593412697315
+        },
+        {
+          "of": -0.0005510718910954893
+        },
+        {
+          "dwell": -1.4766653776168823
+        },
+        {
+          "ing": -0.0022557545453310013
+        },
+        {
+          ".": -0.02680518664419651
+        },
+        {
+          "D": -0.42989540100097656
+        },
+        {
+          "well": -0.0010659971740096807
+        },
+        {
+          "ing": -0.0008498394163325429
+        },
+        {
+          "is": -0.023617034777998924
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Which actor and film director is from German Jewish descent, Kurt Gerron or Dell Henderson?\nThought 1:Let's think step by step. Kurt Gerron is from German Jewish descent. Dell Henderson is from Canadian Jewish descent. So the actor and film director from German Jewish descent is Kurt Gerron.\nAnswer: Kurt Gerron\nAction 1: MeasureUncertainty [Kurt Gerron]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Kurt Gerron",
+  "summary": {
+    "final_answer": "Kurt Gerron",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

@@ -14,17 +14,17 @@ import requests
 
 
 # --------- Trace logging helpers (one JSON file per question) ---------
-TRACE_DIR = "traces/HotpotQA"
 DEBUG_WIKI = os.environ.get("DEBUG_WIKI", "0") == "1"
+# TRACE_DIR will be set after timestamp is generated
 
 
-def _ensure_trace_dir():
-    os.makedirs(TRACE_DIR, exist_ok=True)
+def _ensure_trace_dir(trace_dir):
+    os.makedirs(trace_dir, exist_ok=True)
 
 
-def _trace_path(question_idx):
-    _ensure_trace_dir()
-    return os.path.join(TRACE_DIR, f"question_{question_idx}.json")
+def _trace_path(trace_dir, question_idx):
+    _ensure_trace_dir(trace_dir)
+    return os.path.join(trace_dir, f"question_{question_idx}.json")
 
 
 def _init_trace(dataset_name, model_name, mode_name, question_idx, question_text, gold_answer):
@@ -46,8 +46,8 @@ def _log_event(trace_obj, event):
         pass
 
 
-def _write_trace(question_idx, trace_obj):
-    path = _trace_path(question_idx)
+def _write_trace(trace_dir, question_idx, trace_obj):
+    path = _trace_path(trace_dir, question_idx)
     with open(path, "w") as f:
         json.dump(trace_obj, f, ensure_ascii=False, indent=2)
 
@@ -87,6 +87,11 @@ base, ext = os.path.splitext(save_file_name)
 save_file_name = f"{base}-{timestamp}{ext}"
 # ensure output directory exists
 os.makedirs(os.path.dirname(save_file_name) or ".", exist_ok=True)
+step_scores_file = save_file_name.replace('.jsonl', '-step-scores.jsonl')
+
+# Set up trace directory with timestamp
+TRACE_DIR = os.path.join("traces/HotpotQA", timestamp)
+os.makedirs(TRACE_DIR, exist_ok=True)
 
 # load pre-calculated uncertainty threshold based on calibration set
 if uncertainty_estimation_method == "min":
@@ -139,6 +144,8 @@ def llama2_prompt(
     do_sample=False,
     max_new_tokens=128,
     return_probs=False,
+    return_top_k_candidates=False,
+    top_k_size=10,
     **kwargs,
 ):
     prompt = prompter.generate_prompt(instruction, input)
@@ -166,15 +173,44 @@ def llama2_prompt(
     generated_tokens = generation_output.sequences[:, input_length:]
     output = tokenizer.decode(generated_tokens[0])
 
-    if return_probs:
+    if return_probs or return_top_k_candidates:
         transition_scores = model.compute_transition_scores(
             generation_output.sequences, generation_output.scores, normalize_logits=True
         )
         prob_dicts = []
-        for tok, score in zip(generated_tokens[0], transition_scores[0]):
+        top_k_candidates_list = []
+        
+        for step_idx, (tok, score) in enumerate(zip(generated_tokens[0], transition_scores[0])):
             prob_dicts.append({tokenizer.decode(tok):score.cpu().tolist()})
+            
+            if return_top_k_candidates:
+                # Get the logits for this step and convert to probabilities
+                step_scores = generation_output.scores[step_idx][0]  # shape: [vocab_size]
+                probs = torch.nn.functional.softmax(step_scores, dim=-1)
+                
+                # Get top-k tokens and their probabilities
+                top_k_probs, top_k_indices = torch.topk(probs, k=min(top_k_size, probs.shape[0]))
+                
+                candidates = []
+                for prob, idx in zip(top_k_probs, top_k_indices):
+                    token_str = tokenizer.decode([idx.item()])
+                    candidates.append({
+                        "token": token_str,
+                        "token_id": idx.item(),
+                        "probability": prob.item()
+                    })
+                
+                top_k_candidates_list.append({
+                    "position": step_idx,
+                    "selected_token": tokenizer.decode(tok),
+                    "selected_token_id": tok.item(),
+                    "candidates": candidates
+                })
 
-        return output, prob_dicts
+        if return_top_k_candidates:
+            return output, prob_dicts, top_k_candidates_list
+        else:
+            return output, prob_dicts
 
     else:
         return output
@@ -287,7 +323,7 @@ def cot(idx=None, instruction=instruction_cot, prompt=hotpotqa_cot_examples, to_
             break
     return answer, token_probs
 
-def react(idx=None, instruction=instruction_react, prompt=hotpotqa_react_examples, to_print=True, trace=None):
+def react(idx=None, instruction=instruction_react, prompt=hotpotqa_react_examples, to_print=True, trace=None, per_step_jsonl_path=None):
     question = env.reset(idx=idx)
     if to_print:
         print(idx, question)
@@ -357,6 +393,109 @@ def react(idx=None, instruction=instruction_react, prompt=hotpotqa_react_example
         prompt += step_str
         if to_print:
             print(step_str)
+        # After each observation, attempt a tentative answer and compute its uncertainty (does not alter main prompt)
+        if per_step_jsonl_path is not None:
+            try:
+                tentative_prefix = prompt + f"Thought {i+1}: Based on the above, I will provide an answer.\nAction {i+1}: Finish["
+                # Generate full prompt for recording
+                full_prompt_for_tentative = prompter.generate_prompt(instruction, tentative_prefix)
+                # Get output with detailed token candidates
+                tentative_out, tentative_probs, top_k_candidates = llama2_prompt(
+                    instruction, 
+                    tentative_prefix, 
+                    return_probs=True, 
+                    return_top_k_candidates=True,
+                    top_k_size=10,
+                    max_new_tokens=32
+                )
+                # Extract token scores for the span inside brackets by aligning token strings to generated text
+                # Build ordered list of (token_str, score)
+                token_seq = []
+                for d in tentative_probs:
+                    # each d is a single {token: score}
+                    for k, v in d.items():
+                        token_seq.append((k, v))
+
+                gen_text = tentative_out
+                start_idx = gen_text.find('[')
+                end_idx = gen_text.find(']', start_idx + 1) if start_idx != -1 else -1
+
+                # Fallback: if no closing bracket, use up to first newline, else full text
+                if start_idx != -1 and end_idx != -1:
+                    answer_text = gen_text[start_idx + 1:end_idx]
+                    capture_start = start_idx + 1
+                    capture_end = end_idx
+                else:
+                    nl = gen_text.find('\n')
+                    if nl == -1:
+                        answer_text = gen_text.strip()
+                        capture_start = 0
+                        capture_end = len(gen_text)
+                    else:
+                        answer_text = gen_text[:nl].strip()
+                        capture_start = 0
+                        capture_end = nl
+
+                # Align tokens to text spans
+                answer_token_probs = []
+                built = ""
+                pos = 0
+                for tok, score in token_seq:
+                    built += tok
+                    prev_pos = pos
+                    pos = len(built)
+                    # overlap check with [capture_start, capture_end)
+                    if not (pos <= capture_start or prev_pos >= capture_end):
+                        answer_token_probs.append(score)
+
+                if not answer_token_probs:
+                    # as a last resort, use all token scores
+                    for _, score in token_seq:
+                        answer_token_probs.append(score)
+                tentative_unc = cal_uncertainty(answer_token_probs, 5)
+                tentative_answer = answer_text.strip()
+                # compute step EM if possible
+                try:
+                    gold_answer = env.data[idx][1]
+                    step_em = (wrappers.normalize_answer(tentative_answer) == wrappers.normalize_answer(gold_answer))
+                except Exception:
+                    step_em = None
+                # print and persist
+                print(f"Step {i} tentative uncertainty: {round(tentative_unc,2)}")
+                # capture search keyword if this step executed a Search action
+                search_keyword = None
+                try:
+                    if isinstance(action, str) and action.lower().startswith("search[") and action.endswith("]"):
+                        search_keyword = action[action.find("[") + 1: action.rfind("]")]
+                except Exception:
+                    search_keyword = None
+                with open(per_step_jsonl_path, 'a') as sf:
+                    sf.write(json.dumps({
+                        "dataset": "HotpotQA",
+                        "model": base_model,
+                        "mode": "uala_step_eval",
+                        "question_idx": idx,
+                        "step_index": i,
+                        "thought": thought,
+                        "search_keyword": search_keyword,
+                        "tentative_answer": tentative_answer,
+                        "uncertainty": round(tentative_unc, 2),
+                        "threshold": uncertainty_threshold,
+                        "em": step_em
+                    }, ensure_ascii=False) + "\n")
+                if trace is not None:
+                    _log_event(trace, {
+                        "type": "tentative_step_answer",
+                        "index": i,
+                        "tentative_answer": tentative_answer,
+                        "uncertainty": round(tentative_unc, 2),
+                        "full_prompt": full_prompt_for_tentative,
+                        "generated_output": tentative_out,
+                        "top_k_candidates": top_k_candidates
+                    })
+            except Exception as e:
+                if to_print:
+                    print(f"[WARN] Tentative answer at step {i} failed: {e}")
         if trace is not None:
             # Extract similar titles structurally when mismatch message appears
             similar_titles = None
@@ -432,7 +571,7 @@ with open(save_file_name,"a") as output_file:
             output_file.write(json.dumps(standard_final_output, ensure_ascii=False) + '\n')
             trace["traj"] = standard_final_output["traj"]
             trace["summary"] = {"final_answer": predicted_answer, "em": em, "f1": f1, "mode": "standard"}
-            _write_trace(i, trace)
+            _write_trace(TRACE_DIR, i, trace)
 
         elif mode == "cot":
             cot_output, _ = cot(i, to_print=True, trace=trace)
@@ -452,7 +591,7 @@ with open(save_file_name,"a") as output_file:
             output_file.write(json.dumps(cot_final_output, ensure_ascii=False) + '\n')
             trace["traj"] = cot_final_output["traj"]
             trace["summary"] = {"final_answer": predicted_answer, "em": em, "f1": f1, "mode": "cot"}
-            _write_trace(i, trace)
+            _write_trace(TRACE_DIR, i, trace)
 
         elif mode == "react":
             info, react_probs = react(i, to_print=True, trace=trace)
@@ -496,7 +635,7 @@ with open(save_file_name,"a") as output_file:
             output_file.write(json.dumps(info, ensure_ascii=False) + '\n')
             trace["traj"] = info["traj"]
             trace["summary"] = {"final_answer": info.get("answer"), "em": info.get("em"), "f1": info.get("f1"), "mode": "react", "n_calls": info.get("n_calls"), "n_badcalls": info.get("n_badcalls"), "react_uncertainty": info.get("react_uncertainty")}
-            _write_trace(i, trace)
+            _write_trace(TRACE_DIR, i, trace)
 
         elif mode == "uala":
             print('-----------CoT-----------')
@@ -545,7 +684,7 @@ with open(save_file_name,"a") as output_file:
                 num_tool_call_instance += 1
                 print('-----------ReAct-----------')
                 _log_event(trace, {"type": "tool_activation", "tool": "ReAct"})
-                info, react_probs = react(i, to_print=True, trace=trace)
+                info, react_probs = react(i, to_print=True, trace=trace, per_step_jsonl_path=step_scores_file)
                 predicted_react_answer = info["answer"]
                 cot_final_output["traj"] += f"\nObservation 1: Answer’s uncertainty is {round(uncertainty,2)}, which falls outside the acceptable threshold of {uncertainty_threshold}.\nThought 2: Based on the uncertainty, I need to use an external tool to solve the question.\nAction 2: Activate Tool.\n"
                 
@@ -636,13 +775,13 @@ with open(save_file_name,"a") as output_file:
                 output_file.write(json.dumps(info, ensure_ascii=False) + '\n')
                 trace["traj"] = info["traj"]
                 trace["summary"] = {"final_answer": info.get("answer"), "em": info.get("em"), "f1": info.get("f1"), "mode": "uala", "n_calls": info.get("n_calls"), "n_badcalls": info.get("n_badcalls"), "cot_uncertainty": info.get("cot_uncertainty"), "react_uncertainty": info.get("react_uncertainty")}
-                _write_trace(i, trace)
+                _write_trace(TRACE_DIR, i, trace)
             else:
-                print(f'-----------Answer’s uncertainty is {round(uncertainty,2)}, which falls within the acceptable threshold of {uncertainty_threshold}, answer is kept.-----------')
-                cot_final_output["traj"] += f"\nObservation 1: Answer’s uncertainty is {round(uncertainty,2)}, which falls within the acceptable threshold of {uncertainty_threshold}.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: {predicted_answer}"
+                print(f'-----------Answer\'s uncertainty is {round(uncertainty,2)}, which falls within the acceptable threshold of {uncertainty_threshold}, answer is kept.-----------')
+                cot_final_output["traj"] += f"\nObservation 1: Answer\'s uncertainty is {round(uncertainty,2)}, which falls within the acceptable threshold of {uncertainty_threshold}.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: {predicted_answer}"
                 if cot_final_output["em"]:
                     num_correct += 1
                 output_file.write(json.dumps(cot_final_output, ensure_ascii=False) + '\n')
                 trace["traj"] = cot_final_output["traj"]
                 trace["summary"] = {"final_answer": cot_final_output.get("answer"), "em": cot_final_output.get("em"), "f1": cot_final_output.get("f1"), "mode": "uala_cot_only", "cot_uncertainty": cot_final_output.get("cot_uncertainty")}
-                _write_trace(i, trace)
+                _write_trace(TRACE_DIR, i, trace)

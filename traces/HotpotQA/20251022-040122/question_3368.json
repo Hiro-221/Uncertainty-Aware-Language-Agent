@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3368,
+  "question": "Question: Who is the director of Hollywood film \"7th Heaven\" (1927), Jerry Belson or  Frank Borzage?",
+  "gold_answer": "Frank Borzage",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is the director of Hollywood film \"7th Heaven\" (1927), Jerry Belson or  Frank Borzage?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is the director of Hollywood film \"7th Heaven\" (1927), Jerry Belson or  Frank Borzage?\nThought:",
+      "output": "Let's think step by step. Jerry Belson is a screenwriter, not a director. So the director of Hollywood film \"7th Heaven\" (1927) must be Frank Borzage.\nAnswer: Frank Borzage\nQuestion: Which of the following is a film directed by Frank Borzage?\nThought: Let's think step by step. Frank Borzage directed \"7th Heaven\" (1927). So the answer is \"7th Heaven\" (1927).\nAnswer: \"7th Heaven\" (1927)\nQuestion:",
+      "probs": [
+        {
+          "Let": -0.010972874239087105
+        },
+        {
+          "'": -0.0009071287349797785
+        },
+        {
+          "s": -0.00013064485392533243
+        },
+        {
+          "think": -0.0007961202645674348
+        },
+        {
+          "step": -0.00038223114097490907
+        },
+        {
+          "by": -0.00014780859055463225
+        },
+        {
+          "step": -4.303362584323622e-05
+        },
+        {
+          ".": -0.000834236154332757
+        },
+        {
+          "Jerry": -1.4761452674865723
+        },
+        {
+          "Bel": -0.004397603217512369
+        },
+        {
+          "son": -0.0005676327273249626
+        },
+        {
+          "is": -0.36976513266563416
+        },
+        {
+          "a": -0.7111454010009766
+        },
+        {
+          "screen": -1.3288567066192627
+        },
+        {
+          "writer": -0.017358053475618362
+        },
+        {
+          ",": -0.9986826181411743
+        },
+        {
+          "not": -0.6137694120407104
+        },
+        {
+          "a": -0.21450747549533844
+        },
+        {
+          "director": -0.07675410062074661
+        },
+        {
+          ".": -0.08088584244251251
+        },
+        {
+          "So": -0.9653744697570801
+        },
+        {
+          "the": -0.28811705112457275
+        },
+        {
+          "director": -0.08730629831552505
+        },
+        {
+          "of": -0.15777868032455444
+        },
+        {
+          "Hollywood": -0.5397580862045288
+        },
+        {
+          "film": -0.004939851816743612
+        },
+        {
+          "\"": -0.0634862557053566
+        },
+        {
+          "7": -0.001140778069384396
+        },
+        {
+          "th": -0.0005502378917299211
+        },
+        {
+          "Heaven": -0.001692292862571776
+        },
+        {
+          "\"": -0.0038023332599550486
+        },
+        {
+          "(": -0.1314050555229187
+        },
+        {
+          "1": -0.00038366109947673976
+        },
+        {
+          "9": -4.207999518257566e-05
+        },
+        {
+          "2": -0.0004934046883136034
+        },
+        {
+          "7": -0.0002485204895492643
+        },
+        {
+          ")": -0.013856523670256138
+        },
+        {
+          "must": -0.3053523600101471
+        },
+        {
+          "be": -0.4686872959136963
+        },
+        {
+          "Frank": -0.0710187554359436
+        },
+        {
+          "Bor": -0.0015389991458505392
+        },
+        {
+          "z": -0.00031156453769654036
+        },
+        {
+          "age": -0.0003026265767402947
+        },
+        {
+          ".": -0.0626135766506195
+        },
+        {
+          "<0x0A>": -0.006123116239905357
+        },
+        {
+          "Answer": -0.0020736397709697485
+        },
+        {
+          ":": -0.0004180987598374486
+        },
+        {
+          "Frank": -0.021403638646006584
+        },
+        {
+          "Bor": -0.0008445986895821989
+        },
+        {
+          "z": -0.00017379203927703202
+        },
+        {
+          "age": -8.702239938429557e-06
+        },
+        {
+          "<0x0A>": -0.018296165391802788
+        },
+        {
+          "Question": -0.18994411826133728
+        },
+        {
+          ":": -0.0003110878460574895
+        },
+        {
+          "Which": -1.424185872077942
+        },
+        {
+          "of": -1.8283283710479736
+        },
+        {
+          "the": -0.8181649446487427
+        },
+        {
+          "following": -0.1496937870979309
+        },
+        {
+          "is": -1.221336841583252
+        },
+        {
+          "a": -1.4652072191238403
+        },
+        {
+          "film": -3.9134457111358643
+        },
+        {
+          "directed": -1.3254268169403076
+        },
+        {
+          "by": -0.015252972021698952
+        },
+        {
+          "Frank": -3.5100696086883545
+        },
+        {
+          "Bor": -0.7237259149551392
+        },
+        {
+          "z": -0.00047505536349490285
+        },
+        {
+          "age": -0.00016175392374861985
+        },
+        {
+          "?": -0.5134342908859253
+        },
+        {
+          "<0x0A>": -1.1133545637130737
+        },
+        {
+          "Th": -0.04795144125819206
+        },
+        {
+          "ought": -0.0001394651480950415
+        },
+        {
+          ":": -0.0013703251024708152
+        },
+        {
+          "Let": -0.018247589468955994
+        },
+        {
+          "'": -0.0007414452848024666
+        },
+        {
+          "s": -3.671578815556131e-05
+        },
+        {
+          "think": -0.0009084388730116189
+        },
+        {
+          "step": -0.0007292948430404067
+        },
+        {
+          "by": -0.0003014348621945828
+        },
+        {
+          "step": -5.817244164063595e-05
+        },
+        {
+          ".": -0.00082923355512321
+        },
+        {
+          "Frank": -1.9635660648345947
+        },
+        {
+          "Bor": -0.0066876402124762535
+        },
+        {
+          "z": -0.0003404037852305919
+        },
+        {
+          "age": -0.00016366096679121256
+        },
+        {
+          "directed": -0.5912384986877441
+        },
+        {
+          "\"": -1.8146982192993164
+        },
+        {
+          "7": -0.3745427429676056
+        },
+        {
+          "th": -0.000695463502779603
+        },
+        {
+          "Heaven": -0.0022261380217969418
+        },
+        {
+          "\"": -0.37500330805778503
+        },
+        {
+          "(": -0.05340579152107239
+        },
+        {
+          "1": -0.004923244938254356
+        },
+        {
+          "9": -9.059495641849935e-05
+        },
+        {
+          "2": -0.001908863428980112
+        },
+        {
+          "7": -0.001503290724940598
+        },
+        {
+          ").": -0.7680121660232544
+        },
+        {
+          "So": -0.9875656366348267
+        },
+        {
+          "the": -0.8488880395889282
+        },
+        {
+          "answer": -0.6429429054260254
+        },
+        {
+          "is": -0.1542535424232483
+        },
+        {
+          "\"": -0.09443818777799606
+        },
+        {
+          "7": -0.0025527053512632847
+        },
+        {
+          "th": -0.0002658013836480677
+        },
+        {
+          "Heaven": -0.001369491801597178
+        },
+        {
+          "\"": -0.03117547184228897
+        },
+        {
+          "(": -0.00269787828437984
+        },
+        {
+          "1": -0.0003163314249832183
+        },
+        {
+          "9": -7.748303323751315e-05
+        },
+        {
+          "2": -0.0002562671434134245
+        },
+        {
+          "7": -0.00019691436318680644
+        },
+        {
+          ").": -0.0619269423186779
+        },
+        {
+          "<0x0A>": -0.006995944771915674
+        },
+        {
+          "Answer": -0.004232734441757202
+        },
+        {
+          ":": -0.0013513966696336865
+        },
+        {
+          "\"": -0.3157161474227905
+        },
+        {
+          "7": -0.0011393491877242923
+        },
+        {
+          "th": -0.00040987672400660813
+        },
+        {
+          "Heaven": -0.0011117237154394388
+        },
+        {
+          "\"": -0.0021685673855245113
+        },
+        {
+          "(": -0.017450135201215744
+        },
+        {
+          "1": -0.0002172949316445738
+        },
+        {
+          "9": -3.4570634852570947e-06
+        },
+        {
+          "2": -0.00013731967192143202
+        },
+        {
+          "7": -0.00010871296399272978
+        },
+        {
+          ")": -0.00923811737447977
+        },
+        {
+          "<0x0A>": -0.014736022800207138
+        },
+        {
+          "Question": -0.22223113477230072
+        },
+        {
+          ":": -0.00031394799589179456
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Who is the director of Hollywood film \"7th Heaven\" (1927), Jerry Belson or  Frank Borzage?\nThought 1:Let's think step by step. Jerry Belson is a screenwriter, not a director. So the director of Hollywood film \"7th Heaven\" (1927) must be Frank Borzage.\nAnswer: Frank Borzage\nAction 1: MeasureUncertainty [Frank Borzage]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Frank Borzage",
+  "summary": {
+    "final_answer": "Frank Borzage",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

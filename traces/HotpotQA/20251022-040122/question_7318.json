@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7318,
+  "question": "Question: Where is the ice hockey team based that Zdeno Chára currently serving as captain of?",
+  "gold_answer": "Boston, Massachusetts",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Where is the ice hockey team based that Zdeno Chára currently serving as captain of?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Where is the ice hockey team based that Zdeno Chára currently serving as captain of?\nThought:",
+      "output": "Let's think step by step. Zdeno Chára currently serving as captain of Boston Bruins. Boston Bruins is based in Boston, Massachusetts. So the ice hockey team based that Zdeno Chára currently serving as captain of is Boston Bruins.\nAnswer: Boston Bruins\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1960 film of the same",
+      "probs": [
+        {
+          "Let": -0.00826249923557043
+        },
+        {
+          "'": -0.0005932478234171867
+        },
+        {
+          "s": -7.462222856702283e-05
+        },
+        {
+          "think": -0.001091599464416504
+        },
+        {
+          "step": -0.0006587718962691724
+        },
+        {
+          "by": -0.0002454218047205359
+        },
+        {
+          "step": -2.455681169521995e-05
+        },
+        {
+          ".": -0.000486970558995381
+        },
+        {
+          "Z": -0.13870704174041748
+        },
+        {
+          "den": -0.0008353081648238003
+        },
+        {
+          "o": -0.000824349990580231
+        },
+        {
+          "Ch": -0.005831371992826462
+        },
+        {
+          "ára": -0.044744838029146194
+        },
+        {
+          "currently": -0.672896146774292
+        },
+        {
+          "serving": -0.22878868877887726
+        },
+        {
+          "as": -0.003444098401814699
+        },
+        {
+          "captain": -0.01096438430249691
+        },
+        {
+          "of": -0.010236265137791634
+        },
+        {
+          "Boston": -0.6470094323158264
+        },
+        {
+          "Bru": -0.001769644906744361
+        },
+        {
+          "ins": -0.001712642959319055
+        },
+        {
+          ".": -0.2032558172941208
+        },
+        {
+          "Boston": -1.0444481372833252
+        },
+        {
+          "Bru": -0.013940935023128986
+        },
+        {
+          "ins": -0.0014940063701942563
+        },
+        {
+          "is": -0.42459094524383545
+        },
+        {
+          "based": -0.6259345412254333
+        },
+        {
+          "in": -0.03295128792524338
+        },
+        {
+          "Boston": -0.08193659782409668
+        },
+        {
+          ",": -0.4486103653907776
+        },
+        {
+          "Massachusetts": -0.4248020648956299
+        },
+        {
+          ".": -0.4193315804004669
+        },
+        {
+          "So": -0.16407284140586853
+        },
+        {
+          "the": -0.40041211247444153
+        },
+        {
+          "ice": -0.34787076711654663
+        },
+        {
+          "hockey": -0.0009647720726206899
+        },
+        {
+          "team": -0.002278947737067938
+        },
+        {
+          "based": -0.63567054271698
+        },
+        {
+          "that": -0.14946426451206207
+        },
+        {
+          "Z": -0.012875518761575222
+        },
+        {
+          "den": -0.00029202012228779495
+        },
+        {
+          "o": -0.00025245340657420456
+        },
+        {
+          "Ch": -0.003270517336204648
+        },
+        {
+          "ára": -0.017650319263339043
+        },
+        {
+          "currently": -0.017061248421669006
+        },
+        {
+          "serving": -0.00472061475738883
+        },
+        {
+          "as": -0.001795467222109437
+        },
+        {
+          "captain": -0.0027296210173517466
+        },
+        {
+          "of": -0.012646125629544258
+        },
+        {
+          "is": -0.023761393502354622
+        },
+        {
+          "Boston": -0.35936540365219116
+        },
+        {
+          "Bru": -0.32381561398506165
+        },
+        {
+          "ins": -0.000966915744356811
+        },
+        {
+          ".": -0.23460166156291962
+        },
+        {
+          "<0x0A>": -0.010409231297671795
+        },
+        {
+          "Answer": -0.0021275284234434366
+        },
+        {
+          ":": -0.0003295593778602779
+        },
+        {
+          "Boston": -0.009229730814695358
+        },
+        {
+          "Bru": -0.011356827802956104
+        },
+        {
+          "ins": -0.0001668790791882202
+        },
+        {
+          "<0x0A>": -0.04733243212103844
+        },
+        {
+          "Question": -0.210524782538414
+        },
+        {
+          ":": -0.0002598424907773733
+        },
+        {
+          "What": -1.449069619178772
+        },
+        {
+          "is": -1.183830976486206
+        },
+        {
+          "the": -0.38235029578208923
+        },
+        {
+          "name": -2.294576406478882
+        },
+        {
+          "of": -0.04767153784632683
+        },
+        {
+          "the": -0.4508626461029053
+        },
+        {
+          "": -3.509204149246216
+        },
+        {
+          "1": -0.7110175490379333
+        },
+        {
+          "9": -0.17149321734905243
+        },
+        {
+          "9": -1.2896932363510132
+        },
+        {
+          "9": -2.066614866256714
+        },
+        {
+          "film": -1.5165297985076904
+        },
+        {
+          "that": -1.6919310092926025
+        },
+        {
+          "is": -2.1385338306427
+        },
+        {
+          "a": -1.4844738245010376
+        },
+        {
+          "re": -1.1761040687561035
+        },
+        {
+          "make": -0.02956525608897209
+        },
+        {
+          "of": -0.020810937508940697
+        },
+        {
+          "the": -0.7973185181617737
+        },
+        {
+          "": -0.2889223098754883
+        },
+        {
+          "1": -0.012757121585309505
+        },
+        {
+          "9": -0.002198066795244813
+        },
+        {
+          "6": -1.3147639036178589
+        },
+        {
+          "0": -1.88593590259552
+        },
+        {
+          "film": -0.3887486755847931
+        },
+        {
+          "of": -1.4057999849319458
+        },
+        {
+          "the": -0.029451018199324608
+        },
+        {
+          "same": -0.002444971352815628
+        },
+        {
+          "name": -0.031172120943665504
+        },
+        {
+          "?": -0.4496000111103058
+        },
+        {
+          "<0x0A>": -0.013560323975980282
+        },
+        {
+          "Th": -0.0048155286349356174
+        },
+        {
+          "ought": -2.0265558760002023e-06
+        },
+        {
+          ":": -0.00012754580529872328
+        },
+        {
+          "Let": -0.008144382387399673
+        },
+        {
+          "'": -0.00015877417172305286
+        },
+        {
+          "s": -6.318072337307967e-06
+        },
+        {
+          "think": -0.00042024365393444896
+        },
+        {
+          "step": -0.0003194298769813031
+        },
+        {
+          "by": -0.00012790338951162994
+        },
+        {
+          "step": -2.610649426060263e-05
+        },
+        {
+          ".": -0.0002908283786382526
+        },
+        {
+          "The": -0.8655821084976196
+        },
+        {
+          "": -0.2796521484851837
+        },
+        {
+          "1": -0.008068113587796688
+        },
+        {
+          "9": -0.0002455409849062562
+        },
+        {
+          "9": -0.4873487651348114
+        },
+        {
+          "9": -0.0022972640581429005
+        },
+        {
+          "film": -0.04529060423374176
+        },
+        {
+          "that": -0.466556578874588
+        },
+        {
+          "is": -0.00545169273391366
+        },
+        {
+          "a": -0.00638172822073102
+        },
+        {
+          "re": -0.0018057008273899555
+        },
+        {
+          "make": -0.0003895000845659524
+        },
+        {
+          "of": -0.002439025556668639
+        },
+        {
+          "the": -0.017992964014410973
+        },
+        {
+          "": -0.0018333070911467075
+        },
+        {
+          "1": -0.00032300499151460826
+        },
+        {
+          "9": -0.00016807096835691482
+        },
+        {
+          "6": -0.0024829055182635784
+        },
+        {
+          "0": -0.0007937379996292293
+        },
+        {
+          "film": -0.0024586468935012817
+        },
+        {
+          "of": -0.10560675710439682
+        },
+        {
+          "the": -0.0018149822717532516
+        },
+        {
+          "same": -0.0003675738989841193
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Where is the ice hockey team based that Zdeno Chára currently serving as captain of?\nThought 1:Let's think step by step. Zdeno Chára currently serving as captain of Boston Bruins. Boston Bruins is based in Boston, Massachusetts. So the ice hockey team based that Zdeno Chára currently serving as captain of is Boston Bruins.\nAnswer: Boston Bruins\nAction 1: MeasureUncertainty [Boston Bruins]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Boston Bruins",
+  "summary": {
+    "final_answer": "Boston Bruins",
+    "em": false,
+    "f1": 0.5,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

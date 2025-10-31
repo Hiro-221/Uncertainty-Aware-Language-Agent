@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7278,
+  "question": "Question: Who is older, Jed Hoyer or John William Henry II?",
+  "gold_answer": "John William Henry II",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is older, Jed Hoyer or John William Henry II?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is older, Jed Hoyer or John William Henry II?\nThought:",
+      "output": "Let's think step by step. Jed Hoyer was born in 1973. John William Henry II was born in 1949. 1949 (John William Henry II) < 1973 (Jed Hoyer), so John William Henry II is older.\nAnswer: John William Henry II\nQuestion: Which of the following is a type of apartment?\nThought: Let's think step by step. Apartment is a type of apartment.\nAnswer: Apartment\nQuestion: Which of the following is a type of apartment?\nThought",
+      "probs": [
+        {
+          "Let": -0.00768100144341588
+        },
+        {
+          "'": -0.00039152585668489337
+        },
+        {
+          "s": -3.349725011503324e-05
+        },
+        {
+          "think": -0.0006908176001161337
+        },
+        {
+          "step": -0.0002719986077863723
+        },
+        {
+          "by": -0.0001720042055239901
+        },
+        {
+          "step": -2.9444261599564925e-05
+        },
+        {
+          ".": -0.00042512916843406856
+        },
+        {
+          "Jed": -0.37589702010154724
+        },
+        {
+          "Ho": -0.004221575800329447
+        },
+        {
+          "yer": -0.0002236116270069033
+        },
+        {
+          "was": -0.6532418131828308
+        },
+        {
+          "born": -0.006605812348425388
+        },
+        {
+          "in": -0.21187347173690796
+        },
+        {
+          "": -0.06852120161056519
+        },
+        {
+          "1": -0.007866592146456242
+        },
+        {
+          "9": -0.0014661526074633002
+        },
+        {
+          "7": -0.007393616251647472
+        },
+        {
+          "3": -0.04121223837137222
+        },
+        {
+          ".": -0.11291424185037613
+        },
+        {
+          "John": -0.013130155391991138
+        },
+        {
+          "William": -0.013576553203165531
+        },
+        {
+          "Henry": -0.0013709203340113163
+        },
+        {
+          "II": -0.00742745865136385
+        },
+        {
+          "was": -0.008961576037108898
+        },
+        {
+          "born": -0.0022256621159613132
+        },
+        {
+          "in": -0.014447485096752644
+        },
+        {
+          "": -0.011169054545462132
+        },
+        {
+          "1": -0.0011388728162273765
+        },
+        {
+          "9": -0.0003946240758523345
+        },
+        {
+          "4": -0.012204375118017197
+        },
+        {
+          "9": -0.011938665993511677
+        },
+        {
+          ".": -0.015264242887496948
+        },
+        {
+          "": -0.19907638430595398
+        },
+        {
+          "1": -0.02265465259552002
+        },
+        {
+          "9": -0.00036769305006600916
+        },
+        {
+          "4": -0.6331733465194702
+        },
+        {
+          "9": -0.000713213172275573
+        },
+        {
+          "(": -0.06311296671628952
+        },
+        {
+          "John": -0.010836916044354439
+        },
+        {
+          "William": -0.0020392590668052435
+        },
+        {
+          "Henry": -0.0009045085171237588
+        },
+        {
+          "II": -0.003043188713490963
+        },
+        {
+          ")": -0.0022580146323889494
+        },
+        {
+          "<": -0.24212594330310822
+        },
+        {
+          "": -0.002158099552616477
+        },
+        {
+          "1": -0.0002602000313345343
+        },
+        {
+          "9": -8.272782724816352e-05
+        },
+        {
+          "7": -0.00048708971007727087
+        },
+        {
+          "3": -0.0014250847743824124
+        },
+        {
+          "(": -0.003551843576133251
+        },
+        {
+          "J": -0.004023552872240543
+        },
+        {
+          "ed": -0.00021205084340181202
+        },
+        {
+          "Ho": -0.0006980843027122319
+        },
+        {
+          "yer": -0.00012015574611723423
+        },
+        {
+          "),": -0.04681019484996796
+        },
+        {
+          "so": -0.0052612656727433205
+        },
+        {
+          "John": -0.04960222914814949
+        },
+        {
+          "William": -0.0012062662281095982
+        },
+        {
+          "Henry": -0.0004919749335385859
+        },
+        {
+          "II": -0.002762194722890854
+        },
+        {
+          "is": -0.01976018399000168
+        },
+        {
+          "older": -0.012334260158240795
+        },
+        {
+          ".": -0.2097201645374298
+        },
+        {
+          "<0x0A>": -0.003582608886063099
+        },
+        {
+          "Answer": -0.0015347142471000552
+        },
+        {
+          ":": -0.0004761277523357421
+        },
+        {
+          "John": -0.004056084435433149
+        },
+        {
+          "William": -0.0014611531514674425
+        },
+        {
+          "Henry": -0.0001481661747675389
+        },
+        {
+          "II": -0.0019372997339814901
+        },
+        {
+          "<0x0A>": -0.02572191134095192
+        },
+        {
+          "Question": -0.15425118803977966
+        },
+        {
+          ":": -0.00022456508304458112
+        },
+        {
+          "Which": -1.4998664855957031
+        },
+        {
+          "of": -1.9476889371871948
+        },
+        {
+          "the": -0.958661675453186
+        },
+        {
+          "following": -0.12696826457977295
+        },
+        {
+          "is": -1.115181803703308
+        },
+        {
+          "a": -1.5794098377227783
+        },
+        {
+          "type": -3.8510830402374268
+        },
+        {
+          "of": -0.014174849726259708
+        },
+        {
+          "a": -4.778818607330322
+        },
+        {
+          "partment": -3.113755226135254
+        },
+        {
+          "?": -1.1053102016448975
+        },
+        {
+          "<0x0A>": -1.4514484405517578
+        },
+        {
+          "Th": -0.10530917346477509
+        },
+        {
+          "ought": -0.00015364897262770683
+        },
+        {
+          ":": -0.0005886013968847692
+        },
+        {
+          "Let": -0.043202582746744156
+        },
+        {
+          "'": -0.0007177399238571525
+        },
+        {
+          "s": -1.6093124941107817e-05
+        },
+        {
+          "think": -0.0018882793374359608
+        },
+        {
+          "step": -0.001392229343764484
+        },
+        {
+          "by": -0.0004010588163509965
+        },
+        {
+          "step": -1.823885577323381e-05
+        },
+        {
+          ".": -0.0010827876394614577
+        },
+        {
+          "A": -1.205203890800476
+        },
+        {
+          "partment": -0.8162882924079895
+        },
+        {
+          "is": -0.4244365692138672
+        },
+        {
+          "a": -0.14296527206897736
+        },
+        {
+          "type": -0.5732836127281189
+        },
+        {
+          "of": -0.00987135712057352
+        },
+        {
+          "a": -2.0333385467529297
+        },
+        {
+          "partment": -0.048916131258010864
+        },
+        {
+          ".": -0.19707797467708588
+        },
+        {
+          "<0x0A>": -1.6733336448669434
+        },
+        {
+          "Answer": -0.025523684918880463
+        },
+        {
+          ":": -0.00045658653834834695
+        },
+        {
+          "A": -0.6747269034385681
+        },
+        {
+          "partment": -0.0051324754022061825
+        },
+        {
+          "<0x0A>": -0.02026180922985077
+        },
+        {
+          "Question": -0.17004477977752686
+        },
+        {
+          ":": -0.00026651646476238966
+        },
+        {
+          "Which": -1.155640721321106
+        },
+        {
+          "of": -0.7015398144721985
+        },
+        {
+          "the": -0.07490282505750656
+        },
+        {
+          "following": -0.009817058220505714
+        },
+        {
+          "is": -0.31676891446113586
+        },
+        {
+          "a": -0.28347229957580566
+        },
+        {
+          "type": -0.42363086342811584
+        },
+        {
+          "of": -0.001423775334842503
+        },
+        {
+          "a": -1.4565582275390625
+        },
+        {
+          "partment": -0.006770290434360504
+        },
+        {
+          "?": -0.020904920995235443
+        },
+        {
+          "<0x0A>": -0.017920253798365593
+        },
+        {
+          "Th": -0.004256593994796276
+        },
+        {
+          "ought": -2.884823152271565e-05
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Who is older, Jed Hoyer or John William Henry II?\nThought 1:Let's think step by step. Jed Hoyer was born in 1973. John William Henry II was born in 1949. 1949 (John William Henry II) < 1973 (Jed Hoyer), so John William Henry II is older.\nAnswer: John William Henry II\nAction 1: MeasureUncertainty [John William Henry II]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: John William Henry II",
+  "summary": {
+    "final_answer": "John William Henry II",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

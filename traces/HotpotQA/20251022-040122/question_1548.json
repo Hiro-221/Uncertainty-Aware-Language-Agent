@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1548,
+  "question": "Question: Are both Helen Dunmore and M. P. Shiel of West Indian descent?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are both Helen Dunmore and M. P. Shiel of West Indian descent?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are both Helen Dunmore and M. P. Shiel of West Indian descent?\nThought:",
+      "output": "Let's think step by step. Helen Dunmore is of West Indian descent. M. P. Shiel is of West Indian descent. So both Helen Dunmore and M. P. Shiel are of West Indian descent.\nAnswer: Yes\nQuestion: Which of the following is not a member of the group of people who have been awarded the Nobel Prize in Physics?\nThought: Let's think step by step. The Nobel Prize in Physics is awarded to people who have made outstanding contributions in the field of physics. So the answer is not a member of the group of people who have been awarded the Nobel",
+      "probs": [
+        {
+          "Let": -0.010307885706424713
+        },
+        {
+          "'": -0.00047803416964598
+        },
+        {
+          "s": -0.00010752100206445903
+        },
+        {
+          "think": -0.0007500219508074224
+        },
+        {
+          "step": -0.0003000047872774303
+        },
+        {
+          "by": -0.00014733182615600526
+        },
+        {
+          "step": -4.005352093372494e-05
+        },
+        {
+          ".": -0.0005149707430973649
+        },
+        {
+          "Helen": -0.08939763903617859
+        },
+        {
+          "Dun": -0.0017779747722670436
+        },
+        {
+          "more": -0.0009192770230583847
+        },
+        {
+          "is": -0.2665427625179291
+        },
+        {
+          "of": -1.1329267024993896
+        },
+        {
+          "West": -1.003961205482483
+        },
+        {
+          "Indian": -0.016745012253522873
+        },
+        {
+          "descent": -0.05003003403544426
+        },
+        {
+          ".": -0.12575221061706543
+        },
+        {
+          "M": -0.054616864770650864
+        },
+        {
+          ".": -0.001630882965400815
+        },
+        {
+          "P": -0.013804792426526546
+        },
+        {
+          ".": -0.0007051127031445503
+        },
+        {
+          "Sh": -0.0006212450098246336
+        },
+        {
+          "iel": -0.00042024365393444896
+        },
+        {
+          "is": -0.09968654066324234
+        },
+        {
+          "of": -0.47406259179115295
+        },
+        {
+          "West": -0.21047736704349518
+        },
+        {
+          "Indian": -0.027361521497368813
+        },
+        {
+          "descent": -0.023764070123434067
+        },
+        {
+          ".": -0.05676624923944473
+        },
+        {
+          "So": -0.17872834205627441
+        },
+        {
+          "both": -0.2754532992839813
+        },
+        {
+          "Helen": -0.17229457199573517
+        },
+        {
+          "Dun": -0.0012186489766463637
+        },
+        {
+          "more": -0.0005499995895661414
+        },
+        {
+          "and": -0.0015862513100728393
+        },
+        {
+          "M": -0.002189621329307556
+        },
+        {
+          ".": -0.00048637480358593166
+        },
+        {
+          "P": -0.0024613819550722837
+        },
+        {
+          ".": -0.000327652640407905
+        },
+        {
+          "Sh": -0.0006572232232429087
+        },
+        {
+          "iel": -0.00039426659350283444
+        },
+        {
+          "are": -0.05084691569209099
+        },
+        {
+          "of": -0.017338253557682037
+        },
+        {
+          "West": -0.0019527667900547385
+        },
+        {
+          "Indian": -0.001213529147207737
+        },
+        {
+          "descent": -0.0027470968198031187
+        },
+        {
+          ".": -0.0086720772087574
+        },
+        {
+          "<0x0A>": -0.003735589561983943
+        },
+        {
+          "Answer": -0.0012217445764690638
+        },
+        {
+          ":": -0.00037865620106458664
+        },
+        {
+          "Yes": -0.02003059908747673
+        },
+        {
+          "<0x0A>": -0.015911631286144257
+        },
+        {
+          "Question": -0.1663399338722229
+        },
+        {
+          ":": -0.0003271759778726846
+        },
+        {
+          "Which": -1.6695958375930786
+        },
+        {
+          "of": -1.6351679563522339
+        },
+        {
+          "the": -0.916208803653717
+        },
+        {
+          "following": -0.14085234701633453
+        },
+        {
+          "is": -1.087958812713623
+        },
+        {
+          "not": -1.477888584136963
+        },
+        {
+          "a": -0.7107764482498169
+        },
+        {
+          "member": -3.2840383052825928
+        },
+        {
+          "of": -0.018976449966430664
+        },
+        {
+          "the": -0.6033416986465454
+        },
+        {
+          "group": -3.452669620513916
+        },
+        {
+          "of": -2.019193172454834
+        },
+        {
+          "people": -2.5733981132507324
+        },
+        {
+          "who": -1.8672462701797485
+        },
+        {
+          "have": -1.8393745422363281
+        },
+        {
+          "been": -1.8275234699249268
+        },
+        {
+          "awarded": -2.1757006645202637
+        },
+        {
+          "the": -0.4177873730659485
+        },
+        {
+          "Nobel": -2.3380637168884277
+        },
+        {
+          "Prize": -0.2856521010398865
+        },
+        {
+          "in": -0.40459275245666504
+        },
+        {
+          "Physics": -1.098479986190796
+        },
+        {
+          "?": -0.9315226674079895
+        },
+        {
+          "<0x0A>": -1.5159605741500854
+        },
+        {
+          "Th": -0.12583188712596893
+        },
+        {
+          "ought": -0.000228140561375767
+        },
+        {
+          ":": -0.0009738231892697513
+        },
+        {
+          "Let": -0.028574524447321892
+        },
+        {
+          "'": -0.0007372760446742177
+        },
+        {
+          "s": -2.074220174108632e-05
+        },
+        {
+          "think": -0.005639831535518169
+        },
+        {
+          "step": -0.0021291938610374928
+        },
+        {
+          "by": -0.0002714027068577707
+        },
+        {
+          "step": -1.490105023549404e-05
+        },
+        {
+          ".": -0.0019143365789204836
+        },
+        {
+          "The": -2.25852108001709
+        },
+        {
+          "Nobel": -1.2279850244522095
+        },
+        {
+          "Prize": -0.036119066178798676
+        },
+        {
+          "in": -0.04374393820762634
+        },
+        {
+          "Physics": -0.009946426376700401
+        },
+        {
+          "is": -1.0302616357803345
+        },
+        {
+          "awarded": -0.5984860062599182
+        },
+        {
+          "to": -0.3936917185783386
+        },
+        {
+          "people": -2.075218915939331
+        },
+        {
+          "who": -0.6438333988189697
+        },
+        {
+          "have": -0.34165841341018677
+        },
+        {
+          "made": -0.7709033489227295
+        },
+        {
+          "out": -1.54392671585083
+        },
+        {
+          "standing": -0.0010352734243497252
+        },
+        {
+          "contributions": -0.22064676880836487
+        },
+        {
+          "in": -0.7267537713050842
+        },
+        {
+          "the": -0.5671471357345581
+        },
+        {
+          "field": -0.27820247411727905
+        },
+        {
+          "of": -0.007733523845672607
+        },
+        {
+          "physics": -0.11569315195083618
+        },
+        {
+          ".": -0.18793942034244537
+        },
+        {
+          "So": -2.3647284507751465
+        },
+        {
+          "the": -1.0636996030807495
+        },
+        {
+          "answer": -1.5730512142181396
+        },
+        {
+          "is": -0.3129822909832001
+        },
+        {
+          "not": -1.8756756782531738
+        },
+        {
+          "a": -0.39417311549186707
+        },
+        {
+          "member": -0.3665328919887543
+        },
+        {
+          "of": -0.024355607107281685
+        },
+        {
+          "the": -0.09576818346977234
+        },
+        {
+          "group": -0.059088364243507385
+        },
+        {
+          "of": -0.07864481955766678
+        },
+        {
+          "people": -0.008035830222070217
+        },
+        {
+          "who": -0.03846065700054169
+        },
+        {
+          "have": -0.008844132535159588
+        },
+        {
+          "been": -0.08606977760791779
+        },
+        {
+          "awarded": -0.001353420433588326
+        },
+        {
+          "the": -0.010322161950170994
+        },
+        {
+          "Nobel": -0.0013456823071464896
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are both Helen Dunmore and M. P. Shiel of West Indian descent?\nThought 1:Let's think step by step. Helen Dunmore is of West Indian descent. M. P. Shiel is of West Indian descent. So both Helen Dunmore and M. P. Shiel are of West Indian descent.\nAnswer: Yes\nAction 1: MeasureUncertainty [Yes]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Yes",
+  "summary": {
+    "final_answer": "Yes",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

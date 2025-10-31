@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3196,
+  "question": "Question: Which airport is closer to the Atlantic ocean: Wilmington International Airport, or Texarkana Regional Airport?",
+  "gold_answer": "Wilmington International Airport",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which airport is closer to the Atlantic ocean: Wilmington International Airport, or Texarkana Regional Airport?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which airport is closer to the Atlantic ocean: Wilmington International Airport, or Texarkana Regional Airport?\nThought:",
+      "output": "Let's think step by step. Wilmington International Airport is 100 miles from the Atlantic ocean. Texarkana Regional Airport is 200 miles from the Atlantic ocean. 100 (Wilmington International Airport) < 200 (Texarkana Regional Airport), so Wilmington International Airport is closer to the Atlantic ocean.\nAnswer: Wilmington International Airport\nQuestion: Which of the following is not a member of the genus Pteropus? Pteropus, Pteropus hypomelanus, Pteropus conspicillatus, Pteropus mariann",
+      "probs": [
+        {
+          "Let": -0.015454652719199657
+        },
+        {
+          "'": -0.002050679875537753
+        },
+        {
+          "s": -8.165503095369786e-05
+        },
+        {
+          "think": -0.0021620250772684813
+        },
+        {
+          "step": -0.0010837402660399675
+        },
+        {
+          "by": -0.0009448830969631672
+        },
+        {
+          "step": -0.0003051292151212692
+        },
+        {
+          ".": -0.001862459466792643
+        },
+        {
+          "Wil": -0.3036576211452484
+        },
+        {
+          "ming": -0.0009222545195370913
+        },
+        {
+          "ton": -0.00014840454969089478
+        },
+        {
+          "International": -0.07062705606222153
+        },
+        {
+          "Airport": -0.008915497921407223
+        },
+        {
+          "is": -0.1379416435956955
+        },
+        {
+          "": -1.1801495552062988
+        },
+        {
+          "1": -1.5159212350845337
+        },
+        {
+          "0": -1.9519258737564087
+        },
+        {
+          "0": -1.352903962135315
+        },
+        {
+          "miles": -0.9050829410552979
+        },
+        {
+          "from": -0.6817610859870911
+        },
+        {
+          "the": -0.15918682515621185
+        },
+        {
+          "Atlantic": -0.07954887300729752
+        },
+        {
+          "ocean": -0.28294888138771057
+        },
+        {
+          ".": -0.16343334317207336
+        },
+        {
+          "Tex": -0.02290191687643528
+        },
+        {
+          "ark": -0.000614335120189935
+        },
+        {
+          "ana": -0.0002047805901383981
+        },
+        {
+          "Regional": -0.004542389884591103
+        },
+        {
+          "Airport": -0.0031722483690828085
+        },
+        {
+          "is": -0.005238615907728672
+        },
+        {
+          "": -0.03494085744023323
+        },
+        {
+          "2": -1.2178384065628052
+        },
+        {
+          "0": -1.0268850326538086
+        },
+        {
+          "0": -0.10087142884731293
+        },
+        {
+          "miles": -0.009412436746060848
+        },
+        {
+          "from": -0.033232346177101135
+        },
+        {
+          "the": -0.005636868067085743
+        },
+        {
+          "Atlantic": -0.01294742152094841
+        },
+        {
+          "ocean": -0.015333273448050022
+        },
+        {
+          ".": -0.012305528856813908
+        },
+        {
+          "": -0.27145177125930786
+        },
+        {
+          "1": -0.024560578167438507
+        },
+        {
+          "0": -0.0006012300727888942
+        },
+        {
+          "0": -0.00013267113536130637
+        },
+        {
+          "(": -0.6583492755889893
+        },
+        {
+          "Wil": -0.0184261966496706
+        },
+        {
+          "ming": -0.0016042232746258378
+        },
+        {
+          "ton": -0.0004769618099089712
+        },
+        {
+          "International": -0.0617482028901577
+        },
+        {
+          "Airport": -0.011509566567838192
+        },
+        {
+          ")": -0.004305735696107149
+        },
+        {
+          "<": -0.02069452777504921
+        },
+        {
+          "": -0.001866623992100358
+        },
+        {
+          "2": -0.0012707976857200265
+        },
+        {
+          "0": -0.00026842328952625394
+        },
+        {
+          "0": -8.320462075062096e-05
+        },
+        {
+          "(": -0.0060881637036800385
+        },
+        {
+          "Tex": -0.0017497718799859285
+        },
+        {
+          "ark": -0.0006538875168189406
+        },
+        {
+          "ana": -0.0003530356043484062
+        },
+        {
+          "Regional": -0.0023444804828613997
+        },
+        {
+          "Airport": -0.0010387268848717213
+        },
+        {
+          "),": -0.08986542373895645
+        },
+        {
+          "so": -0.007141657639294863
+        },
+        {
+          "Wil": -0.04304730147123337
+        },
+        {
+          "ming": -0.000873065204359591
+        },
+        {
+          "ton": -0.00020394629973452538
+        },
+        {
+          "International": -0.005905323661863804
+        },
+        {
+          "Airport": -0.004027589689940214
+        },
+        {
+          "is": -0.006219911389052868
+        },
+        {
+          "closer": -0.02800309844315052
+        },
+        {
+          "to": -0.09360763430595398
+        },
+        {
+          "the": -0.00776285957545042
+        },
+        {
+          "Atlantic": -0.007156926207244396
+        },
+        {
+          "ocean": -0.0326162688434124
+        },
+        {
+          ".": -0.04761163517832756
+        },
+        {
+          "<0x0A>": -0.0035080104134976864
+        },
+        {
+          "Answer": -0.003050676081329584
+        },
+        {
+          ":": -0.0004732680681627244
+        },
+        {
+          "Wil": -0.005007701460272074
+        },
+        {
+          "ming": -0.00010263393050990999
+        },
+        {
+          "ton": -2.2053474822314456e-05
+        },
+        {
+          "International": -0.003197559155523777
+        },
+        {
+          "Airport": -0.002633201191201806
+        },
+        {
+          "<0x0A>": -0.02921103872358799
+        },
+        {
+          "Question": -0.21285848319530487
+        },
+        {
+          ":": -0.000289159914245829
+        },
+        {
+          "Which": -1.2377396821975708
+        },
+        {
+          "of": -2.210665464401245
+        },
+        {
+          "the": -0.7637762427330017
+        },
+        {
+          "following": -0.14306963980197906
+        },
+        {
+          "is": -1.2326287031173706
+        },
+        {
+          "not": -1.532354712486267
+        },
+        {
+          "a": -0.6101747751235962
+        },
+        {
+          "member": -3.223278284072876
+        },
+        {
+          "of": -0.026717908680438995
+        },
+        {
+          "the": -0.4256157875061035
+        },
+        {
+          "genus": -3.4623525142669678
+        },
+        {
+          "P": -3.3146142959594727
+        },
+        {
+          "ter": -1.9983482360839844
+        },
+        {
+          "opus": -0.45052722096443176
+        },
+        {
+          "?": -0.7893641591072083
+        },
+        {
+          "P": -1.5144438743591309
+        },
+        {
+          "ter": -0.17734307050704956
+        },
+        {
+          "opus": -0.010158385150134563
+        },
+        {
+          ",": -2.1240298748016357
+        },
+        {
+          "P": -0.7352437973022461
+        },
+        {
+          "ter": -0.06530337780714035
+        },
+        {
+          "opus": -0.08674003928899765
+        },
+        {
+          "hyp": -2.6564316749572754
+        },
+        {
+          "om": -0.002453295513987541
+        },
+        {
+          "el": -0.00031251792097464204
+        },
+        {
+          "anus": -0.0001711698860162869
+        },
+        {
+          ",": -0.05475997552275658
+        },
+        {
+          "P": -0.7063680291175842
+        },
+        {
+          "ter": -0.021725988015532494
+        },
+        {
+          "opus": -0.0059927781112492085
+        },
+        {
+          "consp": -2.5787034034729004
+        },
+        {
+          "ic": -0.0007250064518302679
+        },
+        {
+          "ill": -0.00285206432454288
+        },
+        {
+          "atus": -0.00014041867689229548
+        },
+        {
+          ",": -0.2974737882614136
+        },
+        {
+          "P": -0.640828013420105
+        },
+        {
+          "ter": -0.009254416450858116
+        },
+        {
+          "opus": -0.01067876722663641
+        },
+        {
+          "mar": -3.1079413890838623
+        },
+        {
+          "ian": -0.0002574589161667973
+        },
+        {
+          "n": -0.007477982901036739
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Which airport is closer to the Atlantic ocean: Wilmington International Airport, or Texarkana Regional Airport?\nThought 1:Let's think step by step. Wilmington International Airport is 100 miles from the Atlantic ocean. Texarkana Regional Airport is 200 miles from the Atlantic ocean. 100 (Wilmington International Airport) < 200 (Texarkana Regional Airport), so Wilmington International Airport is closer to the Atlantic ocean.\nAnswer: Wilmington International Airport\nAction 1: MeasureUncertainty [Wilmington International Airport]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Wilmington International Airport",
+  "summary": {
+    "final_answer": "Wilmington International Airport",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

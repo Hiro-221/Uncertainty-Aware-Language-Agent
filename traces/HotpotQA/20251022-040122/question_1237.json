@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1237,
+  "question": "Question: Which film was released more recently, Make Mine Music or Old Dogs?",
+  "gold_answer": "Old Dogs",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which film was released more recently, Make Mine Music or Old Dogs?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which film was released more recently, Make Mine Music or Old Dogs?\nThought:",
+      "output": "Let's think step by step. Make Mine Music was released in 1946. Old Dogs was released in 2009. 1946 (Make Mine Music) < 2009 (Old Dogs), so Old Dogs was released more recently.\nAnswer: Old Dogs\nQuestion: Which film was released more recently, The Last of the Mohicans or The Last of the Mohicans?\nThought: Let's think step by step. The Last of the Mohicans was released in 1992. The Last of the Mohicans was released in",
+      "probs": [
+        {
+          "Let": -0.004717173986136913
+        },
+        {
+          "'": -0.00042906138696707785
+        },
+        {
+          "s": -3.802703940891661e-05
+        },
+        {
+          "think": -0.0006725909770466387
+        },
+        {
+          "step": -0.00032014489988796413
+        },
+        {
+          "by": -0.00017569905321579427
+        },
+        {
+          "step": -3.814624506048858e-05
+        },
+        {
+          ".": -0.0004786299541592598
+        },
+        {
+          "Make": -0.11806538701057434
+        },
+        {
+          "Mine": -0.0034221201203763485
+        },
+        {
+          "Music": -0.0017135950038209558
+        },
+        {
+          "was": -0.07047008723020554
+        },
+        {
+          "released": -0.019755858927965164
+        },
+        {
+          "in": -0.12094096094369888
+        },
+        {
+          "": -0.01818133518099785
+        },
+        {
+          "1": -0.008191442117094994
+        },
+        {
+          "9": -0.0015260252403095365
+        },
+        {
+          "4": -0.00584642356261611
+        },
+        {
+          "6": -0.011277974583208561
+        },
+        {
+          ".": -0.05768601968884468
+        },
+        {
+          "Old": -0.013399193994700909
+        },
+        {
+          "D": -0.0024261821527034044
+        },
+        {
+          "ogs": -0.00018809456378221512
+        },
+        {
+          "was": -0.009904053062200546
+        },
+        {
+          "released": -0.0031371922232210636
+        },
+        {
+          "in": -0.005521878600120544
+        },
+        {
+          "": -0.0021145620848983526
+        },
+        {
+          "2": -0.020398126915097237
+        },
+        {
+          "0": -5.6980417866725475e-05
+        },
+        {
+          "0": -0.009389407932758331
+        },
+        {
+          "9": -0.0044069793075323105
+        },
+        {
+          ".": -0.00675099017098546
+        },
+        {
+          "": -0.1238958016037941
+        },
+        {
+          "1": -0.14740967750549316
+        },
+        {
+          "9": -0.00030489088385365903
+        },
+        {
+          "4": -0.0016534955939278007
+        },
+        {
+          "6": -0.0010436094598844647
+        },
+        {
+          "(": -0.08186113834381104
+        },
+        {
+          "Make": -0.006371067836880684
+        },
+        {
+          "Mine": -0.0019998804200440645
+        },
+        {
+          "Music": -0.0012772268382832408
+        },
+        {
+          ")": -0.0011942405253648758
+        },
+        {
+          "<": -0.08271916955709457
+        },
+        {
+          "": -0.0020189157221466303
+        },
+        {
+          "2": -0.000947503256611526
+        },
+        {
+          "0": -7.92710343375802e-05
+        },
+        {
+          "0": -0.0006135011790320277
+        },
+        {
+          "9": -0.0007142852991819382
+        },
+        {
+          "(": -0.0037581545766443014
+        },
+        {
+          "Old": -0.002890696283429861
+        },
+        {
+          "D": -0.0017982041463255882
+        },
+        {
+          "ogs": -3.707340147229843e-05
+        },
+        {
+          "),": -0.03031587228178978
+        },
+        {
+          "so": -0.004201395437121391
+        },
+        {
+          "Old": -0.420282244682312
+        },
+        {
+          "D": -0.0016608743462711573
+        },
+        {
+          "ogs": -4.911301948595792e-05
+        },
+        {
+          "was": -0.022913334891200066
+        },
+        {
+          "released": -0.008688385598361492
+        },
+        {
+          "more": -0.03031332790851593
+        },
+        {
+          "recently": -0.00311924796551466
+        },
+        {
+          ".": -0.013289328664541245
+        },
+        {
+          "<0x0A>": -0.0023338955361396074
+        },
+        {
+          "Answer": -0.0019487215904518962
+        },
+        {
+          ":": -0.0002649671514518559
+        },
+        {
+          "Old": -0.007178940810263157
+        },
+        {
+          "D": -0.001279250718653202
+        },
+        {
+          "ogs": -3.659658250398934e-05
+        },
+        {
+          "<0x0A>": -0.018595177680253983
+        },
+        {
+          "Question": -0.1738288253545761
+        },
+        {
+          ":": -0.0002525725867599249
+        },
+        {
+          "Which": -1.2594656944274902
+        },
+        {
+          "film": -1.943520426750183
+        },
+        {
+          "was": -0.4645237922668457
+        },
+        {
+          "released": -0.1000266820192337
+        },
+        {
+          "more": -0.10510572046041489
+        },
+        {
+          "recently": -0.0013584204716607928
+        },
+        {
+          ",": -0.01084870845079422
+        },
+        {
+          "The": -1.787980318069458
+        },
+        {
+          "Last": -4.162214279174805
+        },
+        {
+          "of": -2.3395066261291504
+        },
+        {
+          "the": -0.4057695269584656
+        },
+        {
+          "Moh": -0.47513455152511597
+        },
+        {
+          "icans": -0.0006549597019329667
+        },
+        {
+          "or": -0.27001309394836426
+        },
+        {
+          "The": -1.489524483680725
+        },
+        {
+          "Last": -2.7225828170776367
+        },
+        {
+          "of": -0.28618162870407104
+        },
+        {
+          "the": -0.04088901728391647
+        },
+        {
+          "Moh": -0.06476195156574249
+        },
+        {
+          "icans": -0.0011073178611695766
+        },
+        {
+          "?": -0.37010520696640015
+        },
+        {
+          "<0x0A>": -0.0021495348773896694
+        },
+        {
+          "Th": -0.003364499658346176
+        },
+        {
+          "ought": -7.581423415103927e-05
+        },
+        {
+          ":": -0.00011169286881340668
+        },
+        {
+          "Let": -0.012619169428944588
+        },
+        {
+          "'": -0.00019631843315437436
+        },
+        {
+          "s": -2.2291887944447808e-05
+        },
+        {
+          "think": -0.00017391123401466757
+        },
+        {
+          "step": -0.00013243274588603526
+        },
+        {
+          "by": -9.381330892210826e-05
+        },
+        {
+          "step": -2.634490556374658e-05
+        },
+        {
+          ".": -0.000316927267704159
+        },
+        {
+          "The": -0.10474196076393127
+        },
+        {
+          "Last": -0.03526543080806732
+        },
+        {
+          "of": -0.000309657771140337
+        },
+        {
+          "the": -0.00046790618216618896
+        },
+        {
+          "Moh": -0.00017534149810671806
+        },
+        {
+          "icans": -0.00112791801802814
+        },
+        {
+          "was": -0.6405526995658875
+        },
+        {
+          "released": -0.012519342824816704
+        },
+        {
+          "in": -0.009020056575536728
+        },
+        {
+          "": -0.003969409968703985
+        },
+        {
+          "1": -0.07013428956270218
+        },
+        {
+          "9": -0.006061504129320383
+        },
+        {
+          "9": -0.7578344941139221
+        },
+        {
+          "2": -0.010468334890902042
+        },
+        {
+          ".": -0.02426578663289547
+        },
+        {
+          "The": -0.02501387894153595
+        },
+        {
+          "Last": -0.005581982899457216
+        },
+        {
+          "of": -0.0001995364436879754
+        },
+        {
+          "the": -9.905801562126726e-05
+        },
+        {
+          "Moh": -0.0003190723655279726
+        },
+        {
+          "icans": -0.0003252692404203117
+        },
+        {
+          "was": -0.05325186252593994
+        },
+        {
+          "released": -0.04345155134797096
+        },
+        {
+          "in": -0.002844100119546056
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Which film was released more recently, Make Mine Music or Old Dogs?\nThought 1:Let's think step by step. Make Mine Music was released in 1946. Old Dogs was released in 2009. 1946 (Make Mine Music) < 2009 (Old Dogs), so Old Dogs was released more recently.\nAnswer: Old Dogs\nAction 1: MeasureUncertainty [Old Dogs]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Old Dogs",
+  "summary": {
+    "final_answer": "Old Dogs",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 670,
+  "question": "Question: What year was a joint venture between RLJ Companies and this film studio founded in 2005, founded?",
+  "gold_answer": "2006",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year was a joint venture between RLJ Companies and this film studio founded in 2005, founded?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year was a joint venture between RLJ Companies and this film studio founded in 2005, founded?\nThought:",
+      "output": "Let's think step by step. A joint venture between RLJ Companies and this film studio was founded in 2005. So the year was 2005.\nAnswer: 2005\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. The 1999 film that was directed by John Woo is Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed",
+      "probs": [
+        {
+          "Let": -0.01444525271654129
+        },
+        {
+          "'": -0.0006252956227399409
+        },
+        {
+          "s": -0.00013362467871047556
+        },
+        {
+          "think": -0.0010946955299004912
+        },
+        {
+          "step": -0.0008037435472942889
+        },
+        {
+          "by": -0.0003116837178822607
+        },
+        {
+          "step": -0.00019131260341964662
+        },
+        {
+          ".": -0.0007864719373174012
+        },
+        {
+          "A": -1.4909043312072754
+        },
+        {
+          "joint": -0.034249693155288696
+        },
+        {
+          "vent": -0.001303419005125761
+        },
+        {
+          "ure": -0.00014757021563127637
+        },
+        {
+          "between": -0.048165492713451385
+        },
+        {
+          "R": -0.022842146456241608
+        },
+        {
+          "L": -0.0008984343148767948
+        },
+        {
+          "J": -0.00020859450160060078
+        },
+        {
+          "Comp": -0.0055253165774047375
+        },
+        {
+          "an": -7.1403817855753e-05
+        },
+        {
+          "ies": -4.589452510117553e-05
+        },
+        {
+          "and": -0.009686609730124474
+        },
+        {
+          "this": -0.664202868938446
+        },
+        {
+          "film": -0.009843027219176292
+        },
+        {
+          "studio": -0.002441998338326812
+        },
+        {
+          "was": -0.5635545253753662
+        },
+        {
+          "founded": -0.045344263315200806
+        },
+        {
+          "in": -0.04204481095075607
+        },
+        {
+          "": -0.010281573981046677
+        },
+        {
+          "2": -0.018878191709518433
+        },
+        {
+          "0": -0.00014435203047469258
+        },
+        {
+          "0": -0.011135691776871681
+        },
+        {
+          "5": -0.034716587513685226
+        },
+        {
+          ".": -0.4064704179763794
+        },
+        {
+          "So": -1.0163427591323853
+        },
+        {
+          "the": -0.8416469097137451
+        },
+        {
+          "year": -0.8110285401344299
+        },
+        {
+          "was": -0.9230385422706604
+        },
+        {
+          "": -0.3277377784252167
+        },
+        {
+          "2": -0.0013047285610809922
+        },
+        {
+          "0": -0.0002636561985127628
+        },
+        {
+          "0": -0.00039843725971877575
+        },
+        {
+          "5": -0.0016137446509674191
+        },
+        {
+          ".": -0.046386584639549255
+        },
+        {
+          "<0x0A>": -0.004750275984406471
+        },
+        {
+          "Answer": -0.0018922057934105396
+        },
+        {
+          ":": -0.0005651307292282581
+        },
+        {
+          "": -0.006138637196272612
+        },
+        {
+          "2": -0.000310730334604159
+        },
+        {
+          "0": -6.5205356804654e-05
+        },
+        {
+          "0": -0.00015841660206206143
+        },
+        {
+          "5": -0.0005878866068087518
+        },
+        {
+          "<0x0A>": -0.018981948494911194
+        },
+        {
+          "Question": -0.18440291285514832
+        },
+        {
+          ":": -0.00028868322260677814
+        },
+        {
+          "What": -1.3223575353622437
+        },
+        {
+          "is": -1.503460168838501
+        },
+        {
+          "the": -0.4688275456428528
+        },
+        {
+          "name": -2.5068275928497314
+        },
+        {
+          "of": -0.052955687046051025
+        },
+        {
+          "the": -0.5370919108390808
+        },
+        {
+          "": -3.2282862663269043
+        },
+        {
+          "1": -0.7468816637992859
+        },
+        {
+          "9": -0.18876580893993378
+        },
+        {
+          "9": -1.2978628873825073
+        },
+        {
+          "9": -2.056330442428589
+        },
+        {
+          "film": -1.5959155559539795
+        },
+        {
+          "that": -1.7332490682601929
+        },
+        {
+          "was": -2.030043840408325
+        },
+        {
+          "directed": -1.4777189493179321
+        },
+        {
+          "by": -0.029360728338360786
+        },
+        {
+          "John": -3.558367967605591
+        },
+        {
+          "W": -2.3156824111938477
+        },
+        {
+          "oo": -0.28751713037490845
+        },
+        {
+          "?": -0.7658899426460266
+        },
+        {
+          "<0x0A>": -0.010328179225325584
+        },
+        {
+          "Th": -0.0062430123798549175
+        },
+        {
+          "ought": -3.564294092939235e-05
+        },
+        {
+          ":": -0.00020358874462544918
+        },
+        {
+          "Let": -0.01709499955177307
+        },
+        {
+          "'": -0.0003594706067815423
+        },
+        {
+          "s": -1.645074735279195e-05
+        },
+        {
+          "think": -0.0015001959400251508
+        },
+        {
+          "step": -0.0005528590409085155
+        },
+        {
+          "by": -0.00014780859055463225
+        },
+        {
+          "step": -2.8967437174287625e-05
+        },
+        {
+          ".": -0.000581572181545198
+        },
+        {
+          "The": -1.6258233785629272
+        },
+        {
+          "": -0.7971199750900269
+        },
+        {
+          "1": -0.0073632048442959785
+        },
+        {
+          "9": -0.00043847484630532563
+        },
+        {
+          "9": -0.0012965138303115964
+        },
+        {
+          "9": -0.003523215651512146
+        },
+        {
+          "film": -0.026721740141510963
+        },
+        {
+          "that": -0.6718153357505798
+        },
+        {
+          "was": -0.03720986470580101
+        },
+        {
+          "directed": -0.0035298678558319807
+        },
+        {
+          "by": -0.0015509016811847687
+        },
+        {
+          "John": -0.0024293928872793913
+        },
+        {
+          "W": -0.0010717130498960614
+        },
+        {
+          "oo": -0.00014840454969089478
+        },
+        {
+          "is": -0.10998246818780899
+        },
+        {
+          "Face": -1.348637580871582
+        },
+        {
+          "/": -0.026914158836007118
+        },
+        {
+          "Off": -0.004395466763526201
+        },
+        {
+          ".": -0.08689939230680466
+        },
+        {
+          "<0x0A>": -0.1793440878391266
+        },
+        {
+          "Answer": -0.0018983930349349976
+        },
+        {
+          ":": -0.00034683887497521937
+        },
+        {
+          "Face": -0.002793697640299797
+        },
+        {
+          "/": -0.0035383019130676985
+        },
+        {
+          "Off": -0.004089208785444498
+        },
+        {
+          "<0x0A>": -0.01963815651834011
+        },
+        {
+          "Question": -0.2035687267780304
+        },
+        {
+          ":": -0.0002388668799540028
+        },
+        {
+          "What": -1.111659049987793
+        },
+        {
+          "is": -1.173720359802246
+        },
+        {
+          "the": -0.2558680772781372
+        },
+        {
+          "name": -0.9335246682167053
+        },
+        {
+          "of": -0.014019343070685863
+        },
+        {
+          "the": -0.1895035356283188
+        },
+        {
+          "": -1.0609930753707886
+        },
+        {
+          "1": -0.46473759412765503
+        },
+        {
+          "9": -0.02278563380241394
+        },
+        {
+          "9": -0.4768633544445038
+        },
+        {
+          "9": -0.5845025181770325
+        },
+        {
+          "film": -0.05030100420117378
+        },
+        {
+          "that": -0.03421490266919136
+        },
+        {
+          "was": -0.10078499466180801
+        },
+        {
+          "directed": -0.09487315267324448
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: What year was a joint venture between RLJ Companies and this film studio founded in 2005, founded?\nThought 1:Let's think step by step. A joint venture between RLJ Companies and this film studio was founded in 2005. So the year was 2005.\nAnswer: 2005\nAction 1: MeasureUncertainty [2005]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 2005",
+  "summary": {
+    "final_answer": "2005",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

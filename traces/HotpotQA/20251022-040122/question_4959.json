@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4959,
+  "question": "Question: Are Couroupita and Graptopetalum plants both native to central America?",
+  "gold_answer": "yes",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Couroupita and Graptopetalum plants both native to central America?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Couroupita and Graptopetalum plants both native to central America?\nThought:",
+      "output": "Let's think step by step. Couroupita is native to South America. Graptopetalum is native to Mexico. So Couroupita and Graptopetalum are not both native to central America.\nAnswer: No\nQuestion: Which of the following is not a member of the genus Cynomys?\nThought: Let's think step by step. Cynomys is a genus of rodents. Cynomys is a genus of rodents. Cynomys is a genus of rodents. Cynomys is a genus of rodents. Cynomys is a",
+      "probs": [
+        {
+          "Let": -0.008162000216543674
+        },
+        {
+          "'": -0.00047636605449952185
+        },
+        {
+          "s": -7.366862701019272e-05
+        },
+        {
+          "think": -0.0008685392094776034
+        },
+        {
+          "step": -0.00036161558819003403
+        },
+        {
+          "by": -0.00019214690837543458
+        },
+        {
+          "step": -1.8358061424805783e-05
+        },
+        {
+          ".": -0.0005477358354255557
+        },
+        {
+          "Cour": -0.1479123830795288
+        },
+        {
+          "oup": -0.001762266969308257
+        },
+        {
+          "ita": -0.001320919836871326
+        },
+        {
+          "is": -0.19247204065322876
+        },
+        {
+          "native": -0.2510239779949188
+        },
+        {
+          "to": -0.01653890125453472
+        },
+        {
+          "South": -1.633731722831726
+        },
+        {
+          "America": -0.05484337359666824
+        },
+        {
+          ".": -0.6695159673690796
+        },
+        {
+          "Gra": -0.0743853822350502
+        },
+        {
+          "ptop": -0.0007267932523973286
+        },
+        {
+          "etal": -0.0009238027851097286
+        },
+        {
+          "um": -0.0006012300727888942
+        },
+        {
+          "is": -0.039153389632701874
+        },
+        {
+          "native": -0.047344598919153214
+        },
+        {
+          "to": -0.005163310561329126
+        },
+        {
+          "Mexico": -0.8736920952796936
+        },
+        {
+          ".": -0.7869404554367065
+        },
+        {
+          "So": -1.286733865737915
+        },
+        {
+          "Cour": -0.5607479214668274
+        },
+        {
+          "oup": -0.0007801587926223874
+        },
+        {
+          "ita": -0.0004764852055814117
+        },
+        {
+          "and": -0.20059840381145477
+        },
+        {
+          "Gra": -0.0020016650669276714
+        },
+        {
+          "ptop": -0.0007914748275652528
+        },
+        {
+          "etal": -0.000504723924677819
+        },
+        {
+          "um": -0.0006328010931611061
+        },
+        {
+          "are": -0.22132009267807007
+        },
+        {
+          "not": -0.9285914897918701
+        },
+        {
+          "both": -0.28423795104026794
+        },
+        {
+          "native": -0.019716236740350723
+        },
+        {
+          "to": -0.0015019814018160105
+        },
+        {
+          "central": -0.14967919886112213
+        },
+        {
+          "America": -0.006553467363119125
+        },
+        {
+          ".": -0.024436576291918755
+        },
+        {
+          "<0x0A>": -0.007232910022139549
+        },
+        {
+          "Answer": -0.0015555436257272959
+        },
+        {
+          ":": -0.00031013446277938783
+        },
+        {
+          "No": -0.017261510714888573
+        },
+        {
+          "<0x0A>": -0.018439538776874542
+        },
+        {
+          "Question": -0.2551872730255127
+        },
+        {
+          ":": -0.000311802898067981
+        },
+        {
+          "Which": -1.7217719554901123
+        },
+        {
+          "of": -1.869529128074646
+        },
+        {
+          "the": -0.9671788811683655
+        },
+        {
+          "following": -0.158001109957695
+        },
+        {
+          "is": -1.175915002822876
+        },
+        {
+          "not": -1.3157436847686768
+        },
+        {
+          "a": -0.6794231534004211
+        },
+        {
+          "member": -3.3180787563323975
+        },
+        {
+          "of": -0.02289702370762825
+        },
+        {
+          "the": -0.4860745668411255
+        },
+        {
+          "genus": -2.6281590461730957
+        },
+        {
+          "C": -3.375657081604004
+        },
+        {
+          "yn": -2.501643657684326
+        },
+        {
+          "om": -1.5942641496658325
+        },
+        {
+          "ys": -0.34665897488594055
+        },
+        {
+          "?": -0.438671737909317
+        },
+        {
+          "<0x0A>": -0.7795687913894653
+        },
+        {
+          "Th": -0.09420755505561829
+        },
+        {
+          "ought": -1.7881233361549675e-05
+        },
+        {
+          ":": -0.0016175531782209873
+        },
+        {
+          "Let": -0.024638740345835686
+        },
+        {
+          "'": -0.0008657997823320329
+        },
+        {
+          "s": -7.152301259338856e-05
+        },
+        {
+          "think": -0.0021729685831815004
+        },
+        {
+          "step": -0.00208208616822958
+        },
+        {
+          "by": -0.0005012686015106738
+        },
+        {
+          "step": -0.003032492473721504
+        },
+        {
+          ".": -0.0014968630857765675
+        },
+        {
+          "C": -1.587440848350525
+        },
+        {
+          "yn": -0.042418960481882095
+        },
+        {
+          "om": -0.003753285389393568
+        },
+        {
+          "ys": -0.004925261251628399
+        },
+        {
+          "is": -1.353215217590332
+        },
+        {
+          "a": -0.3187897205352783
+        },
+        {
+          "genus": -0.06060364097356796
+        },
+        {
+          "of": -0.302103191614151
+        },
+        {
+          "rod": -1.092807412147522
+        },
+        {
+          "ents": -0.16530384123325348
+        },
+        {
+          ".": -1.1649343967437744
+        },
+        {
+          "C": -1.9691822528839111
+        },
+        {
+          "yn": -0.13487298786640167
+        },
+        {
+          "om": -0.008529068902134895
+        },
+        {
+          "ys": -0.010181749239563942
+        },
+        {
+          "is": -1.4288442134857178
+        },
+        {
+          "a": -0.4993545114994049
+        },
+        {
+          "genus": -0.5182343125343323
+        },
+        {
+          "of": -0.11720844358205795
+        },
+        {
+          "rod": -0.2937934994697571
+        },
+        {
+          "ents": -0.01937558501958847
+        },
+        {
+          ".": -0.2482241690158844
+        },
+        {
+          "C": -1.1099883317947388
+        },
+        {
+          "yn": -0.016096169129014015
+        },
+        {
+          "om": -0.006302599795162678
+        },
+        {
+          "ys": -0.004418847616761923
+        },
+        {
+          "is": -0.2976970374584198
+        },
+        {
+          "a": -0.018837014213204384
+        },
+        {
+          "genus": -0.011060239747166634
+        },
+        {
+          "of": -0.0019016055157408118
+        },
+        {
+          "rod": -0.007122364826500416
+        },
+        {
+          "ents": -0.0016226709121838212
+        },
+        {
+          ".": -0.018764130771160126
+        },
+        {
+          "C": -0.8652995824813843
+        },
+        {
+          "yn": -0.01055232435464859
+        },
+        {
+          "om": -0.0012903229799121618
+        },
+        {
+          "ys": -0.0013681822456419468
+        },
+        {
+          "is": -0.07080354541540146
+        },
+        {
+          "a": -0.017628183588385582
+        },
+        {
+          "genus": -0.002553894417360425
+        },
+        {
+          "of": -0.0010511117288842797
+        },
+        {
+          "rod": -0.002734376350417733
+        },
+        {
+          "ents": -0.0010381315369158983
+        },
+        {
+          ".": -0.025600377470254898
+        },
+        {
+          "C": -1.1340798139572144
+        },
+        {
+          "yn": -0.008078282698988914
+        },
+        {
+          "om": -0.0010661162668839097
+        },
+        {
+          "ys": -0.0013311582151800394
+        },
+        {
+          "is": -0.06376613676548004
+        },
+        {
+          "a": -0.022942228242754936
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are Couroupita and Graptopetalum plants both native to central America?\nThought 1:Let's think step by step. Couroupita is native to South America. Graptopetalum is native to Mexico. So Couroupita and Graptopetalum are not both native to central America.\nAnswer: No\nAction 1: MeasureUncertainty [No]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: No",
+  "summary": {
+    "final_answer": "No",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

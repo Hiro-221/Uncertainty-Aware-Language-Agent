@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4278,
+  "question": "Question: The actor that plays Joe MacMillan in \"Halt and Catch Fire\" also starred with Carrie Coon in what 2017 horror film?",
+  "gold_answer": "The Keeping Hours",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The actor that plays Joe MacMillan in \"Halt and Catch Fire\" also starred with Carrie Coon in what 2017 horror film?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The actor that plays Joe MacMillan in \"Halt and Catch Fire\" also starred with Carrie Coon in what 2017 horror film?\nThought:",
+      "output": "Let's think step by step. The actor that plays Joe MacMillan in \"Halt and Catch Fire\" is Lee Pace. Lee Pace starred with Carrie Coon in \"The Keeping Hours\".\nAnswer: The Keeping Hours\nQuestion: What is the name of the 2017 film that stars Carrie Coon and Lee Pace?\nThought: Let's think step by step. The 2017 film that stars Carrie Coon and Lee Pace is \"The Keeping Hours\".\nAnswer: The Keeping Hours\n",
+      "probs": [
+        {
+          "Let": -0.01839412935078144
+        },
+        {
+          "'": -0.0006482883472926915
+        },
+        {
+          "s": -5.006664650863968e-05
+        },
+        {
+          "think": -0.0008185135084204376
+        },
+        {
+          "step": -0.0005933669744990766
+        },
+        {
+          "by": -0.00019858295854646713
+        },
+        {
+          "step": -0.00021991695393808186
+        },
+        {
+          ".": -0.000771939754486084
+        },
+        {
+          "The": -0.8840104937553406
+        },
+        {
+          "actor": -0.04651233181357384
+        },
+        {
+          "that": -0.11663457751274109
+        },
+        {
+          "plays": -0.005441733635962009
+        },
+        {
+          "Joe": -0.005529584363102913
+        },
+        {
+          "Mac": -0.0057058557868003845
+        },
+        {
+          "Mill": -0.0031867455691099167
+        },
+        {
+          "an": -0.0011043408885598183
+        },
+        {
+          "in": -0.20754419267177582
+        },
+        {
+          "\"": -0.0889272391796112
+        },
+        {
+          "H": -0.000715714821126312
+        },
+        {
+          "alt": -0.0006911749369464815
+        },
+        {
+          "and": -0.0008808070560917258
+        },
+        {
+          "C": -0.0002474478678777814
+        },
+        {
+          "atch": -4.6491513785440475e-06
+        },
+        {
+          "Fire": -0.0009679876384325325
+        },
+        {
+          "\"": -0.0070315757766366005
+        },
+        {
+          "is": -0.03282243758440018
+        },
+        {
+          "Lee": -0.016392439603805542
+        },
+        {
+          "P": -0.001412466517649591
+        },
+        {
+          "ace": -9.035655966727063e-05
+        },
+        {
+          ".": -0.07413802295923233
+        },
+        {
+          "Lee": -0.6619586944580078
+        },
+        {
+          "P": -0.009974281303584576
+        },
+        {
+          "ace": -0.0004231034545227885
+        },
+        {
+          "star": -0.859336793422699
+        },
+        {
+          "red": -0.0008093419019132853
+        },
+        {
+          "with": -0.09906646609306335
+        },
+        {
+          "Car": -0.009637377224862576
+        },
+        {
+          "rie": -0.00044967554276809096
+        },
+        {
+          "Co": -0.0006881968001835048
+        },
+        {
+          "on": -0.0008310201810672879
+        },
+        {
+          "in": -0.014801565557718277
+        },
+        {
+          "\"": -1.1967576742172241
+        },
+        {
+          "The": -0.04428021237254143
+        },
+        {
+          "Keep": -0.033979177474975586
+        },
+        {
+          "ing": -0.0017135950038209558
+        },
+        {
+          "H": -0.2043003886938095
+        },
+        {
+          "ours": -0.00400194339454174
+        },
+        {
+          "\".": -0.3244514763355255
+        },
+        {
+          "<0x0A>": -0.43636438250541687
+        },
+        {
+          "Answer": -0.0026578123215585947
+        },
+        {
+          ":": -0.00043930893298238516
+        },
+        {
+          "The": -0.17491237819194794
+        },
+        {
+          "Keep": -0.0005878866068087518
+        },
+        {
+          "ing": -5.340433563105762e-05
+        },
+        {
+          "H": -0.0003197873884346336
+        },
+        {
+          "ours": -0.0006298227235674858
+        },
+        {
+          "<0x0A>": -0.022628547623753548
+        },
+        {
+          "Question": -0.19913166761398315
+        },
+        {
+          ":": -0.00029690624796785414
+        },
+        {
+          "What": -1.464363932609558
+        },
+        {
+          "is": -1.2317445278167725
+        },
+        {
+          "the": -0.40629905462265015
+        },
+        {
+          "name": -2.399472713470459
+        },
+        {
+          "of": -0.05073995515704155
+        },
+        {
+          "the": -0.3868507146835327
+        },
+        {
+          "": -3.3410449028015137
+        },
+        {
+          "2": -0.7678287625312805
+        },
+        {
+          "0": -0.055017370730638504
+        },
+        {
+          "1": -0.6048365831375122
+        },
+        {
+          "7": -1.6670197248458862
+        },
+        {
+          "film": -1.5138815641403198
+        },
+        {
+          "that": -1.4269369840621948
+        },
+        {
+          "stars": -1.6859556436538696
+        },
+        {
+          "Car": -2.5455613136291504
+        },
+        {
+          "rie": -0.056314386427402496
+        },
+        {
+          "Co": -0.0068293726071715355
+        },
+        {
+          "on": -0.0006871246150694788
+        },
+        {
+          "and": -0.5906063318252563
+        },
+        {
+          "Lee": -1.7945854663848877
+        },
+        {
+          "P": -0.0024852838832885027
+        },
+        {
+          "ace": -0.0001591317413840443
+        },
+        {
+          "?": -0.22590653598308563
+        },
+        {
+          "<0x0A>": -0.007906214334070683
+        },
+        {
+          "Th": -0.011748763732612133
+        },
+        {
+          "ought": -6.139089964563027e-05
+        },
+        {
+          ":": -0.0001045410826918669
+        },
+        {
+          "Let": -0.008317237719893456
+        },
+        {
+          "'": -0.00017629499780014157
+        },
+        {
+          "s": -1.3828182090946939e-05
+        },
+        {
+          "think": -0.00039760314393788576
+        },
+        {
+          "step": -0.00017510310863144696
+        },
+        {
+          "by": -0.00011967896716669202
+        },
+        {
+          "step": -1.5735502529423684e-05
+        },
+        {
+          ".": -0.0003271759778726846
+        },
+        {
+          "The": -0.8249173164367676
+        },
+        {
+          "": -0.8828844428062439
+        },
+        {
+          "2": -0.000427274004323408
+        },
+        {
+          "0": -5.590759246842936e-05
+        },
+        {
+          "1": -0.0005268854438327253
+        },
+        {
+          "7": -0.002076494973152876
+        },
+        {
+          "film": -0.018835844472050667
+        },
+        {
+          "that": -0.09029573947191238
+        },
+        {
+          "stars": -0.019440941512584686
+        },
+        {
+          "Car": -0.025988861918449402
+        },
+        {
+          "rie": -0.0010432521812617779
+        },
+        {
+          "Co": -0.0004677870310842991
+        },
+        {
+          "on": -0.00013100242358632386
+        },
+        {
+          "and": -0.11202750355005264
+        },
+        {
+          "Lee": -0.0013652060879394412
+        },
+        {
+          "P": -0.0025662605185061693
+        },
+        {
+          "ace": -0.00038354191929101944
+        },
+        {
+          "is": -0.00842977873980999
+        },
+        {
+          "\"": -0.30417415499687195
+        },
+        {
+          "The": -0.004735089838504791
+        },
+        {
+          "Keep": -0.0015070997178554535
+        },
+        {
+          "ing": -8.594620157964528e-05
+        },
+        {
+          "H": -0.0007277462864294648
+        },
+        {
+          "ours": -0.0008911690674722195
+        },
+        {
+          "\".": -0.03800101950764656
+        },
+        {
+          "<0x0A>": -0.022834688425064087
+        },
+        {
+          "Answer": -0.0025880197063088417
+        },
+        {
+          ":": -0.00023827097902540118
+        },
+        {
+          "The": -0.013641232624650002
+        },
+        {
+          "Keep": -0.00016675988445058465
+        },
+        {
+          "ing": -3.218599158572033e-05
+        },
+        {
+          "H": -0.00027044929447583854
+        },
+        {
+          "ours": -0.00013136000779923052
+        },
+        {
+          "<0x0A>": -0.017554624006152153
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: The actor that plays Joe MacMillan in \"Halt and Catch Fire\" also starred with Carrie Coon in what 2017 horror film?\nThought 1:Let's think step by step. The actor that plays Joe MacMillan in \"Halt and Catch Fire\" is Lee Pace. Lee Pace starred with Carrie Coon in \"The Keeping Hours\".\nAnswer: The Keeping Hours\nAction 1: MeasureUncertainty [The Keeping Hours]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: The Keeping Hours",
+  "summary": {
+    "final_answer": "The Keeping Hours",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

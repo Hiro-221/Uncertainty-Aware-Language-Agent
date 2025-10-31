@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1614,
+  "question": "Question: The composer of the music for the ballet \"The Seasons\"  was the director of what organization from 1905 to 1928?",
+  "gold_answer": "Saint Petersburg Conservatory",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The composer of the music for the ballet \"The Seasons\"  was the director of what organization from 1905 to 1928?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The composer of the music for the ballet \"The Seasons\"  was the director of what organization from 1905 to 1928?\nThought:",
+      "output": "Let's think step by step. The composer of the music for the ballet \"The Seasons\" is Alexander Glazunov. Alexander Glazunov was the director of Saint Petersburg Conservatory from 1905 to 1928.\nAnswer: Saint Petersburg Conservatory\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of",
+      "probs": [
+        {
+          "Let": -0.011905211955308914
+        },
+        {
+          "'": -0.0005793085438199341
+        },
+        {
+          "s": -3.707340147229843e-05
+        },
+        {
+          "think": -0.0005934861255809665
+        },
+        {
+          "step": -0.0005588161875493824
+        },
+        {
+          "by": -0.0001147919538198039
+        },
+        {
+          "step": -1.4662635294371285e-05
+        },
+        {
+          ".": -0.0007927850820124149
+        },
+        {
+          "The": -1.0563583374023438
+        },
+        {
+          "composer": -0.39842715859413147
+        },
+        {
+          "of": -0.024424128234386444
+        },
+        {
+          "the": -0.09666815400123596
+        },
+        {
+          "music": -0.08790291100740433
+        },
+        {
+          "for": -0.008657895028591156
+        },
+        {
+          "the": -0.05274548381567001
+        },
+        {
+          "bal": -0.002499910071492195
+        },
+        {
+          "let": -0.00035613393993116915
+        },
+        {
+          "\"": -0.06438522785902023
+        },
+        {
+          "The": -0.001488054753281176
+        },
+        {
+          "Se": -0.004076505079865456
+        },
+        {
+          "asons": -0.0004978132783435285
+        },
+        {
+          "\"": -0.004652864299714565
+        },
+        {
+          "is": -0.9227716326713562
+        },
+        {
+          "Alexander": -0.13421973586082458
+        },
+        {
+          "Gla": -0.0008484101272188127
+        },
+        {
+          "z": -0.00013851160474587232
+        },
+        {
+          "un": -0.00037901371251791716
+        },
+        {
+          "ov": -0.00010680581908673048
+        },
+        {
+          ".": -0.06800957769155502
+        },
+        {
+          "Alexander": -0.7624334096908569
+        },
+        {
+          "Gla": -0.00482573127374053
+        },
+        {
+          "z": -0.0005745429079979658
+        },
+        {
+          "un": -0.0009578645695000887
+        },
+        {
+          "ov": -0.000356253091013059
+        },
+        {
+          "was": -0.14346784353256226
+        },
+        {
+          "the": -0.212222158908844
+        },
+        {
+          "director": -0.02839505486190319
+        },
+        {
+          "of": -0.0056110261939466
+        },
+        {
+          "Saint": -0.5505805015563965
+        },
+        {
+          "Petersburg": -0.003147174371406436
+        },
+        {
+          "Conserv": -0.03817074000835419
+        },
+        {
+          "atory": -0.0009365463047288358
+        },
+        {
+          "from": -0.08774393796920776
+        },
+        {
+          "": -0.001095529063604772
+        },
+        {
+          "1": -0.000192504478036426
+        },
+        {
+          "9": -0.010625691153109074
+        },
+        {
+          "0": -0.0004267973708920181
+        },
+        {
+          "5": -0.007575829979032278
+        },
+        {
+          "to": -0.005208494141697884
+        },
+        {
+          "": -0.0009284476400353014
+        },
+        {
+          "1": -0.000346362212439999
+        },
+        {
+          "9": -4.017272294731811e-05
+        },
+        {
+          "2": -0.0633525550365448
+        },
+        {
+          "8": -0.002158099552616477
+        },
+        {
+          ".": -0.28185343742370605
+        },
+        {
+          "<0x0A>": -0.4726428985595703
+        },
+        {
+          "Answer": -0.002617269055917859
+        },
+        {
+          ":": -0.00042965717148035765
+        },
+        {
+          "Saint": -0.01888018101453781
+        },
+        {
+          "Petersburg": -0.00176821683999151
+        },
+        {
+          "Conserv": -0.0024370038881897926
+        },
+        {
+          "atory": -0.0007884969236329198
+        },
+        {
+          "<0x0A>": -0.03858545422554016
+        },
+        {
+          "Question": -0.2145490199327469
+        },
+        {
+          ":": -0.0002592465898487717
+        },
+        {
+          "What": -1.4663639068603516
+        },
+        {
+          "is": -1.2598919868469238
+        },
+        {
+          "the": -0.3881550133228302
+        },
+        {
+          "name": -2.4706034660339355
+        },
+        {
+          "of": -0.05632069706916809
+        },
+        {
+          "the": -0.3691183626651764
+        },
+        {
+          "": -3.486814260482788
+        },
+        {
+          "1": -0.6888281106948853
+        },
+        {
+          "9": -0.22911173105239868
+        },
+        {
+          "9": -1.4138808250427246
+        },
+        {
+          "9": -2.0730364322662354
+        },
+        {
+          "film": -1.5798625946044922
+        },
+        {
+          "that": -1.7353272438049316
+        },
+        {
+          "is": -1.8708086013793945
+        },
+        {
+          "a": -1.4231712818145752
+        },
+        {
+          "re": -1.0496411323547363
+        },
+        {
+          "make": -0.028073111549019814
+        },
+        {
+          "of": -0.018105709925293922
+        },
+        {
+          "the": -0.7650099992752075
+        },
+        {
+          "": -0.2580057978630066
+        },
+        {
+          "1": -0.012951892800629139
+        },
+        {
+          "9": -0.0027254601009190083
+        },
+        {
+          "6": -1.282604455947876
+        },
+        {
+          "9": -1.9070155620574951
+        },
+        {
+          "film": -0.29988348484039307
+        },
+        {
+          "of": -1.661194086074829
+        },
+        {
+          "the": -0.024708056822419167
+        },
+        {
+          "same": -0.0035921114031225443
+        },
+        {
+          "name": -0.03269530460238457
+        },
+        {
+          "?": -0.42947813868522644
+        },
+        {
+          "<0x0A>": -0.01513567753136158
+        },
+        {
+          "Th": -0.004160202573984861
+        },
+        {
+          "ought": -9.179073458653875e-06
+        },
+        {
+          ":": -0.00010430268594063818
+        },
+        {
+          "Let": -0.00975992251187563
+        },
+        {
+          "'": -0.0002575780963525176
+        },
+        {
+          "s": -1.1444026313256472e-05
+        },
+        {
+          "think": -0.0009345216676592827
+        },
+        {
+          "step": -0.00036745471879839897
+        },
+        {
+          "by": -0.0001292145170737058
+        },
+        {
+          "step": -0.01439707726240158
+        },
+        {
+          ".": -0.0004138090298511088
+        },
+        {
+          "The": -0.6307586431503296
+        },
+        {
+          "": -0.3983483910560608
+        },
+        {
+          "1": -0.00882050022482872
+        },
+        {
+          "9": -0.00020144341397099197
+        },
+        {
+          "9": -0.4637804627418518
+        },
+        {
+          "9": -0.0022909604012966156
+        },
+        {
+          "film": -0.06336844712495804
+        },
+        {
+          "that": -0.5884883999824524
+        },
+        {
+          "is": -0.007681829389184713
+        },
+        {
+          "a": -0.009970740415155888
+        },
+        {
+          "re": -0.0025856418069452047
+        },
+        {
+          "make": -0.00044586253352463245
+        },
+        {
+          "of": -0.004766649100929499
+        },
+        {
+          "the": -0.01991678588092327
+        },
+        {
+          "": -0.002342220861464739
+        },
+        {
+          "1": -0.00028355870745144784
+        },
+        {
+          "9": -0.0001463782973587513
+        },
+        {
+          "6": -0.0028559870552271605
+        },
+        {
+          "9": -0.0015939876902848482
+        },
+        {
+          "film": -0.0039597926661372185
+        },
+        {
+          "of": -0.08212285488843918
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: The composer of the music for the ballet \"The Seasons\"  was the director of what organization from 1905 to 1928?\nThought 1:Let's think step by step. The composer of the music for the ballet \"The Seasons\" is Alexander Glazunov. Alexander Glazunov was the director of Saint Petersburg Conservatory from 1905 to 1928.\nAnswer: Saint Petersburg Conservatory\nAction 1: MeasureUncertainty [Saint Petersburg Conservatory]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Saint Petersburg Conservatory",
+  "summary": {
+    "final_answer": "Saint Petersburg Conservatory",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

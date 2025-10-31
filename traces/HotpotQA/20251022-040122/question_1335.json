@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1335,
+  "question": "Question: How high on the US \"Billboard\" Hot 100 chart did Dan Smith's song reach in 2013?",
+  "gold_answer": "number 5",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How high on the US \"Billboard\" Hot 100 chart did Dan Smith's song reach in 2013?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How high on the US \"Billboard\" Hot 100 chart did Dan Smith's song reach in 2013?\nThought:",
+      "output": "Let's think step by step. Dan Smith's song reached number 1 on the US \"Billboard\" Hot 100 chart in 2013.\nAnswer: number 1\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999 film Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let",
+      "probs": [
+        {
+          "Let": -0.011964580975472927
+        },
+        {
+          "'": -0.0004167880106251687
+        },
+        {
+          "s": -8.749579137656838e-05
+        },
+        {
+          "think": -0.0014962679706513882
+        },
+        {
+          "step": -0.000742398202419281
+        },
+        {
+          "by": -0.00021300431399140507
+        },
+        {
+          "step": -1.7762025890988298e-05
+        },
+        {
+          ".": -0.0005697772721759975
+        },
+        {
+          "Dan": -0.4793475270271301
+        },
+        {
+          "Smith": -0.0038599285762757063
+        },
+        {
+          "'": -0.3937349021434784
+        },
+        {
+          "s": -0.0007952864980325103
+        },
+        {
+          "song": -0.10288622230291367
+        },
+        {
+          "reached": -1.2217522859573364
+        },
+        {
+          "number": -1.0796631574630737
+        },
+        {
+          "": -0.3268456757068634
+        },
+        {
+          "1": -0.940454363822937
+        },
+        {
+          "on": -0.8359380960464478
+        },
+        {
+          "the": -0.09497971832752228
+        },
+        {
+          "US": -0.2232351005077362
+        },
+        {
+          "\"": -0.4892617464065552
+        },
+        {
+          "B": -0.0011298231547698379
+        },
+        {
+          "ill": -0.000243634101934731
+        },
+        {
+          "board": -0.0002162222663173452
+        },
+        {
+          "\"": -0.003268853761255741
+        },
+        {
+          "Hot": -0.008411810733377934
+        },
+        {
+          "": -0.0008585343020968139
+        },
+        {
+          "1": -0.00024291902082040906
+        },
+        {
+          "0": -5.340433563105762e-05
+        },
+        {
+          "0": -8.177422569133341e-05
+        },
+        {
+          "chart": -0.07422491163015366
+        },
+        {
+          "in": -0.3176918029785156
+        },
+        {
+          "": -0.0078123025596141815
+        },
+        {
+          "2": -0.0007346553611569107
+        },
+        {
+          "0": -6.925819616299123e-05
+        },
+        {
+          "1": -0.00033456450910307467
+        },
+        {
+          "3": -0.004391193855553865
+        },
+        {
+          ".": -0.5703877210617065
+        },
+        {
+          "<0x0A>": -0.1732855588197708
+        },
+        {
+          "Answer": -0.0023278300650417805
+        },
+        {
+          ":": -0.000967153930105269
+        },
+        {
+          "number": -0.6676486730575562
+        },
+        {
+          "": -0.013700379990041256
+        },
+        {
+          "1": -0.00028689560713246465
+        },
+        {
+          "<0x0A>": -0.04688333719968796
+        },
+        {
+          "Question": -0.2102813869714737
+        },
+        {
+          ":": -0.0003228858404327184
+        },
+        {
+          "What": -1.4086614847183228
+        },
+        {
+          "is": -1.2715210914611816
+        },
+        {
+          "the": -0.4033057987689972
+        },
+        {
+          "name": -2.3863580226898193
+        },
+        {
+          "of": -0.03952793776988983
+        },
+        {
+          "the": -0.5016121864318848
+        },
+        {
+          "": -3.408294439315796
+        },
+        {
+          "1": -0.7290255427360535
+        },
+        {
+          "9": -0.20434994995594025
+        },
+        {
+          "9": -1.3269506692886353
+        },
+        {
+          "9": -2.0744476318359375
+        },
+        {
+          "film": -1.5643508434295654
+        },
+        {
+          "that": -1.6942015886306763
+        },
+        {
+          "was": -2.1844916343688965
+        },
+        {
+          "directed": -1.3582863807678223
+        },
+        {
+          "by": -0.02946154959499836
+        },
+        {
+          "John": -3.5842745304107666
+        },
+        {
+          "W": -2.483210325241089
+        },
+        {
+          "oo": -0.2461608499288559
+        },
+        {
+          "?": -0.8614575862884521
+        },
+        {
+          "<0x0A>": -0.007398231420665979
+        },
+        {
+          "Th": -0.003980215173214674
+        },
+        {
+          "ought": -2.0861407392658293e-05
+        },
+        {
+          ":": -0.00018261195509694517
+        },
+        {
+          "Let": -0.01214348990470171
+        },
+        {
+          "'": -0.000359351426595822
+        },
+        {
+          "s": -5.3165931603871286e-05
+        },
+        {
+          "think": -0.0007460909546352923
+        },
+        {
+          "step": -0.00043811736395582557
+        },
+        {
+          "by": -0.00017033556650858372
+        },
+        {
+          "step": -7.116541382856667e-05
+        },
+        {
+          ".": -0.0004353767435532063
+        },
+        {
+          "John": -1.1428769826889038
+        },
+        {
+          "W": -0.004513908643275499
+        },
+        {
+          "oo": -0.00022301571152638644
+        },
+        {
+          "directed": -0.3581378757953644
+        },
+        {
+          "the": -1.3935825824737549
+        },
+        {
+          "": -0.24984095990657806
+        },
+        {
+          "1": -0.016907949000597
+        },
+        {
+          "9": -0.00021300431399140507
+        },
+        {
+          "9": -0.012159978039562702
+        },
+        {
+          "9": -0.076907217502594
+        },
+        {
+          "film": -0.05495136231184006
+        },
+        {
+          "Face": -0.8243764638900757
+        },
+        {
+          "/": -0.03663117438554764
+        },
+        {
+          "Off": -0.0049338024109601974
+        },
+        {
+          ".": -0.16715197265148163
+        },
+        {
+          "<0x0A>": -0.08939709514379501
+        },
+        {
+          "Answer": -0.0014944825088605285
+        },
+        {
+          ":": -0.0002989322238136083
+        },
+        {
+          "Face": -0.0055685872212052345
+        },
+        {
+          "/": -0.003622400341555476
+        },
+        {
+          "Off": -0.002198542468249798
+        },
+        {
+          "<0x0A>": -0.027118954807519913
+        },
+        {
+          "Question": -0.20999133586883545
+        },
+        {
+          ":": -0.00021514961554203182
+        },
+        {
+          "What": -1.2062209844589233
+        },
+        {
+          "is": -1.027748942375183
+        },
+        {
+          "the": -0.2606147229671478
+        },
+        {
+          "name": -1.1540826559066772
+        },
+        {
+          "of": -0.012280330061912537
+        },
+        {
+          "the": -0.2489909827709198
+        },
+        {
+          "": -1.2490218877792358
+        },
+        {
+          "1": -0.42582347989082336
+        },
+        {
+          "9": -0.031224234029650688
+        },
+        {
+          "9": -0.48622506856918335
+        },
+        {
+          "9": -0.46103960275650024
+        },
+        {
+          "film": -0.06997302174568176
+        },
+        {
+          "that": -0.0471690334379673
+        },
+        {
+          "was": -0.09779511392116547
+        },
+        {
+          "directed": -0.058290671557188034
+        },
+        {
+          "by": -0.0013150862650945783
+        },
+        {
+          "John": -0.6733211278915405
+        },
+        {
+          "W": -0.02765841782093048
+        },
+        {
+          "oo": -0.0008734225411899388
+        },
+        {
+          "?": -0.04313761740922928
+        },
+        {
+          "<0x0A>": -0.006329134572297335
+        },
+        {
+          "Th": -0.030457185581326485
+        },
+        {
+          "ought": -8.344646857949556e-07
+        },
+        {
+          ":": -0.00023362292267847806
+        },
+        {
+          "Let": -0.011894375085830688
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: How high on the US \"Billboard\" Hot 100 chart did Dan Smith's song reach in 2013?\nThought 1:Let's think step by step. Dan Smith's song reached number 1 on the US \"Billboard\" Hot 100 chart in 2013.\nAnswer: number 1\nAction 1: MeasureUncertainty [number 1]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: number 1",
+  "summary": {
+    "final_answer": "number 1",
+    "em": false,
+    "f1": 0.5,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

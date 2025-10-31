@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2053,
+  "question": "Question: Billy King was an Australian rules footballer who participated in a game that was contested between the South Melbourne Football Club and Carlton Football Club, and was held at what location in Melbourne in 1945?",
+  "gold_answer": "Princes Park",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Billy King was an Australian rules footballer who participated in a game that was contested between the South Melbourne Football Club and Carlton Football Club, and was held at what location in Melbourne in 1945?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Billy King was an Australian rules footballer who participated in a game that was contested between the South Melbourne Football Club and Carlton Football Club, and was held at what location in Melbourne in 1945?\nThought:",
+      "output": "Let's think step by step. Billy King was an Australian rules footballer who participated in a game that was contested between the South Melbourne Football Club and Carlton Football Club, and was held at the Melbourne Cricket Ground in 1945.\nAnswer: Melbourne Cricket Ground\nQuestion: What is the name of the 1999 film that was directed by John Woo and starred Nicolas Cage?\nThought: Let's think step by step. The 1999 film that was directed by John Woo and starred Nicolas Cage is Face/Off.\n",
+      "probs": [
+        {
+          "Let": -0.013364141806960106
+        },
+        {
+          "'": -0.0009818024700507522
+        },
+        {
+          "s": -4.541770613286644e-05
+        },
+        {
+          "think": -0.0017686928622424603
+        },
+        {
+          "step": -0.0009918061550706625
+        },
+        {
+          "by": -0.0002786724944598973
+        },
+        {
+          "step": -7.92710343375802e-05
+        },
+        {
+          ".": -0.0008846183773130178
+        },
+        {
+          "Billy": -0.771740198135376
+        },
+        {
+          "King": -0.009345593862235546
+        },
+        {
+          "was": -0.46494099497795105
+        },
+        {
+          "an": -0.12729085981845856
+        },
+        {
+          "Australian": -0.00518038822337985
+        },
+        {
+          "rules": -0.011061537079513073
+        },
+        {
+          "footballer": -0.008512048050761223
+        },
+        {
+          "who": -0.3970852792263031
+        },
+        {
+          "participated": -0.14463944733142853
+        },
+        {
+          "in": -0.00336651923134923
+        },
+        {
+          "a": -0.1063380166888237
+        },
+        {
+          "game": -0.027132296934723854
+        },
+        {
+          "that": -0.10569266974925995
+        },
+        {
+          "was": -0.0030964307952672243
+        },
+        {
+          "cont": -0.0079887630417943
+        },
+        {
+          "ested": -0.00013350549852475524
+        },
+        {
+          "between": -0.008982960134744644
+        },
+        {
+          "the": -0.0396670401096344
+        },
+        {
+          "South": -0.005078036803752184
+        },
+        {
+          "Melbourne": -0.00026675479602999985
+        },
+        {
+          "Football": -0.006012566853314638
+        },
+        {
+          "Club": -0.0006382812280207872
+        },
+        {
+          "and": -0.0048969099298119545
+        },
+        {
+          "Carl": -0.010965446010231972
+        },
+        {
+          "ton": -4.768360213347478e-06
+        },
+        {
+          "Football": -0.0016569469589740038
+        },
+        {
+          "Club": -0.0006288696313276887
+        },
+        {
+          ",": -0.22210732102394104
+        },
+        {
+          "and": -0.03393930941820145
+        },
+        {
+          "was": -0.012979663908481598
+        },
+        {
+          "held": -0.0017100248951464891
+        },
+        {
+          "at": -0.01577599160373211
+        },
+        {
+          "the": -1.1824803352355957
+        },
+        {
+          "Melbourne": -0.9430860280990601
+        },
+        {
+          "Cr": -0.03140458092093468
+        },
+        {
+          "icket": -0.00017391123401466757
+        },
+        {
+          "Gr": -0.0016236230731010437
+        },
+        {
+          "ound": -0.0023060652893036604
+        },
+        {
+          "in": -0.19154998660087585
+        },
+        {
+          "": -0.4571870267391205
+        },
+        {
+          "1": -0.0004532501916401088
+        },
+        {
+          "9": -0.0004539651272352785
+        },
+        {
+          "4": -0.00830033142119646
+        },
+        {
+          "5": -0.007733050733804703
+        },
+        {
+          ".": -0.06067914888262749
+        },
+        {
+          "<0x0A>": -0.28069600462913513
+        },
+        {
+          "Answer": -0.002904009073972702
+        },
+        {
+          ":": -0.00034683887497521937
+        },
+        {
+          "Melbourne": -0.13724853098392487
+        },
+        {
+          "Cr": -0.0018830440239980817
+        },
+        {
+          "icket": -2.7656173188006505e-05
+        },
+        {
+          "Gr": -0.000542493537068367
+        },
+        {
+          "ound": -0.0004552758182398975
+        },
+        {
+          "<0x0A>": -0.06816381961107254
+        },
+        {
+          "Question": -0.26352566480636597
+        },
+        {
+          ":": -0.00035720644518733025
+        },
+        {
+          "What": -1.466552495956421
+        },
+        {
+          "is": -1.1846743822097778
+        },
+        {
+          "the": -0.3652234673500061
+        },
+        {
+          "name": -2.3527770042419434
+        },
+        {
+          "of": -0.048693157732486725
+        },
+        {
+          "the": -0.39732593297958374
+        },
+        {
+          "": -3.4136786460876465
+        },
+        {
+          "1": -0.6388998627662659
+        },
+        {
+          "9": -0.1750069558620453
+        },
+        {
+          "9": -1.369720697402954
+        },
+        {
+          "9": -2.1300697326660156
+        },
+        {
+          "film": -1.5919431447982788
+        },
+        {
+          "that": -1.6673579216003418
+        },
+        {
+          "was": -1.7672497034072876
+        },
+        {
+          "directed": -0.8814634084701538
+        },
+        {
+          "by": -0.023478709161281586
+        },
+        {
+          "John": -3.5997021198272705
+        },
+        {
+          "W": -2.5265774726867676
+        },
+        {
+          "oo": -0.3137414753437042
+        },
+        {
+          "and": -0.9608909487724304
+        },
+        {
+          "star": -1.0064650774002075
+        },
+        {
+          "red": -0.0035703741014003754
+        },
+        {
+          "Nicolas": -0.9131713509559631
+        },
+        {
+          "C": -0.0007102350937202573
+        },
+        {
+          "age": -1.5139465176616795e-05
+        },
+        {
+          "?": -0.9552669525146484
+        },
+        {
+          "<0x0A>": -0.007601502817124128
+        },
+        {
+          "Th": -0.006878625135868788
+        },
+        {
+          "ought": -3.1709168979432434e-05
+        },
+        {
+          ":": -0.00019012074335478246
+        },
+        {
+          "Let": -0.012557249516248703
+        },
+        {
+          "'": -0.0003673355677165091
+        },
+        {
+          "s": -1.168244216387393e-05
+        },
+        {
+          "think": -0.0011805477552115917
+        },
+        {
+          "step": -0.0007036832394078374
+        },
+        {
+          "by": -0.00017391123401466757
+        },
+        {
+          "step": -0.00012230125139467418
+        },
+        {
+          ".": -0.0005673944251611829
+        },
+        {
+          "The": -1.2261033058166504
+        },
+        {
+          "": -0.5774815082550049
+        },
+        {
+          "1": -0.01023225300014019
+        },
+        {
+          "9": -0.0001722425949992612
+        },
+        {
+          "9": -0.004540016409009695
+        },
+        {
+          "9": -0.015678120777010918
+        },
+        {
+          "film": -0.031295984983444214
+        },
+        {
+          "that": -0.4664223790168762
+        },
+        {
+          "was": -0.01565464958548546
+        },
+        {
+          "directed": -0.003338361158967018
+        },
+        {
+          "by": -0.0011245838832110167
+        },
+        {
+          "John": -0.005488208960741758
+        },
+        {
+          "W": -0.0005191409145481884
+        },
+        {
+          "oo": -0.00036995718255639076
+        },
+        {
+          "and": -0.13532841205596924
+        },
+        {
+          "star": -0.010294906795024872
+        },
+        {
+          "red": -0.00017736769223120064
+        },
+        {
+          "Nicolas": -0.00544125959277153
+        },
+        {
+          "C": -0.0009217780898325145
+        },
+        {
+          "age": -0.00013183678674977273
+        },
+        {
+          "is": -0.12225866317749023
+        },
+        {
+          "Face": -0.2311611920595169
+        },
+        {
+          "/": -0.018321681767702103
+        },
+        {
+          "Off": -0.0029337245505303144
+        },
+        {
+          ".": -0.08641338348388672
+        },
+        {
+          "<0x0A>": -0.020495885983109474
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Billy King was an Australian rules footballer who participated in a game that was contested between the South Melbourne Football Club and Carlton Football Club, and was held at what location in Melbourne in 1945?\nThought 1:Let's think step by step. Billy King was an Australian rules footballer who participated in a game that was contested between the South Melbourne Football Club and Carlton Football Club, and was held at the Melbourne Cricket Ground in 1945.\nAnswer: Melbourne Cricket Ground\nAction 1: MeasureUncertainty [Melbourne Cricket Ground]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Melbourne Cricket Ground",
+  "summary": {
+    "final_answer": "Melbourne Cricket Ground",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

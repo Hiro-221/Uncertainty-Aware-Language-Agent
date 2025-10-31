@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6837,
+  "question": "Question: How many records did the boy band who released \"Said and Done\" sell worldwide as of 2013?",
+  "gold_answer": "25 million",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many records did the boy band who released \"Said and Done\" sell worldwide as of 2013?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: How many records did the boy band who released \"Said and Done\" sell worldwide as of 2013?\nThought:",
+      "output": "Let's think step by step. The boy band who released \"Said and Done\" is Blue. Blue sold 15 million records worldwide as of 2013.\nAnswer: 15 million\nQuestion: What is the name of the 1999 film that was directed by John Woo and starred Nicolas Cage?\nThought: Let's think step by step. The 1999 film that was directed by John Woo and starred Nicolas Cage is Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the ",
+      "probs": [
+        {
+          "Let": -0.010749058797955513
+        },
+        {
+          "'": -0.00032205163734033704
+        },
+        {
+          "s": -1.1324817933200393e-05
+        },
+        {
+          "think": -0.0012503195321187377
+        },
+        {
+          "step": -0.00038580605178140104
+        },
+        {
+          "by": -0.00013541258522309363
+        },
+        {
+          "step": -0.008636031299829483
+        },
+        {
+          ".": -0.0006399490521289408
+        },
+        {
+          "The": -1.3155359029769897
+        },
+        {
+          "boy": -0.2309591919183731
+        },
+        {
+          "band": -0.010596911422908306
+        },
+        {
+          "who": -0.1360235959291458
+        },
+        {
+          "released": -0.005931631661951542
+        },
+        {
+          "\"": -0.043529849499464035
+        },
+        {
+          "Sa": -0.0022110319696366787
+        },
+        {
+          "id": -0.00011860620725201443
+        },
+        {
+          "and": -0.0019386084750294685
+        },
+        {
+          "Done": -0.0004037995240651071
+        },
+        {
+          "\"": -0.004715037997812033
+        },
+        {
+          "is": -0.35336101055145264
+        },
+        {
+          "Blue": -1.6170406341552734
+        },
+        {
+          ".": -0.18827325105667114
+        },
+        {
+          "Blue": -0.5829181671142578
+        },
+        {
+          "sold": -0.42581936717033386
+        },
+        {
+          "": -0.3797273337841034
+        },
+        {
+          "1": -0.1146344542503357
+        },
+        {
+          "5": -0.5910295844078064
+        },
+        {
+          "million": -0.07418151944875717
+        },
+        {
+          "records": -0.04117791727185249
+        },
+        {
+          "world": -0.1308225393295288
+        },
+        {
+          "wide": -0.0014154425589367747
+        },
+        {
+          "as": -0.13883498311042786
+        },
+        {
+          "of": -0.0006856950931251049
+        },
+        {
+          "": -0.006416670512408018
+        },
+        {
+          "2": -0.00015031162183731794
+        },
+        {
+          "0": -7.199982064776123e-05
+        },
+        {
+          "1": -0.0005017452058382332
+        },
+        {
+          "3": -0.014278389513492584
+        },
+        {
+          ".": -0.5606932044029236
+        },
+        {
+          "<0x0A>": -0.38409698009490967
+        },
+        {
+          "Answer": -0.001957288011908531
+        },
+        {
+          ":": -0.0005498804384842515
+        },
+        {
+          "": -0.003944593947380781
+        },
+        {
+          "1": -0.00040165462996810675
+        },
+        {
+          "5": -0.0005379660287871957
+        },
+        {
+          "million": -0.07780810445547104
+        },
+        {
+          "<0x0A>": -0.17563119530677795
+        },
+        {
+          "Question": -0.20517444610595703
+        },
+        {
+          ":": -0.00026806574896909297
+        },
+        {
+          "What": -1.485646367073059
+        },
+        {
+          "is": -1.2249653339385986
+        },
+        {
+          "the": -0.3779727518558502
+        },
+        {
+          "name": -2.5005533695220947
+        },
+        {
+          "of": -0.044120535254478455
+        },
+        {
+          "the": -0.38557037711143494
+        },
+        {
+          "": -3.333071708679199
+        },
+        {
+          "1": -0.7071167826652527
+        },
+        {
+          "9": -0.18384164571762085
+        },
+        {
+          "9": -1.3141560554504395
+        },
+        {
+          "9": -2.062218427658081
+        },
+        {
+          "film": -1.6446828842163086
+        },
+        {
+          "that": -1.72841215133667
+        },
+        {
+          "was": -2.0409014225006104
+        },
+        {
+          "directed": -1.4987043142318726
+        },
+        {
+          "by": -0.03418022766709328
+        },
+        {
+          "John": -3.6140520572662354
+        },
+        {
+          "W": -2.4730348587036133
+        },
+        {
+          "oo": -0.25978946685791016
+        },
+        {
+          "and": -0.9106866121292114
+        },
+        {
+          "star": -0.9430659413337708
+        },
+        {
+          "red": -0.0027018017135560513
+        },
+        {
+          "Nicolas": -0.9144043922424316
+        },
+        {
+          "C": -0.0006964165368117392
+        },
+        {
+          "age": -1.0609570381348021e-05
+        },
+        {
+          "?": -0.7028130292892456
+        },
+        {
+          "<0x0A>": -0.005844883155077696
+        },
+        {
+          "Th": -0.005012683104723692
+        },
+        {
+          "ought": -2.455681169521995e-05
+        },
+        {
+          ":": -0.0001629458274692297
+        },
+        {
+          "Let": -0.010700115002691746
+        },
+        {
+          "'": -0.0003551805857568979
+        },
+        {
+          "s": -1.4662635294371285e-05
+        },
+        {
+          "think": -0.000774917658418417
+        },
+        {
+          "step": -0.0003519630990922451
+        },
+        {
+          "by": -0.00012778419477399439
+        },
+        {
+          "step": -1.0609570381348021e-05
+        },
+        {
+          ".": -0.000539634027518332
+        },
+        {
+          "The": -1.1970232725143433
+        },
+        {
+          "": -0.3843978941440582
+        },
+        {
+          "1": -0.0050723436288535595
+        },
+        {
+          "9": -7.712543447269127e-05
+        },
+        {
+          "9": -0.0013854438439011574
+        },
+        {
+          "9": -0.006678285542875528
+        },
+        {
+          "film": -0.021891029551625252
+        },
+        {
+          "that": -0.3727307617664337
+        },
+        {
+          "was": -0.021568384021520615
+        },
+        {
+          "directed": -0.0033225591760128736
+        },
+        {
+          "by": -0.001734539750032127
+        },
+        {
+          "John": -0.0023974028881639242
+        },
+        {
+          "W": -0.0004897110629826784
+        },
+        {
+          "oo": -0.0002847504511009902
+        },
+        {
+          "and": -0.3106631636619568
+        },
+        {
+          "star": -0.010813920758664608
+        },
+        {
+          "red": -0.0002899941464420408
+        },
+        {
+          "Nicolas": -0.0066426414996385574
+        },
+        {
+          "C": -0.0011145814787596464
+        },
+        {
+          "age": -8.976056415122002e-05
+        },
+        {
+          "is": -0.055968958884477615
+        },
+        {
+          "Face": -0.11110466718673706
+        },
+        {
+          "/": -0.01622132770717144
+        },
+        {
+          "Off": -0.0031774768140167
+        },
+        {
+          ".": -0.045127782970666885
+        },
+        {
+          "<0x0A>": -0.01980985514819622
+        },
+        {
+          "Answer": -0.0019819156732410192
+        },
+        {
+          ":": -0.000321336614433676
+        },
+        {
+          "Face": -0.002720348071306944
+        },
+        {
+          "/": -0.002729383297264576
+        },
+        {
+          "Off": -0.004161270800977945
+        },
+        {
+          "<0x0A>": -0.017427174374461174
+        },
+        {
+          "Question": -0.18517625331878662
+        },
+        {
+          ":": -0.0002022777043748647
+        },
+        {
+          "What": -1.2760579586029053
+        },
+        {
+          "is": -0.9997287392616272
+        },
+        {
+          "the": -0.23715916275978088
+        },
+        {
+          "name": -1.2222461700439453
+        },
+        {
+          "of": -0.019702443853020668
+        },
+        {
+          "the": -0.17957353591918945
+        },
+        {
+          "": -1.2967991828918457
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: How many records did the boy band who released \"Said and Done\" sell worldwide as of 2013?\nThought 1:Let's think step by step. The boy band who released \"Said and Done\" is Blue. Blue sold 15 million records worldwide as of 2013.\nAnswer: 15 million\nAction 1: MeasureUncertainty [15 million]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 15 million",
+  "summary": {
+    "final_answer": "15 million",
+    "em": false,
+    "f1": 0.5,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

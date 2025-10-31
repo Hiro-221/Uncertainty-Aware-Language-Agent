@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6665,
+  "question": "Question: In what category did the composer of \"Elliot, a Soldier's Fugue\" win a Tony Award in 2008?",
+  "gold_answer": "for Best Musical",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In what category did the composer of \"Elliot, a Soldier's Fugue\" win a Tony Award in 2008?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: In what category did the composer of \"Elliot, a Soldier's Fugue\" win a Tony Award in 2008?\nThought:",
+      "output": "Let's think step by step. The composer of \"Elliot, a Soldier's Fugue\" is Quiara Alegría Hudes. Quiara Alegría Hudes won a Tony Award in 2008 for Best Book of a Musical.\nAnswer: Best Book of a Musical\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a remake of the 1",
+      "probs": [
+        {
+          "Let": -0.009564056061208248
+        },
+        {
+          "'": -0.0002755738969426602
+        },
+        {
+          "s": -1.7523612768854946e-05
+        },
+        {
+          "think": -0.0008370947907678783
+        },
+        {
+          "step": -0.0008906926377676427
+        },
+        {
+          "by": -0.00027414379292167723
+        },
+        {
+          "step": -8.5588610090781e-05
+        },
+        {
+          ".": -0.00066985102603212
+        },
+        {
+          "The": -1.1947304010391235
+        },
+        {
+          "composer": -0.15234698355197906
+        },
+        {
+          "of": -0.0361110158264637
+        },
+        {
+          "\"": -0.33406078815460205
+        },
+        {
+          "El": -0.014236434362828732
+        },
+        {
+          "li": -0.0002320735511602834
+        },
+        {
+          "ot": -0.0024758896324783564
+        },
+        {
+          ",": -0.0026940738316625357
+        },
+        {
+          "a": -0.008638986386358738
+        },
+        {
+          "Sold": -0.0027821664698421955
+        },
+        {
+          "ier": -0.0007887351675890386
+        },
+        {
+          "'": -0.003049131017178297
+        },
+        {
+          "s": -8.844937838148326e-05
+        },
+        {
+          "F": -0.0007245299639180303
+        },
+        {
+          "ug": -0.0003228858404327184
+        },
+        {
+          "ue": -0.00045193947153165936
+        },
+        {
+          "\"": -0.013150038197636604
+        },
+        {
+          "is": -0.09169618785381317
+        },
+        {
+          "Qu": -0.5680679082870483
+        },
+        {
+          "i": -0.004363420885056257
+        },
+        {
+          "ara": -0.061799194663763046
+        },
+        {
+          "Ale": -0.09150408953428268
+        },
+        {
+          "gr": -0.0005850272136740386
+        },
+        {
+          "ía": -0.023592934012413025
+        },
+        {
+          "H": -0.0014348459662869573
+        },
+        {
+          "udes": -0.00041845624218694866
+        },
+        {
+          ".": -0.1765056848526001
+        },
+        {
+          "Qu": -0.9597773551940918
+        },
+        {
+          "i": -0.004867964424192905
+        },
+        {
+          "ara": -0.0002261144545627758
+        },
+        {
+          "Ale": -0.02332848682999611
+        },
+        {
+          "gr": -7.283422019099817e-05
+        },
+        {
+          "ía": -0.0003216941258870065
+        },
+        {
+          "H": -0.0016250512562692165
+        },
+        {
+          "udes": -9.512448741588742e-05
+        },
+        {
+          "won": -0.15602673590183258
+        },
+        {
+          "a": -0.3710518479347229
+        },
+        {
+          "Tony": -0.05340093374252319
+        },
+        {
+          "Award": -0.014619019813835621
+        },
+        {
+          "in": -0.25527334213256836
+        },
+        {
+          "": -0.11334050446748734
+        },
+        {
+          "2": -0.00014137222024146467
+        },
+        {
+          "0": -4.2437604861333966e-05
+        },
+        {
+          "0": -0.007339892443269491
+        },
+        {
+          "8": -0.0038605222944170237
+        },
+        {
+          "for": -0.5807170867919922
+        },
+        {
+          "Best": -0.663999617099762
+        },
+        {
+          "Book": -0.898902416229248
+        },
+        {
+          "of": -0.16292349994182587
+        },
+        {
+          "a": -0.005353874992579222
+        },
+        {
+          "Musical": -0.005328381434082985
+        },
+        {
+          ".": -0.4843054711818695
+        },
+        {
+          "<0x0A>": -0.5790912508964539
+        },
+        {
+          "Answer": -0.0026710093952715397
+        },
+        {
+          ":": -0.00043704494601115584
+        },
+        {
+          "Best": -0.1104995384812355
+        },
+        {
+          "Book": -0.013312502764165401
+        },
+        {
+          "of": -0.010461374185979366
+        },
+        {
+          "a": -0.0009118927991949022
+        },
+        {
+          "Musical": -0.0014148473273962736
+        },
+        {
+          "<0x0A>": -0.030268223956227303
+        },
+        {
+          "Question": -0.22964824736118317
+        },
+        {
+          ":": -0.0002643712505232543
+        },
+        {
+          "What": -1.4459662437438965
+        },
+        {
+          "is": -1.2535276412963867
+        },
+        {
+          "the": -0.3905138373374939
+        },
+        {
+          "name": -2.5028300285339355
+        },
+        {
+          "of": -0.04645748436450958
+        },
+        {
+          "the": -0.4096395969390869
+        },
+        {
+          "": -3.5233094692230225
+        },
+        {
+          "1": -0.7254918217658997
+        },
+        {
+          "9": -0.22633041441440582
+        },
+        {
+          "9": -1.3475873470306396
+        },
+        {
+          "9": -2.06606125831604
+        },
+        {
+          "film": -1.7020540237426758
+        },
+        {
+          "that": -1.7123922109603882
+        },
+        {
+          "is": -2.0318186283111572
+        },
+        {
+          "a": -1.413257360458374
+        },
+        {
+          "re": -1.1508256196975708
+        },
+        {
+          "make": -0.028184030205011368
+        },
+        {
+          "of": -0.013174392282962799
+        },
+        {
+          "the": -0.8259823322296143
+        },
+        {
+          "": -0.30754441022872925
+        },
+        {
+          "1": -0.016850747168064117
+        },
+        {
+          "9": -0.002995767630636692
+        },
+        {
+          "6": -1.3246791362762451
+        },
+        {
+          "0": -1.9004437923431396
+        },
+        {
+          "film": -0.4263560473918915
+        },
+        {
+          "Ocean": -1.7153716087341309
+        },
+        {
+          "'": -0.01140444353222847
+        },
+        {
+          "s": -0.00012182447244413197
+        },
+        {
+          "": -0.4378972053527832
+        },
+        {
+          "1": -0.0005071069463156164
+        },
+        {
+          "1": -0.000872946111485362
+        },
+        {
+          "?": -0.2636321783065796
+        },
+        {
+          "<0x0A>": -0.004437599331140518
+        },
+        {
+          "Th": -0.004301818553358316
+        },
+        {
+          "ought": -2.5629668016335927e-05
+        },
+        {
+          ":": -0.00014065706636756659
+        },
+        {
+          "Let": -0.009501120075583458
+        },
+        {
+          "'": -0.0004020121123176068
+        },
+        {
+          "s": -7.235741941258311e-05
+        },
+        {
+          "think": -0.0004226268210913986
+        },
+        {
+          "step": -0.000248043768806383
+        },
+        {
+          "by": -0.00016020445036701858
+        },
+        {
+          "step": -0.0004337085410952568
+        },
+        {
+          ".": -0.00038068200228735805
+        },
+        {
+          "Ocean": -0.7329024076461792
+        },
+        {
+          "'": -0.006805692799389362
+        },
+        {
+          "s": -0.0001551984460093081
+        },
+        {
+          "Ele": -0.6529240608215332
+        },
+        {
+          "ven": -3.361645576660521e-05
+        },
+        {
+          "is": -0.34741050004959106
+        },
+        {
+          "a": -0.29328256845474243
+        },
+        {
+          "re": -0.7274307608604431
+        },
+        {
+          "make": -0.0011972171487286687
+        },
+        {
+          "of": -0.004940563812851906
+        },
+        {
+          "the": -0.23241232335567474
+        },
+        {
+          "": -0.0166956577450037
+        },
+        {
+          "1": -0.00010895135346800089
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: In what category did the composer of \"Elliot, a Soldier's Fugue\" win a Tony Award in 2008?\nThought 1:Let's think step by step. The composer of \"Elliot, a Soldier's Fugue\" is Quiara Alegría Hudes. Quiara Alegría Hudes won a Tony Award in 2008 for Best Book of a Musical.\nAnswer: Best Book of a Musical\nAction 1: MeasureUncertainty [Best Book of a Musical]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Best Book of a Musical",
+  "summary": {
+    "final_answer": "Best Book of a Musical",
+    "em": false,
+    "f1": 0.5714285714285715,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

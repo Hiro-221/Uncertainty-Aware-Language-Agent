@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1858,
+  "question": "Question: Which fictional MI6 agent is a fictional character created by the British journalist and novelist Ian Fleming in 1952?",
+  "gold_answer": "Commander James Bond RN",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which fictional MI6 agent is a fictional character created by the British journalist and novelist Ian Fleming in 1952?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which fictional MI6 agent is a fictional character created by the British journalist and novelist Ian Fleming in 1952?\nThought:",
+      "output": "Let's think step by step. James Bond is a fictional character created by the British journalist and novelist Ian Fleming in 1952. So the fictional MI6 agent is James Bond.\nAnswer: James Bond\nQuestion: Which of the following is a fictional character created by the British journalist and novelist Ian Fleming in 1952?\nThought: Let's think step by step. James Bond is a fictional character created by the British journalist and novelist Ian Fleming in 1952. So the fictional character created by the",
+      "probs": [
+        {
+          "Let": -0.02072768844664097
+        },
+        {
+          "'": -0.0005478549865074456
+        },
+        {
+          "s": -2.2291887944447808e-05
+        },
+        {
+          "think": -0.0015042430022731423
+        },
+        {
+          "step": -0.0009008163469843566
+        },
+        {
+          "by": -0.00024232311989180744
+        },
+        {
+          "step": -5.352353764465079e-05
+        },
+        {
+          ".": -0.0006033745594322681
+        },
+        {
+          "James": -0.7897275686264038
+        },
+        {
+          "Bond": -0.004731530323624611
+        },
+        {
+          "is": -0.21935229003429413
+        },
+        {
+          "a": -0.08974021673202515
+        },
+        {
+          "fict": -0.030564486980438232
+        },
+        {
+          "ional": -0.0003231241717003286
+        },
+        {
+          "character": -0.5677744150161743
+        },
+        {
+          "created": -0.03739350289106369
+        },
+        {
+          "by": -0.006974991410970688
+        },
+        {
+          "the": -0.14541776478290558
+        },
+        {
+          "British": -0.006818479858338833
+        },
+        {
+          "journalist": -0.03844700753688812
+        },
+        {
+          "and": -0.005375336389988661
+        },
+        {
+          "novel": -0.0004338276921771467
+        },
+        {
+          "ist": -0.00011050090688513592
+        },
+        {
+          "Ian": -0.004104998894035816
+        },
+        {
+          "F": -0.0002356490003876388
+        },
+        {
+          "lem": -5.149708886165172e-05
+        },
+        {
+          "ing": -0.00040189296123571694
+        },
+        {
+          "in": -0.03485831618309021
+        },
+        {
+          "": -0.0007294139941222966
+        },
+        {
+          "1": -2.5629668016335927e-05
+        },
+        {
+          "9": -2.706014311115723e-05
+        },
+        {
+          "5": -0.0009560781763866544
+        },
+        {
+          "2": -0.01122434064745903
+        },
+        {
+          ".": -0.22338347136974335
+        },
+        {
+          "So": -0.8721491694450378
+        },
+        {
+          "the": -0.7956845760345459
+        },
+        {
+          "fict": -0.28319796919822693
+        },
+        {
+          "ional": -0.00025876989820972085
+        },
+        {
+          "M": -0.06255143135786057
+        },
+        {
+          "I": -0.0032412870787084103
+        },
+        {
+          "6": -0.000736918649636209
+        },
+        {
+          "agent": -0.004047536291182041
+        },
+        {
+          "is": -0.4901261329650879
+        },
+        {
+          "James": -0.39414939284324646
+        },
+        {
+          "Bond": -0.0014790082350373268
+        },
+        {
+          ".": -0.02475876361131668
+        },
+        {
+          "<0x0A>": -0.003646155819296837
+        },
+        {
+          "Answer": -0.0019857229199260473
+        },
+        {
+          ":": -0.00043394684325903654
+        },
+        {
+          "James": -0.0038038771599531174
+        },
+        {
+          "Bond": -0.001600771676748991
+        },
+        {
+          "<0x0A>": -0.02000536024570465
+        },
+        {
+          "Question": -0.19731375575065613
+        },
+        {
+          ":": -0.00030155404238030314
+        },
+        {
+          "Which": -1.2318708896636963
+        },
+        {
+          "of": -2.1392414569854736
+        },
+        {
+          "the": -0.7077025175094604
+        },
+        {
+          "following": -0.10725679993629456
+        },
+        {
+          "is": -1.0673871040344238
+        },
+        {
+          "a": -1.363035798072815
+        },
+        {
+          "fict": -3.3811237812042236
+        },
+        {
+          "ional": -0.017738627269864082
+        },
+        {
+          "character": -0.5880679488182068
+        },
+        {
+          "created": -0.5576744675636292
+        },
+        {
+          "by": -0.019135866314172745
+        },
+        {
+          "the": -0.4759758710861206
+        },
+        {
+          "British": -0.24107128381729126
+        },
+        {
+          "journalist": -0.12308052182197571
+        },
+        {
+          "and": -0.0037585110403597355
+        },
+        {
+          "novel": -0.0019026764202862978
+        },
+        {
+          "ist": -3.659658250398934e-05
+        },
+        {
+          "Ian": -0.020593401044607162
+        },
+        {
+          "F": -0.0004925706889480352
+        },
+        {
+          "lem": -1.0847986231965479e-05
+        },
+        {
+          "ing": -9.798523387871683e-05
+        },
+        {
+          "in": -0.05738181248307228
+        },
+        {
+          "": -0.004237007815390825
+        },
+        {
+          "1": -0.0004502712981775403
+        },
+        {
+          "9": -9.97731985989958e-05
+        },
+        {
+          "5": -0.005528043489903212
+        },
+        {
+          "2": -0.0341457799077034
+        },
+        {
+          "?": -0.2250513732433319
+        },
+        {
+          "<0x0A>": -0.21426454186439514
+        },
+        {
+          "Th": -0.027512649074196815
+        },
+        {
+          "ought": -5.507317473529838e-05
+        },
+        {
+          ":": -0.00040058218291960657
+        },
+        {
+          "Let": -0.019656741991639137
+        },
+        {
+          "'": -0.0005109196645207703
+        },
+        {
+          "s": -2.6464111215318553e-05
+        },
+        {
+          "think": -0.0010452766437083483
+        },
+        {
+          "step": -0.0002882065309677273
+        },
+        {
+          "by": -0.00010764019680209458
+        },
+        {
+          "step": -3.373566141817719e-05
+        },
+        {
+          ".": -0.000548331590835005
+        },
+        {
+          "James": -0.4010448455810547
+        },
+        {
+          "Bond": -0.0030574502889066935
+        },
+        {
+          "is": -0.05260457098484039
+        },
+        {
+          "a": -0.026902437210083008
+        },
+        {
+          "fict": -0.0054294029250741005
+        },
+        {
+          "ional": -1.1444026313256472e-05
+        },
+        {
+          "character": -0.006179630756378174
+        },
+        {
+          "created": -0.008106425404548645
+        },
+        {
+          "by": -0.0005413020844571292
+        },
+        {
+          "the": -0.005441733635962009
+        },
+        {
+          "British": -0.0003280101518612355
+        },
+        {
+          "journalist": -0.007913664914667606
+        },
+        {
+          "and": -0.0008559139096178114
+        },
+        {
+          "novel": -0.00010382589971413836
+        },
+        {
+          "ist": -2.95634672511369e-05
+        },
+        {
+          "Ian": -0.0006625840906053782
+        },
+        {
+          "F": -0.00010024998482549563
+        },
+        {
+          "lem": -6.794906312279636e-06
+        },
+        {
+          "ing": -0.00015317220822907984
+        },
+        {
+          "in": -0.006263981107622385
+        },
+        {
+          "": -0.00015722469834145159
+        },
+        {
+          "1": -4.708655978902243e-05
+        },
+        {
+          "9": -8.106198947643861e-06
+        },
+        {
+          "5": -0.00013839241000823677
+        },
+        {
+          "2": -0.0006264869589358568
+        },
+        {
+          ".": -0.061415184289216995
+        },
+        {
+          "So": -0.32412344217300415
+        },
+        {
+          "the": -0.2757270336151123
+        },
+        {
+          "fict": -0.19877642393112183
+        },
+        {
+          "ional": -6.69933797325939e-05
+        },
+        {
+          "character": -0.16347748041152954
+        },
+        {
+          "created": -0.44112250208854675
+        },
+        {
+          "by": -0.0032850131392478943
+        },
+        {
+          "the": -0.038044512271881104
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Which fictional MI6 agent is a fictional character created by the British journalist and novelist Ian Fleming in 1952?\nThought 1:Let's think step by step. James Bond is a fictional character created by the British journalist and novelist Ian Fleming in 1952. So the fictional MI6 agent is James Bond.\nAnswer: James Bond\nAction 1: MeasureUncertainty [James Bond]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: James Bond",
+  "summary": {
+    "final_answer": "James Bond",
+    "em": false,
+    "f1": 0.6666666666666666,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

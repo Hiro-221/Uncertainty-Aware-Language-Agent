@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4334,
+  "question": "Question: Who has a wider scope of profession, Christopher Guest or  Roman Karmen?",
+  "gold_answer": "Christopher Haden-Guest",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who has a wider scope of profession, Christopher Guest or  Roman Karmen?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who has a wider scope of profession, Christopher Guest or  Roman Karmen?\nThought:",
+      "output": "Let's think step by step. Professions of Christopher Guest are actor, comedian, director, musician, screenwriter, and voice actor. Professions of Roman Karmen are cinematographer, director, and screenwriter. So Christopher Guest has a wider scope of profession.\nAnswer: Christopher Guest\nQuestion: Which of the following is not a profession of John C. Reilly?\nThought: Let's think step by step. Professions of John C. Reilly are actor, comedian, musician, producer, and screenwriter. So the answer is not a profession",
+      "probs": [
+        {
+          "Let": -0.00954445544630289
+        },
+        {
+          "'": -0.0005359405186027288
+        },
+        {
+          "s": -8.129743218887597e-05
+        },
+        {
+          "think": -0.0008690156391821802
+        },
+        {
+          "step": -0.0004389514506328851
+        },
+        {
+          "by": -6.294052582234144e-05
+        },
+        {
+          "step": -0.00795742403715849
+        },
+        {
+          ".": -0.0005296258023008704
+        },
+        {
+          "Prof": -0.27234798669815063
+        },
+        {
+          "essions": -0.26695653796195984
+        },
+        {
+          "of": -0.006835410837084055
+        },
+        {
+          "Christopher": -0.03677550330758095
+        },
+        {
+          "Gu": -0.002783355303108692
+        },
+        {
+          "est": -0.0001586549769854173
+        },
+        {
+          "are": -0.022240502759814262
+        },
+        {
+          "actor": -0.6229936480522156
+        },
+        {
+          ",": -0.0194654930382967
+        },
+        {
+          "com": -0.6403583288192749
+        },
+        {
+          "ed": -0.0004518203204497695
+        },
+        {
+          "ian": -0.000303818320389837
+        },
+        {
+          ",": -0.0018874465022236109
+        },
+        {
+          "director": -0.44952473044395447
+        },
+        {
+          ",": -0.003766349283978343
+        },
+        {
+          "music": -0.4443565309047699
+        },
+        {
+          "ian": -0.004205194301903248
+        },
+        {
+          ",": -0.029628213495016098
+        },
+        {
+          "screen": -0.4732908606529236
+        },
+        {
+          "writer": -0.0008925982983782887
+        },
+        {
+          ",": -0.14441269636154175
+        },
+        {
+          "and": -0.230112224817276
+        },
+        {
+          "voice": -0.7276699542999268
+        },
+        {
+          "actor": -0.16352444887161255
+        },
+        {
+          ".": -0.02116253972053528
+        },
+        {
+          "Prof": -0.028520189225673676
+        },
+        {
+          "essions": -0.014480267651379108
+        },
+        {
+          "of": -0.0014942444395273924
+        },
+        {
+          "Roman": -0.18307432532310486
+        },
+        {
+          "Kar": -0.002414052141830325
+        },
+        {
+          "men": -0.0006729483720846474
+        },
+        {
+          "are": -0.018504489213228226
+        },
+        {
+          "cinemat": -1.0890415906906128
+        },
+        {
+          "ograph": -0.0026169123593717813
+        },
+        {
+          "er": -0.0016354055842384696
+        },
+        {
+          ",": -0.12018658220767975
+        },
+        {
+          "director": -0.42311644554138184
+        },
+        {
+          ",": -0.01080873142927885
+        },
+        {
+          "and": -1.3579529523849487
+        },
+        {
+          "screen": -0.6920643448829651
+        },
+        {
+          "writer": -0.0017137139802798629
+        },
+        {
+          ".": -0.009571848437190056
+        },
+        {
+          "So": -0.6991139054298401
+        },
+        {
+          "Christopher": -0.5578866600990295
+        },
+        {
+          "Gu": -0.0023952622432261705
+        },
+        {
+          "est": -0.0003480305604171008
+        },
+        {
+          "has": -0.03662048652768135
+        },
+        {
+          "a": -0.3735155761241913
+        },
+        {
+          "wider": -0.00826545525342226
+        },
+        {
+          "scope": -0.0070084924809634686
+        },
+        {
+          "of": -0.008891867473721504
+        },
+        {
+          "profession": -0.040362026542425156
+        },
+        {
+          ".": -0.2857501208782196
+        },
+        {
+          "<0x0A>": -0.0060046277940273285
+        },
+        {
+          "Answer": -0.0038936531636863947
+        },
+        {
+          ":": -0.0004907834227196872
+        },
+        {
+          "Christopher": -0.008004019036889076
+        },
+        {
+          "Gu": -0.0005465444410219789
+        },
+        {
+          "est": -5.3881147323409095e-05
+        },
+        {
+          "<0x0A>": -0.026958370581269264
+        },
+        {
+          "Question": -0.2081669420003891
+        },
+        {
+          ":": -0.0003507714136503637
+        },
+        {
+          "Which": -1.4042037725448608
+        },
+        {
+          "of": -1.9646040201187134
+        },
+        {
+          "the": -0.8857172727584839
+        },
+        {
+          "following": -0.1516350954771042
+        },
+        {
+          "is": -1.2079417705535889
+        },
+        {
+          "not": -1.519440770149231
+        },
+        {
+          "a": -0.6554995179176331
+        },
+        {
+          "profession": -3.180656909942627
+        },
+        {
+          "of": -0.13365910947322845
+        },
+        {
+          "John": -3.876305103302002
+        },
+        {
+          "C": -3.139366388320923
+        },
+        {
+          ".": -1.1692657470703125
+        },
+        {
+          "Re": -1.42654287815094
+        },
+        {
+          "illy": -0.014988305978477001
+        },
+        {
+          "?": -0.28792133927345276
+        },
+        {
+          "<0x0A>": -0.20618276298046112
+        },
+        {
+          "Th": -0.07046786695718765
+        },
+        {
+          "ought": -0.0001230164198204875
+        },
+        {
+          ":": -0.0013409203384071589
+        },
+        {
+          "Let": -0.011210784316062927
+        },
+        {
+          "'": -0.0005417786305770278
+        },
+        {
+          "s": -3.4450891689630225e-05
+        },
+        {
+          "think": -0.0005852655158378184
+        },
+        {
+          "step": -0.00037317464011721313
+        },
+        {
+          "by": -0.00020108585886191577
+        },
+        {
+          "step": -0.00025686301523819566
+        },
+        {
+          ".": -0.000680691737215966
+        },
+        {
+          "Prof": -0.13383232057094574
+        },
+        {
+          "essions": -0.06724728643894196
+        },
+        {
+          "of": -0.002522622002288699
+        },
+        {
+          "John": -0.01049357932060957
+        },
+        {
+          "C": -0.0013498490443453193
+        },
+        {
+          ".": -0.0013552061282098293
+        },
+        {
+          "Re": -0.0009747759322635829
+        },
+        {
+          "illy": -0.0009461931767873466
+        },
+        {
+          "are": -0.011215145699679852
+        },
+        {
+          "actor": -0.02541700378060341
+        },
+        {
+          ",": -0.10395044088363647
+        },
+        {
+          "com": -0.14762373268604279
+        },
+        {
+          "ed": -0.0006194579764269292
+        },
+        {
+          "ian": -0.00011967896716669202
+        },
+        {
+          ",": -0.002399662509560585
+        },
+        {
+          "music": -0.8308336734771729
+        },
+        {
+          "ian": -0.0018115314887836576
+        },
+        {
+          ",": -0.007521879393607378
+        },
+        {
+          "producer": -0.4317091703414917
+        },
+        {
+          ",": -0.010939269326627254
+        },
+        {
+          "and": -0.9683166146278381
+        },
+        {
+          "screen": -0.3111264705657959
+        },
+        {
+          "writer": -0.0008062449633143842
+        },
+        {
+          ".": -0.020990606397390366
+        },
+        {
+          "So": -0.9940948486328125
+        },
+        {
+          "the": -1.3196897506713867
+        },
+        {
+          "answer": -0.6671992540359497
+        },
+        {
+          "is": -0.06603925675153732
+        },
+        {
+          "not": -2.192981719970703
+        },
+        {
+          "a": -1.082007884979248
+        },
+        {
+          "profession": -0.03986167907714844
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Who has a wider scope of profession, Christopher Guest or  Roman Karmen?\nThought 1:Let's think step by step. Professions of Christopher Guest are actor, comedian, director, musician, screenwriter, and voice actor. Professions of Roman Karmen are cinematographer, director, and screenwriter. So Christopher Guest has a wider scope of profession.\nAnswer: Christopher Guest\nAction 1: MeasureUncertainty [Christopher Guest]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Christopher Guest",
+  "summary": {
+    "final_answer": "Christopher Guest",
+    "em": false,
+    "f1": 0.5,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

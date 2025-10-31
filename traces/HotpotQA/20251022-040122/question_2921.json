@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2921,
+  "question": "Question: What kind of company is this group whose headquarters are in AIA Central? ",
+  "gold_answer": "pan-Asian life insurance group",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What kind of company is this group whose headquarters are in AIA Central? \nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What kind of company is this group whose headquarters are in AIA Central? \nThought:",
+      "output": "Let's think step by step. AIA Central is the headquarters of AIA Group. AIA Group is an insurance company. So the company is an insurance company.\nAnswer: insurance company\nQuestion: What is the name of the company that owns the building at 1250 René-Lévesque Boulevard West?\nThought: Let's think step by step. 1250 René-Lévesque Boulevard West is the headquarters of Power Corporation of Canada. Power Corporation of Canada is a management and holding company. So the company is a management",
+      "probs": [
+        {
+          "Let": -0.02359735779464245
+        },
+        {
+          "'": -0.0023618440609425306
+        },
+        {
+          "s": -7.009260298218578e-05
+        },
+        {
+          "think": -0.002180462470278144
+        },
+        {
+          "step": -0.0017959432443603873
+        },
+        {
+          "by": -0.0008717550663277507
+        },
+        {
+          "step": -3.7788631743751466e-05
+        },
+        {
+          ".": -0.0013491347199305892
+        },
+        {
+          "A": -0.7508285641670227
+        },
+        {
+          "IA": -0.02335224486887455
+        },
+        {
+          "Central": -0.22256459295749664
+        },
+        {
+          "is": -0.21249496936798096
+        },
+        {
+          "the": -0.7312310338020325
+        },
+        {
+          "headquarters": -0.21076272428035736
+        },
+        {
+          "of": -0.11576779931783676
+        },
+        {
+          "A": -0.5392234325408936
+        },
+        {
+          "IA": -0.020559066906571388
+        },
+        {
+          "Group": -0.3562329411506653
+        },
+        {
+          ".": -0.9721206426620483
+        },
+        {
+          "A": -0.914352297782898
+        },
+        {
+          "IA": -0.005612330511212349
+        },
+        {
+          "Group": -0.06223637983202934
+        },
+        {
+          "is": -0.11047594994306564
+        },
+        {
+          "an": -0.33309075236320496
+        },
+        {
+          "ins": -0.3289812207221985
+        },
+        {
+          "urance": -0.015012967400252819
+        },
+        {
+          "company": -0.3324519097805023
+        },
+        {
+          ".": -0.43329644203186035
+        },
+        {
+          "So": -0.2062932401895523
+        },
+        {
+          "the": -0.9741495847702026
+        },
+        {
+          "company": -1.101732850074768
+        },
+        {
+          "is": -0.5092573165893555
+        },
+        {
+          "an": -0.42767533659935
+        },
+        {
+          "ins": -0.005263637285679579
+        },
+        {
+          "urance": -0.001453891978599131
+        },
+        {
+          "company": -0.011268779635429382
+        },
+        {
+          ".": -0.018961947411298752
+        },
+        {
+          "<0x0A>": -0.05217933654785156
+        },
+        {
+          "Answer": -0.0039955321699380875
+        },
+        {
+          ":": -0.0005924138822592795
+        },
+        {
+          "ins": -0.3521396517753601
+        },
+        {
+          "urance": -0.000819466426037252
+        },
+        {
+          "company": -0.3919726610183716
+        },
+        {
+          "<0x0A>": -0.03705468401312828
+        },
+        {
+          "Question": -0.23734289407730103
+        },
+        {
+          ":": -0.0004881620698142797
+        },
+        {
+          "What": -1.2766778469085693
+        },
+        {
+          "is": -1.2900092601776123
+        },
+        {
+          "the": -0.3668460249900818
+        },
+        {
+          "name": -2.4378044605255127
+        },
+        {
+          "of": -0.04480183497071266
+        },
+        {
+          "the": -0.48582857847213745
+        },
+        {
+          "company": -3.578918218612671
+        },
+        {
+          "that": -0.9199460744857788
+        },
+        {
+          "own": -2.2224862575531006
+        },
+        {
+          "s": -0.010803896933794022
+        },
+        {
+          "the": -1.2811287641525269
+        },
+        {
+          "building": -3.4880154132843018
+        },
+        {
+          "at": -1.7712106704711914
+        },
+        {
+          "": -0.29642948508262634
+        },
+        {
+          "1": -0.9488496780395508
+        },
+        {
+          "2": -1.5924469232559204
+        },
+        {
+          "5": -1.0992329120635986
+        },
+        {
+          "0": -1.1163859367370605
+        },
+        {
+          "René": -0.19979365170001984
+        },
+        {
+          "-": -0.05906083062291145
+        },
+        {
+          "L": -0.029683414846658707
+        },
+        {
+          "é": -0.0005659647285938263
+        },
+        {
+          "ves": -0.0002616301644593477
+        },
+        {
+          "que": -6.508615479106084e-05
+        },
+        {
+          "Bou": -0.5540026426315308
+        },
+        {
+          "lev": -0.0015370947076007724
+        },
+        {
+          "ard": -2.264974000354414e-06
+        },
+        {
+          "West": -0.41530367732048035
+        },
+        {
+          "?": -0.3221530318260193
+        },
+        {
+          "<0x0A>": -0.27653488516807556
+        },
+        {
+          "Th": -0.004287812393158674
+        },
+        {
+          "ought": -9.619726915843785e-05
+        },
+        {
+          ":": -0.00016497205069754273
+        },
+        {
+          "Let": -0.008125700056552887
+        },
+        {
+          "'": -0.0008006466086953878
+        },
+        {
+          "s": -3.4689302992774174e-05
+        },
+        {
+          "think": -0.0004804172203876078
+        },
+        {
+          "step": -0.0002848696312867105
+        },
+        {
+          "by": -0.00023112009512260556
+        },
+        {
+          "step": -0.0010602811817079782
+        },
+        {
+          ".": -0.00046623803791590035
+        },
+        {
+          "": -0.5040103197097778
+        },
+        {
+          "1": -0.011284928768873215
+        },
+        {
+          "2": -0.002768852049484849
+        },
+        {
+          "5": -0.0009327351581305265
+        },
+        {
+          "0": -0.0005436849314719439
+        },
+        {
+          "René": -0.022426443174481392
+        },
+        {
+          "-": -0.005577715579420328
+        },
+        {
+          "L": -0.0028313808143138885
+        },
+        {
+          "é": -0.001989648910239339
+        },
+        {
+          "ves": -3.7431014789035544e-05
+        },
+        {
+          "que": -5.590759246842936e-05
+        },
+        {
+          "Bou": -0.014656377956271172
+        },
+        {
+          "lev": -5.972207145532593e-05
+        },
+        {
+          "ard": -3.325883881188929e-05
+        },
+        {
+          "West": -0.007325810380280018
+        },
+        {
+          "is": -0.07159121334552765
+        },
+        {
+          "the": -0.328545480966568
+        },
+        {
+          "headquarters": -0.5106258988380432
+        },
+        {
+          "of": -0.022393103688955307
+        },
+        {
+          "Power": -1.8981893062591553
+        },
+        {
+          "Corporation": -0.034709103405475616
+        },
+        {
+          "of": -0.2495516836643219
+        },
+        {
+          "Canada": -0.000675807474181056
+        },
+        {
+          ".": -0.07189035415649414
+        },
+        {
+          "Power": -0.7752892374992371
+        },
+        {
+          "Corporation": -0.002842435846105218
+        },
+        {
+          "of": -0.012409733608365059
+        },
+        {
+          "Canada": -0.0001740304142003879
+        },
+        {
+          "is": -0.09843650460243225
+        },
+        {
+          "a": -0.3985235095024109
+        },
+        {
+          "management": -1.2153165340423584
+        },
+        {
+          "and": -0.09287428110837936
+        },
+        {
+          "holding": -0.0392124243080616
+        },
+        {
+          "company": -0.009606916457414627
+        },
+        {
+          ".": -0.14595989882946014
+        },
+        {
+          "So": -0.11851402372121811
+        },
+        {
+          "the": -0.06412620842456818
+        },
+        {
+          "company": -0.5706266760826111
+        },
+        {
+          "is": -0.5808340907096863
+        },
+        {
+          "a": -0.538694441318512
+        },
+        {
+          "management": -0.009840548038482666
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: What kind of company is this group whose headquarters are in AIA Central? \nThought 1:Let's think step by step. AIA Central is the headquarters of AIA Group. AIA Group is an insurance company. So the company is an insurance company.\nAnswer: insurance company\nAction 1: MeasureUncertainty [insurance company]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: insurance company",
+  "summary": {
+    "final_answer": "insurance company",
+    "em": false,
+    "f1": 0.3333333333333333,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

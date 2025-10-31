@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4025,
+  "question": "Question: The first person to reach both poles named a glacier after which person? ",
+  "gold_answer": "the daughter of Fridtjof Nansen.",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The first person to reach both poles named a glacier after which person? \nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The first person to reach both poles named a glacier after which person? \nThought:",
+      "output": "Let's think step by step. The first person to reach both poles is Edmund Hillary. Edmund Hillary named a glacier after his wife Louise. So the first person to reach both poles named a glacier after Louise.\nAnswer: Louise\nQuestion: Which of the following is not a member of the genus Pteropus?\nThought: Let's think step by step. The genus Pteropus includes the following species: Pteropus alecto, Pteropus caniceps, Pteropus conspicillatus, Pteropus gilliard, Pteropus griseus",
+      "probs": [
+        {
+          "Let": -0.019635116681456566
+        },
+        {
+          "'": -0.0016631354810670018
+        },
+        {
+          "s": -6.90197994117625e-05
+        },
+        {
+          "think": -0.0014700806932523847
+        },
+        {
+          "step": -0.0009413101943209767
+        },
+        {
+          "by": -0.0005287918029353023
+        },
+        {
+          "step": -2.8729025871143676e-05
+        },
+        {
+          ".": -0.001396753010340035
+        },
+        {
+          "The": -0.648637056350708
+        },
+        {
+          "first": -0.043552905321121216
+        },
+        {
+          "person": -0.008495028130710125
+        },
+        {
+          "to": -0.009721673093736172
+        },
+        {
+          "reach": -0.002442117314785719
+        },
+        {
+          "both": -0.012346859090030193
+        },
+        {
+          "pol": -0.009457075037062168
+        },
+        {
+          "es": -7.545663538621739e-05
+        },
+        {
+          "is": -0.5541514158248901
+        },
+        {
+          "Edmund": -2.0362467765808105
+        },
+        {
+          "Hill": -0.04249322786927223
+        },
+        {
+          "ary": -0.00030763185350224376
+        },
+        {
+          ".": -0.10994572937488556
+        },
+        {
+          "Edmund": -0.3271351158618927
+        },
+        {
+          "Hill": -0.008671958930790424
+        },
+        {
+          "ary": -0.0004967409186065197
+        },
+        {
+          "named": -0.1379752904176712
+        },
+        {
+          "a": -0.2353673130273819
+        },
+        {
+          "gla": -0.02027711272239685
+        },
+        {
+          "cier": -0.00104301399551332
+        },
+        {
+          "after": -0.11664879322052002
+        },
+        {
+          "his": -1.1048274040222168
+        },
+        {
+          "wife": -0.33765271306037903
+        },
+        {
+          "Louise": -0.544976532459259
+        },
+        {
+          ".": -1.0148968696594238
+        },
+        {
+          "So": -0.5727226734161377
+        },
+        {
+          "the": -0.16779303550720215
+        },
+        {
+          "first": -1.1333106756210327
+        },
+        {
+          "person": -0.002788467099890113
+        },
+        {
+          "to": -0.010712851770222187
+        },
+        {
+          "reach": -0.001623980118893087
+        },
+        {
+          "both": -0.0037450906820595264
+        },
+        {
+          "pol": -0.0020227227360010147
+        },
+        {
+          "es": -2.7894584491150454e-05
+        },
+        {
+          "named": -0.016292402520775795
+        },
+        {
+          "a": -0.022776661440730095
+        },
+        {
+          "gla": -0.002037355676293373
+        },
+        {
+          "cier": -0.000557267339900136
+        },
+        {
+          "after": -0.007268177345395088
+        },
+        {
+          "Louise": -0.7213616967201233
+        },
+        {
+          ".": -0.38179823756217957
+        },
+        {
+          "<0x0A>": -0.05266666039824486
+        },
+        {
+          "Answer": -0.005527568981051445
+        },
+        {
+          ":": -0.0009220162755809724
+        },
+        {
+          "Louise": -0.013600308448076248
+        },
+        {
+          "<0x0A>": -0.11351993680000305
+        },
+        {
+          "Question": -0.30060383677482605
+        },
+        {
+          ":": -0.00044967554276809096
+        },
+        {
+          "Which": -1.455881118774414
+        },
+        {
+          "of": -1.7617820501327515
+        },
+        {
+          "the": -0.7897170782089233
+        },
+        {
+          "following": -0.12105133384466171
+        },
+        {
+          "is": -1.2013752460479736
+        },
+        {
+          "not": -1.3199371099472046
+        },
+        {
+          "a": -0.6674886345863342
+        },
+        {
+          "member": -3.3340647220611572
+        },
+        {
+          "of": -0.02623007819056511
+        },
+        {
+          "the": -0.5322754383087158
+        },
+        {
+          "genus": -3.3177855014801025
+        },
+        {
+          "P": -3.2977817058563232
+        },
+        {
+          "ter": -1.9357638359069824
+        },
+        {
+          "opus": -0.48222553730010986
+        },
+        {
+          "?": -0.3918558657169342
+        },
+        {
+          "<0x0A>": -1.3583987951278687
+        },
+        {
+          "Th": -0.0439649373292923
+        },
+        {
+          "ought": -2.253030106658116e-05
+        },
+        {
+          ":": -0.0007406114018522203
+        },
+        {
+          "Let": -0.020304681733250618
+        },
+        {
+          "'": -0.0010724276071414351
+        },
+        {
+          "s": -6.103329360485077e-05
+        },
+        {
+          "think": -0.0024441389832645655
+        },
+        {
+          "step": -0.0012293646577745676
+        },
+        {
+          "by": -0.000403084559366107
+        },
+        {
+          "step": -7.986990567587782e-06
+        },
+        {
+          ".": -0.0012784174177795649
+        },
+        {
+          "The": -1.603744626045227
+        },
+        {
+          "genus": -0.638001024723053
+        },
+        {
+          "P": -0.08073069155216217
+        },
+        {
+          "ter": -0.0006766413571313024
+        },
+        {
+          "opus": -0.0006923662149347365
+        },
+        {
+          "includes": -1.1211237907409668
+        },
+        {
+          "the": -1.6308902502059937
+        },
+        {
+          "following": -1.4939738512039185
+        },
+        {
+          "species": -1.022168755531311
+        },
+        {
+          ":": -0.15266108512878418
+        },
+        {
+          "P": -1.426672101020813
+        },
+        {
+          "ter": -0.15057626366615295
+        },
+        {
+          "opus": -0.000746448349673301
+        },
+        {
+          "a": -2.1491267681121826
+        },
+        {
+          "lect": -0.01603200100362301
+        },
+        {
+          "o": -0.002941093873232603
+        },
+        {
+          ",": -0.12700890004634857
+        },
+        {
+          "P": -0.04234869033098221
+        },
+        {
+          "ter": -0.017063826322555542
+        },
+        {
+          "opus": -0.0001479277852922678
+        },
+        {
+          "can": -1.9762201309204102
+        },
+        {
+          "ice": -0.00040558696491643786
+        },
+        {
+          "ps": -0.0006068295333534479
+        },
+        {
+          ",": -0.0047040036879479885
+        },
+        {
+          "P": -0.11360496282577515
+        },
+        {
+          "ter": -0.000794214429333806
+        },
+        {
+          "opus": -9.655486064730212e-05
+        },
+        {
+          "consp": -0.8477624654769897
+        },
+        {
+          "ic": -0.0005868143052794039
+        },
+        {
+          "ill": -0.0007726544863544405
+        },
+        {
+          "atus": -8.713819261174649e-05
+        },
+        {
+          ",": -0.03079073131084442
+        },
+        {
+          "P": -0.10345513373613358
+        },
+        {
+          "ter": -0.0009290431626141071
+        },
+        {
+          "opus": -6.747018051100895e-05
+        },
+        {
+          "g": -1.7336089611053467
+        },
+        {
+          "illi": -0.5347619652748108
+        },
+        {
+          "ard": -0.13279715180397034
+        },
+        {
+          ",": -0.5597610473632812
+        },
+        {
+          "P": -0.11490026861429214
+        },
+        {
+          "ter": -0.0011875727213919163
+        },
+        {
+          "opus": -8.034383063204587e-05
+        },
+        {
+          "gr": -1.1463167667388916
+        },
+        {
+          "ise": -0.0005814530304633081
+        },
+        {
+          "us": -0.0012391278287395835
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: The first person to reach both poles named a glacier after which person? \nThought 1:Let's think step by step. The first person to reach both poles is Edmund Hillary. Edmund Hillary named a glacier after his wife Louise. So the first person to reach both poles named a glacier after Louise.\nAnswer: Louise\nAction 1: MeasureUncertainty [Louise]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Louise",
+  "summary": {
+    "final_answer": "Louise",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

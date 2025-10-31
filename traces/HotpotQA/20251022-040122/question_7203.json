@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7203,
+  "question": "Question: Which Missing You actor was born August 17 1993?",
+  "gold_answer": "Yoo Seung-ho",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which Missing You actor was born August 17 1993?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which Missing You actor was born August 17 1993?\nThought:",
+      "output": "Let's think step by step. Missing You actor born August 17 1993 is Kim So-hyun.\nAnswer: Kim So-hyun\nQuestion: Which of these is a character in the 1999 film The Matrix?\nThought: Let's think step by step. Characters in the 1999 film The Matrix are Neo, Morpheus, Trinity, Cypher, Agent Smith, Tank, Mouse, Switch, Apoc, Dozer, and The Oracle. So the answer is Neo, Morpheus, Trinity",
+      "probs": [
+        {
+          "Let": -0.014855712652206421
+        },
+        {
+          "'": -0.0003691230376716703
+        },
+        {
+          "s": -6.079655122448457e-06
+        },
+        {
+          "think": -0.0009173714206553996
+        },
+        {
+          "step": -0.0003864018653985113
+        },
+        {
+          "by": -0.00019238528329879045
+        },
+        {
+          "step": -5.602820692729438e-06
+        },
+        {
+          ".": -0.0005048430757597089
+        },
+        {
+          "Miss": -1.7184698581695557
+        },
+        {
+          "ing": -0.002698829397559166
+        },
+        {
+          "You": -0.007348294369876385
+        },
+        {
+          "actor": -1.1094813346862793
+        },
+        {
+          "born": -1.789481520652771
+        },
+        {
+          "August": -0.26992979645729065
+        },
+        {
+          "": -0.001498172408901155
+        },
+        {
+          "1": -0.016450487077236176
+        },
+        {
+          "7": -0.012375588528811932
+        },
+        {
+          "": -0.3324677050113678
+        },
+        {
+          "1": -0.002091603120788932
+        },
+        {
+          "9": -0.00023993951617740095
+        },
+        {
+          "9": -0.00486037228256464
+        },
+        {
+          "3": -0.026248890906572342
+        },
+        {
+          "is": -0.0662626400589943
+        },
+        {
+          "Kim": -1.5892337560653687
+        },
+        {
+          "So": -0.14478003978729248
+        },
+        {
+          "-": -0.16280092298984528
+        },
+        {
+          "hy": -0.027207357808947563
+        },
+        {
+          "un": -0.00014327930693980306
+        },
+        {
+          ".": -0.16452385485172272
+        },
+        {
+          "<0x0A>": -0.14309173822402954
+        },
+        {
+          "Answer": -0.0024097710847854614
+        },
+        {
+          ":": -0.0004210777406115085
+        },
+        {
+          "Kim": -0.002954762661829591
+        },
+        {
+          "So": -0.0011834054021164775
+        },
+        {
+          "-": -0.001959072658792138
+        },
+        {
+          "hy": -0.004957882221788168
+        },
+        {
+          "un": -5.769562994828448e-05
+        },
+        {
+          "<0x0A>": -0.014983609318733215
+        },
+        {
+          "Question": -0.18240156769752502
+        },
+        {
+          ":": -0.00023779425828251988
+        },
+        {
+          "Which": -1.3176090717315674
+        },
+        {
+          "of": -2.1769306659698486
+        },
+        {
+          "these": -0.8508535623550415
+        },
+        {
+          "is": -1.242336392402649
+        },
+        {
+          "a": -1.087774395942688
+        },
+        {
+          "character": -3.3450050354003906
+        },
+        {
+          "in": -0.8181675672531128
+        },
+        {
+          "the": -1.115781545639038
+        },
+        {
+          "": -1.9466681480407715
+        },
+        {
+          "1": -0.7095703482627869
+        },
+        {
+          "9": -0.049681179225444794
+        },
+        {
+          "9": -1.100071668624878
+        },
+        {
+          "9": -2.079712152481079
+        },
+        {
+          "film": -0.7090264558792114
+        },
+        {
+          "The": -1.770369529724121
+        },
+        {
+          "Matrix": -2.194584846496582
+        },
+        {
+          "?": -0.19760730862617493
+        },
+        {
+          "<0x0A>": -0.14982709288597107
+        },
+        {
+          "Th": -0.015515807084739208
+        },
+        {
+          "ought": -5.4834770708112046e-05
+        },
+        {
+          ":": -0.0003808011533692479
+        },
+        {
+          "Let": -0.013184510171413422
+        },
+        {
+          "'": -0.00037043384509161115
+        },
+        {
+          "s": -4.160317621426657e-05
+        },
+        {
+          "think": -0.0010677833342924714
+        },
+        {
+          "step": -0.0005435658385977149
+        },
+        {
+          "by": -0.0002575780963525176
+        },
+        {
+          "step": -4.434487345861271e-05
+        },
+        {
+          ".": -0.0005895545473322272
+        },
+        {
+          "Char": -1.2621519565582275
+        },
+        {
+          "acters": -0.0008116050157696009
+        },
+        {
+          "in": -0.14577960968017578
+        },
+        {
+          "the": -0.5167062282562256
+        },
+        {
+          "": -0.05008378252387047
+        },
+        {
+          "1": -0.001783329644240439
+        },
+        {
+          "9": -3.2782016205601394e-05
+        },
+        {
+          "9": -0.00033456450910307467
+        },
+        {
+          "9": -0.0007120219524949789
+        },
+        {
+          "film": -0.005027984268963337
+        },
+        {
+          "The": -0.013440714217722416
+        },
+        {
+          "Matrix": -0.0009494088008068502
+        },
+        {
+          "are": -0.0867803692817688
+        },
+        {
+          "Ne": -1.2167143821716309
+        },
+        {
+          "o": -0.00047434045700356364
+        },
+        {
+          ",": -0.09957291185855865
+        },
+        {
+          "Mor": -0.7011446952819824
+        },
+        {
+          "phe": -0.00041309406515210867
+        },
+        {
+          "us": -0.0005408254801295698
+        },
+        {
+          ",": -0.01411114539951086
+        },
+        {
+          "Tr": -0.36716827750205994
+        },
+        {
+          "inity": -0.0006297035724855959
+        },
+        {
+          ",": -0.05644317343831062
+        },
+        {
+          "Cy": -0.7628067135810852
+        },
+        {
+          "pher": -0.00044645831803791225
+        },
+        {
+          ",": -0.05497189983725548
+        },
+        {
+          "Agent": -1.158717155456543
+        },
+        {
+          "Smith": -0.019101014360785484
+        },
+        {
+          ",": -0.0971624031662941
+        },
+        {
+          "T": -1.179732084274292
+        },
+        {
+          "ank": -7.724463648628443e-05
+        },
+        {
+          ",": -0.040189240127801895
+        },
+        {
+          "Mouse": -1.0894564390182495
+        },
+        {
+          ",": -0.02423960715532303
+        },
+        {
+          "Switch": -0.8967500329017639
+        },
+        {
+          ",": -0.030777206644415855
+        },
+        {
+          "Ap": -0.3322782516479492
+        },
+        {
+          "oc": -0.0023382960353046656
+        },
+        {
+          ",": -0.01913153938949108
+        },
+        {
+          "Do": -0.7722811698913574
+        },
+        {
+          "zer": -3.7431014789035544e-05
+        },
+        {
+          ",": -0.04941548779606819
+        },
+        {
+          "and": -1.2995787858963013
+        },
+        {
+          "The": -1.9537135362625122
+        },
+        {
+          "Oracle": -0.13803791999816895
+        },
+        {
+          ".": -0.024811675772070885
+        },
+        {
+          "So": -1.3362358808517456
+        },
+        {
+          "the": -0.8287690877914429
+        },
+        {
+          "answer": -1.0572872161865234
+        },
+        {
+          "is": -0.12022305279970169
+        },
+        {
+          "Ne": -0.8833171129226685
+        },
+        {
+          "o": -0.0002864189154934138
+        },
+        {
+          ",": -0.11495999246835709
+        },
+        {
+          "Mor": -0.015160100534558296
+        },
+        {
+          "phe": -0.00027104519540444016
+        },
+        {
+          "us": -0.00010215714428341016
+        },
+        {
+          ",": -0.0012241258518770337
+        },
+        {
+          "Tr": -0.010281809605658054
+        },
+        {
+          "inity": -0.00018356545479036868
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Which Missing You actor was born August 17 1993?\nThought 1:Let's think step by step. Missing You actor born August 17 1993 is Kim So-hyun.\nAnswer: Kim So-hyun\nAction 1: MeasureUncertainty [Kim So-hyun]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Kim So-hyun",
+  "summary": {
+    "final_answer": "Kim So-hyun",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

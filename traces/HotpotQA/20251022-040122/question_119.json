@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 119,
+  "question": "Question: Are Daryl Hall and Gerry Marsden both musicians?",
+  "gold_answer": "yes",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Daryl Hall and Gerry Marsden both musicians?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Daryl Hall and Gerry Marsden both musicians?\nThought:",
+      "output": "Let's think step by step. Daryl Hall is a musician. Gerry Marsden is a musician. So Daryl Hall and Gerry Marsden are both musicians.\nAnswer: Yes\nQuestion: What is the difference between the number of people who died in the 1999 İzmit earthquake and the 1999 Athens earthquake?\nThought: Let's think step by step. 17,118 people died in the 1999 İzmit earthquake. 143 people died",
+      "probs": [
+        {
+          "Let": -0.0182865671813488
+        },
+        {
+          "'": -0.0006432848167605698
+        },
+        {
+          "s": -3.2305197237292305e-05
+        },
+        {
+          "think": -0.0007098776986822486
+        },
+        {
+          "step": -0.00047302976599894464
+        },
+        {
+          "by": -0.00023898606013972312
+        },
+        {
+          "step": -1.2636104656849056e-05
+        },
+        {
+          ".": -0.0005530973430722952
+        },
+        {
+          "D": -0.12576282024383545
+        },
+        {
+          "ary": -0.00027104519540444016
+        },
+        {
+          "l": -0.0008547228644602001
+        },
+        {
+          "Hall": -0.004965710919350386
+        },
+        {
+          "is": -0.1074276939034462
+        },
+        {
+          "a": -0.07225882261991501
+        },
+        {
+          "music": -0.1970854252576828
+        },
+        {
+          "ian": -0.0004711233195848763
+        },
+        {
+          ".": -0.34893798828125
+        },
+        {
+          "Ger": -0.019539495930075645
+        },
+        {
+          "ry": -0.0006940339808352292
+        },
+        {
+          "Mars": -0.004719902761280537
+        },
+        {
+          "den": -7.521823135903105e-05
+        },
+        {
+          "is": -0.007031457498669624
+        },
+        {
+          "a": -0.06080299988389015
+        },
+        {
+          "music": -0.07684064656496048
+        },
+        {
+          "ian": -0.0001787979417713359
+        },
+        {
+          ".": -0.3344503343105316
+        },
+        {
+          "So": -0.0978369489312172
+        },
+        {
+          "D": -0.39218416810035706
+        },
+        {
+          "ary": -0.00029309268575161695
+        },
+        {
+          "l": -0.001019673072732985
+        },
+        {
+          "Hall": -0.0031558494083583355
+        },
+        {
+          "and": -0.004240331239998341
+        },
+        {
+          "Ger": -0.002268005395308137
+        },
+        {
+          "ry": -0.00010668662434909493
+        },
+        {
+          "Mars": -0.003099163994193077
+        },
+        {
+          "den": -5.972207145532593e-05
+        },
+        {
+          "are": -0.077836774289608
+        },
+        {
+          "both": -0.031397074460983276
+        },
+        {
+          "mus": -0.005266127642244101
+        },
+        {
+          "icians": -0.0006287504802457988
+        },
+        {
+          ".": -0.006389427464455366
+        },
+        {
+          "<0x0A>": -0.0029002055525779724
+        },
+        {
+          "Answer": -0.0013987767742946744
+        },
+        {
+          ":": -0.00042358008795417845
+        },
+        {
+          "Yes": -0.016779009252786636
+        },
+        {
+          "<0x0A>": -0.014621604233980179
+        },
+        {
+          "Question": -0.17472821474075317
+        },
+        {
+          ":": -0.0003090619284193963
+        },
+        {
+          "What": -1.7217504978179932
+        },
+        {
+          "is": -1.2309085130691528
+        },
+        {
+          "the": -0.3962125778198242
+        },
+        {
+          "difference": -2.798394203186035
+        },
+        {
+          "between": -0.2875644266605377
+        },
+        {
+          "the": -1.1118123531341553
+        },
+        {
+          "number": -2.47634220123291
+        },
+        {
+          "of": -0.02793041616678238
+        },
+        {
+          "people": -3.237422466278076
+        },
+        {
+          "who": -1.3887882232666016
+        },
+        {
+          "died": -2.140298843383789
+        },
+        {
+          "in": -0.43805038928985596
+        },
+        {
+          "the": -0.4109416604042053
+        },
+        {
+          "": -1.6148409843444824
+        },
+        {
+          "1": -0.6150943040847778
+        },
+        {
+          "9": -0.21594136953353882
+        },
+        {
+          "9": -1.4830752611160278
+        },
+        {
+          "9": -1.857852816581726
+        },
+        {
+          "": -1.8575809001922607
+        },
+        {
+          "İ": -0.03683352842926979
+        },
+        {
+          "z": -0.001209838199429214
+        },
+        {
+          "mit": -8.129743218887597e-05
+        },
+        {
+          "earth": -0.023741835728287697
+        },
+        {
+          "qu": -8.594620157964528e-05
+        },
+        {
+          "ake": -0.004088377580046654
+        },
+        {
+          "and": -0.10532354563474655
+        },
+        {
+          "the": -0.25121891498565674
+        },
+        {
+          "": -0.8208236694335938
+        },
+        {
+          "1": -0.7076266407966614
+        },
+        {
+          "9": -0.12223788350820541
+        },
+        {
+          "9": -0.7830836772918701
+        },
+        {
+          "9": -0.6763894557952881
+        },
+        {
+          "Ath": -0.20577791333198547
+        },
+        {
+          "ens": -0.0003195490571670234
+        },
+        {
+          "earth": -0.04673749953508377
+        },
+        {
+          "qu": -6.0437283536884934e-05
+        },
+        {
+          "ake": -0.003715399419888854
+        },
+        {
+          "?": -0.04019622504711151
+        },
+        {
+          "<0x0A>": -0.012706862762570381
+        },
+        {
+          "Th": -0.006686100736260414
+        },
+        {
+          "ought": -2.7417760065873154e-05
+        },
+        {
+          ":": -0.0004557524516712874
+        },
+        {
+          "Let": -0.008797458373010159
+        },
+        {
+          "'": -0.0004278697888366878
+        },
+        {
+          "s": -3.8980677345534787e-05
+        },
+        {
+          "think": -0.001772262854501605
+        },
+        {
+          "step": -0.000871278636623174
+        },
+        {
+          "by": -0.00024434918304905295
+        },
+        {
+          "step": -2.90866428258596e-05
+        },
+        {
+          ".": -0.0006773561472073197
+        },
+        {
+          "": -0.7465167045593262
+        },
+        {
+          "1": -0.12140477448701859
+        },
+        {
+          "7": -0.4713824689388275
+        },
+        {
+          ",": -0.5381344556808472
+        },
+        {
+          "1": -0.40164560079574585
+        },
+        {
+          "1": -0.3445799946784973
+        },
+        {
+          "8": -0.02915106527507305
+        },
+        {
+          "people": -0.16381442546844482
+        },
+        {
+          "died": -0.08084889501333237
+        },
+        {
+          "in": -0.019796881824731827
+        },
+        {
+          "the": -0.044915586709976196
+        },
+        {
+          "": -0.006591364275664091
+        },
+        {
+          "1": -0.009842555038630962
+        },
+        {
+          "9": -0.0010156240314245224
+        },
+        {
+          "9": -0.0003817544784396887
+        },
+        {
+          "9": -0.00041559641249477863
+        },
+        {
+          "": -0.08196152746677399
+        },
+        {
+          "İ": -0.0005225961795076728
+        },
+        {
+          "z": -9.941560711013153e-05
+        },
+        {
+          "mit": -0.0005505952867679298
+        },
+        {
+          "earth": -0.0024717275518924
+        },
+        {
+          "qu": -6.389413465512916e-05
+        },
+        {
+          "ake": -0.0004683827864937484
+        },
+        {
+          ".": -0.22632034122943878
+        },
+        {
+          "": -0.029991421848535538
+        },
+        {
+          "1": -0.02294921875
+        },
+        {
+          "4": -0.31325849890708923
+        },
+        {
+          "3": -0.03047175519168377
+        },
+        {
+          "people": -0.01413030456751585
+        },
+        {
+          "died": -0.005510141607373953
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are Daryl Hall and Gerry Marsden both musicians?\nThought 1:Let's think step by step. Daryl Hall is a musician. Gerry Marsden is a musician. So Daryl Hall and Gerry Marsden are both musicians.\nAnswer: Yes\nAction 1: MeasureUncertainty [Yes]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Yes",
+  "summary": {
+    "final_answer": "Yes",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4052,
+  "question": "Question: When was the newspaper, in which the 1891 Birthday Honours list appeared on 30 May 1891, adopt its current name ?",
+  "gold_answer": "January 1788",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: When was the newspaper, in which the 1891 Birthday Honours list appeared on 30 May 1891, adopt its current name ?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: When was the newspaper, in which the 1891 Birthday Honours list appeared on 30 May 1891, adopt its current name ?\nThought:",
+      "output": "Let's think step by step. The newspaper, in which the 1891 Birthday Honours list appeared on 30 May 1891, is The Times. The Times was known as The Daily Universal Register from 1 January 1785 to 9 September 1788. So the newspaper, in which the 1891 Birthday Honours list appeared on 30 May 1891, adopt its current name after 1788.\nAnswer: after 1788\nQuestion: What is the name of the",
+      "probs": [
+        {
+          "Let": -0.017506949603557587
+        },
+        {
+          "'": -0.001311871805228293
+        },
+        {
+          "s": -9.202533692587167e-05
+        },
+        {
+          "think": -0.0019234981155022979
+        },
+        {
+          "step": -0.0013412775006145239
+        },
+        {
+          "by": -0.0003120412293355912
+        },
+        {
+          "step": -3.981510963058099e-05
+        },
+        {
+          ".": -0.0015657796757295728
+        },
+        {
+          "The": -0.38151815533638
+        },
+        {
+          "newspaper": -1.0058302879333496
+        },
+        {
+          ",": -1.4971882104873657
+        },
+        {
+          "in": -0.049529168754816055
+        },
+        {
+          "which": -0.0009952597320079803
+        },
+        {
+          "the": -0.019262632355093956
+        },
+        {
+          "": -0.023762091994285583
+        },
+        {
+          "1": -0.0009379754774272442
+        },
+        {
+          "8": -0.02247295156121254
+        },
+        {
+          "9": -0.002080420730635524
+        },
+        {
+          "1": -0.0014246086357161403
+        },
+        {
+          "B": -0.006736899726092815
+        },
+        {
+          "irth": -0.00011288482346571982
+        },
+        {
+          "day": -0.00010883215873036534
+        },
+        {
+          "Hon": -0.001111247343942523
+        },
+        {
+          "ours": -0.0028489737305790186
+        },
+        {
+          "list": -0.013865577057003975
+        },
+        {
+          "appeared": -0.014302598312497139
+        },
+        {
+          "on": -0.07741088420152664
+        },
+        {
+          "": -0.0030582821927964687
+        },
+        {
+          "3": -0.0018945855554193258
+        },
+        {
+          "0": -0.00046230596490204334
+        },
+        {
+          "May": -0.0014361554058268666
+        },
+        {
+          "": -0.002976513234898448
+        },
+        {
+          "1": -0.0001565095444675535
+        },
+        {
+          "8": -0.0012541294563561678
+        },
+        {
+          "9": -0.0004049911512993276
+        },
+        {
+          "1": -0.0003081085451412946
+        },
+        {
+          ",": -0.14428164064884186
+        },
+        {
+          "is": -0.6296423673629761
+        },
+        {
+          "The": -0.4775758981704712
+        },
+        {
+          "Times": -0.7145334482192993
+        },
+        {
+          ".": -0.18600602447986603
+        },
+        {
+          "The": -0.17776818573474884
+        },
+        {
+          "Times": -0.13051719963550568
+        },
+        {
+          "was": -1.0085822343826294
+        },
+        {
+          "known": -1.8525108098983765
+        },
+        {
+          "as": -0.0835331454873085
+        },
+        {
+          "The": -0.1447332203388214
+        },
+        {
+          "Daily": -0.05856020003557205
+        },
+        {
+          "Universal": -0.0013568728463724256
+        },
+        {
+          "Register": -0.0016703951405361295
+        },
+        {
+          "from": -0.7110921144485474
+        },
+        {
+          "": -0.03225309029221535
+        },
+        {
+          "1": -0.00824653822928667
+        },
+        {
+          "January": -0.3331584930419922
+        },
+        {
+          "": -0.08571445196866989
+        },
+        {
+          "1": -0.0004862556525040418
+        },
+        {
+          "7": -0.0009744186536408961
+        },
+        {
+          "8": -0.0011375630274415016
+        },
+        {
+          "5": -0.01218070462346077
+        },
+        {
+          "to": -0.11514338850975037
+        },
+        {
+          "": -0.004062258172780275
+        },
+        {
+          "9": -0.285169392824173
+        },
+        {
+          "September": -0.49070990085601807
+        },
+        {
+          "": -0.0013705631718039513
+        },
+        {
+          "1": -0.00010466027742950246
+        },
+        {
+          "7": -0.00019476900342851877
+        },
+        {
+          "8": -0.0003578022588044405
+        },
+        {
+          "8": -0.04068198427557945
+        },
+        {
+          ".": -0.27538594603538513
+        },
+        {
+          "So": -0.9342482089996338
+        },
+        {
+          "the": -0.6215265989303589
+        },
+        {
+          "newspaper": -0.32391488552093506
+        },
+        {
+          ",": -0.7332790493965149
+        },
+        {
+          "in": -0.034822627902030945
+        },
+        {
+          "which": -0.0010120513616129756
+        },
+        {
+          "the": -0.0030122878961265087
+        },
+        {
+          "": -0.0035475671757012606
+        },
+        {
+          "1": -0.0002109781780745834
+        },
+        {
+          "8": -0.00077622797107324
+        },
+        {
+          "9": -0.00019226610311307013
+        },
+        {
+          "1": -0.00023362292267847806
+        },
+        {
+          "B": -0.0016093410085886717
+        },
+        {
+          "irth": -0.00011205045302631333
+        },
+        {
+          "day": -3.9457496313843876e-05
+        },
+        {
+          "Hon": -0.00031156453769654036
+        },
+        {
+          "ours": -0.0010457528987899423
+        },
+        {
+          "list": -0.001383539172820747
+        },
+        {
+          "appeared": -0.002708934945985675
+        },
+        {
+          "on": -0.011866808868944645
+        },
+        {
+          "": -0.0004621868138201535
+        },
+        {
+          "3": -0.00030322244856506586
+        },
+        {
+          "0": -0.000144709600135684
+        },
+        {
+          "May": -0.0005871717585250735
+        },
+        {
+          "": -0.0006030171643942595
+        },
+        {
+          "1": -0.00011097769311163574
+        },
+        {
+          "8": -0.00044907975825481117
+        },
+        {
+          "9": -9.83428253675811e-05
+        },
+        {
+          "1": -0.00025233422638848424
+        },
+        {
+          ",": -0.020352106541395187
+        },
+        {
+          "adopt": -0.9748034477233887
+        },
+        {
+          "its": -0.1272132843732834
+        },
+        {
+          "current": -0.0046682897955179214
+        },
+        {
+          "name": -0.0020830377470701933
+        },
+        {
+          "after": -1.2490004301071167
+        },
+        {
+          "": -0.09006066620349884
+        },
+        {
+          "1": -0.6907585263252258
+        },
+        {
+          "7": -0.8957187533378601
+        },
+        {
+          "8": -0.008437816984951496
+        },
+        {
+          "8": -0.21289308369159698
+        },
+        {
+          ".": -0.10787630826234818
+        },
+        {
+          "<0x0A>": -0.03179797902703285
+        },
+        {
+          "Answer": -0.007140119094401598
+        },
+        {
+          ":": -0.001081477734260261
+        },
+        {
+          "after": -1.0935243368148804
+        },
+        {
+          "": -0.002916846191510558
+        },
+        {
+          "1": -0.0003406421164982021
+        },
+        {
+          "7": -0.0026945495046675205
+        },
+        {
+          "8": -0.00029225845355540514
+        },
+        {
+          "8": -0.0005441615357995033
+        },
+        {
+          "<0x0A>": -0.04028290882706642
+        },
+        {
+          "Question": -0.2692648768424988
+        },
+        {
+          ":": -0.0004129749140702188
+        },
+        {
+          "What": -1.530996561050415
+        },
+        {
+          "is": -1.1560134887695312
+        },
+        {
+          "the": -0.32433220744132996
+        },
+        {
+          "name": -2.6362063884735107
+        },
+        {
+          "of": -0.04127766937017441
+        },
+        {
+          "the": -0.37767910957336426
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.79,
+      "threshold": 1.79,
+      "answer_probs_len": 6
+    }
+  ],
+  "traj": "Question: When was the newspaper, in which the 1891 Birthday Honours list appeared on 30 May 1891, adopt its current name ?\nThought 1:Let's think step by step. The newspaper, in which the 1891 Birthday Honours list appeared on 30 May 1891, is The Times. The Times was known as The Daily Universal Register from 1 January 1785 to 9 September 1788. So the newspaper, in which the 1891 Birthday Honours list appeared on 30 May 1891, adopt its current name after 1788.\nAnswer: after 1788\nAction 1: MeasureUncertainty [after 1788]\nObservation 1: Answer's uncertainty is 1.79, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: after 1788",
+  "summary": {
+    "final_answer": "after 1788",
+    "em": false,
+    "f1": 0.5,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.79
+  }
+}

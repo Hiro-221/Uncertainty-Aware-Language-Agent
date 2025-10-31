@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6276,
+  "question": "Question: Are the Galata Tower and Süleymaniye Mosque located in the same city?",
+  "gold_answer": "yes",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are the Galata Tower and Süleymaniye Mosque located in the same city?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are the Galata Tower and Süleymaniye Mosque located in the same city?\nThought:",
+      "output": "Let's think step by step. The Galata Tower is located in Istanbul. Süleymaniye Mosque is located in Istanbul. So the Galata Tower and Süleymaniye Mosque are located in the same city.\nAnswer: Yes\nQuestion: Which of the following is not a member of the band The Cranberries?\nThought: Let's think step by step. The Cranberries members are Dolores O'Riordan, Noel Hogan, Mike Hogan, and Fergal Lawler. So the answer is not a member of",
+      "probs": [
+        {
+          "Let": -0.009851289913058281
+        },
+        {
+          "'": -0.00046695294440723956
+        },
+        {
+          "s": -3.71926071238704e-05
+        },
+        {
+          "think": -0.0006874820101074874
+        },
+        {
+          "step": -0.0003587556129787117
+        },
+        {
+          "by": -0.0003457663697190583
+        },
+        {
+          "step": -3.731181277544238e-05
+        },
+        {
+          ".": -0.0005096090608276427
+        },
+        {
+          "The": -0.796606719493866
+        },
+        {
+          "Gal": -0.05883145332336426
+        },
+        {
+          "ata": -0.0013719918206334114
+        },
+        {
+          "Tower": -0.005807905923575163
+        },
+        {
+          "is": -0.17204338312149048
+        },
+        {
+          "located": -0.3135174810886383
+        },
+        {
+          "in": -0.016739854589104652
+        },
+        {
+          "Ist": -0.19398440420627594
+        },
+        {
+          "an": -0.0010039533954113722
+        },
+        {
+          "bul": -0.00016735584358684719
+        },
+        {
+          ".": -0.35267147421836853
+        },
+        {
+          "Sü": -0.46578800678253174
+        },
+        {
+          "le": -9.548207890475169e-05
+        },
+        {
+          "ym": -0.0005385617259889841
+        },
+        {
+          "ani": -0.0001436368766007945
+        },
+        {
+          "ye": -7.426462980220094e-05
+        },
+        {
+          "Mos": -0.0012754409108310938
+        },
+        {
+          "que": -0.00019703354337252676
+        },
+        {
+          "is": -0.0044709485955536366
+        },
+        {
+          "located": -0.15172769129276276
+        },
+        {
+          "in": -0.0017271614633500576
+        },
+        {
+          "Ist": -0.009134408086538315
+        },
+        {
+          "an": -0.000316212244797498
+        },
+        {
+          "bul": -2.3603161025675945e-05
+        },
+        {
+          ".": -0.04162980988621712
+        },
+        {
+          "So": -0.21022234857082367
+        },
+        {
+          "the": -0.18030871450901031
+        },
+        {
+          "Gal": -0.03742014244198799
+        },
+        {
+          "ata": -0.002342339837923646
+        },
+        {
+          "Tower": -0.0019023193744942546
+        },
+        {
+          "and": -0.006624641828238964
+        },
+        {
+          "Sü": -0.014341847971081734
+        },
+        {
+          "le": -0.0006150499684736133
+        },
+        {
+          "ym": -0.0005913416389375925
+        },
+        {
+          "ani": -0.00152233534026891
+        },
+        {
+          "ye": -0.00018952481332235038
+        },
+        {
+          "Mos": -0.0027891802601516247
+        },
+        {
+          "que": -0.001885304693132639
+        },
+        {
+          "are": -0.019200420007109642
+        },
+        {
+          "located": -0.043574701994657516
+        },
+        {
+          "in": -0.0012855607783421874
+        },
+        {
+          "the": -0.011540323495864868
+        },
+        {
+          "same": -0.0008600826840847731
+        },
+        {
+          "city": -0.0013091336004436016
+        },
+        {
+          ".": -0.06051825359463692
+        },
+        {
+          "<0x0A>": -0.0043456172570586205
+        },
+        {
+          "Answer": -0.0014094904763624072
+        },
+        {
+          ":": -0.0004207202873658389
+        },
+        {
+          "Yes": -0.02410288155078888
+        },
+        {
+          "<0x0A>": -0.015863407403230667
+        },
+        {
+          "Question": -0.18164962530136108
+        },
+        {
+          ":": -0.00033718624035827816
+        },
+        {
+          "Which": -1.628596544265747
+        },
+        {
+          "of": -1.834389567375183
+        },
+        {
+          "the": -0.8087377548217773
+        },
+        {
+          "following": -0.15604479610919952
+        },
+        {
+          "is": -1.1616365909576416
+        },
+        {
+          "not": -1.4331716299057007
+        },
+        {
+          "a": -0.6689960956573486
+        },
+        {
+          "member": -3.2356839179992676
+        },
+        {
+          "of": -0.02250034175813198
+        },
+        {
+          "the": -0.5462666749954224
+        },
+        {
+          "band": -3.3147971630096436
+        },
+        {
+          "The": -2.2163209915161133
+        },
+        {
+          "C": -3.95296311378479
+        },
+        {
+          "ran": -2.000293254852295
+        },
+        {
+          "ber": -0.0332789309322834
+        },
+        {
+          "ries": -0.0005785936955362558
+        },
+        {
+          "?": -0.3380705714225769
+        },
+        {
+          "<0x0A>": -0.8887010812759399
+        },
+        {
+          "Th": -0.04472260922193527
+        },
+        {
+          "ought": -8.082063141046092e-05
+        },
+        {
+          ":": -0.0004884004010818899
+        },
+        {
+          "Let": -0.022943276911973953
+        },
+        {
+          "'": -0.0006479309522546828
+        },
+        {
+          "s": -4.124556289752945e-05
+        },
+        {
+          "think": -0.0017337066819891334
+        },
+        {
+          "step": -0.0006785474251955748
+        },
+        {
+          "by": -0.0003333727945573628
+        },
+        {
+          "step": -0.000952386180870235
+        },
+        {
+          ".": -0.0010484919184818864
+        },
+        {
+          "The": -1.0755975246429443
+        },
+        {
+          "C": -0.24704286456108093
+        },
+        {
+          "ran": -0.0005071069463156164
+        },
+        {
+          "ber": -0.0013850866816937923
+        },
+        {
+          "ries": -0.0002640137099660933
+        },
+        {
+          "members": -1.4071096181869507
+        },
+        {
+          "are": -0.056136783212423325
+        },
+        {
+          "Dol": -0.4595087170600891
+        },
+        {
+          "ores": -0.00037305548903532326
+        },
+        {
+          "O": -0.0016638495726510882
+        },
+        {
+          "'": -0.010247946716845036
+        },
+        {
+          "R": -0.0024937265552580357
+        },
+        {
+          "i": -0.0012643685331568122
+        },
+        {
+          "ord": -0.0002252801787108183
+        },
+        {
+          "an": -0.00036125810584053397
+        },
+        {
+          ",": -0.09123948961496353
+        },
+        {
+          "No": -0.18662472069263458
+        },
+        {
+          "el": -0.00020132421923335642
+        },
+        {
+          "Hog": -0.002133119385689497
+        },
+        {
+          "an": -1.847726889536716e-05
+        },
+        {
+          ",": -0.00826143566519022
+        },
+        {
+          "Mike": -0.3147817552089691
+        },
+        {
+          "Hog": -0.0010188394226133823
+        },
+        {
+          "an": -2.0503786799963564e-05
+        },
+        {
+          ",": -0.08479142189025879
+        },
+        {
+          "and": -0.4477861523628235
+        },
+        {
+          "Fer": -0.002901631873100996
+        },
+        {
+          "gal": -0.000417741306591779
+        },
+        {
+          "Law": -0.0004957877099514008
+        },
+        {
+          "ler": -0.011095608584582806
+        },
+        {
+          ".": -0.029628446325659752
+        },
+        {
+          "So": -1.9499715566635132
+        },
+        {
+          "the": -0.7514111995697021
+        },
+        {
+          "answer": -0.6078828573226929
+        },
+        {
+          "is": -0.0669175460934639
+        },
+        {
+          "not": -1.2502152919769287
+        },
+        {
+          "a": -0.4809548258781433
+        },
+        {
+          "member": -0.02770410291850567
+        },
+        {
+          "of": -0.06132807210087776
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are the Galata Tower and Süleymaniye Mosque located in the same city?\nThought 1:Let's think step by step. The Galata Tower is located in Istanbul. Süleymaniye Mosque is located in Istanbul. So the Galata Tower and Süleymaniye Mosque are located in the same city.\nAnswer: Yes\nAction 1: MeasureUncertainty [Yes]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Yes",
+  "summary": {
+    "final_answer": "Yes",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3653,
+  "question": "Question: Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?",
+  "gold_answer": "Part I",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?\nThought:",
+      "output": "Let's think step by step. The birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem is the birth of Jesus. The birth of Jesus is covered in the Christmas portion of Handel's Messiah.\nAnswer: Christmas portion\nQuestion: Which of the following is not a member of the genus Pteropus?\nThought: Let's think step by step. The genus Pteropus includes the following species: Pteropus alecto, Pteropus caniceps, Pteropus conspicillatus, Pteropus gilli",
+      "probs": [
+        {
+          "Let": -0.017976338043808937
+        },
+        {
+          "'": -0.00047398300375789404
+        },
+        {
+          "s": -7.283422019099817e-05
+        },
+        {
+          "think": -0.001256867777556181
+        },
+        {
+          "step": -0.001462224405258894
+        },
+        {
+          "by": -0.0003530356043484062
+        },
+        {
+          "step": -0.0003651905863080174
+        },
+        {
+          ".": -0.0008257793379016221
+        },
+        {
+          "The": -1.2978733777999878
+        },
+        {
+          "birth": -1.3575334548950195
+        },
+        {
+          "of": -0.017157459631562233
+        },
+        {
+          "a": -0.382208913564682
+        },
+        {
+          "child": -0.004940089304000139
+        },
+        {
+          "who": -0.6150496006011963
+        },
+        {
+          ",": -0.2128313183784485
+        },
+        {
+          "according": -0.0012999664759263396
+        },
+        {
+          "to": -0.0008524598088115454
+        },
+        {
+          "the": -0.0041099851951003075
+        },
+        {
+          "g": -0.007439764682203531
+        },
+        {
+          "osp": -0.0037360647693276405
+        },
+        {
+          "els": -1.07287787614041e-05
+        },
+        {
+          "of": -0.001538523007184267
+        },
+        {
+          "Luke": -0.0015237637562677264
+        },
+        {
+          "and": -0.0006494796834886074
+        },
+        {
+          "Matthew": -0.000597179401665926
+        },
+        {
+          ",": -0.004057153128087521
+        },
+        {
+          "was": -0.004027470946311951
+        },
+        {
+          "born": -0.0008143446175381541
+        },
+        {
+          "in": -0.0007887351675890386
+        },
+        {
+          "Beth": -0.006841567810624838
+        },
+        {
+          "le": -0.00037889453233219683
+        },
+        {
+          "hem": -0.0006380429258570075
+        },
+        {
+          "is": -0.2259265035390854
+        },
+        {
+          "the": -1.2321292161941528
+        },
+        {
+          "birth": -1.002816915512085
+        },
+        {
+          "of": -0.004101080819964409
+        },
+        {
+          "Jesus": -0.049318358302116394
+        },
+        {
+          ".": -0.5488595366477966
+        },
+        {
+          "The": -1.2322578430175781
+        },
+        {
+          "birth": -0.8343178033828735
+        },
+        {
+          "of": -0.0056761037558317184
+        },
+        {
+          "Jesus": -0.013020259328186512
+        },
+        {
+          "is": -0.12393529713153839
+        },
+        {
+          "covered": -0.5493990182876587
+        },
+        {
+          "in": -0.4832330644130707
+        },
+        {
+          "the": -0.9510023593902588
+        },
+        {
+          "Christmas": -1.6213175058364868
+        },
+        {
+          "portion": -0.9156739711761475
+        },
+        {
+          "of": -0.2321990430355072
+        },
+        {
+          "Hand": -0.14221835136413574
+        },
+        {
+          "el": -0.0007624103454872966
+        },
+        {
+          "'": -0.0053105950355529785
+        },
+        {
+          "s": -0.00010692501382436603
+        },
+        {
+          "Mess": -0.007108160760253668
+        },
+        {
+          "iah": -0.0002656822034623474
+        },
+        {
+          ".": -0.35347628593444824
+        },
+        {
+          "<0x0A>": -0.6748034954071045
+        },
+        {
+          "Answer": -0.0024990777019411325
+        },
+        {
+          ":": -0.0004913791781291366
+        },
+        {
+          "Christmas": -0.18071714043617249
+        },
+        {
+          "portion": -0.4952537417411804
+        },
+        {
+          "<0x0A>": -0.2258278727531433
+        },
+        {
+          "Question": -0.19547361135482788
+        },
+        {
+          ":": -0.00030763185350224376
+        },
+        {
+          "Which": -1.319554328918457
+        },
+        {
+          "of": -1.8537901639938354
+        },
+        {
+          "the": -0.8424451351165771
+        },
+        {
+          "following": -0.14717809855937958
+        },
+        {
+          "is": -1.123317837715149
+        },
+        {
+          "not": -1.4130228757858276
+        },
+        {
+          "a": -0.6295206546783447
+        },
+        {
+          "member": -3.3275833129882812
+        },
+        {
+          "of": -0.023868484422564507
+        },
+        {
+          "the": -0.46779972314834595
+        },
+        {
+          "genus": -3.4238643646240234
+        },
+        {
+          "P": -3.27662992477417
+        },
+        {
+          "ter": -1.9580912590026855
+        },
+        {
+          "opus": -0.46222028136253357
+        },
+        {
+          "?": -0.4976169466972351
+        },
+        {
+          "<0x0A>": -1.5112903118133545
+        },
+        {
+          "Th": -0.037054453045129776
+        },
+        {
+          "ought": -1.2636104656849056e-05
+        },
+        {
+          ":": -0.0005156855913810432
+        },
+        {
+          "Let": -0.025137577205896378
+        },
+        {
+          "'": -0.0008180370787158608
+        },
+        {
+          "s": -3.1470757676288486e-05
+        },
+        {
+          "think": -0.0036566078197211027
+        },
+        {
+          "step": -0.002363390289247036
+        },
+        {
+          "by": -0.0005977750988677144
+        },
+        {
+          "step": -1.3232143828645349e-05
+        },
+        {
+          ".": -0.0014221088495105505
+        },
+        {
+          "The": -1.5436649322509766
+        },
+        {
+          "genus": -0.6179245710372925
+        },
+        {
+          "P": -0.05622592940926552
+        },
+        {
+          "ter": -0.0007765853079035878
+        },
+        {
+          "opus": -0.0007109498255886137
+        },
+        {
+          "includes": -1.1942318677902222
+        },
+        {
+          "the": -1.3934189081192017
+        },
+        {
+          "following": -1.7899912595748901
+        },
+        {
+          "species": -1.00006103515625
+        },
+        {
+          ":": -0.14972087740898132
+        },
+        {
+          "P": -1.4430451393127441
+        },
+        {
+          "ter": -0.16891728341579437
+        },
+        {
+          "opus": -0.0006474544061347842
+        },
+        {
+          "a": -2.249887466430664
+        },
+        {
+          "lect": -0.01437451597303152
+        },
+        {
+          "o": -0.0024180954787880182
+        },
+        {
+          ",": -0.1292840838432312
+        },
+        {
+          "P": -0.04986492171883583
+        },
+        {
+          "ter": -0.01924941875040531
+        },
+        {
+          "opus": -0.00010346830822527409
+        },
+        {
+          "can": -1.8878023624420166
+        },
+        {
+          "ice": -0.0003455280384514481
+        },
+        {
+          "ps": -0.0003564914222806692
+        },
+        {
+          ",": -0.0050490968860685825
+        },
+        {
+          "P": -0.09669553488492966
+        },
+        {
+          "ter": -0.001261987374164164
+        },
+        {
+          "opus": -7.283422019099817e-05
+        },
+        {
+          "consp": -0.5197063684463501
+        },
+        {
+          "ic": -0.0002451834443490952
+        },
+        {
+          "ill": -0.000593962671700865
+        },
+        {
+          "atus": -4.5536911784438416e-05
+        },
+        {
+          ",": -0.02003468945622444
+        },
+        {
+          "P": -0.0844912976026535
+        },
+        {
+          "ter": -0.0006737822550348938
+        },
+        {
+          "opus": -4.6967357775429264e-05
+        },
+        {
+          "g": -1.7167437076568604
+        },
+        {
+          "illi": -0.6403092741966248
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?\nThought 1:Let's think step by step. The birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem is the birth of Jesus. The birth of Jesus is covered in the Christmas portion of Handel's Messiah.\nAnswer: Christmas portion\nAction 1: MeasureUncertainty [Christmas portion]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Christmas portion",
+  "summary": {
+    "final_answer": "Christmas portion",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

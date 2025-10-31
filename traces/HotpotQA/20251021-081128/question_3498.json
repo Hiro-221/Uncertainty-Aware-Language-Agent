@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3498,
+  "question": "Question: To what group of plants do both Dieffenbachia and Carlina belong?",
+  "gold_answer": "flowering plants",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: To what group of plants do both Dieffenbachia and Carlina belong?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: To what group of plants do both Dieffenbachia and Carlina belong?\nThought:",
+      "output": "Let's think step by step. Dieffenbachia is a genus of tropical flowering plants in the family Araceae. Carlina is a genus of flowering plants in the family Asteraceae. So Dieffenbachia and Carlina belong to the same group of plants.\nAnswer: flowering plants\nQuestion: Which of the following is not a member of the genus Pteropus?\nThought: Let's think step by step. Pteropus is a genus of megabats. Pteropus is a genus of megabats. Pteropus is a genus of megabats. P",
+      "probs": [
+        {
+          "Let": -0.009208234027028084
+        },
+        {
+          "'": -0.00042489083716645837
+        },
+        {
+          "s": -6.794698856538162e-05
+        },
+        {
+          "think": -0.0009190387791022658
+        },
+        {
+          "step": -0.0005754960584454238
+        },
+        {
+          "by": -0.00037555795279331505
+        },
+        {
+          "step": -3.516612196108326e-05
+        },
+        {
+          ".": -0.0005407063290476799
+        },
+        {
+          "Die": -0.2563002407550812
+        },
+        {
+          "ffen": -0.00134151556994766
+        },
+        {
+          "bach": -0.000583597575314343
+        },
+        {
+          "ia": -0.007127809338271618
+        },
+        {
+          "is": -0.8039605617523193
+        },
+        {
+          "a": -0.5085510015487671
+        },
+        {
+          "genus": -0.8164412379264832
+        },
+        {
+          "of": -0.0959426760673523
+        },
+        {
+          "tropical": -0.4864148497581482
+        },
+        {
+          "flow": -0.1026587188243866
+        },
+        {
+          "ering": -0.0004450284468475729
+        },
+        {
+          "plants": -0.0214685145765543
+        },
+        {
+          "in": -0.33844685554504395
+        },
+        {
+          "the": -0.006761291529983282
+        },
+        {
+          "family": -0.0552101731300354
+        },
+        {
+          "Ara": -0.006291583180427551
+        },
+        {
+          "ceae": -3.2782016205601394e-05
+        },
+        {
+          ".": -0.2055608183145523
+        },
+        {
+          "Carl": -0.08092926442623138
+        },
+        {
+          "ina": -0.0005005536950193346
+        },
+        {
+          "is": -0.0871073454618454
+        },
+        {
+          "a": -0.10233345627784729
+        },
+        {
+          "genus": -0.03171228989958763
+        },
+        {
+          "of": -0.05158354341983795
+        },
+        {
+          "flow": -0.505719780921936
+        },
+        {
+          "ering": -0.0005932478234171867
+        },
+        {
+          "plants": -0.08668768405914307
+        },
+        {
+          "in": -0.053988978266716
+        },
+        {
+          "the": -0.0030042061116546392
+        },
+        {
+          "family": -0.6788012981414795
+        },
+        {
+          "A": -0.011777863837778568
+        },
+        {
+          "ster": -0.00034683887497521937
+        },
+        {
+          "aceae": -0.0024667331017553806
+        },
+        {
+          ".": -0.05287891626358032
+        },
+        {
+          "So": -0.2387581616640091
+        },
+        {
+          "Die": -0.9725339412689209
+        },
+        {
+          "ffen": -0.0006357794045470655
+        },
+        {
+          "bach": -0.0006361367995850742
+        },
+        {
+          "ia": -0.0018098655855283141
+        },
+        {
+          "and": -0.033091768622398376
+        },
+        {
+          "Carl": -0.0024182144552469254
+        },
+        {
+          "ina": -0.0008008848526515067
+        },
+        {
+          "belong": -0.2628357410430908
+        },
+        {
+          "to": -0.012431632727384567
+        },
+        {
+          "the": -0.5981442928314209
+        },
+        {
+          "same": -0.6207358837127686
+        },
+        {
+          "group": -0.08032484352588654
+        },
+        {
+          "of": -0.1155572310090065
+        },
+        {
+          "plants": -0.021918203681707382
+        },
+        {
+          ".": -0.7700327634811401
+        },
+        {
+          "<0x0A>": -0.014056135900318623
+        },
+        {
+          "Answer": -0.0027191590052098036
+        },
+        {
+          ":": -0.00032276666024699807
+        },
+        {
+          "flow": -1.5670136213302612
+        },
+        {
+          "ering": -0.0005977750988677144
+        },
+        {
+          "plants": -0.2940733730792999
+        },
+        {
+          "<0x0A>": -0.06034577265381813
+        },
+        {
+          "Question": -0.19933190941810608
+        },
+        {
+          ":": -0.00027295202016830444
+        },
+        {
+          "Which": -1.4588717222213745
+        },
+        {
+          "of": -1.6651666164398193
+        },
+        {
+          "the": -0.8675198554992676
+        },
+        {
+          "following": -0.14835399389266968
+        },
+        {
+          "is": -1.2365516424179077
+        },
+        {
+          "not": -1.4847426414489746
+        },
+        {
+          "a": -0.6257445812225342
+        },
+        {
+          "member": -3.1280291080474854
+        },
+        {
+          "of": -0.021591484546661377
+        },
+        {
+          "the": -0.4456139802932739
+        },
+        {
+          "genus": -2.2329561710357666
+        },
+        {
+          "P": -3.4213435649871826
+        },
+        {
+          "ter": -2.117015838623047
+        },
+        {
+          "opus": -1.0390034914016724
+        },
+        {
+          "?": -0.45712852478027344
+        },
+        {
+          "<0x0A>": -1.4020514488220215
+        },
+        {
+          "Th": -0.07309199869632721
+        },
+        {
+          "ought": -1.3351351299206726e-05
+        },
+        {
+          ":": -0.0010083595989271998
+        },
+        {
+          "Let": -0.024722129106521606
+        },
+        {
+          "'": -0.0009888288332149386
+        },
+        {
+          "s": -6.031808152329177e-05
+        },
+        {
+          "think": -0.002694787224754691
+        },
+        {
+          "step": -0.0013360392767935991
+        },
+        {
+          "by": -0.00041929035796783864
+        },
+        {
+          "step": -4.255681051290594e-05
+        },
+        {
+          ".": -0.0011381583753973246
+        },
+        {
+          "P": -1.2157648801803589
+        },
+        {
+          "ter": -0.03053419478237629
+        },
+        {
+          "opus": -0.00606861338019371
+        },
+        {
+          "is": -0.924440324306488
+        },
+        {
+          "a": -0.1930137276649475
+        },
+        {
+          "genus": -0.03236008435487747
+        },
+        {
+          "of": -0.1951160877943039
+        },
+        {
+          "meg": -0.49699077010154724
+        },
+        {
+          "ab": -0.0017974901711568236
+        },
+        {
+          "ats": -0.11979802697896957
+        },
+        {
+          ".": -0.8229674696922302
+        },
+        {
+          "P": -1.6445691585540771
+        },
+        {
+          "ter": -0.08262982964515686
+        },
+        {
+          "opus": -0.020372429862618446
+        },
+        {
+          "is": -1.9570473432540894
+        },
+        {
+          "a": -0.41733989119529724
+        },
+        {
+          "genus": -0.13287940621376038
+        },
+        {
+          "of": -0.05205237492918968
+        },
+        {
+          "meg": -0.28817087411880493
+        },
+        {
+          "ab": -0.001408419106155634
+        },
+        {
+          "ats": -0.006832332815974951
+        },
+        {
+          ".": -0.3141723871231079
+        },
+        {
+          "P": -0.9485580325126648
+        },
+        {
+          "ter": -0.011409393511712551
+        },
+        {
+          "opus": -0.00286977575160563
+        },
+        {
+          "is": -0.15129433572292328
+        },
+        {
+          "a": -0.01893983967602253
+        },
+        {
+          "genus": -0.005824379622936249
+        },
+        {
+          "of": -0.0011149387573823333
+        },
+        {
+          "meg": -0.011191334575414658
+        },
+        {
+          "ab": -0.0003625689132604748
+        },
+        {
+          "ats": -0.00038532938924618065
+        },
+        {
+          ".": -0.018547436222434044
+        },
+        {
+          "P": -0.8487334251403809
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.09,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: To what group of plants do both Dieffenbachia and Carlina belong?\nThought 1:Let's think step by step. Dieffenbachia is a genus of tropical flowering plants in the family Araceae. Carlina is a genus of flowering plants in the family Asteraceae. So Dieffenbachia and Carlina belong to the same group of plants.\nAnswer: flowering plants\nAction 1: MeasureUncertainty [flowering plants]\nObservation 1: Answer's uncertainty is 1.09, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: flowering plants",
+  "summary": {
+    "final_answer": "flowering plants",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.09
+  }
+}

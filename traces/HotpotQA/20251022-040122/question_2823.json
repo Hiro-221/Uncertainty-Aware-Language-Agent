@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2823,
+  "question": "Question: Which was published founded most recently, InStyle or Godey's Lady's Book?",
+  "gold_answer": "InStyle",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which was published founded most recently, InStyle or Godey's Lady's Book?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which was published founded most recently, InStyle or Godey's Lady's Book?\nThought:",
+      "output": "Let's think step by step. InStyle was published founded in 1994. Godey's Lady's Book was published founded in 1830. 1994 (InStyle) > 1830 (Godey's Lady's Book), so InStyle was published founded most recently.\nAnswer: InStyle\nQuestion: Which was published founded most recently, The New Yorker or The New Yorker?\nThought: Let's think step by step. The New Yorker was published founded in 1925. The New York",
+      "probs": [
+        {
+          "Let": -0.006065532565116882
+        },
+        {
+          "'": -0.00028689560713246465
+        },
+        {
+          "s": -5.018585216021165e-05
+        },
+        {
+          "think": -0.0004772001120727509
+        },
+        {
+          "step": -0.00022766382608097047
+        },
+        {
+          "by": -0.00017689094238448888
+        },
+        {
+          "step": -2.062299427052494e-05
+        },
+        {
+          ".": -0.0004401430196594447
+        },
+        {
+          "In": -0.24819226562976837
+        },
+        {
+          "Style": -0.0023167694453150034
+        },
+        {
+          "was": -0.02092990279197693
+        },
+        {
+          "published": -0.6394822001457214
+        },
+        {
+          "founded": -0.25165611505508423
+        },
+        {
+          "in": -0.06383581459522247
+        },
+        {
+          "": -0.02379736304283142
+        },
+        {
+          "1": -0.008321966975927353
+        },
+        {
+          "9": -0.0006843847222626209
+        },
+        {
+          "9": -0.03437064215540886
+        },
+        {
+          "4": -0.08365211635828018
+        },
+        {
+          ".": -0.030193159356713295
+        },
+        {
+          "G": -0.007369713392108679
+        },
+        {
+          "ode": -0.0004687402688432485
+        },
+        {
+          "y": -0.00011336160969221964
+        },
+        {
+          "'": -0.0015410225605592132
+        },
+        {
+          "s": -7.939023635117337e-05
+        },
+        {
+          "Lady": -0.0009810879128053784
+        },
+        {
+          "'": -0.0011476842919364572
+        },
+        {
+          "s": -3.671578815556131e-05
+        },
+        {
+          "Book": -0.0011185110779479146
+        },
+        {
+          "was": -0.011687496677041054
+        },
+        {
+          "published": -0.02241315320134163
+        },
+        {
+          "founded": -0.0052878279238939285
+        },
+        {
+          "in": -0.017446385696530342
+        },
+        {
+          "": -0.007709510624408722
+        },
+        {
+          "1": -0.0011531615164130926
+        },
+        {
+          "8": -0.010279450565576553
+        },
+        {
+          "3": -0.023070376366376877
+        },
+        {
+          "0": -0.009791914373636246
+        },
+        {
+          ".": -0.01690583862364292
+        },
+        {
+          "": -0.07210266590118408
+        },
+        {
+          "1": -0.0020403298549354076
+        },
+        {
+          "9": -0.5832699537277222
+        },
+        {
+          "9": -0.0019318267004564404
+        },
+        {
+          "4": -0.0011767374817281961
+        },
+        {
+          "(": -0.06612852960824966
+        },
+        {
+          "In": -0.006995707750320435
+        },
+        {
+          "Style": -0.0035843905061483383
+        },
+        {
+          ")": -0.002358989790081978
+        },
+        {
+          ">": -0.07641996443271637
+        },
+        {
+          "": -0.002369336551055312
+        },
+        {
+          "1": -0.00016985881666187197
+        },
+        {
+          "8": -0.0032980830874294043
+        },
+        {
+          "3": -0.0012553200358524919
+        },
+        {
+          "0": -0.0006133820279501379
+        },
+        {
+          "(": -0.0032664774917066097
+        },
+        {
+          "G": -0.0015600664773955941
+        },
+        {
+          "ode": -0.0009870424401015043
+        },
+        {
+          "y": -0.0002967870968859643
+        },
+        {
+          "'": -0.0014116332167759538
+        },
+        {
+          "s": -4.9828242481453344e-05
+        },
+        {
+          "Lady": -0.0008083889842964709
+        },
+        {
+          "'": -0.0005669178790412843
+        },
+        {
+          "s": -0.00011467275908216834
+        },
+        {
+          "Book": -0.0009326160652562976
+        },
+        {
+          "),": -0.030952783301472664
+        },
+        {
+          "so": -0.00359745672903955
+        },
+        {
+          "In": -0.1683042347431183
+        },
+        {
+          "Style": -0.0012984187342226505
+        },
+        {
+          "was": -0.029802603647112846
+        },
+        {
+          "published": -0.021263957023620605
+        },
+        {
+          "founded": -0.022426210343837738
+        },
+        {
+          "most": -0.018152184784412384
+        },
+        {
+          "recently": -0.0008203001925721765
+        },
+        {
+          ".": -0.005385652184486389
+        },
+        {
+          "<0x0A>": -0.0027336629573255777
+        },
+        {
+          "Answer": -0.002085179090499878
+        },
+        {
+          ":": -0.00030071981018409133
+        },
+        {
+          "In": -0.008363342843949795
+        },
+        {
+          "Style": -0.0011398254428058863
+        },
+        {
+          "<0x0A>": -0.019260060042142868
+        },
+        {
+          "Question": -0.17344102263450623
+        },
+        {
+          ":": -0.0002461368858348578
+        },
+        {
+          "Which": -1.1862083673477173
+        },
+        {
+          "was": -2.1304514408111572
+        },
+        {
+          "published": -0.9624579548835754
+        },
+        {
+          "founded": -0.07766395062208176
+        },
+        {
+          "most": -0.4141586720943451
+        },
+        {
+          "recently": -0.0007376333815045655
+        },
+        {
+          ",": -0.008666286244988441
+        },
+        {
+          "The": -2.67615008354187
+        },
+        {
+          "New": -2.472728967666626
+        },
+        {
+          "York": -0.42372748255729675
+        },
+        {
+          "er": -0.6530943512916565
+        },
+        {
+          "or": -0.024680493399500847
+        },
+        {
+          "The": -2.308990001678467
+        },
+        {
+          "New": -1.8406271934509277
+        },
+        {
+          "York": -0.2816658914089203
+        },
+        {
+          "er": -0.5900673866271973
+        },
+        {
+          "?": -0.029970020055770874
+        },
+        {
+          "<0x0A>": -0.002212578197941184
+        },
+        {
+          "Th": -0.004767123609781265
+        },
+        {
+          "ought": -3.349725011503324e-05
+        },
+        {
+          ":": -0.00015114595589693636
+        },
+        {
+          "Let": -0.03915029391646385
+        },
+        {
+          "'": -0.0004124982515349984
+        },
+        {
+          "s": -6.770858453819528e-05
+        },
+        {
+          "think": -0.0006846229662187397
+        },
+        {
+          "step": -0.0003830652858596295
+        },
+        {
+          "by": -6.365573790390044e-05
+        },
+        {
+          "step": -3.349725011503324e-05
+        },
+        {
+          ".": -0.0005060345865786076
+        },
+        {
+          "The": -0.10448964685201645
+        },
+        {
+          "New": -0.011984958313405514
+        },
+        {
+          "York": -0.0004606377915479243
+        },
+        {
+          "er": -0.0003328961320221424
+        },
+        {
+          "was": -0.030143307521939278
+        },
+        {
+          "published": -0.010121684521436691
+        },
+        {
+          "founded": -0.0009801351698115468
+        },
+        {
+          "in": -0.00590935256332159
+        },
+        {
+          "": -0.01092453021556139
+        },
+        {
+          "1": -0.026969509199261665
+        },
+        {
+          "9": -0.043606773018836975
+        },
+        {
+          "2": -0.032349467277526855
+        },
+        {
+          "5": -0.007749966345727444
+        },
+        {
+          ".": -0.03748398646712303
+        },
+        {
+          "The": -0.06284444034099579
+        },
+        {
+          "New": -0.007838442921638489
+        },
+        {
+          "York": -0.0005544078885577619
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Which was published founded most recently, InStyle or Godey's Lady's Book?\nThought 1:Let's think step by step. InStyle was published founded in 1994. Godey's Lady's Book was published founded in 1830. 1994 (InStyle) > 1830 (Godey's Lady's Book), so InStyle was published founded most recently.\nAnswer: InStyle\nAction 1: MeasureUncertainty [InStyle]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: InStyle",
+  "summary": {
+    "final_answer": "InStyle",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

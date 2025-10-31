@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5671,
+  "question": "Question: The nightclub Playboy Club was located at this hotel and casino located near the Las Vegas Strip that has how many rooms?",
+  "gold_answer": "703",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The nightclub Playboy Club was located at this hotel and casino located near the Las Vegas Strip that has how many rooms?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The nightclub Playboy Club was located at this hotel and casino located near the Las Vegas Strip that has how many rooms?\nThought:",
+      "output": "Let's think step by step. The nightclub Playboy Club was located at the Palms Casino Resort. The Palms Casino Resort has 703 rooms.\nAnswer: 703\nQuestion: What is the name of the 1999 film that is about the 1996 Mount Everest disaster?\nThought: Let's think step by step. The 1999 film that is about the 1996 Mount Everest disaster is Everest.\nAnswer: Everest\nQuestion: What is the name of the ",
+      "probs": [
+        {
+          "Let": -0.014469809830188751
+        },
+        {
+          "'": -0.00037293630884960294
+        },
+        {
+          "s": -1.9907753085135482e-05
+        },
+        {
+          "think": -0.0009773960337042809
+        },
+        {
+          "step": -0.0009739422821439803
+        },
+        {
+          "by": -0.00023934361524879932
+        },
+        {
+          "step": -0.008261080831289291
+        },
+        {
+          ".": -0.0005990855861455202
+        },
+        {
+          "The": -0.5303698778152466
+        },
+        {
+          "night": -0.3376094102859497
+        },
+        {
+          "club": -0.0050230021588504314
+        },
+        {
+          "Play": -0.013241449370980263
+        },
+        {
+          "boy": -0.00032026408007368445
+        },
+        {
+          "Club": -0.0031466991640627384
+        },
+        {
+          "was": -0.20376691222190857
+        },
+        {
+          "located": -0.0300567839294672
+        },
+        {
+          "at": -0.050544362515211105
+        },
+        {
+          "the": -1.247241497039795
+        },
+        {
+          "Pal": -0.645427405834198
+        },
+        {
+          "ms": -0.010289832949638367
+        },
+        {
+          "Cas": -0.22565485537052155
+        },
+        {
+          "ino": -0.00019143179815728217
+        },
+        {
+          "Res": -0.0645381286740303
+        },
+        {
+          "ort": -0.00045015214709565043
+        },
+        {
+          ".": -0.5323721170425415
+        },
+        {
+          "The": -0.7474297881126404
+        },
+        {
+          "Pal": -0.2001427859067917
+        },
+        {
+          "ms": -0.0022580146323889494
+        },
+        {
+          "Cas": -0.053308259695768356
+        },
+        {
+          "ino": -0.0008450751192867756
+        },
+        {
+          "Res": -0.004163288976997137
+        },
+        {
+          "ort": -0.00034374051028862596
+        },
+        {
+          "has": -0.11244849860668182
+        },
+        {
+          "": -0.03137246519327164
+        },
+        {
+          "7": -0.4759038984775543
+        },
+        {
+          "0": -0.31317099928855896
+        },
+        {
+          "3": -0.3856605291366577
+        },
+        {
+          "rooms": -0.03762279823422432
+        },
+        {
+          ".": -0.5015155076980591
+        },
+        {
+          "<0x0A>": -0.33057504892349243
+        },
+        {
+          "Answer": -0.002797620603814721
+        },
+        {
+          ":": -0.0006392342620529234
+        },
+        {
+          "": -0.006225834600627422
+        },
+        {
+          "7": -0.0010400369064882398
+        },
+        {
+          "0": -0.00043335105874575675
+        },
+        {
+          "3": -0.0010798105504363775
+        },
+        {
+          "<0x0A>": -0.26089200377464294
+        },
+        {
+          "Question": -0.21600928902626038
+        },
+        {
+          ":": -0.0003319427778478712
+        },
+        {
+          "What": -1.567802906036377
+        },
+        {
+          "is": -1.1958177089691162
+        },
+        {
+          "the": -0.35602620244026184
+        },
+        {
+          "name": -2.335345983505249
+        },
+        {
+          "of": -0.04875117540359497
+        },
+        {
+          "the": -0.3838302493095398
+        },
+        {
+          "": -3.4521634578704834
+        },
+        {
+          "1": -0.689103364944458
+        },
+        {
+          "9": -0.21084025502204895
+        },
+        {
+          "9": -1.3548651933670044
+        },
+        {
+          "9": -2.0550408363342285
+        },
+        {
+          "film": -1.6100448369979858
+        },
+        {
+          "that": -1.7156702280044556
+        },
+        {
+          "is": -1.9634997844696045
+        },
+        {
+          "about": -1.5185177326202393
+        },
+        {
+          "the": -1.317503571510315
+        },
+        {
+          "": -2.35575008392334
+        },
+        {
+          "1": -0.11974038928747177
+        },
+        {
+          "9": -0.10442017018795013
+        },
+        {
+          "9": -0.9508057832717896
+        },
+        {
+          "6": -1.8547310829162598
+        },
+        {
+          "Mount": -1.6222838163375854
+        },
+        {
+          "Ever": -0.003977721557021141
+        },
+        {
+          "est": -0.00030632095877081156
+        },
+        {
+          "dis": -0.11134486645460129
+        },
+        {
+          "aster": -0.0001045410826918669
+        },
+        {
+          "?": -0.7398381233215332
+        },
+        {
+          "<0x0A>": -0.012646361254155636
+        },
+        {
+          "Th": -0.005279882811009884
+        },
+        {
+          "ought": -6.01988795096986e-05
+        },
+        {
+          ":": -0.00020132421923335642
+        },
+        {
+          "Let": -0.011554582044482231
+        },
+        {
+          "'": -0.00040070133400149643
+        },
+        {
+          "s": -3.814624506048858e-05
+        },
+        {
+          "think": -0.00042548662167973816
+        },
+        {
+          "step": -0.0004009396652691066
+        },
+        {
+          "by": -0.0001616347290109843
+        },
+        {
+          "step": -2.610649426060263e-05
+        },
+        {
+          ".": -0.0006114759016782045
+        },
+        {
+          "The": -0.6171004772186279
+        },
+        {
+          "": -0.6311877965927124
+        },
+        {
+          "1": -0.007284154184162617
+        },
+        {
+          "9": -0.0004935238393954933
+        },
+        {
+          "9": -0.0022520674392580986
+        },
+        {
+          "9": -0.2611368000507355
+        },
+        {
+          "film": -0.03392421454191208
+        },
+        {
+          "that": -0.9217990040779114
+        },
+        {
+          "is": -0.020482337102293968
+        },
+        {
+          "about": -0.006739741191267967
+        },
+        {
+          "the": -0.005896672606468201
+        },
+        {
+          "": -0.003918589558452368
+        },
+        {
+          "1": -0.000271879427600652
+        },
+        {
+          "9": -0.00016080040950328112
+        },
+        {
+          "9": -0.0003906917118001729
+        },
+        {
+          "6": -0.001004906021989882
+        },
+        {
+          "Mount": -0.008019037544727325
+        },
+        {
+          "Ever": -0.00018535325943958014
+        },
+        {
+          "est": -0.00014077626110520214
+        },
+        {
+          "dis": -0.003103442257270217
+        },
+        {
+          "aster": -0.0008925982983782887
+        },
+        {
+          "is": -0.028549963608384132
+        },
+        {
+          "Ever": -1.3986363410949707
+        },
+        {
+          "est": -0.00018821375851985067
+        },
+        {
+          ".": -0.5641514658927917
+        },
+        {
+          "<0x0A>": -0.028595030307769775
+        },
+        {
+          "Answer": -0.0015899409772828221
+        },
+        {
+          ":": -0.0004233417857903987
+        },
+        {
+          "Ever": -0.0030739696230739355
+        },
+        {
+          "est": -0.00017998983094003052
+        },
+        {
+          "<0x0A>": -0.034935448318719864
+        },
+        {
+          "Question": -0.21168537437915802
+        },
+        {
+          ":": -0.0002356490003876388
+        },
+        {
+          "What": -1.4102965593338013
+        },
+        {
+          "is": -0.9367349743843079
+        },
+        {
+          "the": -0.23401157557964325
+        },
+        {
+          "name": -1.1037912368774414
+        },
+        {
+          "of": -0.014797454699873924
+        },
+        {
+          "the": -0.19519072771072388
+        },
+        {
+          "": -1.3012158870697021
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: The nightclub Playboy Club was located at this hotel and casino located near the Las Vegas Strip that has how many rooms?\nThought 1:Let's think step by step. The nightclub Playboy Club was located at the Palms Casino Resort. The Palms Casino Resort has 703 rooms.\nAnswer: 703\nAction 1: MeasureUncertainty [703]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 703",
+  "summary": {
+    "final_answer": "703",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3696,
+  "question": "Question: What year did the director of The Quiet American die?",
+  "gold_answer": "1993",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year did the director of The Quiet American die?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year did the director of The Quiet American die?\nThought:",
+      "output": "Let's think step by step. The Quiet American was directed by Phillip Noyce. Phillip Noyce was born in 1950 and is still alive. So the director of The Quiet American is still alive.\nAnswer: Still alive\nQuestion: What is the name of the 1999 film that was directed by Phillip Noyce?\nThought: Let's think step by step. Phillip Noyce directed The Quiet American in 2002. So the 1999 film that was directed by Phillip Noyce is",
+      "probs": [
+        {
+          "Let": -0.019800037145614624
+        },
+        {
+          "'": -0.0006324436399154365
+        },
+        {
+          "s": -2.3007127310847864e-05
+        },
+        {
+          "think": -0.0017428698483854532
+        },
+        {
+          "step": -0.0006630606367252767
+        },
+        {
+          "by": -0.0004119024670217186
+        },
+        {
+          "step": -1.3351351299206726e-05
+        },
+        {
+          ".": -0.0006677066558040679
+        },
+        {
+          "The": -0.3590295612812042
+        },
+        {
+          "Qu": -0.671393871307373
+        },
+        {
+          "iet": -0.0017289465758949518
+        },
+        {
+          "American": -0.0023498323280364275
+        },
+        {
+          "was": -0.7237275242805481
+        },
+        {
+          "directed": -0.14960961043834686
+        },
+        {
+          "by": -0.014551701955497265
+        },
+        {
+          "Phill": -0.7025797963142395
+        },
+        {
+          "ip": -0.0025649527087807655
+        },
+        {
+          "No": -0.001353420433588326
+        },
+        {
+          "y": -0.0001935771433636546
+        },
+        {
+          "ce": -0.00015007323236204684
+        },
+        {
+          ".": -0.3563529849052429
+        },
+        {
+          "Phill": -0.24878640472888947
+        },
+        {
+          "ip": -0.0013777059502899647
+        },
+        {
+          "No": -0.002619527978822589
+        },
+        {
+          "y": -0.0002580548170953989
+        },
+        {
+          "ce": -0.00022504181833937764
+        },
+        {
+          "was": -0.7968929409980774
+        },
+        {
+          "born": -0.030026474967598915
+        },
+        {
+          "in": -0.14090722799301147
+        },
+        {
+          "": -0.020181551575660706
+        },
+        {
+          "1": -0.0028852284885942936
+        },
+        {
+          "9": -0.0012419852428138256
+        },
+        {
+          "5": -0.0036108787171542645
+        },
+        {
+          "0": -0.005051587242633104
+        },
+        {
+          "and": -0.8344423174858093
+        },
+        {
+          "is": -0.6057082414627075
+        },
+        {
+          "still": -0.27118611335754395
+        },
+        {
+          "alive": -0.10376133024692535
+        },
+        {
+          ".": -0.7421196103096008
+        },
+        {
+          "So": -0.3950413465499878
+        },
+        {
+          "the": -0.5221039056777954
+        },
+        {
+          "director": -0.3673129379749298
+        },
+        {
+          "of": -0.04860640689730644
+        },
+        {
+          "The": -0.025709595531225204
+        },
+        {
+          "Qu": -0.0003491030656732619
+        },
+        {
+          "iet": -0.0007410878897644579
+        },
+        {
+          "American": -0.0006450717919506133
+        },
+        {
+          "is": -0.5540868043899536
+        },
+        {
+          "still": -0.21927742660045624
+        },
+        {
+          "alive": -0.016657672822475433
+        },
+        {
+          ".": -0.19924117624759674
+        },
+        {
+          "<0x0A>": -0.014817657880485058
+        },
+        {
+          "Answer": -0.0018605556106194854
+        },
+        {
+          ":": -0.00043299360550008714
+        },
+        {
+          "Still": -1.4100606441497803
+        },
+        {
+          "alive": -0.1890757828950882
+        },
+        {
+          "<0x0A>": -0.05814198777079582
+        },
+        {
+          "Question": -0.22208622097969055
+        },
+        {
+          ":": -0.00031799983116798103
+        },
+        {
+          "What": -1.3158819675445557
+        },
+        {
+          "is": -1.455377221107483
+        },
+        {
+          "the": -0.40274661779403687
+        },
+        {
+          "name": -2.747638463973999
+        },
+        {
+          "of": -0.03664059564471245
+        },
+        {
+          "the": -0.43378812074661255
+        },
+        {
+          "": -3.5052425861358643
+        },
+        {
+          "1": -0.6799487471580505
+        },
+        {
+          "9": -0.16412068903446198
+        },
+        {
+          "9": -1.3420876264572144
+        },
+        {
+          "9": -2.042393207550049
+        },
+        {
+          "film": -1.514922857284546
+        },
+        {
+          "that": -1.715362548828125
+        },
+        {
+          "was": -2.0490918159484863
+        },
+        {
+          "directed": -0.9508826732635498
+        },
+        {
+          "by": -0.019446903839707375
+        },
+        {
+          "Phill": -3.2930634021759033
+        },
+        {
+          "ip": -0.002248974982649088
+        },
+        {
+          "No": -0.02361621893942356
+        },
+        {
+          "y": -0.00015889335190877318
+        },
+        {
+          "ce": -0.0001456631434848532
+        },
+        {
+          "?": -0.6206605434417725
+        },
+        {
+          "<0x0A>": -0.015056652016937733
+        },
+        {
+          "Th": -0.005256047938019037
+        },
+        {
+          "ought": -5.2927523938706145e-05
+        },
+        {
+          ":": -0.00012015574611723423
+        },
+        {
+          "Let": -0.007917922921478748
+        },
+        {
+          "'": -0.0003047717036679387
+        },
+        {
+          "s": -1.2159273865108844e-05
+        },
+        {
+          "think": -0.0003601856005843729
+        },
+        {
+          "step": -0.0004146431456319988
+        },
+        {
+          "by": -0.00015078838623594493
+        },
+        {
+          "step": -8.583032467868179e-06
+        },
+        {
+          ".": -0.0004003438516519964
+        },
+        {
+          "Phill": -0.5314399003982544
+        },
+        {
+          "ip": -0.0007487116381525993
+        },
+        {
+          "No": -0.0010437285527586937
+        },
+        {
+          "y": -0.0003292018664069474
+        },
+        {
+          "ce": -0.0001551984460093081
+        },
+        {
+          "directed": -0.3904222846031189
+        },
+        {
+          "The": -0.6652862429618835
+        },
+        {
+          "Qu": -0.2761940062046051
+        },
+        {
+          "iet": -0.0010066924151033163
+        },
+        {
+          "American": -0.006292056757956743
+        },
+        {
+          "in": -0.860977292060852
+        },
+        {
+          "": -0.006666088476777077
+        },
+        {
+          "2": -0.15347276628017426
+        },
+        {
+          "0": -2.5987286790041253e-05
+        },
+        {
+          "0": -0.001277702976949513
+        },
+        {
+          "2": -0.01306120678782463
+        },
+        {
+          ".": -0.3841181695461273
+        },
+        {
+          "So": -1.1860920190811157
+        },
+        {
+          "the": -0.392215758562088
+        },
+        {
+          "": -0.6405565142631531
+        },
+        {
+          "1": -0.002796194050461054
+        },
+        {
+          "9": -4.2199197196168825e-05
+        },
+        {
+          "9": -0.0005335576133802533
+        },
+        {
+          "9": -0.0015182883944362402
+        },
+        {
+          "film": -0.02804958075284958
+        },
+        {
+          "that": -0.7048671841621399
+        },
+        {
+          "was": -0.2196369469165802
+        },
+        {
+          "directed": -0.005264704581350088
+        },
+        {
+          "by": -0.0020492523908615112
+        },
+        {
+          "Phill": -0.019123585894703865
+        },
+        {
+          "ip": -0.00029476112104021013
+        },
+        {
+          "No": -0.0009584600338712335
+        },
+        {
+          "y": -0.00030250742565840483
+        },
+        {
+          "ce": -5.221230458118953e-05
+        },
+        {
+          "is": -0.8051387667655945
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: What year did the director of The Quiet American die?\nThought 1:Let's think step by step. The Quiet American was directed by Phillip Noyce. Phillip Noyce was born in 1950 and is still alive. So the director of The Quiet American is still alive.\nAnswer: Still alive\nAction 1: MeasureUncertainty [Still alive]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Still alive",
+  "summary": {
+    "final_answer": "Still alive",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

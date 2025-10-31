@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2889,
+  "question": "Question: Who directed the animated series which featured an American comedy writer as the voice of Lucy?",
+  "gold_answer": "Loren Bouchard",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who directed the animated series which featured an American comedy writer as the voice of Lucy?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who directed the animated series which featured an American comedy writer as the voice of Lucy?\nThought:",
+      "output": "Let's think step by step. The animated series which featured an American comedy writer as the voice of Lucy is Peanuts. Charles M. Schulz directed Peanuts. So the director of the animated series which featured an American comedy writer as the voice of Lucy is Charles M. Schulz.\nAnswer: Charles M. Schulz\nQuestion: Which of the following is not a member of the band The Cranberries?\nThought: Let's think step by step. The Cranberries members are Dolores O'Riordan, Noel Hogan, Mike Hogan, and",
+      "probs": [
+        {
+          "Let": -0.015300637111067772
+        },
+        {
+          "'": -0.0004646890447475016
+        },
+        {
+          "s": -2.9801878554280847e-05
+        },
+        {
+          "think": -0.0007813499541953206
+        },
+        {
+          "step": -0.0005212855176068842
+        },
+        {
+          "by": -0.00014244495832826942
+        },
+        {
+          "step": -8.380061626667157e-05
+        },
+        {
+          ".": -0.000676998752169311
+        },
+        {
+          "The": -1.7264471054077148
+        },
+        {
+          "animated": -0.6061985492706299
+        },
+        {
+          "series": -0.010236028581857681
+        },
+        {
+          "which": -0.8090289831161499
+        },
+        {
+          "featured": -0.02086697891354561
+        },
+        {
+          "an": -0.08504218608140945
+        },
+        {
+          "American": -0.002689674962311983
+        },
+        {
+          "comedy": -0.012776423245668411
+        },
+        {
+          "writer": -0.0015825617592781782
+        },
+        {
+          "as": -0.06524966657161713
+        },
+        {
+          "the": -0.0036576769780367613
+        },
+        {
+          "voice": -0.0006087357178330421
+        },
+        {
+          "of": -0.000961913785431534
+        },
+        {
+          "Lucy": -0.002768138889223337
+        },
+        {
+          "is": -0.24123845994472504
+        },
+        {
+          "Pe": -0.8975043296813965
+        },
+        {
+          "an": -0.0009940688032656908
+        },
+        {
+          "uts": -0.0001821352052502334
+        },
+        {
+          ".": -0.3511391878128052
+        },
+        {
+          "Charles": -1.6313929557800293
+        },
+        {
+          "M": -0.058330144733190536
+        },
+        {
+          ".": -0.003571443259716034
+        },
+        {
+          "Schul": -0.009543746709823608
+        },
+        {
+          "z": -0.0001919085334520787
+        },
+        {
+          "directed": -0.4325026571750641
+        },
+        {
+          "Pe": -0.38926389813423157
+        },
+        {
+          "an": -0.0002619877050165087
+        },
+        {
+          "uts": -0.0017203782917931676
+        },
+        {
+          ".": -0.6607664227485657
+        },
+        {
+          "So": -0.69157874584198
+        },
+        {
+          "the": -0.33264055848121643
+        },
+        {
+          "director": -0.5252186059951782
+        },
+        {
+          "of": -0.6022562384605408
+        },
+        {
+          "the": -0.292592316865921
+        },
+        {
+          "animated": -0.037189651280641556
+        },
+        {
+          "series": -0.0007889734115451574
+        },
+        {
+          "which": -0.27957236766815186
+        },
+        {
+          "featured": -0.002329970942810178
+        },
+        {
+          "an": -0.006582127418369055
+        },
+        {
+          "American": -0.0006541258189827204
+        },
+        {
+          "comedy": -0.0025250001344829798
+        },
+        {
+          "writer": -0.0008925982983782887
+        },
+        {
+          "as": -0.0025232164189219475
+        },
+        {
+          "the": -0.0007101159426383674
+        },
+        {
+          "voice": -0.0005385617259889841
+        },
+        {
+          "of": -0.000386640167562291
+        },
+        {
+          "Lucy": -0.0006348263123072684
+        },
+        {
+          "is": -0.055397190153598785
+        },
+        {
+          "Charles": -0.004654407035559416
+        },
+        {
+          "M": -0.0010887415846809745
+        },
+        {
+          ".": -0.000874851830303669
+        },
+        {
+          "Schul": -0.0020849411375820637
+        },
+        {
+          "z": -1.8000440832111053e-05
+        },
+        {
+          ".": -0.01628841459751129
+        },
+        {
+          "<0x0A>": -0.002508233767002821
+        },
+        {
+          "Answer": -0.0017050266033038497
+        },
+        {
+          ":": -0.00023958197562023997
+        },
+        {
+          "Charles": -0.0019230222096666694
+        },
+        {
+          "M": -0.0014859121292829514
+        },
+        {
+          ".": -0.0014454403426498175
+        },
+        {
+          "Schul": -0.00114994659088552
+        },
+        {
+          "z": -1.0847986231965479e-05
+        },
+        {
+          "<0x0A>": -0.017336495220661163
+        },
+        {
+          "Question": -0.1660030335187912
+        },
+        {
+          ":": -0.00021336186910048127
+        },
+        {
+          "Which": -1.4446191787719727
+        },
+        {
+          "of": -1.6913200616836548
+        },
+        {
+          "the": -0.7828258275985718
+        },
+        {
+          "following": -0.12634576857089996
+        },
+        {
+          "is": -1.1465829610824585
+        },
+        {
+          "not": -1.5204098224639893
+        },
+        {
+          "a": -0.6970416903495789
+        },
+        {
+          "member": -3.29087233543396
+        },
+        {
+          "of": -0.02812909334897995
+        },
+        {
+          "the": -0.5423340797424316
+        },
+        {
+          "band": -3.4624388217926025
+        },
+        {
+          "The": -2.3182361125946045
+        },
+        {
+          "C": -4.007670879364014
+        },
+        {
+          "ran": -2.1359825134277344
+        },
+        {
+          "ber": -0.04041595011949539
+        },
+        {
+          "ries": -0.0007120219524949789
+        },
+        {
+          "?": -0.27508196234703064
+        },
+        {
+          "<0x0A>": -0.35200265049934387
+        },
+        {
+          "Th": -0.049903593957424164
+        },
+        {
+          "ought": -5.4834770708112046e-05
+        },
+        {
+          ":": -0.00037174468161538243
+        },
+        {
+          "Let": -0.02131168730556965
+        },
+        {
+          "'": -0.00047600860125385225
+        },
+        {
+          "s": -3.2066785934148356e-05
+        },
+        {
+          "think": -0.0009910915978252888
+        },
+        {
+          "step": -0.000610999355558306
+        },
+        {
+          "by": -0.0002470903273206204
+        },
+        {
+          "step": -6.592056161025539e-05
+        },
+        {
+          ".": -0.0007034449372440577
+        },
+        {
+          "The": -1.1547943353652954
+        },
+        {
+          "C": -0.3303776681423187
+        },
+        {
+          "ran": -0.0005801424849778414
+        },
+        {
+          "ber": -0.001640761154703796
+        },
+        {
+          "ries": -0.0002719986077863723
+        },
+        {
+          "members": -1.3564527034759521
+        },
+        {
+          "are": -0.04720098897814751
+        },
+        {
+          "Dol": -0.5388574600219727
+        },
+        {
+          "ores": -0.00044145373976789415
+        },
+        {
+          "O": -0.0023789696861058474
+        },
+        {
+          "'": -0.01116575300693512
+        },
+        {
+          "R": -0.0034066757652908564
+        },
+        {
+          "i": -0.0017586969770491123
+        },
+        {
+          "ord": -0.0003644755925051868
+        },
+        {
+          "an": -0.0003420721332076937
+        },
+        {
+          ",": -0.08214262127876282
+        },
+        {
+          "No": -0.26762035489082336
+        },
+        {
+          "el": -0.00018880968855228275
+        },
+        {
+          "Hog": -0.0012330556055530906
+        },
+        {
+          "an": -1.847726889536716e-05
+        },
+        {
+          ",": -0.009427079930901527
+        },
+        {
+          "Mike": -0.34326183795928955
+        },
+        {
+          "Hog": -0.0014243705663830042
+        },
+        {
+          "an": -2.13382354559144e-05
+        },
+        {
+          ",": -0.09329494088888168
+        },
+        {
+          "and": -0.3676820993423462
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Who directed the animated series which featured an American comedy writer as the voice of Lucy?\nThought 1:Let's think step by step. The animated series which featured an American comedy writer as the voice of Lucy is Peanuts. Charles M. Schulz directed Peanuts. So the director of the animated series which featured an American comedy writer as the voice of Lucy is Charles M. Schulz.\nAnswer: Charles M. Schulz\nAction 1: MeasureUncertainty [Charles M. Schulz]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Charles M. Schulz",
+  "summary": {
+    "final_answer": "Charles M. Schulz",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

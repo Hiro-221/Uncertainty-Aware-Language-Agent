@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 166,
+  "question": "Question: Which came out first, Dinosaur or McFarland, USA",
+  "gold_answer": "Dinosaur",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which came out first, Dinosaur or McFarland, USA\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which came out first, Dinosaur or McFarland, USA\nThought:",
+      "output": "Let's think step by step. Dinosaur was released in 2000. McFarland, USA was released in 2015. 2000 (Dinosaur) < 2015 (McFarland, USA), so Dinosaur came out first.\nAnswer: Dinosaur\nQuestion: Which came out first, The Last of the Mohicans or The Last of the Mohicans\nThought: Let's think step by step. The Last of the Mohicans (1936 film) was released in 1936",
+      "probs": [
+        {
+          "Let": -0.010079083032906055
+        },
+        {
+          "'": -0.0015593523858115077
+        },
+        {
+          "s": -3.4450891689630225e-05
+        },
+        {
+          "think": -0.0015751824248582125
+        },
+        {
+          "step": -0.0008622265886515379
+        },
+        {
+          "by": -0.0007226239540614188
+        },
+        {
+          "step": -3.790783375734463e-05
+        },
+        {
+          ".": -0.0014694855781272054
+        },
+        {
+          "Din": -0.10059474408626556
+        },
+        {
+          "osa": -0.0007111880695447326
+        },
+        {
+          "ur": -0.004707088693976402
+        },
+        {
+          "was": -0.673954427242279
+        },
+        {
+          "released": -0.12535391747951508
+        },
+        {
+          "in": -0.5102357864379883
+        },
+        {
+          "": -0.17403389513492584
+        },
+        {
+          "2": -0.01696830987930298
+        },
+        {
+          "0": -0.0013399679446592927
+        },
+        {
+          "0": -0.005191061645746231
+        },
+        {
+          "0": -0.0034800940193235874
+        },
+        {
+          ".": -0.11190344393253326
+        },
+        {
+          "Mc": -0.015829263255000114
+        },
+        {
+          "F": -0.0013438966125249863
+        },
+        {
+          "ar": -0.0005895545473322272
+        },
+        {
+          "land": -0.00018726025882642716
+        },
+        {
+          ",": -0.010408877395093441
+        },
+        {
+          "USA": -0.0022600365336984396
+        },
+        {
+          "was": -0.03735250607132912
+        },
+        {
+          "released": -0.01203372236341238
+        },
+        {
+          "in": -0.0056349714286625385
+        },
+        {
+          "": -0.0033683013170957565
+        },
+        {
+          "2": -0.007126743905246258
+        },
+        {
+          "0": -6.806619057897478e-05
+        },
+        {
+          "1": -0.020953133702278137
+        },
+        {
+          "5": -0.03823992982506752
+        },
+        {
+          ".": -0.014511402696371078
+        },
+        {
+          "": -0.23765020072460175
+        },
+        {
+          "2": -0.0027491177897900343
+        },
+        {
+          "0": -0.00018571082910057157
+        },
+        {
+          "0": -0.02000664547085762
+        },
+        {
+          "0": -0.0012172202114015818
+        },
+        {
+          "(": -0.11019763350486755
+        },
+        {
+          "D": -0.0038202654104679823
+        },
+        {
+          "in": -0.0015128131490200758
+        },
+        {
+          "osa": -0.00041631137719377875
+        },
+        {
+          "ur": -0.0012861560098826885
+        },
+        {
+          ")": -0.001636119675822556
+        },
+        {
+          "<": -0.027195988222956657
+        },
+        {
+          "": -0.0024404525756835938
+        },
+        {
+          "2": -0.0004033228906337172
+        },
+        {
+          "0": -0.00015627116954419762
+        },
+        {
+          "1": -0.0017749997787177563
+        },
+        {
+          "5": -0.0018546062055975199
+        },
+        {
+          "(": -0.006454691290855408
+        },
+        {
+          "Mc": -0.00636384217068553
+        },
+        {
+          "F": -0.0004880429187323898
+        },
+        {
+          "ar": -0.0005395148764364421
+        },
+        {
+          "land": -0.0005383234238252044
+        },
+        {
+          ",": -0.00720486044883728
+        },
+        {
+          "USA": -0.0017576259560883045
+        },
+        {
+          "),": -0.06548450142145157
+        },
+        {
+          "so": -0.0066384971141815186
+        },
+        {
+          "Din": -0.030423883348703384
+        },
+        {
+          "osa": -0.0005265279905870557
+        },
+        {
+          "ur": -0.0005853846669197083
+        },
+        {
+          "came": -0.2952110767364502
+        },
+        {
+          "out": -0.009109129197895527
+        },
+        {
+          "first": -0.010880193673074245
+        },
+        {
+          ".": -0.010952475480735302
+        },
+        {
+          "<0x0A>": -0.0037873697001487017
+        },
+        {
+          "Answer": -0.004089208785444498
+        },
+        {
+          ":": -0.00080195686314255
+        },
+        {
+          "Din": -0.005994911305606365
+        },
+        {
+          "osa": -0.00015555603022221476
+        },
+        {
+          "ur": -0.0004493180604185909
+        },
+        {
+          "<0x0A>": -0.027311179786920547
+        },
+        {
+          "Question": -0.2533232569694519
+        },
+        {
+          ":": -0.000459565402707085
+        },
+        {
+          "Which": -1.253686547279358
+        },
+        {
+          "came": -1.919116497039795
+        },
+        {
+          "out": -0.1466696709394455
+        },
+        {
+          "first": -0.05316505208611488
+        },
+        {
+          ",": -0.05230910703539848
+        },
+        {
+          "The": -2.1283960342407227
+        },
+        {
+          "Last": -4.244254112243652
+        },
+        {
+          "of": -2.1569998264312744
+        },
+        {
+          "the": -0.7293439507484436
+        },
+        {
+          "Moh": -0.6708883047103882
+        },
+        {
+          "icans": -0.001077190856449306
+        },
+        {
+          "or": -0.4918566346168518
+        },
+        {
+          "The": -1.5230270624160767
+        },
+        {
+          "Last": -2.74985933303833
+        },
+        {
+          "of": -0.2837878167629242
+        },
+        {
+          "the": -0.048864591866731644
+        },
+        {
+          "Moh": -0.050901979207992554
+        },
+        {
+          "icans": -0.0012382942950353026
+        },
+        {
+          "<0x0A>": -0.6198073029518127
+        },
+        {
+          "Th": -0.006850328762084246
+        },
+        {
+          "ought": -3.969590397900902e-05
+        },
+        {
+          ":": -0.00015233787416946143
+        },
+        {
+          "Let": -0.007988526485860348
+        },
+        {
+          "'": -0.00030894274823367596
+        },
+        {
+          "s": -2.95634672511369e-05
+        },
+        {
+          "think": -0.00018869050836656243
+        },
+        {
+          "step": -0.00015341058315243572
+        },
+        {
+          "by": -0.00015031162183731794
+        },
+        {
+          "step": -0.00010287232726113871
+        },
+        {
+          ".": -0.0004349001101218164
+        },
+        {
+          "The": -0.059772685170173645
+        },
+        {
+          "Last": -0.02662830241024494
+        },
+        {
+          "of": -0.0004640932602342218
+        },
+        {
+          "the": -0.0006630606367252767
+        },
+        {
+          "Moh": -0.000714404450263828
+        },
+        {
+          "icans": -0.0011261318577453494
+        },
+        {
+          "(": -0.6795526742935181
+        },
+        {
+          "1": -0.13424955308437347
+        },
+        {
+          "9": -0.002848260570317507
+        },
+        {
+          "3": -1.1461248397827148
+        },
+        {
+          "6": -0.0472528412938118
+        },
+        {
+          "film": -0.09729739278554916
+        },
+        {
+          ")": -0.006338729523122311
+        },
+        {
+          "was": -0.09253593534231186
+        },
+        {
+          "released": -0.033623408526182175
+        },
+        {
+          "in": -0.014472747221589088
+        },
+        {
+          "": -0.005721501540392637
+        },
+        {
+          "1": -0.0009354744106531143
+        },
+        {
+          "9": -0.0003057250869460404
+        },
+        {
+          "3": -0.00460635032504797
+        },
+        {
+          "6": -0.0033365790732204914
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Which came out first, Dinosaur or McFarland, USA\nThought 1:Let's think step by step. Dinosaur was released in 2000. McFarland, USA was released in 2015. 2000 (Dinosaur) < 2015 (McFarland, USA), so Dinosaur came out first.\nAnswer: Dinosaur\nAction 1: MeasureUncertainty [Dinosaur]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Dinosaur",
+  "summary": {
+    "final_answer": "Dinosaur",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

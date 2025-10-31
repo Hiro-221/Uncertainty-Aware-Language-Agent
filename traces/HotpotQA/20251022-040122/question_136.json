@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 136,
+  "question": "Question: The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?",
+  "gold_answer": "Texas Tech University",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?\nThought:",
+      "output": "Let's think step by step. The 1974 Texas Tech Raiders football team represented Texas Tech University.\nAnswer: Texas Tech University\nQuestion: What is the name of the 1999 film directed by John Woo?\nThought: Let's think step by step. The 1999 film directed by John Woo is Mission: Impossible II.\nAnswer: Mission: Impossible II\nQuestion: What is the name of the 1999 film directed by John Woo?\nThought: Let's think step by step. The",
+      "probs": [
+        {
+          "Let": -0.01609347201883793
+        },
+        {
+          "'": -0.0004648081958293915
+        },
+        {
+          "s": -3.838465272565372e-05
+        },
+        {
+          "think": -0.0011951930355280638
+        },
+        {
+          "step": -0.0009489324293099344
+        },
+        {
+          "by": -0.00034397884155623615
+        },
+        {
+          "step": -1.6927575416048057e-05
+        },
+        {
+          ".": -0.000598251644987613
+        },
+        {
+          "The": -0.49022382497787476
+        },
+        {
+          "": -0.11422958970069885
+        },
+        {
+          "1": -0.002173206303268671
+        },
+        {
+          "9": -0.0005031750188209116
+        },
+        {
+          "7": -0.007028498221188784
+        },
+        {
+          "4": -0.014900930225849152
+        },
+        {
+          "Texas": -0.006771355867385864
+        },
+        {
+          "Te": -0.0011314902221783996
+        },
+        {
+          "ch": -2.884823152271565e-05
+        },
+        {
+          "Ra": -0.14373953640460968
+        },
+        {
+          "iders": -0.0005502378917299211
+        },
+        {
+          "football": -0.013716960325837135
+        },
+        {
+          "team": -0.003046635305508971
+        },
+        {
+          "represented": -0.3255215287208557
+        },
+        {
+          "Texas": -0.1060841754078865
+        },
+        {
+          "Te": -0.03655003383755684
+        },
+        {
+          "ch": -9.214453893946484e-05
+        },
+        {
+          "University": -0.04029195383191109
+        },
+        {
+          ".": -0.6525543332099915
+        },
+        {
+          "<0x0A>": -0.25067138671875
+        },
+        {
+          "Answer": -0.002506569027900696
+        },
+        {
+          ":": -0.00026556302327662706
+        },
+        {
+          "Texas": -0.003675611689686775
+        },
+        {
+          "Te": -0.0009218971827067435
+        },
+        {
+          "ch": -1.4066597032069694e-05
+        },
+        {
+          "University": -0.008626339957118034
+        },
+        {
+          "<0x0A>": -0.024110563099384308
+        },
+        {
+          "Question": -0.2042863965034485
+        },
+        {
+          ":": -0.00026901919045485556
+        },
+        {
+          "What": -1.3569642305374146
+        },
+        {
+          "is": -1.237094521522522
+        },
+        {
+          "the": -0.3768762946128845
+        },
+        {
+          "name": -2.4458436965942383
+        },
+        {
+          "of": -0.048773087561130524
+        },
+        {
+          "the": -0.462898313999176
+        },
+        {
+          "": -2.9390463829040527
+        },
+        {
+          "1": -0.6391796469688416
+        },
+        {
+          "9": -0.1764393299818039
+        },
+        {
+          "9": -1.4778016805648804
+        },
+        {
+          "9": -2.092433214187622
+        },
+        {
+          "film": -1.6477224826812744
+        },
+        {
+          "directed": -1.865320086479187
+        },
+        {
+          "by": -0.018497934564948082
+        },
+        {
+          "John": -3.6004090309143066
+        },
+        {
+          "W": -2.4176056385040283
+        },
+        {
+          "oo": -0.33857786655426025
+        },
+        {
+          "?": -1.052803874015808
+        },
+        {
+          "<0x0A>": -0.01823342591524124
+        },
+        {
+          "Th": -0.00882534496486187
+        },
+        {
+          "ought": -2.8132995794294402e-05
+        },
+        {
+          ":": -0.00022384998737834394
+        },
+        {
+          "Let": -0.0170897264033556
+        },
+        {
+          "'": -0.00037353215157054365
+        },
+        {
+          "s": -1.1205610462639015e-05
+        },
+        {
+          "think": -0.001982748508453369
+        },
+        {
+          "step": -0.0005156855913810432
+        },
+        {
+          "by": -0.00016711745411157608
+        },
+        {
+          "step": -2.0146166207268834e-05
+        },
+        {
+          ".": -0.0005306981038302183
+        },
+        {
+          "The": -1.2252899408340454
+        },
+        {
+          "": -0.6042795777320862
+        },
+        {
+          "1": -0.01119204144924879
+        },
+        {
+          "9": -0.0005729940603487194
+        },
+        {
+          "9": -0.006257110275328159
+        },
+        {
+          "9": -0.015492565929889679
+        },
+        {
+          "film": -0.03548670560121536
+        },
+        {
+          "directed": -0.037849172949790955
+        },
+        {
+          "by": -0.0010789770167320967
+        },
+        {
+          "John": -0.0024594792630523443
+        },
+        {
+          "W": -0.0008961713756434619
+        },
+        {
+          "oo": -0.0003057250869460404
+        },
+        {
+          "is": -0.03019905835390091
+        },
+        {
+          "Mission": -1.0560574531555176
+        },
+        {
+          ":": -0.07849781215190887
+        },
+        {
+          "Im": -0.0036707420367747545
+        },
+        {
+          "possible": -0.00042691652197390795
+        },
+        {
+          "II": -0.5731226801872253
+        },
+        {
+          ".": -0.14203985035419464
+        },
+        {
+          "<0x0A>": -0.026146583259105682
+        },
+        {
+          "Answer": -0.0013233008794486523
+        },
+        {
+          ":": -0.0002884448622353375
+        },
+        {
+          "Mission": -0.004354163073003292
+        },
+        {
+          ":": -0.014590824022889137
+        },
+        {
+          "Im": -0.001888517290353775
+        },
+        {
+          "possible": -2.2291887944447808e-05
+        },
+        {
+          "II": -0.010876655578613281
+        },
+        {
+          "<0x0A>": -0.02033061347901821
+        },
+        {
+          "Question": -0.17801254987716675
+        },
+        {
+          ":": -0.00020954797219019383
+        },
+        {
+          "What": -1.216304063796997
+        },
+        {
+          "is": -0.9007689356803894
+        },
+        {
+          "the": -0.21926727890968323
+        },
+        {
+          "name": -0.9709182977676392
+        },
+        {
+          "of": -0.013127801939845085
+        },
+        {
+          "the": -0.17507629096508026
+        },
+        {
+          "": -0.9784833192825317
+        },
+        {
+          "1": -0.4440118670463562
+        },
+        {
+          "9": -0.03130060434341431
+        },
+        {
+          "9": -0.6055344343185425
+        },
+        {
+          "9": -0.573689341545105
+        },
+        {
+          "film": -0.0971137285232544
+        },
+        {
+          "directed": -0.05698427930474281
+        },
+        {
+          "by": -0.0010526598198339343
+        },
+        {
+          "John": -0.5673466324806213
+        },
+        {
+          "W": -0.019265087321400642
+        },
+        {
+          "oo": -0.00098204065579921
+        },
+        {
+          "?": -0.0412215031683445
+        },
+        {
+          "<0x0A>": -0.006551927886903286
+        },
+        {
+          "Th": -0.02733948454260826
+        },
+        {
+          "ought": -8.702239938429557e-06
+        },
+        {
+          ":": -0.00019107422849629074
+        },
+        {
+          "Let": -0.010037541389465332
+        },
+        {
+          "'": -0.0005317704635672271
+        },
+        {
+          "s": -4.2437604861333966e-05
+        },
+        {
+          "think": -0.0007846852531656623
+        },
+        {
+          "step": -0.0003680505615193397
+        },
+        {
+          "by": -8.21318244561553e-05
+        },
+        {
+          "step": -1.6689286894688848e-06
+        },
+        {
+          ".": -0.0003090619284193963
+        },
+        {
+          "The": -0.08430121093988419
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?\nThought 1:Let's think step by step. The 1974 Texas Tech Raiders football team represented Texas Tech University.\nAnswer: Texas Tech University\nAction 1: MeasureUncertainty [Texas Tech University]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Texas Tech University",
+  "summary": {
+    "final_answer": "Texas Tech University",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

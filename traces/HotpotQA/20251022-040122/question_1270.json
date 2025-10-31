@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1270,
+  "question": "Question: Which star of The Human Stain was born in 1937?",
+  "gold_answer": "Anthony Hopkins",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which star of The Human Stain was born in 1937?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which star of The Human Stain was born in 1937?\nThought:",
+      "output": "Let's think step by step. Anthony Hopkins was born in 1937. Nicole Kidman was born in 1967. Ed Harris was born in 1950. Gary Sinise was born in 1955. So the star of The Human Stain who was born in 1937 is Anthony Hopkins.\nAnswer: Anthony Hopkins\nQuestion: Which of these is a character in the 1999 film The Matrix?\nThought: Let's think step by step. The Matrix is a 1999 film. The",
+      "probs": [
+        {
+          "Let": -0.01120441872626543
+        },
+        {
+          "'": -0.0003058442671317607
+        },
+        {
+          "s": -2.9444261599564925e-05
+        },
+        {
+          "think": -0.000699156429618597
+        },
+        {
+          "step": -0.00030763185350224376
+        },
+        {
+          "by": -0.00017093151109293103
+        },
+        {
+          "step": -4.458328112377785e-05
+        },
+        {
+          ".": -0.0003979606262873858
+        },
+        {
+          "Anthony": -1.2735531330108643
+        },
+        {
+          "Hop": -0.009312407113611698
+        },
+        {
+          "kins": -0.00039104922325350344
+        },
+        {
+          "was": -0.41779598593711853
+        },
+        {
+          "born": -0.029524052515625954
+        },
+        {
+          "in": -0.0315859392285347
+        },
+        {
+          "": -0.010563883930444717
+        },
+        {
+          "1": -0.0008068405441008508
+        },
+        {
+          "9": -0.000503770774230361
+        },
+        {
+          "3": -0.0018546062055975199
+        },
+        {
+          "7": -0.003095242427662015
+        },
+        {
+          ".": -0.19819511473178864
+        },
+        {
+          "N": -1.6990807056427002
+        },
+        {
+          "icole": -0.001320443581789732
+        },
+        {
+          "Kid": -0.0012042421149089932
+        },
+        {
+          "man": -0.00026425207033753395
+        },
+        {
+          "was": -0.17194552719593048
+        },
+        {
+          "born": -0.02732625976204872
+        },
+        {
+          "in": -0.004557698033750057
+        },
+        {
+          "": -0.0017376337200403214
+        },
+        {
+          "1": -0.0001928620331455022
+        },
+        {
+          "9": -0.0008026715368032455
+        },
+        {
+          "6": -0.0036435427609831095
+        },
+        {
+          "7": -0.0029081692919135094
+        },
+        {
+          ".": -0.030221033841371536
+        },
+        {
+          "Ed": -0.5875399708747864
+        },
+        {
+          "Harris": -0.0004820853646378964
+        },
+        {
+          "was": -0.014771848917007446
+        },
+        {
+          "born": -0.0017502479022368789
+        },
+        {
+          "in": -0.0016692051431164145
+        },
+        {
+          "": -0.000595034915022552
+        },
+        {
+          "1": -4.672895011026412e-05
+        },
+        {
+          "9": -6.5205356804654e-05
+        },
+        {
+          "5": -0.0023468590807169676
+        },
+        {
+          "0": -0.004292560275644064
+        },
+        {
+          ".": -0.010174551047384739
+        },
+        {
+          "Gary": -0.7811930179595947
+        },
+        {
+          "Sin": -0.0037254944909363985
+        },
+        {
+          "ise": -0.0007172634359449148
+        },
+        {
+          "was": -0.0048566944897174835
+        },
+        {
+          "born": -0.0012840130366384983
+        },
+        {
+          "in": -0.0013063953956589103
+        },
+        {
+          "": -0.00038211196078918874
+        },
+        {
+          "1": -0.0001961992384167388
+        },
+        {
+          "9": -0.00011836781777674332
+        },
+        {
+          "5": -0.0025578183121979237
+        },
+        {
+          "5": -0.004355705808848143
+        },
+        {
+          ".": -0.013713785447180271
+        },
+        {
+          "So": -0.8974146246910095
+        },
+        {
+          "the": -0.4080175459384918
+        },
+        {
+          "star": -0.4025249779224396
+        },
+        {
+          "of": -0.11327919363975525
+        },
+        {
+          "The": -0.041486408561468124
+        },
+        {
+          "Human": -0.0012980615720152855
+        },
+        {
+          "St": -0.0008918836829252541
+        },
+        {
+          "ain": -0.001711095916107297
+        },
+        {
+          "who": -0.24655583500862122
+        },
+        {
+          "was": -0.006947763729840517
+        },
+        {
+          "born": -0.0014636528212577105
+        },
+        {
+          "in": -0.001301514101214707
+        },
+        {
+          "": -0.0005427317810244858
+        },
+        {
+          "1": -9.202533692587167e-05
+        },
+        {
+          "9": -9.059495641849935e-05
+        },
+        {
+          "3": -0.0005122303264215589
+        },
+        {
+          "7": -0.0006784282741136849
+        },
+        {
+          "is": -0.14175963401794434
+        },
+        {
+          "Anthony": -0.0060303411446511745
+        },
+        {
+          "Hop": -0.00027736154152080417
+        },
+        {
+          "kins": -0.0003010773507412523
+        },
+        {
+          ".": -0.009279809892177582
+        },
+        {
+          "<0x0A>": -0.00304057402536273
+        },
+        {
+          "Answer": -0.0018668619450181723
+        },
+        {
+          ":": -0.0003526780928950757
+        },
+        {
+          "Anthony": -0.003185200970619917
+        },
+        {
+          "Hop": -0.000300958170555532
+        },
+        {
+          "kins": -9.345571743324399e-05
+        },
+        {
+          "<0x0A>": -0.01788453944027424
+        },
+        {
+          "Question": -0.20127707719802856
+        },
+        {
+          ":": -0.00025006983196362853
+        },
+        {
+          "Which": -1.2164194583892822
+        },
+        {
+          "of": -1.8742108345031738
+        },
+        {
+          "these": -0.8395475149154663
+        },
+        {
+          "is": -1.6365406513214111
+        },
+        {
+          "a": -1.107867956161499
+        },
+        {
+          "character": -3.5224251747131348
+        },
+        {
+          "in": -0.7783234715461731
+        },
+        {
+          "the": -1.2894569635391235
+        },
+        {
+          "": -2.060520887374878
+        },
+        {
+          "1": -0.6040908098220825
+        },
+        {
+          "9": -0.055797044187784195
+        },
+        {
+          "9": -1.1746400594711304
+        },
+        {
+          "9": -1.9889861345291138
+        },
+        {
+          "film": -0.6452184915542603
+        },
+        {
+          "The": -1.666654109954834
+        },
+        {
+          "Matrix": -2.552436590194702
+        },
+        {
+          "?": -0.188805490732193
+        },
+        {
+          "<0x0A>": -0.21862582862377167
+        },
+        {
+          "Th": -0.017064997926354408
+        },
+        {
+          "ought": -4.2199197196168825e-05
+        },
+        {
+          ":": -0.0002727136597968638
+        },
+        {
+          "Let": -0.013555972836911678
+        },
+        {
+          "'": -0.00028772983932867646
+        },
+        {
+          "s": -5.006777428206988e-06
+        },
+        {
+          "think": -0.0005192600074224174
+        },
+        {
+          "step": -0.0007034449372440577
+        },
+        {
+          "by": -0.00026222606538794935
+        },
+        {
+          "step": -9.417489309271332e-06
+        },
+        {
+          ".": -0.0007035640883259475
+        },
+        {
+          "The": -1.7999789714813232
+        },
+        {
+          "Matrix": -0.9650455713272095
+        },
+        {
+          "is": -1.2814185619354248
+        },
+        {
+          "a": -0.24519681930541992
+        },
+        {
+          "": -0.42009180784225464
+        },
+        {
+          "1": -0.0015714927576482296
+        },
+        {
+          "9": -0.00023993951617740095
+        },
+        {
+          "9": -0.0006951061659492552
+        },
+        {
+          "9": -0.0009205871028825641
+        },
+        {
+          "film": -0.6359057426452637
+        },
+        {
+          ".": -0.3516199588775635
+        },
+        {
+          "The": -1.9871007204055786
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Which star of The Human Stain was born in 1937?\nThought 1:Let's think step by step. Anthony Hopkins was born in 1937. Nicole Kidman was born in 1967. Ed Harris was born in 1950. Gary Sinise was born in 1955. So the star of The Human Stain who was born in 1937 is Anthony Hopkins.\nAnswer: Anthony Hopkins\nAction 1: MeasureUncertainty [Anthony Hopkins]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Anthony Hopkins",
+  "summary": {
+    "final_answer": "Anthony Hopkins",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

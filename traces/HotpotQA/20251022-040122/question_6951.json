@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6951,
+  "question": "Question: Drachen Fire was a roller coaster located behind which suspended coaster at Busch Gardens Williamsburg?",
+  "gold_answer": "Big Bad Wolf",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Drachen Fire was a roller coaster located behind which suspended coaster at Busch Gardens Williamsburg?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Drachen Fire was a roller coaster located behind which suspended coaster at Busch Gardens Williamsburg?\nThought:",
+      "output": "Let's think step by step. Drachen Fire was a roller coaster located behind Big Bad Wolf.\nAnswer: Big Bad Wolf\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of the same name is The Thomas Crown Affair.\nAnswer: The Thomas Crown Affair\nQuestion: What is the name of the 1999 film",
+      "probs": [
+        {
+          "Let": -0.009176105260848999
+        },
+        {
+          "'": -0.0004907834227196872
+        },
+        {
+          "s": -4.660974445869215e-05
+        },
+        {
+          "think": -0.0009491706150583923
+        },
+        {
+          "step": -0.0005660838796757162
+        },
+        {
+          "by": -0.00025388356880284846
+        },
+        {
+          "step": -6.949660019017756e-05
+        },
+        {
+          ".": -0.0005999195855110884
+        },
+        {
+          "Dra": -0.19199301302433014
+        },
+        {
+          "chen": -0.0006774752982892096
+        },
+        {
+          "Fire": -0.0057715196162462234
+        },
+        {
+          "was": -0.24621574580669403
+        },
+        {
+          "a": -0.2622625231742859
+        },
+        {
+          "roll": -0.06643310189247131
+        },
+        {
+          "er": -8.320462075062096e-05
+        },
+        {
+          "co": -0.002217336092144251
+        },
+        {
+          "aster": -1.4066597032069694e-05
+        },
+        {
+          "located": -0.12039237469434738
+        },
+        {
+          "behind": -0.11368348449468613
+        },
+        {
+          "Big": -0.7472169995307922
+        },
+        {
+          "Bad": -0.004255525302141905
+        },
+        {
+          "Wolf": -0.00013839241000823677
+        },
+        {
+          ".": -0.9169017672538757
+        },
+        {
+          "<0x0A>": -0.647053599357605
+        },
+        {
+          "Answer": -0.005315812770277262
+        },
+        {
+          ":": -0.0002755738969426602
+        },
+        {
+          "Big": -0.013080268166959286
+        },
+        {
+          "Bad": -0.0007583603146485984
+        },
+        {
+          "Wolf": -0.0004789874074049294
+        },
+        {
+          "<0x0A>": -0.034640245139598846
+        },
+        {
+          "Question": -0.18135036528110504
+        },
+        {
+          ":": -0.00033087024348787963
+        },
+        {
+          "What": -1.5214661359786987
+        },
+        {
+          "is": -1.2285242080688477
+        },
+        {
+          "the": -0.39921629428863525
+        },
+        {
+          "name": -2.5519492626190186
+        },
+        {
+          "of": -0.051586829125881195
+        },
+        {
+          "the": -0.44512224197387695
+        },
+        {
+          "": -3.5295567512512207
+        },
+        {
+          "1": -0.6959893703460693
+        },
+        {
+          "9": -0.20833595097064972
+        },
+        {
+          "9": -1.292862057685852
+        },
+        {
+          "9": -2.141824960708618
+        },
+        {
+          "film": -1.6553730964660645
+        },
+        {
+          "that": -1.8438602685928345
+        },
+        {
+          "is": -1.8951411247253418
+        },
+        {
+          "a": -1.2299070358276367
+        },
+        {
+          "re": -1.1530652046203613
+        },
+        {
+          "make": -0.03302844986319542
+        },
+        {
+          "of": -0.016921427100896835
+        },
+        {
+          "the": -0.7108941078186035
+        },
+        {
+          "": -0.2506403923034668
+        },
+        {
+          "1": -0.012596803717315197
+        },
+        {
+          "9": -0.002031526295468211
+        },
+        {
+          "6": -1.276881456375122
+        },
+        {
+          "9": -1.8936960697174072
+        },
+        {
+          "film": -0.345833957195282
+        },
+        {
+          "of": -1.3615056276321411
+        },
+        {
+          "the": -0.01987132616341114
+        },
+        {
+          "same": -0.0030019478872418404
+        },
+        {
+          "name": -0.027578404173254967
+        },
+        {
+          "?": -0.4634808897972107
+        },
+        {
+          "<0x0A>": -0.019447723403573036
+        },
+        {
+          "Th": -0.00677893403917551
+        },
+        {
+          "ought": -8.34461570775602e-06
+        },
+        {
+          ":": -0.00015937011630740017
+        },
+        {
+          "Let": -0.017783479765057564
+        },
+        {
+          "'": -0.00028761065914295614
+        },
+        {
+          "s": -1.811964830267243e-05
+        },
+        {
+          "think": -0.0011245838832110167
+        },
+        {
+          "step": -0.0009673921740613878
+        },
+        {
+          "by": -0.0002525725867599249
+        },
+        {
+          "step": -3.2305197237292305e-05
+        },
+        {
+          ".": -0.0006665153778158128
+        },
+        {
+          "The": -0.6352316737174988
+        },
+        {
+          "": -0.35908934473991394
+        },
+        {
+          "1": -0.01349575724452734
+        },
+        {
+          "9": -0.00040165462996810675
+        },
+        {
+          "9": -0.41418230533599854
+        },
+        {
+          "9": -0.002774439286440611
+        },
+        {
+          "film": -0.08871191740036011
+        },
+        {
+          "that": -0.8938767910003662
+        },
+        {
+          "is": -0.00882877130061388
+        },
+        {
+          "a": -0.00911420863121748
+        },
+        {
+          "re": -0.002198542468249798
+        },
+        {
+          "make": -0.0004101150552742183
+        },
+        {
+          "of": -0.0032194233499467373
+        },
+        {
+          "the": -0.020189963281154633
+        },
+        {
+          "": -0.0021808191668242216
+        },
+        {
+          "1": -0.00032455421751365066
+        },
+        {
+          "9": -0.00016783259343355894
+        },
+        {
+          "6": -0.004954323638230562
+        },
+        {
+          "9": -0.0015274535398930311
+        },
+        {
+          "film": -0.004329000134021044
+        },
+        {
+          "of": -0.09269306063652039
+        },
+        {
+          "the": -0.0019483646610751748
+        },
+        {
+          "same": -0.0003300360403954983
+        },
+        {
+          "name": -0.0010982679668813944
+        },
+        {
+          "is": -0.027359317988157272
+        },
+        {
+          "The": -0.7390813827514648
+        },
+        {
+          "Thomas": -0.22941315174102783
+        },
+        {
+          "Crown": -0.0013228246243670583
+        },
+        {
+          "Aff": -0.0008364992681890726
+        },
+        {
+          "air": -0.0006187431863509119
+        },
+        {
+          ".": -0.13058865070343018
+        },
+        {
+          "<0x0A>": -0.0189344584941864
+        },
+        {
+          "Answer": -0.0017804736271500587
+        },
+        {
+          ":": -0.0003000047872774303
+        },
+        {
+          "The": -0.006045981775969267
+        },
+        {
+          "Thomas": -0.00025281094713136554
+        },
+        {
+          "Crown": -0.0002806984703056514
+        },
+        {
+          "Aff": -0.00017331528943032026
+        },
+        {
+          "air": -1.2636104656849056e-05
+        },
+        {
+          "<0x0A>": -0.03798472136259079
+        },
+        {
+          "Question": -0.20875921845436096
+        },
+        {
+          ":": -0.00024232311989180744
+        },
+        {
+          "What": -1.3514350652694702
+        },
+        {
+          "is": -1.036836862564087
+        },
+        {
+          "the": -0.24119772017002106
+        },
+        {
+          "name": -1.1195335388183594
+        },
+        {
+          "of": -0.01663692109286785
+        },
+        {
+          "the": -0.18234862387180328
+        },
+        {
+          "": -1.2701246738433838
+        },
+        {
+          "1": -0.39939478039741516
+        },
+        {
+          "9": -0.019154226407408714
+        },
+        {
+          "9": -0.5010941028594971
+        },
+        {
+          "9": -0.4946155548095703
+        },
+        {
+          "film": -0.0562625527381897
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Drachen Fire was a roller coaster located behind which suspended coaster at Busch Gardens Williamsburg?\nThought 1:Let's think step by step. Drachen Fire was a roller coaster located behind Big Bad Wolf.\nAnswer: Big Bad Wolf\nAction 1: MeasureUncertainty [Big Bad Wolf]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Big Bad Wolf",
+  "summary": {
+    "final_answer": "Big Bad Wolf",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4282,
+  "question": "Question: \"The Empire Builder\"'s Columbia River Subdivision was part of which line?",
+  "gold_answer": "Great Northern Railway",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: \"The Empire Builder\"'s Columbia River Subdivision was part of which line?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: \"The Empire Builder\"'s Columbia River Subdivision was part of which line?\nThought:",
+      "output": "Let's think step by step. \"The Empire Builder\"'s Columbia River Subdivision was part of the Empire Builder.\nAnswer: Empire Builder\nQuestion: Which of the following is a nickname of the 1990s?\nThought: Let's think step by step. The 1990s is also known as the Nineties.\nAnswer: Nineties\nQuestion: Which of the following is a nickname of the 1990s?\nThought: Let's think step by step. The 1990s",
+      "probs": [
+        {
+          "Let": -0.008931330405175686
+        },
+        {
+          "'": -0.0003195490571670234
+        },
+        {
+          "s": -4.029192859889008e-05
+        },
+        {
+          "think": -0.0009099871967919171
+        },
+        {
+          "step": -0.0005053196800872684
+        },
+        {
+          "by": -0.0003364712174516171
+        },
+        {
+          "step": -0.00024577934527769685
+        },
+        {
+          ".": -0.0008824745309539139
+        },
+        {
+          "\"": -0.6128529906272888
+        },
+        {
+          "The": -0.005025255959481001
+        },
+        {
+          "Empire": -0.0014513921923935413
+        },
+        {
+          "Bu": -0.0005172345554456115
+        },
+        {
+          "ilder": -1.156323378381785e-05
+        },
+        {
+          "\"": -0.008451292291283607
+        },
+        {
+          "'": -0.26724299788475037
+        },
+        {
+          "s": -0.0007205988513305783
+        },
+        {
+          "Columbia": -0.16811321675777435
+        },
+        {
+          "River": -0.0037098173052072525
+        },
+        {
+          "Sub": -0.004257187247276306
+        },
+        {
+          "div": -0.00021324267436284572
+        },
+        {
+          "ision": -0.0003734129713848233
+        },
+        {
+          "was": -0.2282038927078247
+        },
+        {
+          "part": -0.10275403410196304
+        },
+        {
+          "of": -0.0016488541150465608
+        },
+        {
+          "the": -0.9338514804840088
+        },
+        {
+          "Empire": -1.1533215045928955
+        },
+        {
+          "Bu": -0.004288405645638704
+        },
+        {
+          "ilder": -2.1457441107486375e-05
+        },
+        {
+          ".": -0.8294988870620728
+        },
+        {
+          "<0x0A>": -0.1083405613899231
+        },
+        {
+          "Answer": -0.002856937935575843
+        },
+        {
+          ":": -0.00034874555421993136
+        },
+        {
+          "Empire": -0.08258900046348572
+        },
+        {
+          "Bu": -0.0010792152024805546
+        },
+        {
+          "ilder": -6.818538531661034e-05
+        },
+        {
+          "<0x0A>": -0.038648996502161026
+        },
+        {
+          "Question": -0.1923818588256836
+        },
+        {
+          ":": -0.0003296785580459982
+        },
+        {
+          "Which": -1.47769296169281
+        },
+        {
+          "of": -1.8054172992706299
+        },
+        {
+          "the": -0.8996546268463135
+        },
+        {
+          "following": -0.1193723976612091
+        },
+        {
+          "is": -1.0607786178588867
+        },
+        {
+          "a": -1.476026177406311
+        },
+        {
+          "nick": -3.694486379623413
+        },
+        {
+          "name": -0.005890391301363707
+        },
+        {
+          "of": -0.6822910904884338
+        },
+        {
+          "the": -1.7384421825408936
+        },
+        {
+          "": -2.8285152912139893
+        },
+        {
+          "1": -0.9076391458511353
+        },
+        {
+          "9": -0.5625444650650024
+        },
+        {
+          "9": -1.5923182964324951
+        },
+        {
+          "0": -1.9823774099349976
+        },
+        {
+          "s": -1.6051639318466187
+        },
+        {
+          "?": -2.7934300899505615
+        },
+        {
+          "<0x0A>": -1.053553819656372
+        },
+        {
+          "Th": -0.09183039516210556
+        },
+        {
+          "ought": -8.106198947643861e-06
+        },
+        {
+          ":": -0.0005142558366060257
+        },
+        {
+          "Let": -0.023490820080041885
+        },
+        {
+          "'": -0.0007147617870941758
+        },
+        {
+          "s": -2.6940935640595853e-05
+        },
+        {
+          "think": -0.0022593229077756405
+        },
+        {
+          "step": -0.0014282988850027323
+        },
+        {
+          "by": -8.940297266235575e-05
+        },
+        {
+          "step": -7.748573807475623e-06
+        },
+        {
+          ".": -0.0010245556477457285
+        },
+        {
+          "The": -0.8463852405548096
+        },
+        {
+          "": -0.5091750621795654
+        },
+        {
+          "1": -0.04135064780712128
+        },
+        {
+          "9": -0.002645209664478898
+        },
+        {
+          "9": -0.034646231681108475
+        },
+        {
+          "0": -0.002928851405158639
+        },
+        {
+          "s": -0.0058016241528093815
+        },
+        {
+          "is": -0.7742003202438354
+        },
+        {
+          "also": -1.0616041421890259
+        },
+        {
+          "known": -0.4816085696220398
+        },
+        {
+          "as": -0.010261987335979939
+        },
+        {
+          "the": -0.3380078971385956
+        },
+        {
+          "N": -1.1172003746032715
+        },
+        {
+          "inet": -0.6390599012374878
+        },
+        {
+          "ies": -0.00027092601521871984
+        },
+        {
+          ".": -0.6092128157615662
+        },
+        {
+          "<0x0A>": -0.28617507219314575
+        },
+        {
+          "Answer": -0.002656504511833191
+        },
+        {
+          ":": -0.00033396866638213396
+        },
+        {
+          "N": -0.1884460598230362
+        },
+        {
+          "inet": -0.001852583372965455
+        },
+        {
+          "ies": -0.00014959646796341985
+        },
+        {
+          "<0x0A>": -0.026626791805028915
+        },
+        {
+          "Question": -0.15897758305072784
+        },
+        {
+          ":": -0.00027926836628466845
+        },
+        {
+          "Which": -1.275802731513977
+        },
+        {
+          "of": -0.8938672542572021
+        },
+        {
+          "the": -0.14109845459461212
+        },
+        {
+          "following": -0.020522046834230423
+        },
+        {
+          "is": -0.44637787342071533
+        },
+        {
+          "a": -0.42269688844680786
+        },
+        {
+          "nick": -0.4433884024620056
+        },
+        {
+          "name": -0.0005123494775034487
+        },
+        {
+          "of": -0.020589197054505348
+        },
+        {
+          "the": -0.2983655631542206
+        },
+        {
+          "": -0.10871071368455887
+        },
+        {
+          "1": -0.19432242214679718
+        },
+        {
+          "9": -0.07952674478292465
+        },
+        {
+          "9": -0.597945511341095
+        },
+        {
+          "0": -0.009458845481276512
+        },
+        {
+          "s": -0.0024524631444364786
+        },
+        {
+          "?": -0.011496957391500473
+        },
+        {
+          "<0x0A>": -0.007222849875688553
+        },
+        {
+          "Th": -0.010744341649115086
+        },
+        {
+          "ought": -1.7881377516459906e-06
+        },
+        {
+          ":": -6.925819616299123e-05
+        },
+        {
+          "Let": -0.005248932633548975
+        },
+        {
+          "'": -0.00025293012731708586
+        },
+        {
+          "s": -7.748573807475623e-06
+        },
+        {
+          "think": -0.00035172473872080445
+        },
+        {
+          "step": -0.00018571082910057157
+        },
+        {
+          "by": -6.317892984952778e-05
+        },
+        {
+          "step": -1.4305104514278355e-06
+        },
+        {
+          ".": -0.00016497205069754273
+        },
+        {
+          "The": -0.09894586354494095
+        },
+        {
+          "": -0.03787040710449219
+        },
+        {
+          "1": -0.009902754798531532
+        },
+        {
+          "9": -0.0021407324820756912
+        },
+        {
+          "9": -0.010052410885691643
+        },
+        {
+          "0": -0.0003716255014296621
+        },
+        {
+          "s": -0.0007088055717758834
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: \"The Empire Builder\"'s Columbia River Subdivision was part of which line?\nThought 1:Let's think step by step. \"The Empire Builder\"'s Columbia River Subdivision was part of the Empire Builder.\nAnswer: Empire Builder\nAction 1: MeasureUncertainty [Empire Builder]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Empire Builder",
+  "summary": {
+    "final_answer": "Empire Builder",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

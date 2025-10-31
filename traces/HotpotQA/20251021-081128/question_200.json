@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 200,
+  "question": "Question: The 2000 British film Snatch was later adapted into a television series for what streaming service?",
+  "gold_answer": "Crackle",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 2000 British film Snatch was later adapted into a television series for what streaming service?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 2000 British film Snatch was later adapted into a television series for what streaming service?\nThought:",
+      "output": "Let's think step by step. Snatch (TV series) is a television series for Crackle.\nAnswer: Crackle\nQuestion: What is the name of the 2000 British film Snatch?\nThought: Let's think step by step. Snatch is a 2000 British film.\nAnswer: Snatch\nQuestion: What is the name of the 2000 British film Snatch?\nThought: Let's think step by step. Snatch is a 2000 British film.\nAnswer: Snatch\nQuestion:",
+      "probs": [
+        {
+          "Let": -0.015312141738831997
+        },
+        {
+          "'": -0.0009529816452413797
+        },
+        {
+          "s": -7.73638384998776e-05
+        },
+        {
+          "think": -0.0012979424791410565
+        },
+        {
+          "step": -0.0010181248653680086
+        },
+        {
+          "by": -0.00029869386344216764
+        },
+        {
+          "step": -5.566918844124302e-05
+        },
+        {
+          ".": -0.0005887205479666591
+        },
+        {
+          "Sn": -0.6957405805587769
+        },
+        {
+          "atch": -0.0004655231023207307
+        },
+        {
+          "(": -0.9810555577278137
+        },
+        {
+          "TV": -0.2643320858478546
+        },
+        {
+          "series": -0.012942713685333729
+        },
+        {
+          ")": -0.02271769754588604
+        },
+        {
+          "is": -0.3461723327636719
+        },
+        {
+          "a": -0.6705473065376282
+        },
+        {
+          "television": -1.1056698560714722
+        },
+        {
+          "series": -0.11219961196184158
+        },
+        {
+          "for": -1.023911714553833
+        },
+        {
+          "Cra": -0.644692599773407
+        },
+        {
+          "ck": -0.0005532164941541851
+        },
+        {
+          "le": -0.0003355178632773459
+        },
+        {
+          ".": -0.4104812443256378
+        },
+        {
+          "<0x0A>": -0.7699166536331177
+        },
+        {
+          "Answer": -0.0032613680232316256
+        },
+        {
+          ":": -0.0005062728887423873
+        },
+        {
+          "Cra": -0.005576648749411106
+        },
+        {
+          "ck": -6.961580220377073e-05
+        },
+        {
+          "le": -6.294052582234144e-05
+        },
+        {
+          "<0x0A>": -0.0270019993185997
+        },
+        {
+          "Question": -0.2231539487838745
+        },
+        {
+          ":": -0.00028951745480298996
+        },
+        {
+          "What": -1.4433987140655518
+        },
+        {
+          "is": -1.2701785564422607
+        },
+        {
+          "the": -0.379692018032074
+        },
+        {
+          "name": -2.606069564819336
+        },
+        {
+          "of": -0.05193456634879112
+        },
+        {
+          "the": -0.40186119079589844
+        },
+        {
+          "": -3.19003963470459
+        },
+        {
+          "2": -0.757171094417572
+        },
+        {
+          "0": -0.049500465393066406
+        },
+        {
+          "0": -0.6856242418289185
+        },
+        {
+          "0": -1.91715669631958
+        },
+        {
+          "British": -1.0781192779541016
+        },
+        {
+          "film": -0.04177079349756241
+        },
+        {
+          "Sn": -1.189070701599121
+        },
+        {
+          "atch": -0.0003995097358711064
+        },
+        {
+          "?": -0.7354998588562012
+        },
+        {
+          "<0x0A>": -0.007909880019724369
+        },
+        {
+          "Th": -0.015680117532610893
+        },
+        {
+          "ought": -6.663577369181439e-05
+        },
+        {
+          ":": -0.00020251607929822057
+        },
+        {
+          "Let": -0.029022419825196266
+        },
+        {
+          "'": -0.0006082591717131436
+        },
+        {
+          "s": -3.099393507000059e-05
+        },
+        {
+          "think": -0.0018189090769737959
+        },
+        {
+          "step": -0.000785280775744468
+        },
+        {
+          "by": -0.00016342257731594145
+        },
+        {
+          "step": -2.5033637939486653e-05
+        },
+        {
+          ".": -0.0006065912893973291
+        },
+        {
+          "Sn": -0.8065972924232483
+        },
+        {
+          "atch": -0.0006717570940963924
+        },
+        {
+          "is": -0.5494723320007324
+        },
+        {
+          "a": -0.6752052307128906
+        },
+        {
+          "": -0.1760493367910385
+        },
+        {
+          "2": -0.0006007535266689956
+        },
+        {
+          "0": -7.128461584215984e-05
+        },
+        {
+          "0": -0.0012205539969727397
+        },
+        {
+          "0": -0.0014329414116218686
+        },
+        {
+          "British": -0.022436467930674553
+        },
+        {
+          "film": -0.025085728615522385
+        },
+        {
+          ".": -0.1784505397081375
+        },
+        {
+          "<0x0A>": -0.06431223452091217
+        },
+        {
+          "Answer": -0.0024851649068295956
+        },
+        {
+          ":": -0.0002658013836480677
+        },
+        {
+          "Sn": -0.005229247268289328
+        },
+        {
+          "atch": -6.305972783593461e-05
+        },
+        {
+          "<0x0A>": -0.0448419563472271
+        },
+        {
+          "Question": -0.2702605724334717
+        },
+        {
+          ":": -0.0003575639275368303
+        },
+        {
+          "What": -1.2027500867843628
+        },
+        {
+          "is": -0.7957765460014343
+        },
+        {
+          "the": -0.17666414380073547
+        },
+        {
+          "name": -0.872078001499176
+        },
+        {
+          "of": -0.008845431730151176
+        },
+        {
+          "the": -0.1830252856016159
+        },
+        {
+          "": -1.140726089477539
+        },
+        {
+          "2": -0.24244160950183868
+        },
+        {
+          "0": -0.0038968592416495085
+        },
+        {
+          "0": -0.2952803671360016
+        },
+        {
+          "0": -0.26297733187675476
+        },
+        {
+          "British": -0.11206565797328949
+        },
+        {
+          "film": -0.027292968705296516
+        },
+        {
+          "Sn": -0.15670910477638245
+        },
+        {
+          "atch": -0.0007693191873840988
+        },
+        {
+          "?": -0.19265787303447723
+        },
+        {
+          "<0x0A>": -0.014817187562584877
+        },
+        {
+          "Th": -0.03244929388165474
+        },
+        {
+          "ought": -5.2927523938706145e-05
+        },
+        {
+          ":": -0.0003890234511345625
+        },
+        {
+          "Let": -0.020765403285622597
+        },
+        {
+          "'": -0.0005034133209846914
+        },
+        {
+          "s": -3.58813522325363e-05
+        },
+        {
+          "think": -0.001620647613890469
+        },
+        {
+          "step": -0.0006486457423307002
+        },
+        {
+          "by": -0.00010299152199877426
+        },
+        {
+          "step": -4.0531076592742465e-06
+        },
+        {
+          ".": -0.00042691652197390795
+        },
+        {
+          "Sn": -0.10787899047136307
+        },
+        {
+          "atch": -0.0011089849285781384
+        },
+        {
+          "is": -0.08640474826097488
+        },
+        {
+          "a": -0.030851764604449272
+        },
+        {
+          "": -0.018907086923718452
+        },
+        {
+          "2": -0.0018227167893201113
+        },
+        {
+          "0": -2.2649508537142538e-05
+        },
+        {
+          "0": -0.0011938833631575108
+        },
+        {
+          "0": -0.0022224506828933954
+        },
+        {
+          "British": -0.005856852978467941
+        },
+        {
+          "film": -0.002694192808121443
+        },
+        {
+          ".": -0.018919017165899277
+        },
+        {
+          "<0x0A>": -0.014556284062564373
+        },
+        {
+          "Answer": -0.0025668551679700613
+        },
+        {
+          ":": -0.00023803261865396053
+        },
+        {
+          "Sn": -0.006635299418121576
+        },
+        {
+          "atch": -0.00011205045302631333
+        },
+        {
+          "<0x0A>": -0.014831634238362312
+        },
+        {
+          "Question": -0.26895809173583984
+        },
+        {
+          ":": -0.00033825874561443925
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: The 2000 British film Snatch was later adapted into a television series for what streaming service?\nThought 1:Let's think step by step. Snatch (TV series) is a television series for Crackle.\nAnswer: Crackle\nAction 1: MeasureUncertainty [Crackle]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Crackle",
+  "summary": {
+    "final_answer": "Crackle",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

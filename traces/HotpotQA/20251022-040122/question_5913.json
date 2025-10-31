@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5913,
+  "question": "Question: Which continent have a distribution of both the Ternstroemia and Cussonia genus of plants? ",
+  "gold_answer": "Africa",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which continent have a distribution of both the Ternstroemia and Cussonia genus of plants? \nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which continent have a distribution of both the Ternstroemia and Cussonia genus of plants? \nThought:",
+      "output": "Let's think step by step. Ternstroemia is native to Asia, Africa, and the Americas. Cussonia is native to Africa. So the continent that have a distribution of both the Ternstroemia and Cussonia genus of plants is Africa.\nAnswer: Africa\nQuestion: Which of the following is a member of the genus Cussonia?\nThought: Let's think step by step. Cussonia is a genus of plants in the family Araliaceae. Cussonia spicata is a member of the genus Cussonia.",
+      "probs": [
+        {
+          "Let": -0.021116437390446663
+        },
+        {
+          "'": -0.0018820922123268247
+        },
+        {
+          "s": -8.904537389753386e-05
+        },
+        {
+          "think": -0.0015507827047258615
+        },
+        {
+          "step": -0.0010826685465872288
+        },
+        {
+          "by": -0.0003277718205936253
+        },
+        {
+          "step": -0.00016759421851020306
+        },
+        {
+          ".": -0.0009168949909508228
+        },
+        {
+          "T": -0.6092854142189026
+        },
+        {
+          "ern": -0.0012881800066679716
+        },
+        {
+          "st": -0.0013659204123541713
+        },
+        {
+          "ro": -0.0014467497821897268
+        },
+        {
+          "emia": -0.010629111900925636
+        },
+        {
+          "is": -1.1589919328689575
+        },
+        {
+          "native": -1.1587001085281372
+        },
+        {
+          "to": -0.04458877071738243
+        },
+        {
+          "Asia": -1.7008209228515625
+        },
+        {
+          ",": -0.7246737480163574
+        },
+        {
+          "Africa": -1.1849924325942993
+        },
+        {
+          ",": -0.1729988306760788
+        },
+        {
+          "and": -0.8825168609619141
+        },
+        {
+          "the": -1.506862998008728
+        },
+        {
+          "Amer": -0.21331626176834106
+        },
+        {
+          "icas": -0.0006435230607166886
+        },
+        {
+          ".": -0.22060413658618927
+        },
+        {
+          "C": -0.07047153264284134
+        },
+        {
+          "us": -0.001347587094642222
+        },
+        {
+          "son": -0.00019739109848160297
+        },
+        {
+          "ia": -0.0010487301042303443
+        },
+        {
+          "is": -0.07355450838804245
+        },
+        {
+          "native": -0.1195831149816513
+        },
+        {
+          "to": -0.03466108813881874
+        },
+        {
+          "Africa": -0.3842521905899048
+        },
+        {
+          ".": -1.058411717414856
+        },
+        {
+          "So": -0.602043628692627
+        },
+        {
+          "the": -0.8507188558578491
+        },
+        {
+          "continent": -0.5949795842170715
+        },
+        {
+          "that": -1.401708960533142
+        },
+        {
+          "have": -0.3780517280101776
+        },
+        {
+          "a": -0.10592270642518997
+        },
+        {
+          "distribution": -0.0036480561830103397
+        },
+        {
+          "of": -0.005924877244979143
+        },
+        {
+          "both": -0.026021383702754974
+        },
+        {
+          "the": -0.16743001341819763
+        },
+        {
+          "T": -0.014952722936868668
+        },
+        {
+          "ern": -0.0002315968304174021
+        },
+        {
+          "st": -0.00040820849244482815
+        },
+        {
+          "ro": -0.0006264869589358568
+        },
+        {
+          "emia": -0.0005119920242577791
+        },
+        {
+          "and": -0.0026513920165598392
+        },
+        {
+          "C": -0.002528686309233308
+        },
+        {
+          "us": -0.00019500737835187465
+        },
+        {
+          "son": -0.00018142008048016578
+        },
+        {
+          "ia": -0.0002503081923350692
+        },
+        {
+          "genus": -0.04559110477566719
+        },
+        {
+          "of": -0.01528361439704895
+        },
+        {
+          "plants": -0.004227511119097471
+        },
+        {
+          "is": -0.11591558903455734
+        },
+        {
+          "Africa": -0.04586316645145416
+        },
+        {
+          ".": -0.0422775000333786
+        },
+        {
+          "<0x0A>": -0.03627829998731613
+        },
+        {
+          "Answer": -0.004488393664360046
+        },
+        {
+          ":": -0.0007501410436816514
+        },
+        {
+          "Africa": -0.004228223580867052
+        },
+        {
+          "<0x0A>": -0.032882772386074066
+        },
+        {
+          "Question": -0.2715214490890503
+        },
+        {
+          ":": -0.0003665013937279582
+        },
+        {
+          "Which": -1.3079960346221924
+        },
+        {
+          "of": -1.8623368740081787
+        },
+        {
+          "the": -0.671890139579773
+        },
+        {
+          "following": -0.15814818441867828
+        },
+        {
+          "is": -1.239983081817627
+        },
+        {
+          "a": -1.451128602027893
+        },
+        {
+          "member": -3.9031167030334473
+        },
+        {
+          "of": -0.016185903921723366
+        },
+        {
+          "the": -0.3650989532470703
+        },
+        {
+          "genus": -2.000303268432617
+        },
+        {
+          "C": -3.148728370666504
+        },
+        {
+          "us": -1.1010818481445312
+        },
+        {
+          "son": -0.017840158194303513
+        },
+        {
+          "ia": -0.0013613966293632984
+        },
+        {
+          "?": -0.4075159430503845
+        },
+        {
+          "<0x0A>": -0.9161406755447388
+        },
+        {
+          "Th": -0.023044632747769356
+        },
+        {
+          "ought": -8.797258487902582e-05
+        },
+        {
+          ":": -0.000526289688423276
+        },
+        {
+          "Let": -0.018065085634589195
+        },
+        {
+          "'": -0.00062851223628968
+        },
+        {
+          "s": -9.941560711013153e-05
+        },
+        {
+          "think": -0.0018850667402148247
+        },
+        {
+          "step": -0.0005413020844571292
+        },
+        {
+          "by": -0.00025686301523819566
+        },
+        {
+          "step": -0.0006475735572166741
+        },
+        {
+          ".": -0.0006304183625616133
+        },
+        {
+          "C": -0.45562341809272766
+        },
+        {
+          "us": -0.12680403888225555
+        },
+        {
+          "son": -0.0013159195659682155
+        },
+        {
+          "ia": -0.00580956507474184
+        },
+        {
+          "is": -1.6247584819793701
+        },
+        {
+          "a": -0.5023336410522461
+        },
+        {
+          "genus": -0.09171837568283081
+        },
+        {
+          "of": -0.12086088955402374
+        },
+        {
+          "plants": -1.0750350952148438
+        },
+        {
+          "in": -1.4286675453186035
+        },
+        {
+          "the": -0.05484912917017937
+        },
+        {
+          "family": -0.7009812593460083
+        },
+        {
+          "Ar": -0.02106134407222271
+        },
+        {
+          "alia": -0.0003271759778726846
+        },
+        {
+          "ceae": -0.003820740384981036
+        },
+        {
+          ".": -0.36264365911483765
+        },
+        {
+          "C": -1.0062541961669922
+        },
+        {
+          "us": -0.19043861329555511
+        },
+        {
+          "son": -0.0018825681181624532
+        },
+        {
+          "ia": -0.005544047802686691
+        },
+        {
+          "sp": -1.8097243309020996
+        },
+        {
+          "ic": -0.011243319138884544
+        },
+        {
+          "ata": -0.002072450239211321
+        },
+        {
+          "is": -0.40223705768585205
+        },
+        {
+          "a": -0.1605783849954605
+        },
+        {
+          "member": -0.8325660228729248
+        },
+        {
+          "of": -0.011234831996262074
+        },
+        {
+          "the": -0.2324894368648529
+        },
+        {
+          "genus": -0.10779733210802078
+        },
+        {
+          "C": -0.012476607225835323
+        },
+        {
+          "us": -0.00020346954988781363
+        },
+        {
+          "son": -0.00016592556494288146
+        },
+        {
+          "ia": -4.827859811484814e-05
+        },
+        {
+          ".": -0.21551604568958282
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Which continent have a distribution of both the Ternstroemia and Cussonia genus of plants? \nThought 1:Let's think step by step. Ternstroemia is native to Asia, Africa, and the Americas. Cussonia is native to Africa. So the continent that have a distribution of both the Ternstroemia and Cussonia genus of plants is Africa.\nAnswer: Africa\nAction 1: MeasureUncertainty [Africa]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Africa",
+  "summary": {
+    "final_answer": "Africa",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 807,
+  "question": "Question: Alfie Allen played Theon Greyjoy on which show?",
+  "gold_answer": "Game of Thrones",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Alfie Allen played Theon Greyjoy on which show?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Alfie Allen played Theon Greyjoy on which show?\nThought:",
+      "output": "Let's think step by step. Alfie Allen played Theon Greyjoy on Game of Thrones.\nAnswer: Game of Thrones\nQuestion: Which of these is a character in the 1999 film \"The Matrix\"?\nThought: Let's think step by step. The Matrix is a 1999 film. The characters in The Matrix are Neo, Morpheus, Trinity, Cypher, Agent Smith, Tank, Mouse, Switch, Apoc, Dozer, and Mr. Anderson. So the characters in the 1999 film The",
+      "probs": [
+        {
+          "Let": -0.013197686523199081
+        },
+        {
+          "'": -0.00040820849244482815
+        },
+        {
+          "s": -2.253030106658116e-05
+        },
+        {
+          "think": -0.0008956949459388852
+        },
+        {
+          "step": -0.0005391574813984334
+        },
+        {
+          "by": -0.0002530493075028062
+        },
+        {
+          "step": -0.004390481859445572
+        },
+        {
+          ".": -0.0005976559477858245
+        },
+        {
+          "Alf": -0.16583095490932465
+        },
+        {
+          "ie": -0.0009684640099294484
+        },
+        {
+          "Allen": -0.002981505123898387
+        },
+        {
+          "played": -0.2843782603740692
+        },
+        {
+          "The": -0.08639446645975113
+        },
+        {
+          "on": -0.0017128810286521912
+        },
+        {
+          "Grey": -0.002429868560284376
+        },
+        {
+          "jo": -0.00029702542815357447
+        },
+        {
+          "y": -0.00011598391574807465
+        },
+        {
+          "on": -0.13079294562339783
+        },
+        {
+          "Game": -0.25550752878189087
+        },
+        {
+          "of": -0.005732050631195307
+        },
+        {
+          "Th": -0.0023074925411492586
+        },
+        {
+          "ron": -0.001988935051485896
+        },
+        {
+          "es": -3.7431014789035544e-05
+        },
+        {
+          ".": -0.14494341611862183
+        },
+        {
+          "<0x0A>": -0.20032604038715363
+        },
+        {
+          "Answer": -0.0022606311831623316
+        },
+        {
+          ":": -0.0002681849291548133
+        },
+        {
+          "Game": -0.008087033405900002
+        },
+        {
+          "of": -0.0016536145703867078
+        },
+        {
+          "Th": -0.0005963454605080187
+        },
+        {
+          "ron": -0.0013991338200867176
+        },
+        {
+          "es": -0.00011169286881340668
+        },
+        {
+          "<0x0A>": -0.017120545729994774
+        },
+        {
+          "Question": -0.18476973474025726
+        },
+        {
+          ":": -0.0003477922291494906
+        },
+        {
+          "Which": -1.4615402221679688
+        },
+        {
+          "of": -1.8229286670684814
+        },
+        {
+          "these": -0.8641930222511292
+        },
+        {
+          "is": -1.43539559841156
+        },
+        {
+          "a": -1.1100894212722778
+        },
+        {
+          "character": -3.6717705726623535
+        },
+        {
+          "in": -0.9266952872276306
+        },
+        {
+          "the": -1.211671233177185
+        },
+        {
+          "": -2.2164340019226074
+        },
+        {
+          "1": -0.7007931470870972
+        },
+        {
+          "9": -0.04724203795194626
+        },
+        {
+          "9": -1.141831874847412
+        },
+        {
+          "9": -2.045571804046631
+        },
+        {
+          "film": -0.6842362284660339
+        },
+        {
+          "\"": -1.68242609500885
+        },
+        {
+          "The": -1.4854658842086792
+        },
+        {
+          "Matrix": -1.8700804710388184
+        },
+        {
+          "\"?": -0.317942351102829
+        },
+        {
+          "<0x0A>": -0.2085801213979721
+        },
+        {
+          "Th": -0.04664989560842514
+        },
+        {
+          "ought": -0.00010442188795423135
+        },
+        {
+          ":": -0.0005855038180015981
+        },
+        {
+          "Let": -0.020747888833284378
+        },
+        {
+          "'": -0.0006095697171986103
+        },
+        {
+          "s": -5.495397272170521e-05
+        },
+        {
+          "think": -0.003931769635528326
+        },
+        {
+          "step": -0.0011695933062583208
+        },
+        {
+          "by": -0.0004893536097370088
+        },
+        {
+          "step": -5.9126061387360096e-05
+        },
+        {
+          ".": -0.0011131525970995426
+        },
+        {
+          "The": -1.5870481729507446
+        },
+        {
+          "Matrix": -0.7714264392852783
+        },
+        {
+          "is": -0.9480063915252686
+        },
+        {
+          "a": -0.1674216389656067
+        },
+        {
+          "": -0.3347744345664978
+        },
+        {
+          "1": -0.002253851620480418
+        },
+        {
+          "9": -0.00020358874462544918
+        },
+        {
+          "9": -0.0008532935753464699
+        },
+        {
+          "9": -0.0011381583753973246
+        },
+        {
+          "film": -0.8080357313156128
+        },
+        {
+          ".": -0.43885600566864014
+        },
+        {
+          "The": -1.9590517282485962
+        },
+        {
+          "characters": -1.3935819864273071
+        },
+        {
+          "in": -0.6063925623893738
+        },
+        {
+          "The": -0.6922387480735779
+        },
+        {
+          "Matrix": -0.001807366730645299
+        },
+        {
+          "are": -0.08306985348463058
+        },
+        {
+          "Ne": -0.49492692947387695
+        },
+        {
+          "o": -0.0001823735801735893
+        },
+        {
+          ",": -0.06056751310825348
+        },
+        {
+          "Mor": -0.5931781530380249
+        },
+        {
+          "phe": -0.00098204065579921
+        },
+        {
+          "us": -0.0005843124235980213
+        },
+        {
+          ",": -0.00624869903549552
+        },
+        {
+          "Tr": -0.14705954492092133
+        },
+        {
+          "inity": -0.0007159530650824308
+        },
+        {
+          ",": -0.020245805382728577
+        },
+        {
+          "Cy": -0.7846776843070984
+        },
+        {
+          "pher": -0.0005837167263962328
+        },
+        {
+          ",": -0.024057844653725624
+        },
+        {
+          "Agent": -1.0054219961166382
+        },
+        {
+          "Smith": -0.01144097838550806
+        },
+        {
+          ",": -0.041671548038721085
+        },
+        {
+          "T": -0.9286941289901733
+        },
+        {
+          "ank": -6.532455881824717e-05
+        },
+        {
+          ",": -0.024546852335333824
+        },
+        {
+          "Mouse": -1.1242756843566895
+        },
+        {
+          ",": -0.01980038732290268
+        },
+        {
+          "Switch": -1.0793856382369995
+        },
+        {
+          ",": -0.02310054749250412
+        },
+        {
+          "Ap": -0.23601911962032318
+        },
+        {
+          "oc": -0.00255437009036541
+        },
+        {
+          ",": -0.013323207385838032
+        },
+        {
+          "Do": -0.8362314701080322
+        },
+        {
+          "zer": -8.987976616481319e-05
+        },
+        {
+          ",": -0.036168619990348816
+        },
+        {
+          "and": -1.1147147417068481
+        },
+        {
+          "Mr": -1.8875690698623657
+        },
+        {
+          ".": -0.022940831258893013
+        },
+        {
+          "Anderson": -1.0375537872314453
+        },
+        {
+          ".": -0.05788427218794823
+        },
+        {
+          "So": -1.3134698867797852
+        },
+        {
+          "the": -0.5343249440193176
+        },
+        {
+          "characters": -0.9925048351287842
+        },
+        {
+          "in": -0.12167418003082275
+        },
+        {
+          "the": -0.653648316860199
+        },
+        {
+          "": -0.027430418878793716
+        },
+        {
+          "1": -0.000567275274079293
+        },
+        {
+          "9": -3.5523738915799186e-05
+        },
+        {
+          "9": -0.00036376056959852576
+        },
+        {
+          "9": -0.0003135904553346336
+        },
+        {
+          "film": -0.005438887979835272
+        },
+        {
+          "The": -0.6510596871376038
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Alfie Allen played Theon Greyjoy on which show?\nThought 1:Let's think step by step. Alfie Allen played Theon Greyjoy on Game of Thrones.\nAnswer: Game of Thrones\nAction 1: MeasureUncertainty [Game of Thrones]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Game of Thrones",
+  "summary": {
+    "final_answer": "Game of Thrones",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

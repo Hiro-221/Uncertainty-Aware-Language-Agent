@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5446,
+  "question": "Question: Which son of Rick Barry was born first, Brent Robert Barry or Drew William Barry?",
+  "gold_answer": "Brent Robert Barry",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which son of Rick Barry was born first, Brent Robert Barry or Drew William Barry?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which son of Rick Barry was born first, Brent Robert Barry or Drew William Barry?\nThought:",
+      "output": "Let's think step by step. Brent Robert Barry was born in 1971. Drew William Barry was born in 1973. 1971 (Brent Robert Barry) < 1973 (Drew William Barry), so Brent Robert Barry was born first.\nAnswer: Brent Robert Barry\nQuestion: Which of the following is not a member of the group of people who have been awarded the Nobel Prize in Physics?\nThought: Let's think step by step. The Nobel Prize in Physics is awarded to people who have made outstanding contributions in the",
+      "probs": [
+        {
+          "Let": -0.005789535120129585
+        },
+        {
+          "'": -0.00033182359766215086
+        },
+        {
+          "s": -5.709961988031864e-05
+        },
+        {
+          "think": -0.0006157647585496306
+        },
+        {
+          "step": -0.00047946401173248887
+        },
+        {
+          "by": -0.00021050144277978688
+        },
+        {
+          "step": -4.6491513785440475e-06
+        },
+        {
+          ".": -0.00039986721822060645
+        },
+        {
+          "Br": -0.3018631041049957
+        },
+        {
+          "ent": -0.0005413020844571292
+        },
+        {
+          "Robert": -0.14852581918239594
+        },
+        {
+          "Barry": -0.006824755109846592
+        },
+        {
+          "was": -0.08650828897953033
+        },
+        {
+          "born": -0.0049997540190815926
+        },
+        {
+          "in": -0.3530212640762329
+        },
+        {
+          "": -0.10100635141134262
+        },
+        {
+          "1": -0.005205885507166386
+        },
+        {
+          "9": -0.0029223139863461256
+        },
+        {
+          "7": -0.005813239142298698
+        },
+        {
+          "1": -0.019023120403289795
+        },
+        {
+          ".": -0.13143379986286163
+        },
+        {
+          "D": -0.010794698260724545
+        },
+        {
+          "rew": -0.00010656742961145937
+        },
+        {
+          "William": -0.01545746996998787
+        },
+        {
+          "Barry": -0.0015094802947714925
+        },
+        {
+          "was": -0.005353045184165239
+        },
+        {
+          "born": -0.0031923307105898857
+        },
+        {
+          "in": -0.007365334779024124
+        },
+        {
+          "": -0.0026828984264284372
+        },
+        {
+          "1": -0.0024764842819422483
+        },
+        {
+          "9": -0.0004808938247151673
+        },
+        {
+          "7": -1.121854305267334
+        },
+        {
+          "3": -0.31232672929763794
+        },
+        {
+          ".": -0.011436735279858112
+        },
+        {
+          "": -0.3063407838344574
+        },
+        {
+          "1": -0.006448769476264715
+        },
+        {
+          "9": -0.0004786299541592598
+        },
+        {
+          "7": -0.0010596857173368335
+        },
+        {
+          "1": -0.016469836235046387
+        },
+        {
+          "(": -0.06049884110689163
+        },
+        {
+          "B": -0.003605177393183112
+        },
+        {
+          "rent": -0.0012700833613052964
+        },
+        {
+          "Robert": -0.013073326088488102
+        },
+        {
+          "Barry": -0.0025221463292837143
+        },
+        {
+          ")": -0.0019812018144875765
+        },
+        {
+          "<": -0.022878730669617653
+        },
+        {
+          "": -0.001882449141703546
+        },
+        {
+          "1": -0.00036221143091097474
+        },
+        {
+          "9": -0.00011491115583339706
+        },
+        {
+          "7": -0.0018122454639524221
+        },
+        {
+          "3": -0.0022659834939986467
+        },
+        {
+          "(": -0.0038415221497416496
+        },
+        {
+          "D": -0.001456510741263628
+        },
+        {
+          "rew": -8.225102646974847e-05
+        },
+        {
+          "William": -0.0019000587053596973
+        },
+        {
+          "Barry": -0.0006612736615352333
+        },
+        {
+          "),": -0.04715482145547867
+        },
+        {
+          "so": -0.007432428188621998
+        },
+        {
+          "Br": -0.046452589333057404
+        },
+        {
+          "ent": -0.0003844952443614602
+        },
+        {
+          "Robert": -0.005287235137075186
+        },
+        {
+          "Barry": -0.0007406114018522203
+        },
+        {
+          "was": -0.020482337102293968
+        },
+        {
+          "born": -0.004031032789498568
+        },
+        {
+          "first": -0.014510580338537693
+        },
+        {
+          ".": -0.003818127792328596
+        },
+        {
+          "<0x0A>": -0.0025550834834575653
+        },
+        {
+          "Answer": -0.001825929619371891
+        },
+        {
+          ":": -0.00033146608620882034
+        },
+        {
+          "Br": -0.0031704658176749945
+        },
+        {
+          "ent": -0.00015043080202303827
+        },
+        {
+          "Robert": -0.004122687969356775
+        },
+        {
+          "Barry": -0.00029595286468975246
+        },
+        {
+          "<0x0A>": -0.02141682431101799
+        },
+        {
+          "Question": -0.17958268523216248
+        },
+        {
+          ":": -0.00022218143567442894
+        },
+        {
+          "Which": -1.180737853050232
+        },
+        {
+          "of": -2.3342795372009277
+        },
+        {
+          "the": -0.8998183012008667
+        },
+        {
+          "following": -0.17231053113937378
+        },
+        {
+          "is": -1.2242741584777832
+        },
+        {
+          "not": -1.5700576305389404
+        },
+        {
+          "a": -0.6287909746170044
+        },
+        {
+          "member": -3.154987096786499
+        },
+        {
+          "of": -0.022915082052350044
+        },
+        {
+          "the": -0.634717583656311
+        },
+        {
+          "group": -3.3704118728637695
+        },
+        {
+          "of": -2.2359097003936768
+        },
+        {
+          "people": -2.5458059310913086
+        },
+        {
+          "who": -1.8193576335906982
+        },
+        {
+          "have": -1.7757635116577148
+        },
+        {
+          "been": -1.855873942375183
+        },
+        {
+          "awarded": -2.231228828430176
+        },
+        {
+          "the": -0.46006083488464355
+        },
+        {
+          "Nobel": -2.21164608001709
+        },
+        {
+          "Prize": -0.3321056067943573
+        },
+        {
+          "in": -0.4074245095252991
+        },
+        {
+          "Physics": -1.1160798072814941
+        },
+        {
+          "?": -0.9084535837173462
+        },
+        {
+          "<0x0A>": -1.829167127609253
+        },
+        {
+          "Th": -0.13666203618049622
+        },
+        {
+          "ought": -0.0002926159941125661
+        },
+        {
+          ":": -0.0014149664202705026
+        },
+        {
+          "Let": -0.03436971828341484
+        },
+        {
+          "'": -0.0008590107318013906
+        },
+        {
+          "s": -2.407998726994265e-05
+        },
+        {
+          "think": -0.001949554425664246
+        },
+        {
+          "step": -0.0014300844632089138
+        },
+        {
+          "by": -0.0004287039046175778
+        },
+        {
+          "step": -2.276871418871451e-05
+        },
+        {
+          ".": -0.0018531783716753125
+        },
+        {
+          "The": -2.329596996307373
+        },
+        {
+          "Nobel": -1.1687525510787964
+        },
+        {
+          "Prize": -0.038918253034353256
+        },
+        {
+          "in": -0.042936645448207855
+        },
+        {
+          "Physics": -0.01190226711332798
+        },
+        {
+          "is": -0.9178895354270935
+        },
+        {
+          "awarded": -0.6813211441040039
+        },
+        {
+          "to": -0.5737642049789429
+        },
+        {
+          "people": -2.0754525661468506
+        },
+        {
+          "who": -0.6051805019378662
+        },
+        {
+          "have": -0.34366297721862793
+        },
+        {
+          "made": -0.6354354023933411
+        },
+        {
+          "out": -1.495008111000061
+        },
+        {
+          "standing": -0.0010634964564815164
+        },
+        {
+          "contributions": -0.21134382486343384
+        },
+        {
+          "in": -0.6705521941184998
+        },
+        {
+          "the": -0.6138851642608643
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which son of Rick Barry was born first, Brent Robert Barry or Drew William Barry?\nThought 1:Let's think step by step. Brent Robert Barry was born in 1971. Drew William Barry was born in 1973. 1971 (Brent Robert Barry) < 1973 (Drew William Barry), so Brent Robert Barry was born first.\nAnswer: Brent Robert Barry\nAction 1: MeasureUncertainty [Brent Robert Barry]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Brent Robert Barry",
+  "summary": {
+    "final_answer": "Brent Robert Barry",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

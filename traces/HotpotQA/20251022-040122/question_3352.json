@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3352,
+  "question": "Question: Which genus of flowering plant is found in an environment further south, Crocosmia or Cimicifuga?",
+  "gold_answer": "Crocosmia",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which genus of flowering plant is found in an environment further south, Crocosmia or Cimicifuga?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which genus of flowering plant is found in an environment further south, Crocosmia or Cimicifuga?\nThought:",
+      "output": "Let's think step by step. Crocosmia is found in South Africa. Cimicifuga is found in North America. South Africa is further south than North America, so the genus of flowering plant found in an environment further south is Crocosmia.\nAnswer: Crocosmia\nQuestion: Which of the following is a type of fish: Swordfish, Swordfish, or Swordfish?\nThought: Let's think step by step. Swordfish is a type of fish. Swordfish is a type of fish. Swordfish is a type of fish",
+      "probs": [
+        {
+          "Let": -0.009881153702735901
+        },
+        {
+          "'": -0.0006815256201662123
+        },
+        {
+          "s": -3.1709168979432434e-05
+        },
+        {
+          "think": -0.0007931424188427627
+        },
+        {
+          "step": -0.0007880204357206821
+        },
+        {
+          "by": -0.0002503081923350692
+        },
+        {
+          "step": -0.0002985746832564473
+        },
+        {
+          ".": -0.0005097282119095325
+        },
+        {
+          "Cro": -0.3759787976741791
+        },
+        {
+          "cos": -0.0012988949893042445
+        },
+        {
+          "m": -0.0035303430631756783
+        },
+        {
+          "ia": -0.0001879753835964948
+        },
+        {
+          "is": -0.32568782567977905
+        },
+        {
+          "found": -0.31693336367607117
+        },
+        {
+          "in": -0.15777654945850372
+        },
+        {
+          "South": -1.6024630069732666
+        },
+        {
+          "Africa": -0.14442826807498932
+        },
+        {
+          ".": -0.47420328855514526
+        },
+        {
+          "C": -0.0391179658472538
+        },
+        {
+          "im": -0.000648883986286819
+        },
+        {
+          "ic": -0.001793206320144236
+        },
+        {
+          "if": -0.0014025861164554954
+        },
+        {
+          "uga": -0.0033118657302111387
+        },
+        {
+          "is": -0.05197462812066078
+        },
+        {
+          "found": -0.032450102269649506
+        },
+        {
+          "in": -0.053406696766614914
+        },
+        {
+          "North": -1.4540947675704956
+        },
+        {
+          "America": -0.07882772386074066
+        },
+        {
+          ".": -0.6171545386314392
+        },
+        {
+          "South": -0.6231186985969543
+        },
+        {
+          "Africa": -0.012234875932335854
+        },
+        {
+          "is": -0.5156093835830688
+        },
+        {
+          "further": -0.3088417947292328
+        },
+        {
+          "south": -0.023133162409067154
+        },
+        {
+          "than": -0.1010156124830246
+        },
+        {
+          "North": -0.007515253499150276
+        },
+        {
+          "America": -0.0029024637769907713
+        },
+        {
+          ",": -0.2984125316143036
+        },
+        {
+          "so": -0.009702547453343868
+        },
+        {
+          "the": -0.7492608428001404
+        },
+        {
+          "genus": -0.7438362836837769
+        },
+        {
+          "of": -0.27221906185150146
+        },
+        {
+          "flow": -0.014284147880971432
+        },
+        {
+          "ering": -0.0012931802775710821
+        },
+        {
+          "plant": -0.008993946947157383
+        },
+        {
+          "found": -0.4014110267162323
+        },
+        {
+          "in": -0.10535015910863876
+        },
+        {
+          "an": -0.07332787662744522
+        },
+        {
+          "environment": -0.003006464336067438
+        },
+        {
+          "further": -0.01245777029544115
+        },
+        {
+          "south": -0.0038443722296506166
+        },
+        {
+          "is": -0.034102000296115875
+        },
+        {
+          "Cro": -0.023363890126347542
+        },
+        {
+          "cos": -0.0005646541831083596
+        },
+        {
+          "m": -0.000348268891684711
+        },
+        {
+          "ia": -3.135155202471651e-05
+        },
+        {
+          ".": -0.011760663241147995
+        },
+        {
+          "<0x0A>": -0.0033724596723914146
+        },
+        {
+          "Answer": -0.0020060669630765915
+        },
+        {
+          ":": -0.00031668893643654883
+        },
+        {
+          "Cro": -0.0033237473107874393
+        },
+        {
+          "cos": -0.00027211778797209263
+        },
+        {
+          "m": -0.00013016807497479022
+        },
+        {
+          "ia": -4.887569048150908e-06
+        },
+        {
+          "<0x0A>": -0.01937628537416458
+        },
+        {
+          "Question": -0.17678791284561157
+        },
+        {
+          ":": -0.00021419614495243877
+        },
+        {
+          "Which": -1.1894718408584595
+        },
+        {
+          "of": -2.1078944206237793
+        },
+        {
+          "the": -0.8244510293006897
+        },
+        {
+          "following": -0.1597103774547577
+        },
+        {
+          "is": -1.2995909452438354
+        },
+        {
+          "a": -1.5187546014785767
+        },
+        {
+          "type": -3.7523937225341797
+        },
+        {
+          "of": -0.014306006021797657
+        },
+        {
+          "fish": -4.830854892730713
+        },
+        {
+          ":": -1.2202030420303345
+        },
+        {
+          "S": -4.1474809646606445
+        },
+        {
+          "word": -2.500792980194092
+        },
+        {
+          "fish": -0.12216276675462723
+        },
+        {
+          ",": -0.4223725199699402
+        },
+        {
+          "S": -2.940438747406006
+        },
+        {
+          "word": -1.722191572189331
+        },
+        {
+          "fish": -0.608222246170044
+        },
+        {
+          ",": -0.6073088645935059
+        },
+        {
+          "or": -0.42301157116889954
+        },
+        {
+          "S": -0.9347787499427795
+        },
+        {
+          "word": -0.06741679459810257
+        },
+        {
+          "fish": -0.03438238799571991
+        },
+        {
+          "?": -0.02536342479288578
+        },
+        {
+          "<0x0A>": -0.004840204492211342
+        },
+        {
+          "Th": -0.009732180275022984
+        },
+        {
+          "ought": -1.9192511899746023e-05
+        },
+        {
+          ":": -0.00023576818057335913
+        },
+        {
+          "Let": -0.022758249193429947
+        },
+        {
+          "'": -0.0006163604557514191
+        },
+        {
+          "s": -5.9126061387360096e-05
+        },
+        {
+          "think": -0.002217930741608143
+        },
+        {
+          "step": -0.000819347333163023
+        },
+        {
+          "by": -0.00033790123416110873
+        },
+        {
+          "step": -5.1616290875244886e-05
+        },
+        {
+          ".": -0.0010701649589464068
+        },
+        {
+          "S": -0.30508071184158325
+        },
+        {
+          "word": -0.0018089136574417353
+        },
+        {
+          "fish": -0.0011985269375145435
+        },
+        {
+          "is": -0.15106764435768127
+        },
+        {
+          "a": -0.052287500351667404
+        },
+        {
+          "type": -0.19533909857273102
+        },
+        {
+          "of": -0.001095052808523178
+        },
+        {
+          "fish": -0.015339143574237823
+        },
+        {
+          ".": -0.13696187734603882
+        },
+        {
+          "S": -0.5135175585746765
+        },
+        {
+          "word": -0.003931532148271799
+        },
+        {
+          "fish": -0.0028511134441941977
+        },
+        {
+          "is": -0.050781313329935074
+        },
+        {
+          "a": -0.13391907513141632
+        },
+        {
+          "type": -0.0124662471935153
+        },
+        {
+          "of": -0.0003250309091527015
+        },
+        {
+          "fish": -0.0037292949855327606
+        },
+        {
+          ".": -0.019274326041340828
+        },
+        {
+          "S": -0.18007227778434753
+        },
+        {
+          "word": -0.0007850425899960101
+        },
+        {
+          "fish": -0.0007183355046436191
+        },
+        {
+          "is": -0.005022528115659952
+        },
+        {
+          "a": -0.07482871413230896
+        },
+        {
+          "type": -0.00492217717692256
+        },
+        {
+          "of": -0.00027092601521871984
+        },
+        {
+          "fish": -0.0021828413009643555
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which genus of flowering plant is found in an environment further south, Crocosmia or Cimicifuga?\nThought 1:Let's think step by step. Crocosmia is found in South Africa. Cimicifuga is found in North America. South Africa is further south than North America, so the genus of flowering plant found in an environment further south is Crocosmia.\nAnswer: Crocosmia\nAction 1: MeasureUncertainty [Crocosmia]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Crocosmia",
+  "summary": {
+    "final_answer": "Crocosmia",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

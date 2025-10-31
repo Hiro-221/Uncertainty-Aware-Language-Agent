@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6798,
+  "question": "Question: What genre did the writer whose novel was based on \"I'll Take Manhattan\" writes?",
+  "gold_answer": "romance genre",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What genre did the writer whose novel was based on \"I'll Take Manhattan\" writes?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What genre did the writer whose novel was based on \"I'll Take Manhattan\" writes?\nThought:",
+      "output": "Let's think step by step. The writer whose novel was based on \"I'll Take Manhattan\" is Judith Krantz. Genre of Judith Krantz is romance novel.\nAnswer: romance novel\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of the same name is The Thomas Crown Affair.\nAnswer:",
+      "probs": [
+        {
+          "Let": -0.015607471577823162
+        },
+        {
+          "'": -0.0005596501869149506
+        },
+        {
+          "s": -2.8490614567999728e-05
+        },
+        {
+          "think": -0.001105531700886786
+        },
+        {
+          "step": -0.0006008726777508855
+        },
+        {
+          "by": -0.0003325386205688119
+        },
+        {
+          "step": -0.0002882065309677273
+        },
+        {
+          ".": -0.0008239926537498832
+        },
+        {
+          "The": -1.4340598583221436
+        },
+        {
+          "writer": -0.5626217126846313
+        },
+        {
+          "whose": -0.22213615477085114
+        },
+        {
+          "novel": -0.003580946009606123
+        },
+        {
+          "was": -0.04063139483332634
+        },
+        {
+          "based": -0.0040607149712741375
+        },
+        {
+          "on": -0.0007197650265879929
+        },
+        {
+          "\"": -0.108097605407238
+        },
+        {
+          "I": -0.0005073452484793961
+        },
+        {
+          "'": -0.0007134514744393528
+        },
+        {
+          "ll": -5.638440416078083e-05
+        },
+        {
+          "Take": -0.0018488947534933686
+        },
+        {
+          "Manh": -0.0007200032705441117
+        },
+        {
+          "attan": -4.8040190449682996e-05
+        },
+        {
+          "\"": -0.010816632770001888
+        },
+        {
+          "is": -0.4547058343887329
+        },
+        {
+          "Jud": -0.08570723235607147
+        },
+        {
+          "ith": -0.00018094333063345402
+        },
+        {
+          "Kr": -0.04528866708278656
+        },
+        {
+          "ant": -0.0002862997353076935
+        },
+        {
+          "z": -0.0005404680268839002
+        },
+        {
+          ".": -0.12757861614227295
+        },
+        {
+          "Gen": -1.1449968814849854
+        },
+        {
+          "re": -0.15651850402355194
+        },
+        {
+          "of": -0.25804588198661804
+        },
+        {
+          "Jud": -0.055924318730831146
+        },
+        {
+          "ith": -0.0019056509481742978
+        },
+        {
+          "Kr": -0.0017546509625390172
+        },
+        {
+          "ant": -0.0008678245940245688
+        },
+        {
+          "z": -4.1126360883936286e-05
+        },
+        {
+          "is": -0.1050945594906807
+        },
+        {
+          "rom": -0.4392821788787842
+        },
+        {
+          "ance": -0.23757970333099365
+        },
+        {
+          "novel": -0.9368112087249756
+        },
+        {
+          ".": -0.7246913313865662
+        },
+        {
+          "<0x0A>": -0.6092733144760132
+        },
+        {
+          "Answer": -0.0019262346904724836
+        },
+        {
+          ":": -0.00040463366894982755
+        },
+        {
+          "rom": -0.13192035257816315
+        },
+        {
+          "ance": -0.0034675016067922115
+        },
+        {
+          "novel": -0.027979334816336632
+        },
+        {
+          "<0x0A>": -0.02261129766702652
+        },
+        {
+          "Question": -0.16638313233852386
+        },
+        {
+          ":": -0.00026723151677288115
+        },
+        {
+          "What": -1.2710736989974976
+        },
+        {
+          "is": -1.4153025150299072
+        },
+        {
+          "the": -0.37967246770858765
+        },
+        {
+          "name": -2.4882164001464844
+        },
+        {
+          "of": -0.045402705669403076
+        },
+        {
+          "the": -0.4029768109321594
+        },
+        {
+          "": -3.530782461166382
+        },
+        {
+          "1": -0.5936136245727539
+        },
+        {
+          "9": -0.16122783720493317
+        },
+        {
+          "9": -1.330894112586975
+        },
+        {
+          "9": -2.158109188079834
+        },
+        {
+          "film": -1.5405915975570679
+        },
+        {
+          "that": -1.674890398979187
+        },
+        {
+          "is": -1.8626456260681152
+        },
+        {
+          "a": -1.5745515823364258
+        },
+        {
+          "re": -1.0838987827301025
+        },
+        {
+          "make": -0.02853003703057766
+        },
+        {
+          "of": -0.025129323825240135
+        },
+        {
+          "the": -0.8799872398376465
+        },
+        {
+          "": -0.29775944352149963
+        },
+        {
+          "1": -0.01737363450229168
+        },
+        {
+          "9": -0.0027683766093105078
+        },
+        {
+          "6": -1.3496589660644531
+        },
+        {
+          "9": -1.9092479944229126
+        },
+        {
+          "film": -0.28769469261169434
+        },
+        {
+          "of": -1.6307710409164429
+        },
+        {
+          "the": -0.03398263454437256
+        },
+        {
+          "same": -0.0046949866227805614
+        },
+        {
+          "name": -0.03550948575139046
+        },
+        {
+          "?": -0.404382586479187
+        },
+        {
+          "<0x0A>": -0.015155521221458912
+        },
+        {
+          "Th": -0.004766649100929499
+        },
+        {
+          "ought": -1.1324817933200393e-05
+        },
+        {
+          ":": -0.0001287377526750788
+        },
+        {
+          "Let": -0.008590411394834518
+        },
+        {
+          "'": -0.0002205128694185987
+        },
+        {
+          "s": -1.597391747054644e-05
+        },
+        {
+          "think": -0.00028606137493625283
+        },
+        {
+          "step": -0.0002205128694185987
+        },
+        {
+          "by": -7.378782902378589e-05
+        },
+        {
+          "step": -2.4318398573086597e-05
+        },
+        {
+          ".": -0.0003164505760651082
+        },
+        {
+          "The": -0.5983808636665344
+        },
+        {
+          "": -0.2333374172449112
+        },
+        {
+          "1": -0.00617974903434515
+        },
+        {
+          "9": -0.000192504478036426
+        },
+        {
+          "9": -0.4935162365436554
+        },
+        {
+          "9": -0.0023528055753558874
+        },
+        {
+          "film": -0.027075214311480522
+        },
+        {
+          "that": -0.4934455156326294
+        },
+        {
+          "is": -0.007204150315374136
+        },
+        {
+          "a": -0.007955768145620823
+        },
+        {
+          "re": -0.0014913876075297594
+        },
+        {
+          "make": -0.000302745756926015
+        },
+        {
+          "of": -0.0056862980127334595
+        },
+        {
+          "the": -0.011362249031662941
+        },
+        {
+          "": -0.001408419106155634
+        },
+        {
+          "1": -0.00032419670606032014
+        },
+        {
+          "9": -9.846202738117427e-05
+        },
+        {
+          "6": -0.004037800244987011
+        },
+        {
+          "9": -0.0015958918957039714
+        },
+        {
+          "film": -0.0025521109346300364
+        },
+        {
+          "of": -0.0506165511906147
+        },
+        {
+          "the": -0.0013772298116236925
+        },
+        {
+          "same": -0.000416907190810889
+        },
+        {
+          "name": -0.0009417866240255535
+        },
+        {
+          "is": -0.015090587548911572
+        },
+        {
+          "The": -0.7593434453010559
+        },
+        {
+          "Thomas": -0.23066003620624542
+        },
+        {
+          "Crown": -0.0006868863711133599
+        },
+        {
+          "Aff": -0.0008131535141728818
+        },
+        {
+          "air": -0.0004389514506328851
+        },
+        {
+          ".": -0.1565277874469757
+        },
+        {
+          "<0x0A>": -0.030007386580109596
+        },
+        {
+          "Answer": -0.002041519619524479
+        },
+        {
+          ":": -0.00025507534155622125
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: What genre did the writer whose novel was based on \"I'll Take Manhattan\" writes?\nThought 1:Let's think step by step. The writer whose novel was based on \"I'll Take Manhattan\" is Judith Krantz. Genre of Judith Krantz is romance novel.\nAnswer: romance novel\nAction 1: MeasureUncertainty [romance novel]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: romance novel",
+  "summary": {
+    "final_answer": "romance novel",
+    "em": false,
+    "f1": 0.5,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

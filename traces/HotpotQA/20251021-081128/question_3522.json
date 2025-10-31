@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3522,
+  "question": "Question: Who is older Danny Green or James Worthy?",
+  "gold_answer": "James Worthy",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is older Danny Green or James Worthy?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who is older Danny Green or James Worthy?\nThought:",
+      "output": "Let's think step by step. Danny Green was born in 1987. James Worthy was born in 1961. 1961 (James Worthy) < 1987 (Danny Green), so James Worthy is older.\nAnswer: James Worthy\nQuestion: Which of the following is not a member of the band The Cranberries?\nThought: Let's think step by step. The Cranberries members are Dolores O'Riordan, Noel Hogan, Mike Hogan, and",
+      "probs": [
+        {
+          "Let": -0.008801711723208427
+        },
+        {
+          "'": -0.0003003622987307608
+        },
+        {
+          "s": -3.4450891689630225e-05
+        },
+        {
+          "think": -0.000972155889030546
+        },
+        {
+          "step": -0.0005734706646762788
+        },
+        {
+          "by": -9.512448741588742e-05
+        },
+        {
+          "step": -1.3232143828645349e-05
+        },
+        {
+          ".": -0.0004011779965367168
+        },
+        {
+          "D": -0.19901502132415771
+        },
+        {
+          "anny": -0.0008949803304858506
+        },
+        {
+          "Green": -0.006805100943893194
+        },
+        {
+          "was": -0.4137756824493408
+        },
+        {
+          "born": -0.007179177366197109
+        },
+        {
+          "in": -0.3428763747215271
+        },
+        {
+          "": -0.09166410565376282
+        },
+        {
+          "1": -0.008247957564890385
+        },
+        {
+          "9": -0.002858958672732115
+        },
+        {
+          "8": -0.10459423065185547
+        },
+        {
+          "7": -0.021392321214079857
+        },
+        {
+          ".": -0.14127203822135925
+        },
+        {
+          "James": -0.01677490584552288
+        },
+        {
+          "W": -0.000920706195756793
+        },
+        {
+          "orth": -8.67805938469246e-05
+        },
+        {
+          "y": -0.00037746457383036613
+        },
+        {
+          "was": -0.008719583973288536
+        },
+        {
+          "born": -0.0013300867285579443
+        },
+        {
+          "in": -0.00324758468195796
+        },
+        {
+          "": -0.0008244690834544599
+        },
+        {
+          "1": -0.00019178935326635838
+        },
+        {
+          "9": -8.308542601298541e-05
+        },
+        {
+          "6": -0.004608367569744587
+        },
+        {
+          "1": -0.008243110030889511
+        },
+        {
+          ".": -0.009688262827694416
+        },
+        {
+          "": -0.23216049373149872
+        },
+        {
+          "1": -0.007648232858628035
+        },
+        {
+          "9": -0.0005627478822134435
+        },
+        {
+          "6": -0.590232253074646
+        },
+        {
+          "1": -0.0007308434578590095
+        },
+        {
+          "(": -0.0740327462553978
+        },
+        {
+          "James": -0.016736572608351707
+        },
+        {
+          "W": -0.0016373097896575928
+        },
+        {
+          "orth": -0.00013565097469836473
+        },
+        {
+          "y": -0.001500552985817194
+        },
+        {
+          ")": -0.002322002314031124
+        },
+        {
+          "<": -0.5270289182662964
+        },
+        {
+          "": -0.0024029924534261227
+        },
+        {
+          "1": -0.0003626880934461951
+        },
+        {
+          "9": -0.0002901133266277611
+        },
+        {
+          "8": -0.001388420001603663
+        },
+        {
+          "7": -0.0019840572495013475
+        },
+        {
+          "(": -0.004455757327377796
+        },
+        {
+          "D": -0.0019550274591892958
+        },
+        {
+          "anny": -0.0001919085334520787
+        },
+        {
+          "Green": -0.001778450678102672
+        },
+        {
+          "),": -0.04586498811841011
+        },
+        {
+          "so": -0.004976149648427963
+        },
+        {
+          "James": -0.14968423545360565
+        },
+        {
+          "W": -0.0010274137603119016
+        },
+        {
+          "orth": -0.0001858300092862919
+        },
+        {
+          "y": -0.0013506823452189565
+        },
+        {
+          "is": -0.014469575136899948
+        },
+        {
+          "older": -0.008414529263973236
+        },
+        {
+          ".": -0.23807798326015472
+        },
+        {
+          "<0x0A>": -0.003213244490325451
+        },
+        {
+          "Answer": -0.0016726563917472959
+        },
+        {
+          ":": -0.0005259322933852673
+        },
+        {
+          "James": -0.0034413659013807774
+        },
+        {
+          "W": -0.0003332536434754729
+        },
+        {
+          "orth": -3.1470757676288486e-05
+        },
+        {
+          "y": -0.0001445904199499637
+        },
+        {
+          "<0x0A>": -0.02079225704073906
+        },
+        {
+          "Question": -0.17614570260047913
+        },
+        {
+          ":": -0.0002796259068418294
+        },
+        {
+          "Which": -1.4471036195755005
+        },
+        {
+          "of": -1.9500372409820557
+        },
+        {
+          "the": -0.8616608381271362
+        },
+        {
+          "following": -0.12979021668434143
+        },
+        {
+          "is": -1.0989995002746582
+        },
+        {
+          "not": -1.5921748876571655
+        },
+        {
+          "a": -0.6670671701431274
+        },
+        {
+          "member": -3.26297664642334
+        },
+        {
+          "of": -0.029744746163487434
+        },
+        {
+          "the": -0.6172590255737305
+        },
+        {
+          "band": -3.394625425338745
+        },
+        {
+          "The": -2.1802992820739746
+        },
+        {
+          "C": -3.958763837814331
+        },
+        {
+          "ran": -2.0542807579040527
+        },
+        {
+          "ber": -0.03871379420161247
+        },
+        {
+          "ries": -0.0005690624238923192
+        },
+        {
+          "?": -0.33897775411605835
+        },
+        {
+          "<0x0A>": -1.4645012617111206
+        },
+        {
+          "Th": -0.0786869078874588
+        },
+        {
+          "ought": -0.00010311071673640981
+        },
+        {
+          ":": -0.0005517867393791676
+        },
+        {
+          "Let": -0.022633790969848633
+        },
+        {
+          "'": -0.0006380429258570075
+        },
+        {
+          "s": -1.8954096958623268e-05
+        },
+        {
+          "think": -0.0011632826644927263
+        },
+        {
+          "step": -0.0009873997187241912
+        },
+        {
+          "by": -0.00023040501400828362
+        },
+        {
+          "step": -4.637133679352701e-05
+        },
+        {
+          ".": -0.0010063351364806294
+        },
+        {
+          "The": -1.0868452787399292
+        },
+        {
+          "C": -0.2131439447402954
+        },
+        {
+          "ran": -0.0004945961991325021
+        },
+        {
+          "ber": -0.0013971101725474
+        },
+        {
+          "ries": -0.0002805792901199311
+        },
+        {
+          "members": -1.3850347995758057
+        },
+        {
+          "are": -0.06118309497833252
+        },
+        {
+          "Dol": -0.5447422862052917
+        },
+        {
+          "ores": -0.0004220310365781188
+        },
+        {
+          "O": -0.0026223815511912107
+        },
+        {
+          "'": -0.013426600024104118
+        },
+        {
+          "R": -0.00390671519562602
+        },
+        {
+          "i": -0.001723829424008727
+        },
+        {
+          "ord": -0.00020752183627337217
+        },
+        {
+          "an": -0.00043358939001336694
+        },
+        {
+          ",": -0.08441877365112305
+        },
+        {
+          "No": -0.2222859263420105
+        },
+        {
+          "el": -0.00022432672267314047
+        },
+        {
+          "Hog": -0.0013569919392466545
+        },
+        {
+          "an": -2.1815061700181104e-05
+        },
+        {
+          ",": -0.0065946802496910095
+        },
+        {
+          "Mike": -0.31103548407554626
+        },
+        {
+          "Hog": -0.0012519863666966558
+        },
+        {
+          "an": -1.8596476365928538e-05
+        },
+        {
+          ",": -0.07239289581775665
+        },
+        {
+          "and": -0.37348273396492004
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Who is older Danny Green or James Worthy?\nThought 1:Let's think step by step. Danny Green was born in 1987. James Worthy was born in 1961. 1961 (James Worthy) < 1987 (Danny Green), so James Worthy is older.\nAnswer: James Worthy\nAction 1: MeasureUncertainty [James Worthy]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: James Worthy",
+  "summary": {
+    "final_answer": "James Worthy",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

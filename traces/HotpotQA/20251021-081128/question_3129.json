@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3129,
+  "question": "Question: Who directed the film about the living funeral for Morrie Schwartz ?",
+  "gold_answer": "Mick Jackson,",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who directed the film about the living funeral for Morrie Schwartz ?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Who directed the film about the living funeral for Morrie Schwartz ?\nThought:",
+      "output": "Let's think step by step. The film about the living funeral for Morrie Schwartz is Tuesdays with Morrie. Mick Jackson directed Tuesdays with Morrie, so the director is Mick Jackson.\nAnswer: Mick Jackson\nQuestion: What is the name of the 1999 film about the living funeral for Morrie Schwartz ?\nThought: Let's think step by step. The film about the living funeral for Morrie Schwartz is Tuesdays with Morrie.\nAnswer: Tuesdays with Morrie\nQuestion: What is",
+      "probs": [
+        {
+          "Let": -0.01252240315079689
+        },
+        {
+          "'": -0.000764673575758934
+        },
+        {
+          "s": -0.00032395837479270995
+        },
+        {
+          "think": -0.0005871717585250735
+        },
+        {
+          "step": -0.0003551805857568979
+        },
+        {
+          "by": -0.0002090712368953973
+        },
+        {
+          "step": -9.178694017464295e-05
+        },
+        {
+          ".": -0.0007186928996816278
+        },
+        {
+          "The": -1.173081874847412
+        },
+        {
+          "film": -0.18317735195159912
+        },
+        {
+          "about": -0.19405284523963928
+        },
+        {
+          "the": -0.0741603821516037
+        },
+        {
+          "living": -0.006387650966644287
+        },
+        {
+          "fun": -0.0012772268382832408
+        },
+        {
+          "eral": -0.0002946419408544898
+        },
+        {
+          "for": -0.015524844639003277
+        },
+        {
+          "Mor": -0.0036634968128055334
+        },
+        {
+          "rie": -0.00020704510097857565
+        },
+        {
+          "Schw": -0.0024339118972420692
+        },
+        {
+          "art": -0.00015829740732442588
+        },
+        {
+          "z": -0.00019965562387369573
+        },
+        {
+          "is": -0.08639556169509888
+        },
+        {
+          "T": -0.28561931848526
+        },
+        {
+          "ues": -0.0006119524477981031
+        },
+        {
+          "days": -0.007068034261465073
+        },
+        {
+          "with": -0.047633007168769836
+        },
+        {
+          "Mor": -0.0006104036583565176
+        },
+        {
+          "rie": -0.00024196557933464646
+        },
+        {
+          ".": -0.4786757230758667
+        },
+        {
+          "M": -1.0791655778884888
+        },
+        {
+          "ick": -0.006410155910998583
+        },
+        {
+          "Jackson": -0.001908863428980112
+        },
+        {
+          "directed": -0.309182345867157
+        },
+        {
+          "T": -0.41577890515327454
+        },
+        {
+          "ues": -0.0003493413969408721
+        },
+        {
+          "days": -0.003992682322859764
+        },
+        {
+          "with": -0.002514773979783058
+        },
+        {
+          "Mor": -0.0004128557338844985
+        },
+        {
+          "rie": -0.0006547214579768479
+        },
+        {
+          ",": -0.593617856502533
+        },
+        {
+          "so": -0.018872225657105446
+        },
+        {
+          "the": -0.5830731987953186
+        },
+        {
+          "director": -0.5540627241134644
+        },
+        {
+          "is": -0.7348778247833252
+        },
+        {
+          "M": -0.00609681336209178
+        },
+        {
+          "ick": -0.0001102625101339072
+        },
+        {
+          "Jackson": -0.0012369846226647496
+        },
+        {
+          ".": -0.026313452050089836
+        },
+        {
+          "<0x0A>": -0.0034593045711517334
+        },
+        {
+          "Answer": -0.001482460182160139
+        },
+        {
+          ":": -0.0004829194222111255
+        },
+        {
+          "M": -0.002309038769453764
+        },
+        {
+          "ick": -6.103329360485077e-05
+        },
+        {
+          "Jackson": -0.0008847374701872468
+        },
+        {
+          "<0x0A>": -0.016819098964333534
+        },
+        {
+          "Question": -0.16622404754161835
+        },
+        {
+          ":": -0.00022766382608097047
+        },
+        {
+          "What": -1.4830511808395386
+        },
+        {
+          "is": -1.181424856185913
+        },
+        {
+          "the": -0.35259830951690674
+        },
+        {
+          "name": -2.571836233139038
+        },
+        {
+          "of": -0.05211370810866356
+        },
+        {
+          "the": -0.3961479961872101
+        },
+        {
+          "": -3.446929454803467
+        },
+        {
+          "1": -0.6821184754371643
+        },
+        {
+          "9": -0.1910708248615265
+        },
+        {
+          "9": -1.3019315004348755
+        },
+        {
+          "9": -2.0504209995269775
+        },
+        {
+          "film": -1.4223967790603638
+        },
+        {
+          "about": -1.1430813074111938
+        },
+        {
+          "the": -1.068888783454895
+        },
+        {
+          "living": -1.4814846515655518
+        },
+        {
+          "fun": -0.005968011915683746
+        },
+        {
+          "eral": -0.0009872806258499622
+        },
+        {
+          "for": -0.02378164790570736
+        },
+        {
+          "Mor": -0.07050752639770508
+        },
+        {
+          "rie": -8.415821503149346e-05
+        },
+        {
+          "Schw": -0.0018805454019457102
+        },
+        {
+          "art": -5.006664650863968e-05
+        },
+        {
+          "z": -4.470248313737102e-05
+        },
+        {
+          "?": -0.43529829382896423
+        },
+        {
+          "<0x0A>": -0.003582014935091138
+        },
+        {
+          "Th": -0.004260392393916845
+        },
+        {
+          "ought": -1.764281842042692e-05
+        },
+        {
+          ":": -7.60526381782256e-05
+        },
+        {
+          "Let": -0.004543576389551163
+        },
+        {
+          "'": -0.00018380382971372455
+        },
+        {
+          "s": -1.8000440832111053e-05
+        },
+        {
+          "think": -0.00010883215873036534
+        },
+        {
+          "step": -8.248942322097719e-05
+        },
+        {
+          "by": -7.986703712958843e-05
+        },
+        {
+          "step": -9.894321920000948e-06
+        },
+        {
+          ".": -0.00021002470748499036
+        },
+        {
+          "The": -0.22130738198757172
+        },
+        {
+          "film": -0.42178651690483093
+        },
+        {
+          "about": -0.038577884435653687
+        },
+        {
+          "the": -0.007746535819023848
+        },
+        {
+          "living": -0.0009054613183252513
+        },
+        {
+          "fun": -0.00038044367101974785
+        },
+        {
+          "eral": -0.00015758226800244302
+        },
+        {
+          "for": -0.0024851649068295956
+        },
+        {
+          "Mor": -0.0010765953920781612
+        },
+        {
+          "rie": -3.8742269680369645e-05
+        },
+        {
+          "Schw": -0.0013052048161625862
+        },
+        {
+          "art": -5.98412734689191e-05
+        },
+        {
+          "z": -6.270212179515511e-05
+        },
+        {
+          "is": -0.009882216341793537
+        },
+        {
+          "T": -0.03323926404118538
+        },
+        {
+          "ues": -0.00010847456724150106
+        },
+        {
+          "days": -0.0010371787939220667
+        },
+        {
+          "with": -0.001073499326594174
+        },
+        {
+          "Mor": -0.00013958434283267707
+        },
+        {
+          "rie": -4.577531944960356e-05
+        },
+        {
+          ".": -0.1760469377040863
+        },
+        {
+          "<0x0A>": -0.5015836954116821
+        },
+        {
+          "Answer": -0.003392062848433852
+        },
+        {
+          ":": -0.00029702542815357447
+        },
+        {
+          "T": -0.0025433117989450693
+        },
+        {
+          "ues": -6.878139538457617e-05
+        },
+        {
+          "days": -0.0016061275964602828
+        },
+        {
+          "with": -0.0038257280830293894
+        },
+        {
+          "Mor": -0.0002944036095868796
+        },
+        {
+          "rie": -1.9907753085135482e-05
+        },
+        {
+          "<0x0A>": -0.020607881247997284
+        },
+        {
+          "Question": -0.17416220903396606
+        },
+        {
+          ":": -0.00029202012228779495
+        },
+        {
+          "What": -1.211143970489502
+        },
+        {
+          "is": -0.8422515392303467
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: Who directed the film about the living funeral for Morrie Schwartz ?\nThought 1:Let's think step by step. The film about the living funeral for Morrie Schwartz is Tuesdays with Morrie. Mick Jackson directed Tuesdays with Morrie, so the director is Mick Jackson.\nAnswer: Mick Jackson\nAction 1: MeasureUncertainty [Mick Jackson]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Mick Jackson",
+  "summary": {
+    "final_answer": "Mick Jackson",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

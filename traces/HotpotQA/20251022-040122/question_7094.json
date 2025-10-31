@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7094,
+  "question": "Question: The 1978 NBA World Championship Series had as MVP which Hall of Fame class member of 1988?",
+  "gold_answer": "Westley Sissel Unseld",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 1978 NBA World Championship Series had as MVP which Hall of Fame class member of 1988?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The 1978 NBA World Championship Series had as MVP which Hall of Fame class member of 1988?\nThought:",
+      "output": "Let's think step by step. The 1978 NBA World Championship Series had as MVP Bill Walton. Bill Walton is a member of the Hall of Fame class of 1988.\nAnswer: Bill Walton\nQuestion: Which of these is a 1990s film?\nThought: Let's think step by step. The 1990s is the decade from 1 January 1990 to 31 December 1999. The 1990s is the decade from 1 January 19",
+      "probs": [
+        {
+          "Let": -0.01327415369451046
+        },
+        {
+          "'": -0.0005959880072623491
+        },
+        {
+          "s": -3.671578815556131e-05
+        },
+        {
+          "think": -0.0008465044084005058
+        },
+        {
+          "step": -0.0008397151832468808
+        },
+        {
+          "by": -0.00026901919045485556
+        },
+        {
+          "step": -0.00022873646230436862
+        },
+        {
+          ".": -0.0006151691195555031
+        },
+        {
+          "The": -0.9390316605567932
+        },
+        {
+          "": -0.06995823979377747
+        },
+        {
+          "1": -0.0010025242809206247
+        },
+        {
+          "9": -0.00026973424246534705
+        },
+        {
+          "7": -0.011207012459635735
+        },
+        {
+          "8": -0.02037196233868599
+        },
+        {
+          "NBA": -0.0073136212304234505
+        },
+        {
+          "World": -0.025408286601305008
+        },
+        {
+          "Championship": -0.0024738681968301535
+        },
+        {
+          "Series": -0.008023886010050774
+        },
+        {
+          "had": -0.3085288107395172
+        },
+        {
+          "as": -0.6849929094314575
+        },
+        {
+          "M": -0.034813299775123596
+        },
+        {
+          "VP": -0.0003924791526515037
+        },
+        {
+          "Bill": -0.31114551424980164
+        },
+        {
+          "Wal": -0.023597124963998795
+        },
+        {
+          "ton": -5.3165931603871286e-05
+        },
+        {
+          ".": -0.22364896535873413
+        },
+        {
+          "Bill": -0.3219297230243683
+        },
+        {
+          "Wal": -0.004804257769137621
+        },
+        {
+          "ton": -0.00031394799589179456
+        },
+        {
+          "is": -0.6172981262207031
+        },
+        {
+          "a": -0.24374468624591827
+        },
+        {
+          "member": -0.5685958862304688
+        },
+        {
+          "of": -0.007521405816078186
+        },
+        {
+          "the": -0.6751558780670166
+        },
+        {
+          "Hall": -0.935225248336792
+        },
+        {
+          "of": -0.0023277110885828733
+        },
+        {
+          "Fame": -0.004014885518699884
+        },
+        {
+          "class": -0.12940506637096405
+        },
+        {
+          "of": -0.03935879096388817
+        },
+        {
+          "": -0.002269432647153735
+        },
+        {
+          "1": -0.0027350897435098886
+        },
+        {
+          "9": -0.00018189683032687753
+        },
+        {
+          "8": -0.28262266516685486
+        },
+        {
+          "8": -0.011554700322449207
+        },
+        {
+          ".": -0.5179736614227295
+        },
+        {
+          "<0x0A>": -0.32753410935401917
+        },
+        {
+          "Answer": -0.00199524057097733
+        },
+        {
+          ":": -0.00048756631440483034
+        },
+        {
+          "Bill": -0.003972022328525782
+        },
+        {
+          "Wal": -0.00038211196078918874
+        },
+        {
+          "ton": -0.000266278104390949
+        },
+        {
+          "<0x0A>": -0.018710896372795105
+        },
+        {
+          "Question": -0.21136292815208435
+        },
+        {
+          ":": -0.00024637524620629847
+        },
+        {
+          "Which": -1.4912786483764648
+        },
+        {
+          "of": -1.976314902305603
+        },
+        {
+          "these": -0.8786535263061523
+        },
+        {
+          "is": -1.4802933931350708
+        },
+        {
+          "a": -1.223024606704712
+        },
+        {
+          "": -3.754610061645508
+        },
+        {
+          "1": -0.7200491428375244
+        },
+        {
+          "9": -0.11293703317642212
+        },
+        {
+          "9": -1.3255195617675781
+        },
+        {
+          "0": -1.7439981698989868
+        },
+        {
+          "s": -0.5918115377426147
+        },
+        {
+          "film": -2.2399182319641113
+        },
+        {
+          "?": -1.9857183694839478
+        },
+        {
+          "<0x0A>": -1.093837022781372
+        },
+        {
+          "Th": -0.018346494063735008
+        },
+        {
+          "ought": -5.6980417866725475e-05
+        },
+        {
+          ":": -0.00040189296123571694
+        },
+        {
+          "Let": -0.021006949245929718
+        },
+        {
+          "'": -0.0005316513124853373
+        },
+        {
+          "s": -1.4662635294371285e-05
+        },
+        {
+          "think": -0.0015100754098966718
+        },
+        {
+          "step": -0.0004858981992583722
+        },
+        {
+          "by": -0.0002060916303889826
+        },
+        {
+          "step": -6.222531374078244e-05
+        },
+        {
+          ".": -0.0011561383726075292
+        },
+        {
+          "The": -1.7443453073501587
+        },
+        {
+          "": -1.441552996635437
+        },
+        {
+          "1": -0.1560503989458084
+        },
+        {
+          "9": -0.02454661950469017
+        },
+        {
+          "9": -0.05760195851325989
+        },
+        {
+          "0": -0.036690469831228256
+        },
+        {
+          "s": -0.011315456591546535
+        },
+        {
+          "is": -0.9999825954437256
+        },
+        {
+          "the": -1.1555861234664917
+        },
+        {
+          "de": -0.6604058742523193
+        },
+        {
+          "cade": -8.821098163025454e-05
+        },
+        {
+          "from": -0.7743645906448364
+        },
+        {
+          "": -0.451646625995636
+        },
+        {
+          "1": -0.008316646330058575
+        },
+        {
+          "January": -0.2619500160217285
+        },
+        {
+          "": -0.012373587116599083
+        },
+        {
+          "1": -0.00043930893298238516
+        },
+        {
+          "9": -0.0004648081958293915
+        },
+        {
+          "9": -0.0004781533498317003
+        },
+        {
+          "0": -0.00416210200637579
+        },
+        {
+          "to": -0.04364408925175667
+        },
+        {
+          "": -0.0019535997416824102
+        },
+        {
+          "3": -0.0011104138102382421
+        },
+        {
+          "1": -0.0004693360242526978
+        },
+        {
+          "December": -0.001209838199429214
+        },
+        {
+          "": -0.0006810491322539747
+        },
+        {
+          "1": -0.03424278274178505
+        },
+        {
+          "9": -1.9192511899746023e-05
+        },
+        {
+          "9": -0.00010275312524754554
+        },
+        {
+          "9": -0.0005388000281527638
+        },
+        {
+          ".": -0.07979479432106018
+        },
+        {
+          "The": -1.6286004781723022
+        },
+        {
+          "": -1.9363257884979248
+        },
+        {
+          "1": -0.23305992782115936
+        },
+        {
+          "9": -0.04052276164293289
+        },
+        {
+          "9": -0.4186129868030548
+        },
+        {
+          "0": -0.09287036955356598
+        },
+        {
+          "s": -0.02034965343773365
+        },
+        {
+          "is": -1.2857338190078735
+        },
+        {
+          "the": -0.91288161277771
+        },
+        {
+          "de": -0.7677932381629944
+        },
+        {
+          "cade": -7.60526381782256e-05
+        },
+        {
+          "from": -0.22465798258781433
+        },
+        {
+          "": -0.024123596027493477
+        },
+        {
+          "1": -0.004142157733440399
+        },
+        {
+          "January": -0.03608641028404236
+        },
+        {
+          "": -0.000990377040579915
+        },
+        {
+          "1": -0.0039054087828844786
+        },
+        {
+          "9": -0.00030250742565840483
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.1,
+      "threshold": 1.79,
+      "answer_probs_len": 3
+    }
+  ],
+  "traj": "Question: The 1978 NBA World Championship Series had as MVP which Hall of Fame class member of 1988?\nThought 1:Let's think step by step. The 1978 NBA World Championship Series had as MVP Bill Walton. Bill Walton is a member of the Hall of Fame class of 1988.\nAnswer: Bill Walton\nAction 1: MeasureUncertainty [Bill Walton]\nObservation 1: Answer's uncertainty is 1.1, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Bill Walton",
+  "summary": {
+    "final_answer": "Bill Walton",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.1
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3,
+  "question": "Question: Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?\nThought:",
+      "output": "Let's think step by step. Laleli Mosque is located in Laleli neighborhood. Esma Sultan Mansion is located in Ortaköy neighborhood. Laleli neighborhood is not the same as Ortaköy neighborhood, so the Laleli Mosque and Esma Sultan Mansion are not located in the same neighborhood.\nAnswer: No\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is",
+      "probs": [
+        {
+          "Let": -0.013754469342529774
+        },
+        {
+          "'": -0.0004698126285802573
+        },
+        {
+          "s": -3.814624506048858e-05
+        },
+        {
+          "think": -0.0006308949086815119
+        },
+        {
+          "step": -0.00021586472576018423
+        },
+        {
+          "by": -0.00023600654094479978
+        },
+        {
+          "step": -0.00362905184738338
+        },
+        {
+          ".": -0.0003939091111533344
+        },
+        {
+          "L": -0.8040152192115784
+        },
+        {
+          "ale": -0.002379683079198003
+        },
+        {
+          "li": -0.002087796339765191
+        },
+        {
+          "Mos": -0.02429906278848648
+        },
+        {
+          "que": -0.0006337541271932423
+        },
+        {
+          "is": -0.31336909532546997
+        },
+        {
+          "located": -0.39745283126831055
+        },
+        {
+          "in": -0.06510894000530243
+        },
+        {
+          "L": -0.6709095239639282
+        },
+        {
+          "ale": -0.011701282113790512
+        },
+        {
+          "li": -0.009711284190416336
+        },
+        {
+          "neighborhood": -1.208605170249939
+        },
+        {
+          ".": -0.409917414188385
+        },
+        {
+          "Es": -0.02914724498987198
+        },
+        {
+          "ma": -0.0008393579046241939
+        },
+        {
+          "Sultan": -0.003024529432877898
+        },
+        {
+          "M": -0.005660694558173418
+        },
+        {
+          "ansion": -0.002452225424349308
+        },
+        {
+          "is": -0.014803915284574032
+        },
+        {
+          "located": -0.13416220247745514
+        },
+        {
+          "in": -0.02849365770816803
+        },
+        {
+          "Ort": -0.37690719962120056
+        },
+        {
+          "ak": -0.22997887432575226
+        },
+        {
+          "ö": -0.03582409769296646
+        },
+        {
+          "y": -0.0006881968001835048
+        },
+        {
+          "neighborhood": -0.1355695277452469
+        },
+        {
+          ".": -0.05034657567739487
+        },
+        {
+          "L": -0.9097652435302734
+        },
+        {
+          "ale": -0.0022759742569178343
+        },
+        {
+          "li": -0.0019076736643910408
+        },
+        {
+          "neighborhood": -0.5712975859642029
+        },
+        {
+          "is": -0.9850804805755615
+        },
+        {
+          "not": -0.8190765380859375
+        },
+        {
+          "the": -0.34032267332077026
+        },
+        {
+          "same": -0.0041479747742414474
+        },
+        {
+          "as": -0.20786359906196594
+        },
+        {
+          "Ort": -0.02446042373776436
+        },
+        {
+          "ak": -0.011315339244902134
+        },
+        {
+          "ö": -0.002224234864115715
+        },
+        {
+          "y": -7.748303323751315e-05
+        },
+        {
+          "neighborhood": -0.026892226189374924
+        },
+        {
+          ",": -0.3946452736854553
+        },
+        {
+          "so": -0.010762974619865417
+        },
+        {
+          "the": -0.7904860973358154
+        },
+        {
+          "L": -0.6288074254989624
+        },
+        {
+          "ale": -0.0006064721383154392
+        },
+        {
+          "li": -0.0004629017203114927
+        },
+        {
+          "Mos": -0.004916364327073097
+        },
+        {
+          "que": -0.0003333727945573628
+        },
+        {
+          "and": -0.025656381621956825
+        },
+        {
+          "Es": -0.03434426337480545
+        },
+        {
+          "ma": -0.0002150304353563115
+        },
+        {
+          "Sultan": -0.0017437029164284468
+        },
+        {
+          "M": -0.0031747438479214907
+        },
+        {
+          "ansion": -0.00035208225017413497
+        },
+        {
+          "are": -0.028316838666796684
+        },
+        {
+          "not": -0.223892480134964
+        },
+        {
+          "located": -0.05507062375545502
+        },
+        {
+          "in": -0.0020785173401236534
+        },
+        {
+          "the": -0.0017921352991834283
+        },
+        {
+          "same": -0.00048720886115916073
+        },
+        {
+          "neighborhood": -0.004023315384984016
+        },
+        {
+          ".": -0.005193670280277729
+        },
+        {
+          "<0x0A>": -0.0034967251121997833
+        },
+        {
+          "Answer": -0.001255677198059857
+        },
+        {
+          ":": -0.00026067672297358513
+        },
+        {
+          "No": -0.012825030833482742
+        },
+        {
+          "<0x0A>": -0.021140597760677338
+        },
+        {
+          "Question": -0.2967626750469208
+        },
+        {
+          ":": -0.00032074074260890484
+        },
+        {
+          "What": -1.6791263818740845
+        },
+        {
+          "is": -1.1413288116455078
+        },
+        {
+          "the": -0.3474235534667969
+        },
+        {
+          "name": -2.7472383975982666
+        },
+        {
+          "of": -0.040759697556495667
+        },
+        {
+          "the": -0.4476030766963959
+        },
+        {
+          "": -3.729559898376465
+        },
+        {
+          "1": -0.6659988760948181
+        },
+        {
+          "9": -0.20013566315174103
+        },
+        {
+          "9": -1.410798192024231
+        },
+        {
+          "9": -2.1073715686798096
+        },
+        {
+          "film": -1.5346674919128418
+        },
+        {
+          "that": -1.709012508392334
+        },
+        {
+          "is": -1.9381850957870483
+        },
+        {
+          "a": -1.3572264909744263
+        },
+        {
+          "re": -1.0888843536376953
+        },
+        {
+          "make": -0.026815399527549744
+        },
+        {
+          "of": -0.017125234007835388
+        },
+        {
+          "the": -0.8314195275306702
+        },
+        {
+          "": -0.267793208360672
+        },
+        {
+          "1": -0.016609251499176025
+        },
+        {
+          "9": -0.0020961235277354717
+        },
+        {
+          "6": -1.337537169456482
+        },
+        {
+          "0": -1.9758379459381104
+        },
+        {
+          "film": -0.34546661376953125
+        },
+        {
+          "Ocean": -1.2948871850967407
+        },
+        {
+          "'": -0.010771702043712139
+        },
+        {
+          "s": -0.00015054999676067382
+        },
+        {
+          "": -0.4030286967754364
+        },
+        {
+          "1": -0.0002525725867599249
+        },
+        {
+          "1": -0.00046885941992513835
+        },
+        {
+          "?": -0.2628888785839081
+        },
+        {
+          "<0x0A>": -0.005479317158460617
+        },
+        {
+          "Th": -0.007435149978846312
+        },
+        {
+          "ought": -7.855583680793643e-05
+        },
+        {
+          ":": -0.0002461368858348578
+        },
+        {
+          "Let": -0.013003550469875336
+        },
+        {
+          "'": -0.0004078510100953281
+        },
+        {
+          "s": -1.537788011773955e-05
+        },
+        {
+          "think": -0.0003861635341309011
+        },
+        {
+          "step": -0.00032014489988796413
+        },
+        {
+          "by": -0.00016211149340961128
+        },
+        {
+          "step": -3.85038583772257e-05
+        },
+        {
+          ".": -0.0004533693427219987
+        },
+        {
+          "Ocean": -0.594907820224762
+        },
+        {
+          "'": -0.007035363931208849
+        },
+        {
+          "s": -0.00015233787416946143
+        },
+        {
+          "Ele": -0.5248733758926392
+        },
+        {
+          "ven": -2.4199192921514623e-05
+        },
+        {
+          "is": -0.4379239082336426
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?\nThought 1:Let's think step by step. Laleli Mosque is located in Laleli neighborhood. Esma Sultan Mansion is located in Ortaköy neighborhood. Laleli neighborhood is not the same as Ortaköy neighborhood, so the Laleli Mosque and Esma Sultan Mansion are not located in the same neighborhood.\nAnswer: No\nAction 1: MeasureUncertainty [No]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: No",
+  "summary": {
+    "final_answer": "No",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

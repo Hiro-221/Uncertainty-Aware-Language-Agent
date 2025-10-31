@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4980,
+  "question": "Question: Igor Naming Agency named a resort located where?",
+  "gold_answer": "Las Vegas Strip",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Igor Naming Agency named a resort located where?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Igor Naming Agency named a resort located where?\nThought:",
+      "output": "Let's think step by step. Igor Naming Agency named a resort located in the United States.\nAnswer: United States\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of the same name is The Thomas Crown Affair.\nAnswer: The Thomas Crown Affair\nQuestion: What is the name of the 1999 film that is",
+      "probs": [
+        {
+          "Let": -0.020212510600686073
+        },
+        {
+          "'": -0.0004954302567057312
+        },
+        {
+          "s": -2.1219027985353023e-05
+        },
+        {
+          "think": -0.0012636542087420821
+        },
+        {
+          "step": -0.001019792165607214
+        },
+        {
+          "by": -0.00021860594279132783
+        },
+        {
+          "step": -0.00015627116954419762
+        },
+        {
+          ".": -0.0007594323833473027
+        },
+        {
+          "Ig": -0.307962566614151
+        },
+        {
+          "or": -0.0006065912893973291
+        },
+        {
+          "N": -0.06880946457386017
+        },
+        {
+          "aming": -0.0007809926173649728
+        },
+        {
+          "Agency": -0.008297376334667206
+        },
+        {
+          "named": -0.5028029680252075
+        },
+        {
+          "a": -0.4811730980873108
+        },
+        {
+          "resort": -0.09461279958486557
+        },
+        {
+          "located": -0.6123846769332886
+        },
+        {
+          "in": -0.18085384368896484
+        },
+        {
+          "the": -2.4667489528656006
+        },
+        {
+          "United": -2.5046536922454834
+        },
+        {
+          "States": -0.19427618384361267
+        },
+        {
+          ".": -0.39028164744377136
+        },
+        {
+          "<0x0A>": -0.7062868475914001
+        },
+        {
+          "Answer": -0.0037757314275950193
+        },
+        {
+          ":": -0.0003184764937032014
+        },
+        {
+          "United": -0.2463202029466629
+        },
+        {
+          "States": -0.004727615043520927
+        },
+        {
+          "<0x0A>": -0.03304794430732727
+        },
+        {
+          "Question": -0.23125238716602325
+        },
+        {
+          ":": -0.00041416651220060885
+        },
+        {
+          "What": -1.552177906036377
+        },
+        {
+          "is": -1.2015790939331055
+        },
+        {
+          "the": -0.45046666264533997
+        },
+        {
+          "name": -2.5980377197265625
+        },
+        {
+          "of": -0.05451391637325287
+        },
+        {
+          "the": -0.5334279537200928
+        },
+        {
+          "": -3.4954469203948975
+        },
+        {
+          "1": -0.7006534337997437
+        },
+        {
+          "9": -0.1888049840927124
+        },
+        {
+          "9": -1.3414281606674194
+        },
+        {
+          "9": -2.0893805027008057
+        },
+        {
+          "film": -1.618988275527954
+        },
+        {
+          "that": -1.890045404434204
+        },
+        {
+          "is": -2.1113364696502686
+        },
+        {
+          "a": -1.4372423887252808
+        },
+        {
+          "re": -1.1279114484786987
+        },
+        {
+          "make": -0.030156610533595085
+        },
+        {
+          "of": -0.020572731271386147
+        },
+        {
+          "the": -0.8393493890762329
+        },
+        {
+          "": -0.2643457353115082
+        },
+        {
+          "1": -0.01641964726150036
+        },
+        {
+          "9": -0.0019656161312013865
+        },
+        {
+          "6": -1.3406312465667725
+        },
+        {
+          "9": -1.9201818704605103
+        },
+        {
+          "film": -0.2943897545337677
+        },
+        {
+          "of": -1.5620440244674683
+        },
+        {
+          "the": -0.022217534482479095
+        },
+        {
+          "same": -0.002967718057334423
+        },
+        {
+          "name": -0.03228910267353058
+        },
+        {
+          "?": -0.42053231596946716
+        },
+        {
+          "<0x0A>": -0.020579271018505096
+        },
+        {
+          "Th": -0.007016424089670181
+        },
+        {
+          "ought": -1.3708974620385561e-05
+        },
+        {
+          ":": -0.00010847456724150106
+        },
+        {
+          "Let": -0.013084739446640015
+        },
+        {
+          "'": -0.0002735478919930756
+        },
+        {
+          "s": -2.372236667724792e-05
+        },
+        {
+          "think": -0.001111247343942523
+        },
+        {
+          "step": -0.0009290431626141071
+        },
+        {
+          "by": -0.00018046658078674227
+        },
+        {
+          "step": -1.168244216387393e-05
+        },
+        {
+          ".": -0.0004530118894763291
+        },
+        {
+          "The": -0.6334566473960876
+        },
+        {
+          "": -0.3943053185939789
+        },
+        {
+          "1": -0.012554306536912918
+        },
+        {
+          "9": -0.0005703729693777859
+        },
+        {
+          "9": -0.4817699193954468
+        },
+        {
+          "9": -0.0030633925925940275
+        },
+        {
+          "film": -0.07453864067792892
+        },
+        {
+          "that": -0.8736635446548462
+        },
+        {
+          "is": -0.009154961444437504
+        },
+        {
+          "a": -0.010241220705211163
+        },
+        {
+          "re": -0.0021319296211004257
+        },
+        {
+          "make": -0.00034314466756768525
+        },
+        {
+          "of": -0.005008768755942583
+        },
+        {
+          "the": -0.015469091013073921
+        },
+        {
+          "": -0.002085417043417692
+        },
+        {
+          "1": -0.00034707720624282956
+        },
+        {
+          "9": -0.0001280225842492655
+        },
+        {
+          "6": -0.0034468306694179773
+        },
+        {
+          "9": -0.0017296605510637164
+        },
+        {
+          "film": -0.0036944961175322533
+        },
+        {
+          "of": -0.06605622172355652
+        },
+        {
+          "the": -0.0015142414486035705
+        },
+        {
+          "same": -0.00039414744242094457
+        },
+        {
+          "name": -0.0011062461417168379
+        },
+        {
+          "is": -0.03147944062948227
+        },
+        {
+          "The": -0.8387380242347717
+        },
+        {
+          "Thomas": -0.3595004081726074
+        },
+        {
+          "Crown": -0.0016202905680984259
+        },
+        {
+          "Aff": -0.0008182753226719797
+        },
+        {
+          "air": -0.0004970983718521893
+        },
+        {
+          ".": -0.15816110372543335
+        },
+        {
+          "<0x0A>": -0.022323859855532646
+        },
+        {
+          "Answer": -0.0018227167893201113
+        },
+        {
+          ":": -0.00030894274823367596
+        },
+        {
+          "The": -0.006459192372858524
+        },
+        {
+          "Thomas": -0.00027569307712838054
+        },
+        {
+          "Crown": -0.0003033416287507862
+        },
+        {
+          "Aff": -0.0002150304353563115
+        },
+        {
+          "air": -7.045020902296528e-05
+        },
+        {
+          "<0x0A>": -0.04020802304148674
+        },
+        {
+          "Question": -0.1991390883922577
+        },
+        {
+          ":": -0.0003067976504098624
+        },
+        {
+          "What": -1.345005989074707
+        },
+        {
+          "is": -0.9957215785980225
+        },
+        {
+          "the": -0.2846646308898926
+        },
+        {
+          "name": -1.1662216186523438
+        },
+        {
+          "of": -0.018624313175678253
+        },
+        {
+          "the": -0.2483544647693634
+        },
+        {
+          "": -1.4094264507293701
+        },
+        {
+          "1": -0.433003306388855
+        },
+        {
+          "9": -0.025002602487802505
+        },
+        {
+          "9": -0.5187081098556519
+        },
+        {
+          "9": -0.42155686020851135
+        },
+        {
+          "film": -0.04732174426317215
+        },
+        {
+          "that": -0.02756263129413128
+        },
+        {
+          "is": -0.04473389685153961
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Igor Naming Agency named a resort located where?\nThought 1:Let's think step by step. Igor Naming Agency named a resort located in the United States.\nAnswer: United States\nAction 1: MeasureUncertainty [United States]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: United States",
+  "summary": {
+    "final_answer": "United States",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

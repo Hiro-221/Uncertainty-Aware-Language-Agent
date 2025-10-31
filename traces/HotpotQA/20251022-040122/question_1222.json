@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1222,
+  "question": "Question: What is the airport code for the Vilnius Airport that ceased operations in 2015?",
+  "gold_answer": "IATA: VNO, ICAO: EYVI",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is the airport code for the Vilnius Airport that ceased operations in 2015?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What is the airport code for the Vilnius Airport that ceased operations in 2015?\nThought:",
+      "output": "Let's think step by step. Vilnius Airport ceased operations in 2015. Vilnius Airport's airport code is VNO.\nAnswer: VNO\nQuestion: What is the airport code for the Vilnius Airport that ceased operations in 2015?\nThought: Let's think step by step. Vilnius Airport ceased operations in 2015. Vilnius Airport's airport code is VNO.\nAnswer: VNO\nQuestion: What is the airport code for the Vilnius Airport that ceased operations in 2015?\nTh",
+      "probs": [
+        {
+          "Let": -0.017743544653058052
+        },
+        {
+          "'": -0.0004997196956537664
+        },
+        {
+          "s": -7.73638384998776e-05
+        },
+        {
+          "think": -0.0010898133041337132
+        },
+        {
+          "step": -0.0006890306831337512
+        },
+        {
+          "by": -0.00029345019720494747
+        },
+        {
+          "step": -0.00011801023356383666
+        },
+        {
+          ".": -0.0005743046058341861
+        },
+        {
+          "Vil": -0.9696712493896484
+        },
+        {
+          "nius": -0.005814424250274897
+        },
+        {
+          "Airport": -0.16332583129405975
+        },
+        {
+          "ceased": -0.7638533115386963
+        },
+        {
+          "operations": -0.04846649989485741
+        },
+        {
+          "in": -0.030298177152872086
+        },
+        {
+          "": -0.006868680007755756
+        },
+        {
+          "2": -0.03218856453895569
+        },
+        {
+          "0": -7.986703712958843e-05
+        },
+        {
+          "1": -0.01019909605383873
+        },
+        {
+          "5": -0.04259147867560387
+        },
+        {
+          ".": -0.5665528178215027
+        },
+        {
+          "Vil": -1.0644935369491577
+        },
+        {
+          "nius": -0.002241600537672639
+        },
+        {
+          "Airport": -0.09914376586675644
+        },
+        {
+          "'": -1.1867401599884033
+        },
+        {
+          "s": -0.003203262807801366
+        },
+        {
+          "air": -0.2541811466217041
+        },
+        {
+          "port": -0.0016891986597329378
+        },
+        {
+          "code": -0.016229772940278053
+        },
+        {
+          "is": -0.0500832125544548
+        },
+        {
+          "V": -0.3535432517528534
+        },
+        {
+          "NO": -0.025440944358706474
+        },
+        {
+          ".": -0.2651187479496002
+        },
+        {
+          "<0x0A>": -0.6291099786758423
+        },
+        {
+          "Answer": -0.0021772508043795824
+        },
+        {
+          ":": -0.0004808938247151673
+        },
+        {
+          "V": -0.017397886142134666
+        },
+        {
+          "NO": -0.00032491172896698117
+        },
+        {
+          "<0x0A>": -0.02071356028318405
+        },
+        {
+          "Question": -0.21772538125514984
+        },
+        {
+          ":": -0.00024816294899210334
+        },
+        {
+          "What": -1.2659165859222412
+        },
+        {
+          "is": -0.9852826595306396
+        },
+        {
+          "the": -0.2697219252586365
+        },
+        {
+          "air": -2.2775871753692627
+        },
+        {
+          "port": -0.021402355283498764
+        },
+        {
+          "code": -0.026691097766160965
+        },
+        {
+          "for": -0.05192245543003082
+        },
+        {
+          "the": -0.2324557900428772
+        },
+        {
+          "Vil": -0.6939640045166016
+        },
+        {
+          "nius": -0.0017157370457425714
+        },
+        {
+          "Airport": -0.07343355566263199
+        },
+        {
+          "that": -0.07783776521682739
+        },
+        {
+          "ceased": -0.19644798338413239
+        },
+        {
+          "operations": -0.0016329062636941671
+        },
+        {
+          "in": -0.003002661047503352
+        },
+        {
+          "": -0.002641761675477028
+        },
+        {
+          "2": -0.020615121349692345
+        },
+        {
+          "0": -6.723177648382261e-05
+        },
+        {
+          "1": -0.013811023905873299
+        },
+        {
+          "5": -0.038018692284822464
+        },
+        {
+          "?": -0.008954132907092571
+        },
+        {
+          "<0x0A>": -0.006895436439663172
+        },
+        {
+          "Th": -0.025655221194028854
+        },
+        {
+          "ought": -8.701899787411094e-05
+        },
+        {
+          ":": -0.0001851148990681395
+        },
+        {
+          "Let": -0.01996142417192459
+        },
+        {
+          "'": -0.0005110388156026602
+        },
+        {
+          "s": -4.076874756719917e-05
+        },
+        {
+          "think": -0.0008468617452308536
+        },
+        {
+          "step": -0.000459565402707085
+        },
+        {
+          "by": -0.00013791563105769455
+        },
+        {
+          "step": -3.0040289857424796e-05
+        },
+        {
+          ".": -0.00045599075383506715
+        },
+        {
+          "Vil": -0.038304295390844345
+        },
+        {
+          "nius": -0.00023624490131624043
+        },
+        {
+          "Airport": -0.003986270632594824
+        },
+        {
+          "ceased": -0.04984915629029274
+        },
+        {
+          "operations": -0.0016182672698050737
+        },
+        {
+          "in": -0.0007687236065976322
+        },
+        {
+          "": -0.0006163604557514191
+        },
+        {
+          "2": -0.003475817386060953
+        },
+        {
+          "0": -0.00013290952483657748
+        },
+        {
+          "1": -0.0012682974338531494
+        },
+        {
+          "5": -0.005133423954248428
+        },
+        {
+          ".": -0.0068891616538167
+        },
+        {
+          "Vil": -0.01643817499279976
+        },
+        {
+          "nius": -8.427741704508662e-05
+        },
+        {
+          "Airport": -0.00238693761639297
+        },
+        {
+          "'": -0.005401658825576305
+        },
+        {
+          "s": -5.709961988031864e-05
+        },
+        {
+          "air": -0.005210391711443663
+        },
+        {
+          "port": -0.00014351768186315894
+        },
+        {
+          "code": -0.0007256020326167345
+        },
+        {
+          "is": -0.001527096494100988
+        },
+        {
+          "V": -0.002357443794608116
+        },
+        {
+          "NO": -0.0006269635050557554
+        },
+        {
+          ".": -0.0035993570927530527
+        },
+        {
+          "<0x0A>": -0.009717777371406555
+        },
+        {
+          "Answer": -0.003138143103569746
+        },
+        {
+          ":": -0.0002711643755901605
+        },
+        {
+          "V": -0.008543961681425571
+        },
+        {
+          "NO": -0.0007370378007180989
+        },
+        {
+          "<0x0A>": -0.015341021120548248
+        },
+        {
+          "Question": -0.30085083842277527
+        },
+        {
+          ":": -0.0003475538978818804
+        },
+        {
+          "What": -0.9101541042327881
+        },
+        {
+          "is": -0.43684038519859314
+        },
+        {
+          "the": -0.1046212911605835
+        },
+        {
+          "air": -0.5785220265388489
+        },
+        {
+          "port": -0.003010267624631524
+        },
+        {
+          "code": -0.002449014689773321
+        },
+        {
+          "for": -0.006018965505063534
+        },
+        {
+          "the": -0.028386017307639122
+        },
+        {
+          "Vil": -0.0184366125613451
+        },
+        {
+          "nius": -0.00011121608258690685
+        },
+        {
+          "Airport": -0.00300444383174181
+        },
+        {
+          "that": -0.003495180746540427
+        },
+        {
+          "ceased": -0.005838246084749699
+        },
+        {
+          "operations": -0.0001497156627010554
+        },
+        {
+          "in": -0.00035232058144174516
+        },
+        {
+          "": -0.0003234816831536591
+        },
+        {
+          "2": -0.0009134411229752004
+        },
+        {
+          "0": -2.4676019165781327e-05
+        },
+        {
+          "1": -0.0008125579333864152
+        },
+        {
+          "5": -0.002848022850230336
+        },
+        {
+          "?": -0.000902007392141968
+        },
+        {
+          "<0x0A>": -0.0009651293512433767
+        },
+        {
+          "Th": -0.00401072995737195
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: What is the airport code for the Vilnius Airport that ceased operations in 2015?\nThought 1:Let's think step by step. Vilnius Airport ceased operations in 2015. Vilnius Airport's airport code is VNO.\nAnswer: VNO\nAction 1: MeasureUncertainty [VNO]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: VNO",
+  "summary": {
+    "final_answer": "VNO",
+    "em": false,
+    "f1": 0.4,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

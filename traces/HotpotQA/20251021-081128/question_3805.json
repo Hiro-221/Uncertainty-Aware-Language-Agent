@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3805,
+  "question": "Question: Hivange is a village in a country that has how many official languages ?",
+  "gold_answer": "three official languages",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Hivange is a village in a country that has how many official languages ?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Hivange is a village in a country that has how many official languages ?\nThought:",
+      "output": "Let's think step by step. Hivange is a village in Luxembourg. Luxembourg has three official languages. So the answer is 3.\nAnswer: 3\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999 film Face/Off. So the answer is Face/Off.\nAnswer: Face/Off\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought:",
+      "probs": [
+        {
+          "Let": -0.01039908453822136
+        },
+        {
+          "'": -0.0006423317245207727
+        },
+        {
+          "s": -6.794906312279636e-06
+        },
+        {
+          "think": -0.0011063652345910668
+        },
+        {
+          "step": -0.0007377525325864553
+        },
+        {
+          "by": -0.0004629017203114927
+        },
+        {
+          "step": -1.5139465176616795e-05
+        },
+        {
+          ".": -0.0011822147062048316
+        },
+        {
+          "H": -0.26777851581573486
+        },
+        {
+          "iv": -0.0012468667700886726
+        },
+        {
+          "ange": -0.0003023882454726845
+        },
+        {
+          "is": -0.032056618481874466
+        },
+        {
+          "a": -0.18303143978118896
+        },
+        {
+          "village": -0.04062338173389435
+        },
+        {
+          "in": -0.05095534026622772
+        },
+        {
+          "Luxemb": -0.21011076867580414
+        },
+        {
+          "ourg": -0.005851163994520903
+        },
+        {
+          ".": -0.24650469422340393
+        },
+        {
+          "Luxemb": -0.15788088738918304
+        },
+        {
+          "ourg": -0.003484370419755578
+        },
+        {
+          "has": -0.13433147966861725
+        },
+        {
+          "three": -0.6859740614891052
+        },
+        {
+          "official": -0.03758399188518524
+        },
+        {
+          "languages": -0.008166493847966194
+        },
+        {
+          ".": -1.0936071872711182
+        },
+        {
+          "So": -0.703879714012146
+        },
+        {
+          "the": -0.6169810891151428
+        },
+        {
+          "answer": -0.5827633142471313
+        },
+        {
+          "is": -0.023464037105441093
+        },
+        {
+          "": -0.7010626196861267
+        },
+        {
+          "3": -0.00249087275005877
+        },
+        {
+          ".": -0.09817977994680405
+        },
+        {
+          "<0x0A>": -0.004119719844311476
+        },
+        {
+          "Answer": -0.002746859099715948
+        },
+        {
+          ":": -0.0017383478116244078
+        },
+        {
+          "": -0.011697040870785713
+        },
+        {
+          "3": -0.000513064325787127
+        },
+        {
+          "<0x0A>": -0.02778260037302971
+        },
+        {
+          "Question": -0.22090277075767517
+        },
+        {
+          ":": -0.0004605186404660344
+        },
+        {
+          "What": -1.5844374895095825
+        },
+        {
+          "is": -1.0665814876556396
+        },
+        {
+          "the": -0.343241810798645
+        },
+        {
+          "name": -2.448744058609009
+        },
+        {
+          "of": -0.046237144619226456
+        },
+        {
+          "the": -0.41360560059547424
+        },
+        {
+          "": -3.7300961017608643
+        },
+        {
+          "1": -0.6768903732299805
+        },
+        {
+          "9": -0.2084997147321701
+        },
+        {
+          "9": -1.3417264223098755
+        },
+        {
+          "9": -2.1058568954467773
+        },
+        {
+          "film": -1.5484113693237305
+        },
+        {
+          "that": -1.7271775007247925
+        },
+        {
+          "was": -2.0385756492614746
+        },
+        {
+          "directed": -1.2748157978057861
+        },
+        {
+          "by": -0.026068074628710747
+        },
+        {
+          "John": -3.5655100345611572
+        },
+        {
+          "W": -2.394636392593384
+        },
+        {
+          "oo": -0.23430539667606354
+        },
+        {
+          "?": -0.9007301926612854
+        },
+        {
+          "<0x0A>": -0.015463925898075104
+        },
+        {
+          "Th": -0.007271964568644762
+        },
+        {
+          "ought": -2.6225699912174605e-05
+        },
+        {
+          ":": -0.00022420754248742014
+        },
+        {
+          "Let": -0.016186490654945374
+        },
+        {
+          "'": -0.0004573014739435166
+        },
+        {
+          "s": -8.4638240878121e-06
+        },
+        {
+          "think": -0.0005944392178207636
+        },
+        {
+          "step": -0.0002834395272657275
+        },
+        {
+          "by": -0.00010430268594063818
+        },
+        {
+          "step": -5.304672595229931e-05
+        },
+        {
+          ".": -0.0005032941699028015
+        },
+        {
+          "John": -1.3163352012634277
+        },
+        {
+          "W": -0.00375708588398993
+        },
+        {
+          "oo": -0.00018618757894728333
+        },
+        {
+          "directed": -0.41812533140182495
+        },
+        {
+          "the": -1.564404845237732
+        },
+        {
+          "": -0.34402796626091003
+        },
+        {
+          "1": -0.02382436953485012
+        },
+        {
+          "9": -0.00014006110723130405
+        },
+        {
+          "9": -0.016764823347330093
+        },
+        {
+          "9": -0.15201148390769958
+        },
+        {
+          "film": -0.0723981037735939
+        },
+        {
+          "Face": -0.788779616355896
+        },
+        {
+          "/": -0.028758825734257698
+        },
+        {
+          "Off": -0.0036733548622578382
+        },
+        {
+          ".": -0.11876557767391205
+        },
+        {
+          "So": -0.7166659235954285
+        },
+        {
+          "the": -0.06763608008623123
+        },
+        {
+          "answer": -0.605260968208313
+        },
+        {
+          "is": -0.03999534994363785
+        },
+        {
+          "Face": -0.01676013506948948
+        },
+        {
+          "/": -0.002303924411535263
+        },
+        {
+          "Off": -0.0026400971692055464
+        },
+        {
+          ".": -0.044600628316402435
+        },
+        {
+          "<0x0A>": -0.0027384182903915644
+        },
+        {
+          "Answer": -0.002179629635065794
+        },
+        {
+          ":": -0.0006617502076551318
+        },
+        {
+          "Face": -0.003257565898820758
+        },
+        {
+          "/": -0.0035476861521601677
+        },
+        {
+          "Off": -0.0013991338200867176
+        },
+        {
+          "<0x0A>": -0.016453536227345467
+        },
+        {
+          "Question": -0.21180614829063416
+        },
+        {
+          ":": -0.00027509720530360937
+        },
+        {
+          "What": -1.3523083925247192
+        },
+        {
+          "is": -0.887124240398407
+        },
+        {
+          "the": -0.21420277655124664
+        },
+        {
+          "name": -1.0215967893600464
+        },
+        {
+          "of": -0.013548092916607857
+        },
+        {
+          "the": -0.18473544716835022
+        },
+        {
+          "": -1.1465516090393066
+        },
+        {
+          "1": -0.43526265025138855
+        },
+        {
+          "9": -0.024395044893026352
+        },
+        {
+          "9": -0.4678035378456116
+        },
+        {
+          "9": -0.4673967957496643
+        },
+        {
+          "film": -0.05608764663338661
+        },
+        {
+          "that": -0.03488042205572128
+        },
+        {
+          "was": -0.07492472231388092
+        },
+        {
+          "directed": -0.04859595745801926
+        },
+        {
+          "by": -0.0013498490443453193
+        },
+        {
+          "John": -0.6738751530647278
+        },
+        {
+          "W": -0.02492481656372547
+        },
+        {
+          "oo": -0.0006783091812394559
+        },
+        {
+          "?": -0.07335113734006882
+        },
+        {
+          "<0x0A>": -0.007015003357082605
+        },
+        {
+          "Th": -0.032012976706027985
+        },
+        {
+          "ought": -1.7881377516459906e-06
+        },
+        {
+          ":": -0.0003110878460574895
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Hivange is a village in a country that has how many official languages ?\nThought 1:Let's think step by step. Hivange is a village in Luxembourg. Luxembourg has three official languages. So the answer is 3.\nAnswer: 3\nAction 1: MeasureUncertainty [3]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 3",
+  "summary": {
+    "final_answer": "3",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

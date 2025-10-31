@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 6063,
+  "question": "Question: Which company owned by a Pakistani media mogul produced the Pakistani romantic drama film Dobara Phir Se?",
+  "gold_answer": "ARY Films",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which company owned by a Pakistani media mogul produced the Pakistani romantic drama film Dobara Phir Se?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which company owned by a Pakistani media mogul produced the Pakistani romantic drama film Dobara Phir Se?\nThought:",
+      "output": "Let's think step by step. Dobara Phir Se is a Pakistani romantic drama film produced by Motion Picture House. Motion Picture House is owned by Pakistani media mogul Humayun Saeed. So the company owned by a Pakistani media mogul that produced the Pakistani romantic drama film Dobara Phir Se is Motion Picture House.\nAnswer: Motion Picture House\nQuestion: Which of the following is not a member of the band The Cranberries?\nThought: Let's think step by step. The Cranberries is a",
+      "probs": [
+        {
+          "Let": -0.008534860797226429
+        },
+        {
+          "'": -0.0006574614671990275
+        },
+        {
+          "s": -2.455681169521995e-05
+        },
+        {
+          "think": -0.0008607972995378077
+        },
+        {
+          "step": -0.0004170263418927789
+        },
+        {
+          "by": -0.0003951007383875549
+        },
+        {
+          "step": -0.00024720950750634074
+        },
+        {
+          ".": -0.0005723983631469309
+        },
+        {
+          "Dob": -0.9936310648918152
+        },
+        {
+          "ara": -0.0004963834653608501
+        },
+        {
+          "Ph": -0.004213622305542231
+        },
+        {
+          "ir": -0.0003532739356160164
+        },
+        {
+          "Se": -0.0022094857413321733
+        },
+        {
+          "is": -0.7346017956733704
+        },
+        {
+          "a": -0.3978174328804016
+        },
+        {
+          "Pak": -0.30414873361587524
+        },
+        {
+          "ist": -0.00038926175329834223
+        },
+        {
+          "ani": -0.00013934595335740596
+        },
+        {
+          "rom": -0.055880580097436905
+        },
+        {
+          "antic": -0.0018234307644888759
+        },
+        {
+          "drama": -0.029320096597075462
+        },
+        {
+          "film": -0.018812797963619232
+        },
+        {
+          "produced": -1.0825188159942627
+        },
+        {
+          "by": -0.014665305614471436
+        },
+        {
+          "Mot": -1.4861767292022705
+        },
+        {
+          "ion": -0.010756724514067173
+        },
+        {
+          "Picture": -1.0287681818008423
+        },
+        {
+          "House": -1.2100520133972168
+        },
+        {
+          ".": -0.7065747380256653
+        },
+        {
+          "Mot": -0.5232334733009338
+        },
+        {
+          "ion": -0.00036066226311959326
+        },
+        {
+          "Picture": -0.0047366321086883545
+        },
+        {
+          "House": -0.003881065873429179
+        },
+        {
+          "is": -0.09328256547451019
+        },
+        {
+          "owned": -0.5096125602722168
+        },
+        {
+          "by": -0.005727190990000963
+        },
+        {
+          "Pak": -0.8876330256462097
+        },
+        {
+          "ist": -0.0005945583689026535
+        },
+        {
+          "ani": -2.9205850296420977e-05
+        },
+        {
+          "media": -0.03801019862294197
+        },
+        {
+          "mog": -0.007529924623668194
+        },
+        {
+          "ul": -0.016163384541869164
+        },
+        {
+          "Hum": -1.2580196857452393
+        },
+        {
+          "ay": -0.0029355075675994158
+        },
+        {
+          "un": -0.010702473111450672
+        },
+        {
+          "S": -0.0078101735562086105
+        },
+        {
+          "ae": -8.093983342405409e-05
+        },
+        {
+          "ed": -6.568216485902667e-05
+        },
+        {
+          ".": -0.42167025804519653
+        },
+        {
+          "So": -0.36566320061683655
+        },
+        {
+          "the": -0.2819185256958008
+        },
+        {
+          "company": -0.3148229122161865
+        },
+        {
+          "owned": -0.351285845041275
+        },
+        {
+          "by": -0.0009722749819047749
+        },
+        {
+          "a": -0.04890807345509529
+        },
+        {
+          "Pak": -0.0009683449170552194
+        },
+        {
+          "ist": -0.00013720047718379647
+        },
+        {
+          "ani": -0.0006898645660839975
+        },
+        {
+          "media": -0.00033861625706776977
+        },
+        {
+          "mog": -0.0006716379430145025
+        },
+        {
+          "ul": -0.00012516192509792745
+        },
+        {
+          "that": -0.8330987691879272
+        },
+        {
+          "produced": -0.010469632223248482
+        },
+        {
+          "the": -0.19997179508209229
+        },
+        {
+          "Pak": -0.04356500133872032
+        },
+        {
+          "ist": -0.00011419598013162613
+        },
+        {
+          "ani": -3.325883881188929e-05
+        },
+        {
+          "rom": -0.00195609824731946
+        },
+        {
+          "antic": -0.0004232226056046784
+        },
+        {
+          "drama": -0.0006562701892107725
+        },
+        {
+          "film": -0.0011617346899583936
+        },
+        {
+          "Dob": -0.014739781618118286
+        },
+        {
+          "ara": -0.00017021637177094817
+        },
+        {
+          "Ph": -0.0003280101518612355
+        },
+        {
+          "ir": -0.00017081231635529548
+        },
+        {
+          "Se": -0.0004681444843299687
+        },
+        {
+          "is": -0.05682380497455597
+        },
+        {
+          "Mot": -0.032459910959005356
+        },
+        {
+          "ion": -0.00011503035057103261
+        },
+        {
+          "Picture": -0.0015209070406854153
+        },
+        {
+          "House": -0.0006181474891491234
+        },
+        {
+          ".": -0.020293349400162697
+        },
+        {
+          "<0x0A>": -0.0030355823691934347
+        },
+        {
+          "Answer": -0.002163809258490801
+        },
+        {
+          ":": -0.000393432448618114
+        },
+        {
+          "Mot": -0.004002180881798267
+        },
+        {
+          "ion": -8.976056415122002e-05
+        },
+        {
+          "Picture": -0.002028790069743991
+        },
+        {
+          "House": -0.0007539528887718916
+        },
+        {
+          "<0x0A>": -0.02184111252427101
+        },
+        {
+          "Question": -0.21642567217350006
+        },
+        {
+          ":": -0.00026556302327662706
+        },
+        {
+          "Which": -1.3681594133377075
+        },
+        {
+          "of": -2.0941333770751953
+        },
+        {
+          "the": -0.7963227033615112
+        },
+        {
+          "following": -0.16481152176856995
+        },
+        {
+          "is": -1.1493499279022217
+        },
+        {
+          "not": -1.3625842332839966
+        },
+        {
+          "a": -0.5922315120697021
+        },
+        {
+          "member": -3.285276412963867
+        },
+        {
+          "of": -0.03249441832304001
+        },
+        {
+          "the": -0.473802387714386
+        },
+        {
+          "band": -3.653599500656128
+        },
+        {
+          "The": -2.2706401348114014
+        },
+        {
+          "C": -3.9683947563171387
+        },
+        {
+          "ran": -2.2214629650115967
+        },
+        {
+          "ber": -0.03571770340204239
+        },
+        {
+          "ries": -0.0007297713309526443
+        },
+        {
+          "?": -0.3938415050506592
+        },
+        {
+          "<0x0A>": -0.6056011319160461
+        },
+        {
+          "Th": -0.02501097321510315
+        },
+        {
+          "ought": -4.851700214203447e-05
+        },
+        {
+          ":": -0.00025459862081333995
+        },
+        {
+          "Let": -0.01900417171418667
+        },
+        {
+          "'": -0.0004677870310842991
+        },
+        {
+          "s": -2.2291887944447808e-05
+        },
+        {
+          "think": -0.0010070496937260032
+        },
+        {
+          "step": -0.0005986090400256217
+        },
+        {
+          "by": -0.00021610308613162488
+        },
+        {
+          "step": -6.007967749610543e-05
+        },
+        {
+          ".": -0.0008030288736335933
+        },
+        {
+          "The": -0.992424488067627
+        },
+        {
+          "C": -0.20749449729919434
+        },
+        {
+          "ran": -0.0004993622424080968
+        },
+        {
+          "ber": -0.0012210302520543337
+        },
+        {
+          "ries": -0.00020466140995267779
+        },
+        {
+          "is": -1.1707652807235718
+        },
+        {
+          "a": -0.7575752139091492
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which company owned by a Pakistani media mogul produced the Pakistani romantic drama film Dobara Phir Se?\nThought 1:Let's think step by step. Dobara Phir Se is a Pakistani romantic drama film produced by Motion Picture House. Motion Picture House is owned by Pakistani media mogul Humayun Saeed. So the company owned by a Pakistani media mogul that produced the Pakistani romantic drama film Dobara Phir Se is Motion Picture House.\nAnswer: Motion Picture House\nAction 1: MeasureUncertainty [Motion Picture House]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Motion Picture House",
+  "summary": {
+    "final_answer": "Motion Picture House",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

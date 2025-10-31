@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1534,
+  "question": "Question: Did the board game San Marco or About Time come out first?",
+  "gold_answer": "San Marco",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Did the board game San Marco or About Time come out first?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Did the board game San Marco or About Time come out first?\nThought:",
+      "output": "Let's think step by step. San Marco was released in 2001. About Time was released in 2004. 2001 (San Marco) < 2004 (About Time), so San Marco came out first.\nAnswer: San Marco\nQuestion: Which of the following is a type of fish: Swordfish, Swordfish, or Swordfish?\nThought: Let's think step by step. Swordfish is a type of fish. Swordfish is a type of fish. Swordfish is a type of fish. So all",
+      "probs": [
+        {
+          "Let": -0.008028261363506317
+        },
+        {
+          "'": -0.0004980515805073082
+        },
+        {
+          "s": -7.152531907195225e-06
+        },
+        {
+          "think": -0.0006274400511756539
+        },
+        {
+          "step": -0.0003734129713848233
+        },
+        {
+          "by": -0.00017307691450696439
+        },
+        {
+          "step": -4.458328112377785e-05
+        },
+        {
+          ".": -0.00038818930624984205
+        },
+        {
+          "San": -0.3212481737136841
+        },
+        {
+          "Marco": -0.0018321170937269926
+        },
+        {
+          "was": -0.6159740090370178
+        },
+        {
+          "released": -0.7401173114776611
+        },
+        {
+          "in": -0.04145278409123421
+        },
+        {
+          "": -0.03144975006580353
+        },
+        {
+          "2": -0.16093437373638153
+        },
+        {
+          "0": -0.0002233732520835474
+        },
+        {
+          "0": -0.023430034518241882
+        },
+        {
+          "1": -0.034247275441884995
+        },
+        {
+          ".": -0.04813152551651001
+        },
+        {
+          "About": -0.018179696053266525
+        },
+        {
+          "Time": -0.006081173196434975
+        },
+        {
+          "was": -0.07494363933801651
+        },
+        {
+          "released": -0.06240282207727432
+        },
+        {
+          "in": -0.007907277904450893
+        },
+        {
+          "": -0.011736510321497917
+        },
+        {
+          "2": -0.26299336552619934
+        },
+        {
+          "0": -0.0003164505760651082
+        },
+        {
+          "0": -0.12073759734630585
+        },
+        {
+          "4": -1.0010477304458618
+        },
+        {
+          ".": -0.009708096273243427
+        },
+        {
+          "": -0.18246681988239288
+        },
+        {
+          "2": -0.001077428925782442
+        },
+        {
+          "0": -0.0002320735511602834
+        },
+        {
+          "0": -0.0008424547268077731
+        },
+        {
+          "1": -0.02791638858616352
+        },
+        {
+          "(": -0.05871016904711723
+        },
+        {
+          "San": -0.0038821345660835505
+        },
+        {
+          "Marco": -0.0028937868773937225
+        },
+        {
+          ")": -0.0011241076281294227
+        },
+        {
+          "<": -0.01759163849055767
+        },
+        {
+          "": -0.0015186455566436052
+        },
+        {
+          "2": -0.0002723561483435333
+        },
+        {
+          "0": -8.868777513271198e-05
+        },
+        {
+          "0": -0.0004397855664137751
+        },
+        {
+          "4": -0.0033269552513957024
+        },
+        {
+          "(": -0.004085646942257881
+        },
+        {
+          "About": -0.0018122454639524221
+        },
+        {
+          "Time": -0.003161315806210041
+        },
+        {
+          "),": -0.03653176128864288
+        },
+        {
+          "so": -0.004082916304469109
+        },
+        {
+          "San": -0.06547512114048004
+        },
+        {
+          "Marco": -0.002111707115545869
+        },
+        {
+          "came": -0.26264286041259766
+        },
+        {
+          "out": -0.0051988884806632996
+        },
+        {
+          "first": -0.02145077846944332
+        },
+        {
+          ".": -0.004082322586327791
+        },
+        {
+          "<0x0A>": -0.0025069257244467735
+        },
+        {
+          "Answer": -0.002560434164479375
+        },
+        {
+          ":": -0.00029583368450403214
+        },
+        {
+          "San": -0.03161747008562088
+        },
+        {
+          "Marco": -0.0014649622607976198
+        },
+        {
+          "<0x0A>": -0.024698056280612946
+        },
+        {
+          "Question": -0.21027906239032745
+        },
+        {
+          ":": -0.0003610197745729238
+        },
+        {
+          "Which": -1.5427112579345703
+        },
+        {
+          "of": -2.1045496463775635
+        },
+        {
+          "the": -1.0058789253234863
+        },
+        {
+          "following": -0.20555266737937927
+        },
+        {
+          "is": -1.2094008922576904
+        },
+        {
+          "a": -1.5710806846618652
+        },
+        {
+          "type": -3.791964530944824
+        },
+        {
+          "of": -0.016637273132801056
+        },
+        {
+          "fish": -4.894351005554199
+        },
+        {
+          ":": -1.0808295011520386
+        },
+        {
+          "S": -4.250048637390137
+        },
+        {
+          "word": -2.1411659717559814
+        },
+        {
+          "fish": -0.11765417456626892
+        },
+        {
+          ",": -0.43812060356140137
+        },
+        {
+          "S": -2.9999430179595947
+        },
+        {
+          "word": -1.63217031955719
+        },
+        {
+          "fish": -0.45893362164497375
+        },
+        {
+          ",": -0.5831674337387085
+        },
+        {
+          "or": -0.4467771053314209
+        },
+        {
+          "S": -1.0712521076202393
+        },
+        {
+          "word": -0.06421184539794922
+        },
+        {
+          "fish": -0.0337609127163887
+        },
+        {
+          "?": -0.030357735231518745
+        },
+        {
+          "<0x0A>": -0.005795935168862343
+        },
+        {
+          "Th": -0.010037895292043686
+        },
+        {
+          "ought": -4.088794958079234e-05
+        },
+        {
+          ":": -0.00037102968781255186
+        },
+        {
+          "Let": -0.020818643271923065
+        },
+        {
+          "'": -0.0005463061388581991
+        },
+        {
+          "s": -5.972207145532593e-05
+        },
+        {
+          "think": -0.0005789510905742645
+        },
+        {
+          "step": -0.0003580405900720507
+        },
+        {
+          "by": -0.00033206192892976105
+        },
+        {
+          "step": -1.597391747054644e-05
+        },
+        {
+          ".": -0.001190906623378396
+        },
+        {
+          "S": -0.3368520736694336
+        },
+        {
+          "word": -0.0017247814685106277
+        },
+        {
+          "fish": -0.0011189873330295086
+        },
+        {
+          "is": -0.17165759205818176
+        },
+        {
+          "a": -0.050962816923856735
+        },
+        {
+          "type": -0.2914734482765198
+        },
+        {
+          "of": -0.0014517493546009064
+        },
+        {
+          "fish": -0.0210250411182642
+        },
+        {
+          ".": -0.1501454859972
+        },
+        {
+          "S": -0.5944352149963379
+        },
+        {
+          "word": -0.004731292836368084
+        },
+        {
+          "fish": -0.0025393879041075706
+        },
+        {
+          "is": -0.05088577792048454
+        },
+        {
+          "a": -0.1439141035079956
+        },
+        {
+          "type": -0.014815190806984901
+        },
+        {
+          "of": -0.00037651124875992537
+        },
+        {
+          "fish": -0.003854466136544943
+        },
+        {
+          ".": -0.01853959448635578
+        },
+        {
+          "S": -0.1893995702266693
+        },
+        {
+          "word": -0.0006400682032108307
+        },
+        {
+          "fish": -0.0011453027836978436
+        },
+        {
+          "is": -0.00498931622132659
+        },
+        {
+          "a": -0.06510994583368301
+        },
+        {
+          "type": -0.004542508162558079
+        },
+        {
+          "of": -0.00022075122979003936
+        },
+        {
+          "fish": -0.002001070184633136
+        },
+        {
+          ".": -0.03839561343193054
+        },
+        {
+          "So": -0.4878171682357788
+        },
+        {
+          "all": -0.7940055727958679
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Did the board game San Marco or About Time come out first?\nThought 1:Let's think step by step. San Marco was released in 2001. About Time was released in 2004. 2001 (San Marco) < 2004 (About Time), so San Marco came out first.\nAnswer: San Marco\nAction 1: MeasureUncertainty [San Marco]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: San Marco",
+  "summary": {
+    "final_answer": "San Marco",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

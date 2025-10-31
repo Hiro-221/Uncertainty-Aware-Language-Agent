@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 4321,
+  "question": "Question: What nationality is the director of the 1971 film Wake in Fright?",
+  "gold_answer": "Velichko Todorov Tsochev) is a Bulgarian-Canadian",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What nationality is the director of the 1971 film Wake in Fright?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What nationality is the director of the 1971 film Wake in Fright?\nThought:",
+      "output": "Let's think step by step. The director of the 1971 film Wake in Fright is Ted Kotcheff. Ted Kotcheff is a Canadian film and television director. So the director of the 1971 film Wake in Fright is Canadian.\nAnswer: Canadian\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. The 1999 film that is a remake of the 19",
+      "probs": [
+        {
+          "Let": -0.01927303895354271
+        },
+        {
+          "'": -0.0005449955351650715
+        },
+        {
+          "s": -8.308542601298541e-05
+        },
+        {
+          "think": -0.0012032896047458053
+        },
+        {
+          "step": -0.00040534863364882767
+        },
+        {
+          "by": -0.00015496007108595222
+        },
+        {
+          "step": -3.576272320060525e-06
+        },
+        {
+          ".": -0.0005902693956159055
+        },
+        {
+          "The": -1.2204047441482544
+        },
+        {
+          "director": -0.22347165644168854
+        },
+        {
+          "of": -0.038161445409059525
+        },
+        {
+          "the": -0.27048081159591675
+        },
+        {
+          "": -0.0258664321154356
+        },
+        {
+          "1": -0.0007229813490994275
+        },
+        {
+          "9": -0.00012420836719684303
+        },
+        {
+          "7": -0.004032101482152939
+        },
+        {
+          "1": -0.0025181034579873085
+        },
+        {
+          "film": -0.01022210530936718
+        },
+        {
+          "W": -0.017360279336571693
+        },
+        {
+          "ake": -0.0003438596613705158
+        },
+        {
+          "in": -0.001400800421833992
+        },
+        {
+          "F": -0.0007975496700964868
+        },
+        {
+          "right": -4.3748852476710454e-05
+        },
+        {
+          "is": -0.03374766185879707
+        },
+        {
+          "Ted": -0.1679282933473587
+        },
+        {
+          "Kot": -0.0005925330333411694
+        },
+        {
+          "che": -0.003566810628399253
+        },
+        {
+          "ff": -0.0012138864258304238
+        },
+        {
+          ".": -0.2401876449584961
+        },
+        {
+          "Ted": -0.35609352588653564
+        },
+        {
+          "Kot": -0.0058730891905725
+        },
+        {
+          "che": -0.0019490785198286176
+        },
+        {
+          "ff": -0.00029976642690598965
+        },
+        {
+          "is": -0.183590367436409
+        },
+        {
+          "a": -0.7362003922462463
+        },
+        {
+          "Canadian": -0.11599531024694443
+        },
+        {
+          "film": -1.1126877069473267
+        },
+        {
+          "and": -0.5812735557556152
+        },
+        {
+          "television": -0.014758693054318428
+        },
+        {
+          "director": -0.016546523198485374
+        },
+        {
+          ".": -0.9974168539047241
+        },
+        {
+          "So": -0.10163673758506775
+        },
+        {
+          "the": -0.2844143211841583
+        },
+        {
+          "director": -0.39089250564575195
+        },
+        {
+          "of": -0.1378776729106903
+        },
+        {
+          "the": -0.031497806310653687
+        },
+        {
+          "": -0.007057736162096262
+        },
+        {
+          "1": -0.0003164505760651082
+        },
+        {
+          "9": -4.124556289752945e-05
+        },
+        {
+          "7": -0.00034433635300956666
+        },
+        {
+          "1": -0.0007201223634183407
+        },
+        {
+          "film": -0.0013671108754351735
+        },
+        {
+          "W": -0.00425825547426939
+        },
+        {
+          "ake": -0.0001984637783607468
+        },
+        {
+          "in": -0.0007146426942199469
+        },
+        {
+          "F": -0.000342191313393414
+        },
+        {
+          "right": -1.9073304429184645e-05
+        },
+        {
+          "is": -0.07593204081058502
+        },
+        {
+          "Canadian": -0.21993616223335266
+        },
+        {
+          ".": -0.016749702394008636
+        },
+        {
+          "<0x0A>": -0.0038292906247079372
+        },
+        {
+          "Answer": -0.0015217402251437306
+        },
+        {
+          ":": -0.0003082277253270149
+        },
+        {
+          "Canadian": -0.019458360970020294
+        },
+        {
+          "<0x0A>": -0.0184504222124815
+        },
+        {
+          "Question": -0.21497179567813873
+        },
+        {
+          ":": -0.00021884430316276848
+        },
+        {
+          "What": -1.299938678741455
+        },
+        {
+          "is": -1.3870259523391724
+        },
+        {
+          "the": -0.3591781556606293
+        },
+        {
+          "name": -2.4595835208892822
+        },
+        {
+          "of": -0.04124930128455162
+        },
+        {
+          "the": -0.3878766596317291
+        },
+        {
+          "": -2.9737796783447266
+        },
+        {
+          "1": -0.6344062685966492
+        },
+        {
+          "9": -0.1363774985074997
+        },
+        {
+          "9": -1.4229625463485718
+        },
+        {
+          "9": -2.090925455093384
+        },
+        {
+          "film": -1.3348361253738403
+        },
+        {
+          "that": -1.6410413980484009
+        },
+        {
+          "is": -1.9488821029663086
+        },
+        {
+          "a": -1.4360569715499878
+        },
+        {
+          "re": -0.9046472311019897
+        },
+        {
+          "make": -0.025926603004336357
+        },
+        {
+          "of": -0.014370167627930641
+        },
+        {
+          "the": -0.6423164010047913
+        },
+        {
+          "": -0.2173718810081482
+        },
+        {
+          "1": -0.0136897973716259
+        },
+        {
+          "9": -0.0028769078198820353
+        },
+        {
+          "6": -1.2961628437042236
+        },
+        {
+          "0": -1.8321459293365479
+        },
+        {
+          "film": -0.2595404088497162
+        },
+        {
+          "Ocean": -1.3129382133483887
+        },
+        {
+          "'": -0.008439826779067516
+        },
+        {
+          "s": -0.0001358893496217206
+        },
+        {
+          "": -0.3601524829864502
+        },
+        {
+          "1": -0.00028975578607060015
+        },
+        {
+          "1": -0.000486970558995381
+        },
+        {
+          "?": -0.1766960173845291
+        },
+        {
+          "<0x0A>": -0.003449444193392992
+        },
+        {
+          "Th": -0.004883386194705963
+        },
+        {
+          "ought": -3.9934315282152966e-05
+        },
+        {
+          ":": -0.00016425691137555987
+        },
+        {
+          "Let": -0.008934165351092815
+        },
+        {
+          "'": -0.00031883400515653193
+        },
+        {
+          "s": -3.0874729418428615e-05
+        },
+        {
+          "think": -0.00030870441696606576
+        },
+        {
+          "step": -0.00023266946664080024
+        },
+        {
+          "by": -0.00011240804451517761
+        },
+        {
+          "step": -7.247662142617628e-05
+        },
+        {
+          ".": -0.00027378625236451626
+        },
+        {
+          "The": -0.7717308402061462
+        },
+        {
+          "": -0.4496610760688782
+        },
+        {
+          "1": -0.015207887627184391
+        },
+        {
+          "9": -0.00025900822947733104
+        },
+        {
+          "9": -0.38419416546821594
+        },
+        {
+          "9": -0.0028609796427190304
+        },
+        {
+          "film": -0.0899481251835823
+        },
+        {
+          "that": -0.28233855962753296
+        },
+        {
+          "is": -0.005443156231194735
+        },
+        {
+          "a": -0.008100513368844986
+        },
+        {
+          "re": -0.0011121999705210328
+        },
+        {
+          "make": -0.00014161060971673578
+        },
+        {
+          "of": -0.0016595651395618916
+        },
+        {
+          "the": -0.011450995691120625
+        },
+        {
+          "": -0.0021045696921646595
+        },
+        {
+          "1": -0.000205018965061754
+        },
+        {
+          "9": -7.414542778860778e-05
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: What nationality is the director of the 1971 film Wake in Fright?\nThought 1:Let's think step by step. The director of the 1971 film Wake in Fright is Ted Kotcheff. Ted Kotcheff is a Canadian film and television director. So the director of the 1971 film Wake in Fright is Canadian.\nAnswer: Canadian\nAction 1: MeasureUncertainty [Canadian]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Canadian",
+  "summary": {
+    "final_answer": "Canadian",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

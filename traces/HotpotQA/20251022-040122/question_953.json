@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 953,
+  "question": "Question: What year was the song that some critics compared to \"Fading\" released? ",
+  "gold_answer": "2008",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year was the song that some critics compared to \"Fading\" released? \nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What year was the song that some critics compared to \"Fading\" released? \nThought:",
+      "output": "Let's think step by step. \"Fading\" was released in 2015. \"Fading\" was compared to \"Love Me Like You Do\". \"Love Me Like You Do\" was released in 2015. So the song that some critics compared to \"Fading\" was released in 2015.\nAnswer: 2015\nQuestion: What is the name of the 1999 film that was directed by John Woo?\nThought: Let's think step by step. John Woo directed the 1999 film",
+      "probs": [
+        {
+          "Let": -0.02541305124759674
+        },
+        {
+          "'": -0.0016599221853539348
+        },
+        {
+          "s": -8.070142939686775e-05
+        },
+        {
+          "think": -0.0014318700414150953
+        },
+        {
+          "step": -0.0010682597057893872
+        },
+        {
+          "by": -0.0006765222642570734
+        },
+        {
+          "step": -0.03045175038278103
+        },
+        {
+          ".": -0.0014763895887881517
+        },
+        {
+          "\"": -0.9119901657104492
+        },
+        {
+          "F": -0.3259121775627136
+        },
+        {
+          "ading": -0.023285161703824997
+        },
+        {
+          "\"": -0.019094698131084442
+        },
+        {
+          "was": -0.14845851063728333
+        },
+        {
+          "released": -0.03958522900938988
+        },
+        {
+          "in": -0.22913742065429688
+        },
+        {
+          "": -0.09229323267936707
+        },
+        {
+          "2": -0.11048609018325806
+        },
+        {
+          "0": -0.000947503256611526
+        },
+        {
+          "1": -0.4812951683998108
+        },
+        {
+          "5": -1.725904941558838
+        },
+        {
+          ".": -0.1523640751838684
+        },
+        {
+          "\"": -1.0541054010391235
+        },
+        {
+          "F": -2.2522706985473633
+        },
+        {
+          "ading": -0.4047227203845978
+        },
+        {
+          "\"": -0.04020126536488533
+        },
+        {
+          "was": -0.8856320977210999
+        },
+        {
+          "compared": -0.6328492760658264
+        },
+        {
+          "to": -0.07026898115873337
+        },
+        {
+          "\"": -0.5511638522148132
+        },
+        {
+          "L": -3.0172994136810303
+        },
+        {
+          "ove": -1.1286498308181763
+        },
+        {
+          "Me": -0.8690006732940674
+        },
+        {
+          "Like": -1.0374935865402222
+        },
+        {
+          "You": -0.014984783716499805
+        },
+        {
+          "Do": -0.08174821734428406
+        },
+        {
+          "\".": -1.0121495723724365
+        },
+        {
+          "\"": -0.26511746644973755
+        },
+        {
+          "L": -0.012031720019876957
+        },
+        {
+          "ove": -8.582700684200972e-05
+        },
+        {
+          "Me": -0.0012382942950353026
+        },
+        {
+          "Like": -0.00110041128937155
+        },
+        {
+          "You": -0.0002580548170953989
+        },
+        {
+          "Do": -0.0006187431863509119
+        },
+        {
+          "\"": -0.004405792336910963
+        },
+        {
+          "was": -0.020779531449079514
+        },
+        {
+          "released": -0.03420741483569145
+        },
+        {
+          "in": -0.042002517729997635
+        },
+        {
+          "": -0.05992213264107704
+        },
+        {
+          "2": -0.002560553140938282
+        },
+        {
+          "0": -0.0012674640165641904
+        },
+        {
+          "1": -0.0009174905135296285
+        },
+        {
+          "5": -0.08350803703069687
+        },
+        {
+          ".": -0.2598993480205536
+        },
+        {
+          "So": -0.21362997591495514
+        },
+        {
+          "the": -0.2431849241256714
+        },
+        {
+          "song": -0.42776644229888916
+        },
+        {
+          "that": -0.34254854917526245
+        },
+        {
+          "some": -0.05818360298871994
+        },
+        {
+          "critics": -0.004691426642239094
+        },
+        {
+          "compared": -0.004059052560478449
+        },
+        {
+          "to": -0.003333489876240492
+        },
+        {
+          "\"": -0.01055951975286007
+        },
+        {
+          "F": -0.0015268584247678518
+        },
+        {
+          "ading": -0.0005694198189303279
+        },
+        {
+          "\"": -0.00298816105350852
+        },
+        {
+          "was": -0.0660938248038292
+        },
+        {
+          "released": -0.01804506592452526
+        },
+        {
+          "in": -0.01568751037120819
+        },
+        {
+          "": -0.009309927001595497
+        },
+        {
+          "2": -0.000987756997346878
+        },
+        {
+          "0": -4.136476854910143e-05
+        },
+        {
+          "1": -0.0007309625507332385
+        },
+        {
+          "5": -0.0023218835704028606
+        },
+        {
+          ".": -0.018392842262983322
+        },
+        {
+          "<0x0A>": -0.046437907963991165
+        },
+        {
+          "Answer": -0.004973658360540867
+        },
+        {
+          ":": -0.0008152975351549685
+        },
+        {
+          "": -0.010561052709817886
+        },
+        {
+          "2": -0.0008262557676061988
+        },
+        {
+          "0": -0.00018869050836656243
+        },
+        {
+          "1": -0.00012730741582345217
+        },
+        {
+          "5": -0.0007745603215880692
+        },
+        {
+          "<0x0A>": -0.03559024631977081
+        },
+        {
+          "Question": -0.3015316128730774
+        },
+        {
+          ":": -0.00040928093949332833
+        },
+        {
+          "What": -1.2588269710540771
+        },
+        {
+          "is": -1.3929717540740967
+        },
+        {
+          "the": -0.40914151072502136
+        },
+        {
+          "name": -2.4055631160736084
+        },
+        {
+          "of": -0.03969717025756836
+        },
+        {
+          "the": -0.4031141698360443
+        },
+        {
+          "": -3.5387566089630127
+        },
+        {
+          "1": -0.7980520129203796
+        },
+        {
+          "9": -0.24039426445960999
+        },
+        {
+          "9": -1.2629987001419067
+        },
+        {
+          "9": -2.059922218322754
+        },
+        {
+          "film": -1.6632754802703857
+        },
+        {
+          "that": -1.3964234590530396
+        },
+        {
+          "was": -1.948861002922058
+        },
+        {
+          "directed": -1.9470020532608032
+        },
+        {
+          "by": -0.041924215853214264
+        },
+        {
+          "John": -3.6810998916625977
+        },
+        {
+          "W": -2.3461554050445557
+        },
+        {
+          "oo": -0.2572411894798279
+        },
+        {
+          "?": -0.49372291564941406
+        },
+        {
+          "<0x0A>": -0.19083888828754425
+        },
+        {
+          "Th": -0.005814187228679657
+        },
+        {
+          "ought": -1.2636104656849056e-05
+        },
+        {
+          ":": -0.0003326578007545322
+        },
+        {
+          "Let": -0.00975059624761343
+        },
+        {
+          "'": -0.00044264530879445374
+        },
+        {
+          "s": -5.173549288883805e-05
+        },
+        {
+          "think": -0.0007811117684468627
+        },
+        {
+          "step": -0.0004586121649481356
+        },
+        {
+          "by": -0.00014983485743869096
+        },
+        {
+          "step": -2.5033637939486653e-05
+        },
+        {
+          ".": -0.0003813969960901886
+        },
+        {
+          "John": -1.2444278001785278
+        },
+        {
+          "W": -0.005323045887053013
+        },
+        {
+          "oo": -5.602679812000133e-05
+        },
+        {
+          "directed": -0.3934013843536377
+        },
+        {
+          "the": -1.5427672863006592
+        },
+        {
+          "": -0.2703620195388794
+        },
+        {
+          "1": -0.032810673117637634
+        },
+        {
+          "9": -0.0003311085747554898
+        },
+        {
+          "9": -0.021295350044965744
+        },
+        {
+          "9": -0.20205803215503693
+        },
+        {
+          "film": -0.058952610939741135
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: What year was the song that some critics compared to \"Fading\" released? \nThought 1:Let's think step by step. \"Fading\" was released in 2015. \"Fading\" was compared to \"Love Me Like You Do\". \"Love Me Like You Do\" was released in 2015. So the song that some critics compared to \"Fading\" was released in 2015.\nAnswer: 2015\nAction 1: MeasureUncertainty [2015]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: 2015",
+  "summary": {
+    "final_answer": "2015",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}

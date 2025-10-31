@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 1009,
+  "question": "Question: Michaël Llodra of France, called \"the best volleyer on tour\", defeated Juan Martín del Potro a professional of what nationality?",
+  "gold_answer": "Argentinian",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Michaël Llodra of France, called \"the best volleyer on tour\", defeated Juan Martín del Potro a professional of what nationality?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Michaël Llodra of France, called \"the best volleyer on tour\", defeated Juan Martín del Potro a professional of what nationality?\nThought:",
+      "output": "Let's think step by step. Juan Martín del Potro is an Argentine professional tennis player. So Juan Martín del Potro is a professional of Argentina.\nAnswer: Argentina\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film is The Thomas Crown Affair. The 1969 film is The Thomas Crown Affair. So the 1999 film that is a remake of the 19",
+      "probs": [
+        {
+          "Let": -0.012190008535981178
+        },
+        {
+          "'": -0.0004532501916401088
+        },
+        {
+          "s": -3.814624506048858e-05
+        },
+        {
+          "think": -0.000648883986286819
+        },
+        {
+          "step": -0.0006302992696873844
+        },
+        {
+          "by": -0.0003519630990922451
+        },
+        {
+          "step": -3.838465272565372e-05
+        },
+        {
+          ".": -0.000668659748043865
+        },
+        {
+          "Juan": -0.8507064580917358
+        },
+        {
+          "Martín": -0.04610316827893257
+        },
+        {
+          "del": -0.004033525940030813
+        },
+        {
+          "Pot": -0.00034874555421993136
+        },
+        {
+          "ro": -0.00010740180005086586
+        },
+        {
+          "is": -0.07181191444396973
+        },
+        {
+          "an": -0.6120080947875977
+        },
+        {
+          "Argent": -0.04407433792948723
+        },
+        {
+          "ine": -0.13975052535533905
+        },
+        {
+          "professional": -0.5444536805152893
+        },
+        {
+          "tennis": -0.4201785624027252
+        },
+        {
+          "player": -0.0026720792520791292
+        },
+        {
+          ".": -0.41049134731292725
+        },
+        {
+          "So": -0.4891763925552368
+        },
+        {
+          "Juan": -0.874126672744751
+        },
+        {
+          "Martín": -0.011730972677469254
+        },
+        {
+          "del": -0.0031635735649615526
+        },
+        {
+          "Pot": -0.00023600654094479978
+        },
+        {
+          "ro": -0.00025459862081333995
+        },
+        {
+          "is": -0.12435510009527206
+        },
+        {
+          "a": -1.1403061151504517
+        },
+        {
+          "professional": -0.061379872262477875
+        },
+        {
+          "of": -0.17222462594509125
+        },
+        {
+          "Argentina": -0.6716992855072021
+        },
+        {
+          ".": -0.25231045484542847
+        },
+        {
+          "<0x0A>": -0.016371097415685654
+        },
+        {
+          "Answer": -0.0015493544051423669
+        },
+        {
+          ":": -0.00035601475974544883
+        },
+        {
+          "Argentina": -0.05835825577378273
+        },
+        {
+          "<0x0A>": -0.020815959200263023
+        },
+        {
+          "Question": -0.20179004967212677
+        },
+        {
+          ":": -0.00030751267331652343
+        },
+        {
+          "What": -1.5258564949035645
+        },
+        {
+          "is": -1.2998162508010864
+        },
+        {
+          "the": -0.4376380443572998
+        },
+        {
+          "name": -2.6628103256225586
+        },
+        {
+          "of": -0.0553942546248436
+        },
+        {
+          "the": -0.4168039858341217
+        },
+        {
+          "": -3.563363552093506
+        },
+        {
+          "1": -0.7006244659423828
+        },
+        {
+          "9": -0.22618067264556885
+        },
+        {
+          "9": -1.3136706352233887
+        },
+        {
+          "9": -2.0943212509155273
+        },
+        {
+          "film": -1.5273867845535278
+        },
+        {
+          "that": -1.84495210647583
+        },
+        {
+          "is": -2.052168130874634
+        },
+        {
+          "a": -1.340661883354187
+        },
+        {
+          "re": -1.1217994689941406
+        },
+        {
+          "make": -0.03297678008675575
+        },
+        {
+          "of": -0.020345797762274742
+        },
+        {
+          "the": -0.7481783032417297
+        },
+        {
+          "": -0.28112661838531494
+        },
+        {
+          "1": -0.014328686520457268
+        },
+        {
+          "9": -0.002301902510225773
+        },
+        {
+          "6": -1.2406976222991943
+        },
+        {
+          "9": -1.8599106073379517
+        },
+        {
+          "film": -0.3502987325191498
+        },
+        {
+          "of": -1.3220891952514648
+        },
+        {
+          "the": -0.02701859176158905
+        },
+        {
+          "same": -0.0036139669828116894
+        },
+        {
+          "name": -0.030593855306506157
+        },
+        {
+          "?": -0.49396419525146484
+        },
+        {
+          "<0x0A>": -0.02470526657998562
+        },
+        {
+          "Th": -0.007241667713969946
+        },
+        {
+          "ought": -9.894321920000948e-06
+        },
+        {
+          ":": -0.00019107422849629074
+        },
+        {
+          "Let": -0.016900446265935898
+        },
+        {
+          "'": -0.0003147821989841759
+        },
+        {
+          "s": -2.3483953555114567e-05
+        },
+        {
+          "think": -0.0009714413317851722
+        },
+        {
+          "step": -0.0006292270263656974
+        },
+        {
+          "by": -0.0002919009421020746
+        },
+        {
+          "step": -0.00010108436981681734
+        },
+        {
+          ".": -0.0006755692302249372
+        },
+        {
+          "The": -0.6969408392906189
+        },
+        {
+          "": -0.41131821274757385
+        },
+        {
+          "1": -0.013931882567703724
+        },
+        {
+          "9": -0.00046564225340262055
+        },
+        {
+          "9": -0.4415610730648041
+        },
+        {
+          "9": -0.0031701093539595604
+        },
+        {
+          "film": -0.09488919377326965
+        },
+        {
+          "is": -0.9190086126327515
+        },
+        {
+          "The": -1.0813939571380615
+        },
+        {
+          "Thomas": -0.3387658894062042
+        },
+        {
+          "Crown": -0.0008915264043025672
+        },
+        {
+          "Aff": -0.0012393658980727196
+        },
+        {
+          "air": -0.00034195298212580383
+        },
+        {
+          ".": -0.4243331551551819
+        },
+        {
+          "The": -0.26749664545059204
+        },
+        {
+          "": -0.0749918594956398
+        },
+        {
+          "1": -0.0008126770262606442
+        },
+        {
+          "9": -0.00018499570433050394
+        },
+        {
+          "6": -0.012471897527575493
+        },
+        {
+          "9": -0.002479576040059328
+        },
+        {
+          "film": -0.01100777368992567
+        },
+        {
+          "is": -0.17619498074054718
+        },
+        {
+          "The": -0.41246309876441956
+        },
+        {
+          "Thomas": -0.00040844682371243834
+        },
+        {
+          "Crown": -0.0005203323671594262
+        },
+        {
+          "Aff": -0.00047136162174865603
+        },
+        {
+          "air": -0.00010084597306558862
+        },
+        {
+          ".": -0.13179852068424225
+        },
+        {
+          "So": -0.310248464345932
+        },
+        {
+          "the": -0.18450719118118286
+        },
+        {
+          "": -0.5858683586120605
+        },
+        {
+          "1": -0.0005097282119095325
+        },
+        {
+          "9": -0.00014959646796341985
+        },
+        {
+          "9": -0.015234187245368958
+        },
+        {
+          "9": -0.0009713222389109433
+        },
+        {
+          "film": -0.010930662043392658
+        },
+        {
+          "that": -0.635593831539154
+        },
+        {
+          "is": -0.0018769757589325309
+        },
+        {
+          "a": -0.010878542438149452
+        },
+        {
+          "re": -0.0007483542431145906
+        },
+        {
+          "make": -0.00028153270250186324
+        },
+        {
+          "of": -0.0014322272036224604
+        },
+        {
+          "the": -0.00472559779882431
+        },
+        {
+          "": -0.0005048430757597089
+        },
+        {
+          "1": -4.327203714638017e-05
+        },
+        {
+          "9": -4.31528314948082e-05
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Michaël Llodra of France, called \"the best volleyer on tour\", defeated Juan Martín del Potro a professional of what nationality?\nThought 1:Let's think step by step. Juan Martín del Potro is an Argentine professional tennis player. So Juan Martín del Potro is a professional of Argentina.\nAnswer: Argentina\nAction 1: MeasureUncertainty [Argentina]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Argentina",
+  "summary": {
+    "final_answer": "Argentina",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

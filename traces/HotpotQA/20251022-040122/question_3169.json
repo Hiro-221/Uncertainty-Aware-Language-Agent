@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3169,
+  "question": "Question: Which magazine was published first, Woman's Day or The Lady?",
+  "gold_answer": "The Lady",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which magazine was published first, Woman's Day or The Lady?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which magazine was published first, Woman's Day or The Lady?\nThought:",
+      "output": "Let's think step by step. Woman's Day was published in 1931. The Lady was published in 1885. 1885 (The Lady) < 1931 (Woman's Day), so The Lady was published first.\nAnswer: The Lady\nQuestion: Which magazine was published first, The Lady or Woman's Day?\nThought: Let's think step by step. The Lady was published in 1885. Woman's Day was published in 1931. 1885 (The Lady)",
+      "probs": [
+        {
+          "Let": -0.007977173663675785
+        },
+        {
+          "'": -0.000849482137709856
+        },
+        {
+          "s": -3.71926071238704e-05
+        },
+        {
+          "think": -0.0006781900301575661
+        },
+        {
+          "step": -0.0003967689990531653
+        },
+        {
+          "by": -0.00046397410915233195
+        },
+        {
+          "step": -2.52720492426306e-05
+        },
+        {
+          ".": -0.0007992172613739967
+        },
+        {
+          "Woman": -0.24793924391269684
+        },
+        {
+          "'": -0.00368131254799664
+        },
+        {
+          "s": -0.00017534149810671806
+        },
+        {
+          "Day": -0.00309750041924417
+        },
+        {
+          "was": -0.05057201534509659
+        },
+        {
+          "published": -0.18654894828796387
+        },
+        {
+          "in": -0.1537497192621231
+        },
+        {
+          "": -0.04122813791036606
+        },
+        {
+          "1": -0.00464171078056097
+        },
+        {
+          "9": -0.031844399869441986
+        },
+        {
+          "3": -0.078136146068573
+        },
+        {
+          "1": -0.3799084424972534
+        },
+        {
+          ".": -0.05715993046760559
+        },
+        {
+          "The": -0.019617116078734398
+        },
+        {
+          "Lady": -0.0028626436833292246
+        },
+        {
+          "was": -0.022644979879260063
+        },
+        {
+          "published": -0.02756054513156414
+        },
+        {
+          "in": -0.01712675765156746
+        },
+        {
+          "": -0.009469473734498024
+        },
+        {
+          "1": -0.0035922301467508078
+        },
+        {
+          "8": -0.03319913521409035
+        },
+        {
+          "8": -0.017279671505093575
+        },
+        {
+          "5": -0.01986595056951046
+        },
+        {
+          ".": -0.01436053216457367
+        },
+        {
+          "": -0.07603645324707031
+        },
+        {
+          "1": -0.0011486368020996451
+        },
+        {
+          "8": -0.10034029930830002
+        },
+        {
+          "8": -0.0019238550448790193
+        },
+        {
+          "5": -0.0011013639159500599
+        },
+        {
+          "(": -0.034809041768312454
+        },
+        {
+          "The": -0.01112001296132803
+        },
+        {
+          "Lady": -0.0021050453651696444
+        },
+        {
+          ")": -0.001374491723254323
+        },
+        {
+          "<": -0.05712885782122612
+        },
+        {
+          "": -0.0022632479667663574
+        },
+        {
+          "1": -0.0001472126314183697
+        },
+        {
+          "9": -0.0005491655902005732
+        },
+        {
+          "3": -0.0018606745870783925
+        },
+        {
+          "1": -0.0015399513067677617
+        },
+        {
+          "(": -0.005592652130872011
+        },
+        {
+          "W": -0.001589583931490779
+        },
+        {
+          "oman": -0.0024109601508826017
+        },
+        {
+          "'": -0.0017717868322506547
+        },
+        {
+          "s": -8.821098163025454e-05
+        },
+        {
+          "Day": -0.0018053437815979123
+        },
+        {
+          "),": -0.035688601434230804
+        },
+        {
+          "so": -0.00597393698990345
+        },
+        {
+          "The": -0.08781076222658157
+        },
+        {
+          "Lady": -0.002362082013860345
+        },
+        {
+          "was": -0.00955956894904375
+        },
+        {
+          "published": -0.010402506217360497
+        },
+        {
+          "first": -0.01165709737688303
+        },
+        {
+          ".": -0.003649837803095579
+        },
+        {
+          "<0x0A>": -0.0036513819359242916
+        },
+        {
+          "Answer": -0.0024947968777269125
+        },
+        {
+          ":": -0.000474936212413013
+        },
+        {
+          "The": -0.005205766763538122
+        },
+        {
+          "Lady": -0.0014287750236690044
+        },
+        {
+          "<0x0A>": -0.019639091566205025
+        },
+        {
+          "Question": -0.18835867941379547
+        },
+        {
+          ":": -0.00030429501202888787
+        },
+        {
+          "Which": -1.2482795715332031
+        },
+        {
+          "magazine": -1.7586151361465454
+        },
+        {
+          "was": -0.26328787207603455
+        },
+        {
+          "published": -0.584725558757782
+        },
+        {
+          "first": -0.07341650128364563
+        },
+        {
+          ",": -0.07720145583152771
+        },
+        {
+          "The": -2.2589354515075684
+        },
+        {
+          "Lady": -1.6293531656265259
+        },
+        {
+          "or": -0.09473121911287308
+        },
+        {
+          "Woman": -1.271113634109497
+        },
+        {
+          "'": -0.04749182611703873
+        },
+        {
+          "s": -5.006664650863968e-05
+        },
+        {
+          "Day": -0.20310619473457336
+        },
+        {
+          "?": -0.008162000216543674
+        },
+        {
+          "<0x0A>": -0.0027078648563474417
+        },
+        {
+          "Th": -0.01666107214987278
+        },
+        {
+          "ought": -2.884823152271565e-05
+        },
+        {
+          ":": -0.00020621081057470292
+        },
+        {
+          "Let": -0.0031905481591820717
+        },
+        {
+          "'": -0.0002227773511549458
+        },
+        {
+          "s": -1.6689160474925302e-05
+        },
+        {
+          "think": -0.00015841660206206143
+        },
+        {
+          "step": -0.00013267113536130637
+        },
+        {
+          "by": -9.059495641849935e-05
+        },
+        {
+          "step": -1.0132738680113107e-05
+        },
+        {
+          ".": -0.0002946419408544898
+        },
+        {
+          "The": -0.07266385853290558
+        },
+        {
+          "Lady": -0.0011276798322796822
+        },
+        {
+          "was": -0.0060030873864889145
+        },
+        {
+          "published": -0.005748051684349775
+        },
+        {
+          "in": -0.0051137362606823444
+        },
+        {
+          "": -0.0006856950931251049
+        },
+        {
+          "1": -0.00011205045302631333
+        },
+        {
+          "8": -0.003148243995383382
+        },
+        {
+          "8": -0.0009682258241809905
+        },
+        {
+          "5": -0.0009214208112098277
+        },
+        {
+          ".": -0.006896857172250748
+        },
+        {
+          "Woman": -0.0027775303460657597
+        },
+        {
+          "'": -0.0007334641413763165
+        },
+        {
+          "s": -6.007967749610543e-05
+        },
+        {
+          "Day": -0.0010836211731657386
+        },
+        {
+          "was": -0.0017234723782166839
+        },
+        {
+          "published": -0.001013480476103723
+        },
+        {
+          "in": -0.0008120815036818385
+        },
+        {
+          "": -0.00016640232934150845
+        },
+        {
+          "1": -0.00023827097902540118
+        },
+        {
+          "9": -0.00016246906307060272
+        },
+        {
+          "3": -0.0006463822210207582
+        },
+        {
+          "1": -0.000805053801741451
+        },
+        {
+          ".": -0.0010476582683622837
+        },
+        {
+          "": -0.007636994123458862
+        },
+        {
+          "1": -0.000288087350782007
+        },
+        {
+          "8": -0.007428760174661875
+        },
+        {
+          "8": -0.0003492222458589822
+        },
+        {
+          "5": -0.0003587556129787117
+        },
+        {
+          "(": -0.0032043324317783117
+        },
+        {
+          "The": -0.0014327033422887325
+        },
+        {
+          "Lady": -0.0007214327342808247
+        },
+        {
+          ")": -0.0002890407631639391
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: Which magazine was published first, Woman's Day or The Lady?\nThought 1:Let's think step by step. Woman's Day was published in 1931. The Lady was published in 1885. 1885 (The Lady) < 1931 (Woman's Day), so The Lady was published first.\nAnswer: The Lady\nAction 1: MeasureUncertainty [The Lady]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: The Lady",
+  "summary": {
+    "final_answer": "The Lady",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

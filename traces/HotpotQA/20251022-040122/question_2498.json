@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2498,
+  "question": "Question: Which has more species, Clianthus or Callicoma?",
+  "gold_answer": "Clianthus",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which has more species, Clianthus or Callicoma?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Which has more species, Clianthus or Callicoma?\nThought:",
+      "output": "Let's think step by step. Clianthus has 2 species. Callicoma has 1 species. 2 (Clianthus) > 1 (Callicoma), so Clianthus has more species.\nAnswer: Clianthus\nQuestion: Which has more species, Callicoma or Clianthus?\nThought: Let's think step by step. Callicoma has 1 species. Clianthus has 2 species. 1 (Callicoma) < 2 (Clianthus), so Clianthus has more species.",
+      "probs": [
+        {
+          "Let": -0.012271498329937458
+        },
+        {
+          "'": -0.00038378025055862963
+        },
+        {
+          "s": -1.3232143828645349e-05
+        },
+        {
+          "think": -0.0013433012645691633
+        },
+        {
+          "step": -0.000386640167562291
+        },
+        {
+          "by": -0.00011145447206217796
+        },
+        {
+          "step": -3.564294092939235e-05
+        },
+        {
+          ".": -0.0004544417606666684
+        },
+        {
+          "C": -0.5532411932945251
+        },
+        {
+          "li": -0.0014267513761296868
+        },
+        {
+          "anth": -0.0009532198309898376
+        },
+        {
+          "us": -0.0008300673216581345
+        },
+        {
+          "has": -0.1855049729347229
+        },
+        {
+          "": -0.3370474874973297
+        },
+        {
+          "2": -0.4131474792957306
+        },
+        {
+          "species": -0.11774806678295135
+        },
+        {
+          ".": -0.20816519856452942
+        },
+        {
+          "Call": -0.02084888145327568
+        },
+        {
+          "ic": -0.000726316764485091
+        },
+        {
+          "oma": -0.00018940561858471483
+        },
+        {
+          "has": -0.023608185350894928
+        },
+        {
+          "": -0.07366625219583511
+        },
+        {
+          "1": -0.6787096261978149
+        },
+        {
+          "species": -0.2238159477710724
+        },
+        {
+          ".": -0.036150913685560226
+        },
+        {
+          "": -0.40441375970840454
+        },
+        {
+          "2": -0.09704871475696564
+        },
+        {
+          "(": -0.30410149693489075
+        },
+        {
+          "C": -0.015071212314069271
+        },
+        {
+          "li": -0.0006526962388306856
+        },
+        {
+          "anth": -0.0007385863573290408
+        },
+        {
+          "us": -0.0013683013385161757
+        },
+        {
+          ")": -0.007906332612037659
+        },
+        {
+          ">": -0.016482383012771606
+        },
+        {
+          "": -0.0029646276962012053
+        },
+        {
+          "1": -0.0008905735448934138
+        },
+        {
+          "(": -0.007311135996133089
+        },
+        {
+          "Call": -0.0037322642747312784
+        },
+        {
+          "ic": -0.0009398810216225684
+        },
+        {
+          "oma": -0.0006195771275088191
+        },
+        {
+          "),": -0.05936700105667114
+        },
+        {
+          "so": -0.004759767558425665
+        },
+        {
+          "C": -0.06912212073802948
+        },
+        {
+          "li": -0.0001928620331455022
+        },
+        {
+          "anth": -0.00035089056473225355
+        },
+        {
+          "us": -0.00037079135654494166
+        },
+        {
+          "has": -0.009075816720724106
+        },
+        {
+          "more": -0.006375687196850777
+        },
+        {
+          "species": -0.004444957710802555
+        },
+        {
+          ".": -0.13700781762599945
+        },
+        {
+          "<0x0A>": -0.0025366530753672123
+        },
+        {
+          "Answer": -0.0019321836298331618
+        },
+        {
+          ":": -0.00033885458833537996
+        },
+        {
+          "C": -0.008135277777910233
+        },
+        {
+          "li": -7.784063927829266e-05
+        },
+        {
+          "anth": -8.987976616481319e-05
+        },
+        {
+          "us": -0.00011991735664196312
+        },
+        {
+          "<0x0A>": -0.02745906636118889
+        },
+        {
+          "Question": -0.20431973040103912
+        },
+        {
+          ":": -0.00028320116689428687
+        },
+        {
+          "Which": -1.1931250095367432
+        },
+        {
+          "has": -1.873509168624878
+        },
+        {
+          "more": -0.1859324723482132
+        },
+        {
+          "species": -0.7200745940208435
+        },
+        {
+          ",": -0.04360734298825264
+        },
+        {
+          "Call": -2.578272581100464
+        },
+        {
+          "ic": -0.23525255918502808
+        },
+        {
+          "oma": -0.01930426061153412
+        },
+        {
+          "or": -0.01426851749420166
+        },
+        {
+          "C": -0.8231784105300903
+        },
+        {
+          "li": -0.03695669397711754
+        },
+        {
+          "anth": -0.00264140497893095
+        },
+        {
+          "us": -0.001508409040980041
+        },
+        {
+          "?": -0.009587788954377174
+        },
+        {
+          "<0x0A>": -0.0016626594588160515
+        },
+        {
+          "Th": -0.012306471355259418
+        },
+        {
+          "ought": -4.6967357775429264e-05
+        },
+        {
+          ":": -8.284702198579907e-05
+        },
+        {
+          "Let": -0.002163928234949708
+        },
+        {
+          "'": -0.00011598391574807465
+        },
+        {
+          "s": -1.0371154530730564e-05
+        },
+        {
+          "think": -0.00017891713650897145
+        },
+        {
+          "step": -7.366862701019272e-05
+        },
+        {
+          "by": -7.557583012385294e-05
+        },
+        {
+          "step": -1.3708974620385561e-05
+        },
+        {
+          ".": -0.00015841660206206143
+        },
+        {
+          "Call": -0.33231356739997864
+        },
+        {
+          "ic": -0.00015793983766343445
+        },
+        {
+          "oma": -0.00017128908075392246
+        },
+        {
+          "has": -0.002772299572825432
+        },
+        {
+          "": -0.003214313881471753
+        },
+        {
+          "1": -0.005332294851541519
+        },
+        {
+          "species": -0.0012080521555617452
+        },
+        {
+          ".": -0.005483941175043583
+        },
+        {
+          "C": -0.0026063304394483566
+        },
+        {
+          "li": -6.544376083184034e-05
+        },
+        {
+          "anth": -2.038458114839159e-05
+        },
+        {
+          "us": -5.745722592109814e-05
+        },
+        {
+          "has": -0.0006363751017488539
+        },
+        {
+          "": -0.0006822404102422297
+        },
+        {
+          "2": -0.0013659204123541713
+        },
+        {
+          "species": -0.0005278385942801833
+        },
+        {
+          ".": -0.0019387274514883757
+        },
+        {
+          "": -0.007405212614685297
+        },
+        {
+          "1": -0.3772379457950592
+        },
+        {
+          "(": -0.005448728799819946
+        },
+        {
+          "Call": -0.0030845466535538435
+        },
+        {
+          "ic": -0.0003997480380348861
+        },
+        {
+          "oma": -0.00032908268622122705
+        },
+        {
+          ")": -0.00038747431244701147
+        },
+        {
+          "<": -0.0053439149633049965
+        },
+        {
+          "": -0.0008046964649111032
+        },
+        {
+          "2": -0.0010090741561725736
+        },
+        {
+          "(": -0.0013380631571635604
+        },
+        {
+          "C": -0.0012994902208447456
+        },
+        {
+          "li": -9.786603914108127e-05
+        },
+        {
+          "anth": -8.689979586051777e-05
+        },
+        {
+          "us": -1.6093124941107817e-05
+        },
+        {
+          "),": -0.004395941272377968
+        },
+        {
+          "so": -0.0009873997187241912
+        },
+        {
+          "C": -0.1803756058216095
+        },
+        {
+          "li": -9.858122211880982e-05
+        },
+        {
+          "anth": -4.577531944960356e-05
+        },
+        {
+          "us": -2.6225699912174605e-05
+        },
+        {
+          "has": -0.001013361383229494
+        },
+        {
+          "more": -0.0011865011183544993
+        },
+        {
+          "species": -0.000658057106193155
+        },
+        {
+          ".": -0.007911772467195988
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Which has more species, Clianthus or Callicoma?\nThought 1:Let's think step by step. Clianthus has 2 species. Callicoma has 1 species. 2 (Clianthus) > 1 (Callicoma), so Clianthus has more species.\nAnswer: Clianthus\nAction 1: MeasureUncertainty [Clianthus]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: Clianthus",
+  "summary": {
+    "final_answer": "Clianthus",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

@@ -1,0 +1,1276 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 7136,
+  "question": "Question: The Bellagio resort owned by MGM Resorts international is located in which US city?",
+  "gold_answer": "Las Vegas",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The Bellagio resort owned by MGM Resorts international is located in which US city?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: The Bellagio resort owned by MGM Resorts international is located in which US city?\nThought:",
+      "output": "Let's think step by step. The Bellagio resort is located in Las Vegas, Nevada.\nAnswer: Las Vegas, Nevada\nQuestion: Which of the following is a type of fish?\nThought: Let's think step by step. A fish is a type of animal. A fish is a type of vertebrate. A fish is a type of chordate. A fish is a type of animal. A fish is a type of vertebrate. A fish is a type of chordate. A fish is a type of animal. A fish is a type of verte",
+      "probs": [
+        {
+          "Let": -0.02434234321117401
+        },
+        {
+          "'": -0.0010781434830278158
+        },
+        {
+          "s": -4.649054244509898e-05
+        },
+        {
+          "think": -0.0018151012482121587
+        },
+        {
+          "step": -0.0016108882846310735
+        },
+        {
+          "by": -0.00027807659353129566
+        },
+        {
+          "step": -0.00035851728171110153
+        },
+        {
+          ".": -0.0007628867751918733
+        },
+        {
+          "The": -0.7498025894165039
+        },
+        {
+          "Bell": -0.056492071598768234
+        },
+        {
+          "ag": -0.000444551813416183
+        },
+        {
+          "io": -7.188061863416806e-05
+        },
+        {
+          "resort": -0.1999843865633011
+        },
+        {
+          "is": -0.5630581974983215
+        },
+        {
+          "located": -0.4000658094882965
+        },
+        {
+          "in": -0.0897403210401535
+        },
+        {
+          "Las": -0.14680801331996918
+        },
+        {
+          "Veg": -0.0028024944476783276
+        },
+        {
+          "as": -9.548207890475169e-05
+        },
+        {
+          ",": -0.7039474248886108
+        },
+        {
+          "Nev": -0.4432734549045563
+        },
+        {
+          "ada": -0.001081477734260261
+        },
+        {
+          ".": -0.3035224378108978
+        },
+        {
+          "<0x0A>": -0.43326660990715027
+        },
+        {
+          "Answer": -0.0025953915901482105
+        },
+        {
+          ":": -0.0004642124113161117
+        },
+        {
+          "Las": -0.018072929233312607
+        },
+        {
+          "Veg": -0.003645324381068349
+        },
+        {
+          "as": -0.00019143179815728217
+        },
+        {
+          ",": -0.31654810905456543
+        },
+        {
+          "Nev": -0.02588978037238121
+        },
+        {
+          "ada": -0.000742279109545052
+        },
+        {
+          "<0x0A>": -0.08787201344966888
+        },
+        {
+          "Question": -0.205562561750412
+        },
+        {
+          ":": -0.00031025364296510816
+        },
+        {
+          "Which": -1.5021522045135498
+        },
+        {
+          "of": -1.6517179012298584
+        },
+        {
+          "the": -0.6369239687919617
+        },
+        {
+          "following": -0.11105453222990036
+        },
+        {
+          "is": -1.1861793994903564
+        },
+        {
+          "a": -1.4066499471664429
+        },
+        {
+          "type": -3.909592390060425
+        },
+        {
+          "of": -0.012014876119792461
+        },
+        {
+          "fish": -4.68653678894043
+        },
+        {
+          "?": -1.1187489032745361
+        },
+        {
+          "<0x0A>": -1.1665042638778687
+        },
+        {
+          "Th": -0.07006816565990448
+        },
+        {
+          "ought": -0.00012981049076188356
+        },
+        {
+          ":": -0.0007007050444371998
+        },
+        {
+          "Let": -0.03364957496523857
+        },
+        {
+          "'": -0.0015572099946439266
+        },
+        {
+          "s": -4.0411134250462055e-05
+        },
+        {
+          "think": -0.0036762054078280926
+        },
+        {
+          "step": -0.0031551364809274673
+        },
+        {
+          "by": -0.0005097282119095325
+        },
+        {
+          "step": -5.5549986427649856e-05
+        },
+        {
+          ".": -0.001746558933518827
+        },
+        {
+          "A": -2.301121950149536
+        },
+        {
+          "fish": -1.5247550010681152
+        },
+        {
+          "is": -0.12515166401863098
+        },
+        {
+          "a": -0.6159599423408508
+        },
+        {
+          "type": -1.650602102279663
+        },
+        {
+          "of": -0.003716943319886923
+        },
+        {
+          "animal": -0.7819412350654602
+        },
+        {
+          ".": -0.6674007773399353
+        },
+        {
+          "A": -1.5855344533920288
+        },
+        {
+          "fish": -2.007775068283081
+        },
+        {
+          "is": -0.19151170551776886
+        },
+        {
+          "a": -0.7569543719291687
+        },
+        {
+          "type": -0.22300782799720764
+        },
+        {
+          "of": -0.0011823337990790606
+        },
+        {
+          "verte": -0.9441232681274414
+        },
+        {
+          "br": -0.004675171338021755
+        },
+        {
+          "ate": -0.020032119005918503
+        },
+        {
+          ".": -0.05430743098258972
+        },
+        {
+          "A": -0.4618164598941803
+        },
+        {
+          "fish": -0.1078796312212944
+        },
+        {
+          "is": -0.031702011823654175
+        },
+        {
+          "a": -0.147850900888443
+        },
+        {
+          "type": -0.01482681930065155
+        },
+        {
+          "of": -0.00075049843871966
+        },
+        {
+          "ch": -0.5810931324958801
+        },
+        {
+          "ord": -0.0005776405450887978
+        },
+        {
+          "ate": -0.015715673565864563
+        },
+        {
+          ".": -0.01953177899122238
+        },
+        {
+          "A": -0.47621428966522217
+        },
+        {
+          "fish": -0.0607801154255867
+        },
+        {
+          "is": -0.01422950066626072
+        },
+        {
+          "a": -0.11833453178405762
+        },
+        {
+          "type": -0.009092590771615505
+        },
+        {
+          "of": -0.0005365362740121782
+        },
+        {
+          "animal": -1.4322175979614258
+        },
+        {
+          ".": -1.110522985458374
+        },
+        {
+          "A": -1.0053656101226807
+        },
+        {
+          "fish": -0.14104896783828735
+        },
+        {
+          "is": -0.017692366614937782
+        },
+        {
+          "a": -0.13913458585739136
+        },
+        {
+          "type": -0.010428342968225479
+        },
+        {
+          "of": -0.0005302215577103198
+        },
+        {
+          "verte": -0.8226344585418701
+        },
+        {
+          "br": -0.0026361735071986914
+        },
+        {
+          "ate": -0.0003868784988299012
+        },
+        {
+          ".": -0.010328533127903938
+        },
+        {
+          "A": -0.10727393627166748
+        },
+        {
+          "fish": -0.010648101568222046
+        },
+        {
+          "is": -0.0029943413101136684
+        },
+        {
+          "a": -0.01153301727026701
+        },
+        {
+          "type": -0.0015166220255196095
+        },
+        {
+          "of": -0.00039521988946944475
+        },
+        {
+          "ch": -0.06199315935373306
+        },
+        {
+          "ord": -0.0004385939973872155
+        },
+        {
+          "ate": -0.0006269635050557554
+        },
+        {
+          ".": -0.020312391221523285
+        },
+        {
+          "A": -0.8279173374176025
+        },
+        {
+          "fish": -0.09541758894920349
+        },
+        {
+          "is": -0.016845356673002243
+        },
+        {
+          "a": -0.0957038402557373
+        },
+        {
+          "type": -0.020082945004105568
+        },
+        {
+          "of": -0.0013369916705414653
+        },
+        {
+          "animal": -0.21646906435489655
+        },
+        {
+          ".": -0.0381515771150589
+        },
+        {
+          "A": -0.29726260900497437
+        },
+        {
+          "fish": -0.029615368694067
+        },
+        {
+          "is": -0.005700047593563795
+        },
+        {
+          "a": -0.017709465697407722
+        },
+        {
+          "type": -0.004378138110041618
+        },
+        {
+          "of": -0.00041083001997321844
+        },
+        {
+          "verte": -0.03835626319050789
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.79,
+      "threshold": 1.79,
+      "answer_probs_len": 6
+    },
+    {
+      "type": "tool_activation",
+      "tool": "ReAct"
+    },
+    {
+      "type": "llm_call",
+      "stage": "react_step_1",
+      "instruction": "Solve a question answering task with interleaving Thought, Action, Observation steps. Thought can reason about the current situation, and Action can be three types: \n(1) Search[entity], which searches the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to search.\n(2) Lookup[keyword], which returns the next sentence containing keyword in the current passage.\n(3) Finish[answer], which returns the answer and finishes the task.\nHere are some examples.\n",
+      "input": "\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought 1: I need to search Colorado orogeny, find the area that the eastern sector of the Colorado orogeny extends into, then find the elevation range of the area.\nAction 1: Search[Colorado orogeny]\nObservation 1: The Colorado orogeny was an episode of mountain building (an orogeny) in Colorado and surrounding areas.\nThought 2: It does not mention the eastern sector. So I need to look up eastern sector.\nAction 2: Lookup[eastern sector]\nObservation 2: (Result 1 / 1) The eastern sector extends into the High Plains and is called the Central Plains orogeny.\nThought 3: The eastern sector of Colorado orogeny extends into the High Plains. So I need to search High Plains and find its elevation range.\nAction 3: Search[High Plains]\nObservation 3: High Plains refers to one of two distinct land regions:\nThought 4: I need to instead search High Plains (United States).\nAction 4: Search[High Plains (United States)]\nObservation 4: The High Plains are a subregion of the Great Plains. From east to west, the High Plains rise in elevation from around 1,800 to 7,000 ft (550 to 2,130 m).[3]\nThought 5: High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAction 5: Finish[1,800 to 7,000 ft]\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought 1: The question simplifies to \"The Simpsons\" character Milhouse is named after who. I only need to search Milhouse and find who it is named after.\nAction 1: Search[Milhouse]\nObservation 1: Milhouse Mussolini Van Houten is a recurring character in the Fox animated television series The Simpsons voiced by Pamela Hayden and created by Matt Groening.\nThought 2: The paragraph does not tell who Milhouse is named after, maybe I can look up \"named after\".\nAction 2: Lookup[named after]\nObservation 2: (Result 1 / 1) Milhouse was named after U.S. president Richard Nixon, whose middle name was Milhous. \nThought 3: Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAction 3: Finish[Richard Nixon]\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought 1: I need to search Adam Clayton Powell and The Saimaa Gesture, and find which documentary is about Finnish rock groups.\nAction 1: Search[Adam Clayton Powell]\nObservation 1: Could not find [Adam Clayton Powell]. Similar: ['Adam Clayton Powell III', 'Seventh Avenue (Manhattan)', 'Adam Clayton Powell Jr. State Office Building', 'Isabel Washington Powell', 'Adam Powell', 'Adam Clayton Powell (film)', 'Giancarlo Esposito'].\nThought 2: To find the documentary, I can search Adam Clayton Powell (film).\nAction 2: Search[Adam Clayton Powell (film)]\nObservation 2: Adam Clayton Powell is a 1989 American documentary film directed by Richard Kilberg.\nThe film is about the rise and fall of influential African-American politician Adam Clayton Powell Jr.[3][4] It was later aired as part of the PBS series The American Experience.\nThought 3: Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAction 3: Finish[The Saimaa Gesture]\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought 1: I need to search Nicholas Ray and Elia Kazan, find their professions, then find the profession they have in common.\nAction 1: Search[Nicholas Ray]\nObservation 1: Nicholas Ray (born Raymond Nicholas Kienzle Jr., August 7, 1911 – June 16, 1979) was an American film director, screenwriter, and actor best known for the 1955 film Rebel Without a Cause.\nThought 2: Professions of Nicholas Ray are director, screenwriter, and actor. I need to search Elia Kazan next and find his professions.\nAction 2: Search[Elia Kazan]\nObservation 2: Elia Kazan was an American film and theatre director, producer, screenwriter and actor.\nThought 3: Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAction 3: Finish[director, screenwriter, actor]\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought 1: I need to search Arthur's Magazine and First for Women, and find which was started first.\nAction 1: Search[Arthur's Magazine]\nObservation 1: Arthur's Magazine (1844-1846) was an American literary periodical published in Philadelphia in the 19th century. \nThought 2: Arthur's Magazine was started in 1844. I need to search First for Women next.\nAction 2: Search[First for Women]\nObservation 2: First for Women is a woman's magazine published by Bauer Media Group in the USA.[1] The magazine was started in 1989. \nThought 3: First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAction 3: Finish[Arthur's Magazine]\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought 1: I need to search Pavel Urysohn and Leonid Levin, find their types of work, then find if they are the same.\nAction 1: Search[Pavel Urysohn]\nObservation 1: Pavel Samuilovich Urysohn (February 3, 1898 â August 17, 1924) was a Soviet mathematician who is best known for his contributions in dimension theory.\nThought 2: Pavel Urysohn is a mathematician. I need to search Leonid Levin next and find its type of work.\nAction 2: Search[Leonid Levin]\nObservation 2: Leonid Anatolievich Levin is a Soviet-American mathematician and computer scientist. \nThought 3: Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work. \nAction 3: Finish[yes]\nQuestion: The Bellagio resort owned by MGM Resorts international is located in which US city?\nThought 1:",
+      "prompt": "Solve a question answering task with interleaving Thought, Action, Observation steps. Thought can reason about the current situation, and Action can be three types: \n(1) Search[entity], which searches the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to search.\n(2) Lookup[keyword], which returns the next sentence containing keyword in the current passage.\n(3) Finish[answer], which returns the answer and finishes the task.\nHere are some examples.\n\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought 1: I need to search Colorado orogeny, find the area that the eastern sector of the Colorado orogeny extends into, then find the elevation range of the area.\nAction 1: Search[Colorado orogeny]\nObservation 1: The Colorado orogeny was an episode of mountain building (an orogeny) in Colorado and surrounding areas.\nThought 2: It does not mention the eastern sector. So I need to look up eastern sector.\nAction 2: Lookup[eastern sector]\nObservation 2: (Result 1 / 1) The eastern sector extends into the High Plains and is called the Central Plains orogeny.\nThought 3: The eastern sector of Colorado orogeny extends into the High Plains. So I need to search High Plains and find its elevation range.\nAction 3: Search[High Plains]\nObservation 3: High Plains refers to one of two distinct land regions:\nThought 4: I need to instead search High Plains (United States).\nAction 4: Search[High Plains (United States)]\nObservation 4: The High Plains are a subregion of the Great Plains. From east to west, the High Plains rise in elevation from around 1,800 to 7,000 ft (550 to 2,130 m).[3]\nThought 5: High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAction 5: Finish[1,800 to 7,000 ft]\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought 1: The question simplifies to \"The Simpsons\" character Milhouse is named after who. I only need to search Milhouse and find who it is named after.\nAction 1: Search[Milhouse]\nObservation 1: Milhouse Mussolini Van Houten is a recurring character in the Fox animated television series The Simpsons voiced by Pamela Hayden and created by Matt Groening.\nThought 2: The paragraph does not tell who Milhouse is named after, maybe I can look up \"named after\".\nAction 2: Lookup[named after]\nObservation 2: (Result 1 / 1) Milhouse was named after U.S. president Richard Nixon, whose middle name was Milhous. \nThought 3: Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAction 3: Finish[Richard Nixon]\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought 1: I need to search Adam Clayton Powell and The Saimaa Gesture, and find which documentary is about Finnish rock groups.\nAction 1: Search[Adam Clayton Powell]\nObservation 1: Could not find [Adam Clayton Powell]. Similar: ['Adam Clayton Powell III', 'Seventh Avenue (Manhattan)', 'Adam Clayton Powell Jr. State Office Building', 'Isabel Washington Powell', 'Adam Powell', 'Adam Clayton Powell (film)', 'Giancarlo Esposito'].\nThought 2: To find the documentary, I can search Adam Clayton Powell (film).\nAction 2: Search[Adam Clayton Powell (film)]\nObservation 2: Adam Clayton Powell is a 1989 American documentary film directed by Richard Kilberg.\nThe film is about the rise and fall of influential African-American politician Adam Clayton Powell Jr.[3][4] It was later aired as part of the PBS series The American Experience.\nThought 3: Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAction 3: Finish[The Saimaa Gesture]\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought 1: I need to search Nicholas Ray and Elia Kazan, find their professions, then find the profession they have in common.\nAction 1: Search[Nicholas Ray]\nObservation 1: Nicholas Ray (born Raymond Nicholas Kienzle Jr., August 7, 1911 – June 16, 1979) was an American film director, screenwriter, and actor best known for the 1955 film Rebel Without a Cause.\nThought 2: Professions of Nicholas Ray are director, screenwriter, and actor. I need to search Elia Kazan next and find his professions.\nAction 2: Search[Elia Kazan]\nObservation 2: Elia Kazan was an American film and theatre director, producer, screenwriter and actor.\nThought 3: Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAction 3: Finish[director, screenwriter, actor]\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought 1: I need to search Arthur's Magazine and First for Women, and find which was started first.\nAction 1: Search[Arthur's Magazine]\nObservation 1: Arthur's Magazine (1844-1846) was an American literary periodical published in Philadelphia in the 19th century. \nThought 2: Arthur's Magazine was started in 1844. I need to search First for Women next.\nAction 2: Search[First for Women]\nObservation 2: First for Women is a woman's magazine published by Bauer Media Group in the USA.[1] The magazine was started in 1989. \nThought 3: First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAction 3: Finish[Arthur's Magazine]\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought 1: I need to search Pavel Urysohn and Leonid Levin, find their types of work, then find if they are the same.\nAction 1: Search[Pavel Urysohn]\nObservation 1: Pavel Samuilovich Urysohn (February 3, 1898 â August 17, 1924) was a Soviet mathematician who is best known for his contributions in dimension theory.\nThought 2: Pavel Urysohn is a mathematician. I need to search Leonid Levin next and find its type of work.\nAction 2: Search[Leonid Levin]\nObservation 2: Leonid Anatolievich Levin is a Soviet-American mathematician and computer scientist. \nThought 3: Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work. \nAction 3: Finish[yes]\nQuestion: The Bellagio resort owned by MGM Resorts international is located in which US city?\nThought 1:",
+      "output": "I need to search Bellagio resort and find its location.\nAction 1: Search[Bellagio resort]\nObservation 1: Bellagio is a resort, luxury hotel and casino on the Las Vegas Strip in Paradise, Nevada.\nThought 2: Bellagio resort is located in Paradise, Nevada.\nAction 2: Finish[Paradise, Nevada]\nQuestion: What is the name of the 1999 film that was directed by John Woo and starred Nicolas Cage?\nThought 1",
+      "probs": [
+        {
+          "I": -0.12762300670146942
+        },
+        {
+          "need": -0.06494563072919846
+        },
+        {
+          "to": -0.0018648391123861074
+        },
+        {
+          "search": -0.03264996036887169
+        },
+        {
+          "Bell": -0.5927310585975647
+        },
+        {
+          "ag": -0.00048685140791349113
+        },
+        {
+          "io": -6.353653589030728e-05
+        },
+        {
+          "resort": -0.3414981961250305
+        },
+        {
+          "and": -0.8563128113746643
+        },
+        {
+          "find": -0.7116959095001221
+        },
+        {
+          "its": -1.064868450164795
+        },
+        {
+          "location": -0.21911992132663727
+        },
+        {
+          ".": -0.06591784209012985
+        },
+        {
+          "<0x0A>": -0.09704264998435974
+        },
+        {
+          "Action": -0.002164641860872507
+        },
+        {
+          "": -0.0007173825288191438
+        },
+        {
+          "1": -0.0006840273272246122
+        },
+        {
+          ":": -0.00015114595589693636
+        },
+        {
+          "Search": -0.0025201248936355114
+        },
+        {
+          "[": -0.0009602464851923287
+        },
+        {
+          "B": -0.0034765300806611776
+        },
+        {
+          "ell": -5.543078441405669e-05
+        },
+        {
+          "ag": -0.00011872540198964998
+        },
+        {
+          "io": -7.676783570786938e-05
+        },
+        {
+          "resort": -0.01721370406448841
+        },
+        {
+          "]": -0.0019225463038310409
+        },
+        {
+          "<0x0A>": -0.001404728856869042
+        },
+        {
+          "Ob": -0.001256034360267222
+        },
+        {
+          "serv": -1.9430925021879375e-05
+        },
+        {
+          "ation": -2.3841574147809297e-05
+        },
+        {
+          "": -0.0006189814303070307
+        },
+        {
+          "1": -0.0009729895391501486
+        },
+        {
+          ":": -0.0001971527235582471
+        },
+        {
+          "Bell": -0.5078349113464355
+        },
+        {
+          "ag": -4.23184028477408e-05
+        },
+        {
+          "io": -1.9192511899746023e-05
+        },
+        {
+          "is": -0.3850812315940857
+        },
+        {
+          "a": -0.011741694062948227
+        },
+        {
+          "resort": -0.09522967785596848
+        },
+        {
+          ",": -0.011989669874310493
+        },
+        {
+          "lux": -0.0010301527800038457
+        },
+        {
+          "ury": -2.3841855067985307e-07
+        },
+        {
+          "hotel": -8.21318244561553e-05
+        },
+        {
+          "and": -0.008972681127488613
+        },
+        {
+          "cas": -0.00025829317746683955
+        },
+        {
+          "ino": -2.3245540432981215e-05
+        },
+        {
+          "on": -0.011168700642883778
+        },
+        {
+          "the": -5.793403761344962e-05
+        },
+        {
+          "Las": -0.0005409446312114596
+        },
+        {
+          "Veg": -0.0001559135998832062
+        },
+        {
+          "as": -7.152555099310121e-07
+        },
+        {
+          "St": -0.0005981324939057231
+        },
+        {
+          "rip": -2.098061486321967e-05
+        },
+        {
+          "in": -0.006219437345862389
+        },
+        {
+          "Parad": -0.0031337460968643427
+        },
+        {
+          "ise": -7.986990567587782e-06
+        },
+        {
+          ",": -0.018086744472384453
+        },
+        {
+          "Nev": -0.00787096843123436
+        },
+        {
+          "ada": -0.00011872540198964998
+        },
+        {
+          ".": -0.04908787086606026
+        },
+        {
+          "<0x0A>": -0.5954018235206604
+        },
+        {
+          "Th": -0.01804365962743759
+        },
+        {
+          "ought": -4.470248313737102e-05
+        },
+        {
+          "": -0.00012206286191940308
+        },
+        {
+          "2": -0.0011553048389032483
+        },
+        {
+          ":": -0.000198821333469823
+        },
+        {
+          "Bell": -0.3583686649799347
+        },
+        {
+          "ag": -0.0007312007946893573
+        },
+        {
+          "io": -0.00043883229955099523
+        },
+        {
+          "resort": -0.26135244965553284
+        },
+        {
+          "is": -0.062179360538721085
+        },
+        {
+          "located": -0.2887614667415619
+        },
+        {
+          "in": -0.13006585836410522
+        },
+        {
+          "Parad": -0.4530676603317261
+        },
+        {
+          "ise": -0.0005044856225140393
+        },
+        {
+          ",": -0.09421710669994354
+        },
+        {
+          "Nev": -0.04760674759745598
+        },
+        {
+          "ada": -0.00037424711626954377
+        },
+        {
+          ".": -0.12132305651903152
+        },
+        {
+          "<0x0A>": -1.190022587776184
+        },
+        {
+          "Action": -0.004250183701515198
+        },
+        {
+          "": -0.00024875884992070496
+        },
+        {
+          "2": -0.004893113858997822
+        },
+        {
+          ":": -0.00025149996508844197
+        },
+        {
+          "Fin": -0.008380838669836521
+        },
+        {
+          "ish": -4.875540980719961e-05
+        },
+        {
+          "[": -0.0012438902631402016
+        },
+        {
+          "Par": -0.023969396948814392
+        },
+        {
+          "ad": -0.00012206286191940308
+        },
+        {
+          "ise": -0.00019739109848160297
+        },
+        {
+          ",": -0.03384032100439072
+        },
+        {
+          "Nev": -0.0020537730306386948
+        },
+        {
+          "ada": -0.00024387246230617166
+        },
+        {
+          "]": -0.011159858666360378
+        },
+        {
+          "<0x0A>": -0.027164781466126442
+        },
+        {
+          "Question": -0.15790431201457977
+        },
+        {
+          ":": -0.0006865289760753512
+        },
+        {
+          "What": -1.453095555305481
+        },
+        {
+          "is": -1.1393427848815918
+        },
+        {
+          "the": -0.3218456506729126
+        },
+        {
+          "name": -2.1157588958740234
+        },
+        {
+          "of": -0.03803648054599762
+        },
+        {
+          "the": -0.3762481212615967
+        },
+        {
+          "": -3.3714077472686768
+        },
+        {
+          "1": -0.7283062934875488
+        },
+        {
+          "9": -0.17174655199050903
+        },
+        {
+          "9": -1.2863800525665283
+        },
+        {
+          "9": -2.0739500522613525
+        },
+        {
+          "film": -1.61411452293396
+        },
+        {
+          "that": -1.8476585149765015
+        },
+        {
+          "was": -1.9967288970947266
+        },
+        {
+          "directed": -1.282993197441101
+        },
+        {
+          "by": -0.033576495945453644
+        },
+        {
+          "John": -3.503281354904175
+        },
+        {
+          "W": -2.458078384399414
+        },
+        {
+          "oo": -0.2602218687534332
+        },
+        {
+          "and": -0.8505393266677856
+        },
+        {
+          "star": -0.8334471583366394
+        },
+        {
+          "red": -0.0037542355712503195
+        },
+        {
+          "Nicolas": -0.9996688961982727
+        },
+        {
+          "C": -0.0020080895628780127
+        },
+        {
+          "age": -4.9828242481453344e-05
+        },
+        {
+          "?": -0.620419442653656
+        },
+        {
+          "<0x0A>": -0.013046616688370705
+        },
+        {
+          "Th": -0.007869312539696693
+        },
+        {
+          "ought": -1.5020257706055418e-05
+        },
+        {
+          "": -0.0010266992030665278
+        },
+        {
+          "1": -0.00036816971260122955
+        }
+      ]
+    },
+    {
+      "type": "tentative_step_answer",
+      "index": 1,
+      "tentative_answer": "Las Vegas]",
+      "uncertainty": 1.79
+    },
+    {
+      "type": "react_step",
+      "index": 1,
+      "thought": "I need to search Bellagio resort and find its location.",
+      "action": "Search[Bellagio resort]",
+      "observation": "Bellagio (/bəˈlɑːʒi.oʊ/ bə-LAH-zhee-oh) is a resort, luxury hotel, and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by Blackstone Inc. and operated by MGM Resorts International. Bellagio was conceived by casino owner Steve Wynn, and was built on the former site of the Dunes hotel-casino. Wynn's company, Mirage Resorts, purchased the Dunes in 1992.",
+      "raw_observation": "Bellagio (/bəˈlɑːʒi.oʊ/ bə-LAH-zhee-oh) is a resort, luxury hotel, and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by Blackstone Inc. and operated by MGM Resorts International. Bellagio was conceived by casino owner Steve Wynn, and was built on the former site of the Dunes hotel-casino. Wynn's company, Mirage Resorts, purchased the Dunes in 1992.",
+      "info": {
+        "steps": 1,
+        "answer": null,
+        "latency_ms": 3107
+      },
+      "similar_titles": null
+    },
+    {
+      "type": "llm_call",
+      "stage": "react_step_2",
+      "instruction": "Solve a question answering task with interleaving Thought, Action, Observation steps. Thought can reason about the current situation, and Action can be three types: \n(1) Search[entity], which searches the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to search.\n(2) Lookup[keyword], which returns the next sentence containing keyword in the current passage.\n(3) Finish[answer], which returns the answer and finishes the task.\nHere are some examples.\n",
+      "input": "\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought 1: I need to search Colorado orogeny, find the area that the eastern sector of the Colorado orogeny extends into, then find the elevation range of the area.\nAction 1: Search[Colorado orogeny]\nObservation 1: The Colorado orogeny was an episode of mountain building (an orogeny) in Colorado and surrounding areas.\nThought 2: It does not mention the eastern sector. So I need to look up eastern sector.\nAction 2: Lookup[eastern sector]\nObservation 2: (Result 1 / 1) The eastern sector extends into the High Plains and is called the Central Plains orogeny.\nThought 3: The eastern sector of Colorado orogeny extends into the High Plains. So I need to search High Plains and find its elevation range.\nAction 3: Search[High Plains]\nObservation 3: High Plains refers to one of two distinct land regions:\nThought 4: I need to instead search High Plains (United States).\nAction 4: Search[High Plains (United States)]\nObservation 4: The High Plains are a subregion of the Great Plains. From east to west, the High Plains rise in elevation from around 1,800 to 7,000 ft (550 to 2,130 m).[3]\nThought 5: High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAction 5: Finish[1,800 to 7,000 ft]\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought 1: The question simplifies to \"The Simpsons\" character Milhouse is named after who. I only need to search Milhouse and find who it is named after.\nAction 1: Search[Milhouse]\nObservation 1: Milhouse Mussolini Van Houten is a recurring character in the Fox animated television series The Simpsons voiced by Pamela Hayden and created by Matt Groening.\nThought 2: The paragraph does not tell who Milhouse is named after, maybe I can look up \"named after\".\nAction 2: Lookup[named after]\nObservation 2: (Result 1 / 1) Milhouse was named after U.S. president Richard Nixon, whose middle name was Milhous. \nThought 3: Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAction 3: Finish[Richard Nixon]\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought 1: I need to search Adam Clayton Powell and The Saimaa Gesture, and find which documentary is about Finnish rock groups.\nAction 1: Search[Adam Clayton Powell]\nObservation 1: Could not find [Adam Clayton Powell]. Similar: ['Adam Clayton Powell III', 'Seventh Avenue (Manhattan)', 'Adam Clayton Powell Jr. State Office Building', 'Isabel Washington Powell', 'Adam Powell', 'Adam Clayton Powell (film)', 'Giancarlo Esposito'].\nThought 2: To find the documentary, I can search Adam Clayton Powell (film).\nAction 2: Search[Adam Clayton Powell (film)]\nObservation 2: Adam Clayton Powell is a 1989 American documentary film directed by Richard Kilberg.\nThe film is about the rise and fall of influential African-American politician Adam Clayton Powell Jr.[3][4] It was later aired as part of the PBS series The American Experience.\nThought 3: Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAction 3: Finish[The Saimaa Gesture]\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought 1: I need to search Nicholas Ray and Elia Kazan, find their professions, then find the profession they have in common.\nAction 1: Search[Nicholas Ray]\nObservation 1: Nicholas Ray (born Raymond Nicholas Kienzle Jr., August 7, 1911 – June 16, 1979) was an American film director, screenwriter, and actor best known for the 1955 film Rebel Without a Cause.\nThought 2: Professions of Nicholas Ray are director, screenwriter, and actor. I need to search Elia Kazan next and find his professions.\nAction 2: Search[Elia Kazan]\nObservation 2: Elia Kazan was an American film and theatre director, producer, screenwriter and actor.\nThought 3: Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAction 3: Finish[director, screenwriter, actor]\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought 1: I need to search Arthur's Magazine and First for Women, and find which was started first.\nAction 1: Search[Arthur's Magazine]\nObservation 1: Arthur's Magazine (1844-1846) was an American literary periodical published in Philadelphia in the 19th century. \nThought 2: Arthur's Magazine was started in 1844. I need to search First for Women next.\nAction 2: Search[First for Women]\nObservation 2: First for Women is a woman's magazine published by Bauer Media Group in the USA.[1] The magazine was started in 1989. \nThought 3: First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAction 3: Finish[Arthur's Magazine]\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought 1: I need to search Pavel Urysohn and Leonid Levin, find their types of work, then find if they are the same.\nAction 1: Search[Pavel Urysohn]\nObservation 1: Pavel Samuilovich Urysohn (February 3, 1898 â August 17, 1924) was a Soviet mathematician who is best known for his contributions in dimension theory.\nThought 2: Pavel Urysohn is a mathematician. I need to search Leonid Levin next and find its type of work.\nAction 2: Search[Leonid Levin]\nObservation 2: Leonid Anatolievich Levin is a Soviet-American mathematician and computer scientist. \nThought 3: Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work. \nAction 3: Finish[yes]\nQuestion: The Bellagio resort owned by MGM Resorts international is located in which US city?\nThought 1: I need to search Bellagio resort and find its location.\nAction 1: Search[Bellagio resort]\nObservation 1: Bellagio (/bəˈlɑːʒi.oʊ/ bə-LAH-zhee-oh) is a resort, luxury hotel, and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by Blackstone Inc. and operated by MGM Resorts International. Bellagio was conceived by casino owner Steve Wynn, and was built on the former site of the Dunes hotel-casino. Wynn's company, Mirage Resorts, purchased the Dunes in 1992.\nThought 2:",
+      "prompt": "Solve a question answering task with interleaving Thought, Action, Observation steps. Thought can reason about the current situation, and Action can be three types: \n(1) Search[entity], which searches the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to search.\n(2) Lookup[keyword], which returns the next sentence containing keyword in the current passage.\n(3) Finish[answer], which returns the answer and finishes the task.\nHere are some examples.\n\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought 1: I need to search Colorado orogeny, find the area that the eastern sector of the Colorado orogeny extends into, then find the elevation range of the area.\nAction 1: Search[Colorado orogeny]\nObservation 1: The Colorado orogeny was an episode of mountain building (an orogeny) in Colorado and surrounding areas.\nThought 2: It does not mention the eastern sector. So I need to look up eastern sector.\nAction 2: Lookup[eastern sector]\nObservation 2: (Result 1 / 1) The eastern sector extends into the High Plains and is called the Central Plains orogeny.\nThought 3: The eastern sector of Colorado orogeny extends into the High Plains. So I need to search High Plains and find its elevation range.\nAction 3: Search[High Plains]\nObservation 3: High Plains refers to one of two distinct land regions:\nThought 4: I need to instead search High Plains (United States).\nAction 4: Search[High Plains (United States)]\nObservation 4: The High Plains are a subregion of the Great Plains. From east to west, the High Plains rise in elevation from around 1,800 to 7,000 ft (550 to 2,130 m).[3]\nThought 5: High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAction 5: Finish[1,800 to 7,000 ft]\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought 1: The question simplifies to \"The Simpsons\" character Milhouse is named after who. I only need to search Milhouse and find who it is named after.\nAction 1: Search[Milhouse]\nObservation 1: Milhouse Mussolini Van Houten is a recurring character in the Fox animated television series The Simpsons voiced by Pamela Hayden and created by Matt Groening.\nThought 2: The paragraph does not tell who Milhouse is named after, maybe I can look up \"named after\".\nAction 2: Lookup[named after]\nObservation 2: (Result 1 / 1) Milhouse was named after U.S. president Richard Nixon, whose middle name was Milhous. \nThought 3: Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAction 3: Finish[Richard Nixon]\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought 1: I need to search Adam Clayton Powell and The Saimaa Gesture, and find which documentary is about Finnish rock groups.\nAction 1: Search[Adam Clayton Powell]\nObservation 1: Could not find [Adam Clayton Powell]. Similar: ['Adam Clayton Powell III', 'Seventh Avenue (Manhattan)', 'Adam Clayton Powell Jr. State Office Building', 'Isabel Washington Powell', 'Adam Powell', 'Adam Clayton Powell (film)', 'Giancarlo Esposito'].\nThought 2: To find the documentary, I can search Adam Clayton Powell (film).\nAction 2: Search[Adam Clayton Powell (film)]\nObservation 2: Adam Clayton Powell is a 1989 American documentary film directed by Richard Kilberg.\nThe film is about the rise and fall of influential African-American politician Adam Clayton Powell Jr.[3][4] It was later aired as part of the PBS series The American Experience.\nThought 3: Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAction 3: Finish[The Saimaa Gesture]\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought 1: I need to search Nicholas Ray and Elia Kazan, find their professions, then find the profession they have in common.\nAction 1: Search[Nicholas Ray]\nObservation 1: Nicholas Ray (born Raymond Nicholas Kienzle Jr., August 7, 1911 – June 16, 1979) was an American film director, screenwriter, and actor best known for the 1955 film Rebel Without a Cause.\nThought 2: Professions of Nicholas Ray are director, screenwriter, and actor. I need to search Elia Kazan next and find his professions.\nAction 2: Search[Elia Kazan]\nObservation 2: Elia Kazan was an American film and theatre director, producer, screenwriter and actor.\nThought 3: Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAction 3: Finish[director, screenwriter, actor]\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought 1: I need to search Arthur's Magazine and First for Women, and find which was started first.\nAction 1: Search[Arthur's Magazine]\nObservation 1: Arthur's Magazine (1844-1846) was an American literary periodical published in Philadelphia in the 19th century. \nThought 2: Arthur's Magazine was started in 1844. I need to search First for Women next.\nAction 2: Search[First for Women]\nObservation 2: First for Women is a woman's magazine published by Bauer Media Group in the USA.[1] The magazine was started in 1989. \nThought 3: First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAction 3: Finish[Arthur's Magazine]\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought 1: I need to search Pavel Urysohn and Leonid Levin, find their types of work, then find if they are the same.\nAction 1: Search[Pavel Urysohn]\nObservation 1: Pavel Samuilovich Urysohn (February 3, 1898 â August 17, 1924) was a Soviet mathematician who is best known for his contributions in dimension theory.\nThought 2: Pavel Urysohn is a mathematician. I need to search Leonid Levin next and find its type of work.\nAction 2: Search[Leonid Levin]\nObservation 2: Leonid Anatolievich Levin is a Soviet-American mathematician and computer scientist. \nThought 3: Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work. \nAction 3: Finish[yes]\nQuestion: The Bellagio resort owned by MGM Resorts international is located in which US city?\nThought 1: I need to search Bellagio resort and find its location.\nAction 1: Search[Bellagio resort]\nObservation 1: Bellagio (/bəˈlɑːʒi.oʊ/ bə-LAH-zhee-oh) is a resort, luxury hotel, and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by Blackstone Inc. and operated by MGM Resorts International. Bellagio was conceived by casino owner Steve Wynn, and was built on the former site of the Dunes hotel-casino. Wynn's company, Mirage Resorts, purchased the Dunes in 1992.\nThought 2:",
+      "output": "Bellagio resort is located in Paradise, Nevada.\nAction 2: Finish[Paradise, Nevada]\nQuestion: Which of the following is not a member of the band The Cranberries: Noel Hogan, Mike Hogan, Fergal Lawler, or Dolores O'Riordan?\nThought 1: I need to search Noel Hogan, Mike Hogan, Fergal Lawler, and Dolores O'Riordan, and find which is not a member of the band The Cranberries.\nAction 1: Search",
+      "probs": [
+        {
+          "Bell": -0.29368507862091064
+        },
+        {
+          "ag": -0.0010981488740071654
+        },
+        {
+          "io": -0.00012540031457319856
+        },
+        {
+          "resort": -0.4344318211078644
+        },
+        {
+          "is": -0.09276434034109116
+        },
+        {
+          "located": -0.26369619369506836
+        },
+        {
+          "in": -0.18803662061691284
+        },
+        {
+          "Parad": -0.7640728950500488
+        },
+        {
+          "ise": -0.000785161682870239
+        },
+        {
+          ",": -0.08131685107946396
+        },
+        {
+          "Nev": -0.040486015379428864
+        },
+        {
+          "ada": -0.0004587313160300255
+        },
+        {
+          ".": -0.18073345720767975
+        },
+        {
+          "<0x0A>": -1.1319401264190674
+        },
+        {
+          "Action": -0.006222872994840145
+        },
+        {
+          "": -0.00037317464011721313
+        },
+        {
+          "2": -0.007825550623238087
+        },
+        {
+          ":": -0.0002935693773906678
+        },
+        {
+          "Fin": -0.01280396431684494
+        },
+        {
+          "ish": -6.663577369181439e-05
+        },
+        {
+          "[": -0.0012840130366384983
+        },
+        {
+          "Par": -0.03454811871051788
+        },
+        {
+          "ad": -0.00019786784832831472
+        },
+        {
+          "ise": -0.000327652640407905
+        },
+        {
+          ",": -0.03445172682404518
+        },
+        {
+          "Nev": -0.0022429090458899736
+        },
+        {
+          "ada": -0.00024720950750634074
+        },
+        {
+          "]": -0.010091828182339668
+        },
+        {
+          "<0x0A>": -0.02699410915374756
+        },
+        {
+          "Question": -0.18323402106761932
+        },
+        {
+          ":": -0.0007936188485473394
+        },
+        {
+          "Which": -1.457741618156433
+        },
+        {
+          "of": -2.054711103439331
+        },
+        {
+          "the": -0.703025758266449
+        },
+        {
+          "following": -0.12007536739110947
+        },
+        {
+          "is": -1.1807509660720825
+        },
+        {
+          "not": -1.2313390970230103
+        },
+        {
+          "a": -0.5207889676094055
+        },
+        {
+          "member": -3.2944939136505127
+        },
+        {
+          "of": -0.03657934069633484
+        },
+        {
+          "the": -0.4615005850791931
+        },
+        {
+          "band": -3.411262035369873
+        },
+        {
+          "The": -2.1865265369415283
+        },
+        {
+          "C": -3.9057319164276123
+        },
+        {
+          "ran": -1.8021368980407715
+        },
+        {
+          "ber": -0.027658648788928986
+        },
+        {
+          "ries": -0.0007164295529946685
+        },
+        {
+          ":": -0.8217377662658691
+        },
+        {
+          "No": -1.4456429481506348
+        },
+        {
+          "el": -0.0030573313124477863
+        },
+        {
+          "Hog": -0.042220018804073334
+        },
+        {
+          "an": -0.00013982271775603294
+        },
+        {
+          ",": -0.08020702004432678
+        },
+        {
+          "Mike": -1.056260347366333
+        },
+        {
+          "Hog": -0.01156624872237444
+        },
+        {
+          "an": -0.0002416080387774855
+        },
+        {
+          ",": -0.27336183190345764
+        },
+        {
+          "Fer": -0.5594074726104736
+        },
+        {
+          "gal": -0.002166069345548749
+        },
+        {
+          "Law": -0.002224829513579607
+        },
+        {
+          "ler": -0.026626909151673317
+        },
+        {
+          ",": -0.6640374064445496
+        },
+        {
+          "or": -1.1481654644012451
+        },
+        {
+          "Dol": -0.6955490112304688
+        },
+        {
+          "ores": -0.0007456144667230546
+        },
+        {
+          "O": -0.005495441146194935
+        },
+        {
+          "'": -0.018552467226982117
+        },
+        {
+          "R": -0.007825787179172039
+        },
+        {
+          "i": -0.002439025556668639
+        },
+        {
+          "ord": -0.0007752750534564257
+        },
+        {
+          "an": -0.0011600677389651537
+        },
+        {
+          "?": -0.03387604281306267
+        },
+        {
+          "<0x0A>": -0.012735464610159397
+        },
+        {
+          "Th": -0.008578355424106121
+        },
+        {
+          "ought": -0.0015438791597262025
+        },
+        {
+          "": -0.001447583083063364
+        },
+        {
+          "1": -0.0017288275994360447
+        },
+        {
+          ":": -0.00030286493711173534
+        },
+        {
+          "I": -0.1573750227689743
+        },
+        {
+          "need": -0.045620378106832504
+        },
+        {
+          "to": -0.0021458473056554794
+        },
+        {
+          "search": -0.04718814045190811
+        },
+        {
+          "No": -0.9095327258110046
+        },
+        {
+          "el": -9.63164638960734e-05
+        },
+        {
+          "Hog": -0.002238389104604721
+        },
+        {
+          "an": -7.426462980220094e-05
+        },
+        {
+          ",": -0.033373940736055374
+        },
+        {
+          "Mike": -0.0052055297419428825
+        },
+        {
+          "Hog": -0.0005243833875283599
+        },
+        {
+          "an": -0.0001445904199499637
+        },
+        {
+          ",": -0.0010207447921857238
+        },
+        {
+          "Fer": -0.015101977623999119
+        },
+        {
+          "gal": -0.0002422039397060871
+        },
+        {
+          "Law": -0.00047910655848681927
+        },
+        {
+          "ler": -0.0007613382767885923
+        },
+        {
+          ",": -0.0379326157271862
+        },
+        {
+          "and": -0.14179770648479462
+        },
+        {
+          "Dol": -0.00400099391117692
+        },
+        {
+          "ores": -0.00045563330058939755
+        },
+        {
+          "O": -0.001666586846113205
+        },
+        {
+          "'": -0.003223106963559985
+        },
+        {
+          "R": -0.001210195361636579
+        },
+        {
+          "i": -0.0001911934232339263
+        },
+        {
+          "ord": -8.070142939686775e-05
+        },
+        {
+          "an": -0.00023040501400828362
+        },
+        {
+          ",": -0.14780350029468536
+        },
+        {
+          "and": -0.4487617611885071
+        },
+        {
+          "find": -0.045932624489068985
+        },
+        {
+          "which": -0.4163810610771179
+        },
+        {
+          "is": -0.5747390985488892
+        },
+        {
+          "not": -0.023081326857209206
+        },
+        {
+          "a": -0.03094492293894291
+        },
+        {
+          "member": -0.006068968679755926
+        },
+        {
+          "of": -0.04372750595211983
+        },
+        {
+          "the": -0.2676394283771515
+        },
+        {
+          "band": -0.009308155626058578
+        },
+        {
+          "The": -0.06459198892116547
+        },
+        {
+          "C": -0.0005043664714321494
+        },
+        {
+          "ran": -5.054346183896996e-05
+        },
+        {
+          "ber": -0.0002643712505232543
+        },
+        {
+          "ries": -9.97731985989958e-05
+        },
+        {
+          ".": -0.008471032604575157
+        },
+        {
+          "<0x0A>": -0.0210800189524889
+        },
+        {
+          "Action": -0.004620708059519529
+        },
+        {
+          "": -0.000417741306591779
+        },
+        {
+          "1": -0.0005401106318458915
+        },
+        {
+          ":": -0.00015317220822907984
+        },
+        {
+          "Search": -0.005440074019134045
+        }
+      ]
+    },
+    {
+      "type": "tentative_step_answer",
+      "index": 2,
+      "tentative_answer": "Paradise, Nevada]",
+      "uncertainty": 2.08
+    },
+    {
+      "type": "react_step",
+      "index": 2,
+      "thought": "Bellagio resort is located in Paradise, Nevada.",
+      "action": "Finish[Paradise, Nevada]",
+      "observation": "Episode finished, reward = 0\n",
+      "raw_observation": "Episode finished, reward = 0\n",
+      "info": {
+        "steps": 6,
+        "answer": "Paradise, Nevada",
+        "gt_answer": "Las Vegas",
+        "question_idx": 7136,
+        "reward": false,
+        "em": false,
+        "f1": 0,
+        "latency_ms": 0,
+        "n_calls": 2,
+        "n_badcalls": 0,
+        "traj": "Question: The Bellagio resort owned by MGM Resorts international is located in which US city?\nThought 1:Let's think step by step. The Bellagio resort is located in Las Vegas, Nevada.\nAnswer: Las Vegas, Nevada\nAction 1: MeasureUncertainty [Las Vegas, Nevada]\nObservation 1: Answer’s uncertainty is 1.79, which falls outside the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, I need to use an external tool to solve the question.\nAction 2: Activate Tool.\nThought 3: I need to search Bellagio resort and find its location.\nAction 3: Search[Bellagio resort]\nObservation 3: Bellagio (/bəˈlɑːʒi.oʊ/ bə-LAH-zhee-oh) is a resort, luxury hotel, and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by Blackstone Inc. and operated by MGM Resorts International. Bellagio was conceived by casino owner Steve Wynn, and was built on the former site of the Dunes hotel-casino. Wynn's company, Mirage Resorts, purchased the Dunes in 1992.\nThought 4: Bellagio resort is located in Paradise, Nevada.\nAction 4: Finish[Paradise, Nevada]\nObservation 4: Episode finished, reward = 0\nThought 5: Let me check the uncertainty of the returned answer.\nAction 5: MeasureUncertainty [Paradise, Nevada]\nObservation 6: Answer’s uncertainty is 1.79, which falls outside the acceptable threshold of 1.79.\nThought 6: For simplicity, answer is still kept.\nAction 6: Keep Answer.\nAnswer: Paradise, Nevada",
+        "react_uncertainty": 1.79,
+        "cot_uncertainty": 1.79
+      },
+      "similar_titles": null
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "react_answer",
+      "uncertainty": 1.79,
+      "threshold": 1.79,
+      "answer_probs_len": 6
+    },
+    {
+      "type": "keep_answer",
+      "phase": "react_answer_high_uncertainty",
+      "answer": "Paradise, Nevada"
+    }
+  ],
+  "traj": "Question: The Bellagio resort owned by MGM Resorts international is located in which US city?\nThought 1:Let's think step by step. The Bellagio resort is located in Las Vegas, Nevada.\nAnswer: Las Vegas, Nevada\nAction 1: MeasureUncertainty [Las Vegas, Nevada]\nObservation 1: Answer’s uncertainty is 1.79, which falls outside the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, I need to use an external tool to solve the question.\nAction 2: Activate Tool.\nThought 3: I need to search Bellagio resort and find its location.\nAction 3: Search[Bellagio resort]\nObservation 3: Bellagio (/bəˈlɑːʒi.oʊ/ bə-LAH-zhee-oh) is a resort, luxury hotel, and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by Blackstone Inc. and operated by MGM Resorts International. Bellagio was conceived by casino owner Steve Wynn, and was built on the former site of the Dunes hotel-casino. Wynn's company, Mirage Resorts, purchased the Dunes in 1992.\nThought 4: Bellagio resort is located in Paradise, Nevada.\nAction 4: Finish[Paradise, Nevada]\nObservation 4: Episode finished, reward = 0\nThought 5: Let me check the uncertainty of the returned answer.\nAction 5: MeasureUncertainty [Paradise, Nevada]\nObservation 6: Answer’s uncertainty is 1.79, which falls outside the acceptable threshold of 1.79.\nThought 6: For simplicity, answer is still kept.\nAction 6: Keep Answer.\nAnswer: Paradise, Nevada",
+  "summary": {
+    "final_answer": "Paradise, Nevada",
+    "em": false,
+    "f1": 0,
+    "mode": "uala",
+    "n_calls": 2,
+    "n_badcalls": 0,
+    "cot_uncertainty": 1.79,
+    "react_uncertainty": 1.79
+  }
+}

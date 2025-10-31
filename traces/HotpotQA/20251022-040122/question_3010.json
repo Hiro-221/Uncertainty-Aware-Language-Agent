@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 3010,
+  "question": "Question: Are Tim Rice and Leslie Marmon Silko both lyricists?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Tim Rice and Leslie Marmon Silko both lyricists?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are Tim Rice and Leslie Marmon Silko both lyricists?\nThought:",
+      "output": "Let's think step by step. Tim Rice is a lyricist. Leslie Marmon Silko is a writer. So Tim Rice and Leslie Marmon Silko are not both lyricists.\nAnswer: No\nQuestion: Which of the following is not a member of the group of people who have been awarded the Nobel Prize in Physics?\nThought: Let's think step by step. The Nobel Prize in Physics is awarded to physicists. Albert Einstein is a physicist. Niels Bohr is a physicist. Max Planck is a physicist. Marie",
+      "probs": [
+        {
+          "Let": -0.016133472323417664
+        },
+        {
+          "'": -0.0006385194719769061
+        },
+        {
+          "s": -2.098061486321967e-05
+        },
+        {
+          "think": -0.0006086166249588132
+        },
+        {
+          "step": -0.00030751267331652343
+        },
+        {
+          "by": -0.00013982271775603294
+        },
+        {
+          "step": -6.3774932641536e-05
+        },
+        {
+          ".": -0.00046206763363443315
+        },
+        {
+          "Tim": -0.21835774183273315
+        },
+        {
+          "R": -0.0029245722107589245
+        },
+        {
+          "ice": -2.4676019165781327e-05
+        },
+        {
+          "is": -0.05320630967617035
+        },
+        {
+          "a": -0.1262025535106659
+        },
+        {
+          "ly": -0.1120319813489914
+        },
+        {
+          "ric": -0.0015642322832718492
+        },
+        {
+          "ist": -0.0013063953956589103
+        },
+        {
+          ".": -0.7014448046684265
+        },
+        {
+          "Les": -0.03036976233124733
+        },
+        {
+          "lie": -0.0011125572491437197
+        },
+        {
+          "Mar": -0.0014486543368548155
+        },
+        {
+          "mon": -0.0008699684985913336
+        },
+        {
+          "Sil": -0.0018886362668126822
+        },
+        {
+          "ko": -0.0005451146862469614
+        },
+        {
+          "is": -0.015009797178208828
+        },
+        {
+          "a": -0.1765141785144806
+        },
+        {
+          "writer": -0.9558498859405518
+        },
+        {
+          ".": -0.3701980710029602
+        },
+        {
+          "So": -0.19217491149902344
+        },
+        {
+          "Tim": -0.22913722693920135
+        },
+        {
+          "R": -0.0018148632952943444
+        },
+        {
+          "ice": -0.00012158608296886086
+        },
+        {
+          "and": -0.11602620035409927
+        },
+        {
+          "Les": -0.0017500099493190646
+        },
+        {
+          "lie": -0.0005640584276989102
+        },
+        {
+          "Mar": -0.0009676303598098457
+        },
+        {
+          "mon": -0.0009093916742131114
+        },
+        {
+          "Sil": -0.001564113306812942
+        },
+        {
+          "ko": -0.00048387263086624444
+        },
+        {
+          "are": -0.6305539011955261
+        },
+        {
+          "not": -0.26004502177238464
+        },
+        {
+          "both": -0.01957947574555874
+        },
+        {
+          "ly": -0.005501368548721075
+        },
+        {
+          "ric": -0.0007499027997255325
+        },
+        {
+          "ists": -0.01100635901093483
+        },
+        {
+          ".": -0.01123365294188261
+        },
+        {
+          "<0x0A>": -0.0045022787526249886
+        },
+        {
+          "Answer": -0.0015961299650371075
+        },
+        {
+          ":": -0.0003405229654163122
+        },
+        {
+          "No": -0.009936866350471973
+        },
+        {
+          "<0x0A>": -0.015777282416820526
+        },
+        {
+          "Question": -0.27932077646255493
+        },
+        {
+          ":": -0.00034981805947609246
+        },
+        {
+          "Which": -1.7032017707824707
+        },
+        {
+          "of": -1.8136759996414185
+        },
+        {
+          "the": -0.9420926570892334
+        },
+        {
+          "following": -0.15028376877307892
+        },
+        {
+          "is": -1.068960428237915
+        },
+        {
+          "not": -1.4257153272628784
+        },
+        {
+          "a": -0.6803413033485413
+        },
+        {
+          "member": -3.3520121574401855
+        },
+        {
+          "of": -0.023173466324806213
+        },
+        {
+          "the": -0.6169381737709045
+        },
+        {
+          "group": -3.3761065006256104
+        },
+        {
+          "of": -2.0064163208007812
+        },
+        {
+          "people": -2.4521937370300293
+        },
+        {
+          "who": -1.799407720565796
+        },
+        {
+          "have": -1.7619233131408691
+        },
+        {
+          "been": -1.817394733428955
+        },
+        {
+          "awarded": -2.1091232299804688
+        },
+        {
+          "the": -0.41713324189186096
+        },
+        {
+          "Nobel": -2.1514875888824463
+        },
+        {
+          "Prize": -0.29738834500312805
+        },
+        {
+          "in": -0.4200710356235504
+        },
+        {
+          "Physics": -1.1247291564941406
+        },
+        {
+          "?": -0.8840519785881042
+        },
+        {
+          "<0x0A>": -1.5494513511657715
+        },
+        {
+          "Th": -0.1432809978723526
+        },
+        {
+          "ought": -0.00034683887497521937
+        },
+        {
+          ":": -0.0010570659069344401
+        },
+        {
+          "Let": -0.029700426384806633
+        },
+        {
+          "'": -0.0008000510279089212
+        },
+        {
+          "s": -4.494089080253616e-05
+        },
+        {
+          "think": -0.001644093543291092
+        },
+        {
+          "step": -0.0015783959534019232
+        },
+        {
+          "by": -0.0002450642641633749
+        },
+        {
+          "step": -1.2755313036905136e-05
+        },
+        {
+          ".": -0.0025825502816587687
+        },
+        {
+          "The": -2.246537208557129
+        },
+        {
+          "Nobel": -1.3607510328292847
+        },
+        {
+          "Prize": -0.0403113067150116
+        },
+        {
+          "in": -0.04852850362658501
+        },
+        {
+          "Physics": -0.009837597608566284
+        },
+        {
+          "is": -0.9714828729629517
+        },
+        {
+          "awarded": -0.6322160959243774
+        },
+        {
+          "to": -0.42060256004333496
+        },
+        {
+          "phys": -1.7811737060546875
+        },
+        {
+          "ic": -0.003849597414955497
+        },
+        {
+          "ists": -0.04650026932358742
+        },
+        {
+          ".": -0.27032753825187683
+        },
+        {
+          "Albert": -3.0916664600372314
+        },
+        {
+          "Ein": -0.28824368119239807
+        },
+        {
+          "stein": -0.0004170263418927789
+        },
+        {
+          "is": -0.5805200338363647
+        },
+        {
+          "a": -0.043045587837696075
+        },
+        {
+          "phys": -0.06705455482006073
+        },
+        {
+          "ic": -0.0008679436868987978
+        },
+        {
+          "ist": -0.002540814923122525
+        },
+        {
+          ".": -0.24897508323192596
+        },
+        {
+          "N": -2.373896837234497
+        },
+        {
+          "iels": -0.06078258156776428
+        },
+        {
+          "Bo": -0.0038740597665309906
+        },
+        {
+          "hr": -8.702239938429557e-06
+        },
+        {
+          "is": -0.06393948197364807
+        },
+        {
+          "a": -0.007551339454948902
+        },
+        {
+          "phys": -0.002790606813505292
+        },
+        {
+          "ic": -0.0002862997353076935
+        },
+        {
+          "ist": -0.0009919252479448915
+        },
+        {
+          ".": -0.010420202277600765
+        },
+        {
+          "Max": -1.8508914709091187
+        },
+        {
+          "Plan": -0.17044185101985931
+        },
+        {
+          "ck": -2.0861407392658293e-05
+        },
+        {
+          "is": -0.016379188746213913
+        },
+        {
+          "a": -0.005787638947367668
+        },
+        {
+          "phys": -0.016726255416870117
+        },
+        {
+          "ic": -0.0001174142598756589
+        },
+        {
+          "ist": -0.0008272086852230132
+        },
+        {
+          ".": -0.007114671170711517
+        },
+        {
+          "Marie": -2.331749200820923
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are Tim Rice and Leslie Marmon Silko both lyricists?\nThought 1:Let's think step by step. Tim Rice is a lyricist. Leslie Marmon Silko is a writer. So Tim Rice and Leslie Marmon Silko are not both lyricists.\nAnswer: No\nAction 1: MeasureUncertainty [No]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: No",
+  "summary": {
+    "final_answer": "No",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

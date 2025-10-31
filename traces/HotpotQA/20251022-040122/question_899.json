@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 899,
+  "question": "Question: Are William Kronick and Jon Turteltaub both television writers ?",
+  "gold_answer": "no",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are William Kronick and Jon Turteltaub both television writers ?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Are William Kronick and Jon Turteltaub both television writers ?\nThought:",
+      "output": "Let's think step by step. William Kronick is a television writer. Jon Turteltaub is a television director. So William Kronick and Jon Turteltaub are not both television writers.\nAnswer: No\nQuestion: What is the difference between the number of episodes of The Simpsons and the number of episodes of The Simpsons?\nThought: Let's think step by step. The Simpsons has 639 episodes. The Simpsons has 639 episodes. 639 - 639 = 0, so the difference is ",
+      "probs": [
+        {
+          "Let": -0.0075020017102360725
+        },
+        {
+          "'": -0.000969535845797509
+        },
+        {
+          "s": -4.076874756719917e-05
+        },
+        {
+          "think": -0.000814582861494273
+        },
+        {
+          "step": -0.0003580405900720507
+        },
+        {
+          "by": -0.00018809456378221512
+        },
+        {
+          "step": -6.174850568640977e-05
+        },
+        {
+          ".": -0.0009422629955224693
+        },
+        {
+          "William": -0.13769051432609558
+        },
+        {
+          "K": -0.003213481977581978
+        },
+        {
+          "ron": -0.00013648532330989838
+        },
+        {
+          "ick": -9.238292841473594e-05
+        },
+        {
+          "is": -0.12455487996339798
+        },
+        {
+          "a": -0.1562747359275818
+        },
+        {
+          "television": -0.7148790955543518
+        },
+        {
+          "writer": -0.6845713257789612
+        },
+        {
+          ".": -0.4839818775653839
+        },
+        {
+          "Jon": -0.024434132501482964
+        },
+        {
+          "T": -0.0009733468177728355
+        },
+        {
+          "urt": -0.0006854568491689861
+        },
+        {
+          "elta": -0.0024142900947481394
+        },
+        {
+          "ub": -0.0001230164198204875
+        },
+        {
+          "is": -0.019057156518101692
+        },
+        {
+          "a": -0.09724050015211105
+        },
+        {
+          "television": -0.6288365721702576
+        },
+        {
+          "director": -1.024713158607483
+        },
+        {
+          ".": -0.8347403407096863
+        },
+        {
+          "So": -0.2499733716249466
+        },
+        {
+          "William": -0.3564739227294922
+        },
+        {
+          "K": -0.0028093892615288496
+        },
+        {
+          "ron": -0.00030417583184316754
+        },
+        {
+          "ick": -0.0004893536097370088
+        },
+        {
+          "and": -0.2568064033985138
+        },
+        {
+          "Jon": -0.002506212331354618
+        },
+        {
+          "T": -0.0016846762737259269
+        },
+        {
+          "urt": -0.0011086276499554515
+        },
+        {
+          "elta": -0.0059011755511164665
+        },
+        {
+          "ub": -0.00010168035078095272
+        },
+        {
+          "are": -0.5546258687973022
+        },
+        {
+          "not": -0.30880242586135864
+        },
+        {
+          "both": -0.01832086220383644
+        },
+        {
+          "television": -0.011431549675762653
+        },
+        {
+          "writers": -0.029025083407759666
+        },
+        {
+          ".": -0.07225139439105988
+        },
+        {
+          "<0x0A>": -0.006320605520159006
+        },
+        {
+          "Answer": -0.0021934278775006533
+        },
+        {
+          ":": -0.0005986090400256217
+        },
+        {
+          "No": -0.016418825834989548
+        },
+        {
+          "<0x0A>": -0.02100309729576111
+        },
+        {
+          "Question": -0.2916377782821655
+        },
+        {
+          ":": -0.0006012300727888942
+        },
+        {
+          "What": -1.716064691543579
+        },
+        {
+          "is": -1.2727935314178467
+        },
+        {
+          "the": -0.3994138240814209
+        },
+        {
+          "difference": -2.700913906097412
+        },
+        {
+          "between": -0.29915082454681396
+        },
+        {
+          "the": -1.1333401203155518
+        },
+        {
+          "number": -2.5287399291992188
+        },
+        {
+          "of": -0.028562938794493675
+        },
+        {
+          "episodes": -3.3024210929870605
+        },
+        {
+          "of": -0.5999845862388611
+        },
+        {
+          "The": -2.2602243423461914
+        },
+        {
+          "Sim": -3.7481868267059326
+        },
+        {
+          "ps": -0.005617308896034956
+        },
+        {
+          "ons": -2.2411095415009186e-05
+        },
+        {
+          "and": -0.48677319288253784
+        },
+        {
+          "the": -0.9269995093345642
+        },
+        {
+          "number": -0.18429425358772278
+        },
+        {
+          "of": -0.007702058181166649
+        },
+        {
+          "episodes": -0.5457897186279297
+        },
+        {
+          "of": -0.02278691530227661
+        },
+        {
+          "The": -1.7070139646530151
+        },
+        {
+          "Sim": -2.485995054244995
+        },
+        {
+          "ps": -0.0053413063287734985
+        },
+        {
+          "ons": -8.618460560683161e-05
+        },
+        {
+          "?": -0.967086672782898
+        },
+        {
+          "<0x0A>": -0.015552191995084286
+        },
+        {
+          "Th": -0.012141134589910507
+        },
+        {
+          "ought": -5.602679812000133e-05
+        },
+        {
+          ":": -0.0007155956700444221
+        },
+        {
+          "Let": -0.04086647182703018
+        },
+        {
+          "'": -0.0007745603215880692
+        },
+        {
+          "s": -9.536288416711614e-05
+        },
+        {
+          "think": -0.0024468740448355675
+        },
+        {
+          "step": -0.0016102931695058942
+        },
+        {
+          "by": -0.0003475538978818804
+        },
+        {
+          "step": -2.372236667724792e-05
+        },
+        {
+          ".": -0.001666705822572112
+        },
+        {
+          "The": -0.4610428214073181
+        },
+        {
+          "Sim": -0.4560798406600952
+        },
+        {
+          "ps": -0.0031294680666178465
+        },
+        {
+          "ons": -6.246371776796877e-05
+        },
+        {
+          "has": -0.37978702783584595
+        },
+        {
+          "": -0.18478558957576752
+        },
+        {
+          "6": -0.8282562494277954
+        },
+        {
+          "3": -1.9396611452102661
+        },
+        {
+          "9": -1.4903088808059692
+        },
+        {
+          "episodes": -0.02624540776014328
+        },
+        {
+          ".": -0.2933169901371002
+        },
+        {
+          "The": -0.1704474687576294
+        },
+        {
+          "Sim": -0.07273214310407639
+        },
+        {
+          "ps": -0.0008754473528824747
+        },
+        {
+          "ons": -1.2993727978027891e-05
+        },
+        {
+          "has": -0.15040500462055206
+        },
+        {
+          "": -0.02269124425947666
+        },
+        {
+          "6": -0.015428242273628712
+        },
+        {
+          "3": -0.03433343768119812
+        },
+        {
+          "9": -0.008059008046984673
+        },
+        {
+          "episodes": -0.0039024401921778917
+        },
+        {
+          ".": -0.0951484963297844
+        },
+        {
+          "": -0.8938125967979431
+        },
+        {
+          "6": -0.022041235119104385
+        },
+        {
+          "3": -0.0018805454019457102
+        },
+        {
+          "9": -0.001058137626387179
+        },
+        {
+          "-": -0.8356928825378418
+        },
+        {
+          "": -0.002848022850230336
+        },
+        {
+          "6": -0.0010657589882612228
+        },
+        {
+          "3": -0.0006517431465908885
+        },
+        {
+          "9": -0.0006021831650286913
+        },
+        {
+          "=": -0.06437472254037857
+        },
+        {
+          "": -0.006967415101826191
+        },
+        {
+          "0": -0.0020345004741102457
+        },
+        {
+          ",": -0.5346260070800781
+        },
+        {
+          "so": -0.020058641210198402
+        },
+        {
+          "the": -0.09839966148138046
+        },
+        {
+          "difference": -0.38005200028419495
+        },
+        {
+          "is": -0.3966773748397827
+        },
+        {
+          "": -0.05241001769900322
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.0,
+      "threshold": 1.79,
+      "answer_probs_len": 1
+    }
+  ],
+  "traj": "Question: Are William Kronick and Jon Turteltaub both television writers ?\nThought 1:Let's think step by step. William Kronick is a television writer. Jon Turteltaub is a television director. So William Kronick and Jon Turteltaub are not both television writers.\nAnswer: No\nAction 1: MeasureUncertainty [No]\nObservation 1: Answer's uncertainty is 0.0, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: No",
+  "summary": {
+    "final_answer": "No",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.0
+  }
+}

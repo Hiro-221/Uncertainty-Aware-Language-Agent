@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 2132,
+  "question": "Question: What genre of music did Benjamin Burnley and Yannis Philippakis have in common?",
+  "gold_answer": "rock",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What genre of music did Benjamin Burnley and Yannis Philippakis have in common?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: What genre of music did Benjamin Burnley and Yannis Philippakis have in common?\nThought:",
+      "output": "Let's think step by step. Benjamin Burnley is a musician. Yannis Philippakis is a musician. So Benjamin Burnley and Yannis Philippakis have the same genre of music.\nAnswer: musician\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the",
+      "probs": [
+        {
+          "Let": -0.0061548687517642975
+        },
+        {
+          "'": -0.00027056847466155887
+        },
+        {
+          "s": -3.1709168979432434e-05
+        },
+        {
+          "think": -0.00037877538125030696
+        },
+        {
+          "step": -0.00031799983116798103
+        },
+        {
+          "by": -0.00023803261865396053
+        },
+        {
+          "step": -0.00017796363681554794
+        },
+        {
+          ".": -0.0003420721332076937
+        },
+        {
+          "Benjamin": -0.793676495552063
+        },
+        {
+          "Burn": -0.00303082843311131
+        },
+        {
+          "ley": -0.0008950994815677404
+        },
+        {
+          "is": -0.6934162974357605
+        },
+        {
+          "a": -0.48465999960899353
+        },
+        {
+          "music": -0.8562663793563843
+        },
+        {
+          "ian": -0.01208436768501997
+        },
+        {
+          ".": -1.739945650100708
+        },
+        {
+          "Y": -0.39127257466316223
+        },
+        {
+          "ann": -0.0007155956700444221
+        },
+        {
+          "is": -0.0002658013836480677
+        },
+        {
+          "Philipp": -0.004451484885066748
+        },
+        {
+          "ak": -0.000513064325787127
+        },
+        {
+          "is": -0.0001971527235582471
+        },
+        {
+          "is": -0.011362484656274319
+        },
+        {
+          "a": -0.06034723296761513
+        },
+        {
+          "music": -0.16995225846767426
+        },
+        {
+          "ian": -0.0005600076401606202
+        },
+        {
+          ".": -0.4769972860813141
+        },
+        {
+          "So": -1.1481672525405884
+        },
+        {
+          "Benjamin": -0.4506888687610626
+        },
+        {
+          "Burn": -0.0023097521625459194
+        },
+        {
+          "ley": -0.0005620330339297652
+        },
+        {
+          "and": -0.008015608415007591
+        },
+        {
+          "Y": -0.0017590539064258337
+        },
+        {
+          "ann": -0.00022456508304458112
+        },
+        {
+          "is": -0.0001230164198204875
+        },
+        {
+          "Philipp": -0.006545769516378641
+        },
+        {
+          "ak": -0.0010788579238578677
+        },
+        {
+          "is": -0.0002115741081070155
+        },
+        {
+          "have": -0.3029029965400696
+        },
+        {
+          "the": -0.4884398579597473
+        },
+        {
+          "same": -0.03856515511870384
+        },
+        {
+          "genre": -0.5824151635169983
+        },
+        {
+          "of": -0.027931692078709602
+        },
+        {
+          "music": -0.005597749724984169
+        },
+        {
+          ".": -0.15617522597312927
+        },
+        {
+          "<0x0A>": -0.012635413557291031
+        },
+        {
+          "Answer": -0.004551408346742392
+        },
+        {
+          ":": -0.0002356490003876388
+        },
+        {
+          "music": -0.4026799201965332
+        },
+        {
+          "ian": -0.0937703475356102
+        },
+        {
+          "<0x0A>": -0.025108281522989273
+        },
+        {
+          "Question": -0.21031373739242554
+        },
+        {
+          ":": -0.000266278104390949
+        },
+        {
+          "What": -1.2951606512069702
+        },
+        {
+          "is": -1.5200870037078857
+        },
+        {
+          "the": -0.37056460976600647
+        },
+        {
+          "elev": -2.3846631050109863
+        },
+        {
+          "ation": -0.0005347490659914911
+        },
+        {
+          "range": -0.13445965945720673
+        },
+        {
+          "for": -0.05855603888630867
+        },
+        {
+          "the": -0.12770557403564453
+        },
+        {
+          "area": -0.2624451816082001
+        },
+        {
+          "that": -0.09197882562875748
+        },
+        {
+          "the": -0.23176346719264984
+        },
+        {
+          "eastern": -1.70945405960083
+        },
+        {
+          "sector": -0.05868285149335861
+        },
+        {
+          "of": -0.003047704929485917
+        },
+        {
+          "the": -0.02093188837170601
+        },
+        {
+          "Colorado": -0.21142014861106873
+        },
+        {
+          "or": -0.009191934019327164
+        },
+        {
+          "ogen": -0.00033396866638213396
+        },
+        {
+          "y": -0.0002474478678777814
+        },
+        {
+          "extends": -0.01839272491633892
+        },
+        {
+          "into": -0.007418584078550339
+        },
+        {
+          "?": -0.011613264679908752
+        },
+        {
+          "<0x0A>": -0.006768987979739904
+        },
+        {
+          "Th": -0.02216273732483387
+        },
+        {
+          "ought": -0.00011359999916749075
+        },
+        {
+          ":": -0.0006675875629298389
+        },
+        {
+          "Let": -0.016243964433670044
+        },
+        {
+          "'": -0.0012405564775690436
+        },
+        {
+          "s": -3.611976353568025e-05
+        },
+        {
+          "think": -0.0016859853640198708
+        },
+        {
+          "step": -0.0010150285670533776
+        },
+        {
+          "by": -0.00024351492174901068
+        },
+        {
+          "step": -5.1616290875244886e-05
+        },
+        {
+          ".": -0.0008640132145956159
+        },
+        {
+          "The": -0.06547065079212189
+        },
+        {
+          "eastern": -0.034027572721242905
+        },
+        {
+          "sector": -0.0015459026908501983
+        },
+        {
+          "of": -0.0014672239776700735
+        },
+        {
+          "Colorado": -0.11522530019283295
+        },
+        {
+          "or": -0.005228298716247082
+        },
+        {
+          "ogen": -0.0001445904199499637
+        },
+        {
+          "y": -0.00032860602368600667
+        },
+        {
+          "extends": -0.005476353224366903
+        },
+        {
+          "into": -0.0023323495406657457
+        },
+        {
+          "the": -0.02357267402112484
+        },
+        {
+          "High": -0.03361211344599724
+        },
+        {
+          "Pla": -0.0014244896592572331
+        },
+        {
+          "ins": -7.855583680793643e-05
+        },
+        {
+          ".": -0.025834718719124794
+        },
+        {
+          "High": -0.03920073062181473
+        },
+        {
+          "Pla": -0.0028871302492916584
+        },
+        {
+          "ins": -2.884823152271565e-05
+        },
+        {
+          "rise": -0.03281736373901367
+        },
+        {
+          "in": -0.0018306892598047853
+        },
+        {
+          "elev": -0.00018904806347563863
+        },
+        {
+          "ation": -8.642300235806033e-05
+        },
+        {
+          "from": -0.0006393534131348133
+        },
+        {
+          "around": -0.007858668453991413
+        },
+        {
+          "": -0.0010487301042303443
+        },
+        {
+          "1": -0.00680995499715209
+        },
+        {
+          ",": -0.004658204037696123
+        },
+        {
+          "8": -0.0014281797921285033
+        },
+        {
+          "0": -0.00022623363474849612
+        },
+        {
+          "0": -2.0503786799963564e-05
+        },
+        {
+          "to": -0.004126486834138632
+        },
+        {
+          "": -0.000377583724912256
+        },
+        {
+          "7": -0.001746677909977734
+        },
+        {
+          ",": -0.0003545847721397877
+        },
+        {
+          "0": -0.00025507534155622125
+        },
+        {
+          "0": -1.1444026313256472e-05
+        },
+        {
+          "0": -3.635817120084539e-05
+        },
+        {
+          "ft": -0.00527632562443614
+        },
+        {
+          ",": -0.015709806233644485
+        },
+        {
+          "so": -0.000940595637075603
+        },
+        {
+          "the": -0.001757030957378447
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 0.69,
+      "threshold": 1.79,
+      "answer_probs_len": 2
+    }
+  ],
+  "traj": "Question: What genre of music did Benjamin Burnley and Yannis Philippakis have in common?\nThought 1:Let's think step by step. Benjamin Burnley is a musician. Yannis Philippakis is a musician. So Benjamin Burnley and Yannis Philippakis have the same genre of music.\nAnswer: musician\nAction 1: MeasureUncertainty [musician]\nObservation 1: Answer's uncertainty is 0.69, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: musician",
+  "summary": {
+    "final_answer": "musician",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 0.69
+  }
+}

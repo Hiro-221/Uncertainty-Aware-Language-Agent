@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 5887,
+  "question": "Question: Mark Newhouse finished 9th in a 2013 series of poker tournaments sponsored by what corporation?",
+  "gold_answer": "Caesars Entertainment Corporation",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Mark Newhouse finished 9th in a 2013 series of poker tournaments sponsored by what corporation?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Mark Newhouse finished 9th in a 2013 series of poker tournaments sponsored by what corporation?\nThought:",
+      "output": "Let's think step by step. Mark Newhouse finished 9th in a 2013 series of poker tournaments sponsored by PokerStars.\nAnswer: PokerStars\nQuestion: What is the name of the 1999 film that is a remake of the 1960 film Ocean's 11?\nThought: Let's think step by step. Ocean's Eleven is a 1960 film. Ocean's Eleven is a 2001 film. Ocean's Eleven is a remake of",
+      "probs": [
+        {
+          "Let": -0.009986437857151031
+        },
+        {
+          "'": -0.00048720886115916073
+        },
+        {
+          "s": -1.7881233361549675e-05
+        },
+        {
+          "think": -0.0008841419476084411
+        },
+        {
+          "step": -0.0007469248375855386
+        },
+        {
+          "by": -0.00017724849749356508
+        },
+        {
+          "step": -0.00029797881143167615
+        },
+        {
+          ".": -0.0004687402688432485
+        },
+        {
+          "Mark": -0.7390003204345703
+        },
+        {
+          "New": -0.0032998654060065746
+        },
+        {
+          "house": -0.0008678245940245688
+        },
+        {
+          "finished": -0.22254866361618042
+        },
+        {
+          "": -0.024936560541391373
+        },
+        {
+          "9": -0.010527553036808968
+        },
+        {
+          "th": -0.0005492847412824631
+        },
+        {
+          "in": -0.032155781984329224
+        },
+        {
+          "a": -0.6672889590263367
+        },
+        {
+          "": -0.06476865708827972
+        },
+        {
+          "2": -0.0007017772295512259
+        },
+        {
+          "0": -0.0002441108226776123
+        },
+        {
+          "1": -0.0012866322649642825
+        },
+        {
+          "3": -0.0018661479698494077
+        },
+        {
+          "series": -0.04937486723065376
+        },
+        {
+          "of": -0.0020712607074528933
+        },
+        {
+          "pok": -0.008423986844718456
+        },
+        {
+          "er": -4.255681051290594e-05
+        },
+        {
+          "tournament": -0.0024245171807706356
+        },
+        {
+          "s": -0.005022883880883455
+        },
+        {
+          "spons": -0.09056690335273743
+        },
+        {
+          "ored": -0.0003343261778354645
+        },
+        {
+          "by": -0.0015209070406854153
+        },
+        {
+          "P": -1.2812705039978027
+        },
+        {
+          "oker": -0.011728852055966854
+        },
+        {
+          "St": -0.03681813180446625
+        },
+        {
+          "ars": -0.00030858523678034544
+        },
+        {
+          ".": -0.24780480563640594
+        },
+        {
+          "<0x0A>": -0.41973522305488586
+        },
+        {
+          "Answer": -0.0026613790541887283
+        },
+        {
+          ":": -0.00039176418795250356
+        },
+        {
+          "P": -0.007908342406153679
+        },
+        {
+          "oker": -0.00015746307326480746
+        },
+        {
+          "St": -0.004621776286512613
+        },
+        {
+          "ars": -0.00019500737835187465
+        },
+        {
+          "<0x0A>": -0.01964809186756611
+        },
+        {
+          "Question": -0.20289133489131927
+        },
+        {
+          ":": -0.0002775999018922448
+        },
+        {
+          "What": -1.4556329250335693
+        },
+        {
+          "is": -1.2436662912368774
+        },
+        {
+          "the": -0.4339043200016022
+        },
+        {
+          "name": -2.561367988586426
+        },
+        {
+          "of": -0.04955809935927391
+        },
+        {
+          "the": -0.4656088054180145
+        },
+        {
+          "": -3.2659778594970703
+        },
+        {
+          "1": -0.7804763317108154
+        },
+        {
+          "9": -0.235951229929924
+        },
+        {
+          "9": -1.297019600868225
+        },
+        {
+          "9": -2.0851995944976807
+        },
+        {
+          "film": -1.6449875831604004
+        },
+        {
+          "that": -1.7052053213119507
+        },
+        {
+          "is": -2.141660451889038
+        },
+        {
+          "a": -1.3559001684188843
+        },
+        {
+          "re": -1.0889078378677368
+        },
+        {
+          "make": -0.029076728969812393
+        },
+        {
+          "of": -0.013759407214820385
+        },
+        {
+          "the": -0.8598623275756836
+        },
+        {
+          "": -0.27481919527053833
+        },
+        {
+          "1": -0.014581308700144291
+        },
+        {
+          "9": -0.002360892714932561
+        },
+        {
+          "6": -1.3175888061523438
+        },
+        {
+          "0": -1.8139448165893555
+        },
+        {
+          "film": -0.34068232774734497
+        },
+        {
+          "Ocean": -1.2819288969039917
+        },
+        {
+          "'": -0.008617003448307514
+        },
+        {
+          "s": -0.0001461399078834802
+        },
+        {
+          "": -0.40872326493263245
+        },
+        {
+          "1": -0.0003274143091402948
+        },
+        {
+          "1": -0.0004911408759653568
+        },
+        {
+          "?": -0.2535991668701172
+        },
+        {
+          "<0x0A>": -0.004597331862896681
+        },
+        {
+          "Th": -0.004726903047412634
+        },
+        {
+          "ought": -3.313963316031732e-05
+        },
+        {
+          ":": -0.0001842805795604363
+        },
+        {
+          "Let": -0.010721107944846153
+        },
+        {
+          "'": -0.0005096090608276427
+        },
+        {
+          "s": -1.966933996300213e-05
+        },
+        {
+          "think": -0.0006267252028919756
+        },
+        {
+          "step": -0.0004078510100953281
+        },
+        {
+          "by": -0.00026925752172246575
+        },
+        {
+          "step": -2.1815061700181104e-05
+        },
+        {
+          ".": -0.0004822045157197863
+        },
+        {
+          "Ocean": -0.746658980846405
+        },
+        {
+          "'": -0.00783903431147337
+        },
+        {
+          "s": -0.0002337421028641984
+        },
+        {
+          "Ele": -0.44438260793685913
+        },
+        {
+          "ven": -4.625213477993384e-05
+        },
+        {
+          "is": -0.412529855966568
+        },
+        {
+          "a": -0.41965970396995544
+        },
+        {
+          "": -0.6494869589805603
+        },
+        {
+          "1": -0.21321627497673035
+        },
+        {
+          "9": -0.00015341058315243572
+        },
+        {
+          "6": -0.5371420383453369
+        },
+        {
+          "0": -0.0008032671175897121
+        },
+        {
+          "film": -0.16294100880622864
+        },
+        {
+          ".": -0.34663984179496765
+        },
+        {
+          "Ocean": -0.16179928183555603
+        },
+        {
+          "'": -0.003703997703269124
+        },
+        {
+          "s": -0.00016366096679121256
+        },
+        {
+          "Ele": -0.0695684552192688
+        },
+        {
+          "ven": -2.1934269170742482e-05
+        },
+        {
+          "is": -0.19270211458206177
+        },
+        {
+          "a": -0.16864056885242462
+        },
+        {
+          "": -0.2799987196922302
+        },
+        {
+          "2": -0.562437891960144
+        },
+        {
+          "0": -4.8874615458771586e-05
+        },
+        {
+          "0": -0.002508709440007806
+        },
+        {
+          "1": -0.004449823405593634
+        },
+        {
+          "film": -0.36140668392181396
+        },
+        {
+          ".": -0.4665558338165283
+        },
+        {
+          "Ocean": -1.1401846408843994
+        },
+        {
+          "'": -0.007603395730257034
+        },
+        {
+          "s": -0.0006033745594322681
+        },
+        {
+          "Ele": -0.7499852776527405
+        },
+        {
+          "ven": -0.00020668754586949944
+        },
+        {
+          "is": -0.3646663427352905
+        },
+        {
+          "a": -0.24601125717163086
+        },
+        {
+          "re": -0.1779038906097412
+        },
+        {
+          "make": -0.0010586139978840947
+        },
+        {
+          "of": -0.01105540618300438
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.39,
+      "threshold": 1.79,
+      "answer_probs_len": 4
+    }
+  ],
+  "traj": "Question: Mark Newhouse finished 9th in a 2013 series of poker tournaments sponsored by what corporation?\nThought 1:Let's think step by step. Mark Newhouse finished 9th in a 2013 series of poker tournaments sponsored by PokerStars.\nAnswer: PokerStars\nAction 1: MeasureUncertainty [PokerStars]\nObservation 1: Answer's uncertainty is 1.39, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: PokerStars",
+  "summary": {
+    "final_answer": "PokerStars",
+    "em": false,
+    "f1": 0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.39
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "dataset": "HotpotQA",
+  "model": "meta-llama/Llama-2-70b-hf",
+  "mode": "uala",
+  "question_idx": 738,
+  "question": "Question: Mawson  is an electoral district that includes the wine regional around which town 35 km south of Adelaide?",
+  "gold_answer": "McLaren Vale",
+  "events": [
+    {
+      "type": "llm_call",
+      "stage": "cot",
+      "instruction": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n",
+      "input": "Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Mawson  is an electoral district that includes the wine regional around which town 35 km south of Adelaide?\nThought:",
+      "prompt": "Solve a question answering task. Your task is to generate Thought and Answer where a Thought can reason about the current situation by thinking step by step.\nHere are some examples.\n\nQuestion: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?\nThought: Let's think step by step. The eastern sector of Colorado orogeny extends into the High Plains. High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.\nAnswer: 1,800 to 7,000 ft\nQuestion: Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?\nThought: Let's think step by step. Milhouse was named after U.S. president Richard Nixon, so the answer is Richard Nixon.\nAnswer: Richard Nixon\nQuestion: Which documentary is about Finnish rock groups, Adam Clayton Powell or The Saimaa Gesture?\nThought: Let's think step by step. Adam Clayton Powell (film) is a documentary about an African-American politician, not Finnish rock groups. So the documentary about Finnish rock groups must instead be The Saimaa Gesture.\nAnswer: The Saimaa Gesture\nQuestion: What profession does Nicholas Ray and Elia Kazan have in common?\nThought: Let's think step by step. Professions of Nicholas Ray are director, screenwriter, and actor. Professions of Elia Kazan are director, producer, screenwriter, and actor. So profession Nicholas Ray and Elia Kazan have in common is director, screenwriter, and actor.\nAnswer: director, screenwriter, actor\nQuestion: Which magazine was started first Arthur's Magazine or First for Women?\nThought: Let's think step by step. Arthur's Magazine was started in 1844. First for Women was started in 1989. 1844 (Arthur's Magazine) < 1989 (First for Women), so Arthur's Magazine was started first.\nAnswer: Arthur's Magazine\nQuestion: Were Pavel Urysohn and Leonid Levin known for the same type of work?\nThought: Let's think step by step. Pavel Urysohn is a mathematician. Leonid Levin is a mathematician and computer scientist. So Pavel Urysohn and Leonid Levin have the same type of work.\nAnswer: Yes\nQuestion: Mawson  is an electoral district that includes the wine regional around which town 35 km south of Adelaide?\nThought:",
+      "output": "Let's think step by step. Mawson is an electoral district that includes the wine regional around McLaren Vale. McLaren Vale is a town 35 km south of Adelaide.\nAnswer: McLaren Vale\nQuestion: What is the name of the 1999 film that is a remake of the 1969 film of the same name?\nThought: Let's think step by step. The 1999 film that is a remake of the 1969 film of the same name is The Thomas Crown Aff",
+      "probs": [
+        {
+          "Let": -0.012480374425649643
+        },
+        {
+          "'": -0.0008114859228953719
+        },
+        {
+          "s": -4.053033626405522e-05
+        },
+        {
+          "think": -0.0012706785928457975
+        },
+        {
+          "step": -0.0006501944735646248
+        },
+        {
+          "by": -0.00019107422849629074
+        },
+        {
+          "step": -0.00011836781777674332
+        },
+        {
+          ".": -0.0008398343343287706
+        },
+        {
+          "M": -0.5118266344070435
+        },
+        {
+          "aw": -0.0023771857377141714
+        },
+        {
+          "son": -0.0005169962532818317
+        },
+        {
+          "is": -0.8189173936843872
+        },
+        {
+          "an": -0.11977994441986084
+        },
+        {
+          "elect": -0.011719544418156147
+        },
+        {
+          "oral": -0.00521062919870019
+        },
+        {
+          "district": -0.006028207950294018
+        },
+        {
+          "that": -0.4474162459373474
+        },
+        {
+          "includes": -0.03674447908997536
+        },
+        {
+          "the": -0.2951962649822235
+        },
+        {
+          "wine": -0.07315670698881149
+        },
+        {
+          "regional": -0.28684043884277344
+        },
+        {
+          "around": -0.10830450803041458
+        },
+        {
+          "Mc": -1.6194982528686523
+        },
+        {
+          "L": -0.0035833215806633234
+        },
+        {
+          "aren": -7.724463648628443e-05
+        },
+        {
+          "V": -0.009387282654643059
+        },
+        {
+          "ale": -0.00018821375851985067
+        },
+        {
+          ".": -0.296970397233963
+        },
+        {
+          "Mc": -0.6796853542327881
+        },
+        {
+          "L": -0.0005087750032544136
+        },
+        {
+          "aren": -0.0001919085334520787
+        },
+        {
+          "V": -0.007231489755213261
+        },
+        {
+          "ale": -0.00035851728171110153
+        },
+        {
+          "is": -0.0413372665643692
+        },
+        {
+          "a": -0.4919717311859131
+        },
+        {
+          "town": -0.23457640409469604
+        },
+        {
+          "": -0.10255318135023117
+        },
+        {
+          "3": -0.01647218130528927
+        },
+        {
+          "5": -0.016036225482821465
+        },
+        {
+          "km": -0.015762262046337128
+        },
+        {
+          "south": -0.0068732975050807
+        },
+        {
+          "of": -0.004250183701515198
+        },
+        {
+          "Ad": -0.0022684813011437654
+        },
+        {
+          "ela": -0.00010072677832795307
+        },
+        {
+          "ide": -0.00030012393835932016
+        },
+        {
+          ".": -0.5022865533828735
+        },
+        {
+          "<0x0A>": -0.6318566203117371
+        },
+        {
+          "Answer": -0.004029607865959406
+        },
+        {
+          ":": -0.0008407871937379241
+        },
+        {
+          "Mc": -0.02328050322830677
+        },
+        {
+          "L": -0.00021789084712509066
+        },
+        {
+          "aren": -0.0002674698771443218
+        },
+        {
+          "V": -0.0029929152224212885
+        },
+        {
+          "ale": -0.00014685506175737828
+        },
+        {
+          "<0x0A>": -0.03040769323706627
+        },
+        {
+          "Question": -0.22092533111572266
+        },
+        {
+          ":": -0.000362807244528085
+        },
+        {
+          "What": -1.5665591955184937
+        },
+        {
+          "is": -1.1953703165054321
+        },
+        {
+          "the": -0.40797147154808044
+        },
+        {
+          "name": -2.3365345001220703
+        },
+        {
+          "of": -0.061835166066884995
+        },
+        {
+          "the": -0.40373897552490234
+        },
+        {
+          "": -3.407444715499878
+        },
+        {
+          "1": -0.7436404228210449
+        },
+        {
+          "9": -0.26052001118659973
+        },
+        {
+          "9": -1.3473858833312988
+        },
+        {
+          "9": -2.1001319885253906
+        },
+        {
+          "film": -1.590320110321045
+        },
+        {
+          "that": -1.8240931034088135
+        },
+        {
+          "is": -1.9527645111083984
+        },
+        {
+          "a": -1.3778935670852661
+        },
+        {
+          "re": -1.219640851020813
+        },
+        {
+          "make": -0.0325746163725853
+        },
+        {
+          "of": -0.021229296922683716
+        },
+        {
+          "the": -0.7942324876785278
+        },
+        {
+          "": -0.28666815161705017
+        },
+        {
+          "1": -0.01559514831751585
+        },
+        {
+          "9": -0.0024963426403701305
+        },
+        {
+          "6": -1.3184027671813965
+        },
+        {
+          "9": -1.8493280410766602
+        },
+        {
+          "film": -0.3651798665523529
+        },
+        {
+          "of": -1.45276939868927
+        },
+        {
+          "the": -0.02535191923379898
+        },
+        {
+          "same": -0.004336952697485685
+        },
+        {
+          "name": -0.03272091597318649
+        },
+        {
+          "?": -0.6009133458137512
+        },
+        {
+          "<0x0A>": -0.022353002801537514
+        },
+        {
+          "Th": -0.005795342847704887
+        },
+        {
+          "ought": -9.536697689327411e-06
+        },
+        {
+          ":": -0.00022289653134066612
+        },
+        {
+          "Let": -0.013950222171843052
+        },
+        {
+          "'": -0.0003051292151212692
+        },
+        {
+          "s": -1.0967194612021558e-05
+        },
+        {
+          "think": -0.0007756323902867734
+        },
+        {
+          "step": -0.0004599228559527546
+        },
+        {
+          "by": -0.00023719835735391825
+        },
+        {
+          "step": -3.659658250398934e-05
+        },
+        {
+          ".": -0.0005276002921164036
+        },
+        {
+          "The": -0.6457157135009766
+        },
+        {
+          "": -0.42818066477775574
+        },
+        {
+          "1": -0.013200980611145496
+        },
+        {
+          "9": -0.00047505536349490285
+        },
+        {
+          "9": -0.47569143772125244
+        },
+        {
+          "9": -0.003176645142957568
+        },
+        {
+          "film": -0.07017096877098083
+        },
+        {
+          "that": -0.9112181663513184
+        },
+        {
+          "is": -0.008647494949400425
+        },
+        {
+          "a": -0.010236854664981365
+        },
+        {
+          "re": -0.002916489727795124
+        },
+        {
+          "make": -0.00041476229671388865
+        },
+        {
+          "of": -0.005609841085970402
+        },
+        {
+          "the": -0.03112093172967434
+        },
+        {
+          "": -0.0033805386628955603
+        },
+        {
+          "1": -0.0004876854654867202
+        },
+        {
+          "9": -0.00019298121333122253
+        },
+        {
+          "6": -0.004101318307220936
+        },
+        {
+          "9": -0.0021585754584521055
+        },
+        {
+          "film": -0.005274902563542128
+        },
+        {
+          "of": -0.11024333536624908
+        },
+        {
+          "the": -0.00264592282474041
+        },
+        {
+          "same": -0.0005418977816589177
+        },
+        {
+          "name": -0.00136461085639894
+        },
+        {
+          "is": -0.029107065871357918
+        },
+        {
+          "The": -0.6403537392616272
+        },
+        {
+          "Thomas": -0.23502518236637115
+        },
+        {
+          "Crown": -0.0018712644232437015
+        },
+        {
+          "Aff": -0.0013613966293632984
+        }
+      ]
+    },
+    {
+      "type": "measure_uncertainty",
+      "phase": "cot_answer",
+      "uncertainty": 1.61,
+      "threshold": 1.79,
+      "answer_probs_len": 5
+    }
+  ],
+  "traj": "Question: Mawson  is an electoral district that includes the wine regional around which town 35 km south of Adelaide?\nThought 1:Let's think step by step. Mawson is an electoral district that includes the wine regional around McLaren Vale. McLaren Vale is a town 35 km south of Adelaide.\nAnswer: McLaren Vale\nAction 1: MeasureUncertainty [McLaren Vale]\nObservation 1: Answer's uncertainty is 1.61, which falls within the acceptable threshold of 1.79.\nThought 2: Based on the uncertainty, answer is kept.\nAction 2: Keep Answer.\nAnswer: McLaren Vale",
+  "summary": {
+    "final_answer": "McLaren Vale",
+    "em": true,
+    "f1": 1.0,
+    "mode": "uala_cot_only",
+    "cot_uncertainty": 1.61
+  }
+}
